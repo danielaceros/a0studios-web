@@ -86,11 +86,7 @@ export default function Precios() {
               <div className="mt-auto pt-10">
                 <a
                   href="#contacto"
-                  className={`block w-full rounded-full px-8 py-4 text-center font-mono text-[10px] uppercase tracking-[0.2em] transition-all duration-300 ${
-                    plan.destacado
-                      ? "bg-foreground text-background hover:opacity-85"
-                      : "border border-white/25 text-foreground hover:border-white/60"
-                  }`}
+                  className={`btn w-full justify-center ${plan.destacado ? "btn-solid" : "btn-outline"}`}
                 >
                   Pedir presupuesto
                 </a>

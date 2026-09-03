@@ -92,7 +92,7 @@ export default function Espacio() {
             href="https://maps.google.com/?q=Calle+Ronda+de+Atocha,+16,+Madrid"
             target="_blank"
             rel="noopener noreferrer"
-            className="glass glass-hover w-fit shrink-0 rounded-full px-7 py-4 font-mono text-[10px] uppercase tracking-[0.2em] text-foreground"
+            className="btn btn-outline w-fit shrink-0"
           >
             Abrir en Maps
           </a>

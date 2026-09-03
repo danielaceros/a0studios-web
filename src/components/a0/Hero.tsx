@@ -66,16 +66,10 @@ export default function Hero() {
         </p>
 
         <div className="mt-10 flex flex-col items-center gap-3 sm:mt-12 sm:flex-row">
-          <a
-            href="#contacto"
-            className="rounded-full bg-foreground px-9 py-4 font-mono text-[11px] uppercase tracking-[0.2em] text-background transition-opacity duration-300 hover:opacity-85"
-          >
+          <a href="#contacto" className="btn btn-solid">
             Pedir presupuesto
           </a>
-          <a
-            href="#trabajos"
-            className="glass glass-hover rounded-full px-9 py-4 font-mono text-[11px] uppercase tracking-[0.2em] text-foreground"
-          >
+          <a href="#trabajos" className="btn btn-outline">
             Ver trabajos
           </a>
         </div>

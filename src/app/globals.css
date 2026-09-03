@@ -146,3 +146,92 @@ section[id] {
 /* Scroller horizontal sin barra visible */
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* ── Sistema de botones (kit UI, pill negro/blanco) ── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  padding: 0.9rem 2rem;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  line-height: 1;
+  white-space: nowrap;
+  transition: background 0.3s ease, border-color 0.3s ease, color 0.3s ease, opacity 0.3s ease;
+}
+.btn-sm { padding: 0.65rem 1.35rem; font-size: 10px; }
+.btn-solid {
+  background: var(--color-foreground);
+  color: var(--color-background);
+}
+.btn-solid:hover { opacity: 0.85; }
+.btn-outline {
+  background: transparent;
+  color: var(--color-foreground);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+}
+.btn-outline:hover { border-color: rgba(255, 255, 255, 0.55); }
+.btn-ghost {
+  background: transparent;
+  color: var(--color-muted);
+  border: 1px solid transparent;
+}
+.btn-ghost:hover { color: var(--color-foreground); }
+
+/* ── Badge / chip ── */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border-radius: 9999px;
+  padding: 0.35rem 0.85rem;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: var(--color-muted);
+}
+
+/* ── Toggle switch (kit UI, estilo dashboard oscuro) ── */
+.switch {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  width: 42px;
+  height: 24px;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: background 0.25s ease, border-color 0.25s ease;
+}
+.switch[data-on="true"] {
+  background: var(--color-foreground);
+  border-color: var(--color-foreground);
+}
+.switch[data-disabled="true"] {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+.switch-thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--color-foreground);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), background 0.25s ease;
+}
+.switch[data-on="true"] .switch-thumb {
+  transform: translateX(18px);
+  background: var(--color-background);
+}

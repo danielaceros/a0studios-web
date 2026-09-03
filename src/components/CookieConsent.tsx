@@ -6,9 +6,38 @@ import Script from "next/script";
 
 type Consent = "accepted" | "rejected" | null;
 
+function Switch({
+  on,
+  disabled,
+  onToggle,
+  label,
+}: {
+  on: boolean;
+  disabled?: boolean;
+  onToggle?: () => void;
+  label: string;
+}) {
+  return (
+    <button
+      type="button"
+      role="switch"
+      aria-checked={on}
+      aria-label={label}
+      disabled={disabled}
+      onClick={onToggle}
+      className="switch"
+      data-on={on}
+      data-disabled={disabled}
+    >
+      <span className="switch-thumb" />
+    </button>
+  );
+}
+
 export default function CookieConsent() {
   const [consent, setConsent] = useState<Consent>(null);
   const [visible, setVisible] = useState(false);
+  const [functional, setFunctional] = useState(true);
 
   useEffect(() => {
     const stored = localStorage.getItem("cookie-consent") as Consent;
@@ -19,21 +48,16 @@ export default function CookieConsent() {
     }
   }, []);
 
-  const handleAccept = () => {
-    localStorage.setItem("cookie-consent", "accepted");
-    setConsent("accepted");
-    setVisible(false);
-  };
-
-  const handleReject = () => {
-    localStorage.setItem("cookie-consent", "rejected");
-    setConsent("rejected");
+  const save = (accepted: boolean) => {
+    const value: Consent = accepted ? "accepted" : "rejected";
+    localStorage.setItem("cookie-consent", value);
+    setConsent(value);
     setVisible(false);
   };
 
   return (
     <>
-      {/* Tracking scripts — only load when consent is accepted */}
+      {/* Tracking scripts — solo se cargan con consentimiento aceptado */}
       {consent === "accepted" && (
         <>
           <Script id="microsoft-clarity" strategy="lazyOnload">
@@ -62,35 +86,49 @@ export default function CookieConsent() {
         </>
       )}
 
-      {/* Banner */}
+      {/* Panel de cookies — tarjeta de ajustes, no barra */}
       {visible && (
-        <div className="fixed inset-x-0 bottom-0 z-[200] border-t border-white/10 bg-[#0A0A0A]/95 px-5 py-4 backdrop-blur-md sm:px-8">
-          <div className="mx-auto flex max-w-5xl flex-col items-start gap-4 sm:flex-row sm:items-center sm:justify-between sm:gap-6">
-            <p className="text-[13px] leading-relaxed text-white/70 sm:text-sm">
-              Usamos cookies para analítica y publicidad.{" "}
-              <Link
-                href="/politica-cookies"
-                className="underline underline-offset-2 transition-colors hover:text-white"
-              >
-                Política de cookies
-              </Link>
-            </p>
-            <div className="flex shrink-0 gap-3">
-              <button
-                type="button"
-                onClick={handleReject}
-                className="rounded-sm border border-white/20 px-4 py-2 font-mono text-[11px] uppercase tracking-[0.1em] text-white/70 transition-colors hover:border-white/40 hover:text-white"
-              >
-                Solo esenciales
-              </button>
-              <button
-                type="button"
-                onClick={handleAccept}
-                className="rounded-sm bg-accent px-4 py-2 font-mono text-[11px] uppercase tracking-[0.1em] text-background transition-colors hover:bg-accent-light"
-              >
-                Aceptar
-              </button>
+        <div className="glass fixed bottom-5 left-4 z-[200] w-[calc(100%-2rem)] max-w-[360px] rounded-2xl p-5 sm:bottom-7 sm:left-7 sm:p-6">
+          <p className="label text-foreground/45">Cookies</p>
+          <h3 className="mt-2 font-heading text-[1.15rem] uppercase leading-tight tracking-tight text-foreground">
+            Ajustes de privacidad
+          </h3>
+          <p className="mt-2 text-[0.85rem] leading-relaxed text-muted">
+            Usamos cookies para analítica y publicidad.{" "}
+            <Link href="/politica-cookies" className="text-foreground underline underline-offset-2">
+              Política de cookies
+            </Link>
+          </p>
+
+          <div className="mt-5 flex flex-col gap-1">
+            <div className="flex items-center justify-between border-t border-white/10 py-3">
+              <div className="pr-4">
+                <p className="text-[0.85rem] text-foreground">Necesarias</p>
+                <p className="mt-0.5 text-[0.75rem] leading-snug text-muted">
+                  Imprescindibles para que la web funcione.
+                </p>
+              </div>
+              <Switch on disabled label="Cookies necesarias, siempre activas" />
             </div>
+
+            <div className="flex items-center justify-between border-t border-white/10 py-3">
+              <div className="pr-4">
+                <p className="text-[0.85rem] text-foreground">Analítica y publicidad</p>
+                <p className="mt-0.5 text-[0.75rem] leading-snug text-muted">
+                  Nos ayudan a medir visitas y mejorar la web.
+                </p>
+              </div>
+              <Switch on={functional} onToggle={() => setFunctional((v) => !v)} label="Cookies de analítica y publicidad" />
+            </div>
+          </div>
+
+          <div className="mt-5 flex gap-3 border-t border-white/10 pt-5">
+            <button type="button" onClick={() => save(false)} className="btn btn-ghost btn-sm">
+              Solo esenciales
+            </button>
+            <button type="button" onClick={() => save(functional)} className="btn btn-solid btn-sm flex-1">
+              Guardar preferencias
+            </button>
           </div>
         </div>
       )}

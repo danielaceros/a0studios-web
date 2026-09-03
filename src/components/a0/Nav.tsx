@@ -68,7 +68,7 @@ export default function Nav() {
           <div className="flex items-center gap-2">
             <a
               href="#contacto"
-              className="hidden rounded-full bg-foreground px-6 py-3 font-mono text-[10px] uppercase tracking-[0.2em] text-background transition-opacity duration-300 hover:opacity-85 md:inline-block"
+              className="btn btn-solid btn-sm hidden md:inline-flex"
             >
               Presupuesto
             </a>
@@ -121,7 +121,7 @@ export default function Nav() {
         <a
           href="#contacto"
           onClick={() => setOpen(false)}
-          className="mt-10 rounded-full bg-foreground px-8 py-4 text-center font-mono text-[11px] uppercase tracking-[0.2em] text-background"
+          className="btn btn-solid mt-10 justify-center"
         >
           Pedir presupuesto
         </a>
