@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Archivo, Playfair_Display, DM_Sans, DM_Mono } from "next/font/google";
+import { Manrope, Playfair_Display, DM_Sans, DM_Mono } from "next/font/google";
 import Script from "next/script";
 import { siteMetadata } from "@/lib/metadata";
 import { getProfessionalServiceSchema, getWebSiteSchema, getWebPageSchema, getBreadcrumbSchema, getVideoSchema } from "@/lib/structured-data";
@@ -9,10 +9,10 @@ import WhatsAppButton from "@/components/ui/WhatsAppButton";
 import CookieConsent from "@/components/CookieConsent";
 import "./globals.css";
 
-const archivo = Archivo({
-  weight: ["500", "600", "700"],
+const manrope = Manrope({
+  weight: ["500", "600", "700", "800"],
   subsets: ["latin", "latin-ext"],
-  variable: "--font-archivo",
+  variable: "--font-manrope",
   display: "swap",
 });
 
@@ -45,7 +45,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className={`${archivo.variable} ${playfairDisplay.variable} ${dmSans.variable} ${dmMono.variable}`}>
+    <html lang="es" className={`${manrope.variable} ${playfairDisplay.variable} ${dmSans.variable} ${dmMono.variable}`}>
       <head>
         {/* Inline script (not Next Script) to run before ANY other JS — catches
             webkit.messageHandlers errors thrown by Instagram/TikTok iOS WebViews */}
