@@ -1,4 +1,5 @@
-import Footer from "@/components/layout/Footer";
+import Nav from "@/components/a0/Nav";
+import Footer from "@/components/a0/Footer";
 
 export const metadata = {
   title: "Aviso Legal — A0 Studios",
@@ -7,9 +8,10 @@ export const metadata = {
 export default function AvisoLegal() {
   return (
     <>
-      <main className="px-5 pb-24 pt-16 sm:px-8 sm:pt-20 lg:px-12">
+      <Nav />
+      <main className="px-5 pb-24 pt-32 sm:px-8 sm:pt-36 lg:px-12">
         <article className="mx-auto max-w-3xl text-sm leading-[1.8] text-muted sm:text-base">
-          <h1 className="mb-12 font-heading text-[clamp(2rem,7vw,4rem)] uppercase leading-[0.9] text-foreground">
+          <h1 className="display mb-12 text-foreground">
             Aviso Legal
           </h1>
 
@@ -28,7 +30,7 @@ export default function AvisoLegal() {
             <li><strong className="text-foreground">Correo electrónico de contacto:</strong> work@daniaceros.com</li>
           </ul>
 
-          <h2 className="mb-4 mt-12 font-heading text-2xl uppercase text-foreground">
+          <h2 className="mb-4 mt-14 font-heading text-[1.35rem] tracking-[-0.028em] text-foreground">
             Condiciones de uso
           </h2>
           <p>
@@ -43,7 +45,7 @@ export default function AvisoLegal() {
             actividades ilícitas o contrarias a la buena fe y al orden público.
           </p>
 
-          <h2 className="mb-4 mt-12 font-heading text-2xl uppercase text-foreground">
+          <h2 className="mb-4 mt-14 font-heading text-[1.35rem] tracking-[-0.028em] text-foreground">
             Propiedad intelectual e industrial
           </h2>
           <p>
@@ -54,7 +56,7 @@ export default function AvisoLegal() {
             pública sin autorización expresa del titular.
           </p>
 
-          <h2 className="mb-4 mt-12 font-heading text-2xl uppercase text-foreground">
+          <h2 className="mb-4 mt-14 font-heading text-[1.35rem] tracking-[-0.028em] text-foreground">
             Responsabilidad
           </h2>
           <p>
@@ -64,7 +66,7 @@ export default function AvisoLegal() {
             para evitar este tipo de situaciones.
           </p>
 
-          <h2 className="mb-4 mt-12 font-heading text-2xl uppercase text-foreground">
+          <h2 className="mb-4 mt-14 font-heading text-[1.35rem] tracking-[-0.028em] text-foreground">
             Legislación aplicable y jurisdicción
           </h2>
           <p>

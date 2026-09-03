@@ -28,25 +28,28 @@ const INCLUYE = [
 
 export default function Formatos() {
   return (
-    <section id="formatos" className="px-4 py-20 sm:px-6 sm:py-24 lg:px-8 lg:py-28">
-      <div className="mx-auto max-w-[1500px]">
+    <section
+      id="formatos"
+      className="px-4 py-[clamp(4.5rem,8vw,7.5rem)] sm:px-6 lg:px-8"
+    >
+      <div className="mx-auto max-w-[1360px]">
         <SectionHead label="Formatos" title="Qué puedes" accent="grabar" />
 
-        {/* Lista editorial */}
-        <div className="mt-14 sm:mt-20">
+        {/* Lista editorial sobre filetes */}
+        <div className="mt-14 sm:mt-[clamp(3.5rem,5vw,5rem)]">
           <div className="rule" />
           {FORMATOS.map((f, i) => (
             <div key={f.title} className="reveal">
-              <div className="group grid grid-cols-[auto_1fr] items-baseline gap-x-6 gap-y-3 py-8 transition-colors duration-300 sm:py-10 md:grid-cols-[5rem_minmax(0,1.1fr)_minmax(0,1fr)] md:gap-x-10">
-                <span className="label text-foreground/35 transition-colors duration-300 group-hover:text-foreground">
+              <div className="group grid grid-cols-[auto_1fr] items-baseline gap-x-6 gap-y-3 py-7 sm:py-9 md:grid-cols-[4rem_minmax(0,1.05fr)_minmax(0,0.95fr)] md:gap-x-10">
+                <span className="index text-foreground/30 transition-colors duration-300 group-hover:text-foreground/70">
                   {String(i + 1).padStart(2, "0")}
                 </span>
 
-                <h3 className="font-heading text-[clamp(1.5rem,3.4vw,2.5rem)] leading-[1.1] tracking-tight text-foreground">
+                <h3 className="font-heading text-[clamp(1.4rem,3vw,2.15rem)] leading-[1.08] tracking-[-0.028em] text-foreground">
                   {f.title}
                 </h3>
 
-                <p className="col-span-2 max-w-[46ch] text-[0.95rem] leading-[1.75] text-muted md:col-span-1 md:col-start-3">
+                <p className="prose-body col-span-2 max-w-[44ch] text-[0.92rem] md:col-span-1 md:col-start-3">
                   {f.desc}
                 </p>
               </div>
@@ -55,14 +58,15 @@ export default function Formatos() {
           ))}
         </div>
 
-        {/* Qué incluye — glass */}
-        <div className="reveal mt-14 grid gap-3 sm:mt-20 sm:gap-4 md:grid-cols-2 xl:grid-cols-4">
+        {/* Qué incluye — pares dato/apoyo, sin cajas: aire y filete */}
+        <div className="reveal mt-14 grid gap-x-10 gap-y-10 sm:mt-[clamp(3.5rem,5vw,5rem)] md:grid-cols-2 xl:grid-cols-4">
           {INCLUYE.map((b) => (
-            <div key={b.title} className="panel panel-hover flex flex-col gap-3 rounded-2xl p-6 sm:p-7">
-              <h4 className="font-heading text-[1.05rem] leading-[1.25] tracking-tight text-foreground">
+            <div key={b.title} className="flex flex-col gap-3.5">
+              <span className="tick" aria-hidden="true" />
+              <h4 className="font-heading text-[1.02rem] leading-[1.3] tracking-[-0.018em] text-foreground">
                 {b.title}
               </h4>
-              <p className="text-[0.9rem] leading-[1.7] text-muted">{b.desc}</p>
+              <p className="prose-body text-[0.89rem]">{b.desc}</p>
             </div>
           ))}
         </div>

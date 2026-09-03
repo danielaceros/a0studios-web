@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Manrope, Playfair_Display, DM_Sans, DM_Mono } from "next/font/google";
+import { Manrope, Playfair_Display } from "next/font/google";
 import Script from "next/script";
 import { siteMetadata } from "@/lib/metadata";
 import { getProfessionalServiceSchema, getWebSiteSchema, getWebPageSchema, getBreadcrumbSchema, getVideoSchema } from "@/lib/structured-data";
@@ -9,8 +9,11 @@ import WhatsAppButton from "@/components/ui/WhatsAppButton";
 import CookieConsent from "@/components/CookieConsent";
 import "./globals.css";
 
+// Dos familias en toda la web y ni una más:
+// Manrope para todo (incluidos los datos técnicos que antes iban en mono)
+// y Playfair Display Italic como acento de marca.
 const manrope = Manrope({
-  weight: ["500", "600", "700", "800"],
+  weight: ["400", "500", "600", "700"],
   subsets: ["latin", "latin-ext"],
   variable: "--font-manrope",
   display: "swap",
@@ -24,19 +27,6 @@ const playfairDisplay = Playfair_Display({
   display: "swap",
 });
 
-const dmSans = DM_Sans({
-  subsets: ["latin"],
-  variable: "--font-dm-sans",
-  display: "swap",
-});
-
-const dmMono = DM_Mono({
-  weight: ["400", "500"],
-  subsets: ["latin"],
-  variable: "--font-dm-mono",
-  display: "swap",
-});
-
 export const metadata: Metadata = siteMetadata;
 
 export default function RootLayout({
@@ -45,7 +35,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className={`${manrope.variable} ${playfairDisplay.variable} ${dmSans.variable} ${dmMono.variable}`}>
+    <html lang="es" className={`${manrope.variable} ${playfairDisplay.variable}`}>
       <head>
         {/* Inline script (not Next Script) to run before ANY other JS — catches
             webkit.messageHandlers errors thrown by Instagram/TikTok iOS WebViews */}

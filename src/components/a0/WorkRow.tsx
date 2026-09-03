@@ -142,7 +142,7 @@ export default function WorkRow({ item, index }: { item: WorkItem; index: number
                   type="button"
                   onClick={() => setOpen(false)}
                   aria-label="Cerrar vídeo"
-                  className="glass absolute right-3 top-3 z-10 flex h-11 items-center rounded-full px-5 font-mono text-[10px] uppercase tracking-[0.2em] text-foreground"
+                  className="glass meta absolute right-3 top-3 z-10 flex h-11 items-center rounded-full px-5 text-foreground"
                 >
                   Cerrar
                 </button>

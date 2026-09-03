@@ -14,7 +14,7 @@ export default function Hero() {
           playsInline
           preload="metadata"
           poster="/optimized/hero-poster-v2.webp"
-          className="h-full w-full object-cover opacity-[0.28]"
+          className="h-full w-full object-cover opacity-[0.3]"
         >
           <source src="/optimized/hero-desktop.mp4" type="video/mp4" />
           <track kind="captions" />
@@ -24,28 +24,27 @@ export default function Hero() {
           className="absolute inset-0"
           style={{
             background:
-              "radial-gradient(120% 90% at 50% 45%, rgba(5,5,5,0.35) 0%, rgba(5,5,5,0.8) 55%, #050505 100%)",
+              "radial-gradient(120% 90% at 50% 42%, rgba(11,10,9,0.32) 0%, rgba(11,10,9,0.82) 56%, #0B0A09 100%)",
           }}
         />
       </div>
 
-      {/* Marcas de encuadre laterales (referencia Framehaus) */}
-      <span className="pointer-events-none absolute left-4 top-1/2 hidden h-14 w-px -translate-y-1/2 bg-white/25 lg:block" />
-      <span className="pointer-events-none absolute right-4 top-1/2 hidden h-14 w-px -translate-y-1/2 bg-white/25 lg:block" />
+      {/* Marcas de encuadre — las cuatro esquinas del visor */}
+      <div className="pointer-events-none absolute inset-x-5 inset-y-24 hidden lg:block">
+        <span className="absolute left-0 top-0 h-5 w-px bg-foreground/22" />
+        <span className="absolute left-0 top-0 h-px w-5 bg-foreground/22" />
+        <span className="absolute right-0 top-0 h-5 w-px bg-foreground/22" />
+        <span className="absolute right-0 top-0 h-px w-5 bg-foreground/22" />
+        <span className="absolute bottom-0 left-0 h-5 w-px bg-foreground/22" />
+        <span className="absolute bottom-0 left-0 h-px w-5 bg-foreground/22" />
+        <span className="absolute bottom-0 right-0 h-5 w-px bg-foreground/22" />
+        <span className="absolute bottom-0 right-0 h-px w-5 bg-foreground/22" />
+      </div>
 
-      {/* Wordmark con eco */}
+      {/* Wordmark */}
       <div className="relative flex flex-1 flex-col items-center justify-center px-4">
         <div className="relative flex w-full min-w-0 select-none justify-center">
-          <div className="relative w-[clamp(18rem,90vw,74rem)] max-w-full min-w-0">
-            <Image
-              aria-hidden="true"
-              src="/optimized/wordmark-hero.webp"
-              alt=""
-              width={1257}
-              height={252}
-              className="pointer-events-none absolute left-1/2 top-1/2 h-auto w-full -translate-x-1/2 -translate-y-[162%] object-contain opacity-[0.07]"
-            />
-
+          <div className="relative w-[clamp(9rem,42vw,34rem)] max-w-full min-w-0">
             <Image
               src="/optimized/wordmark-hero.webp"
               alt="A0 Studios"
@@ -55,19 +54,10 @@ export default function Hero() {
               fetchPriority="high"
               className="relative h-auto w-full object-contain"
             />
-
-            <Image
-              aria-hidden="true"
-              src="/optimized/wordmark-hero.webp"
-              alt=""
-              width={1257}
-              height={252}
-              className="pointer-events-none absolute left-1/2 top-1/2 h-auto w-full -translate-x-1/2 translate-y-[62%] object-contain opacity-[0.07]"
-            />
           </div>
         </div>
 
-        <p className="mt-10 max-w-[30ch] text-center text-[0.95rem] leading-[1.6] text-foreground/70 sm:mt-14 sm:max-w-none sm:text-[1.05rem]">
+        <p className="mt-11 max-w-[30ch] text-center text-[0.95rem] leading-[1.7] text-foreground/70 sm:mt-14 sm:max-w-none sm:text-[1.02rem]">
           <span className="block">Estudio de grabación · Ático en Madrid centro</span>
           <span className="block">Contenido para semanas, en una mañana</span>
         </p>
@@ -89,11 +79,23 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Pie: metadatos tipo ficha técnica */}
-      <div className="relative mx-auto flex w-full max-w-[1500px] items-end justify-between gap-8 px-4 pb-16 text-[0.8rem] text-foreground/40 sm:px-6 sm:pb-0 lg:px-8">
-        <p>Ronda de Atocha 16 · Planta 7 · Madrid</p>
-        <p className="hidden lg:block">Est. 2025 — por @daniaceros</p>
-        <p className="hidden pr-40 text-right sm:block">Una sesión al día</p>
+      {/* Pie: ficha técnica sobre filete */}
+      <div className="relative mx-auto w-full max-w-[1360px] px-4 pb-14 sm:px-6 sm:pb-2 lg:px-8">
+        <div className="rule" />
+        <div className="flex items-center justify-between gap-8 pt-4">
+          <p className="meta">Ronda de Atocha 16 · Planta 7 · Madrid</p>
+          <p className="meta hidden lg:block">
+            Est. 2025 — por{" "}
+            <a
+              href="https://www.instagram.com/daniaceros"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-foreground/80 underline underline-offset-4 transition-colors hover:text-foreground"
+            >
+              @daniaceros
+            </a>
+          </p>
+        </div>
       </div>
     </section>
   );

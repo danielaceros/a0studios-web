@@ -1,50 +1,119 @@
 @import "tailwindcss";
 
-@theme {
-  /* ── A0 Studios · blanco y negro ── */
-  --color-background: #050505;
-  --color-foreground: #F7F6F3;
-  --color-muted: #8A8A85;
-  --color-border: #1C1C1A;
-  --color-card: #0C0C0B;
-  --color-card-hover: #131312;
-  --color-accent: #FFFFFF;
-  --color-accent-light: #FFFFFF;
-  --color-accent-dark: #CFCFCA;
-  --color-amber: #FFFFFF;
-  --color-amber-light: #FFFFFF;
-  --color-amber-dark: #CFCFCA;
+/* ══════════════════════════════════════════════════════════════════════════
+   A0 STUDIOS · sistema de UI "ficha técnica"
+   ─────────────────────────────────────────────────────────────────────────
+   Referencia mental: la hoja de rodaje / claqueta de un rodaje real, no una
+   plantilla de agencia. Tres decisiones sostienen todo:
 
+   1. MONOCROMO CÁLIDO. Ni negro puro ni blanco puro: tinta cálida (#0B0A09)
+      y papel hueso (#F2EEE7). El único color de la web son las fotos del
+      ático. Un blanco puro sobre negro puro vibra y cansa; el hueso descansa
+      y da el punto "caro" sin meter una paleta que compita con el material.
+   2. LÍNEA DE 1 PX COMO ESTRUCTURA. Las secciones no flotan: cuelgan de un
+      filete que recorre todo el ancho. Los bloques de datos comparten filete
+      en vez de separarse con huecos — la retícula se ve, y eso es lo que
+      hace que se lea "pro" y no "cards genéricas".
+   3. GRANO. Una capa de grano fijísima sobre toda la página. Es literalmente
+      el medio del cliente (imagen en movimiento) y rompe la planitud digital
+      del negro. Es el detalle que hace que se sienta autoral.
+
+   Tipografía: SOLO dos familias. Manrope para absolutamente todo (incluidos
+   los datos técnicos, que antes iban en monoespaciada) y Playfair Display
+   Italic como acento de marca, una sola vez por sección. Los datos conservan
+   el aire de ficha con tracking amplio + cifras tabulares, sin mono.
+   ══════════════════════════════════════════════════════════════════════════ */
+
+@theme {
+  /* ── Tinta y papel ── */
+  --color-background: #0B0A09;
+  --color-foreground: #F2EEE7;
+  --color-muted: #8F877C;
+
+  /* ── Superficies sólidas (nada de cristal en el contenido) ── */
+  --color-card: #15120F;
+  --color-card-hover: #1D1915;
+  --color-raised: #211C17;
+
+  /* ── Filetes ── */
+  --color-line: rgba(242, 238, 231, 0.13);
+  --color-line-strong: rgba(242, 238, 231, 0.28);
+  --color-border: rgba(242, 238, 231, 0.13);
+
+  /* ── Compatibilidad con tokens antiguos ── */
+  --color-accent: #F2EEE7;
+  --color-accent-light: #F2EEE7;
+  --color-accent-dark: #C9C2B8;
+  --color-amber: #F2EEE7;
+  --color-amber-light: #F2EEE7;
+  --color-amber-dark: #C9C2B8;
+
+  /* ── Radios ── */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* ── Tipografía: dos familias, ni una más ── */
   --font-heading: var(--font-manrope), "Helvetica Neue", Arial, sans-serif;
+  --font-body: var(--font-manrope), "Helvetica Neue", Arial, sans-serif;
   --font-accent: var(--font-playfair-italic), "Times New Roman", serif;
-  --font-body: var(--font-dm-sans);
-  --font-mono: var(--font-dm-mono);
+  /* Red de seguridad: si queda algún `font-mono` suelto en el código, cae en
+     Manrope. En la web no se renderiza ni un carácter monoespaciado.
+     `--default-mono-font-family` neutraliza además la regla de preflight de
+     Tailwind sobre code/kbd/samp/pre. */
+  --font-mono: var(--font-manrope), "Helvetica Neue", Arial, sans-serif;
+  --default-mono-font-family: var(--font-manrope), "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background-color: var(--color-background);
   color: var(--color-foreground);
   font-family: var(--font-body);
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
 
+/* ── Grano de película: la firma de la casa ────────────────────────────────
+   Capa fija, no interactiva, en overlay. Muy baja opacidad: no se "ve",
+   se nota. Es lo que impide que el negro se lea como un #000 plano de CSS. */
+body::after {
+  content: "";
+  position: fixed;
+  inset: -50%;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 140px 140px;
+}
+
 section[id] {
-  scroll-margin-top: 110px;
+  scroll-margin-top: 104px;
 }
 
 ::selection {
-  background-color: #ffffff;
-  color: #050505;
+  background-color: var(--color-foreground);
+  color: var(--color-background);
 }
 
-/* ── Tipografía ── */
+@layer components {
+/* ══ TIPOGRAFÍA ═══════════════════════════════════════════════════════════ */
+
 .font-heading {
-  font-weight: 650;
-  letter-spacing: -0.015em;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  letter-spacing: -0.02em;
 }
 
+/* Acento serif en cursiva — firma de marca. Una vez por sección, nunca más. */
 .accent-italic {
   font-family: var(--font-accent);
   font-style: italic;
@@ -52,106 +121,239 @@ section[id] {
   letter-spacing: -0.005em;
 }
 
-/* Etiqueta mono tracked-out — eyebrows, metadatos, numeración */
-.label {
-  font-family: var(--font-mono);
-  font-size: 10px;
-  line-height: 1;
-  letter-spacing: 0.06em;
-  text-transform: lowercase;
-  color: var(--color-muted);
-}
-@media (min-width: 640px) {
-  .label { font-size: 11px; }
-}
-
-/* Título de sección gigante — caja natural, no todo mayúsculas */
+/* Titular de sección. Más contenido que antes (4.4rem de tope en vez de 5.6):
+   deja de comerse el viewport y empieza a componer con la columna de apoyo. */
 .display {
   font-family: var(--font-heading);
-  font-weight: 650;
-  line-height: 0.92;
-  letter-spacing: -0.015em;
-  font-size: clamp(2.3rem, 7.5vw, 5.6rem);
+  font-weight: 600;
+  line-height: 0.98;
+  letter-spacing: -0.032em;
+  font-size: clamp(2.15rem, 5.2vw, 4.4rem);
+  text-wrap: balance;
 }
 
-/* Ojo de sección — cursiva fina, no mono-trackeado */
-.eyebrow {
-  font-family: var(--font-accent);
-  font-style: italic;
-  font-size: 1.05rem;
+/* Dato técnico. Sustituye a la antigua monoespaciada: Manrope 500 con
+   tracking amplio y cifras tabulares. Mismo papel de "ficha", sin mono. */
+.meta {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.13em;
+  text-transform: lowercase;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
   color: var(--color-muted);
-  letter-spacing: 0;
 }
 @media (min-width: 640px) {
-  .eyebrow { font-size: 1.2rem; }
+  .meta { font-size: 11.5px; }
 }
 
-/* ── Panel sólido — tarjetas de contenido (referencia InSpace) ── */
+/* Alias heredado: en el código antiguo `.label` hacía este mismo papel. */
+.label {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.13em;
+  text-transform: lowercase;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+  color: var(--color-muted);
+}
+@media (min-width: 640px) {
+  .label { font-size: 11.5px; }
+}
+
+/* Valor de ficha: emails, teléfonos, direcciones, cifras. Alineadas. */
+.data {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+  color: var(--color-foreground);
+}
+
+/* Cifra grande de la ficha (28+, 500+, 24-48h…) */
+.figure {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}
+
+/* Índice de lista (01, 02…) — siempre tabular para que la columna cuadre. */
+.index {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}
+
+.lead {
+  font-size: 1rem;
+  line-height: 1.72;
+  color: var(--color-muted);
+}
+@media (min-width: 640px) {
+  .lead { font-size: 1.05rem; }
+}
+
+.prose-body {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: color-mix(in srgb, var(--color-foreground) 78%, transparent);
+}
+
+/* ══ SUPERFICIES ══════════════════════════════════════════════════════════ */
+
+/* Panel sólido. El filete interior superior es lo que evita que un panel
+   sólido sobre fondo casi negro se lea como un rectángulo muerto: simula
+   una arista iluminada, igual que un objeto real bajo la luz del set. */
 .panel {
   background: var(--color-card);
-  border: 1px solid rgba(255, 255, 255, 0.09);
-  border-radius: 14px;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-lg);
+  box-shadow: inset 0 1px 0 rgba(242, 238, 231, 0.045);
+}
+.panel-raised {
+  background: var(--color-raised);
+  border: 1px solid var(--color-line-strong);
+  border-radius: var(--radius-lg);
+  box-shadow: inset 0 1px 0 rgba(242, 238, 231, 0.08);
 }
 .panel-hover {
-  transition: background 0.3s ease, border-color 0.3s ease;
+  transition: background 0.35s ease, border-color 0.35s ease;
 }
 .panel-hover:hover {
   background: var(--color-card-hover);
-  border-color: rgba(255, 255, 255, 0.18);
+  border-color: var(--color-line-strong);
 }
 
-/* ── Liquid glass — solo cromo flotante (nav, avisos sobre contenido en movimiento) ── */
+/* Retícula de datos: celdas que COMPARTEN filete en vez de flotar separadas.
+   Un solo bloque con divisiones internas de 1px — se ve la estructura. */
+.grid-hair {
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-lg);
+  background: var(--color-card);
+  box-shadow: inset 0 1px 0 rgba(242, 238, 231, 0.045);
+  overflow: hidden;
+}
+.grid-hair > * {
+  border-top: 1px solid var(--color-line);
+}
+.grid-hair > *:first-child {
+  border-top: 0;
+}
+@media (min-width: 768px) {
+  .grid-hair--2 > *:nth-child(-n + 2) { border-top: 0; }
+  .grid-hair--2 > *:nth-child(2n) { border-left: 1px solid var(--color-line); }
+}
+@media (min-width: 1024px) {
+  .grid-hair--2 > *:nth-child(2n) { border-left: 1px solid var(--color-line); }
+  .grid-hair--4 > * { border-top: 0; border-left: 1px solid var(--color-line); }
+  .grid-hair--4 > *:first-child { border-left: 0; }
+  .grid-hair--3 > * { border-top: 0; border-left: 1px solid var(--color-line); }
+  .grid-hair--3 > *:first-child { border-left: 0; }
+}
+
+/* Misma retícula de filetes pero sin caja ni fondo: para bloques que deben
+   respirar (el proceso) sin convertirse en otra fila de tarjetas. */
+.grid-open > * {
+  border-top: 1px solid var(--color-line);
+}
+.grid-open > *:first-child {
+  border-top: 0;
+}
+@media (min-width: 768px) {
+  .grid-open--2 > *:nth-child(-n + 2) { border-top: 0; }
+  .grid-open--2 > *:nth-child(2n) {
+    border-left: 1px solid var(--color-line);
+    padding-left: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .grid-open--4 > * {
+    border-top: 0;
+    border-left: 1px solid var(--color-line);
+    padding-left: 2rem;
+  }
+  .grid-open--4 > *:first-child {
+    border-left: 0;
+    padding-left: 0;
+  }
+}
+
+/* Cromo flotante (nav, whatsapp, cerrar lightbox). Único sitio con cristal:
+   son objetos que viajan por encima de contenido en movimiento. */
 .glass {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.02));
-  backdrop-filter: blur(22px) saturate(150%);
-  -webkit-backdrop-filter: blur(22px) saturate(150%);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.16),
-    0 10px 40px rgba(0, 0, 0, 0.4);
+  background: rgba(11, 10, 9, 0.62);
+  backdrop-filter: blur(20px) saturate(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(140%);
+  border: 1px solid rgba(242, 238, 231, 0.14);
+  box-shadow: inset 0 1px 0 rgba(242, 238, 231, 0.1), 0 8px 32px rgba(0, 0, 0, 0.5);
 }
 .glass-hover {
-  transition: background 0.4s ease, border-color 0.4s ease, transform 0.4s ease;
+  transition: background 0.35s ease, border-color 0.35s ease;
 }
 .glass-hover:hover {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.04));
-  border-color: rgba(255, 255, 255, 0.24);
+  background: rgba(30, 27, 23, 0.75);
+  border-color: var(--color-line-strong);
 }
 
-/* Regla fina de separación editorial */
+/* Filete editorial */
 .rule {
   height: 1px;
-  background: rgba(255, 255, 255, 0.11);
+  background: var(--color-line);
 }
 
-/* ── Reveal 100% CSS (scroll-driven). Sin JS = contenido siempre visible ── */
-.reveal {
-  opacity: 1;
+/* Marca de encuadre: cruz de 1px en la esquina, como las guías de un visor.
+   Se repite en cabeceras de sección y en el hero. */
+.tick {
+  position: relative;
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  flex-shrink: 0;
 }
+.tick::before,
+.tick::after {
+  content: "";
+  position: absolute;
+  background: var(--color-line-strong);
+}
+.tick::before { left: 0; top: 4px; width: 9px; height: 1px; }
+.tick::after { top: 0; left: 4px; width: 1px; height: 9px; }
+}
+
+/* ══ REVEAL (100 % CSS, scroll-driven) ════════════════════════════════════ */
+.reveal { opacity: 1; }
 @supports (animation-timeline: view()) {
   @media (prefers-reduced-motion: no-preference) {
     .reveal {
       animation: revealUp linear both;
       animation-timeline: view();
-      animation-range: entry 0% entry 60%;
+      animation-range: entry 0% entry 55%;
     }
   }
 }
 @keyframes revealUp {
-  from {
-    opacity: 0;
-    transform: translateY(26px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
-/* Marquee de logos */
+/* Marquee de logos — 6 copias idénticas en el track (ver LogoStrip.tsx),
+   se traslada exactamente 1/6 del ancho total en cada ciclo: el loop no
+   deja hueco ni salto incluso en monitores muy anchos. NO TOCAR. */
 @keyframes marqueeX {
   from { transform: translate3d(0, 0, 0); }
-  to { transform: translate3d(-50%, 0, 0); }
+  to { transform: translate3d(-16.6667%, 0, 0); }
 }
 .marquee-track {
   display: flex;
@@ -162,45 +364,53 @@ section[id] {
   .marquee-track { animation: none; }
 }
 
-/* Scrollbar */
+/* ══ SCROLLBARS ═══════════════════════════════════════════════════════════ */
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: #262624; border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: #3a3a37; }
-
-/* Scroller horizontal sin barra visible */
+::-webkit-scrollbar-thumb { background: #2A2621; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #3E382F; }
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 
-/* ── Sistema de botones (kit UI, pill negro/blanco) ── */
+@layer components {
+/* ══ BOTONES ══════════════════════════════════════════════════════════════ */
 .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  border-radius: 10px;
-  padding: 0.9rem 2rem;
-  font-family: var(--font-mono);
-  font-size: 11px;
+  border-radius: var(--radius-md);
+  padding: 0.92rem 1.7rem;
+  font-family: var(--font-body);
+  font-size: 13px;
   font-weight: 500;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.005em;
   text-transform: lowercase;
   line-height: 1;
   white-space: nowrap;
-  transition: background 0.3s ease, border-color 0.3s ease, color 0.3s ease, opacity 0.3s ease;
+  transition: background 0.28s ease, border-color 0.28s ease, color 0.28s ease,
+    opacity 0.28s ease, transform 0.28s ease;
 }
-.btn-sm { padding: 0.65rem 1.35rem; font-size: 10px; }
+.btn-sm {
+  padding: 0.62rem 1.15rem;
+  font-size: 12px;
+  border-radius: var(--radius-sm);
+}
 .btn-solid {
   background: var(--color-foreground);
   color: var(--color-background);
+  font-weight: 600;
 }
-.btn-solid:hover { opacity: 0.85; }
+.btn-solid:hover { background: #FFFFFF; }
 .btn-outline {
   background: transparent;
   color: var(--color-foreground);
-  border: 1px solid rgba(255, 255, 255, 0.22);
+  border: 1px solid var(--color-line-strong);
 }
-.btn-outline:hover { border-color: rgba(255, 255, 255, 0.55); }
+.btn-outline:hover {
+  border-color: var(--color-foreground);
+  background: rgba(242, 238, 231, 0.04);
+}
 .btn-ghost {
   background: transparent;
   color: var(--color-muted);
@@ -208,32 +418,53 @@ section[id] {
 }
 .btn-ghost:hover { color: var(--color-foreground); }
 
-/* ── Badge / chip ── */
+/* Enlace con filete — el subrayado es parte del sistema de línea. */
+.link-rule {
+  display: inline-block;
+  width: fit-content;
+  border-bottom: 1px solid var(--color-line-strong);
+  padding-bottom: 3px;
+  color: var(--color-foreground);
+  transition: border-color 0.28s ease;
+}
+.link-rule:hover { border-color: var(--color-foreground); }
+
+/* ══ CHIP / BADGE ═════════════════════════════════════════════════════════ */
 .badge {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  border-radius: 8px;
-  padding: 0.35rem 0.85rem;
-  font-family: var(--font-mono);
-  font-size: 10px;
-  letter-spacing: 0.04em;
+  border-radius: var(--radius-xs);
+  padding: 0.32rem 0.6rem;
+  font-family: var(--font-body);
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
   text-transform: lowercase;
   line-height: 1;
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  color: var(--color-muted);
+  font-variant-numeric: tabular-nums;
+  border: 1px solid var(--color-line);
+  background: rgba(11, 10, 9, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: var(--color-foreground);
+}
+.badge-solid {
+  background: var(--color-foreground);
+  border-color: var(--color-foreground);
+  color: var(--color-background);
 }
 
-/* ── Toggle switch (kit UI, estilo dashboard oscuro) ── */
+/* ══ SWITCH ═══════════════════════════════════════════════════════════════ */
 .switch {
   position: relative;
   display: inline-flex;
   align-items: center;
-  width: 42px;
-  height: 24px;
+  width: 40px;
+  height: 22px;
   border-radius: 9999px;
-  background: rgba(255, 255, 255, 0.12);
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(242, 238, 231, 0.11);
+  border: 1px solid var(--color-line);
   flex-shrink: 0;
   cursor: pointer;
   transition: background 0.25s ease, border-color 0.25s ease;
@@ -244,14 +475,14 @@ section[id] {
 }
 .switch[data-disabled="true"] {
   cursor: not-allowed;
-  opacity: 0.55;
+  opacity: 0.5;
 }
 .switch-thumb {
   position: absolute;
   top: 2px;
   left: 2px;
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   border-radius: 50%;
   background: var(--color-foreground);
   transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), background 0.25s ease;
@@ -259,4 +490,5 @@ section[id] {
 .switch[data-on="true"] .switch-thumb {
   transform: translateX(18px);
   background: var(--color-background);
+}
 }

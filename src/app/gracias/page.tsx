@@ -10,19 +10,14 @@ export const metadata: Metadata = {
 export default function GraciasPage() {
   return (
     <main className="flex min-h-svh flex-col items-center justify-center px-8 text-center">
-      <p className="text-xs font-semibold uppercase tracking-[0.4em] text-muted">
-        ( Mensaje enviado )
-      </p>
-      <h1 className="mt-8 font-heading text-[clamp(3rem,8vw,7rem)] uppercase leading-[0.85] text-foreground">
-        Gracias.
+      <p className="meta">Mensaje enviado</p>
+      <h1 className="display mt-7 text-foreground">
+        Gracias<span className="accent-italic">.</span>
       </h1>
-      <p className="mt-8 max-w-md text-lg leading-relaxed text-muted">
+      <p className="lead mt-8 max-w-md">
         Hemos recibido tu mensaje. Te respondemos hoy con fecha disponible.
       </p>
-      <Link
-        href="/"
-        className="mt-12 rounded-full border border-foreground/60 px-12 py-4 font-heading text-xl uppercase tracking-[0.15em] text-foreground transition-all hover:bg-foreground hover:text-background"
-      >
+      <Link href="/" className="btn btn-outline mt-11">
         Volver al inicio
       </Link>
     </main>

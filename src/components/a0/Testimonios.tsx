@@ -36,8 +36,8 @@ function Card({ t }: { t: T }) {
   }, [load]);
 
   return (
-    <div ref={ref} className="w-[78vw] shrink-0 snap-start sm:w-[340px]">
-      <div className="relative aspect-[9/13] overflow-hidden rounded-2xl border border-white/12 bg-card">
+    <div ref={ref} className="w-[78vw] shrink-0 snap-start sm:w-[330px]">
+      <div className="relative aspect-[9/13] overflow-hidden rounded-[12px] border border-line bg-card">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={t.poster} alt="" aria-hidden="true" className="absolute inset-0 h-full w-full object-cover" />
         {load && (
@@ -54,12 +54,21 @@ function Card({ t }: { t: T }) {
             <track kind="captions" />
           </video>
         )}
-        <span className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/90 via-black/55 via-45% to-transparent" />
+        <span
+          className="pointer-events-none absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(to top, #0B0A09 0%, rgba(11,10,9,0.94) 30%, rgba(11,10,9,0.55) 52%, rgba(11,10,9,0) 78%)",
+          }}
+        />
 
         <div className="absolute inset-x-0 bottom-0 p-5">
-          <p className="accent-italic text-[1.02rem] leading-[1.5] text-white">“{t.quote}”</p>
-          <p className="label mt-4 !tracking-[0.18em] text-white/90">{t.name}</p>
-          <p className="mt-1.5 font-mono text-[10px] leading-relaxed text-white/50">{t.role}</p>
+          <p className="accent-italic text-[1.05rem] leading-[1.5] text-foreground">
+            “{t.quote}”
+          </p>
+          <div className="mt-5 rule" />
+          <p className="meta mt-3.5 text-foreground/90">{t.name}</p>
+          <p className="meta mt-1.5 tracking-[0.02em] normal-case text-foreground/45">{t.role}</p>
         </div>
       </div>
     </div>
@@ -68,19 +77,24 @@ function Card({ t }: { t: T }) {
 
 export default function Testimonios() {
   return (
-    <section id="testimonios" className="py-20 sm:py-24 lg:py-28">
-      <div className="mx-auto max-w-[1500px] px-4 sm:px-6 lg:px-8">
+    <section id="testimonios" className="py-[clamp(4.5rem,8vw,7.5rem)]">
+      <div className="mx-auto max-w-[1360px] px-4 sm:px-6 lg:px-8">
         <SectionHead label="Testimonios" title="Lo dicen" accent="ellos" />
       </div>
 
-      <div className="no-scrollbar reveal mt-14 flex snap-x snap-proximity scroll-px-4 gap-3 overflow-x-auto px-4 pb-2 sm:mt-20 sm:gap-4 sm:px-6 lg:px-8">
+      {/* El carril sangra a la derecha pero arranca alineado con la retícula:
+          la primera tarjeta cuelga de la misma vertical que el titular. */}
+      <div className="no-scrollbar reveal mt-14 flex snap-x snap-proximity scroll-px-4 gap-3 overflow-x-auto px-4 pb-2 sm:mt-[clamp(3.5rem,5vw,5rem)] sm:gap-4 sm:px-6 lg:pl-[max(2rem,calc((100vw-1360px)/2+2rem))] lg:pr-8">
         {TESTIMONIOS.map((t) => (
           <Card key={t.src} t={t} />
         ))}
         <div className="w-1 shrink-0" aria-hidden="true" />
       </div>
 
-      <p className="label mt-8 px-4 text-foreground/35 sm:px-6 lg:px-8">Desliza para ver más →</p>
+      <div className="mx-auto mt-8 max-w-[1360px] px-4 sm:px-6 lg:px-8">
+        <div className="rule" />
+        <p className="meta pt-4">Desliza para ver más →</p>
+      </div>
     </section>
   );
 }

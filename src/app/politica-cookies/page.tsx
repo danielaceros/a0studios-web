@@ -1,4 +1,5 @@
-import Footer from "@/components/layout/Footer";
+import Nav from "@/components/a0/Nav";
+import Footer from "@/components/a0/Footer";
 
 export const metadata = {
   title: "Política de Cookies — A0 Studios",
@@ -7,9 +8,10 @@ export const metadata = {
 export default function PoliticaCookies() {
   return (
     <>
-      <main className="px-5 pb-24 pt-16 sm:px-8 sm:pt-20 lg:px-12">
+      <Nav />
+      <main className="px-5 pb-24 pt-32 sm:px-8 sm:pt-36 lg:px-12">
         <article className="mx-auto max-w-3xl text-sm leading-[1.8] text-muted sm:text-base">
-          <h1 className="mb-12 font-heading text-[clamp(2rem,7vw,4rem)] uppercase leading-[0.9] text-foreground">
+          <h1 className="display mb-12 text-foreground">
             Política de Cookies
           </h1>
 
@@ -20,7 +22,7 @@ export default function PoliticaCookies() {
             a los intereses del usuario.
           </p>
 
-          <h2 className="mb-4 mt-12 font-heading text-2xl uppercase text-foreground">
+          <h2 className="mb-4 mt-14 font-heading text-[1.35rem] tracking-[-0.028em] text-foreground">
             1. ¿Qué son las cookies?
           </h2>
           <p>
@@ -30,7 +32,7 @@ export default function PoliticaCookies() {
             otras opciones de configuración.
           </p>
 
-          <h2 className="mb-4 mt-12 font-heading text-2xl uppercase text-foreground">
+          <h2 className="mb-4 mt-14 font-heading text-[1.35rem] tracking-[-0.028em] text-foreground">
             2. Tipos de cookies utilizadas
           </h2>
           <ul className="mt-4 space-y-2">
@@ -40,7 +42,7 @@ export default function PoliticaCookies() {
             <li><strong className="text-foreground">Cookies de redes sociales:</strong> permiten interactuar con plataformas como Instagram, Facebook o TikTok.</li>
           </ul>
 
-          <h2 className="mb-4 mt-12 font-heading text-2xl uppercase text-foreground">
+          <h2 className="mb-4 mt-14 font-heading text-[1.35rem] tracking-[-0.028em] text-foreground">
             3. Cookies de terceros
           </h2>
           <p>
@@ -56,7 +58,7 @@ export default function PoliticaCookies() {
             <li>Microsoft Clarity</li>
           </ul>
 
-          <h2 className="mb-4 mt-12 font-heading text-2xl uppercase text-foreground">
+          <h2 className="mb-4 mt-14 font-heading text-[1.35rem] tracking-[-0.028em] text-foreground">
             4. Gestión y configuración de cookies
           </h2>
           <p>
@@ -71,7 +73,7 @@ export default function PoliticaCookies() {
             <li><a href="https://support.microsoft.com/es-es/help/4027947" target="_blank" rel="noopener noreferrer" className="text-foreground underline transition-colors hover:text-amber">Edge</a></li>
           </ul>
 
-          <h2 className="mb-4 mt-12 font-heading text-2xl uppercase text-foreground">
+          <h2 className="mb-4 mt-14 font-heading text-[1.35rem] tracking-[-0.028em] text-foreground">
             5. Consentimiento
           </h2>
           <p>
@@ -80,7 +82,7 @@ export default function PoliticaCookies() {
             que acepta su uso conforme a lo descrito en la presente política.
           </p>
 
-          <h2 className="mb-4 mt-12 font-heading text-2xl uppercase text-foreground">
+          <h2 className="mb-4 mt-14 font-heading text-[1.35rem] tracking-[-0.028em] text-foreground">
             6. Actualización de la política de cookies
           </h2>
           <p>

@@ -31,7 +31,7 @@ export default function Nav() {
         style={{ top: "var(--promo-banner-h, 0px)" }}
       >
         <nav
-          className="mx-auto mt-3 flex max-w-[1500px] items-center justify-between gap-3 px-3 sm:mt-4 sm:px-5 lg:px-7"
+          className="mx-auto mt-3 flex max-w-[1440px] items-center justify-between gap-3 px-3 sm:mt-4 sm:px-5 lg:px-7"
           aria-label="Navegación principal"
         >
           {/* Marca */}
@@ -51,12 +51,12 @@ export default function Nav() {
           </Link>
 
           {/* Enlaces — escritorio */}
-          <div className="glass hidden items-center gap-8 rounded-full px-8 py-3 md:flex lg:gap-10">
+          <div className="glass hidden items-center gap-7 rounded-full px-7 py-3 md:flex lg:gap-9">
             {LINKS.map((l) => (
               <a
                 key={l.href}
                 href={l.href}
-                className="label text-foreground/60 transition-colors duration-300 hover:text-foreground"
+                className="meta text-foreground/60 transition-colors duration-300 hover:text-foreground"
               >
                 {l.label}
               </a>
@@ -99,17 +99,18 @@ export default function Nav() {
         className={`fixed inset-0 z-40 flex flex-col justify-center px-6 transition-opacity duration-300 md:hidden ${
           open ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0"
         }`}
-        style={{ background: "rgba(5,5,5,0.92)", backdropFilter: "blur(24px)" }}
+        style={{ background: "rgba(11,10,9,0.94)", backdropFilter: "blur(24px)" }}
       >
         <nav className="flex flex-col gap-1" aria-label="Menú móvil">
+          <div className="rule" />
           {LINKS.map((l, i) => (
             <a
               key={l.href}
               href={l.href}
               onClick={() => setOpen(false)}
-              className="border-b border-white/10 py-5 font-heading text-[1.7rem] leading-none text-foreground"
+              className="border-b border-line py-5 font-heading text-[1.7rem] leading-none tracking-[-0.03em] text-foreground"
             >
-              <span className="label mr-4 align-middle text-foreground/35">
+              <span className="index mr-5 align-middle text-foreground/30">
                 {String(i + 1).padStart(2, "0")}
               </span>
               {l.label}

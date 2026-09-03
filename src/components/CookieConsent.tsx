@@ -88,10 +88,13 @@ export default function CookieConsent() {
 
       {/* Panel de cookies — tarjeta de ajustes, no barra */}
       {visible && (
-        <div className="glass fixed bottom-5 left-4 z-[200] flex max-h-[min(50svh,220px)] w-[calc(100%-2rem)] max-w-[360px] flex-col overflow-hidden rounded-2xl sm:bottom-7 sm:left-7">
+        <div className="panel-raised fixed bottom-5 left-4 z-[200] flex max-h-[min(50svh,230px)] w-[calc(100%-2rem)] max-w-[352px] flex-col overflow-hidden shadow-[0_18px_50px_rgba(0,0,0,0.55)] sm:bottom-7 sm:left-7">
           <div className="min-h-0 overflow-y-auto p-5 sm:p-6">
-            <p className="label text-foreground/45">Cookies</p>
-            <h3 className="mt-2 font-heading text-[1.15rem] leading-tight tracking-tight text-foreground">
+            <div className="flex items-center gap-3">
+              <span className="tick" aria-hidden="true" />
+              <p className="meta">Cookies</p>
+            </div>
+            <h3 className="mt-3 font-heading text-[1.15rem] leading-tight tracking-[-0.028em] text-foreground">
               Ajustes de privacidad
             </h3>
             <p className="mt-2 text-[0.85rem] leading-relaxed text-muted">
@@ -101,10 +104,10 @@ export default function CookieConsent() {
               </Link>
             </p>
 
-            <div className="mt-5 flex flex-col gap-1">
-              <div className="flex items-center justify-between border-t border-white/10 py-3">
+            <div className="mt-5 flex flex-col">
+              <div className="flex items-center justify-between border-t border-line py-3.5">
                 <div className="pr-4">
-                  <p className="text-[0.85rem] text-foreground">Necesarias</p>
+                  <p className="text-[0.85rem] font-medium text-foreground">Necesarias</p>
                   <p className="mt-0.5 text-[0.75rem] leading-snug text-muted">
                     Imprescindibles para que la web funcione.
                   </p>
@@ -112,9 +115,9 @@ export default function CookieConsent() {
                 <Switch on disabled label="Cookies necesarias, siempre activas" />
               </div>
 
-              <div className="flex items-center justify-between border-t border-white/10 py-3">
+              <div className="flex items-center justify-between border-t border-line py-3.5">
                 <div className="pr-4">
-                  <p className="text-[0.85rem] text-foreground">Analítica y publicidad</p>
+                  <p className="text-[0.85rem] font-medium text-foreground">Analítica y publicidad</p>
                   <p className="mt-0.5 text-[0.75rem] leading-snug text-muted">
                     Nos ayudan a medir visitas y mejorar la web.
                   </p>
@@ -124,7 +127,7 @@ export default function CookieConsent() {
             </div>
           </div>
 
-          <div className="flex shrink-0 gap-3 border-t border-white/10 p-5 pt-4 sm:p-6 sm:pt-5">
+          <div className="flex shrink-0 gap-3 border-t border-line p-5 pt-4 sm:p-6 sm:pt-5">
             <button type="button" onClick={() => save(false)} className="btn btn-ghost btn-sm">
               Solo esenciales
             </button>
