@@ -70,7 +70,7 @@ export default function Testimonios() {
   return (
     <section id="testimonios" className="py-20 sm:py-24 lg:py-28">
       <div className="mx-auto max-w-[1500px] px-4 sm:px-6 lg:px-8">
-        <SectionHead num="07" label="Testimonios" title="Lo dicen" accent="ellos" />
+        <SectionHead label="Testimonios" title="Lo dicen" accent="ellos" />
       </div>
 
       <div className="no-scrollbar reveal mt-14 flex snap-x snap-proximity scroll-px-4 gap-3 overflow-x-auto px-4 pb-2 sm:mt-20 sm:gap-4 sm:px-6 lg:px-8">

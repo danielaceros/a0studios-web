@@ -100,7 +100,7 @@ export default function WorkRow({ item, index }: { item: WorkItem; index: number
         <div className={flip ? "lg:order-1" : ""}>
           <div className="flex items-baseline gap-4">
             <span className="label text-foreground/35">{String(index + 1).padStart(2, "0")}</span>
-            <h3 className="font-heading text-[clamp(1.7rem,4vw,3.1rem)] uppercase leading-[0.95] tracking-tight text-foreground">
+            <h3 className="font-heading text-[clamp(1.7rem,4vw,3.1rem)] leading-[0.95] tracking-tight text-foreground">
               {item.title}
             </h3>
           </div>

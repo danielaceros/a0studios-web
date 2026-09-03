@@ -30,7 +30,7 @@ export default function Formatos() {
   return (
     <section id="formatos" className="px-4 py-20 sm:px-6 sm:py-24 lg:px-8 lg:py-28">
       <div className="mx-auto max-w-[1500px]">
-        <SectionHead num="02" label="Formatos" title="Qué puedes" accent="grabar" />
+        <SectionHead label="Formatos" title="Qué puedes" accent="grabar" />
 
         {/* Lista editorial */}
         <div className="mt-14 sm:mt-20">
@@ -42,7 +42,7 @@ export default function Formatos() {
                   {String(i + 1).padStart(2, "0")}
                 </span>
 
-                <h3 className="font-heading text-[clamp(1.5rem,3.4vw,2.5rem)] uppercase leading-[1.05] tracking-tight text-foreground">
+                <h3 className="font-heading text-[clamp(1.5rem,3.4vw,2.5rem)] leading-[1.1] tracking-tight text-foreground">
                   {f.title}
                 </h3>
 
@@ -59,7 +59,7 @@ export default function Formatos() {
         <div className="reveal mt-14 grid gap-3 sm:mt-20 sm:gap-4 md:grid-cols-2 xl:grid-cols-4">
           {INCLUYE.map((b) => (
             <div key={b.title} className="glass glass-hover flex flex-col gap-3 rounded-2xl p-6 sm:p-7">
-              <h4 className="font-heading text-[1.02rem] uppercase leading-[1.2] tracking-tight text-foreground">
+              <h4 className="font-heading text-[1.05rem] leading-[1.25] tracking-tight text-foreground">
                 {b.title}
               </h4>
               <p className="text-[0.9rem] leading-[1.7] text-muted">{b.desc}</p>

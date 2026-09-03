@@ -41,7 +41,6 @@ export default function Espacio() {
     <section id="espacio" className="px-4 py-20 sm:px-6 sm:py-24 lg:px-8 lg:py-28">
       <div className="mx-auto max-w-[1500px]">
         <SectionHead
-          num="04"
           label="El espacio"
           title="Dónde vas a"
           accent="grabar"
@@ -70,7 +69,7 @@ export default function Espacio() {
               <span className="glass pointer-events-none absolute left-3 top-3 rounded-full px-3 py-1.5 font-mono text-[9px] uppercase tracking-[0.18em] text-foreground">
                 {shot.zone}
               </span>
-              <span className="pointer-events-none absolute bottom-3 left-3 right-3 text-left font-mono text-[10px] uppercase tracking-[0.14em] text-white/80">
+              <span className="pointer-events-none absolute bottom-3 left-3 right-3 text-left text-[12px] text-white/85">
                 {shot.caption}
               </span>
             </button>
@@ -81,7 +80,7 @@ export default function Espacio() {
         <div className="reveal glass mt-4 flex flex-col gap-6 rounded-2xl px-6 py-8 sm:mt-5 sm:px-10 sm:py-10 md:flex-row md:items-center md:justify-between">
           <div>
             <p className="label text-foreground/45">Dónde estamos</p>
-            <p className="mt-3 font-heading text-[clamp(1.3rem,2.4vw,1.9rem)] uppercase leading-tight tracking-tight text-foreground">
+            <p className="mt-3 font-heading text-[clamp(1.3rem,2.4vw,1.9rem)] leading-tight tracking-tight text-foreground">
               Ronda de Atocha 16 · Planta 7
             </p>
             <p className="mt-2 text-[0.92rem] leading-relaxed text-muted">

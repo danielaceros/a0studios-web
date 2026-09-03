@@ -65,14 +65,25 @@ section[id] {
   .label { font-size: 11px; }
 }
 
-/* Título de sección gigante */
+/* Título de sección gigante — caja natural, no todo mayúsculas */
 .display {
   font-family: var(--font-heading);
   font-weight: 650;
-  text-transform: uppercase;
-  line-height: 0.86;
-  letter-spacing: -0.02em;
-  font-size: clamp(2.5rem, 8vw, 6.5rem);
+  line-height: 0.92;
+  letter-spacing: -0.015em;
+  font-size: clamp(2.3rem, 7.5vw, 5.6rem);
+}
+
+/* Ojo de sección — cursiva fina, no mono-trackeado */
+.eyebrow {
+  font-family: var(--font-accent);
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--color-muted);
+  letter-spacing: 0;
+}
+@media (min-width: 640px) {
+  .eyebrow { font-size: 1.2rem; }
 }
 
 /* ── Liquid glass ── */

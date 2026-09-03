@@ -46,7 +46,6 @@ export default function Trabajos() {
     <section id="trabajos" className="px-4 py-20 sm:px-6 sm:py-24 lg:px-8 lg:py-28">
       <div className="mx-auto max-w-[1500px]">
         <SectionHead
-          num="03"
           label="Trabajos"
           title="Marcas que ya"
           accent="grabaron"

@@ -109,7 +109,7 @@ export default function Nav() {
               key={l.href}
               href={l.href}
               onClick={() => setOpen(false)}
-              className="border-b border-white/10 py-5 font-heading text-[2rem] uppercase leading-none text-foreground"
+              className="border-b border-white/10 py-5 font-heading text-[1.7rem] leading-none text-foreground"
             >
               <span className="label mr-4 align-middle text-foreground/35">
                 {String(i + 1).padStart(2, "0")}

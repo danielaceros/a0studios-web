@@ -53,7 +53,7 @@ export default function Hero() {
           </span>
         </div>
 
-        <p className="mt-10 max-w-[24ch] text-center font-mono text-[10px] uppercase leading-[2.2] tracking-[0.24em] text-foreground/70 sm:mt-14 sm:max-w-none sm:text-[11px] sm:tracking-[0.28em]">
+        <p className="mt-10 max-w-[30ch] text-center text-[0.95rem] leading-[1.6] text-foreground/70 sm:mt-14 sm:max-w-none sm:text-[1.05rem]">
           <span className="block">Estudio de grabación · Ático en Madrid centro</span>
           <span className="block">Contenido para semanas, en una mañana</span>
         </p>
@@ -76,16 +76,10 @@ export default function Hero() {
       </div>
 
       {/* Pie: metadatos tipo ficha técnica */}
-      <div className="relative mx-auto flex w-full max-w-[1500px] items-end justify-between gap-8 px-4 pb-16 sm:px-6 sm:pb-0 lg:px-8">
-        <p className="label leading-[2] text-foreground/45">
-          Ronda de Atocha 16 · Planta 7 · Madrid
-        </p>
-        <p className="label hidden leading-[2] text-foreground/45 lg:block">
-          Est. 2025 — por @daniaceros
-        </p>
-        <p className="label hidden pr-40 text-right leading-[2] text-foreground/45 sm:block">
-          Una sesión al día
-        </p>
+      <div className="relative mx-auto flex w-full max-w-[1500px] items-end justify-between gap-8 px-4 pb-16 text-[0.8rem] text-foreground/40 sm:px-6 sm:pb-0 lg:px-8">
+        <p>Ronda de Atocha 16 · Planta 7 · Madrid</p>
+        <p className="hidden lg:block">Est. 2025 — por @daniaceros</p>
+        <p className="hidden pr-40 text-right sm:block">Una sesión al día</p>
       </div>
     </section>
   );

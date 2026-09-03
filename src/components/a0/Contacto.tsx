@@ -8,11 +8,9 @@ export default function Contacto() {
         <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,420px)] lg:gap-16 xl:gap-24">
           {/* Izquierda */}
           <div className="reveal lg:sticky lg:top-32 lg:self-start">
-            <p className="label">
-              09 <span className="mx-1 opacity-40">·</span> Contacto
-            </p>
+            <p className="eyebrow">Contacto</p>
 
-            <h2 className="display mt-5 max-w-[14ch] text-foreground sm:mt-7">
+            <h2 className="display mt-4 max-w-[14ch] text-foreground sm:mt-5">
               Cuéntame qué quieres{" "}
               <span className="accent-italic normal-case tracking-normal">grabar</span>
             </h2>

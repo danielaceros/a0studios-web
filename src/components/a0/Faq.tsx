@@ -5,7 +5,7 @@ export default function Faq() {
   return (
     <section id="faq" className="px-4 py-20 sm:px-6 sm:py-24 lg:px-8 lg:py-28">
       <div className="mx-auto max-w-[1500px]">
-        <SectionHead num="08" label="FAQ" title="Preguntas" accent="frecuentes" />
+        <SectionHead label="Preguntas frecuentes" title="Lo que suele" accent="preguntarse" />
 
         <div className="mt-14 sm:mt-20">
           <div className="rule" />
@@ -16,7 +16,7 @@ export default function Faq() {
                   <span className="label shrink-0 text-foreground/30">
                     {String(i + 1).padStart(2, "0")}
                   </span>
-                  <h3 className="font-heading text-[clamp(1.1rem,2.4vw,1.7rem)] uppercase leading-[1.15] tracking-tight text-foreground">
+                  <h3 className="font-heading text-[clamp(1.1rem,2.4vw,1.7rem)] leading-[1.2] tracking-tight text-foreground">
                     {faq.question}
                   </h3>
                 </div>

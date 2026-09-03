@@ -46,7 +46,6 @@ export default function Precios() {
     <section id="precios" className="px-4 py-20 sm:px-6 sm:py-24 lg:px-8 lg:py-28">
       <div className="mx-auto max-w-[1500px]">
         <SectionHead
-          num="06"
           label="Opciones"
           title="Elige lo que"
           accent="necesitas"
