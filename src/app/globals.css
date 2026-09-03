@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #060606;
+  --color-foreground: #FFFFFF;
+  --color-muted: #6E6E6E;
+  --color-border: #1D1D1D;
+  --color-card: #0D0D0D;
+  --color-card-hover: #131313;
+  --color-accent: #FFFFFF;
+  --color-accent-light: #FFFFFF;
+  --color-accent-dark: #CCCCCC;
+  /* Keep amber as alias for accent so existing classes still work */
+  --color-amber: #FFFFFF;
+  --color-amber-light: #FFFFFF;
+  --color-amber-dark: #CCCCCC;
+
+  --font-heading: var(--font-archivo-black), "Arial Black", sans-serif;
+  --font-accent: var(--font-playfair-italic), "Times New Roman", serif;
+  --font-body: var(--font-dm-sans);
+  --font-mono: var(--font-dm-mono);
+}
+
+/* Liquid-glass surface — translucent, blurred, hairline edge, soft top highlight */
+.glass {
+  background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+  backdrop-filter: blur(20px) saturate(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(140%);
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.14),
+    0 8px 30px rgba(0,0,0,0.35);
+}
+
+.glass-hover {
+  transition: background 0.35s ease, border-color 0.35s ease, transform 0.35s ease;
+}
+.glass-hover:hover {
+  background: linear-gradient(180deg, rgba(255,255,255,0.13), rgba(255,255,255,0.04));
+  border-color: rgba(255,255,255,0.22);
+}
+
+.accent-italic {
+  font-family: var(--font-accent);
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* Base — smooth scroll handled by SmoothScroll.tsx */
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  letter-spacing: 0.01em;
+}
+
+section[id] {
+  scroll-margin-top: 130px;
+}
+
+.hero-video-pos {
+  object-position: 20% center;
+}
+@media (min-width: 768px) {
+  .hero-video-pos {
+    object-position: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  section[id] {
+    scroll-margin-top: 140px;
+  }
+}
+
+::selection {
+  background-color: var(--color-amber);
+  color: var(--color-background);
+}
+
+/* Ken Burns */
+@keyframes ken-burns {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.08); }
+}
+
+.animate-ken-burns {
+  animation: ken-burns 25s ease-in-out infinite alternate;
+}
+
+@media (max-width: 768px) {
+  .animate-ken-burns {
+    animation: none;
+  }
+}
+
+/* Marquee */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .animate-ken-burns,
+  .animate-marquee {
+    animation: none;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-muted);
+}
