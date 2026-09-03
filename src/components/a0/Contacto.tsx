@@ -13,6 +13,7 @@ export default function Contacto() {
             <h2 className="display mt-4 max-w-[14ch] text-foreground sm:mt-5">
               Cuéntame qué quieres{" "}
               <span className="accent-italic normal-case tracking-normal">grabar</span>
+              <span className="text-muted">.</span>
             </h2>
 
             <p className="mt-7 max-w-[42ch] text-[1rem] leading-[1.8] text-muted sm:text-[1.08rem]">

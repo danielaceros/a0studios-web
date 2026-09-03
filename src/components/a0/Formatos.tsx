@@ -58,7 +58,7 @@ export default function Formatos() {
         {/* Qué incluye — glass */}
         <div className="reveal mt-14 grid gap-3 sm:mt-20 sm:gap-4 md:grid-cols-2 xl:grid-cols-4">
           {INCLUYE.map((b) => (
-            <div key={b.title} className="glass glass-hover flex flex-col gap-3 rounded-2xl p-6 sm:p-7">
+            <div key={b.title} className="panel panel-hover flex flex-col gap-3 rounded-2xl p-6 sm:p-7">
               <h4 className="font-heading text-[1.05rem] leading-[1.25] tracking-tight text-foreground">
                 {b.title}
               </h4>

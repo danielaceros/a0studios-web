@@ -56,7 +56,7 @@ export default function Precios() {
           {PLANES.map((plan) => (
             <div
               key={plan.name}
-              className={`reveal glass glass-hover flex h-full flex-col rounded-2xl p-7 sm:p-9 ${
+              className={`reveal panel panel-hover flex h-full flex-col rounded-2xl p-7 sm:p-9 ${
                 plan.destacado ? "!border-white/30" : ""
               }`}
             >

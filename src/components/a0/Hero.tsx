@@ -69,8 +69,8 @@ export default function Hero() {
           <a href="#contacto" className="btn btn-solid">
             Pedir presupuesto
           </a>
-          <a href="#trabajos" className="btn btn-outline">
-            Ver trabajos
+          <a href="#espacio" className="btn btn-outline">
+            Ver el espacio
           </a>
         </div>
       </div>

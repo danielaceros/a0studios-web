@@ -11,7 +11,7 @@ export default function Proceso() {
           {PROCESO.map((step) => (
             <div
               key={step.step}
-              className="reveal glass glass-hover flex flex-col gap-5 rounded-2xl p-7 sm:p-8"
+              className="reveal panel panel-hover flex flex-col gap-5 rounded-2xl p-7 sm:p-8"
             >
               <span className="font-heading text-[clamp(2.6rem,6vw,4rem)] leading-none tracking-tight text-white/18">
                 {String(step.step).padStart(2, "0")}

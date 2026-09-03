@@ -22,7 +22,7 @@ export default function Estudio() {
         {/* Cifras en glass */}
         <div className="reveal mt-14 grid grid-cols-2 gap-3 sm:mt-20 sm:gap-4 lg:grid-cols-4">
           {STATS.map((s) => (
-            <div key={s.label} className="glass rounded-2xl px-5 py-7 sm:px-7 sm:py-9">
+            <div key={s.label} className="panel rounded-2xl px-5 py-7 sm:px-7 sm:py-9">
               <p className="font-heading text-[clamp(1.9rem,4.5vw,3rem)] leading-none tracking-tight text-foreground">
                 {s.value}
               </p>
@@ -33,7 +33,7 @@ export default function Estudio() {
 
         {/* Founder — bloque editorial */}
         <div className="reveal mt-4 grid gap-4 sm:mt-5 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.35fr)]">
-          <div className="glass relative overflow-hidden rounded-2xl">
+          <div className="panel relative overflow-hidden rounded-2xl">
             <Image
               src="/me.webp"
               alt="Dani Acero, fundador y filmmaker de A0 Studios"
@@ -46,7 +46,7 @@ export default function Estudio() {
             </span>
           </div>
 
-          <div className="glass flex flex-col justify-center gap-5 rounded-2xl px-6 py-8 sm:px-10 sm:py-12">
+          <div className="panel flex flex-col justify-center gap-5 rounded-2xl px-6 py-8 sm:px-10 sm:py-12">
             <p className="text-[1rem] leading-[1.8] text-foreground/85 sm:text-[1.15rem] sm:leading-[1.85]">
               Seis años produciendo audiovisual para marcas como{" "}
               <span className="accent-italic">FIFA, IFEMA, Cinesa</span> y la Cámara de Comercio de

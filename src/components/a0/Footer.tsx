@@ -29,7 +29,6 @@ export default function Footer() {
             <nav className="mt-5 flex flex-col gap-2.5" aria-label="Pie de página">
               {[
                 { l: "El estudio", h: "#estudio" },
-                { l: "Trabajos", h: "#trabajos" },
                 { l: "El espacio", h: "#espacio" },
                 { l: "Precios", h: "#precios" },
               ].map((i) => (

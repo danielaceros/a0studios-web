@@ -21,6 +21,7 @@ export default function SectionHead({ label, title, accent, lead, className }: P
           <>
             {" "}
             <span className="accent-italic normal-case tracking-normal">{accent}</span>
+            <span className="text-muted">.</span>
           </>
         ) : null}
       </h2>

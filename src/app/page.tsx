@@ -7,7 +7,6 @@ import Estudio from "@/components/a0/Estudio";
 import Formatos from "@/components/a0/Formatos";
 import Footer from "@/components/a0/Footer";
 
-const Trabajos = dynamic(() => import("@/components/a0/Trabajos"));
 const Espacio = dynamic(() => import("@/components/a0/Espacio"));
 const Proceso = dynamic(() => import("@/components/a0/Proceso"));
 const Precios = dynamic(() => import("@/components/a0/Precios"));
@@ -24,7 +23,6 @@ export default function Home() {
         <LogoStrip />
         <Estudio />
         <Formatos />
-        <Trabajos />
         <Espacio />
         <Proceso />
         <Precios />

@@ -90,7 +90,7 @@ export default function CookieConsent() {
       {visible && (
         <div className="glass fixed bottom-5 left-4 z-[200] w-[calc(100%-2rem)] max-w-[360px] rounded-2xl p-5 sm:bottom-7 sm:left-7 sm:p-6">
           <p className="label text-foreground/45">Cookies</p>
-          <h3 className="mt-2 font-heading text-[1.15rem] uppercase leading-tight tracking-tight text-foreground">
+          <h3 className="mt-2 font-heading text-[1.15rem] leading-tight tracking-tight text-foreground">
             Ajustes de privacidad
           </h3>
           <p className="mt-2 text-[0.85rem] leading-relaxed text-muted">
