@@ -117,18 +117,18 @@ export default function PortfolioCard({
           <path d="M18 14L30 22L18 30V14Z" fill="white" opacity="0.9" />
         </svg>
       </div>
-      {/* Title — always visible */}
+      {/* Client badge — glass pill, top-left, always visible */}
       {hideOverlayTitle ? null : (
-        <span className="pointer-events-none absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent px-4 pb-4 pt-8 font-heading text-[15px] font-semibold uppercase leading-tight tracking-[0.08em] text-white/90 sm:px-5 sm:pb-5 sm:pt-10 sm:text-[18px]">
+        <span className="glass pointer-events-none absolute left-4 top-4 rounded-full px-3.5 py-1.5 font-heading text-[12px] uppercase leading-none tracking-[0.05em] text-white sm:left-5 sm:top-5 sm:text-[13px]">
           {title}
         </span>
       )}
-      <span className="absolute bottom-5 left-5 z-10 h-px w-0 bg-amber transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:w-10" />
+      <span className="absolute bottom-5 left-5 z-10 h-px w-0 bg-white transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:w-10" />
     </>
   )
 
   const baseClass =
-    "group relative block aspect-[4/5] overflow-hidden rounded-xl border border-white/10 bg-background transition-transform duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+    "group relative block aspect-[4/5] overflow-hidden rounded-2xl border border-white/15 bg-background transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-1 hover:border-white/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-black"
 
   if (openInModal) {
     return (

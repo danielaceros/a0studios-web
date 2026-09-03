@@ -10,66 +10,61 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 60);
+    const onScroll = () => setScrolled(window.scrollY > 40);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   return (
-    <header
-      className="fixed z-50 w-full transition-all duration-500"
-      style={{
-        top: "var(--promo-banner-h, 0px)",
-        backgroundColor: scrolled ? "rgba(10, 10, 10, 0.55)" : "transparent",
-        backdropFilter: scrolled ? "blur(20px) saturate(140%)" : "none",
-        WebkitBackdropFilter: scrolled ? "blur(20px) saturate(140%)" : "none",
-        borderBottom: scrolled ? "1px solid rgba(255,255,255,0.08)" : "1px solid transparent",
-      }}
-    >
-      {/* Accent line at top */}
-      <div
-        className="h-px w-full bg-accent transition-opacity duration-500"
-        style={{ opacity: scrolled ? 0.4 : 0 }}
-      />
-
+    <header className="fixed z-50 w-full transition-all duration-500" style={{ top: "var(--promo-banner-h, 0px)" }}>
       <nav
-        className="relative mx-auto flex max-w-7xl items-center justify-between px-5 py-2 sm:px-8 sm:py-3 lg:px-12"
+        className="mx-auto mt-3 flex max-w-[1600px] items-center justify-between px-4 sm:mt-4 sm:px-6 lg:px-8"
         aria-label="Navegación principal"
       >
-        <Link href="/" className="relative z-10 flex items-center gap-2">
+        {/* Logo mark — glass badge, always visible */}
+        <Link
+          href="/"
+          className="glass flex items-center gap-2.5 rounded-full py-1.5 pl-1.5 pr-4 sm:gap-3 sm:py-2 sm:pl-2 sm:pr-5"
+        >
           <Image
             src="/optimized/logo.webp"
             alt="A0 Studios"
-            width={128}
-            height={128}
-            className="h-11 w-11 object-cover object-top sm:h-14 sm:w-14 lg:h-20 lg:w-20"
+            width={96}
+            height={96}
+            className="h-7 w-7 object-contain sm:h-8 sm:w-8"
             priority
             fetchPriority="high"
           />
-          <span className="font-mono text-[10px] uppercase tracking-widest text-muted/50">
+          <span className="font-mono text-[9px] uppercase tracking-[0.25em] text-foreground/50 sm:text-[10px]">
             by @daniaceros
           </span>
         </Link>
 
-        <div className="hidden items-center gap-8 md:flex lg:gap-10">
+        {/* Center links — desktop only, own glass pill */}
+        <div
+          className={`glass hidden items-center gap-7 rounded-full px-7 py-2.5 transition-opacity duration-500 md:flex lg:gap-9 ${
+            scrolled ? "opacity-100" : "opacity-90"
+          }`}
+        >
           {NAV_LINKS.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className="group relative font-mono text-[11px] font-medium uppercase tracking-[0.2em] text-foreground/60 transition-colors duration-300 hover:text-foreground"
+              className="font-mono text-[10.5px] font-medium uppercase tracking-[0.18em] text-foreground/65 transition-colors duration-300 hover:text-foreground"
             >
               {link.label}
-              <span className="absolute -bottom-1 left-0 h-px w-0 bg-accent transition-all duration-300 group-hover:w-full" />
             </a>
           ))}
-          <Link
-            href="/#contacto"
-            className="border border-accent/40 px-6 py-2.5 font-mono text-[11px] font-medium uppercase tracking-[0.2em] text-foreground transition-all duration-300 hover:border-accent hover:bg-accent hover:text-background"
-          >
-            Pedir Presupuesto
-          </Link>
         </div>
+
+        {/* CTA — desktop */}
+        <Link
+          href="/#contacto"
+          className="glass glass-hover hidden rounded-full px-6 py-2.5 font-mono text-[10.5px] font-medium uppercase tracking-[0.18em] text-foreground md:inline-block"
+        >
+          Pedir Presupuesto
+        </Link>
 
         <div className="flex items-center gap-3 md:hidden">
           <MobileMenu />

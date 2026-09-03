@@ -719,7 +719,7 @@ export default function VirtualTour() {
       <div className="mx-auto max-w-7xl">
         <ScrollReveal>
           <p className="font-mono text-[10px] uppercase tracking-[0.4em] text-muted">
-            04 · TOUR VIRTUAL
+            05 · TOUR VIRTUAL
           </p>
         </ScrollReveal>
 

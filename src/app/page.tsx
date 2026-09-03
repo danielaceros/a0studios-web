@@ -10,6 +10,10 @@ const QueEs = dynamic(() => import("@/components/sections/QueEs"), {
   loading: () => <div className="min-h-[600px]" />,
 });
 
+const Portfolio = dynamic(() => import("@/components/sections/Portfolio"), {
+  loading: () => <div className="min-h-[600px]" />,
+});
+
 const Comparativa = dynamic(() => import("@/components/sections/Comparativa"), {
   loading: () => <div className="min-h-[500px]" />,
 });
@@ -44,6 +48,7 @@ export default function Home() {
         <SocialProof />
         <QueEs />
         <Beneficios />
+        <Portfolio openVideosInModal desktopSlideshow />
         <Comparativa />
         <VirtualTour />
         <Proceso />

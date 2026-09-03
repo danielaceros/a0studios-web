@@ -1,93 +1,57 @@
 "use client";
 
-import { useRef } from "react";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 
 const CONTENT_TYPES = [
-  { icon: "🎙️", title: "Podcast & Entrevistas", desc: "Sets preparados para grabación en solitario o con invitados.", num: "01" },
-  { icon: "📱", title: "Reels / TikToks / Shorts", desc: "Contenido vertical optimizado para redes sociales.", num: "02" },
-  { icon: "🎬", title: "Vídeo Corporativo & Marca Personal", desc: "Para LinkedIn, web, presentaciones y VSLs.", num: "03" },
-  { icon: "🎓", title: "Cursos & Formación Online", desc: "Graba módulos completos en una sola sesión.", num: "04" },
+  { title: "Podcast & Entrevistas", desc: "Sets preparados para grabación en solitario o con invitados.", num: "01" },
+  { title: "Reels / TikToks / Shorts", desc: "Contenido vertical optimizado para redes sociales.", num: "02" },
+  { title: "Vídeo Corporativo & Marca Personal", desc: "Para LinkedIn, web, presentaciones y VSLs.", num: "03" },
+  { title: "Cursos & Formación Online", desc: "Graba módulos completos en una sola sesión.", num: "04" },
 ];
 
-function ContentCard({ item, index }: { item: (typeof CONTENT_TYPES)[number]; index: number }) {
-  const cardRef = useRef<HTMLDivElement>(null);
-
-  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-    const card = cardRef.current;
-    if (!card) return;
-    const rect = card.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
-    card.style.setProperty("--mouse-x", `${x}px`);
-    card.style.setProperty("--mouse-y", `${y}px`);
-  };
-
-  return (
-    <ScrollReveal delay={0.12 + index * 0.08}>
-      <div
-        ref={cardRef}
-        onMouseMove={handleMouseMove}
-        className="group relative flex h-full flex-col gap-4 overflow-hidden border border-foreground/[0.06] bg-foreground/[0.02] p-4 transition-all duration-500 hover:border-foreground/[0.12] hover:bg-foreground/[0.04] sm:p-6 md:p-8"
-      >
-        {/* Hover glow effect */}
-        <div
-          className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100"
-          style={{
-            background: "radial-gradient(300px circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(255,255,255,0.04), transparent 60%)",
-          }}
-        />
-
-        {/* Number + icon row */}
-        <div className="relative z-10 flex items-center justify-between">
-          <span className="font-mono text-[11px] tracking-[0.3em] text-foreground/20">
-            {item.num}
-          </span>
-          <span className="text-2xl transition-transform duration-500 group-hover:scale-110 sm:text-3xl">
-            {item.icon}
-          </span>
-        </div>
-
-        {/* Title */}
-        <h3 className="relative z-10 font-heading text-[1.1rem] uppercase leading-tight tracking-wide text-foreground transition-colors duration-300 group-hover:text-accent sm:text-[1.2rem]">
-          {item.title}
-        </h3>
-
-        {/* Description */}
-        <p className="relative z-10 text-[0.85rem] leading-relaxed text-muted sm:text-[0.9rem]">
-          {item.desc}
-        </p>
-
-        {/* Bottom accent line */}
-        <div className="absolute bottom-0 left-0 h-px w-0 bg-accent transition-all duration-500 group-hover:w-full" />
-      </div>
-    </ScrollReveal>
-  );
-}
+const STATS = [
+  { value: "28+", label: "Proyectos completados" },
+  { value: "500+", label: "Horas de grabación" },
+  { value: "12", label: "Piezas editadas / sesión" },
+  { value: "1", label: "Sesión exclusiva al día" },
+];
 
 export default function QueEs() {
   return (
-    <section
-      id="estudio"
-      className="px-5 py-24 sm:px-8 sm:py-32 md:px-10 lg:px-12 lg:py-40 xl:px-16 2xl:px-20"
-    >
+    <section id="estudio" className="px-4 py-24 sm:px-6 sm:py-32 md:px-8 lg:px-10 lg:py-40 xl:px-14 2xl:px-16">
       <div className="mx-auto max-w-7xl">
         <ScrollReveal>
-          <p className="font-mono text-[10px] uppercase tracking-[0.4em] text-muted">
-            01 · EL ESTUDIO
-          </p>
+          <p className="font-mono text-[10px] uppercase tracking-[0.4em] text-muted">01 · EL ESTUDIO</p>
         </ScrollReveal>
 
         <ScrollReveal delay={0.08}>
           <h2 className="mt-6 max-w-4xl font-heading text-[clamp(2.4rem,9vw,7rem)] uppercase leading-[0.9] text-foreground sm:mt-8 sm:leading-[0.85]">
-            Qué puedes Grabar.
+            Qué puedes <span className="accent-italic normal-case tracking-normal">Grabar</span>.
           </h2>
         </ScrollReveal>
 
-        {/* Content types grid */}
-        <div className="mt-14 grid grid-cols-1 gap-4 sm:mt-16 sm:grid-cols-2 sm:gap-5 lg:grid-cols-4 lg:gap-6">
+        {/* Stat tiles — glass */}
+        <div className="mt-12 grid grid-cols-2 gap-3 sm:mt-14 sm:gap-4 lg:grid-cols-4">
+          {STATS.map((s) => (
+            <div key={s.label} className="glass rounded-2xl px-5 py-6 sm:px-6 sm:py-8">
+              <p className="font-heading text-[clamp(1.8rem,4vw,2.8rem)] leading-none text-foreground">{s.value}</p>
+              <p className="mt-2 font-mono text-[10px] uppercase tracking-[0.12em] text-muted sm:text-[11px]">{s.label}</p>
+            </div>
+          ))}
+        </div>
+
+        {/* Content types — glass grid */}
+        <div className="mt-4 grid grid-cols-1 gap-3 sm:mt-5 sm:grid-cols-2 sm:gap-4 lg:grid-cols-4">
           {CONTENT_TYPES.map((item, i) => (
-            <ContentCard key={item.title} item={item} index={i} />
+            <ScrollReveal key={item.title} delay={0.1 + i * 0.06}>
+              <div className="glass glass-hover flex h-full flex-col gap-4 rounded-2xl p-5 sm:p-6">
+                <span className="font-mono text-[11px] tracking-[0.3em] text-foreground/30">{item.num}</span>
+                <h3 className="font-heading text-[1.05rem] uppercase leading-tight tracking-wide text-foreground sm:text-[1.15rem]">
+                  {item.title}
+                </h3>
+                <p className="text-[0.85rem] leading-relaxed text-muted sm:text-[0.9rem]">{item.desc}</p>
+              </div>
+            </ScrollReveal>
           ))}
         </div>
 

@@ -286,7 +286,7 @@ export default function Comparativa() {
       <div className="mx-auto max-w-7xl">
         <ScrollReveal>
           <p className="font-mono text-[10px] uppercase tracking-[0.4em] text-muted">
-            03 · TESTIMONIOS
+            04 · TESTIMONIOS
           </p>
         </ScrollReveal>
 

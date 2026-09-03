@@ -17,7 +17,7 @@ export default function CTA() {
             <div className="lg:sticky lg:top-[130px]">
               <ScrollReveal>
                 <p className="font-mono text-[11px] uppercase tracking-[0.4em] text-accent">
-                  08 · CONTACTO
+                  09 · CONTACTO
                 </p>
               </ScrollReveal>
 

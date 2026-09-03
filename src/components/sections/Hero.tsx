@@ -69,18 +69,18 @@ export default function Hero() {
           className="flex min-h-[100svh] flex-1 flex-col justify-end pb-16 px-5 sm:px-8 md:justify-center md:pb-0 lg:min-h-0 lg:w-[55%] lg:px-0 lg:pb-12"
           style={{ willChange: "transform" }}
         >
-          {/* Terminal-style label — visually reinforced */}
-          <div className="hero-line-wrapper mb-4 sm:mb-5">
+          {/* Eyebrow — glass pill */}
+          <div className="hero-line-wrapper mb-5 sm:mb-6">
             <p
-              className="hero-line font-mono text-sm uppercase leading-relaxed tracking-wide text-accent sm:text-base md:tracking-[0.2em]"
+              className="hero-line glass inline-block rounded-full px-4 py-1.5 font-mono text-[10px] uppercase leading-relaxed tracking-[0.16em] text-foreground/80 sm:px-5 sm:text-[11px] md:tracking-[0.22em]"
               style={{ animationDelay: "0.2s" }}
             >
-              [ Graba contenido para semanas. En una mañana. En un ático en Madrid. ]
+              Contenido para semanas · en una mañana · en un ático de Madrid
             </p>
           </div>
 
-          {/* Cinematic line-by-line reveal */}
-          <h1 className="max-w-[1100px] font-heading text-[clamp(2.2rem,11vw,6.5rem)] uppercase leading-[0.95] tracking-tight text-foreground [text-shadow:0_2px_20px_rgba(0,0,0,0.7)] sm:text-[clamp(2.8rem,7vw,6.5rem)] sm:leading-[0.86] md:leading-[0.85]">
+          {/* Oversized editorial reveal */}
+          <h1 className="max-w-[1200px] font-heading text-[clamp(2.4rem,10vw,5.8rem)] uppercase leading-[0.92] tracking-tight text-foreground [text-shadow:0_4px_40px_rgba(0,0,0,0.8)] sm:text-[clamp(2.8rem,6vw,5.8rem)] sm:leading-[0.86] md:leading-[0.84]">
             {LINES.map((line, i) => (
               <span key={i} className="hero-line-wrapper inline-block w-full">
                 <span
@@ -111,7 +111,7 @@ export default function Hero() {
           <div className="hero-line-wrapper mt-8 lg:hidden">
             <a
               href="#contacto"
-              className="hero-line inline-block bg-accent px-10 py-4 font-mono text-[12px] uppercase tracking-[0.15em] text-background transition-all duration-300 hover:bg-accent-light sm:text-[11px]"
+              className="hero-line inline-block rounded-full bg-accent px-10 py-4 font-mono text-[12px] uppercase tracking-[0.15em] text-background transition-all duration-300 hover:bg-accent-light sm:text-[11px]"
               style={{ animationDelay: "1.1s" }}
             >
               Pide tu Presupuesto →

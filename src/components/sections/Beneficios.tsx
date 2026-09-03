@@ -13,7 +13,7 @@ export default function Beneficios() {
 
         <ScrollReveal delay={0.08}>
           <h2 className="mt-6 max-w-4xl font-heading text-[clamp(2.4rem,9vw,7rem)] uppercase leading-[0.9] text-foreground sm:mt-8 sm:leading-[0.85]">
-            Lo que te Llevas.
+            Lo que te <span className="accent-italic normal-case tracking-normal">Llevas</span>.
           </h2>
         </ScrollReveal>
 
@@ -56,7 +56,7 @@ export default function Beneficios() {
           <div className="mt-6 text-center sm:mt-16">
             <a
               href="#contacto"
-              className="inline-block bg-accent px-10 py-4 font-mono text-[12px] uppercase tracking-[0.15em] text-background transition-all duration-300 hover:bg-accent-light sm:text-[11px]"
+              className="inline-block rounded-full bg-accent px-10 py-4 font-mono text-[12px] uppercase tracking-[0.15em] text-background transition-all duration-300 hover:bg-accent-light sm:text-[11px]"
             >
               Graba Conmigo →
             </a>

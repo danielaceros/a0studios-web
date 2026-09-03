@@ -24,13 +24,13 @@ export default function Portfolio({
       id="portfolio"
       className="pb-24 pt-16 sm:py-32 lg:py-40"
     >
-      <div className="px-5 pb-8 sm:px-8 sm:pb-10 md:px-10 lg:px-12 lg:pb-12">
+      <div className="px-4 pb-8 sm:px-6 sm:pb-10 md:px-8 lg:px-10 lg:pb-12 xl:px-14">
         <ScrollReveal>
-          <p className="font-mono text-[10px] uppercase tracking-[0.4em] text-muted">( Portfolio )</p>
+          <p className="font-mono text-[10px] uppercase tracking-[0.4em] text-muted">03 · CLIENTES</p>
         </ScrollReveal>
         <ScrollReveal delay={0.08}>
           <h2 className="mt-4 font-heading text-[clamp(2.4rem,9vw,7rem)] uppercase leading-[0.9] text-foreground">
-            Trabajos Recientes.
+            Marcas que ya <span className="accent-italic normal-case tracking-normal">Grabaron</span>.
           </h2>
         </ScrollReveal>
       </div>
@@ -165,7 +165,7 @@ export default function Portfolio({
             `}</style>
           </>
         ) : (
-          <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 sm:gap-3 lg:grid-cols-4">
+          <div className="grid grid-cols-2 gap-3 px-4 sm:grid-cols-3 sm:gap-4 sm:px-6 md:px-8 lg:grid-cols-3 lg:px-10 xl:px-14">
             {selectedProjects.map((project, i) => (
               <PortfolioCard
                 key={project.slug}
@@ -185,7 +185,7 @@ export default function Portfolio({
           <div className="mt-12 text-center sm:mt-16">
             <a
               href="#contacto"
-              className="inline-block bg-accent px-10 py-4 font-mono text-[12px] uppercase tracking-[0.15em] text-background transition-all duration-300 hover:bg-accent-light sm:text-[11px]"
+              className="inline-block rounded-full bg-accent px-10 py-4 font-mono text-[12px] uppercase tracking-[0.15em] text-background transition-all duration-300 hover:bg-accent-light sm:text-[11px]"
             >
               Crea el tuyo →
             </a>

@@ -119,13 +119,13 @@ export default function Tarifas() {
       <div className="mx-auto max-w-7xl">
         <ScrollReveal>
           <p className="font-mono text-[10px] uppercase tracking-[0.4em] text-muted">
-            06 · OPCIONES
+            07 · OPCIONES
           </p>
         </ScrollReveal>
 
         <ScrollReveal delay={0.08}>
           <h2 className="mt-4 max-w-4xl font-heading text-[clamp(2.4rem,9vw,7rem)] uppercase leading-[0.9] text-foreground sm:mt-6 sm:leading-[0.85]">
-            Elige lo que Necesitas.
+            Elige lo que <span className="accent-italic normal-case tracking-normal">Necesitas</span>.
           </h2>
         </ScrollReveal>
 

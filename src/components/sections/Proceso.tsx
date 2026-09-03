@@ -53,7 +53,7 @@ export default function Proceso() {
         <div className="mx-auto max-w-7xl">
           <ScrollReveal>
             <p className="font-mono text-[10px] uppercase tracking-[0.4em] text-muted">
-              05 · PROCESO
+              06 · PROCESO
             </p>
           </ScrollReveal>
           <ScrollReveal delay={0.08}>
@@ -110,7 +110,7 @@ export default function Proceso() {
         <div className="mx-auto max-w-7xl">
           <ScrollReveal>
             <p className="font-mono text-[10px] uppercase tracking-[0.4em] text-muted">
-              05 · PROCESO
+              06 · PROCESO
             </p>
           </ScrollReveal>
           <ScrollReveal delay={0.08}>
