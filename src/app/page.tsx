@@ -1,60 +1,36 @@
 import dynamic from "next/dynamic";
-import Navbar from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
-import Hero from "@/components/sections/Hero";
-import Founder from "@/components/sections/Founder";
-import SocialProof from "@/components/sections/SocialProof";
-import Beneficios from "@/components/sections/Beneficios";
 
-const QueEs = dynamic(() => import("@/components/sections/QueEs"), {
-  loading: () => <div className="min-h-[600px]" />,
-});
+import Nav from "@/components/a0/Nav";
+import Hero from "@/components/a0/Hero";
+import LogoStrip from "@/components/a0/LogoStrip";
+import Estudio from "@/components/a0/Estudio";
+import Formatos from "@/components/a0/Formatos";
+import Footer from "@/components/a0/Footer";
 
-const Portfolio = dynamic(() => import("@/components/sections/Portfolio"), {
-  loading: () => <div className="min-h-[600px]" />,
-});
-
-const Comparativa = dynamic(() => import("@/components/sections/Comparativa"), {
-  loading: () => <div className="min-h-[500px]" />,
-});
-
-const VirtualTour = dynamic(() => import("@/components/sections/VirtualTour"), {
-  loading: () => <div className="min-h-[600px]" />,
-});
-
-const Proceso = dynamic(() => import("@/components/sections/Proceso"), {
-  loading: () => <div className="min-h-[700px]" />,
-});
-
-const Tarifas = dynamic(() => import("@/components/sections/Tarifas"), {
-  loading: () => <div className="min-h-[800px]" />,
-});
-
-const FAQ = dynamic(() => import("@/components/sections/FAQ"), {
-  loading: () => <div className="min-h-[600px]" />,
-});
-
-const CTA = dynamic(() => import("@/components/sections/CTA"), {
-  loading: () => <div className="min-h-[500px]" />,
-});
+const Trabajos = dynamic(() => import("@/components/a0/Trabajos"));
+const Espacio = dynamic(() => import("@/components/a0/Espacio"));
+const Proceso = dynamic(() => import("@/components/a0/Proceso"));
+const Precios = dynamic(() => import("@/components/a0/Precios"));
+const Testimonios = dynamic(() => import("@/components/a0/Testimonios"));
+const Faq = dynamic(() => import("@/components/a0/Faq"));
+const Contacto = dynamic(() => import("@/components/a0/Contacto"));
 
 export default function Home() {
   return (
     <>
-      <Navbar />
+      <Nav />
       <main>
         <Hero />
-        <Founder />
-        <SocialProof />
-        <QueEs />
-        <Beneficios />
-        <Portfolio openVideosInModal desktopSlideshow />
-        <Comparativa />
-        <VirtualTour />
+        <LogoStrip />
+        <Estudio />
+        <Formatos />
+        <Trabajos />
+        <Espacio />
         <Proceso />
-        <Tarifas />
-        <FAQ />
-        <CTA />
+        <Precios />
+        <Testimonios />
+        <Faq />
+        <Contacto />
       </main>
       <Footer />
     </>

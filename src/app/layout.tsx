@@ -4,7 +4,6 @@ import Script from "next/script";
 import { siteMetadata } from "@/lib/metadata";
 import { getProfessionalServiceSchema, getWebSiteSchema, getWebPageSchema, getBreadcrumbSchema, getVideoSchema } from "@/lib/structured-data";
 // GrainOverlay removed per user request
-import CustomCursor from "@/components/ui/CustomCursor";
 import SmoothScroll from "@/components/ui/SmoothScroll";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
 import CookieConsent from "@/components/CookieConsent";
@@ -111,7 +110,6 @@ export default function RootLayout({
         />
       </head>
       <body>
-        <CustomCursor />
         <SmoothScroll />
         {children}
         <WhatsAppButton />

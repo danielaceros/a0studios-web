@@ -1,58 +1,25 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background: #060606;
-  --color-foreground: #FFFFFF;
-  --color-muted: #6E6E6E;
-  --color-border: #1D1D1D;
-  --color-card: #0D0D0D;
-  --color-card-hover: #131313;
+  /* ── A0 Studios · blanco y negro ── */
+  --color-background: #050505;
+  --color-foreground: #F7F6F3;
+  --color-muted: #8A8A85;
+  --color-border: #1C1C1A;
+  --color-card: #0C0C0B;
+  --color-card-hover: #131312;
   --color-accent: #FFFFFF;
   --color-accent-light: #FFFFFF;
-  --color-accent-dark: #CCCCCC;
-  /* Keep amber as alias for accent so existing classes still work */
+  --color-accent-dark: #CFCFCA;
   --color-amber: #FFFFFF;
   --color-amber-light: #FFFFFF;
-  --color-amber-dark: #CCCCCC;
+  --color-amber-dark: #CFCFCA;
 
-  --font-heading: var(--font-archivo), "Helvetica Neue", "Arial", sans-serif;
-  --font-weight-heading: 650;
+  --font-heading: var(--font-archivo), "Helvetica Neue", Arial, sans-serif;
   --font-accent: var(--font-playfair-italic), "Times New Roman", serif;
   --font-body: var(--font-dm-sans);
   --font-mono: var(--font-dm-mono);
 }
-
-/* Liquid-glass surface — translucent, blurred, hairline edge, soft top highlight */
-.glass {
-  background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
-  backdrop-filter: blur(20px) saturate(140%);
-  -webkit-backdrop-filter: blur(20px) saturate(140%);
-  border: 1px solid rgba(255,255,255,0.12);
-  box-shadow:
-    inset 0 1px 0 rgba(255,255,255,0.14),
-    0 8px 30px rgba(0,0,0,0.35);
-}
-
-.glass-hover {
-  transition: background 0.35s ease, border-color 0.35s ease, transform 0.35s ease;
-}
-.glass-hover:hover {
-  background: linear-gradient(180deg, rgba(255,255,255,0.13), rgba(255,255,255,0.04));
-  border-color: rgba(255,255,255,0.22);
-}
-
-.font-heading {
-  font-weight: 650;
-  letter-spacing: -0.01em;
-}
-
-.accent-italic {
-  font-family: var(--font-accent);
-  font-style: italic;
-  font-weight: 500;
-}
-
-/* Base — smooth scroll handled by SmoothScroll.tsx */
 
 body {
   background-color: var(--color-background);
@@ -61,78 +28,121 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-  letter-spacing: 0.01em;
 }
 
 section[id] {
-  scroll-margin-top: 130px;
-}
-
-.hero-video-pos {
-  object-position: 20% center;
-}
-@media (min-width: 768px) {
-  .hero-video-pos {
-    object-position: center;
-  }
-}
-
-@media (min-width: 1024px) {
-  section[id] {
-    scroll-margin-top: 140px;
-  }
+  scroll-margin-top: 110px;
 }
 
 ::selection {
-  background-color: var(--color-amber);
-  color: var(--color-background);
+  background-color: #ffffff;
+  color: #050505;
 }
 
-/* Ken Burns */
-@keyframes ken-burns {
-  0% { transform: scale(1); }
-  100% { transform: scale(1.08); }
+/* ── Tipografía ── */
+.font-heading {
+  font-weight: 650;
+  letter-spacing: -0.015em;
 }
 
-.animate-ken-burns {
-  animation: ken-burns 25s ease-in-out infinite alternate;
+.accent-italic {
+  font-family: var(--font-accent);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.005em;
 }
 
-@media (max-width: 768px) {
-  .animate-ken-burns {
-    animation: none;
+/* Etiqueta mono tracked-out — eyebrows, metadatos, numeración */
+.label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  line-height: 1;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+@media (min-width: 640px) {
+  .label { font-size: 11px; }
+}
+
+/* Título de sección gigante */
+.display {
+  font-family: var(--font-heading);
+  font-weight: 650;
+  text-transform: uppercase;
+  line-height: 0.86;
+  letter-spacing: -0.02em;
+  font-size: clamp(2.5rem, 8vw, 6.5rem);
+}
+
+/* ── Liquid glass ── */
+.glass {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.02));
+  backdrop-filter: blur(22px) saturate(150%);
+  -webkit-backdrop-filter: blur(22px) saturate(150%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.16),
+    0 10px 40px rgba(0, 0, 0, 0.4);
+}
+.glass-hover {
+  transition: background 0.4s ease, border-color 0.4s ease, transform 0.4s ease;
+}
+.glass-hover:hover {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.04));
+  border-color: rgba(255, 255, 255, 0.24);
+}
+
+/* Regla fina de separación editorial */
+.rule {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.11);
+}
+
+/* ── Reveal 100% CSS (scroll-driven). Sin JS = contenido siempre visible ── */
+.reveal {
+  opacity: 1;
+}
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal {
+      animation: revealUp linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 60%;
+    }
+  }
+}
+@keyframes revealUp {
+  from {
+    opacity: 0;
+    transform: translateY(26px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-/* Marquee */
-@keyframes marquee {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+/* Marquee de logos */
+@keyframes marqueeX {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(-50%, 0, 0); }
 }
-
-.animate-marquee {
-  animation: marquee 40s linear infinite;
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marqueeX 42s linear infinite;
 }
-
-/* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
-  .animate-ken-burns,
-  .animate-marquee {
-    animation: none;
-  }
+  .marquee-track { animation: none; }
 }
 
 /* Scrollbar */
-::-webkit-scrollbar {
-  width: 6px;
-}
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-::-webkit-scrollbar-thumb {
-  background: var(--color-border);
-  border-radius: 3px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: var(--color-muted);
-}
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #262624; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #3a3a37; }
+
+/* Scroller horizontal sin barra visible */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
