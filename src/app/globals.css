@@ -15,7 +15,8 @@
   --color-amber-light: #FFFFFF;
   --color-amber-dark: #CCCCCC;
 
-  --font-heading: var(--font-archivo-black), "Arial Black", sans-serif;
+  --font-heading: var(--font-archivo), "Helvetica Neue", "Arial", sans-serif;
+  --font-weight-heading: 650;
   --font-accent: var(--font-playfair-italic), "Times New Roman", serif;
   --font-body: var(--font-dm-sans);
   --font-mono: var(--font-dm-mono);
@@ -38,6 +39,11 @@
 .glass-hover:hover {
   background: linear-gradient(180deg, rgba(255,255,255,0.13), rgba(255,255,255,0.04));
   border-color: rgba(255,255,255,0.22);
+}
+
+.font-heading {
+  font-weight: 650;
+  letter-spacing: -0.01em;
 }
 
 .accent-italic {

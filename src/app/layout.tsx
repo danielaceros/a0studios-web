@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Archivo_Black, Playfair_Display, DM_Sans, DM_Mono } from "next/font/google";
+import { Archivo, Playfair_Display, DM_Sans, DM_Mono } from "next/font/google";
 import Script from "next/script";
 import { siteMetadata } from "@/lib/metadata";
 import { getProfessionalServiceSchema, getWebSiteSchema, getWebPageSchema, getBreadcrumbSchema, getVideoSchema } from "@/lib/structured-data";
@@ -10,10 +10,10 @@ import WhatsAppButton from "@/components/ui/WhatsAppButton";
 import CookieConsent from "@/components/CookieConsent";
 import "./globals.css";
 
-const archivoBlack = Archivo_Black({
-  weight: "400",
+const archivo = Archivo({
+  weight: ["500", "600", "700"],
   subsets: ["latin", "latin-ext"],
-  variable: "--font-archivo-black",
+  variable: "--font-archivo",
   display: "swap",
 });
 
@@ -46,7 +46,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className={`${archivoBlack.variable} ${playfairDisplay.variable} ${dmSans.variable} ${dmMono.variable}`}>
+    <html lang="es" className={`${archivo.variable} ${playfairDisplay.variable} ${dmSans.variable} ${dmMono.variable}`}>
       <head>
         {/* Inline script (not Next Script) to run before ANY other JS — catches
             webkit.messageHandlers errors thrown by Instagram/TikTok iOS WebViews */}
