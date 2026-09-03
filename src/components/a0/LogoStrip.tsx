@@ -14,7 +14,7 @@ export default function LogoStrip() {
             "linear-gradient(to right, transparent 0%, black 12%, black 88%, transparent 100%)",
         }}
       >
-        <div className="marquee-track items-center gap-20 sm:gap-28">
+        <div className="marquee-track items-center gap-10 sm:gap-12">
           {[0, 1].map((copy) => (
             <Image
               key={copy}

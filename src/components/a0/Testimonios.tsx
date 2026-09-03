@@ -54,7 +54,7 @@ function Card({ t }: { t: T }) {
             <track kind="captions" />
           </video>
         )}
-        <span className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/85 via-black/10 to-transparent" />
+        <span className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/90 via-black/55 via-45% to-transparent" />
 
         <div className="absolute inset-x-0 bottom-0 p-5">
           <p className="accent-italic text-[1.02rem] leading-[1.5] text-white">“{t.quote}”</p>

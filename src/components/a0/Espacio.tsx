@@ -66,7 +66,8 @@ export default function Espacio() {
                 className="h-auto w-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]"
               />
               <span className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60 transition-opacity duration-500 group-hover:opacity-90" />
-              <span className="glass pointer-events-none absolute left-3 top-3 rounded-full px-3 py-1.5 font-mono text-[9px] uppercase tracking-[0.18em] text-foreground">
+              <span className="pointer-events-none absolute inset-x-0 top-0 h-16 bg-gradient-to-b from-black/55 to-transparent" />
+              <span className="glass pointer-events-none absolute left-3 top-3 rounded-full bg-black/35 px-3 py-1.5 font-mono text-[9px] uppercase tracking-[0.18em] text-foreground">
                 {shot.zone}
               </span>
               <span className="pointer-events-none absolute bottom-3 left-3 right-3 text-left text-[12px] text-white/85">

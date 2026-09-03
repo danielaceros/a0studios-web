@@ -19,7 +19,7 @@ export function getProfessionalServiceSchema() {
       height: 256,
     },
     image: [
-      `${SITE_URL}/og-image.jpg`,
+      `${SITE_URL}/optimized/og-image.jpg`,
       `${SITE_URL}/optimized/studio-1.webp`,
       `${SITE_URL}/optimized/studio-2.webp`,
     ],
@@ -238,7 +238,7 @@ export function getVideoSchema() {
     name: "A0 Studios - Showreel",
     description:
       "Portfolio de producciones audiovisuales realizadas en A0 Studios, estudio de grabación premium en Madrid.",
-    thumbnailUrl: `${SITE_URL}/og-image.jpg`,
+    thumbnailUrl: `${SITE_URL}/optimized/og-image.jpg`,
     uploadDate: "2024-01-01",
     duration: "PT30S",
     contentUrl: `${SITE_URL}/video/corr.mp4`,
