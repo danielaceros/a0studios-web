@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section className="relative flex min-h-[100svh] flex-col justify-between overflow-hidden pb-8 pt-28 sm:pt-32">
@@ -33,24 +35,36 @@ export default function Hero() {
 
       {/* Wordmark con eco */}
       <div className="relative flex flex-1 flex-col items-center justify-center px-4">
-        <div className="relative w-full select-none text-center">
-          <span
-            aria-hidden="true"
-            className="pointer-events-none absolute inset-x-0 -top-[0.62em] block font-heading text-[clamp(3.2rem,15.5vw,13rem)] uppercase leading-[0.8] tracking-[-0.03em] text-white/[0.07]"
-          >
-            A0 Studios
-          </span>
+        <div className="relative flex w-full min-w-0 select-none justify-center">
+          <div className="relative w-[clamp(18rem,90vw,74rem)] max-w-full min-w-0">
+            <Image
+              aria-hidden="true"
+              src="/optimized/wordmark-hero.webp"
+              alt=""
+              width={1257}
+              height={252}
+              className="pointer-events-none absolute left-1/2 top-1/2 h-auto w-full -translate-x-1/2 -translate-y-[162%] object-contain opacity-[0.07]"
+            />
 
-          <h1 className="relative font-heading text-[clamp(3.2rem,15.5vw,13rem)] uppercase leading-[0.8] tracking-[-0.03em] text-foreground">
-            A0 Studios
-          </h1>
+            <Image
+              src="/optimized/wordmark-hero.webp"
+              alt="A0 Studios"
+              width={1257}
+              height={252}
+              priority
+              fetchPriority="high"
+              className="relative h-auto w-full object-contain"
+            />
 
-          <span
-            aria-hidden="true"
-            className="pointer-events-none absolute inset-x-0 top-[0.62em] block font-heading text-[clamp(3.2rem,15.5vw,13rem)] uppercase leading-[0.8] tracking-[-0.03em] text-white/[0.07]"
-          >
-            A0 Studios
-          </span>
+            <Image
+              aria-hidden="true"
+              src="/optimized/wordmark-hero.webp"
+              alt=""
+              width={1257}
+              height={252}
+              className="pointer-events-none absolute left-1/2 top-1/2 h-auto w-full -translate-x-1/2 translate-y-[62%] object-contain opacity-[0.07]"
+            />
+          </div>
         </div>
 
         <p className="mt-10 max-w-[30ch] text-center text-[0.95rem] leading-[1.6] text-foreground/70 sm:mt-14 sm:max-w-none sm:text-[1.05rem]">

@@ -17,9 +17,9 @@ export default function Footer() {
             src="/optimized/logo.webp"
             alt=""
             aria-hidden="true"
-            width={96}
-            height={96}
-            className="mb-2 h-8 w-8 shrink-0 object-contain opacity-40 sm:h-10 sm:w-10"
+            width={1257}
+            height={252}
+            className="mb-2 h-6 w-auto shrink-0 object-contain opacity-40 sm:h-8"
           />
         </div>
 

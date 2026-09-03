@@ -14,9 +14,9 @@ export function getProfessionalServiceSchema() {
     foundingDate: "2024-01-01",
     logo: {
       "@type": "ImageObject",
-      url: `${SITE_URL}/optimized/logo.webp`,
-      width: 256,
-      height: 256,
+      url: `${SITE_URL}/optimized/logo-brand.jpg`,
+      width: 1573,
+      height: 604,
     },
     image: [
       `${SITE_URL}/optimized/og-image.jpg`,

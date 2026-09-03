@@ -37,18 +37,17 @@ export default function Nav() {
           {/* Marca */}
           <Link
             href="/"
-            className="glass flex shrink-0 items-center gap-2.5 rounded-full py-1.5 pl-2 pr-4 sm:py-2 sm:pr-5"
+            className="glass flex shrink-0 items-center rounded-full py-2 pl-4 pr-4 sm:py-2.5 sm:pr-5"
           >
             <Image
               src="/optimized/logo.webp"
               alt="A0 Studios"
-              width={96}
-              height={96}
-              className="h-6 w-6 object-contain sm:h-7 sm:w-7"
+              width={1257}
+              height={252}
+              className="h-4 w-auto object-contain sm:h-[18px]"
               priority
               fetchPriority="high"
             />
-            <span className="label !tracking-[0.22em] text-foreground/55">A0 Studios</span>
           </Link>
 
           {/* Enlaces — escritorio */}

@@ -30,9 +30,9 @@ export default function Navbar() {
           <Image
             src="/optimized/logo.webp"
             alt="A0 Studios"
-            width={96}
-            height={96}
-            className="h-7 w-7 object-contain sm:h-8 sm:w-8"
+            width={1257}
+            height={252}
+            className="h-4 w-auto object-contain sm:h-[18px]"
             priority
             fetchPriority="high"
           />
