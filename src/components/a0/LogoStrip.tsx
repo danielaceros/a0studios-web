@@ -24,7 +24,7 @@ export default function LogoStrip() {
             <Image
               key={copy}
               src="/optimized/logos-banner-trim.png"
-              alt={copy === 0 ? "FIFA, IFEMA, Cinesa y Cámara de Comercio de Madrid" : ""}
+              alt={copy === 0 ? "IFEMA, Cinesa y Cámara de Comercio de Madrid" : ""}
               aria-hidden={copy !== 0}
               width={894}
               height={81}

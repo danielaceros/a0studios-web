@@ -1,7 +1,7 @@
 export const SITE_URL = "https://www.a0studios.es";
 export const SITE_NAME = "A0 Studios";
 export const SITE_DESCRIPTION =
-  "El estudio de Dani Acero — filmmaker de FIFA, IFEMA y Cinesa. Graba podcast, reels y contenido corporativo en un ático en Madrid centro con equipo y dirección incluidos.";
+  "El estudio de Dani Acero — filmmaker de IFEMA, Cinesa y la Cámara de Comercio de Madrid. Graba podcast, reels y contenido corporativo en un ático en Madrid centro con equipo y dirección incluidos.";
 
 export const NAV_LINKS = [
   { label: "Espacio", href: "/#tour-virtual" },
@@ -69,7 +69,7 @@ export const FAQS = [
   {
     question: "¿Para quién es esto?",
     answer:
-      "A0 Studios está diseñado para founders, marcas personales, empresas y equipos de marketing que necesitan contenido profesional de forma recurrente sin gestionar la producción internamente. Es especialmente útil para quienes graban reels, vídeos para LinkedIn, podcasts, cursos online o contenido corporativo y quieren un resultado de calidad sin montar su propio estudio. Clientes como FIFA, IFEMA y la Cámara de Comercio de Madrid ya han grabado aquí.",
+      "A0 Studios está diseñado para founders, marcas personales, empresas y equipos de marketing que necesitan contenido profesional de forma recurrente sin gestionar la producción internamente. Es especialmente útil para quienes graban reels, vídeos para LinkedIn, podcasts, cursos online o contenido corporativo y quieren un resultado de calidad sin montar su propio estudio. Clientes como IFEMA, Cinesa y la Cámara de Comercio de Madrid ya han grabado aquí.",
   },
   {
     question: "¿Necesito experiencia delante de la cámara?",

@@ -23,7 +23,7 @@ export default function Founder() {
           <ScrollReveal delay={0.1}>
             <div className="max-w-xl">
               <p className="text-[0.85rem] leading-[1.8] text-muted sm:text-[0.9rem] sm:leading-[1.8] lg:text-base lg:leading-[1.85]">
-                Daniel Acero es filmmaker corporativo con m&aacute;s de 6 a&ntilde;os de experiencia produciendo contenido audiovisual para marcas como FIFA, IFEMA, Cinesa y la C&aacute;mara de Comercio de Madrid. Fund&oacute; A0 Studios con un objetivo claro: crear un espacio donde empresas y creadores pudieran producir contenido profesional de forma eficiente, sin los costes ni la log&iacute;stica de un rodaje tradicional.
+                Daniel Acero es filmmaker corporativo con m&aacute;s de 6 a&ntilde;os de experiencia produciendo contenido audiovisual para marcas como IFEMA, Cinesa y la C&aacute;mara de Comercio de Madrid. Fund&oacute; A0 Studios con un objetivo claro: crear un espacio donde empresas y creadores pudieran producir contenido profesional de forma eficiente, sin los costes ni la log&iacute;stica de un rodaje tradicional.
               </p>
               <p className="mt-3 hidden text-[0.85rem] leading-[1.8] text-muted sm:block sm:text-[0.9rem] sm:leading-[1.8] lg:mt-4 lg:text-base lg:leading-[1.85]">
                 Con formaci&oacute;n t&eacute;cnica en producci&oacute;n audiovisual y experiencia en direcci&oacute;n creativa, Daniel supervisa personalmente cada sesi&oacute;n en el estudio &mdash; desde la preparaci&oacute;n del set hasta la entrega del material editado. Su enfoque combina la calidad visual de la producci&oacute;n corporativa con la agilidad que exige el contenido para redes sociales.

@@ -113,7 +113,7 @@ export default function SocialProof() {
               >
                 <Image
                   src={LOGOS_SRC}
-                  alt="Clientes: Cámara de Comercio de Madrid, IFEMA, FIFA, Cinesa"
+                  alt="Clientes: Cámara de Comercio de Madrid, IFEMA, Cinesa"
                   width={1200}
                   height={56}
                   className="h-8 w-auto max-w-none opacity-50 sm:h-10 lg:h-11"
@@ -132,14 +132,14 @@ export default function SocialProof() {
                 />
               </div>
               <p className="mt-2 text-center font-mono text-xs text-[#080808]/40 lg:text-right">
-                FIFA · IFEMA · Cinesa · Cámara de Comercio de Madrid
+                IFEMA · Cinesa · Cámara de Comercio de Madrid
               </p>
             </div>
           </div>
         </div>
 
         <p className="sr-only">
-          A0 Studios ha completado más de 28 proyectos audiovisuales, producido más de 500 horas de contenido y entrega una media de 12 piezas editadas por sesión. El estudio opera con disponibilidad exclusiva de una sesión diaria con entregas en 24-48 horas. Clientes como FIFA, IFEMA, Cinesa y la Cámara de Comercio de Madrid han grabado en el estudio.
+          A0 Studios ha completado más de 28 proyectos audiovisuales, producido más de 500 horas de contenido y entrega una media de 12 piezas editadas por sesión. El estudio opera con disponibilidad exclusiva de una sesión diaria con entregas en 24-48 horas. Clientes como IFEMA, Cinesa y la Cámara de Comercio de Madrid han grabado en el estudio.
         </p>
       </div>
     </section>

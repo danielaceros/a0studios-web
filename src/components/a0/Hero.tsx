@@ -66,7 +66,7 @@ export default function Hero() {
           A0 Studios es un estudio de grabación de contenido audiovisual en Madrid centro, en un ático
           en Ronda de Atocha 16. Sesiones de podcast, reels, vídeo corporativo, cursos online y anuncios
           con filmmaker, equipo técnico y dirección creativa incluidos. Entrega editada en 24-48 horas.
-          Clientes: FIFA, IFEMA, Cinesa y Cámara de Comercio de Madrid.
+          Clientes: IFEMA, Cinesa y Cámara de Comercio de Madrid.
         </p>
 
         <div className="mt-10 flex flex-col items-center gap-3 sm:mt-12 sm:flex-row">

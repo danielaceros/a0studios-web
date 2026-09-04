@@ -6,8 +6,9 @@ export function getProfessionalServiceSchema() {
     "@type": ["ProfessionalService", "LocalBusiness"],
     "@id": `${SITE_URL}/#business`,
     name: SITE_NAME,
+    alternateName: "Rooftop Content Studio",
     description:
-      "El estudio de Dani Acero — filmmaker de FIFA, IFEMA y Cinesa. Graba podcast, reels y contenido corporativo en un ático en Madrid centro con equipo y dirección incluidos.",
+      "El estudio de Dani Acero — filmmaker de IFEMA, Cinesa y la Cámara de Comercio de Madrid. Graba podcast, reels y contenido corporativo en un ático en Madrid centro con equipo y dirección incluidos.",
     url: SITE_URL,
     telephone: "+34711255496",
     email: "hola@a0studios.es",
@@ -199,7 +200,7 @@ export function getWebPageSchema() {
     url: SITE_URL,
     name: "A0 Studios — Tu Contenido. Tu Marca. Un Día. Madrid",
     description:
-      "El estudio de Dani Acero — filmmaker de FIFA, IFEMA y Cinesa. Graba podcast, reels y contenido corporativo en un ático en Madrid centro con equipo y dirección incluidos.",
+      "El estudio de Dani Acero — filmmaker de IFEMA, Cinesa y la Cámara de Comercio de Madrid. Graba podcast, reels y contenido corporativo en un ático en Madrid centro con equipo y dirección incluidos.",
     isPartOf: {
       "@id": `${SITE_URL}/#website`,
     },

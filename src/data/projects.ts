@@ -1,45 +1,5 @@
 export const projects = [
   {
-    slug: "fifa",
-    title: "FIFA",
-    alt: "Producción de vídeo corporativo para FIFA en A0 Studios Madrid",
-    video: "/video/fifa.webm",
-    videoHD: "https://firebasestorage.googleapis.com/v0/b/klip-e547f.firebasestorage.app/o/fifa.webm?alt=media&token=8c6aaa0a-e340-4de4-86ae-3e2d4952cb6c",
-    cover: "/optimized/covers/fifa.webp",
-    sections: [
-      {
-        title: "",
-        items: [
-          "FIFA organizó un evento corporativo con el objetivo de conectar con su comunidad y generar contenido visual para comunicación digital.",
-          "Mi trabajo consistió en capturar la energía del evento, los momentos clave y la interacción de los asistentes, creando un vídeo dinámico y emocional que resumiera la experiencia de forma clara y atractiva.",
-        ],
-      },
-      {
-        title: "EL OBJETIVO DEL PROYECTO",
-        items: [
-          "El vídeo debía cumplir tres funciones principales:",
-          "✓ Documentar el evento — Mostrar el ambiente, las actividades y la participación del público.",
-          "✓ Generar contenido atractivo para redes — Piezas breves y dinámicas adaptadas a formatos verticales y horizontales.",
-          "✓ Transmitir el espíritu de la marca — Combinar emoción, ritmo y estética para representar fielmente los valores de FIFA.",
-        ],
-      },
-      {
-        title: "MI PAPEL EN EL PROYECTO",
-        items: [
-          "Asumí la cobertura audiovisual completa, incluyendo:",
-          "• grabación en 4K",
-          "• planos recurso (B-roll)",
-          "• toma de ambiente y participantes",
-          "• capturas de marca y activaciones",
-          "• edición narrativa",
-          "• corrección de color",
-          "• música con licencia",
-          "• entregas en formato horizontal y vertical",
-        ],
-      },
-    ],
-  },
-  {
     slug: "brahim-diaz",
     title: "Brahím Díaz",
     alt: "Sesión de contenido para Brahím Díaz en A0 Studios Madrid",

@@ -95,7 +95,7 @@ export default function Hero() {
           </h1>
 
           <p className="sr-only">
-            Estudio de grabación de contenido audiovisual en Madrid centro. Ubicado en un ático en Ronda de Atocha 16, ofrece sesiones de grabación de podcast, reels, vídeo corporativo, cursos online y anuncios con filmmaker, equipo técnico y dirección creativa incluidos. Entrega de contenido editado en 24-48 horas. Clientes: FIFA, IFEMA, Cinesa, Cámara de Comercio de Madrid.
+            Estudio de grabación de contenido audiovisual en Madrid centro. Ubicado en un ático en Ronda de Atocha 16, ofrece sesiones de grabación de podcast, reels, vídeo corporativo, cursos online y anuncios con filmmaker, equipo técnico y dirección creativa incluidos. Entrega de contenido editado en 24-48 horas. Clientes: IFEMA, Cinesa, Cámara de Comercio de Madrid.
           </p>
 
           <div className="hero-line-wrapper mt-5 sm:mt-6">
@@ -168,7 +168,7 @@ export default function Hero() {
               >
                 <Image
                   src={LOGOS_SRC}
-                  alt="Clientes: Cámara de Comercio de Madrid, IFEMA, FIFA, Cinesa"
+                  alt="Clientes: Cámara de Comercio de Madrid, IFEMA, Cinesa"
                   width={1200}
                   height={56}
                   className="h-6 w-auto max-w-none scale-[1.15] brightness-0 invert opacity-40 sm:h-9"

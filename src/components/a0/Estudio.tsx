@@ -50,7 +50,7 @@ export default function Estudio() {
             <div className="flex flex-col gap-7">
               <p className="text-[1.02rem] leading-[1.75] text-foreground/88 sm:text-[1.2rem] sm:leading-[1.7]">
                 Seis años produciendo audiovisual para marcas como{" "}
-                <span className="accent-italic">FIFA, IFEMA, Cinesa</span> y la Cámara de Comercio de
+                <span className="accent-italic">IFEMA, Cinesa</span> y la Cámara de Comercio de
                 Madrid. Monté A0 Studios para que empresas y creadores pudieran grabar contenido
                 profesional sin los costes ni la logística de un rodaje tradicional.
               </p>

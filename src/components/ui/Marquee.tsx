@@ -1,5 +1,5 @@
 const MARQUEE_COPY =
-  "He filmado para FIFA, IFEMA y Cinesa · Ahora te toca a ti · Ático en Madrid centro · ";
+  "He filmado para IFEMA, Cinesa y la Cámara de Comercio · Ahora te toca a ti · Ático en Madrid centro · ";
 
 export default function Marquee() {
   return (

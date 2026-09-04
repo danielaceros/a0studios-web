@@ -4,10 +4,6 @@ import { projects } from "@/data/projects";
 
 /** Créditos y sinopsis por proyecto — texto real de cada ficha */
 const META: Record<string, { credits: string; desc: string }> = {
-  fifa: {
-    credits: "Evento corporativo / Dirección · Cámara · Edición",
-    desc: "Cobertura del evento de FIFA: ambiente, momentos clave e interacción del público en una pieza dinámica para comunicación digital, entregada en horizontal y vertical.",
-  },
   "brahim-diaz": {
     credits: "Evento de marca / Dirección · Edición",
     desc: "Producción para el evento de Brahím Díaz, jugador del Real Madrid, con un enfoque visual cinematográfico y dinámico.",
