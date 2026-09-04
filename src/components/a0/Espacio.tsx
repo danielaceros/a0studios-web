@@ -7,19 +7,12 @@ import SectionHead from "./SectionHead";
 
 type Shot = { src: string; alt: string; zone: string; caption: string };
 
+// Provisional: solo estas 3 hasta que Dani pase el vídeo del estudio
+// (el resto de fotos no representan bien el espacio — ver conversación).
 const SHOTS: Shot[] = [
-  { src: "/optimized/terraza-img_8061.webp", zone: "Terraza", caption: "Atardecer sobre Madrid", alt: "Atardecer sobre los tejados de Madrid desde la terraza del ático" },
   { src: "/optimized/tour-podcast-2.webp", zone: "Set", caption: "Setup con teleprompter", alt: "Setup de grabación con teleprompter y cámara" },
-  { src: "/optimized/studio/dsc09925.webp", zone: "Terraza", caption: "Cámara lista en la terraza", alt: "Cámara en la terraza con vistas a los tejados de Madrid" },
-  { src: "/optimized/sala-polivalente-7774.webp", zone: "Podcast", caption: "Entrevista a dos", alt: "Entrevista de podcast con dos personas y micrófonos profesionales" },
-  { src: "/optimized/terraza-img_8052.webp", zone: "Terraza", caption: "Tejados de Atocha", alt: "Panorámica de los tejados de Madrid desde el rooftop" },
-  { src: "/1_1.webp", zone: "Podcast", caption: "Luz cálida", alt: "Entrevista en set de podcast con iluminación cálida" },
-  { src: "/optimized/studio/dsc09789.webp", zone: "Set", caption: "Rodaje en curso", alt: "Sesión de grabación en el estudio" },
   { src: "/IMG_7368.webp", zone: "Podcast", caption: "Dos presentadores", alt: "Dos presentadores mirándose en el set de podcast" },
-  { src: "/optimized/sala-polivalente-7761.webp", zone: "Sala polivalente", caption: "Espacio flexible", alt: "Sesión de grabación en la sala polivalente con iluminación cálida" },
-  { src: "/optimized/studio/dsc09877.webp", zone: "Set", caption: "Detalle de equipo", alt: "Detalle del equipo técnico del estudio" },
   { src: "/4_1.webp", zone: "Podcast", caption: "Ambiente púrpura", alt: "Sesión de podcast con iluminación ambiente púrpura" },
-  { src: "/optimized/terraza-img_8054.webp", zone: "Terraza", caption: "Vistas al centro", alt: "Terraza del estudio con vistas a los edificios de Madrid centro" },
 ];
 
 export default function Espacio() {
