@@ -11,7 +11,7 @@ export function getProfessionalServiceSchema() {
       "El estudio de Dani Acero — filmmaker de IFEMA, Cinesa y la Cámara de Comercio de Madrid. Graba podcast, reels y contenido corporativo en un ático en Madrid centro con equipo y dirección incluidos.",
     url: SITE_URL,
     telephone: "+34711255496",
-    email: "hola@a0studios.es",
+    email: "dani@a0studios.es",
     foundingDate: "2024-01-01",
     logo: {
       "@type": "ImageObject",

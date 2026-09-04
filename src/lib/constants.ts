@@ -99,12 +99,12 @@ export const FAQS = [
   {
     question: "¿Cómo reservo?",
     answer:
-      "Para reservar, rellena el formulario de contacto en la web o escríbenos directamente a hola@a0studios.es o al +34 711 25 54 96. Respondemos con disponibilidad y presupuesto personalizado en menos de 1 hora. Solo realizamos una sesión al día, por lo que te recomendamos contactarnos con al menos dos semanas de antelación para asegurar tu fecha.",
+      "Para reservar, rellena el formulario de contacto en la web o escríbenos directamente a dani@a0studios.es o al +34 711 25 54 96. Respondemos con disponibilidad y presupuesto personalizado en menos de 1 hora. Solo realizamos una sesión al día, por lo que te recomendamos contactarnos con al menos dos semanas de antelación para asegurar tu fecha.",
   },
 ] as const;
 
 export const CONTACT_INFO = {
-  email: "hola@a0studios.es",
+  email: "dani@a0studios.es",
   phone: "+34 711 25 54 96",
   address: "Calle Ronda de Atocha, 16",
   city: "Madrid",

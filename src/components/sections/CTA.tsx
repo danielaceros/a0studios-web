@@ -37,7 +37,7 @@ export default function CTA() {
               <ScrollReveal delay={0.24}>
                 <div className="mt-8 flex flex-col gap-3 sm:mt-10 sm:gap-4">
                   {[
-                    { text: "hola@a0studios.es", href: "mailto:hola@a0studios.es", label: "Escríbeme directamente" },
+                    { text: "dani@a0studios.es", href: "mailto:dani@a0studios.es", label: "Escríbeme directamente" },
                     { text: "+34 711 25 54 96", href: "tel:+34711255496" },
                   ].map((item) => (
                     <div key={item.text} className="flex flex-col gap-1">
