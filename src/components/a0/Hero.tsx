@@ -57,7 +57,28 @@ export default function Hero() {
           </div>
         </div>
 
-        <p className="mt-11 max-w-[30ch] text-center text-[0.95rem] leading-[1.7] text-foreground/70 sm:mt-14 sm:max-w-none sm:text-[1.02rem]">
+        <div className="mt-7 flex items-center gap-2 sm:mt-9">
+          <span className="text-[12px] tracking-[0.02em] text-foreground/45">por</span>
+          <a
+            href="https://www.instagram.com/daniaceros/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="glass glass-hover inline-flex items-center gap-2 rounded-full py-1 pl-1 pr-3.5 text-[12.5px] text-foreground/85 transition-colors hover:text-foreground"
+          >
+            <span className="relative h-6 w-6 shrink-0 overflow-hidden rounded-full ring-1 ring-foreground/25">
+              <Image
+                src="/optimized/avatar-daniaceros.webp"
+                alt="Daniel Acero"
+                fill
+                sizes="24px"
+                className="object-cover"
+              />
+            </span>
+            <span className="font-medium tracking-[0.01em]">@daniaceros</span>
+          </a>
+        </div>
+
+        <p className="mt-6 max-w-[30ch] text-center text-[0.95rem] leading-[1.7] text-foreground/70 sm:mt-8 sm:max-w-none sm:text-[1.02rem]">
           <span className="block">Estudio de grabación · Ático en Madrid centro</span>
           <span className="block">Contenido para semanas, en una mañana</span>
         </p>
