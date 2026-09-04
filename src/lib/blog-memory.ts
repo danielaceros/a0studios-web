@@ -15,7 +15,7 @@ export const blogMemory: BlogMemoryEntry[] = [
     createdAt: "2026-03-17",
     status: "published",
     notes:
-      "Tema inicial del blog de RCS. Evitar repetir la misma intención de precio/estudio sin revisar primero esta URL.",
+      "Tema inicial del blog de A0 Studios. Evitar repetir la misma intención de precio/estudio sin revisar primero esta URL.",
   },
   {
     slug: "grabar-podcast-madrid-estudio",
@@ -24,7 +24,7 @@ export const blogMemory: BlogMemoryEntry[] = [
     createdAt: "2026-03-22",
     status: "published",
     notes:
-      "Post de prueba real para validar el circuito completo de autopublicación en RCS sin depender de aprobación manual.",
+      "Post de prueba real para validar el circuito completo de autopublicación en A0 Studios sin depender de aprobación manual.",
   },
   {
     slug: "como-preparar-sesion-grabacion-contenido-madrid",
@@ -36,7 +36,7 @@ export const blogMemory: BlogMemoryEntry[] = [
   },
   {
     slug: "que-es-un-rooftop-studio-contenido-marca",
-    keyword: "A0 Studios contenido marca",
+    keyword: "rooftop studio contenido marca",
     intent: "informacional",
     createdAt: "2026-05-28",
     status: "published",

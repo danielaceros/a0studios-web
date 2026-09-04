@@ -43,7 +43,7 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Estudio de grabación en Madrid: precios, opciones y qué mirar antes de reservar",
     metaDescription:
       "Descubre cuánto cuesta un estudio de grabación en Madrid, qué opciones existen y cómo elegir un espacio para grabar reels, podcast o contenido de marca con resultado profesional.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -103,7 +103,7 @@ export const blogPosts: BlogPost[] = [
           "Si el estudio ofrece solo grabación o también edición y producción completa.",
         ],
       },
-      { type: "heading", level: 2, text: "Cuándo tiene sentido grabar en un A0 Studios en Madrid" },
+      { type: "heading", level: 2, text: "Cuándo tiene sentido grabar en un ático-estudio en Madrid" },
       {
         type: "paragraph",
         text: "Tiene especialmente sentido cuando quieres contenido que se vea profesional sin parecer encorsetado: marca personal premium, reels de venta, piezas para lanzamiento, podcast, entrevistas, contenido para ads o jornadas intensivas de grabación donde necesitas sacar mucho material en pocas horas.",
@@ -143,7 +143,7 @@ export const blogPosts: BlogPost[] = [
     seoTitle: "Grabar podcast en Madrid: cómo elegir un estudio con imagen premium",
     metaDescription:
       "Descubre cómo elegir un estudio para grabar podcast en Madrid con estética cuidada, sonido profesional y un resultado que refuerce tu marca.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -173,7 +173,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Por eso en RCS encaja bien un formato de ático-estudio: se siente real, respira mejor en cámara y da una imagen más editorial. Profesional, sí, pero sin ese olor a plató genérico que mata naturalidad.",
+        text: "Por eso en A0 Studios encaja bien un formato de ático-estudio: se siente real, respira mejor en cámara y da una imagen más editorial. Profesional, sí, pero sin ese olor a plató genérico que mata naturalidad.",
       },
       { type: "heading", level: 2, text: "Cuándo compensa reservar un estudio en vez de grabar en oficina o casa" },
       {
@@ -193,7 +193,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 2, text: "Preguntas frecuentes" },
       {
         type: "faq",
-        question: "¿RCS sirve solo para podcast o también para reels y entrevistas?",
+        question: "¿A0 Studios sirve solo para podcast o también para reels y entrevistas?",
         answer: "Sirve para ambos. La idea es que una misma sesión pueda darte podcast, clips, entrevistas y contenido de marca sin cambiar de lógica ni de espacio.",
       },
       {
@@ -221,9 +221,9 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Una guía práctica para llegar preparado a tu sesión de grabación de contenido en Madrid y sacar el máximo partido desde el primer minuto.",
-    seoTitle: "Cómo preparar tu sesión de grabación de contenido | RCS Madrid",
+    seoTitle: "Cómo preparar tu sesión de grabación de contenido | A0 Studios Madrid",
     metaDescription: "Cómo preparar una sesión de grabación de contenido en Madrid: formatos, guión, equipo, errores comunes y todo lo que necesitas para no perder tiempo en el estudio.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -231,7 +231,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "He visto pasar por RCS perfiles muy distintos: founders de startups, marcas de empresa, creators con millones de seguidores y equipos de marketing de compañías grandes. Los que sacan más partido a cada sesión no son necesariamente los que más presupuesto tienen, sino los que llegan con las ideas claras: saben qué quieren grabar, en qué formato y con qué criterio van a priorizar si el tiempo aprieta.",
+        text: "He visto pasar por A0 Studios perfiles muy distintos: founders de startups, marcas de empresa, creators con millones de seguidores y equipos de marketing de compañías grandes. Los que sacan más partido a cada sesión no son necesariamente los que más presupuesto tienen, sino los que llegan con las ideas claras: saben qué quieren grabar, en qué formato y con qué criterio van a priorizar si el tiempo aprieta.",
       },
       { type: "image", src: "/blog/como-preparar-sesion-grabacion-contenido-madrid/hero.webp", alt: "Estudio de grabación con equipo premium para contenido profesional", width: 1920, height: 1280, priority: true },
       { type: "heading", level: 2, text: "Qué es una sesión de grabación de contenido y por qué importa prepararse" },
@@ -257,7 +257,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 3, text: "Coordina el equipo y el espacio de antemano" },
       {
         type: "paragraph",
-        text: "Si llevas invitado, coméntale de antemano cómo va a ir la sesión: duración, qué ropa es mejor para cámara (evitar rayas finas, estampados pequeños o colores muy saturados), si hay que traer algo preparado. Si vas solo, comparte el listado de piezas con el equipo del estudio antes para que puedan preparar el set según tu estética. En RCS hacemos una llamada breve de planificación previa a cada sesión para llegar con el plan cerrado y no perder tiempo en ajustes básicos.",
+        text: "Si llevas invitado, coméntale de antemano cómo va a ir la sesión: duración, qué ropa es mejor para cámara (evitar rayas finas, estampados pequeños o colores muy saturados), si hay que traer algo preparado. Si vas solo, comparte el listado de piezas con el equipo del estudio antes para que puedan preparar el set según tu estética. En A0 Studios hacemos una llamada breve de planificación previa a cada sesión para llegar con el plan cerrado y no perder tiempo en ajustes básicos.",
       },
       { type: "image", src: "/blog/como-preparar-sesion-grabacion-contenido-madrid/mid.webp", alt: "Trípode de cámara para producción de vídeo en estudio profesional", width: 1920, height: 1280 },
       { type: "heading", level: 2, text: "Errores comunes que cuestan tiempo y dinero" },
@@ -285,7 +285,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "faq",
-        question: "¿RCS tiene teleprompter?",
+        question: "¿A0 Studios tiene teleprompter?",
         answer: "Sí. Si quieres usarlo, mándanos el texto antes de la sesión para tenerlo configurado desde el primer minuto.",
       },
       {
@@ -301,35 +301,35 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "que-es-un-rooftop-studio-contenido-marca",
-    title: "Qué es un A0 Studios y por qué mejora el contenido de marca",
+    title: "Qué es un rooftop studio y por qué mejora el contenido de marca",
     description:
-      "Qué define a un A0 Studios, cómo cambia la imagen del contenido de marca y cuándo tiene sentido grabar desde un espacio en altura en Madrid.",
+      "Qué define a un rooftop studio, cómo cambia la imagen del contenido de marca y cuándo tiene sentido grabar desde un espacio en altura en Madrid.",
     publishedAt: "2026-05-28",
     readingTime: "5 min",
     category: "Guía",
-    tags: ["A0 Studios", "contenido de marca", "estudio grabación Madrid", "grabación Madrid", "producción de contenido"],
-    keyword: "A0 Studios contenido marca",
+    tags: ["rooftop studio", "contenido de marca", "estudio grabación Madrid", "grabación Madrid", "producción de contenido"],
+    keyword: "rooftop studio contenido marca",
     intent: "informacional",
     excerpt:
-      "Un A0 Studios combina luz natural, entorno urbano y equipo profesional. Así cambia el contenido que grabas desde el ático de Madrid.",
-    seoTitle: "Qué es un A0 Studios de contenido | RCS Madrid",
+      "Un rooftop studio combina luz natural, entorno urbano y equipo profesional. Así cambia el contenido que grabas desde el ático de Madrid.",
+    seoTitle: "Qué es un rooftop studio de contenido | A0 Studios Madrid",
     metaDescription:
-      "Un A0 Studios transforma el contenido de marca: luz natural, vistas urbanas y equipo profesional desde el ático de Madrid.",
-    heroKicker: "Blog / RCS",
+      "Un rooftop studio transforma el contenido de marca: luz natural, vistas urbanas y equipo profesional desde el ático de Madrid.",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
-        text: "Grabar en un A0 Studios cambia lo que ves cuando revisas las tomas. No es un argumento de venta ni una cuestión de marca: es algo concreto. Cuando el entorno tiene profundidad real, luz natural y vistas de la ciudad, el contenido gana un contexto visual que no se puede fabricar con focos y ciclorama. Eso se nota en pantalla desde el primer frame.",
+        text: "Grabar en un rooftop studio cambia lo que ves cuando revisas las tomas. No es un argumento de venta ni una cuestión de marca: es algo concreto. Cuando el entorno tiene profundidad real, luz natural y vistas de la ciudad, el contenido gana un contexto visual que no se puede fabricar con focos y ciclorama. Eso se nota en pantalla desde el primer frame.",
       },
       {
         type: "paragraph",
-        text: "En RCS trabajamos desde el séptimo piso de Ronda de Atocha 16, en el centro de Madrid. Grabamos podcasts, entrevistas, reels, VSLs y content days para founders, marcas y equipos de marketing. El ático no es un plus estético: es parte del motivo por el que el material que sale de aquí se ve distinto al de un estudio convencional.",
+        text: "En A0 Studios trabajamos desde el séptimo piso de Ronda de Atocha 16, en el centro de Madrid. Grabamos podcasts, entrevistas, reels, VSLs y content days para founders, marcas y equipos de marketing. El ático no es un plus estético: es parte del motivo por el que el material que sale de aquí se ve distinto al de un estudio convencional.",
       },
       { type: "image", src: "/blog/que-es-un-rooftop-studio-contenido-marca/hero.webp", alt: "Terraza con vistas al skyline urbano desde un edificio de Madrid", width: 1920, height: 1280, priority: true },
-      { type: "heading", level: 2, text: "Qué define a un A0 Studios" },
+      { type: "heading", level: 2, text: "Qué define a un rooftop studio" },
       {
         type: "paragraph",
-        text: "Un A0 Studios es un espacio de grabación situado en planta alta de un edificio urbano, con acceso a luz natural y vistas exteriores. No es un plató con paredes negras y foam acústico. Es lo contrario: entorno real, luz del día trabajada con difusores y estores, y una ciudad visible al fondo que da contexto sin necesidad de decorados ni artificios.",
+        text: "Un rooftop studio es un espacio de grabación situado en planta alta de un edificio urbano, con acceso a luz natural y vistas exteriores. No es un plató con paredes negras y foam acústico. Es lo contrario: entorno real, luz del día trabajada con difusores y estores, y una ciudad visible al fondo que da contexto sin necesidad de decorados ni artificios.",
       },
       {
         type: "paragraph",
@@ -344,7 +344,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 3, text: "Luz natural que reduce el tiempo de postproducción" },
       {
         type: "paragraph",
-        text: "La luz artificial mal gestionada crea problemas difíciles de corregir después: sombras duras en la cara, piel sobreexpuesta, colores que no representan bien la realidad. La luz natural, bien controlada con difusores y estores, da una imagen limpia desde el primer fotograma. En sesiones en RCS, el tiempo de corrección de color en postproducción se reduce porque la base ya es sólida. Para equipos que sacan contenido de forma recurrente, eso se traduce en ciclos de entrega más rápidos y menos vueltas sobre el material bruto.",
+        text: "La luz artificial mal gestionada crea problemas difíciles de corregir después: sombras duras en la cara, piel sobreexpuesta, colores que no representan bien la realidad. La luz natural, bien controlada con difusores y estores, da una imagen limpia desde el primer fotograma. En sesiones en A0 Studios, el tiempo de corrección de color en postproducción se reduce porque la base ya es sólida. Para equipos que sacan contenido de forma recurrente, eso se traduce en ciclos de entrega más rápidos y menos vueltas sobre el material bruto.",
       },
       { type: "heading", level: 3, text: "El efecto de exclusividad en la percepción" },
       {
@@ -352,7 +352,7 @@ export const blogPosts: BlogPost[] = [
         text: "Un estudio en altura en pleno centro de una ciudad proyecta una percepción de exclusividad que un sótano o una oficina habilitada no transmiten. Ese detalle importa cuando el contenido va a representar a tu empresa frente a clientes potenciales, inversores o comunidad. La percepción de calidad del espacio se transfiere al contenido. Funciona igual que elegir dónde haces una reunión importante: el entorno forma parte del mensaje.",
       },
       { type: "image", src: "/blog/que-es-un-rooftop-studio-contenido-marca/mid.webp", alt: "Cámara en estabilizador durante sesión de grabación de contenido profesional", width: 1880, height: 1253 },
-      { type: "heading", level: 2, text: "Cuándo tiene sentido grabar en un A0 Studios" },
+      { type: "heading", level: 2, text: "Cuándo tiene sentido grabar en un rooftop studio" },
       {
         type: "list",
         items: [
@@ -368,16 +368,16 @@ export const blogPosts: BlogPost[] = [
       {
         type: "faq",
         question: "¿La luz natural es un problema si cambia durante la sesión?",
-        answer: "No si el estudio está preparado. En RCS trabajamos con difusores, estores y luces de apoyo que permiten mantener una imagen consistente aunque cambie la hora o haya nubes. La luz natural es un recurso, no un inconveniente.",
+        answer: "No si el estudio está preparado. En A0 Studios trabajamos con difusores, estores y luces de apoyo que permiten mantener una imagen consistente aunque cambie la hora o haya nubes. La luz natural es un recurso, no un inconveniente.",
       },
       {
         type: "faq",
-        question: "¿Un A0 Studios tiene más ruido que un estudio en planta baja?",
+        question: "¿Un rooftop studio tiene más ruido que un estudio en planta baja?",
         answer: "Al contrario. Estar en un séptimo piso elimina gran parte del ruido de calle: tráfico, obras, voces. El nivel de ruido ambiente es notablemente menor que en planta baja, y además se trabaja con tratamientos acústicos interiores para grabaciones de voz que exigen máxima limpieza de audio.",
       },
       {
         type: "faq",
-        question: "¿Para qué formatos funciona mejor un A0 Studios?",
+        question: "¿Para qué formatos funciona mejor un rooftop studio?",
         answer: "Podcasts con vídeo, entrevistas de marca, VSLs, reels corporativos y content days. En general, para cualquier formato en el que el contexto visual forme parte del mensaje. Si el fondo no importa, cualquier sala sirve. Si importa, el rooftop suma.",
       },
       {
@@ -387,7 +387,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si quieres ver el espacio en persona o empezar a planificar una sesión, escríbenos desde /#contacto. En RCS trabajamos con marcas que saben que el entorno visual del contenido no es un detalle menor: es parte del mensaje.",
+        text: "Si quieres ver el espacio en persona o empezar a planificar una sesión, escríbenos desde /#contacto. En A0 Studios trabajamos con marcas que saben que el entorno visual del contenido no es un detalle menor: es parte del mensaje.",
       },
     ],
   },
@@ -404,10 +404,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Qué equipo, espacio y plan necesitas para grabar reels en Madrid con resultado profesional, sin improvisar y sin perder tiempo en el estudio.",
-    seoTitle: "Grabación de reels en Madrid: qué necesitas | RCS Madrid",
+    seoTitle: "Grabación de reels en Madrid: qué necesitas | A0 Studios Madrid",
     metaDescription:
       "Grabación de reels en Madrid: qué equipo, espacio e iluminación necesitas para conseguir vídeo vertical profesional sin perder tiempo en el estudio.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -415,7 +415,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS lo vemos en cada sesión: hay perfiles que llegan con el iPhone y un guión claro y sacan piezas que funcionan perfectamente bien. Y otros que traen equipo caro y salen con material que no sirve porque el espacio estaba mal planteado, la luz no acompañaba o el audio tiene demasiado ruido ambiente. El equipo importa, sí, pero no es lo primero. Lo primero es el contexto en el que grabas.",
+        text: "En A0 Studios lo vemos en cada sesión: hay perfiles que llegan con el iPhone y un guión claro y sacan piezas que funcionan perfectamente bien. Y otros que traen equipo caro y salen con material que no sirve porque el espacio estaba mal planteado, la luz no acompañaba o el audio tiene demasiado ruido ambiente. El equipo importa, sí, pero no es lo primero. Lo primero es el contexto en el que grabas.",
       },
       {
         type: "image",
@@ -432,7 +432,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "El espacio condiciona todo lo demás. Un fondo con profundidad, texturas reales o entorno urbano da contexto visual sin que tengas que añadir recursos de edición. Un fondo plano o con desorden visible es un problema que no se puede corregir en postproducción sin que se note. Por eso en RCS el ático tiene distintas opciones de fondo según el tipo de reel: fondo neutro, zona con luz natural, vista de Madrid o setup interior más editorial. No tienes que adaptar tu contenido al espacio: el espacio se adapta a lo que necesitas.",
+        text: "El espacio condiciona todo lo demás. Un fondo con profundidad, texturas reales o entorno urbano da contexto visual sin que tengas que añadir recursos de edición. Un fondo plano o con desorden visible es un problema que no se puede corregir en postproducción sin que se note. Por eso en A0 Studios el ático tiene distintas opciones de fondo según el tipo de reel: fondo neutro, zona con luz natural, vista de Madrid o setup interior más editorial. No tienes que adaptar tu contenido al espacio: el espacio se adapta a lo que necesitas.",
       },
       { type: "heading", level: 2, text: "Cómo se hace bien" },
       { type: "heading", level: 3, text: "La cámara y el encuadre vertical" },
@@ -483,11 +483,11 @@ export const blogPosts: BlogPost[] = [
       {
         type: "faq",
         question: "¿Necesito guión cerrado para grabar reels?",
-        answer: "No. Basta con 3-5 puntos clave por pieza. Los reels más naturales suelen ser los que tienen estructura pero no están leídos palabra por palabra. Si prefieres teleprompter, en RCS lo tenemos disponible: mándanos el texto antes de la sesión y lo tenemos configurado desde el primer minuto.",
+        answer: "No. Basta con 3-5 puntos clave por pieza. Los reels más naturales suelen ser los que tienen estructura pero no están leídos palabra por palabra. Si prefieres teleprompter, en A0 Studios lo tenemos disponible: mándanos el texto antes de la sesión y lo tenemos configurado desde el primer minuto.",
       },
       {
         type: "faq",
-        question: "¿RCS tiene equipo de grabación incluido o tengo que traer el mío?",
+        question: "¿A0 Studios tiene equipo de grabación incluido o tengo que traer el mío?",
         answer: "Tenemos cámaras, micrófonos, iluminación y teleprompter disponibles. Si tienes tu propio equipo y quieres usarlo, también funciona. Lo importante es que llegues con el contenido planificado: el equipo técnico se adapta a lo que necesitas.",
       },
       {
@@ -509,10 +509,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Grabar audio limpio es el mínimo. Lo que ves mientras escuchas cambia cómo percibes el mensaje. Así transforma el vídeo un podcast.",
-    seoTitle: "Podcast con vídeo: el contexto visual importa | RCS Madrid",
+    seoTitle: "Podcast con vídeo: el contexto visual importa | A0 Studios Madrid",
     metaDescription:
       "Podcast con vídeo: por qué el contexto visual define cómo se percibe tu marca y cómo grabarlo bien desde el principio en un estudio profesional.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -547,12 +547,12 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 3, text: "El espacio habla antes que tú" },
       {
         type: "paragraph",
-        text: "El primer plano que ve tu audiencia es el fondo. Un estudio con tratamiento acústico visible, luz diseñada y elementos de contexto no solo suena bien: comunica que te lo has tomado en serio antes de decir nada. En RCS grabamos en un ático en Madrid centro con luz natural controlada y distintas opciones de fondo según el tipo de contenido que necesites.",
+        text: "El primer plano que ve tu audiencia es el fondo. Un estudio con tratamiento acústico visible, luz diseñada y elementos de contexto no solo suena bien: comunica que te lo has tomado en serio antes de decir nada. En A0 Studios grabamos en un ático en Madrid centro con luz natural controlada y distintas opciones de fondo según el tipo de contenido que necesites.",
       },
       { type: "heading", level: 3, text: "Cámara y encuadre" },
       {
         type: "paragraph",
-        text: "No necesitas el equipo más caro, pero sí un encuadre correcto: regla de tercios básica, cámara a la altura de los ojos, espacio de cabeza justo y separación del fondo. Si grabas con invitado, dos cámaras permiten montar una conversación real sin planos estáticos ni cortes forzados. En RCS usamos Sony A7 con objetivos que dan la separación de fondo que el formato pide.",
+        text: "No necesitas el equipo más caro, pero sí un encuadre correcto: regla de tercios básica, cámara a la altura de los ojos, espacio de cabeza justo y separación del fondo. Si grabas con invitado, dos cámaras permiten montar una conversación real sin planos estáticos ni cortes forzados. En A0 Studios usamos Sony A7 con objetivos que dan la separación de fondo que el formato pide.",
       },
       { type: "heading", level: 3, text: "Audio y vídeo sincronizados desde el inicio" },
       {
@@ -597,11 +597,11 @@ export const blogPosts: BlogPost[] = [
       {
         type: "faq",
         question: "¿Hace falta guión para un podcast grabado con vídeo?",
-        answer: "Depende del formato. Para entrevistas, un guión de preguntas bien preparado es suficiente. Para formatos de solo voz o exposición directa, un esquema o teleprompter ayuda a mantener el ritmo y reducir el tiempo de edición. En RCS tenemos teleprompter disponible.",
+        answer: "Depende del formato. Para entrevistas, un guión de preguntas bien preparado es suficiente. Para formatos de solo voz o exposición directa, un esquema o teleprompter ayuda a mantener el ritmo y reducir el tiempo de edición. En A0 Studios tenemos teleprompter disponible.",
       },
       {
         type: "paragraph",
-        text: "Si estás pensando en añadir vídeo a tu podcast o quieres grabar el próximo episodio con un resultado profesional desde el primer frame, en RCS podemos organizarlo. Escríbenos desde /#contacto y te cuento cómo funciona una sesión.",
+        text: "Si estás pensando en añadir vídeo a tu podcast o quieres grabar el próximo episodio con un resultado profesional desde el primer frame, en A0 Studios podemos organizarlo. Escríbenos desde /#contacto y te cuento cómo funciona una sesión.",
       },
     ],
   },
@@ -618,10 +618,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Una sola mañana en el estudio puede dar contenido para semanas. Así funciona el batch recording y cómo planificarlo para que salga bien.",
-    seoTitle: "Grabar contenido para semanas en una mañana | RCS Madrid",
+    seoTitle: "Grabar contenido para semanas en una mañana | A0 Studios Madrid",
     metaDescription:
       "Grabar contenido para semanas en una sola mañana es posible con buena planificación. Así funciona el batch recording y cómo hacerlo bien en estudio.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -629,7 +629,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "El batch recording —grabar todo el contenido de semanas en un solo bloque— cambia la ecuación. No requiere más presupuesto ni un equipo mayor. Requiere un cambio de mentalidad y un plan claro antes de llegar al estudio. En RCS lo vemos funcionar en casi todas las sesiones: quien llega con lista de piezas sale con material para semanas. Quien improvisa, graba uno o dos clips y pierde el día.",
+        text: "El batch recording —grabar todo el contenido de semanas en un solo bloque— cambia la ecuación. No requiere más presupuesto ni un equipo mayor. Requiere un cambio de mentalidad y un plan claro antes de llegar al estudio. En A0 Studios lo vemos funcionar en casi todas las sesiones: quien llega con lista de piezas sale con material para semanas. Quien improvisa, graba uno o dos clips y pierde el día.",
       },
       { type: "image", src: "/blog/como-grabar-contenido-semanas-en-una-manana/hero.webp", alt: "Estudio de grabación con equipo profesional preparado para sesión de contenido en bloque", width: 1920, height: 1280, priority: true },
       { type: "heading", level: 2, text: "Qué es el batch recording y por qué funciona" },
@@ -643,7 +643,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Este formato no es exclusivo de grandes marcas con equipos de producción. En RCS lo usan founders que graban solos, marcas personales que quieren mantener presencia en LinkedIn sin consumir su semana y equipos de marketing con un único día de estudio al mes. El punto de partida siempre es el mismo: lista de piezas, orden de grabación y setup listo antes de empezar.",
+        text: "Este formato no es exclusivo de grandes marcas con equipos de producción. En A0 Studios lo usan founders que graban solos, marcas personales que quieren mantener presencia en LinkedIn sin consumir su semana y equipos de marketing con un único día de estudio al mes. El punto de partida siempre es el mismo: lista de piezas, orden de grabación y setup listo antes de empezar.",
       },
       { type: "heading", level: 2, text: "Cómo se hace bien" },
       { type: "heading", level: 3, text: "Planifica las piezas antes de entrar al estudio" },
@@ -656,10 +656,10 @@ export const blogPosts: BlogPost[] = [
         type: "paragraph",
         text: "Cuando planificas el orden de grabación, el criterio más eficiente no es el temático sino el técnico: primero todos los reels verticales, luego los clips horizontales, luego el podcast. Cambiar de formato implica ajustar el encuadre, reposicionar el micrófono y revisar la iluminación. Si agrupas por formato reduces a la mitad las interrupciones técnicas. Dentro de cada bloque, las piezas más complejas o que más energía requieren van al inicio de la sesión, cuando la concentración es mayor.",
       },
-      { type: "heading", level: 3, text: "El flujo en RCS: de lista a clips entregados" },
+      { type: "heading", level: 3, text: "El flujo en A0 Studios: de lista a clips entregados" },
       {
         type: "paragraph",
-        text: "En una sesión de batch recording en RCS el flujo habitual es: 15 minutos de setup y repaso de la lista con el equipo, bloque de grabación por formato con tomas organizadas, revisión rápida del material bruto al cerrar la sesión para confirmar que está todo. Con Grabación + Edición, recibes los clips editados en 24-48 horas. Con Producción Completa, incluimos también la estrategia de distribución: qué publicar, cuándo y en qué canal para sacar el máximo de cada pieza.",
+        text: "En una sesión de batch recording en A0 Studios el flujo habitual es: 15 minutos de setup y repaso de la lista con el equipo, bloque de grabación por formato con tomas organizadas, revisión rápida del material bruto al cerrar la sesión para confirmar que está todo. Con Grabación + Edición, recibes los clips editados en 24-48 horas. Con Producción Completa, incluimos también la estrategia de distribución: qué publicar, cuándo y en qué canal para sacar el máximo de cada pieza.",
       },
       { type: "image", src: "/blog/como-grabar-contenido-semanas-en-una-manana/mid.webp", alt: "Monitor de producción en sesión de grabación de contenido profesional en estudio", width: 1920, height: 1280 },
       { type: "heading", level: 2, text: "Errores que frenan el batch recording" },
@@ -687,7 +687,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "faq",
         question: "¿Puedo grabar contenido para semanas si nunca lo he hecho en bloque?",
-        answer: "Sí, y es más fácil de lo que parece si llegas preparado. El mayor salto lo dan quienes ya han grabado alguna sesión sin plan y entienden lo que cuesta improvisar. En RCS hacemos una llamada de preparación previa con todos los clientes para llegar con el plan cerrado y sin sorpresas.",
+        answer: "Sí, y es más fácil de lo que parece si llegas preparado. El mayor salto lo dan quienes ya han grabado alguna sesión sin plan y entienden lo que cuesta improvisar. En A0 Studios hacemos una llamada de preparación previa con todos los clientes para llegar con el plan cerrado y sin sorpresas.",
       },
       {
         type: "faq",
@@ -713,10 +713,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Entre grabar en oficina y hacerlo en un estudio hay diferencias reales en imagen, audio y eficiencia. Guía para saber qué tiene sentido según tu tipo de contenido.",
-    seoTitle: "Grabar en estudio vs oficina: diferencias reales | RCS Madrid",
+    seoTitle: "Grabar en estudio vs oficina: diferencias reales | A0 Studios Madrid",
     metaDescription:
       "Estudio de grabación vs grabar en oficina: diferencias reales en imagen, audio y eficiencia. Guía práctica para saber cuándo compensa cada opción.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -724,7 +724,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS hemos grabado con founders que llegaron después de meses intentándolo en su despacho y con otros que vinieron directamente desde el primer clip. El patrón que se repite en los primeros es siempre el mismo: el espacio les limitaba, aunque no sabían bien cómo explicarlo. Te cuento cuáles son esas diferencias y cuándo importan de verdad.",
+        text: "En A0 Studios hemos grabado con founders que llegaron después de meses intentándolo en su despacho y con otros que vinieron directamente desde el primer clip. El patrón que se repite en los primeros es siempre el mismo: el espacio les limitaba, aunque no sabían bien cómo explicarlo. Te cuento cuáles son esas diferencias y cuándo importan de verdad.",
       },
       { type: "image", src: "/blog/estudio-grabacion-vs-grabar-en-oficina/hero.webp", alt: "Estudio de grabación profesional con equipo de audio y vídeo configurado", width: 1920, height: 1280, priority: true },
       { type: "heading", level: 2, text: "Qué diferencia real hay entre grabar en oficina y en un estudio" },
@@ -783,12 +783,12 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "faq",
-        question: "¿Puedo visitar RCS antes de reservar para ver si el espacio encaja?",
+        question: "¿Puedo visitar A0 Studios antes de reservar para ver si el espacio encaja?",
         answer: "Sí. Podemos hacer una visita previa para que veas el estudio, la luz a esa hora y las opciones de set según tu tipo de contenido. Escríbenos desde /#contacto y lo coordinamos.",
       },
       {
         type: "paragraph",
-        text: "Si estás en el punto en que la oficina ya no da más de sí pero no tienes claro si el salto a estudio tiene sentido para tu caso, escríbenos desde /#contacto. En RCS lo miramos juntos y te contamos, sin compromiso, qué opciones encajan mejor con el tipo de contenido que quieres producir.",
+        text: "Si estás en el punto en que la oficina ya no da más de sí pero no tienes claro si el salto a estudio tiene sentido para tu caso, escríbenos desde /#contacto. En A0 Studios lo miramos juntos y te contamos, sin compromiso, qué opciones encajan mejor con el tipo de contenido que quieres producir.",
       },
     ],
   },
@@ -805,10 +805,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Si publicas en LinkedIn para posicionar tu marca, el formato y el contexto de grabación cambian el resultado. Guía sobre qué funciona y por qué.",
-    seoTitle: "Contenido de autoridad para LinkedIn: formatos | RCS Madrid",
+    seoTitle: "Contenido de autoridad para LinkedIn: formatos | A0 Studios Madrid",
     metaDescription:
       "Contenido de autoridad para LinkedIn: qué formatos de vídeo funcionan en Madrid, cómo producirlos bien y cómo grabarlo con un contexto que refuerza tu marca.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -849,7 +849,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 3, text: "El content day: un mes de LinkedIn en una sola jornada" },
       {
         type: "paragraph",
-        text: "La forma más eficiente de mantener constancia en LinkedIn sin consumir tu semana es el content day: una jornada en estudio donde grabas todo el contenido del mes en bloque. 4-6 horas de sesión pueden producir 15-20 clips de 60-90 segundos con coherencia visual entre ellos, subtitulados y organizados por tema. La ventaja no es solo la cantidad: es que todos los clips tienen el mismo fondo, la misma luz y el mismo registro de imagen, lo que construye una imagen de marca coherente a lo largo del tiempo. En RCS hacemos content days para fundadores, equipos de marketing y marcas personales que quieren mantener presencia en LinkedIn sin improvisar cada semana.",
+        text: "La forma más eficiente de mantener constancia en LinkedIn sin consumir tu semana es el content day: una jornada en estudio donde grabas todo el contenido del mes en bloque. 4-6 horas de sesión pueden producir 15-20 clips de 60-90 segundos con coherencia visual entre ellos, subtitulados y organizados por tema. La ventaja no es solo la cantidad: es que todos los clips tienen el mismo fondo, la misma luz y el mismo registro de imagen, lo que construye una imagen de marca coherente a lo largo del tiempo. En A0 Studios hacemos content days para fundadores, equipos de marketing y marcas personales que quieren mantener presencia en LinkedIn sin improvisar cada semana.",
       },
       {
         type: "image",
@@ -874,7 +874,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "faq",
         question: "¿Cuántos clips de LinkedIn puedo grabar en una sesión de medio día?",
-        answer: "Con buena preparación previa, entre 12 y 18 clips de 60-90 segundos. El flujo habitual en un content day en RCS es: listado de piezas cerrado antes de llegar, grabación en bloque por formato y revisión del material antes de desmontar el set.",
+        answer: "Con buena preparación previa, entre 12 y 18 clips de 60-90 segundos. El flujo habitual en un content day en A0 Studios es: listado de piezas cerrado antes de llegar, grabación en bloque por formato y revisión del material antes de desmontar el set.",
       },
       {
         type: "faq",
@@ -888,12 +888,12 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "faq",
-        question: "¿En RCS podéis hacer el content day para LinkedIn de principio a fin?",
+        question: "¿En A0 Studios podéis hacer el content day para LinkedIn de principio a fin?",
         answer: "Sí. Con Producción Completa incluimos grabación, edición, subtitulado y estrategia de publicación: qué clip publicar cada día, en qué orden y con qué copy de acompañamiento para maximizar el impacto de cada pieza.",
       },
       {
         type: "paragraph",
-        text: "Si quieres empezar a construir autoridad en LinkedIn con un flujo de producción que no consuma toda tu semana, escríbenos desde /#contacto. En RCS podemos organizar un content day adaptado a tu tipo de contenido y al posicionamiento que quieres construir.",
+        text: "Si quieres empezar a construir autoridad en LinkedIn con un flujo de producción que no consuma toda tu semana, escríbenos desde /#contacto. En A0 Studios podemos organizar un content day adaptado a tu tipo de contenido y al posicionamiento que quieres construir.",
       },
     ],
   },
@@ -910,10 +910,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Una VSL bien hecha puede ser el activo de LinkedIn que más convierte. Así se estructura, cuánto debe durar y cómo grabarla en estudio para que funcione.",
-    seoTitle: "VSL para LinkedIn: estructura, duración y cómo grabarlo | RCS Madrid",
+    seoTitle: "VSL para LinkedIn: estructura, duración y cómo grabarlo | A0 Studios Madrid",
     metaDescription:
       "VSL para LinkedIn: qué es, cómo estructurarla, cuánto debe durar y cómo grabarla en un estudio para que convierta desde el primer frame.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -989,7 +989,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "faq",
         question: "¿Qué equipo necesito para grabar una VSL en estudio?",
-        answer: "Una cámara que grabe en 1080p o 4K, audio externo —micrófono de condensador o solapa— y una iluminación que no genere sombras duras. En RCS tenemos todo el equipo disponible, incluido teleprompter si prefieres leer el guión en lugar de memorizar.",
+        answer: "Una cámara que grabe en 1080p o 4K, audio externo —micrófono de condensador o solapa— y una iluminación que no genere sombras duras. En A0 Studios tenemos todo el equipo disponible, incluido teleprompter si prefieres leer el guión en lugar de memorizar.",
       },
       {
         type: "faq",
@@ -998,7 +998,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si quieres grabar tu VSL para LinkedIn con un setup que respalde el mensaje desde el primer frame, en RCS podemos organizarlo. Escríbenos desde /#contacto y cuéntanos el objetivo de la pieza: te respondemos el mismo día.",
+        text: "Si quieres grabar tu VSL para LinkedIn con un setup que respalde el mensaje desde el primer frame, en A0 Studios podemos organizarlo. Escríbenos desde /#contacto y cuéntanos el objetivo de la pieza: te respondemos el mismo día.",
       },
     ],
   },
@@ -1015,10 +1015,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un day in studio es la forma más eficiente de producir contenido de marca en una sola jornada. Esta guía explica qué grabar, cómo organizarlo y cómo sacarle el máximo partido en el estudio.",
-    seoTitle: "Day in Studio para marcas personales | RCS Madrid",
+    seoTitle: "Day in Studio para marcas personales | A0 Studios Madrid",
     metaDescription:
       "Qué es un day in studio y cómo organizarlo para grabar el contenido de tu marca personal en Madrid en una sola jornada. Guía práctica.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -1069,7 +1069,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Lo mínimo antes de una jornada: una lista con todos los vídeos que necesitas, en qué formato —horizontal, vertical, corto, largo— y si tienen guión o son más libres. Cuanta más precisión llegues, más grabas. En RCS solemos recomendar preparar entre 10 y 20 piezas cortas, aunque en la práctica se ajusta según el ritmo y los objetivos del día.",
+        text: "Lo mínimo antes de una jornada: una lista con todos los vídeos que necesitas, en qué formato —horizontal, vertical, corto, largo— y si tienen guión o son más libres. Cuanta más precisión llegues, más grabas. En A0 Studios solemos recomendar preparar entre 10 y 20 piezas cortas, aunque en la práctica se ajusta según el ritmo y los objetivos del día.",
       },
       {
         type: "heading",
@@ -1128,12 +1128,12 @@ export const blogPosts: BlogPost[] = [
       {
         type: "faq",
         question: "¿Cuántas piezas se pueden grabar en un day in studio?",
-        answer: "En una jornada de 4-5 horas con material bien preparado, es habitual sacar entre 15 y 25 piezas cortas. Si incluyes formatos más largos —episodios completos de podcast, VSLs— el número baja. En RCS recomendamos no superar los 20-22 clips en un solo día para mantener la calidad de la última toma tan alta como la primera.",
+        answer: "En una jornada de 4-5 horas con material bien preparado, es habitual sacar entre 15 y 25 piezas cortas. Si incluyes formatos más largos —episodios completos de podcast, VSLs— el número baja. En A0 Studios recomendamos no superar los 20-22 clips en un solo día para mantener la calidad de la última toma tan alta como la primera.",
       },
       {
         type: "faq",
         question: "¿Necesito guiones escritos o sirve con un esquema?",
-        answer: "Para piezas de 30-60 segundos, un esquema con los puntos clave suele dar más naturalidad que leer un guión cerrado. Para formatos más largos o con estructura específica —VSL, episodio formativo—, conviene un guión más desarrollado. El teleprompter en RCS está disponible para quien prefiere leer sin perder el contacto visual con la cámara.",
+        answer: "Para piezas de 30-60 segundos, un esquema con los puntos clave suele dar más naturalidad que leer un guión cerrado. Para formatos más largos o con estructura específica —VSL, episodio formativo—, conviene un guión más desarrollado. El teleprompter en A0 Studios está disponible para quien prefiere leer sin perder el contacto visual con la cámara.",
       },
       {
         type: "faq",
@@ -1164,10 +1164,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Los CEOs con mejor presencia digital no improvisan: saben qué formato grabar y por qué. Guía sobre los reels verticales que funcionan de verdad para empresas.",
-    seoTitle: "Reels verticales para empresa: qué graban los CEOs | RCS",
+    seoTitle: "Reels verticales para empresa: qué graban los CEOs | A0 Studios",
     metaDescription:
       "Reels verticales para empresa y CEOs: qué formatos funcionan, cómo grabarlos bien y los errores que destruyen la autoridad antes de empezar a hablar.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -1175,7 +1175,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS grabamos reels para empresas de todos los tamaños: founders de startups, directivos de empresa consolidada y marcas que quieren que alguien del equipo lleve la voz del negocio en redes. El patrón que se repite en los que consiguen presencia real es siempre el mismo: saben qué formato encaja con lo que tienen para contar y no intentan hacerlo todo en un solo clip.",
+        text: "En A0 Studios grabamos reels para empresas de todos los tamaños: founders de startups, directivos de empresa consolidada y marcas que quieren que alguien del equipo lleve la voz del negocio en redes. El patrón que se repite en los que consiguen presencia real es siempre el mismo: saben qué formato encaja con lo que tienen para contar y no intentan hacerlo todo en un solo clip.",
       },
       {
         type: "image",
@@ -1243,7 +1243,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "faq",
         question: "¿Hace falta que el CEO lleve guión o puede improvisar?",
-        answer: "Para los formatos tipo take o explicativo, un esquema de 3-5 puntos clave por pieza da más naturalidad que memorizar. Si prefiere teleprompter, en RCS lo tenemos disponible: basta con mandar el texto antes de la sesión para tenerlo configurado desde el primer minuto.",
+        answer: "Para los formatos tipo take o explicativo, un esquema de 3-5 puntos clave por pieza da más naturalidad que memorizar. Si prefiere teleprompter, en A0 Studios lo tenemos disponible: basta con mandar el texto antes de la sesión para tenerlo configurado desde el primer minuto.",
       },
       {
         type: "faq",
@@ -1252,7 +1252,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si quieres organizar una sesión de reels para tu empresa o empezar a grabar como CEO con un formato que funcione, escríbenos desde /#contacto. En RCS lo planificamos contigo antes de la sesión para que entres sabiendo qué grabar y salgas con material para semanas.",
+        text: "Si quieres organizar una sesión de reels para tu empresa o empezar a grabar como CEO con un formato que funcione, escríbenos desde /#contacto. En A0 Studios lo planificamos contigo antes de la sesión para que entres sabiendo qué grabar y salgas con material para semanas.",
       },
     ],
   },
@@ -1269,10 +1269,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Con multicámara, un episodio de podcast genera entre 8 y 20 clips listos para redes. Qué aporta este formato y cuándo tiene sentido contratarlo en Madrid.",
-    seoTitle: "Grabación multicámara podcast | RCS Madrid",
+    seoTitle: "Grabación multicámara podcast | A0 Studios Madrid",
     metaDescription:
       "La grabación multicámara transforma tu podcast en contenido para YouTube, LinkedIn y redes. Qué aporta, cómo funciona y cuándo tiene sentido en Madrid.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -1280,7 +1280,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS hemos grabado podcasts y entrevistas con setup multicámara para marcas, founders y equipos de marketing. Lo que sigue es lo que aprendes cuando comparas los resultados de uno y otro formato.",
+        text: "En A0 Studios hemos grabado podcasts y entrevistas con setup multicámara para marcas, founders y equipos de marketing. Lo que sigue es lo que aprendes cuando comparas los resultados de uno y otro formato.",
       },
       {
         type: "image",
@@ -1315,7 +1315,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Un setup funcional para podcast con 2 personas necesita como mínimo 3 posiciones: plano general con ambos presentadores, plano medio del host y plano medio del invitado. Si añades una cuarta cámara de detalle —manos, micro, pantalla— el material de b-roll se multiplica sin esfuerzo extra en grabación. En RCS trabajamos habitualmente con 2 Sony A7 y 1 cámara fija para el plano general. No hace falta más para que el montaje tenga variedad real.",
+        text: "Un setup funcional para podcast con 2 personas necesita como mínimo 3 posiciones: plano general con ambos presentadores, plano medio del host y plano medio del invitado. Si añades una cuarta cámara de detalle —manos, micro, pantalla— el material de b-roll se multiplica sin esfuerzo extra en grabación. En A0 Studios trabajamos habitualmente con 2 Sony A7 y 1 cámara fija para el plano general. No hace falta más para que el montaje tenga variedad real.",
       },
       {
         type: "heading",
@@ -1324,7 +1324,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Con multicámara el audio es aún más crítico porque el editor necesita un track de referencia limpio para sincronizar. Lo habitual es grabar cada micro por separado —uno por persona— y tener además una mezcla de referencia en el audio del plano general. Si hay una sola pista para todo el episodio, la edición multicámara pierde la mitad de su potencial. En RCS usamos DaVinci Resolve para sincronización por waveform: automático, sin drifteo, listo para cortar.",
+        text: "Con multicámara el audio es aún más crítico porque el editor necesita un track de referencia limpio para sincronizar. Lo habitual es grabar cada micro por separado —uno por persona— y tener además una mezcla de referencia en el audio del plano general. Si hay una sola pista para todo el episodio, la edición multicámara pierde la mitad de su potencial. En A0 Studios usamos DaVinci Resolve para sincronización por waveform: automático, sin drifteo, listo para cortar.",
       },
       {
         type: "heading",
@@ -1365,7 +1365,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "faq",
         question: "¿Cuánto tarda más una sesión multicámara respecto a grabar con una sola cámara?",
-        answer: "El setup físico suma entre 20 y 40 minutos dependiendo de cuántas cámaras y si hay que ajustar iluminación por posición. La grabación en sí dura exactamente lo mismo. Lo que cambia es la postproducción, que es más larga. En RCS el setup está listo antes de que llegues, así que no resta tiempo de tu sesión.",
+        answer: "El setup físico suma entre 20 y 40 minutos dependiendo de cuántas cámaras y si hay que ajustar iluminación por posición. La grabación en sí dura exactamente lo mismo. Lo que cambia es la postproducción, que es más larga. En A0 Studios el setup está listo antes de que llegues, así que no resta tiempo de tu sesión.",
       },
       {
         type: "faq",
@@ -1384,7 +1384,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si quieres montar un podcast con vídeo en Madrid o convertir un episodio en contenido para redes, escríbenos desde /#contacto. En RCS diseñamos el setup según el formato y el volumen de material que necesitas.",
+        text: "Si quieres montar un podcast con vídeo en Madrid o convertir un episodio en contenido para redes, escríbenos desde /#contacto. En A0 Studios diseñamos el setup según el formato y el volumen de material que necesitas.",
       },
     ],
   },
@@ -1400,10 +1400,10 @@ export const blogPosts: BlogPost[] = [
     keyword: "como usar teleprompter sin parecer robot",
     intent: "informacional",
     excerpt: "Usar el teleprompter es una habilidad que se entrena. Estas son las claves para leer sin que se note.",
-    seoTitle: "Cómo usar el teleprompter sin parecer robot | RCS Madrid",
+    seoTitle: "Cómo usar el teleprompter sin parecer robot | A0 Studios Madrid",
     metaDescription:
-      "Cómo usar el teleprompter sin parecer robot: técnica, ritmo y ajustes para grabar con naturalidad en estudio. Guía práctica de RCS Madrid.",
-    heroKicker: "Blog / RCS",
+      "Cómo usar el teleprompter sin parecer robot: técnica, ritmo y ajustes para grabar con naturalidad en estudio. Guía práctica de A0 Studios Madrid.",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -1446,7 +1446,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "La velocidad del teleprompter se ajusta al ritmo del orador, no al contrario. Si el texto avanza demasiado rápido, el presentador lo persigue y se nota. Si va demasiado lento, hace pausas forzadas. El punto justo es ligeramente más lento que la velocidad natural de habla, con margen para respirar entre frases. En una sesión en RCS ajustamos la velocidad antes de rodar, no sobre la marcha. Eso ahorra tiempo y grabaciones inútiles.",
+        text: "La velocidad del teleprompter se ajusta al ritmo del orador, no al contrario. Si el texto avanza demasiado rápido, el presentador lo persigue y se nota. Si va demasiado lento, hace pausas forzadas. El punto justo es ligeramente más lento que la velocidad natural de habla, con margen para respirar entre frases. En una sesión en A0 Studios ajustamos la velocidad antes de rodar, no sobre la marcha. Eso ahorra tiempo y grabaciones inútiles.",
       },
       {
         type: "heading",
@@ -1497,7 +1497,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "faq",
         question: "¿Cuánto tiempo tarda alguien en adaptarse al teleprompter?",
-        answer: "Depende del punto de partida. Una persona con experiencia en presentaciones o locución lo controla en 20-30 minutos de práctica. Alguien sin hábito de cámara puede necesitar 2-3 sesiones para que el resultado sea convincente. En RCS, si es tu primera vez con el prompter, lo dejamos rodando sin presión durante los primeros 10 minutos para que cojas el ritmo antes de grabar la pieza definitiva.",
+        answer: "Depende del punto de partida. Una persona con experiencia en presentaciones o locución lo controla en 20-30 minutos de práctica. Alguien sin hábito de cámara puede necesitar 2-3 sesiones para que el resultado sea convincente. En A0 Studios, si es tu primera vez con el prompter, lo dejamos rodando sin presión durante los primeros 10 minutos para que cojas el ritmo antes de grabar la pieza definitiva.",
       },
       {
         type: "faq",
@@ -1506,17 +1506,17 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "faq",
-        question: "¿Qué aplicación de teleprompter usáis en RCS?",
+        question: "¿Qué aplicación de teleprompter usáis en A0 Studios?",
         answer: "Usamos principalmente PromptSmart Pro y Teleprompter Premium, que permiten ajustar velocidad de scroll, tamaño de texto y márgenes de lectura. Para sesiones en iPad conectado al cristal del prompter, fuente grande, fondo negro y texto blanco. El fondo gris o verde dificulta la lectura bajo luz de estudio.",
       },
       {
         type: "faq",
         question: "¿El teleprompter funciona bien con personas que llevan gafas?",
-        answer: "Sí, aunque hay que ajustar la posición del reflector para evitar destellos. Las monturas metálicas son las que más reflejan. Un ajuste de ángulo de 2-3 grados en el cristal suele resolver el problema. En RCS lo testeamos antes de empezar si la sesión lo requiere.",
+        answer: "Sí, aunque hay que ajustar la posición del reflector para evitar destellos. Las monturas metálicas son las que más reflejan. Un ajuste de ángulo de 2-3 grados en el cristal suele resolver el problema. En A0 Studios lo testeamos antes de empezar si la sesión lo requiere.",
       },
       {
         type: "paragraph",
-        text: "Si tienes un mensaje que necesita precisión y quieres grabarlo con naturalidad, escríbenos desde /#contacto. En RCS tenemos el equipo y el proceso para que el teleprompter deje de darte miedo y empiece a trabajar para ti.",
+        text: "Si tienes un mensaje que necesita precisión y quieres grabarlo con naturalidad, escríbenos desde /#contacto. En A0 Studios tenemos el equipo y el proceso para que el teleprompter deje de darte miedo y empiece a trabajar para ti.",
       },
     ],
   },
@@ -1524,7 +1524,7 @@ export const blogPosts: BlogPost[] = [
     slug: "iluminacion-grabacion-contenido-basicos",
     title: "Iluminación para grabación de contenido: básicos que marcan la diferencia",
     description:
-      "Tipos de luz, setup básico de tres puntos y errores que arruinan el vídeo antes de empezar a hablar. Los fundamentos de iluminación que usamos en RCS.",
+      "Tipos de luz, setup básico de tres puntos y errores que arruinan el vídeo antes de empezar a hablar. Los fundamentos de iluminación que usamos en A0 Studios.",
     publishedAt: "2026-06-12",
     readingTime: "4 min",
     category: "Guía",
@@ -1532,11 +1532,11 @@ export const blogPosts: BlogPost[] = [
     keyword: "iluminacion grabacion contenido",
     intent: "informacional",
     excerpt:
-      "La iluminación decide si el vídeo parece profesional o no. Estos son los básicos que usamos en RCS y que puedes aplicar desde el primer día.",
-    seoTitle: "Iluminación para grabación de contenido | RCS Madrid",
+      "La iluminación decide si el vídeo parece profesional o no. Estos son los básicos que usamos en A0 Studios y que puedes aplicar desde el primer día.",
+    seoTitle: "Iluminación para grabación de contenido | A0 Studios Madrid",
     metaDescription:
-      "Iluminación para grabación de contenido: tipos de luz, setup básico y errores que arruinan el vídeo antes de que empieces a hablar. Guía de RCS Madrid.",
-    heroKicker: "Blog / RCS",
+      "Iluminación para grabación de contenido: tipos de luz, setup básico y errores que arruinan el vídeo antes de que empieces a hablar. Guía de A0 Studios Madrid.",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -1567,7 +1567,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 3, text: "La luz principal: el punto de partida de cualquier setup" },
       {
         type: "paragraph",
-        text: "La luz principal, o key light, es la fuente que ilumina al sujeto con mayor intensidad y define las sombras del setup. Lo habitual es colocarla ligeramente por encima de la línea de ojos, a unos 45 grados del sujeto y a una distancia de entre 1 y 1,5 metros. Esa posición da volumen facial sin generar sombras agresivas. Si colocas la key light directamente de frente, el resultado es plano. Si la pones demasiado lateral, las sombras son excesivas y el resultado queda más dramático que profesional. Para contenido de marca o autoridad, la posición a 45 grados es casi siempre el punto de partida correcto. En RCS usamos paneles LED con difusor: temperatura regulable de 3200 K a 5600 K, suaves desde el primer encendido.",
+        text: "La luz principal, o key light, es la fuente que ilumina al sujeto con mayor intensidad y define las sombras del setup. Lo habitual es colocarla ligeramente por encima de la línea de ojos, a unos 45 grados del sujeto y a una distancia de entre 1 y 1,5 metros. Esa posición da volumen facial sin generar sombras agresivas. Si colocas la key light directamente de frente, el resultado es plano. Si la pones demasiado lateral, las sombras son excesivas y el resultado queda más dramático que profesional. Para contenido de marca o autoridad, la posición a 45 grados es casi siempre el punto de partida correcto. En A0 Studios usamos paneles LED con difusor: temperatura regulable de 3200 K a 5600 K, suaves desde el primer encendido.",
       },
       { type: "heading", level: 3, text: "El relleno: el segundo elemento que no puedes saltarte" },
       {
@@ -1607,21 +1607,21 @@ export const blogPosts: BlogPost[] = [
       {
         type: "faq",
         question: "¿La luz natural es suficiente para grabar contenido en estudio?",
-        answer: "Sí, si el espacio está preparado para controlarla. La luz natural es la fuente más suave y natural que existe, pero cambia con las nubes, la hora y la orientación de las ventanas. En RCS trabajamos con difusores y estores que permiten mantener una imagen consistente aunque cambie la luz exterior. Sin control, la luz natural puede convertirse en un problema.",
+        answer: "Sí, si el espacio está preparado para controlarla. La luz natural es la fuente más suave y natural que existe, pero cambia con las nubes, la hora y la orientación de las ventanas. En A0 Studios trabajamos con difusores y estores que permiten mantener una imagen consistente aunque cambie la luz exterior. Sin control, la luz natural puede convertirse en un problema.",
       },
       {
         type: "faq",
         question: "¿Qué temperatura de color es mejor para grabar contenido de marca?",
-        answer: "Entre 5000 K y 5500 K, que es la temperatura que más se aproxima a la luz de día natural. Esa gama da una piel con tono neutro y un blanco limpio sin la frialdad del blanco puro ni la calidez excesiva de los 3200 K. En RCS ajustamos la temperatura de color según el entorno de cada sesión para mantener coherencia entre los planos.",
+        answer: "Entre 5000 K y 5500 K, que es la temperatura que más se aproxima a la luz de día natural. Esa gama da una piel con tono neutro y un blanco limpio sin la frialdad del blanco puro ni la calidez excesiva de los 3200 K. En A0 Studios ajustamos la temperatura de color según el entorno de cada sesión para mantener coherencia entre los planos.",
       },
       {
         type: "faq",
         question: "¿Cuánto tiempo lleva montar un setup de iluminación básico?",
-        answer: "Un setup de tres puntos de luz —key, fill y fondo— bien organizado se monta en 20-30 minutos en un espacio nuevo. En RCS el setup está listo antes de que llegues. Si traes tu propio equipo, recomendamos un ensayo previo en el mismo espacio para no perder tiempo de sesión en ajustes básicos.",
+        answer: "Un setup de tres puntos de luz —key, fill y fondo— bien organizado se monta en 20-30 minutos en un espacio nuevo. En A0 Studios el setup está listo antes de que llegues. Si traes tu propio equipo, recomendamos un ensayo previo en el mismo espacio para no perder tiempo de sesión en ajustes básicos.",
       },
       {
         type: "paragraph",
-        text: "Si quieres grabar tu próxima sesión de contenido con una iluminación resuelta desde el primer minuto, en RCS lo tenemos preparado. Escríbenos desde /#contacto y te contamos cómo funciona una sesión.",
+        text: "Si quieres grabar tu próxima sesión de contenido con una iluminación resuelta desde el primer minuto, en A0 Studios lo tenemos preparado. Escríbenos desde /#contacto y te contamos cómo funciona una sesión.",
       },
     ],
   },
@@ -1637,11 +1637,11 @@ export const blogPosts: BlogPost[] = [
     keyword: "microfonos para podcast y entrevistas",
     intent: "informacional",
     excerpt:
-      "Elegir el micrófono correcto marca la diferencia entre un audio tolerable y uno que retiene al oyente. Esto es lo que usamos en RCS y por qué.",
-    seoTitle: "Micrófonos para Podcast y Entrevistas | RCS Madrid",
+      "Elegir el micrófono correcto marca la diferencia entre un audio tolerable y uno que retiene al oyente. Esto es lo que usamos en A0 Studios y por qué.",
+    seoTitle: "Micrófonos para Podcast y Entrevistas | A0 Studios Madrid",
     metaDescription:
-      "Micrófonos para podcast y entrevistas: tipos, diferencias y cuándo usar cada uno. Guía práctica desde el estudio RCS Madrid.",
-    heroKicker: "Blog / RCS",
+      "Micrófonos para podcast y entrevistas: tipos, diferencias y cuándo usar cada uno. Guía práctica desde el estudio A0 Studios Madrid.",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -1649,7 +1649,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS usamos distintos tipos de micrófonos según lo que graba cada cliente. No hay un micrófono que sea el mejor para todo. Hay uno que encaja con lo que tú haces. Esto es lo que necesitas saber para elegir bien.",
+        text: "En A0 Studios usamos distintos tipos de micrófonos según lo que graba cada cliente. No hay un micrófono que sea el mejor para todo. Hay uno que encaja con lo que tú haces. Esto es lo que necesitas saber para elegir bien.",
       },
       {
         type: "image",
@@ -1686,7 +1686,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 3, text: "Micrófonos de solapa o lavalier" },
       {
         type: "paragraph",
-        text: "El lavalier es el micrófono que va enganchado a la ropa, cerca del pecho. Se usa principalmente en entrevistas en movimiento, presentaciones o cuando el sujeto no puede estar frente a un micrófono de pie. La ventaja es que es completamente discreto y mantiene una distancia constante con la boca. La desventaja: capta el movimiento de la ropa y es más sensible al viento en exteriores. Los modelos inalámbricos como el Røde Wireless GO o el DJI Mic son los más usados hoy en día para contenido de empresa y entrevistas en carretera. En RCS los usamos cuando grabamos entrevistas que combinan planos frontales con planos de movimiento.",
+        text: "El lavalier es el micrófono que va enganchado a la ropa, cerca del pecho. Se usa principalmente en entrevistas en movimiento, presentaciones o cuando el sujeto no puede estar frente a un micrófono de pie. La ventaja es que es completamente discreto y mantiene una distancia constante con la boca. La desventaja: capta el movimiento de la ropa y es más sensible al viento en exteriores. Los modelos inalámbricos como el Røde Wireless GO o el DJI Mic son los más usados hoy en día para contenido de empresa y entrevistas en carretera. En A0 Studios los usamos cuando grabamos entrevistas que combinan planos frontales con planos de movimiento.",
       },
       {
         type: "image",
@@ -1730,7 +1730,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si tienes dudas sobre qué micrófono usar en tu próxima sesión de podcast o entrevista en Madrid, en RCS lo resolvemos antes de que llegues. Escríbenos desde /#contacto y te contamos qué setup montamos según lo que necesitas grabar.",
+        text: "Si tienes dudas sobre qué micrófono usar en tu próxima sesión de podcast o entrevista en Madrid, en A0 Studios lo resolvemos antes de que llegues. Escríbenos desde /#contacto y te contamos qué setup montamos según lo que necesitas grabar.",
       },
     ],
   },
@@ -1746,11 +1746,11 @@ export const blogPosts: BlogPost[] = [
     keyword: "grabacion cursos online madrid",
     intent: "informacional",
     excerpt:
-      "Espacio, equipo y flujo de trabajo para grabar cursos online con calidad profesional en Madrid. Lo que funciona en RCS para formadores y empresas.",
-    seoTitle: "Grabación de cursos online Madrid | RCS Madrid",
+      "Espacio, equipo y flujo de trabajo para grabar cursos online con calidad profesional en Madrid. Lo que funciona en A0 Studios para formadores y empresas.",
+    seoTitle: "Grabación de cursos online Madrid | A0 Studios Madrid",
     metaDescription:
       "Grabación de cursos online en Madrid: qué espacio, equipo y organización necesitas para producir formación en vídeo de calidad profesional.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -1758,7 +1758,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS hemos grabado formación en vídeo para empresas y profesionales independientes que querían algo más que pantalla verde improvisada o iluminación de anillo en casa. Lo que te cuento aquí es lo que funciona en la práctica: qué espacio usar, qué equipo mínimo necesitas y cómo estructurar el día para salir con el material listo para editar.",
+        text: "En A0 Studios hemos grabado formación en vídeo para empresas y profesionales independientes que querían algo más que pantalla verde improvisada o iluminación de anillo en casa. Lo que te cuento aquí es lo que funciona en la práctica: qué espacio usar, qué equipo mínimo necesitas y cómo estructurar el día para salir con el material listo para editar.",
       },
       {
         type: "image",
@@ -1775,7 +1775,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Lo que funciona bien: un fondo limpio y consistente, iluminación controlada que no depende de la hora del día, y una sala con buen comportamiento acústico para que la voz no rebote. En RCS el ático tiene control total sobre la luz, fondo configurable y tratamiento que evita el eco típico de oficinas o salas diáfanas.",
+        text: "Lo que funciona bien: un fondo limpio y consistente, iluminación controlada que no depende de la hora del día, y una sala con buen comportamiento acústico para que la voz no rebote. En A0 Studios el ático tiene control total sobre la luz, fondo configurable y tratamiento que evita el eco típico de oficinas o salas diáfanas.",
       },
       {
         type: "paragraph",
@@ -1795,7 +1795,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 3, text: "Iluminación" },
       {
         type: "paragraph",
-        text: "Luz frontal suave como key light y un fill para evitar sombras duras en el rostro. Un softbox tipo Aputure Amaran o un aro LED grande son suficientes para la mayoría de cursos. Si quieres separar al sujeto del fondo, añades un kicker. En RCS montamos el setup antes de que llegues: llegas, te pruebas, grabas.",
+        text: "Luz frontal suave como key light y un fill para evitar sombras duras en el rostro. Un softbox tipo Aputure Amaran o un aro LED grande son suficientes para la mayoría de cursos. Si quieres separar al sujeto del fondo, añades un kicker. En A0 Studios montamos el setup antes de que llegues: llegas, te pruebas, grabas.",
       },
       {
         type: "image",
@@ -1819,18 +1819,18 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 2, text: "Preguntas frecuentes" },
       {
         type: "faq",
-        question: "¿Cuántos módulos se pueden grabar en una jornada en RCS?",
+        question: "¿Cuántos módulos se pueden grabar en una jornada en A0 Studios?",
         answer: "En una jornada de 6 horas, es realista grabar entre 8 y 12 módulos de 5-8 minutos si el formador llega con el guion preparado. Si los módulos incluyen demos o cambios de setup entre bloques, el ritmo baja. La clave es llegar con el contenido organizado y no improvisar el orden en sala.",
       },
       {
         type: "faq",
         question: "¿Hace falta editar el vídeo antes de subirlo a la plataforma?",
-        answer: "Sí, aunque sea un corte básico. Los alumnos toleran mal los silencios largos, las tomas fallidas o los arranques vacilantes. Un montaje limpio —cortar errores, ajustar audio, añadir títulos de módulo— mejora la percepción del curso aunque el contenido sea el mismo. Con el servicio de Grabación + Edición en RCS, entregamos el vídeo editado y listo para subir.",
+        answer: "Sí, aunque sea un corte básico. Los alumnos toleran mal los silencios largos, las tomas fallidas o los arranques vacilantes. Un montaje limpio —cortar errores, ajustar audio, añadir títulos de módulo— mejora la percepción del curso aunque el contenido sea el mismo. Con el servicio de Grabación + Edición en A0 Studios, entregamos el vídeo editado y listo para subir.",
       },
       {
         type: "faq",
         question: "¿Es necesario grabar con croma o fondo verde?",
-        answer: "No. El croma funciona bien en producción grande con equipo dedicado, pero en sesiones de un día genera complicaciones: espacio extra, iluminación específica y edición posterior más laboriosa. Un fondo real con carácter —ladrillo visto, librería, madera— transmite más personalidad y cuesta menos en producción. En RCS el fondo del ático aporta ese contexto sin efectos.",
+        answer: "No. El croma funciona bien en producción grande con equipo dedicado, pero en sesiones de un día genera complicaciones: espacio extra, iluminación específica y edición posterior más laboriosa. Un fondo real con carácter —ladrillo visto, librería, madera— transmite más personalidad y cuesta menos en producción. En A0 Studios el fondo del ático aporta ese contexto sin efectos.",
       },
       {
         type: "faq",
@@ -1839,7 +1839,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si estás pensando en grabar un curso online en Madrid y no sabes por dónde empezar, en RCS te ayudamos a estructurar la jornada antes de que llegues. Escríbenos desde /#contacto y te decimos qué necesitas según el tipo de formación que quieres producir.",
+        text: "Si estás pensando en grabar un curso online en Madrid y no sabes por dónde empezar, en A0 Studios te ayudamos a estructurar la jornada antes de que llegues. Escríbenos desde /#contacto y te decimos qué necesitas según el tipo de formación que quieres producir.",
       },
     ],
   },
@@ -1856,10 +1856,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "YouTube Shorts tiene mejor alcance orgánico del que muchas marcas aprovechan. Así se planifica y graba en una sesión de estudio en Madrid sin alargar el día.",
-    seoTitle: "YouTube Shorts desde estudio: cómo planificarlo | RCS Madrid",
+    seoTitle: "YouTube Shorts desde estudio: cómo planificarlo | A0 Studios Madrid",
     metaDescription:
       "Contenido para YouTube Shorts desde una sesión de estudio: cómo planificarlo, capturarlo en vertical y estructurar los clips para que funcionen en Madrid.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -1867,7 +1867,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS llevamos tiempo grabando content days donde una parte del material se destina directamente a YouTube Shorts. No como añadido de última hora, sino como formato previsto desde el principio. Lo que te cuento aquí es cómo funciona en la práctica: qué capturar, cómo organizarlo y qué errores evitar para que los clips no queden enterrados en el disco duro después de la sesión.",
+        text: "En A0 Studios llevamos tiempo grabando content days donde una parte del material se destina directamente a YouTube Shorts. No como añadido de última hora, sino como formato previsto desde el principio. Lo que te cuento aquí es cómo funciona en la práctica: qué capturar, cómo organizarlo y qué errores evitar para que los clips no queden enterrados en el disco duro después de la sesión.",
       },
       {
         type: "image",
@@ -1895,7 +1895,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 3, text: "Captura en vertical desde el primer momento" },
       {
         type: "paragraph",
-        text: "Grabar en horizontal y recortar en vertical para Shorts es el atajo que peor funciona. Pierdes un 40% de la imagen y el encuadre queda forzado. Si planeas publicar en Shorts, graba en 9:16 desde el principio, bien con la cámara principal en posición vertical o con una segunda cámara dedicada. En RCS, cuando los content days incluyen Shorts, montamos un ángulo vertical específico que no interfiere con el setup horizontal del resto de la sesión. Un trípode con un smartphone reciente —iPhone 15, Samsung S24— bien configurado es suficiente para la mayoría de casos.",
+        text: "Grabar en horizontal y recortar en vertical para Shorts es el atajo que peor funciona. Pierdes un 40% de la imagen y el encuadre queda forzado. Si planeas publicar en Shorts, graba en 9:16 desde el principio, bien con la cámara principal en posición vertical o con una segunda cámara dedicada. En A0 Studios, cuando los content days incluyen Shorts, montamos un ángulo vertical específico que no interfiere con el setup horizontal del resto de la sesión. Un trípode con un smartphone reciente —iPhone 15, Samsung S24— bien configurado es suficiente para la mayoría de casos.",
       },
       { type: "heading", level: 3, text: "Estructura el clip en 60 segundos o menos" },
       {
@@ -1935,7 +1935,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "faq",
         question: "¿Es mejor grabar Shorts por separado o extraerlos del contenido largo?",
-        answer: "Lo más eficiente es tener ambas cosas en la misma sesión, pero planificadas por separado. Extraer clips de un episodio de podcast funciona bien para momentos con insight concreto. Los Shorts grabados directamente tienen más control sobre el gancho y la estructura. En RCS combinamos las dos opciones según el tipo de content day.",
+        answer: "Lo más eficiente es tener ambas cosas en la misma sesión, pero planificadas por separado. Extraer clips de un episodio de podcast funciona bien para momentos con insight concreto. Los Shorts grabados directamente tienen más control sobre el gancho y la estructura. En A0 Studios combinamos las dos opciones según el tipo de content day.",
       },
       {
         type: "faq",
@@ -1944,7 +1944,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si quieres incluir YouTube Shorts en tu próximo content day en Madrid, en RCS lo planificamos contigo antes de llegar. Escríbenos desde /#contacto y te decimos qué tiene sentido según el tipo de contenido que produces.",
+        text: "Si quieres incluir YouTube Shorts en tu próximo content day en Madrid, en A0 Studios lo planificamos contigo antes de llegar. Escríbenos desde /#contacto y te decimos qué tiene sentido según el tipo de contenido que produces.",
       },
     ],
   },
@@ -1961,10 +1961,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un día entero de estudio puede generar contenido para semanas. La clave está en saber qué grabar y en qué orden.",
-    seoTitle: "Jornada intensiva de contenido: qué grabar | RCS Madrid",
+    seoTitle: "Jornada intensiva de contenido: qué grabar | A0 Studios Madrid",
     metaDescription:
       "Jornada intensiva de contenido en estudio: qué formatos grabar, en qué orden y cómo sacar el máximo partido a un día entero de producción en Madrid.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -1972,7 +1972,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS llevamos tiempo haciendo jornadas de este tipo con founders, equipos de marketing y marcas personales. Lo que hemos aprendido es simple: el orden importa tanto como el volumen. Si llegas sin un esquema de qué vas a grabar y en qué secuencia, pierdes las mejores horas del día en decisiones que debían estar tomadas antes de entrar en sala.",
+        text: "En A0 Studios llevamos tiempo haciendo jornadas de este tipo con founders, equipos de marketing y marcas personales. Lo que hemos aprendido es simple: el orden importa tanto como el volumen. Si llegas sin un esquema de qué vas a grabar y en qué secuencia, pierdes las mejores horas del día en decisiones que debían estar tomadas antes de entrar en sala.",
       },
       {
         type: "image",
@@ -1989,7 +1989,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Una jornada de 6-8 horas en estudio elimina ese coste fijo. Lo pagas una vez y grabas 3-4 semanas de material. El ratio esfuerzo/output cambia completamente. En RCS, la mayoría de los clientes que vienen una vez al mes sacan entre 15 y 30 piezas terminadas por sesión: vídeos largos para YouTube, clips cortos para LinkedIn o Instagram, pilares de podcast y en algunos casos testimonios o piezas de producto.",
+        text: "Una jornada de 6-8 horas en estudio elimina ese coste fijo. Lo pagas una vez y grabas 3-4 semanas de material. El ratio esfuerzo/output cambia completamente. En A0 Studios, la mayoría de los clientes que vienen una vez al mes sacan entre 15 y 30 piezas terminadas por sesión: vídeos largos para YouTube, clips cortos para LinkedIn o Instagram, pilares de podcast y en algunos casos testimonios o piezas de producto.",
       },
       {
         type: "paragraph",
@@ -2009,7 +2009,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 3, text: "Cierra con testimonios o entrevistas" },
       {
         type: "paragraph",
-        text: "Los testimonios, entrevistas o piezas donde solo hablas de un producto o servicio concreto van bien al final. No requieren el mismo nivel de energía narrativa que un tutorial, y si el invitado llega a media mañana, el timing encaja perfectamente. En RCS usamos multicámara para este tipo de grabaciones: Sony A7 como cámara principal y una segunda cámara en plano más cerrado para los cortes de edición.",
+        text: "Los testimonios, entrevistas o piezas donde solo hablas de un producto o servicio concreto van bien al final. No requieren el mismo nivel de energía narrativa que un tutorial, y si el invitado llega a media mañana, el timing encaja perfectamente. En A0 Studios usamos multicámara para este tipo de grabaciones: Sony A7 como cámara principal y una segunda cámara en plano más cerrado para los cortes de edición.",
       },
       {
         type: "image",
@@ -2033,7 +2033,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "faq",
         question: "¿Cuántos vídeos se pueden grabar en una jornada de 6 horas?",
-        answer: "Depende del formato y la complejidad. Una jornada bien planificada en RCS suele producir entre 2 y 4 vídeos largos de 10-20 minutos más 8-15 clips cortos. Si el foco son solo clips cortos de 60-90 segundos, el número puede superar los 20.",
+        answer: "Depende del formato y la complejidad. Una jornada bien planificada en A0 Studios suele producir entre 2 y 4 vídeos largos de 10-20 minutos más 8-15 clips cortos. Si el foco son solo clips cortos de 60-90 segundos, el número puede superar los 20.",
       },
       {
         type: "faq",
@@ -2043,16 +2043,16 @@ export const blogPosts: BlogPost[] = [
       {
         type: "faq",
         question: "¿Hace falta llevar el guión escrito o vale con notas?",
-        answer: "Para vídeos de más de 5 minutos, siempre es mejor guión o al menos bullets detallados. En RCS usamos teleprompter para quienes prefieren leer sin que se note, pero incluso con notas en mano el resultado mejora frente a improvisar desde cero.",
+        answer: "Para vídeos de más de 5 minutos, siempre es mejor guión o al menos bullets detallados. En A0 Studios usamos teleprompter para quienes prefieren leer sin que se note, pero incluso con notas en mano el resultado mejora frente a improvisar desde cero.",
       },
       {
         type: "faq",
-        question: "¿Qué equipo usa RCS en una jornada intensiva multicámara?",
+        question: "¿Qué equipo usa A0 Studios en una jornada intensiva multicámara?",
         answer: "La configuración estándar incluye Sony A7 en plano principal, segunda cámara para plano cerrado, micrófonos de solapa o de estudio según el formato, kit de luz LED con difusores y el fondo de ático de Madrid. El audio va a un interface Focusrite y se graba en pistas separadas para mayor flexibilidad en edición.",
       },
       {
         type: "paragraph",
-        text: "Si estás pensando en organizar tu primera jornada intensiva de contenido o quieres mejorar cómo estructuras las que ya haces, en RCS planificamos la sesión contigo antes del día de grabación. El tiempo en estudio es más productivo cuando lo que vas a grabar ya está decidido. Escríbenos desde /#contacto.",
+        text: "Si estás pensando en organizar tu primera jornada intensiva de contenido o quieres mejorar cómo estructuras las que ya haces, en A0 Studios planificamos la sesión contigo antes del día de grabación. El tiempo en estudio es más productivo cuando lo que vas a grabar ya está decidido. Escríbenos desde /#contacto.",
       },
     ],
   },
@@ -2069,10 +2069,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Preparar bien a un invitado antes de la grabación marca la diferencia entre una conversación forzada y una entrevista que engancha desde el minuto uno.",
-    seoTitle: "Cómo preparar a un invitado para podcast | RCS Madrid",
+    seoTitle: "Cómo preparar a un invitado para podcast | A0 Studios Madrid",
     metaDescription:
       "Cómo preparar a un invitado para grabar un podcast: briefing de temas, llamada previa y errores a evitar para que la sesión fluya desde el minuto uno.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -2080,7 +2080,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "He grabado suficientes episodios en RCS como para saber que la diferencia entre una entrevista que fluye y una que se nota forzada rara vez está en el equipo. Está en la preparación del invitado. No hace falta un briefing largo ni una llamada de una hora. Hace falta darle la información correcta en el momento correcto para que llegue al estudio con claridad.",
+        text: "He grabado suficientes episodios en A0 Studios como para saber que la diferencia entre una entrevista que fluye y una que se nota forzada rara vez está en el equipo. Está en la preparación del invitado. No hace falta un briefing largo ni una llamada de una hora. Hace falta darle la información correcta en el momento correcto para que llegue al estudio con claridad.",
       },
       {
         type: "image",
@@ -2156,11 +2156,11 @@ export const blogPosts: BlogPost[] = [
       {
         type: "faq",
         question: "¿Se puede grabar con más de un invitado a la vez?",
-        answer: "Sí. En RCS hemos grabado episodios de debate con tres participantes. La clave es que cada uno tenga micro propio y que todos conozcan las reglas básicas: hablar uno a uno, no interrumpir y mantener la posición respecto al micrófono.",
+        answer: "Sí. En A0 Studios hemos grabado episodios de debate con tres participantes. La clave es que cada uno tenga micro propio y que todos conozcan las reglas básicas: hablar uno a uno, no interrumpir y mantener la posición respecto al micrófono.",
       },
       {
         type: "paragraph",
-        text: "Preparar bien a un invitado no requiere mucho tiempo, pero sí requiere hacerlo con intención. Si estás planificando un episodio con alguien externo y quieres que el resultado sea aprovechable para clips, newsletters y contenido de redes, en RCS podemos ayudarte a estructurar la sesión antes del día de grabación. Escríbenos desde /#contacto.",
+        text: "Preparar bien a un invitado no requiere mucho tiempo, pero sí requiere hacerlo con intención. Si estás planificando un episodio con alguien externo y quieres que el resultado sea aprovechable para clips, newsletters y contenido de redes, en A0 Studios podemos ayudarte a estructurar la sesión antes del día de grabación. Escríbenos desde /#contacto.",
       },
     ],
   },
@@ -2177,10 +2177,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "No toda la edición vale igual. La diferencia entre montar clips y editar para que el espectador haga algo es técnica, pero sobre todo es de criterio.",
-    seoTitle: "Edición de vídeo que convierte: qué cambia | RCS Madrid",
+    seoTitle: "Edición de vídeo que convierte: qué cambia | A0 Studios Madrid",
     metaDescription:
       "Edición rápida y edición que convierte no son lo mismo. Qué diferencia el montaje eficiente del que genera resultados reales para tu marca.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -2188,7 +2188,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS trabajamos los dos. El primero para quien necesita velocidad y volumen. El segundo para quien quiere que cada pieza sea un activo real. La diferencia no está en el programa que usas ni en el editor que contratas. Está en el criterio con el que se toman las decisiones de montaje.",
+        text: "En A0 Studios trabajamos los dos. El primero para quien necesita velocidad y volumen. El segundo para quien quiere que cada pieza sea un activo real. La diferencia no está en el programa que usas ni en el editor que contratas. Está en el criterio con el que se toman las decisiones de montaje.",
       },
       {
         type: "image",
@@ -2215,7 +2215,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 3, text: "Estructura narrativa antes de abrir el timeline" },
       {
         type: "paragraph",
-        text: "El montaje empieza en el guión o en la sala, no en DaVinci Resolve o Premiere. Antes de tocar un clip hay que decidir qué va primero, dónde está el gancho y cuándo llega la resolución. Un editor sin ese mapa edita bien técnicamente pero sin dirección. En RCS el proceso siempre pasa por revisar la estructura del material antes de montar.",
+        text: "El montaje empieza en el guión o en la sala, no en DaVinci Resolve o Premiere. Antes de tocar un clip hay que decidir qué va primero, dónde está el gancho y cuándo llega la resolución. Un editor sin ese mapa edita bien técnicamente pero sin dirección. En A0 Studios el proceso siempre pasa por revisar la estructura del material antes de montar.",
       },
       { type: "heading", level: 3, text: "Ritmo controlado, no automático" },
       {
@@ -2265,11 +2265,11 @@ export const blogPosts: BlogPost[] = [
       {
         type: "faq",
         question: "¿Puedo empezar con edición rápida y escalar después?",
-        answer: "Sí, y tiene sentido si estás validando formatos. Cuando sepas qué tipo de contenido funciona para tu audiencia, ya inviertes en el criterio editorial. Muchos de nuestros clientes en RCS hacen exactamente ese recorrido.",
+        answer: "Sí, y tiene sentido si estás validando formatos. Cuando sepas qué tipo de contenido funciona para tu audiencia, ya inviertes en el criterio editorial. Muchos de nuestros clientes en A0 Studios hacen exactamente ese recorrido.",
       },
       {
         type: "paragraph",
-        text: "Si tienes brutos de sesiones anteriores y no estás seguro de si la edición está funcionando, lo primero es revisar el criterio editorial. En RCS trabajamos tanto la grabación como la postproducción. Cuéntanos qué tienes y qué quieres conseguir desde /#contacto.",
+        text: "Si tienes brutos de sesiones anteriores y no estás seguro de si la edición está funcionando, lo primero es revisar el criterio editorial. En A0 Studios trabajamos tanto la grabación como la postproducción. Cuéntanos qué tienes y qué quieres conseguir desde /#contacto.",
       },
     ],
   },
@@ -2286,14 +2286,14 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "No siempre necesitas producción completa. Pero a veces, ahorrarte la edición es el peor ahorro posible. Esto es lo que tienes que saber antes de decidir.",
-    seoTitle: "Producción completa vs solo grabación | RCS Madrid",
+    seoTitle: "Producción completa vs solo grabación | A0 Studios Madrid",
     metaDescription:
-      "Cuándo contratar producción completa vs solo grabación: guía para elegir el servicio correcto según tu proyecto, equipo y presupuesto en RCS Madrid.",
-    heroKicker: "Blog / RCS",
+      "Cuándo contratar producción completa vs solo grabación: guía para elegir el servicio correcto según tu proyecto, equipo y presupuesto en A0 Studios Madrid.",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
-        text: "Cuando alguien llama a RCS, lo primero que pregunta es el precio. Lo segundo, qué incluye. Y ahí empieza siempre la misma conversación: depende de lo que quieres hacer con lo que grabamos. Los tres servicios —Solo Grabación, Grabación + Edición y Producción Completa— no son versiones del mismo servicio. Son enfoques distintos para necesidades distintas. Elegir mal no solo cuesta dinero: cuesta tiempo.",
+        text: "Cuando alguien llama a A0 Studios, lo primero que pregunta es el precio. Lo segundo, qué incluye. Y ahí empieza siempre la misma conversación: depende de lo que quieres hacer con lo que grabamos. Los tres servicios —Solo Grabación, Grabación + Edición y Producción Completa— no son versiones del mismo servicio. Son enfoques distintos para necesidades distintas. Elegir mal no solo cuesta dinero: cuesta tiempo.",
       },
       {
         type: "paragraph",
@@ -2314,7 +2314,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Grabación + Edición te da el vídeo terminado. Grabamos y montamos: cortes, música, títulos, subtítulos si los necesitas. Es el servicio más habitual en RCS porque cubre el 80% de los casos: podcast, entrevistas, reels para empresa, clips de LinkedIn.",
+        text: "Grabación + Edición te da el vídeo terminado. Grabamos y montamos: cortes, música, títulos, subtítulos si los necesitas. Es el servicio más habitual en A0 Studios porque cubre el 80% de los casos: podcast, entrevistas, reels para empresa, clips de LinkedIn.",
       },
       {
         type: "paragraph",
@@ -2395,10 +2395,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Publicar de forma constante construye más confianza que cualquier campaña puntual. Te contamos cómo estructurar contenido recurrente para tu marca desde una sesión de estudio.",
-    seoTitle: "Contenido recurrente para marca | RCS Madrid",
+    seoTitle: "Contenido recurrente para marca | A0 Studios Madrid",
     metaDescription:
       "Contenido recurrente para marca: por qué la constancia genera más autoridad que cualquier campaña puntual y cómo estructurarlo desde un estudio en Madrid.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -2438,7 +2438,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 3, text: "Agrupa la producción en sesiones" },
       {
         type: "paragraph",
-        text: "La constancia no obliga a grabar cada semana. En RCS vemos habitualmente cómo una sesión de 3-4 horas genera entre 4 y 8 semanas de contenido publicable. El proceso es simple: se planifican los temas antes de llegar al estudio, se graba en bloques y se sale con el material bruto para editar y distribuir en los días siguientes. Una vez al mes en estudio puede ser suficiente para mantener una presencia semanal sólida.",
+        text: "La constancia no obliga a grabar cada semana. En A0 Studios vemos habitualmente cómo una sesión de 3-4 horas genera entre 4 y 8 semanas de contenido publicable. El proceso es simple: se planifican los temas antes de llegar al estudio, se graba en bloques y se sale con el material bruto para editar y distribuir en los días siguientes. Una vez al mes en estudio puede ser suficiente para mantener una presencia semanal sólida.",
       },
       { type: "heading", level: 3, text: "Adapta el mismo material a distintos canales" },
       {
@@ -2473,7 +2473,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "faq",
         question: "¿Cuánto contenido se puede producir en una sesión de estudio?",
-        answer: "Con una planificación previa adecuada, una sesión de 3-4 horas en RCS genera habitualmente entre 4 y 8 semanas de contenido distribuible. El volumen depende del tipo de formato: un podcast con clips tiene mayor rendimiento por hora grabada que una VSL de producto que requiere más precisión.",
+        answer: "Con una planificación previa adecuada, una sesión de 3-4 horas en A0 Studios genera habitualmente entre 4 y 8 semanas de contenido distribuible. El volumen depende del tipo de formato: un podcast con clips tiene mayor rendimiento por hora grabada que una VSL de producto que requiere más precisión.",
       },
       {
         type: "faq",
@@ -2495,7 +2495,7 @@ export const blogPosts: BlogPost[] = [
     slug: "grabacion-testimonios-casos-exito-empresa",
     title: "Grabación de testimonios y casos de éxito para empresa: cómo hacerlo bien",
     description:
-      "Cómo grabar testimonios de clientes y casos de éxito que generen confianza. Guía práctica sobre preparación, técnica y preguntas desde el estudio RCS en Madrid.",
+      "Cómo grabar testimonios de clientes y casos de éxito que generen confianza. Guía práctica sobre preparación, técnica y preguntas desde el estudio A0 Studios en Madrid.",
     publishedAt: "2026-06-26",
     readingTime: "5 min",
     category: "Guía",
@@ -2504,10 +2504,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Grabar un testimonio de cliente mal resulta contraproducente. Guía para hacerlo bien: espacio, preguntas, técnica y errores que evitar.",
-    seoTitle: "Grabación de testimonios para empresa | RCS Madrid",
+    seoTitle: "Grabación de testimonios para empresa | A0 Studios Madrid",
     metaDescription:
-      "Cómo grabar testimonios de clientes y casos de éxito que generen confianza. Guía práctica desde el estudio RCS en Madrid centro.",
-    heroKicker: "Blog / RCS",
+      "Cómo grabar testimonios de clientes y casos de éxito que generen confianza. Guía práctica desde el estudio A0 Studios en Madrid centro.",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -2515,7 +2515,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS hemos grabado testimonios y piezas de casos de éxito para equipos de marketing, agencias y empresas que necesitan ese tipo de contenido para cerrar ventas, justificar inversiones o reforzar la credibilidad en licitaciones. Lo que marca la diferencia no es el presupuesto: es el proceso.",
+        text: "En A0 Studios hemos grabado testimonios y piezas de casos de éxito para equipos de marketing, agencias y empresas que necesitan ese tipo de contenido para cerrar ventas, justificar inversiones o reforzar la credibilidad en licitaciones. Lo que marca la diferencia no es el presupuesto: es el proceso.",
       },
       {
         type: "image",
@@ -2550,7 +2550,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "No se trata de darle un guión. Se trata de tener una conversación de 10-15 minutos antes de encender la cámara para que llegue sabiendo qué se le va a preguntar y por qué. Nadie habla bien cuando está sorprendido. En RCS preparamos al entrevistado con una lista de 4-5 preguntas abiertas que compartimos con antelación, no para que ensaye respuestas, sino para que llegue pensado. La diferencia en el lenguaje corporal es inmediata.",
+        text: "No se trata de darle un guión. Se trata de tener una conversación de 10-15 minutos antes de encender la cámara para que llegue sabiendo qué se le va a preguntar y por qué. Nadie habla bien cuando está sorprendido. En A0 Studios preparamos al entrevistado con una lista de 4-5 preguntas abiertas que compartimos con antelación, no para que ensaye respuestas, sino para que llegue pensado. La diferencia en el lenguaje corporal es inmediata.",
       },
       {
         type: "heading",
@@ -2559,7 +2559,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Un testimonio grabado en una sala de reuniones con luz de techo y el aire acondicionado de fondo no va a funcionar aunque lo que diga la persona sea brillante. La calidad técnica condiciona la credibilidad. En el ático de RCS trabajamos con cámaras Sony A7 en plano americano o medio, iluminación Aputure suave que no hace que el entrevistado entorne los ojos, y micrófono de solapa Rode para aislar el audio del ambiente de Madrid centro. El resultado tiene el aspecto de un documental corto, no de una grabación de videoconferencia.",
+        text: "Un testimonio grabado en una sala de reuniones con luz de techo y el aire acondicionado de fondo no va a funcionar aunque lo que diga la persona sea brillante. La calidad técnica condiciona la credibilidad. En el ático de A0 Studios trabajamos con cámaras Sony A7 en plano americano o medio, iluminación Aputure suave que no hace que el entrevistado entorne los ojos, y micrófono de solapa Rode para aislar el audio del ambiente de Madrid centro. El resultado tiene el aspecto de un documental corto, no de una grabación de videoconferencia.",
       },
       {
         type: "heading",
@@ -2637,10 +2637,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Grabar un podcast y luego cortar clips para redes no es magia. Con la estructura correcta desde el principio, una sesión de 2 horas puede darte 20 clips listos para publicar.",
-    seoTitle: "Podcast para clips de redes sociales | RCS Madrid",
+    seoTitle: "Podcast para clips de redes sociales | A0 Studios Madrid",
     metaDescription:
       "Cómo optimizar una sesión de podcast para extraer clips de redes sociales. Estructura, timing y edición para multiplicar tu contenido desde el estudio.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -2648,7 +2648,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS hemos visto cómo los clientes que planifican la sesión con los clips en mente salen con 15 o 20 piezas listas para publicar directamente. Y los que no lo planifican, salen con una grabación de 90 minutos que luego no saben cómo cortar. La diferencia es de estructura, no de suerte.",
+        text: "En A0 Studios hemos visto cómo los clientes que planifican la sesión con los clips en mente salen con 15 o 20 piezas listas para publicar directamente. Y los que no lo planifican, salen con una grabación de 90 minutos que luego no saben cómo cortar. La diferencia es de estructura, no de suerte.",
       },
       {
         type: "image",
@@ -2716,7 +2716,7 @@ export const blogPosts: BlogPost[] = [
         type: "faq",
         question: "¿Hace falta grabar en vertical para los clips de redes?",
         answer:
-          "No necesariamente. En RCS grabamos en horizontal con cámaras bien encuadradas y reencuadramos en edición para vertical. Si el encuadre original deja espacio arriba y abajo, el reencuadre queda bien sin perder información importante.",
+          "No necesariamente. En A0 Studios grabamos en horizontal con cámaras bien encuadradas y reencuadramos en edición para vertical. Si el encuadre original deja espacio arriba y abajo, el reencuadre queda bien sin perder información importante.",
       },
       {
         type: "faq",
@@ -2749,10 +2749,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "El micrófono no es un accesorio secundario en vídeo. Es la primera decisión de producción. Guía para elegir bien según el formato que grabas.",
-    seoTitle: "Qué micrófono usar para vídeo según el formato | RCS Madrid",
+    seoTitle: "Qué micrófono usar para vídeo según el formato | A0 Studios Madrid",
     metaDescription:
       "Audio profesional para vídeo: cómo elegir entre dinámico, condensador, lavalier o shotgun según si grabas podcast, reels, cursos o entrevistas.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -2760,7 +2760,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS lo vemos constantemente en las primeras consultas. Founders y equipos de marketing que llegan con setups de cámara bien resueltos pero sin una estrategia clara de audio. El problema no es que no tengan micrófonos — muchas veces tienen varios. El problema es que no saben cuál usar para cada formato. Lo que funciona en un podcast de mesa larga no funciona en un reel vertical grabado de pie. Lo que encaja en una entrevista en movimiento no tiene sentido en una narración a cámara sentado. Elegir bien el micrófono no es un detalle técnico — es una decisión de producción que afecta directamente a la calidad percibida del contenido.",
+        text: "En A0 Studios lo vemos constantemente en las primeras consultas. Founders y equipos de marketing que llegan con setups de cámara bien resueltos pero sin una estrategia clara de audio. El problema no es que no tengan micrófonos — muchas veces tienen varios. El problema es que no saben cuál usar para cada formato. Lo que funciona en un podcast de mesa larga no funciona en un reel vertical grabado de pie. Lo que encaja en una entrevista en movimiento no tiene sentido en una narración a cámara sentado. Elegir bien el micrófono no es un detalle técnico — es una decisión de producción que afecta directamente a la calidad percibida del contenido.",
       },
       {
         type: "image",
@@ -2783,12 +2783,12 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 3, text: "Dinámico — podcast e intervistas largas" },
       {
         type: "paragraph",
-        text: "El micrófono dinámico — Shure SM7B, Rode PodMic — es el estándar para podcast y entrevistas largas en interior. Rechaza bien el ruido ambiental, no necesita un tratamiento acústico perfecto y aguanta bien las variaciones de nivel de voz entre personas distintas. En RCS lo usamos para sesiones con 2 o más personas a mesa, formatos de más de 20 minutos y espacios que no son completamente silenciosos. Su punto débil: necesita buena preamp. Sin un previo decente, el dinámico no da su mejor versión y el ruido de fondo relativo sube.",
+        text: "El micrófono dinámico — Shure SM7B, Rode PodMic — es el estándar para podcast y entrevistas largas en interior. Rechaza bien el ruido ambiental, no necesita un tratamiento acústico perfecto y aguanta bien las variaciones de nivel de voz entre personas distintas. En A0 Studios lo usamos para sesiones con 2 o más personas a mesa, formatos de más de 20 minutos y espacios que no son completamente silenciosos. Su punto débil: necesita buena preamp. Sin un previo decente, el dinámico no da su mejor versión y el ruido de fondo relativo sube.",
       },
       { type: "heading", level: 3, text: "Condensador — narraciones y presentaciones a cámara" },
       {
         type: "paragraph",
-        text: "El micrófono condensador — Rode NT1, AKG C214 — capta con más detalle y amplitud que el dinámico. Ideal para narraciones en off, cursos online grabados a cámara fija o piezas donde quieres presencia y cuerpo de voz sin coloración agresiva. El problema es que necesita tratamiento acústico: en un espacio con paredes duras y sin absorción, el condensador amplifica el problema en lugar de la voz. En RCS el ático tiene absorción suficiente para que el condensador suene bien sin preparación adicional del espacio.",
+        text: "El micrófono condensador — Rode NT1, AKG C214 — capta con más detalle y amplitud que el dinámico. Ideal para narraciones en off, cursos online grabados a cámara fija o piezas donde quieres presencia y cuerpo de voz sin coloración agresiva. El problema es que necesita tratamiento acústico: en un espacio con paredes duras y sin absorción, el condensador amplifica el problema en lugar de la voz. En A0 Studios el ático tiene absorción suficiente para que el condensador suene bien sin preparación adicional del espacio.",
       },
       { type: "heading", level: 3, text: "Lavalier inalámbrico — movimiento y entrevistas con varios oradores" },
       {
@@ -2829,7 +2829,7 @@ export const blogPosts: BlogPost[] = [
         type: "faq",
         question: "¿Qué micrófono uso para grabar reels verticales en estudio?",
         answer:
-          "En RCS usamos habitualmente un shotgun en boom para mantener el encuadre limpio sin cables visibles. Si el presentador habla directo a cámara sin moverse, el shotgun bien posicionado da un resultado limpio y no requiere postproducción de audio intensiva.",
+          "En A0 Studios usamos habitualmente un shotgun en boom para mantener el encuadre limpio sin cables visibles. Si el presentador habla directo a cámara sin moverse, el shotgun bien posicionado da un resultado limpio y no requiere postproducción de audio intensiva.",
       },
       {
         type: "faq",
@@ -2841,7 +2841,7 @@ export const blogPosts: BlogPost[] = [
         type: "faq",
         question: "¿Cuánto mejora el audio al grabar en un estudio frente a en casa?",
         answer:
-          "Mucho, y no solo por el equipo — por el espacio. Un ático con absorción correcta elimina el eco que arruina el audio doméstico. En RCS, con un dinámico o condensador bien ganado, el audio sale listo para mezcla sin tratamiento pesado en postproducción.",
+          "Mucho, y no solo por el equipo — por el espacio. Un ático con absorción correcta elimina el eco que arruina el audio doméstico. En A0 Studios, con un dinámico o condensador bien ganado, el audio sale listo para mezcla sin tratamiento pesado en postproducción.",
       },
       {
         type: "paragraph",
@@ -2862,10 +2862,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Concentrar la producción de contenido en una sola jornada cambia la constancia y la calidad. Guía para montar un content day que funcione de verdad.",
-    seoTitle: "Qué es un content day y cómo aprovecharlo | RCS Madrid",
+    seoTitle: "Qué es un content day y cómo aprovecharlo | A0 Studios Madrid",
     metaDescription:
       "Qué es un content day, cómo planificarlo y qué errores evitar para grabar semanas de contenido en una sola sesión en Madrid.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -2873,7 +2873,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS lo montamos constantemente con founders, marcas personales y equipos de marketing que quieren mantener presencia constante en redes sin depender de grabar cada semana. La lógica es simple: cuesta más arrancar una grabación que grabar diez piezas seguidas una vez que el set, la luz y el estado mental están listos.",
+        text: "En A0 Studios lo montamos constantemente con founders, marcas personales y equipos de marketing que quieren mantener presencia constante en redes sin depender de grabar cada semana. La lógica es simple: cuesta más arrancar una grabación que grabar diez piezas seguidas una vez que el set, la luz y el estado mental están listos.",
       },
       {
         type: "image",
@@ -2900,7 +2900,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 3, text: "Definir los formatos antes de llegar al estudio" },
       {
         type: "paragraph",
-        text: "Antes de la sesión conviene tener claro cuántas piezas vas a grabar y de qué tipo: reels cortos, vídeo largo, clips para LinkedIn, contenido de autoridad a cámara. En RCS pedimos esta lista antes de la fecha, porque cambia el vestuario, el encuadre y hasta el orden de grabación. Grabar sin esta lista suele acabar en piezas repetidas y huecos sin cubrir.",
+        text: "Antes de la sesión conviene tener claro cuántas piezas vas a grabar y de qué tipo: reels cortos, vídeo largo, clips para LinkedIn, contenido de autoridad a cámara. En A0 Studios pedimos esta lista antes de la fecha, porque cambia el vestuario, el encuadre y hasta el orden de grabación. Grabar sin esta lista suele acabar en piezas repetidas y huecos sin cubrir.",
       },
       { type: "heading", level: 3, text: "Guionizar sin sobre-escribir" },
       {
@@ -2974,10 +2974,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Grabar vídeo para la web de tu empresa no es lo mismo que grabar para redes. Guía para planificar la sesión por bloques y qué necesita cada página.",
-    seoTitle: "Vídeo corporativo para la web | RCS Madrid",
+    seoTitle: "Vídeo corporativo para la web | A0 Studios Madrid",
     metaDescription:
       "Vídeo corporativo para la web: qué grabar, cómo planificar la sesión por bloques y qué necesita cada página para convertir mejor.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -2985,7 +2985,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS grabamos vídeo corporativo para webs de empresas, agencias y equipos de marketing que necesitan algo más sólido que un móvil en la oficina, pero sin caer en el vídeo institucional de plató que nadie termina de ver entero. La clave está en tratar la sesión como un guion de página, no como una grabación suelta.",
+        text: "En A0 Studios grabamos vídeo corporativo para webs de empresas, agencias y equipos de marketing que necesitan algo más sólido que un móvil en la oficina, pero sin caer en el vídeo institucional de plató que nadie termina de ver entero. La clave está en tratar la sesión como un guion de página, no como una grabación suelta.",
       },
       {
         type: "image",
@@ -3016,7 +3016,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 3, text: "Definir qué páginas necesitan vídeo antes de grabar" },
       {
         type: "paragraph",
-        text: "Antes de reservar sesión, conviene mapear la web y decidir qué páginas necesitan vídeo de verdad: home, servicios, equipo, casos de éxito. No todas lo necesitan. Meter vídeo en una página que no lo pide solo añade peso de carga sin aportar conversión. En RCS pedimos este mapeo antes de la fecha de grabación, porque cambia directamente el guion y el número de piezas que hay que grabar.",
+        text: "Antes de reservar sesión, conviene mapear la web y decidir qué páginas necesitan vídeo de verdad: home, servicios, equipo, casos de éxito. No todas lo necesitan. Meter vídeo en una página que no lo pide solo añade peso de carga sin aportar conversión. En A0 Studios pedimos este mapeo antes de la fecha de grabación, porque cambia directamente el guion y el número de piezas que hay que grabar.",
       },
       { type: "heading", level: 3, text: "Grabar por bloques, no por página" },
       {
@@ -3089,18 +3089,18 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un spot publicitario en estudio no se improvisa. Guía para planificar guion, tomas y variantes de campaña antes de pisar el plató.",
-    seoTitle: "Grabación de Spots Publicitarios | RCS Madrid",
+    seoTitle: "Grabación de Spots Publicitarios | A0 Studios Madrid",
     metaDescription:
       "Grabación de spots publicitarios en estudio: cómo planificar guion, tomas y variantes de campaña sin tener que regrabar nada.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
-        text: "Cuando una marca decide grabar un spot publicitario, la primera duda casi nunca es de presupuesto. Es de formato: ¿esto se graba en estudio, en localización o mezclando ambos? Un estudio de grabación como RCS resuelve buena parte de esa pregunta antes de que se convierta en un problema el día del rodaje: control total de luz, de sonido y de fondo, sin depender del clima ni del ruido de una calle de Madrid.",
+        text: "Cuando una marca decide grabar un spot publicitario, la primera duda casi nunca es de presupuesto. Es de formato: ¿esto se graba en estudio, en localización o mezclando ambos? Un estudio de grabación como A0 Studios resuelve buena parte de esa pregunta antes de que se convierta en un problema el día del rodaje: control total de luz, de sonido y de fondo, sin depender del clima ni del ruido de una calle de Madrid.",
       },
       {
         type: "paragraph",
-        text: "En RCS grabamos spots para marcas, agencias y empresas que necesitan algo con acabado publicitario real, no un vídeo de producto grabado con el móvil de la oficina. La diferencia no está solo en la cámara. Está en cómo se planifica la sesión antes de encender nada.",
+        text: "En A0 Studios grabamos spots para marcas, agencias y empresas que necesitan algo con acabado publicitario real, no un vídeo de producto grabado con el móvil de la oficina. La diferencia no está solo en la cámara. Está en cómo se planifica la sesión antes de encender nada.",
       },
       {
         type: "image",
@@ -3127,7 +3127,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 3, text: "Cerrar el guion y el storyboard antes de reservar estudio" },
       {
         type: "paragraph",
-        text: "Antes de fijar fecha, conviene tener el guion cerrado plano a plano, no solo la idea general. En RCS pedimos el storyboard o al menos un guion técnico antes de la sesión, porque de ahí sale todo lo demás: cuántas horas de estudio hacen falta, qué atrezo hay que traer y si se necesita más de una cámara para cubrir ángulos distintos sin repetir tomas.",
+        text: "Antes de fijar fecha, conviene tener el guion cerrado plano a plano, no solo la idea general. En A0 Studios pedimos el storyboard o al menos un guion técnico antes de la sesión, porque de ahí sale todo lo demás: cuántas horas de estudio hacen falta, qué atrezo hay que traer y si se necesita más de una cámara para cubrir ángulos distintos sin repetir tomas.",
       },
       { type: "heading", level: 3, text: "Planificar el rodaje por tomas, no por escenas" },
       {
@@ -3201,10 +3201,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "El fondo es lo que el espectador tiene delante todo el vídeo. Guía para elegir entre un decorado neutro y un entorno real según lo que quiere transmitir tu marca.",
-    seoTitle: "Fondos y Decorados para Grabar Contenido | RCS Madrid",
+    seoTitle: "Fondos y Decorados para Grabar Contenido | A0 Studios Madrid",
     metaDescription:
       "Fondos y decorados para grabar contenido: cuándo usar un fondo neutro, cuándo un entorno real, y cómo evitar que el decorado compita con tu mensaje.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -3212,7 +3212,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS grabamos cada semana marcas personales, empresas y equipos de marketing que llegan con guion cerrado, buena luz prevista y cero decisión tomada sobre qué va a aparecer detrás. Y el fondo cambia más de lo que parece: puede reforzar el mensaje o competir con él.",
+        text: "En A0 Studios grabamos cada semana marcas personales, empresas y equipos de marketing que llegan con guion cerrado, buena luz prevista y cero decisión tomada sobre qué va a aparecer detrás. Y el fondo cambia más de lo que parece: puede reforzar el mensaje o competir con él.",
       },
       {
         type: "image",
@@ -3243,7 +3243,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Un entorno real, como un salón, una terraza o una oficina con vida, funciona mejor cuando el objetivo es cercanía: marca personal, entrevistas, contenido de autoridad o piezas donde quieres que el espectador sienta que está en un sitio de verdad, no en un plató. En RCS usamos el ático precisamente por eso: mantiene la parte técnica de un estudio, pero el fondo no huele a fondo.",
+        text: "Un entorno real, como un salón, una terraza o una oficina con vida, funciona mejor cuando el objetivo es cercanía: marca personal, entrevistas, contenido de autoridad o piezas donde quieres que el espectador sienta que está en un sitio de verdad, no en un plató. En A0 Studios usamos el ático precisamente por eso: mantiene la parte técnica de un estudio, pero el fondo no huele a fondo.",
       },
       { type: "heading", level: 3, text: "Elegir el fondo según el mensaje de la marca" },
       {
@@ -3252,7 +3252,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Lo mismo pasa con el color. Un fondo con los colores de marca ayuda al reconocimiento visual en redes, pero si se satura demasiado, compite con la persona que habla. La regla que seguimos en RCS es simple: el fondo puede sugerir la marca, nunca debe gritarla.",
+        text: "Lo mismo pasa con el color. Un fondo con los colores de marca ayuda al reconocimiento visual en redes, pero si se satura demasiado, compite con la persona que habla. La regla que seguimos en A0 Studios es simple: el fondo puede sugerir la marca, nunca debe gritarla.",
       },
       { type: "heading", level: 3, text: "Cuidar la profundidad y los elementos que entran en cuadro" },
       {
@@ -3325,10 +3325,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "La cámara no es lo que más cambia el resultado de un vídeo de marca. Qué mirar de verdad antes de comprar o alquilar equipo.",
-    seoTitle: "Cámara para Grabar Contenido de Marca | RCS Madrid",
+    seoTitle: "Cámara para Grabar Contenido de Marca | A0 Studios Madrid",
     metaDescription:
       "Cámara para grabar contenido de marca: qué mirar en autofoco, formato de entrega y lentes antes de elegir o alquilar equipo para tu marca en Madrid.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -3336,7 +3336,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS grabamos con equipo de nivel profesional, sí, pero el salto de calidad real viene de otros sitios: cómo enfoca la cámara en movimiento, qué lente lleva montada, cómo suena el vídeo y para qué formato de entrega lo estás preparando. Esta guía va de eso: qué mirar de verdad antes de comprar o alquilar una cámara para grabar contenido de marca.",
+        text: "En A0 Studios grabamos con equipo de nivel profesional, sí, pero el salto de calidad real viene de otros sitios: cómo enfoca la cámara en movimiento, qué lente lleva montada, cómo suena el vídeo y para qué formato de entrega lo estás preparando. Esta guía va de eso: qué mirar de verdad antes de comprar o alquilar una cámara para grabar contenido de marca.",
       },
       {
         type: "image",
@@ -3357,7 +3357,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Por eso en RCS priorizamos equipo que resuelve bien esos cuatro puntos antes que equipo que solo suma megapíxeles. Una cámara media bien configurada, con buen audio y buena luz, da mejor resultado que una cámara de gama alta mal usada.",
+        text: "Por eso en A0 Studios priorizamos equipo que resuelve bien esos cuatro puntos antes que equipo que solo suma megapíxeles. Una cámara media bien configurada, con buen audio y buena luz, da mejor resultado que una cámara de gama alta mal usada.",
       },
       { type: "heading", level: 2, text: "Cómo se hace bien" },
       { type: "heading", level: 3, text: "Autofoco y estabilización, no resolución" },
@@ -3402,7 +3402,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "faq",
-        question: "¿Qué cámara usáis en RCS?",
+        question: "¿Qué cámara usáis en A0 Studios?",
         answer:
           "Trabajamos con cuerpos Sony A7, elegidos por su autofoco fiable y su rendimiento en vídeo, combinados con lentes luminosas según el tipo de plano que necesita cada sesión.",
       },
@@ -3414,7 +3414,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "faq",
-        question: "¿Puedo traer mi propia cámara a la sesión en RCS?",
+        question: "¿Puedo traer mi propia cámara a la sesión en A0 Studios?",
         answer:
           "Sí. Podemos grabar con tu equipo, con el nuestro, o combinar ambos según lo que necesite cada pieza. Lo hablamos antes de la sesión para preparar el set en consecuencia.",
       },
@@ -3437,10 +3437,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Grabar un evento corporativo no es lo mismo que grabar en estudio. Qué cambia, qué falla más a menudo y cómo llegar con un plan que no dependa de la improvisación.",
-    seoTitle: "Cobertura Audiovisual de Eventos Corporativos | RCS Madrid",
+    seoTitle: "Cobertura Audiovisual de Eventos Corporativos | A0 Studios Madrid",
     metaDescription:
       "Cobertura audiovisual de eventos corporativos: cuántas cámaras necesitas, cómo resolver el audio en directo y qué entregables pedir al terminar el evento.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -3522,7 +3522,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "faq",
-        question: "¿Trabajáis eventos fuera del ático de RCS?",
+        question: "¿Trabajáis eventos fuera del ático de A0 Studios?",
         answer:
           "Sí. La cobertura de eventos corporativos se hace en el espacio del cliente o del recinto donde tenga lugar el evento, no en nuestro estudio.",
       },
@@ -3545,10 +3545,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "El contenido UGC ya no es solo cosa de creators grabando desde casa: las marcas lo piden en estudio, con dirección y calidad, pero sin perder el tono casero que funciona.",
-    seoTitle: "Contenido UGC para marcas: cómo grabarlo | RCS Madrid",
+    seoTitle: "Contenido UGC para marcas: cómo grabarlo | A0 Studios Madrid",
     metaDescription:
       "Qué es el contenido UGC, por qué funciona en redes y cómo grabarlo en estudio con calidad profesional sin perder el tono auténtico que lo hace convertir.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -3556,7 +3556,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "El problema es que grabar 'como si fuera casero' en casa, con luz de ventana y el móvil apoyado en una torre de libros, casi nunca sale bien a la primera. En RCS grabamos UGC en estudio: mantenemos ese tono cercano pero controlamos luz, audio y encuadre para que el resultado se pueda usar de verdad.",
+        text: "El problema es que grabar 'como si fuera casero' en casa, con luz de ventana y el móvil apoyado en una torre de libros, casi nunca sale bien a la primera. En A0 Studios grabamos UGC en estudio: mantenemos ese tono cercano pero controlamos luz, audio y encuadre para que el resultado se pueda usar de verdad.",
       },
       {
         type: "image",
@@ -3637,7 +3637,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si tu marca necesita contenido UGC con esa mezcla de auténtico y bien grabado, en RCS montamos la sesión completa: guion de apoyo, grabación y clips listos para publicar. Escríbenos desde /#contacto y lo hablamos.",
+        text: "Si tu marca necesita contenido UGC con esa mezcla de auténtico y bien grabado, en A0 Studios montamos la sesión completa: guion de apoyo, grabación y clips listos para publicar. Escríbenos desde /#contacto y lo hablamos.",
       },
     ],
   },
@@ -3654,10 +3654,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Cada vez más empresas graban vídeo para mostrar cómo es trabajar en su equipo. Cómo hacerlo bien para que atraiga candidatos de verdad, no solo likes.",
-    seoTitle: "Vídeos de employer branding: cómo grabarlos | RCS Madrid",
+    seoTitle: "Vídeos de employer branding: cómo grabarlos | A0 Studios Madrid",
     metaDescription:
       "Vídeo de employer branding para atraer talento: qué grabar, cómo prepararlo y por qué el estudio marca la diferencia frente a grabar en la oficina.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -3746,7 +3746,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si tu empresa quiere grabar contenido de employer branding para atraer talento, en RCS montamos la sesión completa: preguntas de apoyo, grabación de varias personas del equipo y clips listos para publicar. Escríbenos desde /#contacto y lo hablamos.",
+        text: "Si tu empresa quiere grabar contenido de employer branding para atraer talento, en A0 Studios montamos la sesión completa: preguntas de apoyo, grabación de varias personas del equipo y clips listos para publicar. Escríbenos desde /#contacto y lo hablamos.",
       },
     ],
   },
@@ -3763,10 +3763,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un webinar grabado con webcam y sonido de portátil se nota. Cómo montar cámara, pantalla compartida y audio para que la masterclass funcione en directo y después.",
-    seoTitle: "Grabación de webinars y masterclasses | RCS Madrid",
+    seoTitle: "Grabación de webinars y masterclasses | A0 Studios Madrid",
     metaDescription:
       "Grabación de webinars y masterclasses con nivel profesional: cámara, pantalla compartida y audio limpio, listos para el directo y para reutilizar después.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -3859,7 +3859,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si tienes un webinar o una masterclass en el calendario y quieres que se vea y se escuche a nivel profesional, en RCS montamos cámara, pantalla y audio para que salga bien a la primera. Escríbenos desde /#contacto y lo preparamos.",
+        text: "Si tienes un webinar o una masterclass en el calendario y quieres que se vea y se escuche a nivel profesional, en A0 Studios montamos cámara, pantalla y audio para que salga bien a la primera. Escríbenos desde /#contacto y lo preparamos.",
       },
     ],
   },
@@ -3876,14 +3876,14 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un vídeo de producto grabado con el móvil en la mesa de la oficina se nota. Cómo montar fondo, luz y planos en estudio para que el producto se vea bien y venda.",
-    seoTitle: "Vídeo de producto en estudio | RCS Madrid",
+    seoTitle: "Vídeo de producto en estudio | A0 Studios Madrid",
     metaDescription:
       "Cómo grabar un vídeo de producto en estudio: cámara, luz y fondo para que el producto se vea bien y el vídeo sirva para vender de verdad.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
-        text: "Cada vez llegan más marcas a RCS con el mismo encargo: necesitan un vídeo de su producto para la ficha de ecommerce, para un anuncio o para la web, y lo que tienen grabado hasta ahora es con el móvil, encima de la mesa de la oficina, con la luz que entra por la ventana esa tarde. Se nota. Y cuando el producto es lo que tiene que convencer a alguien de comprar, ese detalle pesa.",
+        text: "Cada vez llegan más marcas a A0 Studios con el mismo encargo: necesitan un vídeo de su producto para la ficha de ecommerce, para un anuncio o para la web, y lo que tienen grabado hasta ahora es con el móvil, encima de la mesa de la oficina, con la luz que entra por la ventana esa tarde. Se nota. Y cuando el producto es lo que tiene que convencer a alguien de comprar, ese detalle pesa.",
       },
       {
         type: "paragraph",
@@ -3972,7 +3972,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si tienes un producto que necesita verse bien de verdad, en RCS montamos fondo, luz y cámara para que el vídeo cumpla su función: que quien lo vea entienda exactamente qué está comprando. Escríbenos desde /#contacto y lo preparamos.",
+        text: "Si tienes un producto que necesita verse bien de verdad, en A0 Studios montamos fondo, luz y cámara para que el vídeo cumpla su función: que quien lo vea entienda exactamente qué está comprando. Escríbenos desde /#contacto y lo preparamos.",
       },
     ],
   },
@@ -3989,14 +3989,14 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "El fondo y la luz se ven a primera vista. El tratamiento acústico no se ve, pero se escucha en cada grabación. Qué hace que una sala suene bien y cómo se consigue.",
-    seoTitle: "Tratamiento acústico en un estudio de grabación | RCS Madrid",
+    seoTitle: "Tratamiento acústico en un estudio de grabación | A0 Studios Madrid",
     metaDescription:
       "Tratamiento acústico de un estudio: qué hace falta para que un podcast o un vídeo no suenen a habitación vacía y en qué se diferencia de insonorizar.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
-        text: "Cuando alguien visita RCS por primera vez, lo primero que mira es la luz y el fondo. Es lógico, es lo que se ve en la miniatura y en las fotos que se enseñan antes de reservar. El tratamiento acústico de la sala pasa desapercibido justo porque funciona bien: no se ve, se nota en el silencio de fondo cuando reproduces la grabación en casa con auriculares y no en la sala donde se grabó.",
+        text: "Cuando alguien visita A0 Studios por primera vez, lo primero que mira es la luz y el fondo. Es lógico, es lo que se ve en la miniatura y en las fotos que se enseñan antes de reservar. El tratamiento acústico de la sala pasa desapercibido justo porque funciona bien: no se ve, se nota en el silencio de fondo cuando reproduces la grabación en casa con auriculares y no en la sala donde se grabó.",
       },
       {
         type: "paragraph",
@@ -4036,7 +4036,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 3, text: "Aislamiento del ruido exterior" },
       {
         type: "paragraph",
-        text: "Además del eco interior, está el ruido que entra de fuera: tráfico, obras, el aire acondicionado, el ruido de la calle. En RCS grabamos en un ático de Ronda de Atocha, así que cerramos bien puertas y ventanas antes de empezar y evitamos usar el aire acondicionado durante la toma si hace ruido de fondo. Es un ajuste simple, pero se olvida más de lo que parece cuando alguien graba fuera de un estudio pensado para esto.",
+        text: "Además del eco interior, está el ruido que entra de fuera: tráfico, obras, el aire acondicionado, el ruido de la calle. En A0 Studios grabamos en un ático de Ronda de Atocha, así que cerramos bien puertas y ventanas antes de empezar y evitamos usar el aire acondicionado durante la toma si hace ruido de fondo. Es un ajuste simple, pero se olvida más de lo que parece cuando alguien graba fuera de un estudio pensado para esto.",
       },
       {
         type: "paragraph",
@@ -4045,7 +4045,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 3, text: "Colocación del micrófono y distancia a la fuente" },
       {
         type: "paragraph",
-        text: "Un micrófono cardioide colocado cerca de la boca (10-15 cm) capta mucha más señal directa que sala, así que el eco residual pesa menos en la mezcla final. Colocado lejos, en cambio, el micrófono capta más habitación que voz, por muy bien tratada que esté la sala. Por eso en RCS ajustamos la distancia antes de grabar, no la posición de la persona respecto a la cámara.",
+        text: "Un micrófono cardioide colocado cerca de la boca (10-15 cm) capta mucha más señal directa que sala, así que el eco residual pesa menos en la mezcla final. Colocado lejos, en cambio, el micrófono capta más habitación que voz, por muy bien tratada que esté la sala. Por eso en A0 Studios ajustamos la distancia antes de grabar, no la posición de la persona respecto a la cámara.",
       },
       {
         type: "paragraph",
@@ -4097,7 +4097,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si grabas podcast, entrevistas o vídeo con audio en directo, el sonido de la sala pesa tanto como la imagen, aunque se note menos a simple vista. En RCS la sala ya está tratada para esto, así que no tienes que pensarlo tú. Escríbenos desde /#contacto y lo hablamos.",
+        text: "Si grabas podcast, entrevistas o vídeo con audio en directo, el sonido de la sala pesa tanto como la imagen, aunque se note menos a simple vista. En A0 Studios la sala ya está tratada para esto, así que no tienes que pensarlo tú. Escríbenos desde /#contacto y lo hablamos.",
       },
     ],
   },
@@ -4114,10 +4114,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "La ropa es lo primero que se ve en cualquier grabación, antes incluso de escuchar la primera frase. Qué colores, patrones y prendas funcionan bien en cámara y cuáles conviene evitar.",
-    seoTitle: "Qué ropa ponerte para grabar vídeo | RCS Madrid",
+    seoTitle: "Qué ropa ponerte para grabar vídeo | A0 Studios Madrid",
     metaDescription:
       "Qué ropa ponerte para grabar vídeo: colores que funcionan en cámara, patrones a evitar y errores de vestuario que se notan en cualquier grabación.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -4204,7 +4204,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "faq",
-        question: "¿Qué colores evitan mejor en el estudio de RCS?",
+        question: "¿Qué colores evitan mejor en el estudio de A0 Studios?",
         answer:
           "Con luz natural y fondo de salón o terraza, lo que peor funciona es el blanco muy brillante y los estampados muy cargados. Los colores sólidos de saturación media son los que mejor se integran sin perder presencia.",
       },
@@ -4227,10 +4227,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "La mayoría de guiones suenan a anuncio porque están escritos como un folleto, no como algo que alguien diría en voz alta. Cómo escribir uno que suene a conversación real.",
-    seoTitle: "Guion para grabar contenido sin sonar a anuncio | RCS Madrid",
+    seoTitle: "Guion para grabar contenido sin sonar a anuncio | A0 Studios Madrid",
     metaDescription:
       "Guion para grabar contenido sin sonar a anuncio: cómo estructurar el hook, escribir para el oído y dejar hueco a la voz real de quien graba.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -4344,10 +4344,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Horizontal o vertical no es gusto personal, es una decisión que depende de dónde se va a ver el vídeo. Cómo elegir el formato antes de grabar, no después en edición.",
-    seoTitle: "Vídeo horizontal vs vertical: qué formato usar | RCS Madrid",
+    seoTitle: "Vídeo horizontal vs vertical: qué formato usar | A0 Studios Madrid",
     metaDescription:
       "Vídeo horizontal vs vertical: cómo elegir el formato según la plataforma y el objetivo, y cómo grabar una sesión pensando en ambos sin perder calidad.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -4455,10 +4455,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un vídeo pitch mal grabado puede hundir una buena idea antes de la primera llamada. Cómo prepararlo, qué evitar y cómo estructurarlo para que transmita seriedad.",
-    seoTitle: "Vídeo Pitch para Inversores: Cómo Grabarlo | RCS Madrid",
+    seoTitle: "Vídeo Pitch para Inversores: Cómo Grabarlo | A0 Studios Madrid",
     metaDescription:
       "Vídeo pitch para inversores: cómo grabarlo para transmitir seriedad y claridad sin sonar ensayado. Guía práctica desde nuestro estudio en Madrid.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -4466,7 +4466,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS grabamos bastantes vídeos de este tipo: founders que necesitan una pieza para un demo day, una ronda seed o simplemente para tener algo que mandar por email sin depender de agendar una llamada. La producción no arregla una idea floja, pero sí puede hundir una buena si se ve amateur, y eso es lo que más nos piden evitar.",
+        text: "En A0 Studios grabamos bastantes vídeos de este tipo: founders que necesitan una pieza para un demo day, una ronda seed o simplemente para tener algo que mandar por email sin depender de agendar una llamada. La producción no arregla una idea floja, pero sí puede hundir una buena si se ve amateur, y eso es lo que más nos piden evitar.",
       },
       {
         type: "image",
@@ -4559,7 +4559,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si estás preparando una ronda y necesitas un vídeo pitch que esté a la altura de lo que has construido, en RCS lo grabamos en una sesión de mañana o tarde, con el guion trabajado antes de pisar el estudio y sin alargar el proceso más de la cuenta. Escríbenos desde /#contacto y lo planeamos.",
+        text: "Si estás preparando una ronda y necesitas un vídeo pitch que esté a la altura de lo que has construido, en A0 Studios lo grabamos en una sesión de mañana o tarde, con el guion trabajado antes de pisar el estudio y sin alargar el proceso más de la cuenta. Escríbenos desde /#contacto y lo planeamos.",
       },
     ],
   },
@@ -4576,10 +4576,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un vídeo de onboarding bien hecho ahorra horas de RRHH repetidas y hace que la bienvenida no dependa de quién esté libre esa semana. Cómo estructurarlo y grabarlo.",
-    seoTitle: "Vídeo de Onboarding para Empleados | RCS Madrid",
+    seoTitle: "Vídeo de Onboarding para Empleados | A0 Studios Madrid",
     metaDescription:
       "Vídeo de onboarding para empleados nuevos: qué contar, quién debe salir y cómo grabarlo bien en un estudio de Madrid.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -4587,7 +4587,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS nos piden cada vez más este tipo de piezas: empresas que quieren dar una bienvenida consistente sin que dependa de que la persona de RRHH tenga la agenda libre esa semana. Un buen vídeo de onboarding ahorra horas de explicación repetida y hace que la primera impresión no dependa de quién esté disponible ese día en la oficina.",
+        text: "En A0 Studios nos piden cada vez más este tipo de piezas: empresas que quieren dar una bienvenida consistente sin que dependa de que la persona de RRHH tenga la agenda libre esa semana. Un buen vídeo de onboarding ahorra horas de explicación repetida y hace que la primera impresión no dependa de quién esté disponible ese día en la oficina.",
       },
       {
         type: "image",
@@ -4672,7 +4672,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si estás pensando en dar de alta un proceso de onboarding en vídeo para tu empresa, en RCS lo planteamos en bloques modulares desde el primer día de grabación, para que actualizarlo más adelante no suponga rehacer nada. Escríbenos desde /#contacto y lo vemos.",
+        text: "Si estás pensando en dar de alta un proceso de onboarding en vídeo para tu empresa, en A0 Studios lo planteamos en bloques modulares desde el primer día de grabación, para que actualizarlo más adelante no suponga rehacer nada. Escríbenos desde /#contacto y lo vemos.",
       },
     ],
   },
@@ -4689,10 +4689,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un vídeo explicativo de producto bien grabado convence enseñando, no vendiendo. Cómo estructurarlo, qué mostrar en pantalla y qué evitar para que no suene a anuncio.",
-    seoTitle: "Vídeo explicativo de producto: cómo grabarlo | RCS Madrid",
+    seoTitle: "Vídeo explicativo de producto: cómo grabarlo | A0 Studios Madrid",
     metaDescription:
       "Cómo grabar un vídeo explicativo de producto en Madrid que enganche y no suene a anuncio: guion, ritmo, planos y errores que evitar.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -4700,7 +4700,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS nos lo piden sobre todo founders de SaaS y equipos de producto: necesitan una pieza que puedan poner en la home, en una demo comercial o en un email de onboarding, y que haga el trabajo de explicar sin que un comercial tenga que estar presente. Cuando funciona bien, ese vídeo responde preguntas antes de que las hagan y filtra a quien no encaja con el producto.",
+        text: "En A0 Studios nos lo piden sobre todo founders de SaaS y equipos de producto: necesitan una pieza que puedan poner en la home, en una demo comercial o en un email de onboarding, y que haga el trabajo de explicar sin que un comercial tenga que estar presente. Cuando funciona bien, ese vídeo responde preguntas antes de que las hagan y filtra a quien no encaja con el producto.",
       },
       {
         type: "image",
@@ -4785,7 +4785,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si tienes un producto que explicar y quieres que el vídeo resuelva dudas en vez de sonar a anuncio, en RCS grabamos la parte de cara y montamos la de pantalla en el mismo flujo de edición. Escríbenos desde /#contacto y lo planteamos.",
+        text: "Si tienes un producto que explicar y quieres que el vídeo resuelva dudas en vez de sonar a anuncio, en A0 Studios grabamos la parte de cara y montamos la de pantalla en el mismo flujo de edición. Escríbenos desde /#contacto y lo planteamos.",
       },
     ],
   },
@@ -4802,10 +4802,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un anuncio grabado como si fuera contenido orgánico rinde mejor que uno con pinta de spot. Qué cambia realmente entre grabar para pauta y grabar para feed.",
-    seoTitle: "Vídeo para anuncios de pago: qué cambia | RCS Madrid",
+    seoTitle: "Vídeo para anuncios de pago: qué cambia | A0 Studios Madrid",
     metaDescription:
       "Cómo grabar vídeo para anuncios de pago (Meta y TikTok) que no parezca un anuncio genérico y qué cambia frente al contenido orgánico.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -4834,7 +4834,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Esto es justo lo que en RCS llamamos vídeo con estética nativa: se graba en el mismo ático, con la misma cámara y la misma luz que un reel cualquiera, pero el guion está pensado para pauta desde el primer segundo, no adaptado después con un corte de audio.",
+        text: "Esto es justo lo que en A0 Studios llamamos vídeo con estética nativa: se graba en el mismo ático, con la misma cámara y la misma luz que un reel cualquiera, pero el guion está pensado para pauta desde el primer segundo, no adaptado después con un corte de audio.",
       },
       { type: "heading", level: 2, text: "Cómo se hace bien" },
       { type: "heading", level: 3, text: "El hook: los dos primeros segundos" },
@@ -4902,7 +4902,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si tienes una campaña en marcha y necesitas variantes de vídeo que aguanten la pauta sin fatigarse en una semana, en RCS grabamos varias versiones en la misma sesión pensadas desde el guion para Meta y TikTok. Escríbenos desde /#contacto y lo planteamos.",
+        text: "Si tienes una campaña en marcha y necesitas variantes de vídeo que aguanten la pauta sin fatigarse en una semana, en A0 Studios grabamos varias versiones en la misma sesión pensadas desde el guion para Meta y TikTok. Escríbenos desde /#contacto y lo planteamos.",
       },
     ],
   },
@@ -4919,14 +4919,14 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Grabar contenido es una inversión, no un gasto de marketing suelto. Así se calcula si de verdad está compensando y qué mirar antes de decidir cuánto meter cada mes.",
-    seoTitle: "Cómo calcular el ROI del vídeo | RCS Madrid",
+    seoTitle: "Cómo calcular el ROI del vídeo | A0 Studios Madrid",
     metaDescription:
       "Cómo calcular el ROI de grabar contenido en vídeo: qué contar como coste real, qué contar como retorno y en qué plazo se empieza a notar.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
-        text: "Casi todos los founders y equipos de marketing que llegan a RCS hacen la misma pregunta en algún momento, aunque no siempre en voz alta: ¿esto está compensando? Han grabado unas cuantas sesiones, tienen contenido publicado, y aun así no saben si el dinero y el tiempo invertidos están generando algo o si simplemente están alimentando un feed que se ve bien pero no mueve nada.",
+        text: "Casi todos los founders y equipos de marketing que llegan a A0 Studios hacen la misma pregunta en algún momento, aunque no siempre en voz alta: ¿esto está compensando? Han grabado unas cuantas sesiones, tienen contenido publicado, y aun así no saben si el dinero y el tiempo invertidos están generando algo o si simplemente están alimentando un feed que se ve bien pero no mueve nada.",
       },
       {
         type: "paragraph",
@@ -5011,7 +5011,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si estás decidiendo cuánto invertir en contenido este trimestre y quieres montar algo que sí puedas medir desde el primer mes, en RCS te ayudamos a definir qué grabar y cómo hacer seguimiento del resultado. Escríbenos desde /#contacto y lo hablamos.",
+        text: "Si estás decidiendo cuánto invertir en contenido este trimestre y quieres montar algo que sí puedas medir desde el primer mes, en A0 Studios te ayudamos a definir qué grabar y cómo hacer seguimiento del resultado. Escríbenos desde /#contacto y lo hablamos.",
       },
     ],
   },
@@ -5027,11 +5027,11 @@ export const blogPosts: BlogPost[] = [
     keyword: "que es el b-roll",
     intent: "informacional",
     excerpt:
-      "El b-roll es lo que separa un vídeo plano de uno que engancha. Qué es, cuándo grabarlo y cómo lo integramos en cada sesión de RCS.",
-    seoTitle: "Qué es el B-roll y por qué lo necesitas | RCS Madrid",
+      "El b-roll es lo que separa un vídeo plano de uno que engancha. Qué es, cuándo grabarlo y cómo lo integramos en cada sesión de A0 Studios.",
+    seoTitle: "Qué es el B-roll y por qué lo necesitas | A0 Studios Madrid",
     metaDescription:
-      "El b-roll es el material de apoyo que hace que tu vídeo de marca se vea profesional. Qué es, cuándo grabarlo y cómo lo usamos en RCS.",
-    heroKicker: "Blog / RCS",
+      "El b-roll es el material de apoyo que hace que tu vídeo de marca se vea profesional. Qué es, cuándo grabarlo y cómo lo usamos en A0 Studios.",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -5123,7 +5123,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si vas a grabar contenido de marca y quieres que el resultado se note producido, no improvisado, en RCS planificamos el b-roll como parte de la sesión, no como un añadido de última hora. Escríbenos desde /#contacto y lo montamos juntos.",
+        text: "Si vas a grabar contenido de marca y quieres que el resultado se note producido, no improvisado, en A0 Studios planificamos el b-roll como parte de la sesión, no como un añadido de última hora. Escríbenos desde /#contacto y lo montamos juntos.",
       },
     ],
   },
@@ -5140,10 +5140,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "El aftermovie es la pieza que resume tu evento en menos de dos minutos de energía. Te contamos cómo se planifica la grabación y el montaje para que funcione.",
-    seoTitle: "Aftermovie de evento: cómo se produce | RCS Madrid",
+    seoTitle: "Aftermovie de evento: cómo se produce | A0 Studios Madrid",
     metaDescription:
       "Qué es un aftermovie, en qué se diferencia de la cobertura de un evento y cómo se planifica la grabación, la música y el montaje para que funcione en redes.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -5164,7 +5164,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 2, text: "Qué es un aftermovie y en qué se diferencia de la cobertura del evento" },
       {
         type: "paragraph",
-        text: "En RCS grabamos coberturas de eventos corporativos completas: ponencias enteras, entrevistas, streaming en directo. El aftermovie es otra cosa. No busca informar, busca transmitir energía. Coge los mejores segundos del día — la sala llenándose, el aplauso al ponente, la gente hablando entre pausas, el momento en que se apagan las luces para empezar — y los monta en una pieza corta pensada para redes.",
+        text: "En A0 Studios grabamos coberturas de eventos corporativos completas: ponencias enteras, entrevistas, streaming en directo. El aftermovie es otra cosa. No busca informar, busca transmitir energía. Coge los mejores segundos del día — la sala llenándose, el aplauso al ponente, la gente hablando entre pausas, el momento en que se apagan las luces para empezar — y los monta en una pieza corta pensada para redes.",
       },
       {
         type: "paragraph",
@@ -5232,7 +5232,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si organizas un evento y quieres que quede algo más que fotos sueltas, en RCS planificamos el aftermovie como parte de la cobertura, no como un extra de última hora. Escríbenos desde /#contacto y lo preparamos juntos.",
+        text: "Si organizas un evento y quieres que quede algo más que fotos sueltas, en A0 Studios planificamos el aftermovie como parte de la cobertura, no como un extra de última hora. Escríbenos desde /#contacto y lo preparamos juntos.",
       },
     ],
   },
@@ -5248,11 +5248,11 @@ export const blogPosts: BlogPost[] = [
     keyword: "podcast con invitados en remoto",
     intent: "informacional",
     excerpt:
-      "Grabar un podcast con un invitado conectado por videollamada no tiene que sonar peor que uno grabado en persona. Así lo montamos en RCS para que no se note la diferencia.",
-    seoTitle: "Podcast con invitado remoto: cómo grabarlo bien | RCS Madrid",
+      "Grabar un podcast con un invitado conectado por videollamada no tiene que sonar peor que uno grabado en persona. Así lo montamos en A0 Studios para que no se note la diferencia.",
+    seoTitle: "Podcast con invitado remoto: cómo grabarlo bien | A0 Studios Madrid",
     metaDescription:
       "Podcast con invitados en remoto: cómo grabar audio y vídeo para que no se note la diferencia con el estudio. Herramientas, encuadre y montaje.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -5260,7 +5260,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS grabamos episodios con invitado presencial casi cada semana, pero cada vez llegan más peticiones para combinar a alguien en el estudio con alguien conectado por videollamada. Funciona bien si se prepara con el flujo correcto de audio y vídeo. Si se improvisa, se nota enseguida: eco, cortes, un invitado que suena a llamada de teléfono al lado de otro con calidad de estudio.",
+        text: "En A0 Studios grabamos episodios con invitado presencial casi cada semana, pero cada vez llegan más peticiones para combinar a alguien en el estudio con alguien conectado por videollamada. Funciona bien si se prepara con el flujo correcto de audio y vídeo. Si se improvisa, se nota enseguida: eco, cortes, un invitado que suena a llamada de teléfono al lado de otro con calidad de estudio.",
       },
       {
         type: "image",
@@ -5325,7 +5325,7 @@ export const blogPosts: BlogPost[] = [
         type: "faq",
         question: "¿El invitado remoto puede aparecer en vídeo o solo en audio?",
         answer:
-          "Puede aparecer en vídeo sin problema. En RCS lo integramos en pantalla dentro del plano del estudio, como una entrevista con dos ubicaciones a la vez.",
+          "Puede aparecer en vídeo sin problema. En A0 Studios lo integramos en pantalla dentro del plano del estudio, como una entrevista con dos ubicaciones a la vez.",
       },
       {
         type: "faq",
@@ -5341,7 +5341,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si tienes un episodio con un invitado que no puede venir a Madrid, en RCS montamos la grabación híbrida para que suene como si estuviera en la sala. Escríbenos desde /#contacto y lo preparamos juntos.",
+        text: "Si tienes un episodio con un invitado que no puede venir a Madrid, en A0 Studios montamos la grabación híbrida para que suene como si estuviera en la sala. Escríbenos desde /#contacto y lo preparamos juntos.",
       },
     ],
   },
@@ -5357,11 +5357,11 @@ export const blogPosts: BlogPost[] = [
     keyword: "streaming en directo desde estudio",
     intent: "informacional",
     excerpt:
-      "Un directo no da margen para repetir la toma. Así preparamos en RCS las cámaras, el audio y la conexión antes de salir en streaming.",
-    seoTitle: "Streaming en Directo desde Estudio | RCS Madrid",
+      "Un directo no da margen para repetir la toma. Así preparamos en A0 Studios las cámaras, el audio y la conexión antes de salir en streaming.",
+    seoTitle: "Streaming en Directo desde Estudio | A0 Studios Madrid",
     metaDescription:
       "Streaming en directo desde estudio: qué necesitas en cámaras, conexión y audio para que la retransmisión salga bien sin sustos.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -5369,7 +5369,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En streaming en directo no hay postproducción de por medio. Lo que sale por streaming es lo que ve la audiencia, en el momento, con sus errores incluidos si los hay. Eso obliga a preparar antes lo que en una grabación normal se puede arreglar después: encuadre, niveles de audio, transiciones entre cámaras, gráficos en pantalla. En RCS montamos directos con cierta frecuencia y la clave siempre es la misma: preparar el flujo completo antes de salir en directo, no improvisar sobre la marcha.",
+        text: "En streaming en directo no hay postproducción de por medio. Lo que sale por streaming es lo que ve la audiencia, en el momento, con sus errores incluidos si los hay. Eso obliga a preparar antes lo que en una grabación normal se puede arreglar después: encuadre, niveles de audio, transiciones entre cámaras, gráficos en pantalla. En A0 Studios montamos directos con cierta frecuencia y la clave siempre es la misma: preparar el flujo completo antes de salir en directo, no improvisar sobre la marcha.",
       },
       {
         type: "image",
@@ -5453,7 +5453,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si tienes un evento o un lanzamiento que necesita salir en directo y no solo grabado, en RCS montamos el streaming con las cámaras, el audio y la conexión preparados para que aguante. Escríbenos desde /#contacto y lo planificamos juntos.",
+        text: "Si tienes un evento o un lanzamiento que necesita salir en directo y no solo grabado, en A0 Studios montamos el streaming con las cámaras, el audio y la conexión preparados para que aguante. Escríbenos desde /#contacto y lo planificamos juntos.",
       },
     ],
   },
@@ -5469,11 +5469,11 @@ export const blogPosts: BlogPost[] = [
     keyword: "subtitulos en video",
     intent: "informacional",
     excerpt:
-      "En redes la mayoría ve el vídeo con el sonido apagado. Sin subtítulos, ese vídeo no comunica nada. Así los preparamos en RCS para que no se note el trabajo detrás.",
-    seoTitle: "Subtítulos en Vídeo: por qué importan | RCS Madrid",
+      "En redes la mayoría ve el vídeo con el sonido apagado. Sin subtítulos, ese vídeo no comunica nada. Así los preparamos en A0 Studios para que no se note el trabajo detrás.",
+    seoTitle: "Subtítulos en Vídeo: por qué importan | A0 Studios Madrid",
     metaDescription:
       "Subtítulos en vídeo: por qué la mayoría de tu audiencia los necesita, cómo se generan bien y qué errores evitar para que no rompan el ritmo del vídeo.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -5481,7 +5481,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "No es un detalle de accesibilidad opcional, aunque también lo sea. Es la diferencia entre que alguien entienda tu mensaje en los primeros tres segundos o pase el dedo y siga scrolleando. En RCS metemos subtítulos en prácticamente todo lo que editamos, y no es capricho: es la parte del proceso que más impacto tiene en cuánto aguanta la gente viendo el vídeo.",
+        text: "No es un detalle de accesibilidad opcional, aunque también lo sea. Es la diferencia entre que alguien entienda tu mensaje en los primeros tres segundos o pase el dedo y siga scrolleando. En A0 Studios metemos subtítulos en prácticamente todo lo que editamos, y no es capricho: es la parte del proceso que más impacto tiene en cuánto aguanta la gente viendo el vídeo.",
       },
       {
         type: "image",
@@ -5565,7 +5565,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si grabas contenido en RCS, la edición incluye subtítulos revisados a mano, no solo el volcado automático. Si quieres que tu próximo vídeo se entienda también con el sonido apagado, escríbenos desde /#contacto.",
+        text: "Si grabas contenido en A0 Studios, la edición incluye subtítulos revisados a mano, no solo el volcado automático. Si quieres que tu próximo vídeo se entienda también con el sonido apagado, escríbenos desde /#contacto.",
       },
     ],
   },
@@ -5582,10 +5582,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "La voz en off puede salvar un vídeo corporativo o hundirlo. Cuándo tiene sentido grabarla en estudio y cómo preparar guion, voz y ritmo antes de sentarte delante del micro.",
-    seoTitle: "Locución y voz en off en estudio | RCS Madrid",
+    seoTitle: "Locución y voz en off en estudio | A0 Studios Madrid",
     metaDescription:
       "Voz en off: cuándo usarla en lugar de un presentador, cómo preparar el guion antes de grabar y qué hace que una locución suene profesional en vez de leída.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -5622,7 +5622,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Hay un punto intermedio que funciona muy bien y que en RCS usamos a menudo: grabar un explicativo apoyado en b-roll y gráficos, pero con la voz de alguien reconocible de la marca, no de un locutor genérico. Se mantiene la coherencia de marca sin necesitar horas de rodaje a cámara para cada actualización del vídeo.",
+        text: "Hay un punto intermedio que funciona muy bien y que en A0 Studios usamos a menudo: grabar un explicativo apoyado en b-roll y gráficos, pero con la voz de alguien reconocible de la marca, no de un locutor genérico. Se mantiene la coherencia de marca sin necesitar horas de rodaje a cámara para cada actualización del vídeo.",
       },
       { type: "heading", level: 2, text: "Cómo se hace bien" },
       { type: "heading", level: 3, text: "Escribir el guion para el oído, no para la vista" },
@@ -5697,7 +5697,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si tu próximo vídeo necesita una voz en off que suene a estudio y no a nota de voz, en RCS grabamos con tratamiento acústico y dirección de guion incluida. Escríbenos desde /#contacto.",
+        text: "Si tu próximo vídeo necesita una voz en off que suene a estudio y no a nota de voz, en A0 Studios grabamos con tratamiento acústico y dirección de guion incluida. Escríbenos desde /#contacto.",
       },
     ],
   },
@@ -5714,10 +5714,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "El talking head no tiene montaje que lo salve: si la persona no sostiene la atención, el vídeo no funciona. Cuándo usarlo y cómo grabarlo para que no se note el esfuerzo.",
-    seoTitle: "Talking Head en Vídeo de Marca | RCS Madrid",
+    seoTitle: "Talking Head en Vídeo de Marca | A0 Studios Madrid",
     metaDescription:
       "Talking head en vídeo: qué es, cuándo funciona mejor que un reel editado y cómo grabarlo en estudio para que sostenga la atención sin montaje de apoyo.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -5817,7 +5817,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si tu próxima pieza depende de que alguien sostenga la cámara con presencia real, en RCS grabamos con dirección de encuadre y de ritmo incluida, no solo con la cámara encendida. Escríbenos desde /#contacto.",
+        text: "Si tu próxima pieza depende de que alguien sostenga la cámara con presencia real, en A0 Studios grabamos con dirección de encuadre y de ritmo incluida, no solo con la cámara encendida. Escríbenos desde /#contacto.",
       },
     ],
   },
@@ -5834,10 +5834,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "El croma key no perdona: bien iluminado es invisible, mal iluminado deja un halo verde alrededor del pelo. Cuándo tiene sentido usarlo y cómo grabarlo para que el recorte salga limpio.",
-    seoTitle: "Croma Key en Vídeo: Cuándo Usarlo | RCS Madrid",
+    seoTitle: "Croma Key en Vídeo: Cuándo Usarlo | A0 Studios Madrid",
     metaDescription:
       "Croma key en vídeo: cuándo grabar con fondo verde compensa, cuándo no, y cómo iluminarlo bien en estudio para un recorte limpio.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -5845,7 +5845,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS lo montamos para clientes que necesitan fondos de marca, gráficos animados detrás del presentador o piezas donde el escenario cambia varias veces dentro del mismo vídeo. No es la solución para todo: hay sesiones donde un fondo real da mejor resultado que cualquier croma bien ejecutado. La clave está en saber cuándo conviene cada opción.",
+        text: "En A0 Studios lo montamos para clientes que necesitan fondos de marca, gráficos animados detrás del presentador o piezas donde el escenario cambia varias veces dentro del mismo vídeo. No es la solución para todo: hay sesiones donde un fondo real da mejor resultado que cualquier croma bien ejecutado. La clave está en saber cuándo conviene cada opción.",
       },
       {
         type: "image",
@@ -5930,7 +5930,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si tu próximo vídeo necesita un fondo que no existe en ningún estudio real, en RCS montamos croma con iluminación y recorte limpio incluidos en la sesión. Escríbenos desde /#contacto.",
+        text: "Si tu próximo vídeo necesita un fondo que no existe en ningún estudio real, en A0 Studios montamos croma con iluminación y recorte limpio incluidos en la sesión. Escríbenos desde /#contacto.",
       },
     ],
   },
@@ -5947,10 +5947,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "No hay una duración única que funcione en todas partes: un Reel y un vídeo de LinkedIn piden tiempos distintos. Rangos reales por plataforma y por objetivo.",
-    seoTitle: "Duración ideal de un vídeo por plataforma | RCS Madrid",
+    seoTitle: "Duración ideal de un vídeo por plataforma | A0 Studios Madrid",
     metaDescription:
       "La duración ideal de un vídeo cambia según la plataforma: Reels, LinkedIn, YouTube o tu web. Rangos reales y por qué la retención importa más que el minutaje.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -5958,7 +5958,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS grabamos piezas para founders, marcas y equipos de marketing que después reparten ese contenido en varias plataformas a la vez. El error más habitual no es la calidad de imagen ni el guion: es tratar todas las plataformas igual cuando cada una premia un ritmo distinto.",
+        text: "En A0 Studios grabamos piezas para founders, marcas y equipos de marketing que después reparten ese contenido en varias plataformas a la vez. El error más habitual no es la calidad de imagen ni el guion: es tratar todas las plataformas igual cuando cada una premia un ritmo distinto.",
       },
       {
         type: "image",
@@ -6043,7 +6043,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si necesitas sacar de una sola sesión piezas para varias plataformas sin perder naturalidad en ninguna, en RCS lo planificamos así desde el guion. Escríbenos desde /#contacto.",
+        text: "Si necesitas sacar de una sola sesión piezas para varias plataformas sin perder naturalidad en ninguna, en A0 Studios lo planificamos así desde el guion. Escríbenos desde /#contacto.",
       },
     ],
   },
@@ -6060,14 +6060,14 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un brief bien hecho no es papeleo: es la diferencia entre grabar en dos horas lo que necesitas o alargarte a cuatro con material que no encaja. Qué preguntamos antes de cualquier sesión.",
-    seoTitle: "Brief antes de grabar contenido | RCS Madrid",
+    seoTitle: "Brief antes de grabar contenido | A0 Studios Madrid",
     metaDescription:
       "Qué preguntar antes de grabar contenido para no perder tiempo en sesión: objetivo, número de piezas, tono y quién sale delante de cámara.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
-        text: "Cada sesión que se retrasa en sala por falta de información cuesta dinero. En RCS vemos el mismo patrón casi cada semana: el cliente llega con una idea general de lo que quiere grabar, pero sin las respuestas concretas que necesitamos para montar el planning — cuántas piezas salen de la sesión, en qué formato, con qué tono. Eso se resuelve antes de encender las cámaras, no dentro de la sala.",
+        text: "Cada sesión que se retrasa en sala por falta de información cuesta dinero. En A0 Studios vemos el mismo patrón casi cada semana: el cliente llega con una idea general de lo que quiere grabar, pero sin las respuestas concretas que necesitamos para montar el planning — cuántas piezas salen de la sesión, en qué formato, con qué tono. Eso se resuelve antes de encender las cámaras, no dentro de la sala.",
       },
       {
         type: "paragraph",
@@ -6088,7 +6088,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "La mayoría de marcas y founders que llegan a RCS sin experiencia previa en grabación no tienen este documento preparado, y no pasa nada — para eso hacemos una llamada de unos 15 minutos antes de la sesión. Pero cuanto más resuelto llega el cliente, menos tiempo se pierde ajustando en directo decisiones que se podían haber tomado con calma una semana antes.",
+        text: "La mayoría de marcas y founders que llegan a A0 Studios sin experiencia previa en grabación no tienen este documento preparado, y no pasa nada — para eso hacemos una llamada de unos 15 minutos antes de la sesión. Pero cuanto más resuelto llega el cliente, menos tiempo se pierde ajustando en directo decisiones que se podían haber tomado con calma una semana antes.",
       },
       {
         type: "paragraph",
@@ -6172,11 +6172,11 @@ export const blogPosts: BlogPost[] = [
     keyword: "musica para video de marca sin copyright",
     intent: "informacional",
     excerpt:
-      "Comprar la canción no te da derecho a usarla. Qué es una licencia de sincronización, qué bibliotecas usamos en RCS y los errores que meten a más marcas en un aviso de copyright.",
-    seoTitle: "Música para vídeo de marca sin copyright | RCS Madrid",
+      "Comprar la canción no te da derecho a usarla. Qué es una licencia de sincronización, qué bibliotecas usamos en A0 Studios y los errores que meten a más marcas en un aviso de copyright.",
+    seoTitle: "Música para vídeo de marca sin copyright | A0 Studios Madrid",
     metaDescription:
       "Cómo elegir música para vídeo de marca sin riesgo de copyright: qué es una licencia de sincronización, qué bibliotecas usar y los errores más comunes.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -6184,7 +6184,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS elegimos música en casi cada sesión de edición, así que sabemos dónde se suele fallar. No hace falta entender de leyes de propiedad intelectual para hacerlo bien. Hace falta saber qué tipo de licencia necesitas según dónde vas a publicar el vídeo y quién eres cuando lo publicas.",
+        text: "En A0 Studios elegimos música en casi cada sesión de edición, así que sabemos dónde se suele fallar. No hace falta entender de leyes de propiedad intelectual para hacerlo bien. Hace falta saber qué tipo de licencia necesitas según dónde vas a publicar el vídeo y quién eres cuando lo publicas.",
       },
       {
         type: "image",
@@ -6211,7 +6211,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 3, text: "Bibliotecas con licencia para uso comercial" },
       {
         type: "paragraph",
-        text: "La forma más simple es una biblioteca de música con licencia, tipo Epidemic Sound, Artlist o Musicbed. Pagas una suscripción mensual o anual y, mientras esté activa, puedes usar cualquier pista del catálogo en tus vídeos sin negociar nada pista por pista. Es lo que usamos en la mayoría de sesiones de edición en RCS: rapidez y cobertura legal en el mismo paso.",
+        text: "La forma más simple es una biblioteca de música con licencia, tipo Epidemic Sound, Artlist o Musicbed. Pagas una suscripción mensual o anual y, mientras esté activa, puedes usar cualquier pista del catálogo en tus vídeos sin negociar nada pista por pista. Es lo que usamos en la mayoría de sesiones de edición en A0 Studios: rapidez y cobertura legal en el mismo paso.",
       },
       { type: "heading", level: 3, text: "Qué cubre realmente una licencia" },
       {
@@ -6263,7 +6263,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "faq",
-        question: "¿RCS elige la música de mis vídeos?",
+        question: "¿A0 Studios elige la música de mis vídeos?",
         answer:
           "Sí, en Grabación + Edición y Producción Completa proponemos música con licencia acorde al tono del vídeo como parte de la edición. Si ya tienes identidad sonora propia, la respetamos y la mantenemos consistente entre piezas.",
       },
@@ -6285,15 +6285,15 @@ export const blogPosts: BlogPost[] = [
     keyword: "hook en video primeros segundos",
     intent: "informacional",
     excerpt:
-      "El espectador decide si se queda o se va antes de que termines la primera frase. Cómo planificamos y grabamos el hook en RCS para que ese primer segundo no se pierda.",
-    seoTitle: "El hook en vídeo: primeros 3 segundos | RCS Madrid",
+      "El espectador decide si se queda o se va antes de que termines la primera frase. Cómo planificamos y grabamos el hook en A0 Studios para que ese primer segundo no se pierda.",
+    seoTitle: "El hook en vídeo: primeros 3 segundos | A0 Studios Madrid",
     metaDescription:
-      "Cómo grabar el hook de un vídeo: los primeros segundos que deciden si el espectador se queda, y cómo planificarlos antes de grabar en RCS Madrid.",
-    heroKicker: "Blog / RCS",
+      "Cómo grabar el hook de un vídeo: los primeros segundos que deciden si el espectador se queda, y cómo planificarlos antes de grabar en A0 Studios Madrid.",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
-        text: "En RCS grabamos varios vídeos por semana para marcas y creators, y hay un patrón que se repite en los que funcionan y no está en los que no: los primeros que enganchan lo hacen desde el primer segundo, no desde el minuto uno. El espectador no espera a que el vídeo \"arranque de verdad\". Decide quedarse o saltar casi de inmediato.",
+        text: "En A0 Studios grabamos varios vídeos por semana para marcas y creators, y hay un patrón que se repite en los que funcionan y no está en los que no: los primeros que enganchan lo hacen desde el primer segundo, no desde el minuto uno. El espectador no espera a que el vídeo \"arranque de verdad\". Decide quedarse o saltar casi de inmediato.",
       },
       {
         type: "paragraph",
@@ -6380,11 +6380,11 @@ export const blogPosts: BlogPost[] = [
         type: "faq",
         question: "¿Hay que grabar el hook aparte del resto del vídeo?",
         answer:
-          "En RCS solemos grabar varias tomas del arranque por separado, sueltas de contexto, para tener margen de elegir la mejor en la sala de edición sin repetir toda la sesión.",
+          "En A0 Studios solemos grabar varias tomas del arranque por separado, sueltas de contexto, para tener margen de elegir la mejor en la sala de edición sin repetir toda la sesión.",
       },
       {
         type: "faq",
-        question: "¿RCS ayuda a escribir el hook antes de grabar?",
+        question: "¿A0 Studios ayuda a escribir el hook antes de grabar?",
         answer:
           "Sí. En Grabación + Edición y Producción Completa lo trabajamos como parte del guion previo a la sesión, para no perder tiempo de sala improvisando el arranque delante de la cámara.",
       },
@@ -6407,10 +6407,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "El color grading es lo que hace que un vídeo bien grabado se sienta terminado. Qué es, cuándo se aplica y qué diferencia real marca en el resultado final.",
-    seoTitle: "Color grading en vídeo: qué es y por qué importa | RCS Madrid",
+    seoTitle: "Color grading en vídeo: qué es y por qué importa | A0 Studios Madrid",
     metaDescription:
       "Qué es el color grading en vídeo, en qué se diferencia de la corrección de color y por qué cambia el resultado final de un vídeo de marca grabado en estudio.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -6418,7 +6418,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS lo aplicamos en Grabación + Edición y Producción Completa, y es de las cosas que más preguntan los clientes que vienen de grabar por su cuenta: por qué su vídeo, con buena cámara y buena luz, no se ve como el de una marca que sale en redes con aspecto cuidado. Casi siempre la respuesta está aquí.",
+        text: "En A0 Studios lo aplicamos en Grabación + Edición y Producción Completa, y es de las cosas que más preguntan los clientes que vienen de grabar por su cuenta: por qué su vídeo, con buena cámara y buena luz, no se ve como el de una marca que sale en redes con aspecto cuidado. Casi siempre la respuesta está aquí.",
       },
       {
         type: "image",
@@ -6439,7 +6439,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En DaVinci Resolve, que es lo que usamos en RCS para esta parte, ambos pasos van seguidos: primero se nivela el material bruto, después se aplica el look. Sin ese primer paso, el grading amplifica cualquier diferencia entre planos en lugar de disimularla.",
+        text: "En DaVinci Resolve, que es lo que usamos en A0 Studios para esta parte, ambos pasos van seguidos: primero se nivela el material bruto, después se aplica el look. Sin ese primer paso, el grading amplifica cualquier diferencia entre planos en lugar de disimularla.",
       },
       { type: "heading", level: 2, text: "Cómo se hace bien" },
       { type: "heading", level: 3, text: "Empieza por un look de referencia, no por probar filtros" },
@@ -6491,7 +6491,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "faq",
-        question: "¿RCS incluye color grading en la edición?",
+        question: "¿A0 Studios incluye color grading en la edición?",
         answer:
           "Sí. En Grabación + Edición y Producción Completa el grading forma parte del proceso de postproducción, no es un extra aparte. Se aplica un look consistente pensado para el tipo de contenido y la marca.",
       },
@@ -6520,10 +6520,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un feedback claro cierra un vídeo en una ronda. Uno ambiguo lo alarga semanas. Cómo estructurar las revisiones de edición para que no se conviertan en un proceso sin fin.",
-    seoTitle: "Feedback a un editor de vídeo | RCS Madrid",
+    seoTitle: "Feedback a un editor de vídeo | A0 Studios Madrid",
     metaDescription:
       "Cómo dar feedback a un editor de vídeo para que las revisiones sean rápidas y claras, sin rondas de cambios que no terminan nunca.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -6531,7 +6531,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS gestionamos la edición de la mayoría de los proyectos que grabamos en Grabación + Edición y Producción Completa, y el cuello de botella casi nunca es el editor: es cómo se comunica lo que hay que cambiar. Un feedback mal dado multiplica las rondas de revisión sin mejorar el resultado final, y un feedback bien estructurado puede cerrar un proyecto en una sola vuelta.",
+        text: "En A0 Studios gestionamos la edición de la mayoría de los proyectos que grabamos en Grabación + Edición y Producción Completa, y el cuello de botella casi nunca es el editor: es cómo se comunica lo que hay que cambiar. Un feedback mal dado multiplica las rondas de revisión sin mejorar el resultado final, y un feedback bien estructurado puede cerrar un proyecto en una sola vuelta.",
       },
       {
         type: "image",
@@ -6568,7 +6568,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 3, text: "Cierra las rondas de revisión con un número" },
       {
         type: "paragraph",
-        text: "Define de antemano cuántas rondas de cambios incluye el proyecto —en RCS solemos trabajar con dos— y comunícalo así a todo el equipo que va a dar feedback antes de que empiece la revisión. Sin ese límite claro, es fácil que el proceso se convierta en una revisión abierta que no termina nunca y que desgasta tanto al editor como al cliente.",
+        text: "Define de antemano cuántas rondas de cambios incluye el proyecto —en A0 Studios solemos trabajar con dos— y comunícalo así a todo el equipo que va a dar feedback antes de que empiece la revisión. Sin ese límite claro, es fácil que el proceso se convierta en una revisión abierta que no termina nunca y que desgasta tanto al editor como al cliente.",
       },
       {
         type: "image",
@@ -6610,7 +6610,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "faq",
-        question: "¿RCS incluye rondas de revisión en la edición?",
+        question: "¿A0 Studios incluye rondas de revisión en la edición?",
         answer:
           "Sí. En Grabación + Edición y Producción Completa el precio ya incluye rondas de ajustes acordadas de antemano, y ayudamos a estructurar el feedback del cliente para que esas rondas se resuelvan rápido y sin fricción.",
       },
@@ -6633,10 +6633,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un sizzle reel condensa lo mejor de un evento o una marca en menos de dos minutos. Cuándo tiene sentido grabarlo y en qué se diferencia de un aftermovie.",
-    seoTitle: "Qué es un sizzle reel y cuándo grabarlo | RCS Madrid",
+    seoTitle: "Qué es un sizzle reel y cuándo grabarlo | A0 Studios Madrid",
     metaDescription:
       "Qué es un sizzle reel, en qué se diferencia de un aftermovie y cuándo grabarlo para tu marca o evento en Madrid.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -6644,7 +6644,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS lo grabamos sobre todo para agencias y equipos de marketing que necesitan mostrar la energía de un evento (una feria, una conferencia, un lanzamiento) sin esperar semanas a un vídeo largo. Es el formato que se pide cuando hay que enseñar algo al día siguiente, no al mes siguiente, y suele acabar en la home de una web, en un email a inversores o en la apertura de una propuesta comercial.",
+        text: "En A0 Studios lo grabamos sobre todo para agencias y equipos de marketing que necesitan mostrar la energía de un evento (una feria, una conferencia, un lanzamiento) sin esperar semanas a un vídeo largo. Es el formato que se pide cuando hay que enseñar algo al día siguiente, no al mes siguiente, y suele acabar en la home de una web, en un email a inversores o en la apertura de una propuesta comercial.",
       },
       {
         type: "image",
@@ -6725,7 +6725,7 @@ export const blogPosts: BlogPost[] = [
         type: "faq",
         question: "¿Cuánto tarda en entregarse un sizzle reel tras el evento?",
         answer:
-          "En RCS con Producción Completa se puede entregar en 24-48 horas si el objetivo es publicarlo mientras el evento todavía tiene eco en redes. Para plazos más ajustados, lo hablamos antes de grabar para organizar el flujo de edición en consecuencia.",
+          "En A0 Studios con Producción Completa se puede entregar en 24-48 horas si el objetivo es publicarlo mientras el evento todavía tiene eco en redes. Para plazos más ajustados, lo hablamos antes de grabar para organizar el flujo de edición en consecuencia.",
       },
       {
         type: "paragraph",
@@ -6745,15 +6745,15 @@ export const blogPosts: BlogPost[] = [
     keyword: "dirigir a alguien sin experiencia en camara",
     intent: "informacional",
     excerpt:
-      "La mayoría de las personas que grabamos en RCS no son actores ni presentadores. Cómo dirigirlas para que salgan naturales sin memorizar nada.",
-    seoTitle: "Cómo dirigir a alguien sin experiencia en cámara | RCS Madrid",
+      "La mayoría de las personas que grabamos en A0 Studios no son actores ni presentadores. Cómo dirigirlas para que salgan naturales sin memorizar nada.",
+    seoTitle: "Cómo dirigir a alguien sin experiencia en cámara | A0 Studios Madrid",
     metaDescription:
       "Cómo dirigir a alguien sin experiencia delante de la cámara para lograr una grabación natural, sin memorizar guiones ni parecer forzado.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
-        text: "La mayoría de las personas que se sientan delante de nuestras cámaras en RCS no son actores ni presentadores. Son founders, responsables de marketing, empleados que van a salir en un vídeo de empresa o invitados de un podcast que nunca han grabado nada. Su primer instinto casi siempre es el mismo: ponerse rígidos, hablar más despacio de lo normal y buscar la palabra exacta en vez de la idea.",
+        text: "La mayoría de las personas que se sientan delante de nuestras cámaras en A0 Studios no son actores ni presentadores. Son founders, responsables de marketing, empleados que van a salir en un vídeo de empresa o invitados de un podcast que nunca han grabado nada. Su primer instinto casi siempre es el mismo: ponerse rígidos, hablar más despacio de lo normal y buscar la palabra exacta en vez de la idea.",
       },
       {
         type: "paragraph",
@@ -6838,7 +6838,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Si tienes que grabar a alguien que nunca ha estado delante de una cámara y quieres que salga natural, en RCS dirigimos la sesión pensando en eso desde el minuto uno. Escríbenos desde /#contacto y lo preparamos juntos antes del día de grabación.",
+        text: "Si tienes que grabar a alguien que nunca ha estado delante de una cámara y quieres que salga natural, en A0 Studios dirigimos la sesión pensando en eso desde el minuto uno. Escríbenos desde /#contacto y lo preparamos juntos antes del día de grabación.",
       },
     ],
   },
@@ -6855,10 +6855,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Salir a grabar fuera del estudio parece más auténtico, pero trae variables que no controlas: luz, ruido, permisos. Cuándo compensa y cuándo no.",
-    seoTitle: "Grabar en exteriores vs estudio | RCS Madrid",
+    seoTitle: "Grabar en exteriores vs estudio | A0 Studios Madrid",
     metaDescription:
       "Grabar en exteriores vs estudio: cuándo la localización aporta más que el plató y cuándo juega en contra por luz, sonido o logística.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
@@ -6866,7 +6866,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En RCS grabamos la mayoría de las sesiones en plató porque ahí controlamos luz, sonido y tiempo. Salir fuera añade valor visual, pero también variables que no dependen de nosotros. Antes de decidir, conviene entender qué se gana y qué se arriesga con cada opción.",
+        text: "En A0 Studios grabamos la mayoría de las sesiones en plató porque ahí controlamos luz, sonido y tiempo. Salir fuera añade valor visual, pero también variables que no dependen de nosotros. Antes de decidir, conviene entender qué se gana y qué se arriesga con cada opción.",
       },
       {
         type: "image",
@@ -6936,11 +6936,11 @@ export const blogPosts: BlogPost[] = [
         type: "faq",
         question: "¿Qué pasa si llueve el día del rodaje en exterior?",
         answer:
-          "Si no hay plan B bajo techo, se reprograma. Por eso en RCS solemos combinar: parte de la sesión en plató y solo los planos que necesitan contexto real fuera.",
+          "Si no hay plan B bajo techo, se reprograma. Por eso en A0 Studios solemos combinar: parte de la sesión en plató y solo los planos que necesitan contexto real fuera.",
       },
       {
         type: "faq",
-        question: "¿RCS graba fuera del estudio de Ronda de Atocha?",
+        question: "¿A0 Studios graba fuera del estudio de Ronda de Atocha?",
         answer:
           "Sí, cuando el proyecto lo pide: oficinas de cliente, eventos, exteriores en Madrid. Aun así recomendamos evaluarlo caso por caso antes de descartar el plató.",
       },
@@ -6954,7 +6954,7 @@ export const blogPosts: BlogPost[] = [
     slug: "perder-miedo-camara-primera-grabacion",
     title: "Cómo perder el miedo a la cámara: consejos para tu primera grabación",
     description:
-      "Por qué se traba la voz delante de una cámara, qué se puede preparar antes de grabar y cómo pierden el miedo founders y equipos que graban por primera vez en RCS.",
+      "Por qué se traba la voz delante de una cámara, qué se puede preparar antes de grabar y cómo pierden el miedo founders y equipos que graban por primera vez en A0 Studios.",
     publishedAt: "2026-09-01",
     readingTime: "5 min",
     category: "Guía",
@@ -6962,19 +6962,19 @@ export const blogPosts: BlogPost[] = [
     keyword: "perder el miedo a la camara",
     intent: "informacional",
     excerpt:
-      "Casi nadie llega a su primera grabación relajado. Qué pasa realmente delante de una cámara y qué hacemos en RCS para que la sesión no se note forzada.",
-    seoTitle: "Cómo perder el miedo a la cámara | RCS Madrid",
+      "Casi nadie llega a su primera grabación relajado. Qué pasa realmente delante de una cámara y qué hacemos en A0 Studios para que la sesión no se note forzada.",
+    seoTitle: "Cómo perder el miedo a la cámara | A0 Studios Madrid",
     metaDescription:
       "Perder el miedo a la cámara: por qué se traba la voz al grabar y cómo prepararte antes de tu primera sesión para que salga natural.",
-    heroKicker: "Blog / RCS",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
-        text: "Casi todos los founders y equipos que vienen a grabar por primera vez a RCS dicen lo mismo antes de empezar: \"a ver cómo salgo, no se me da bien esto\". Es la reacción más normal que hay. Hablar delante de una cámara no es lo mismo que hablar delante de una persona, aunque el cerebro tarde un rato en entenderlo.",
+        text: "Casi todos los founders y equipos que vienen a grabar por primera vez a A0 Studios dicen lo mismo antes de empezar: \"a ver cómo salgo, no se me da bien esto\". Es la reacción más normal que hay. Hablar delante de una cámara no es lo mismo que hablar delante de una persona, aunque el cerebro tarde un rato en entenderlo.",
       },
       {
         type: "paragraph",
-        text: "El miedo a la cámara no se quita leyendo consejos la noche antes. Se reduce con preparación concreta y con unos primeros minutos de sesión bien gestionados. Esto es lo que hacemos en RCS con quien graba por primera vez, y lo que puedes preparar tú antes de sentarte delante del objetivo.",
+        text: "El miedo a la cámara no se quita leyendo consejos la noche antes. Se reduce con preparación concreta y con unos primeros minutos de sesión bien gestionados. Esto es lo que hacemos en A0 Studios con quien graba por primera vez, y lo que puedes preparar tú antes de sentarte delante del objetivo.",
       },
       {
         type: "image",
@@ -6997,7 +6997,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 3, text: "Prepara el contenido, no el guion palabra por palabra" },
       {
         type: "paragraph",
-        text: "Memorizar un guion cierra la puerta a hablar con naturalidad: en cuanto se te olvida una palabra, se nota el corte. Funciona mejor preparar 3-4 ideas clave por bloque y dejar que la frase salga distinta cada vez. En RCS trabajamos con guion técnico en teleprompter solo para la estructura, no para memorizar de forma literal.",
+        text: "Memorizar un guion cierra la puerta a hablar con naturalidad: en cuanto se te olvida una palabra, se nota el corte. Funciona mejor preparar 3-4 ideas clave por bloque y dejar que la frase salga distinta cada vez. En A0 Studios trabajamos con guion técnico en teleprompter solo para la estructura, no para memorizar de forma literal.",
       },
       { type: "heading", level: 3, text: "Graba antes de grabar" },
       {
@@ -7045,7 +7045,7 @@ export const blogPosts: BlogPost[] = [
         type: "faq",
         question: "¿Sirve practicar delante del móvil antes de la sesión?",
         answer:
-          "Ayuda a perder la sorpresa inicial de verte hablando, pero no sustituye la sesión real: en RCS cuidamos la luz, el encuadre y la dirección para que ese primer nerviosismo no dependa solo de ti.",
+          "Ayuda a perder la sorpresa inicial de verte hablando, pero no sustituye la sesión real: en A0 Studios cuidamos la luz, el encuadre y la dirección para que ese primer nerviosismo no dependa solo de ti.",
       },
       {
         type: "faq",
@@ -7063,7 +7063,7 @@ export const blogPosts: BlogPost[] = [
     slug: "repurposing-video-contenido-ya-grabado",
     title: "Repurposing de vídeo: cómo sacar más contenido del que ya has grabado",
     description:
-      "Cómo convertir una sola sesión de grabación en semanas de contenido para redes sin volver a encender las cámaras. Cómo planteamos el repurposing en RCS.",
+      "Cómo convertir una sola sesión de grabación en semanas de contenido para redes sin volver a encender las cámaras. Cómo planteamos el repurposing en A0 Studios.",
     publishedAt: "2026-09-02",
     readingTime: "5 min",
     category: "Guía",
@@ -7071,15 +7071,15 @@ export const blogPosts: BlogPost[] = [
     keyword: "repurposing de video",
     intent: "informacional",
     excerpt:
-      "Una sola sesión bien planteada puede dar clips, citas y fragmentos de audio para semanas. Así pensamos el repurposing de vídeo en RCS.",
-    seoTitle: "Repurposing de vídeo: saca más contenido | RCS Madrid",
+      "Una sola sesión bien planteada puede dar clips, citas y fragmentos de audio para semanas. Así pensamos el repurposing de vídeo en A0 Studios.",
+    seoTitle: "Repurposing de vídeo: saca más contenido | A0 Studios Madrid",
     metaDescription:
-      "Repurposing de vídeo: convierte una sola sesión en semanas de contenido para redes sin volver a grabar. Así lo hacemos en RCS.",
-    heroKicker: "Blog / RCS",
+      "Repurposing de vídeo: convierte una sola sesión en semanas de contenido para redes sin volver a grabar. Así lo hacemos en A0 Studios.",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
-        text: "En RCS grabamos muchas sesiones donde el cliente llega pensando en una sola pieza: un vídeo para LinkedIn, un episodio de podcast, un vídeo de producto. Y se va con eso. Pero de una sesión bien planteada se puede sacar bastante más: clips para redes, citas para carrusel, un fragmento de audio para podcast, hasta ideas para el siguiente guion. A eso lo llamamos repurposing de vídeo.",
+        text: "En A0 Studios grabamos muchas sesiones donde el cliente llega pensando en una sola pieza: un vídeo para LinkedIn, un episodio de podcast, un vídeo de producto. Y se va con eso. Pero de una sesión bien planteada se puede sacar bastante más: clips para redes, citas para carrusel, un fragmento de audio para podcast, hasta ideas para el siguiente guion. A eso lo llamamos repurposing de vídeo.",
       },
       {
         type: "paragraph",
@@ -7161,7 +7161,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "faq",
-        question: "¿En RCS incluís el repurposing dentro de la edición?",
+        question: "¿En A0 Studios incluís el repurposing dentro de la edición?",
         answer:
           "Con Producción Completa sí: planteamos desde la sesión qué piezas queremos sacar y entregamos el paquete completo de formatos, no solo el vídeo principal.",
       },
@@ -7175,7 +7175,7 @@ export const blogPosts: BlogPost[] = [
     slug: "documental-de-marca-que-es-cuando-grabarlo",
     title: "Documental de marca: qué es y cuándo tiene sentido grabarlo",
     description:
-      "Un documental de marca no es un vídeo corporativo ni un aftermovie: es una pieza narrativa sobre la historia y las personas de un proyecto. Cómo lo planteamos en RCS.",
+      "Un documental de marca no es un vídeo corporativo ni un aftermovie: es una pieza narrativa sobre la historia y las personas de un proyecto. Cómo lo planteamos en A0 Studios.",
     publishedAt: "2026-09-03",
     readingTime: "4 min",
     category: "Guía",
@@ -7183,15 +7183,15 @@ export const blogPosts: BlogPost[] = [
     keyword: "documental de marca",
     intent: "informacional",
     excerpt:
-      "Un documental de marca no es un vídeo corporativo ni un aftermovie: es una pieza narrativa sobre la historia y las personas detrás de un proyecto. Cuándo tiene sentido grabarlo y cómo lo hacemos en RCS.",
-    seoTitle: "Documental de marca: qué es y cuándo grabarlo | RCS Madrid",
+      "Un documental de marca no es un vídeo corporativo ni un aftermovie: es una pieza narrativa sobre la historia y las personas detrás de un proyecto. Cuándo tiene sentido grabarlo y cómo lo hacemos en A0 Studios.",
+    seoTitle: "Documental de marca: qué es y cuándo grabarlo | A0 Studios Madrid",
     metaDescription:
-      "Documental de marca: qué es, en qué se diferencia de un aftermovie y cuándo tiene sentido grabarlo en RCS.",
-    heroKicker: "Blog / RCS",
+      "Documental de marca: qué es, en qué se diferencia de un aftermovie y cuándo tiene sentido grabarlo en A0 Studios.",
+    heroKicker: "Blog / A0 Studios",
     body: [
       {
         type: "paragraph",
-        text: "En RCS nos llega bastante gente pidiendo un 'documental de marca' cuando en realidad quiere un aftermovie, un vídeo corporativo o un sizzle reel. No es un problema de vocabulario: son piezas distintas, con objetivos distintos y con un proceso de grabación que no se parece en nada. Un documental de marca es la más exigente de las tres, y también la que mejor envejece.",
+        text: "En A0 Studios nos llega bastante gente pidiendo un 'documental de marca' cuando en realidad quiere un aftermovie, un vídeo corporativo o un sizzle reel. No es un problema de vocabulario: son piezas distintas, con objetivos distintos y con un proceso de grabación que no se parece en nada. Un documental de marca es la más exigente de las tres, y también la que mejor envejece.",
       },
       {
         type: "paragraph",
@@ -7274,7 +7274,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "faq",
-        question: "¿RCS produce documentales de marca completos?",
+        question: "¿A0 Studios produce documentales de marca completos?",
         answer:
           "Sí, dentro de Producción Completa: entrevista previa, grabación con equipo dedicado, b-roll y montaje narrativo. No es un servicio exprés, así que lo planteamos siempre con una llamada previa para valorar si la historia sostiene el formato.",
       },
