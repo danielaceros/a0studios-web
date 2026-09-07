@@ -568,6 +568,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-rcs. SC: sin datos (refresh token OAuth invalid_grant persiste, confirmado de nuevo esta ejecución, sigue requiriendo reautorización manual — infra issue documentado, escalar a Dani, 35ª ejecución consecutiva con el mismo fallo). Lista de fallback evergreen (25 temas) sigue agotada — tema original nuevo sobre el documental de marca (formato narrativo con conflicto real, distinto del aftermovie de evento y del sizzle reel), ángulo de storytelling largo no cubierto por ningún post anterior. Imágenes Unsplash.",
   },
+  {
+    slug: "como-elegir-estudio-grabacion-marca-personal",
+    keyword: "como elegir estudio de grabacion para marca personal",
+    intent: "informacional",
+    createdAt: "2026-09-07",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant, mismo issue OAuth documentado en RCS — requiere reautorización manual, escalar a Dani). Fallback evergreen ítem 1 de la lista temática A0 Studios: checklist para elegir estudio de grabación en marca personal, tema no cubierto por las 65 entradas previas heredadas de RCS. Imágenes Unsplash.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

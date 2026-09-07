@@ -7284,6 +7284,131 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "como-elegir-estudio-grabacion-marca-personal",
+    title: "Cómo elegir estudio de grabación para tu marca personal: checklist antes de reservar",
+    description:
+      "Qué mirar antes de reservar un estudio de grabación para marca personal: equipo, ubicación, formato de sesión y errores que conviene evitar.",
+    publishedAt: "2026-09-07",
+    readingTime: "4 min",
+    category: "Guía",
+    tags: ["estudio de grabación", "marca personal", "Madrid", "checklist", "contenido"],
+    keyword: "como elegir estudio de grabacion para marca personal",
+    intent: "informacional",
+    excerpt:
+      "Una checklist directa para elegir estudio de grabación cuando trabajas tu marca personal: qué preguntar antes de reservar y qué errores evitar.",
+    seoTitle: "Cómo elegir estudio de grabación | A0 Studios Madrid",
+    metaDescription:
+      "Checklist para elegir estudio de grabación en Madrid si trabajas tu marca personal: equipo, ubicación, formato de sesión y errores a evitar.",
+    heroKicker: "Blog / A0 Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Reservar un estudio de grabación no es lo mismo que encontrar uno que encaje con tu marca personal. El precio por hora dice poco: dos estudios con la misma tarifa pueden dar resultados completamente distintos según el equipo, la luz y cómo se gestiona la sesión.",
+      },
+      {
+        type: "paragraph",
+        text: "Antes de pagar una señal, hay una lista corta de cosas que conviene revisar. No hace falta ser técnico de sonido ni director de fotografía para hacer las preguntas correctas. Basta con saber qué mirar antes de reservar, y con no dejarse llevar solo por fotos bonitas en Instagram.",
+      },
+      {
+        type: "image",
+        src: "/blog/como-elegir-estudio-grabacion-marca-personal/hero.webp",
+        alt: "Persona grabando contenido de marca personal en un estudio con luz natural",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué es y por qué importa elegir bien" },
+      {
+        type: "paragraph",
+        text: "Un estudio de grabación no es solo una sala con focos. Es el entorno donde tu marca personal se va a ver, sonar y sentir durante meses de contenido. Si el espacio no encaja, se nota en cada pieza: en la luz, en el fondo, en cómo te sientes delante de cámara.",
+      },
+      {
+        type: "paragraph",
+        text: "Elegir mal cuesta más que el precio de la sesión. Cuesta tiempo repitiendo grabaciones, cuesta contenido que al final no usas porque no te representa, y cuesta la sensación de que grabar es una lata en vez de parte natural de tu semana.",
+      },
+      {
+        type: "paragraph",
+        text: "Un estudio genérico puede valer para fotografía de producto o piezas muy controladas. Pero si tu contenido necesita verse cercano, no corporativo, el espacio importa tanto como lo que dices delante de cámara. Un plató blanco con ciclorama transmite otra cosa muy distinta a un salón con luz de tarde.",
+      },
+      {
+        type: "paragraph",
+        text: "Con el tiempo, la marca personal que graba siempre en el mismo entorno consistente se reconoce mejor. Cambiar de espacio cada mes rompe esa continuidad visual, así que merece la pena invertir tiempo en elegir uno que puedas repetir sin cansarte de él.",
+      },
+      { type: "heading", level: 2, text: "Cómo se hace bien" },
+      { type: "heading", level: 3, text: "Equipo y calidad técnica" },
+      {
+        type: "paragraph",
+        text: "Pregunta qué cámara, qué micrófono y qué iluminación incluye la sesión. No necesitas saber de especificaciones técnicas, pero sí saber si vas a salir con audio limpio y una imagen que aguante bien en móvil y en pantalla grande. Un estudio serio te lo explica sin rodeos, sin tecnicismos innecesarios, y te enseña ejemplos reales grabados ahí mismo.",
+      },
+      { type: "heading", level: 3, text: "Ubicación y logística" },
+      {
+        type: "paragraph",
+        text: "Un estudio a 40 minutos en coche significa que vas a grabar menos veces de las que deberías. Mira accesibilidad, aparcamiento o transporte público, y si el espacio permite llegar con tiempo justo sin que la sesión empiece con prisas y con el pulso acelerado. La logística mata más sesiones de contenido que la falta de ideas.",
+      },
+      { type: "heading", level: 3, text: "Formato de la sesión y qué incluye" },
+      {
+        type: "paragraph",
+        text: "Aclara si vas a salir solo con los brutos del día o si también hay edición y entrega en un plazo concreto. En A0 Studios, por ejemplo, puedes reservar Solo Grabación, Grabación + Edición o Producción Completa según lo que necesites ese mes concreto. No es lo mismo grabar para archivar que grabar para publicar esa misma semana.",
+      },
+      {
+        type: "paragraph",
+        text: "Si haces esto bien la primera vez, la segunda sesión ya no tiene fricción: sabes qué llevar, cuánto dura y qué vas a sacar de cada hora que pasas delante de cámara. Esa curva de aprendizaje solo se paga una vez.",
+      },
+      {
+        type: "image",
+        src: "/blog/como-elegir-estudio-grabacion-marca-personal/mid.webp",
+        alt: "Cámara de vídeo preparada para grabar una entrevista de contenido de marca",
+        width: 1920,
+        height: 1080,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al elegir estudio" },
+      {
+        type: "list",
+        items: [
+          "Fijarse solo en el precio por hora sin mirar qué incluye realmente esa tarifa.",
+          "Reservar sin ver fotos o vídeo real del espacio, solo renders o promesas de la web.",
+          "No preguntar cuántos formatos puedes grabar en una sola sesión de estudio.",
+          "Ignorar si hay luz natural real o si todo depende de focos artificiales cerrados.",
+          "No aclarar los plazos de entrega cuando la sesión incluye edición del material.",
+          "Elegir un plató genérico cuando el contenido necesita verse cercano y no corporativo.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto tiempo necesito para la primera sesión?",
+        answer:
+          "Con 2-3 horas suele bastar para grabar varios formatos: unos minutos de vídeo largo, varios reels y fotos sueltas si las necesitas ese mismo día. Con guion claro se aprovecha mejor cada bloque de tiempo.",
+      },
+      {
+        type: "faq",
+        question: "¿Necesito llevar mi propio equipo?",
+        answer:
+          "No si el estudio incluye cámara, audio y luz. Pregunta esto antes de reservar para no cargar con equipo que al final no vas a usar en la sesión ni sabrás manejar bajo presión.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar varios formatos en la misma visita?",
+        answer:
+          "Sí, y es lo más rentable: preparar contenido para vídeo largo, reels y redes en una sola sesión en vez de repetir desplazamientos cada semana. Es cuestión de organizar bien el guion antes de llegar.",
+      },
+      {
+        type: "faq",
+        question: "¿Un estudio genérico sirve igual que uno pensado para marca personal?",
+        answer:
+          "Sirve, pero el resultado suele notarse más frío. Un espacio con luz natural y entorno real ayuda a que el contenido no parezca un anuncio corporativo, algo especialmente importante cuando hablas de tu propia marca personal.",
+      },
+      {
+        type: "paragraph",
+        text: "Grabar contenido de marca personal no va de tener el estudio más caro de Madrid, va de tener uno que puedas repetir sin fricción cada mes. Un espacio donde entrar, montar el guion y salir con material aprovechable, sin sorpresas de última hora.",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a grabar contenido de forma recurrente, elegir bien el estudio la primera vez te ahorra meses de intentos fallidos y sesiones repetidas. En A0 Studios respondemos hoy y sin compromiso si quieres ver el espacio antes de reservar: escríbenos desde /#contacto.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
