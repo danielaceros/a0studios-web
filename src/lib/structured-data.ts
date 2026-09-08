@@ -93,6 +93,9 @@ export function getProfessionalServiceSchema() {
               priceSpecification: {
                 "@type": "PriceSpecification",
                 priceCurrency: "EUR",
+                // TODO: precio real pendiente de Dani — añadir `price` (y `minPrice`/
+                // `maxPrice` si aplica) en cuanto confirme la tarifa de "Solo Grabación".
+                // No publicar ninguna cifra hasta entonces.
               },
               availability: "https://schema.org/InStock",
               url: `${SITE_URL}/#tarifas`,
@@ -113,6 +116,8 @@ export function getProfessionalServiceSchema() {
               priceSpecification: {
                 "@type": "PriceSpecification",
                 priceCurrency: "EUR",
+                // TODO: precio real pendiente de Dani — añadir `price` en cuanto
+                // confirme la tarifa de "Grabación + Edición". No publicar cifra.
               },
               availability: "https://schema.org/InStock",
               url: `${SITE_URL}/#tarifas`,
@@ -133,6 +138,8 @@ export function getProfessionalServiceSchema() {
               priceSpecification: {
                 "@type": "PriceSpecification",
                 priceCurrency: "EUR",
+                // TODO: precio real pendiente de Dani — añadir `price` en cuanto
+                // confirme la tarifa de "Producción Completa". No publicar cifra.
               },
               availability: "https://schema.org/InStock",
               url: `${SITE_URL}/#tarifas`,
@@ -164,8 +171,17 @@ export function getProfessionalServiceSchema() {
         },
       },
     ],
+    // Calculado a partir de las 2 reviews reales de arriba (ambas 5/5).
+    // Recalcular ratingValue/reviewCount si se añaden más reviews.
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "5",
+      reviewCount: "2",
+      bestRating: "5",
+    },
     sameAs: [
       "https://www.instagram.com/daniaceros",
+      // TODO: añadir LinkedIn/YouTube cuando Dani pase las URLs
     ],
     areaServed: {
       "@type": "City",
@@ -245,6 +261,71 @@ export function getVideoSchema() {
     contentUrl: `${SITE_URL}/video/corr.mp4`,
     publisher: {
       "@id": `${SITE_URL}/#business`,
+    },
+  };
+}
+
+/**
+ * FAQPage JSON-LD reutilizable — recibe las preguntas/respuestas que ya
+ * existen visualmente en la página (home: FAQS de constants.ts; posts de
+ * blog: los bloques `{ type: "faq" }` de cada post) y las serializa tal
+ * cual, sin inventar contenido nuevo.
+ */
+export function getFaqPageSchema(
+  faqs: readonly { readonly question: string; readonly answer: string }[],
+  pageUrl: string
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": `${pageUrl}#faq`,
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  };
+}
+
+/**
+ * BlogPosting JSON-LD por post, con las fechas reales del propio artículo
+ * (no las de la home). Sustituye al WebPage genérico que antes se
+ * reutilizaba sin cambios en las ~65 entradas del blog.
+ */
+export function getBlogPostingSchema(post: {
+  slug: string;
+  title: string;
+  description: string;
+  publishedAt: string;
+  updatedAt?: string;
+}) {
+  const url = `${SITE_URL}/blog/${post.slug}`;
+  return {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "@id": `${url}#blogposting`,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": url,
+    },
+    headline: post.title,
+    description: post.description,
+    url,
+    image: `${SITE_URL}/optimized/og-image.jpg`,
+    inLanguage: "es",
+    datePublished: post.publishedAt,
+    dateModified: post.updatedAt ?? post.publishedAt,
+    author: {
+      "@id": `${SITE_URL}/#founder`,
+    },
+    publisher: {
+      "@id": `${SITE_URL}/#business`,
+    },
+    isPartOf: {
+      "@id": `${SITE_URL}/#website`,
     },
   };
 }
