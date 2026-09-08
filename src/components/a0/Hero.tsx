@@ -41,9 +41,13 @@ export default function Hero() {
         <span className="absolute bottom-0 right-0 h-px w-5 bg-foreground/22" />
       </div>
 
-      {/* Wordmark */}
+      {/* Wordmark — es el h1 semántico de la home (único por página).
+          Se mantiene visualmente idéntico: la imagen del logo hace de
+          título visible y el texto descriptivo real va sr-only dentro
+          del propio h1, para que el DOM tenga un h1 con contenido textual
+          real (no solo el alt de una imagen). */}
       <div className="relative flex flex-1 flex-col items-center justify-center px-4">
-        <div className="relative flex w-full min-w-0 select-none justify-center">
+        <h1 className="relative m-0 flex w-full min-w-0 select-none justify-center p-0 text-[0] font-normal leading-none">
           <div className="relative w-[clamp(9rem,42vw,34rem)] max-w-full min-w-0">
             <Image
               src="/optimized/wordmark-hero.webp"
@@ -55,7 +59,19 @@ export default function Hero() {
               className="relative h-auto w-full object-contain"
             />
           </div>
-        </div>
+          <span className="sr-only">
+            A0 Studios es un estudio de grabación de contenido audiovisual en Madrid centro, en un
+            ático en Ronda de Atocha 16, planta 7, a 5 minutos a pie de Metro Atocha Renfe. Fundado
+            por Dani Acero, filmmaker con seis años de experiencia produciendo audiovisual para
+            marcas como IFEMA, Cinesa y la Cámara de Comercio de Madrid: más de 28 proyectos y 500
+            horas de grabación hasta la fecha. Cada sesión incluye acceso exclusivo al ático (solo
+            se agenda una grabación al día), iluminación profesional LED, cámaras Sony con
+            objetivos, sonido profesional, teleprompter, filmmaker y dirección creativa. Se pueden
+            grabar podcasts, reels, vídeo corporativo, cursos online y anuncios, y una sola mañana
+            suele dar para unas 12 piezas de contenido distintas. Con el plan de edición, la
+            entrega llega en 24-48 horas, lista para publicar en cada plataforma.
+          </span>
+        </h1>
 
         <div className="mt-7 flex items-center gap-2 sm:mt-9">
           <span className="text-[12px] tracking-[0.02em] text-foreground/45">por</span>
@@ -81,13 +97,6 @@ export default function Hero() {
         <p className="mt-6 max-w-[30ch] text-center text-[0.95rem] leading-[1.7] text-foreground/70 sm:mt-8 sm:max-w-none sm:text-[1.02rem]">
           <span className="block">Estudio de grabación · Ático en Madrid centro</span>
           <span className="block">Contenido para semanas, en una mañana</span>
-        </p>
-
-        <p className="sr-only">
-          A0 Studios es un estudio de grabación de contenido audiovisual en Madrid centro, en un ático
-          en Ronda de Atocha 16. Sesiones de podcast, reels, vídeo corporativo, cursos online y anuncios
-          con filmmaker, equipo técnico y dirección creativa incluidos. Entrega editada en 24-48 horas.
-          Clientes: IFEMA, Cinesa y Cámara de Comercio de Madrid.
         </p>
 
         <div className="mt-10 flex flex-col items-center gap-3 sm:mt-12 sm:flex-row">

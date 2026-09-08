@@ -4,6 +4,7 @@ const PLANES = [
   {
     tag: "Grabación",
     name: "Solo grabación",
+    price: "Desde 200€ + IVA/sesión",
     desc: "Vienes al ático y grabas con mi equipo técnico. Sales con los brutos del día listos para editar.",
     incluye: [
       "Ático privado con vistas a Madrid",
@@ -17,6 +18,7 @@ const PLANES = [
   {
     tag: "Más elegido",
     name: "Grabación + edición",
+    price: "Presupuesto a medida",
     desc: "Vienes, grabas conmigo y en 48h tienes el contenido listo para publicar. Sin gestionar nada.",
     incluye: [
       "Todo lo de Solo grabación",
@@ -30,6 +32,7 @@ const PLANES = [
   {
     tag: "Todo incluido",
     name: "Producción completa",
+    price: "Presupuesto a medida",
     desc: "Grabación, edición, estrategia y distribución. Tú solo apareces delante de la cámara.",
     incluye: [
       "Todo lo de Grabación + edición",
@@ -84,7 +87,11 @@ export default function Precios() {
                 </span>
               </div>
 
-              <p className="prose-body mt-5 text-[0.92rem]">{plan.desc}</p>
+              <p className="font-heading mt-5 text-[1.05rem] text-foreground/85">
+                {plan.price}
+              </p>
+
+              <p className="prose-body mt-3 text-[0.92rem]">{plan.desc}</p>
 
               <div className="mt-8 rule" />
 

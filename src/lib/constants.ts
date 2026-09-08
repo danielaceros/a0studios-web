@@ -69,7 +69,7 @@ export const FAQS = [
   {
     question: "¿Para quién es esto?",
     answer:
-      "A0 Studios está diseñado para founders, marcas personales, empresas y equipos de marketing que necesitan contenido profesional de forma recurrente sin gestionar la producción internamente. Es especialmente útil para quienes graban reels, vídeos para LinkedIn, podcasts, cursos online o contenido corporativo y quieren un resultado de calidad sin montar su propio estudio. Clientes como IFEMA, Cinesa y la Cámara de Comercio de Madrid ya han grabado aquí.",
+      "A0 Studios está diseñado para founders, marcas personales, empresas y equipos de marketing que necesitan contenido profesional de forma recurrente sin gestionar la producción internamente. Es especialmente útil para quienes graban reels, vídeos para LinkedIn, podcasts, cursos online o contenido corporativo y quieren un resultado de calidad sin montar su propio estudio. Solo se agenda una sesión al día, así que el ático es exclusivamente tuyo durante toda la grabación, con sesiones desde 2 horas hasta jornadas completas según el proyecto. Dani Acero, el filmmaker que dirige cada sesión, lleva seis años produciendo audiovisual y acumula más de 28 proyectos y 500 horas de grabación en el estudio, ubicado en Ronda de Atocha 16, a 5 minutos a pie de Metro Atocha Renfe. Clientes como IFEMA, Cinesa y la Cámara de Comercio de Madrid ya han grabado aquí.",
   },
   {
     question: "¿Necesito experiencia delante de la cámara?",
@@ -79,7 +79,7 @@ export const FAQS = [
   {
     question: "¿Qué incluye el servicio?",
     answer:
-      "El servicio básico incluye acceso exclusivo al ático, iluminación profesional LED, cámaras Sony con objetivos, micrófonos, teleprompter y dirección creativa durante la grabación. El plan de Grabación + Edición añade edición profesional, subtítulos y formato optimizado para cada plataforma con entrega en 24-48 horas. El plan de Producción Completa incorpora además estrategia de contenido, distribución multiplataforma y seguimiento. El presupuesto se personaliza según el proyecto.",
+      "El servicio básico (Solo Grabación) tiene un precio de entrada desde 200€ + IVA por sesión, e incluye acceso exclusivo al ático, iluminación profesional LED, cámaras Sony con objetivos, micrófonos, teleprompter y dirección creativa durante la grabación. El plan de Grabación + Edición añade edición profesional, subtítulos y formato optimizado para cada plataforma con entrega en 24-48 horas. El plan de Producción Completa incorpora además estrategia de contenido, distribución multiplataforma y seguimiento. El presupuesto de estos dos planes se personaliza según el proyecto. Las sesiones son desde 2 horas y solo se agenda una al día, así que el equipo técnico y el filmmaker están dedicados por completo a tu grabación, sin compartir el espacio con otros clientes. De media, una sesión de mañana da para unas 12 piezas de contenido distintas, aprovechando los distintos rincones del ático (terraza, sala polivalente y set de podcast) para variar los planos sin cambiar de localización.",
   },
   {
     question: "¿Qué puedo grabar?",

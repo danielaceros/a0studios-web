@@ -5,6 +5,8 @@ import Image from "next/image";
 import Navbar from "@/components/a0/Nav";
 import Footer from "@/components/a0/Footer";
 import { getAllPosts, getPostBySlug, getPostMetadata } from "@/lib/blog";
+import { getBlogPostingSchema, getFaqPageSchema } from "@/lib/structured-data";
+import { SITE_URL } from "@/lib/constants";
 
 export async function generateStaticParams() {
   return getAllPosts().map((post) => ({ slug: post.slug }));
@@ -22,10 +24,43 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const post = getPostBySlug(slug);
   if (!post) notFound();
 
-  const faqs = post.body.filter((block) => block.type === "faq");
+  const faqs = post.body.filter(
+    (block): block is Extract<typeof block, { type: "faq" }> => block.type === "faq"
+  );
 
   return (
     <>
+      {/* Schema propio del post: BlogPosting con las fechas reales del
+          artículo (antes se reutilizaba el WebPage de la home con las
+          fechas de la home para los ~65 posts) y FAQPage a partir de los
+          mismos bloques de pregunta/respuesta que ya se ven en el artículo. */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            getBlogPostingSchema({
+              slug: post.slug,
+              title: post.title,
+              description: post.description,
+              publishedAt: post.publishedAt,
+              updatedAt: post.updatedAt,
+            })
+          ),
+        }}
+      />
+      {faqs.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(
+              getFaqPageSchema(
+                faqs.map((faq) => ({ question: faq.question, answer: faq.answer })),
+                `${SITE_URL}/blog/${post.slug}`
+              )
+            ),
+          }}
+        />
+      )}
       <Navbar />
       <main className="bg-background text-foreground pt-36 sm:pt-40 pb-24">
         <article className="mx-auto max-w-4xl px-5 sm:px-8 lg:px-12">

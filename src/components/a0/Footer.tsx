@@ -54,6 +54,22 @@ export default function Footer() {
               >
                 @daniaceros
               </a>
+              <a
+                href="https://es.linkedin.com/in/daniaceros"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={LINK}
+              >
+                LinkedIn
+              </a>
+              <a
+                href="https://www.youtube.com/@daniacerxs/videos"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={LINK}
+              >
+                YouTube
+              </a>
             </div>
           </div>
 

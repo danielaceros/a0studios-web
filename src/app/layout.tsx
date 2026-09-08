@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Manrope, Playfair_Display } from "next/font/google";
 import Script from "next/script";
 import { siteMetadata } from "@/lib/metadata";
-import { getProfessionalServiceSchema, getWebSiteSchema, getWebPageSchema, getBreadcrumbSchema, getVideoSchema } from "@/lib/structured-data";
+import { getProfessionalServiceSchema, getWebSiteSchema, getBreadcrumbSchema, getVideoSchema } from "@/lib/structured-data";
 // GrainOverlay removed per user request
 import SmoothScroll from "@/components/ui/SmoothScroll";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
@@ -44,6 +44,8 @@ export default function RootLayout({
             __html: `(function(){var w='webkit',m='messageHandlers';function s(e){var g=e&&(e.message||e.reason&&e.reason.message||'');if(g.indexOf(w)!==-1||g.indexOf(m)!==-1){e.preventDefault&&e.preventDefault();e.stopImmediatePropagation&&e.stopImmediatePropagation();return true;}}window.addEventListener('error',s,true);window.addEventListener('unhandledrejection',function(e){if(s(e)){e.preventDefault();}},true);})();`,
           }}
         />
+        {/* Un único preload de la poster del Hero (LCP) — antes había dos
+            <link rel="preload"> idénticos para este mismo recurso. */}
         <link
           rel="preload"
           as="image"
@@ -80,12 +82,11 @@ export default function RootLayout({
             __html: JSON.stringify(getWebSiteSchema()),
           }}
         />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(getWebPageSchema()),
-          }}
-        />
+        {/* El WebPage schema (con datePublished/dateModified propios) ya no
+            va aquí a nivel global — se aplicaba idéntico a la home y a los
+            ~65 posts del blog. Ahora vive en cada page.tsx: la home tiene el
+            suyo (WebPage) y cada post de blog el suyo (BlogPosting), con sus
+            fechas reales. */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
