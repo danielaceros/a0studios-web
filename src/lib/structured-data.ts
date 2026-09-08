@@ -91,11 +91,15 @@ export function getProfessionalServiceSchema() {
               description:
                 "Ático privado con equipo técnico, cámaras, sonido profesional y teleprompter. Sales con los brutos del día.",
               priceSpecification: {
-                "@type": "PriceSpecification",
+                "@type": "UnitPriceSpecification",
                 priceCurrency: "EUR",
-                // TODO: precio real pendiente de Dani — añadir `price` (y `minPrice`/
-                // `maxPrice` si aplica) en cuanto confirme la tarifa de "Solo Grabación".
-                // No publicar ninguna cifra hasta entonces.
+                price: "200",
+                valueAddedTaxIncluded: false,
+                referenceQuantity: {
+                  "@type": "QuantitativeValue",
+                  value: "1",
+                  unitText: "sesión",
+                },
               },
               availability: "https://schema.org/InStock",
               url: `${SITE_URL}/#tarifas`,
@@ -116,8 +120,7 @@ export function getProfessionalServiceSchema() {
               priceSpecification: {
                 "@type": "PriceSpecification",
                 priceCurrency: "EUR",
-                // TODO: precio real pendiente de Dani — añadir `price` en cuanto
-                // confirme la tarifa de "Grabación + Edición". No publicar cifra.
+                // Presupuesto a medida — sin precio fijo publicado.
               },
               availability: "https://schema.org/InStock",
               url: `${SITE_URL}/#tarifas`,
@@ -138,8 +141,7 @@ export function getProfessionalServiceSchema() {
               priceSpecification: {
                 "@type": "PriceSpecification",
                 priceCurrency: "EUR",
-                // TODO: precio real pendiente de Dani — añadir `price` en cuanto
-                // confirme la tarifa de "Producción Completa". No publicar cifra.
+                // Presupuesto a medida — sin precio fijo publicado.
               },
               availability: "https://schema.org/InStock",
               url: `${SITE_URL}/#tarifas`,
@@ -181,7 +183,8 @@ export function getProfessionalServiceSchema() {
     },
     sameAs: [
       "https://www.instagram.com/daniaceros",
-      // TODO: añadir LinkedIn/YouTube cuando Dani pase las URLs
+      "https://es.linkedin.com/in/daniaceros",
+      "https://www.youtube.com/@daniacerxs/videos",
     ],
     areaServed: {
       "@type": "City",
