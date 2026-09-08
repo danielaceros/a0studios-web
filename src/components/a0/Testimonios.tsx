@@ -39,7 +39,15 @@ function Card({ t }: { t: T }) {
     <div ref={ref} className="w-[78vw] shrink-0 snap-start sm:w-[330px]">
       <div className="relative aspect-[9/13] overflow-hidden rounded-[12px] border border-line bg-card">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={t.poster} alt="" aria-hidden="true" className="absolute inset-0 h-full w-full object-cover" />
+        <img
+          src={t.poster}
+          alt=""
+          aria-hidden="true"
+          width={330}
+          height={477}
+          loading="lazy"
+          className="absolute inset-0 h-full w-full object-cover"
+        />
         {load && (
           <video
             ref={videoRef}
