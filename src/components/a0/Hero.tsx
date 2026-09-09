@@ -53,8 +53,8 @@ export default function Hero() {
             <Image
               src="/optimized/wordmark-hero.webp"
               alt={SITE_NAME_TRADEMARKED}
-              width={1257}
-              height={252}
+              width={1876}
+              height={304}
               priority
               fetchPriority="high"
               className="relative h-auto w-full object-contain"
