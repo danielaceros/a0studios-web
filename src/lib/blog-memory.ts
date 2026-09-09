@@ -15,7 +15,7 @@ export const blogMemory: BlogMemoryEntry[] = [
     createdAt: "2026-03-17",
     status: "published",
     notes:
-      "Tema inicial del blog de A0 Studios. Evitar repetir la misma intención de precio/estudio sin revisar primero esta URL.",
+      "Tema inicial del blog de A0Studios. Evitar repetir la misma intención de precio/estudio sin revisar primero esta URL.",
   },
   {
     slug: "grabar-podcast-madrid-estudio",
@@ -24,7 +24,7 @@ export const blogMemory: BlogMemoryEntry[] = [
     createdAt: "2026-03-22",
     status: "published",
     notes:
-      "Post de prueba real para validar el circuito completo de autopublicación en A0 Studios sin depender de aprobación manual.",
+      "Post de prueba real para validar el circuito completo de autopublicación en A0Studios sin depender de aprobación manual.",
   },
   {
     slug: "como-preparar-sesion-grabacion-contenido-madrid",
@@ -575,7 +575,7 @@ export const blogMemory: BlogMemoryEntry[] = [
     createdAt: "2026-09-07",
     status: "published",
     notes:
-      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant, mismo issue OAuth documentado en RCS — requiere reautorización manual, escalar a Dani). Fallback evergreen ítem 1 de la lista temática A0 Studios: checklist para elegir estudio de grabación en marca personal, tema no cubierto por las 65 entradas previas heredadas de RCS. Imágenes Unsplash.",
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant, mismo issue OAuth documentado en RCS — requiere reautorización manual, escalar a Dani). Fallback evergreen ítem 1 de la lista temática A0Studios: checklist para elegir estudio de grabación en marca personal, tema no cubierto por las 65 entradas previas heredadas de RCS. Imágenes Unsplash.",
   },
   {
     slug: "kit-contenido-mensual-empresas-que-grabar",

@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Gracias | A0 Studios",
+  title: "Gracias | A0Studios",
   description: "Gracias por contactarnos. Te respondemos en menos de 1 hora.",
   robots: { index: false, follow: false },
 };

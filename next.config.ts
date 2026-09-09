@@ -32,14 +32,10 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "firebasestorage.googleapis.com",
-      },
-    ],
-  },
+  // Firebase Storage retirado para siempre (9-sep-2026): los vídeos de
+  // portfolio ahora usan Vercel Blob (store dedicado de este proyecto) con
+  // fallback local .webm. No queda ningún remotePattern de imágenes que
+  // dependa de firebasestorage.googleapis.com.
   async headers() {
     return [
       {

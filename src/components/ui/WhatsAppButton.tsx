@@ -1,7 +1,7 @@
 "use client";
 
 const PHONE = "34711255496";
-const MESSAGE = encodeURIComponent("Hola, quiero pedir presupuesto para grabar en A0 Studios");
+const MESSAGE = encodeURIComponent("Hola, quiero pedir presupuesto para grabar en A0Studios");
 
 export default function WhatsAppButton() {
   return (

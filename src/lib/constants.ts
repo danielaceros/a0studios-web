@@ -1,5 +1,11 @@
 export const SITE_URL = "https://www.a0studios.es";
-export const SITE_NAME = "A0 Studios";
+export const SITE_NAME = "A0Studios";
+// Marca registrada (9-sep-2026). Solo para los puntos de contacto de marca
+// (logo/nav, footer/copyright, H1 del hero, schema de Organization/LocalBusiness)
+// — NO para el resto (títulos de página, blog, meta, copy corrido), donde
+// repetir el símbolo en cada mención quedaría raro/spam. Usar SITE_NAME a secas
+// en todo lo demás.
+export const SITE_NAME_TRADEMARKED = "A0Studios®";
 export const SITE_DESCRIPTION =
   "El estudio de Dani Acero — filmmaker de IFEMA, Cinesa y la Cámara de Comercio de Madrid. Graba podcast, reels y contenido corporativo en un ático en Madrid centro con equipo y dirección incluidos.";
 
@@ -69,7 +75,7 @@ export const FAQS = [
   {
     question: "¿Para quién es esto?",
     answer:
-      "A0 Studios está diseñado para founders, marcas personales, empresas y equipos de marketing que necesitan contenido profesional de forma recurrente sin gestionar la producción internamente. Es especialmente útil para quienes graban reels, vídeos para LinkedIn, podcasts, cursos online o contenido corporativo y quieren un resultado de calidad sin montar su propio estudio. Solo se agenda una sesión al día, así que el ático es exclusivamente tuyo durante toda la grabación, con sesiones desde 2 horas hasta jornadas completas según el proyecto. Dani Acero, el filmmaker que dirige cada sesión, lleva seis años produciendo audiovisual y acumula más de 28 proyectos y 500 horas de grabación en el estudio, ubicado en Ronda de Atocha 16, a 5 minutos a pie de Metro Atocha Renfe. Clientes como IFEMA, Cinesa y la Cámara de Comercio de Madrid ya han grabado aquí.",
+      "A0Studios está diseñado para founders, marcas personales, empresas y equipos de marketing que necesitan contenido profesional de forma recurrente sin gestionar la producción internamente. Es especialmente útil para quienes graban reels, vídeos para LinkedIn, podcasts, cursos online o contenido corporativo y quieren un resultado de calidad sin montar su propio estudio. Solo se agenda una sesión al día, así que el ático es exclusivamente tuyo durante toda la grabación, con sesiones desde 2 horas hasta jornadas completas según el proyecto. Dani Acero, el filmmaker que dirige cada sesión, lleva seis años produciendo audiovisual y acumula más de 28 proyectos y 500 horas de grabación en el estudio, ubicado en Ronda de Atocha 16, a 5 minutos a pie de Metro Atocha Renfe. Clientes como IFEMA, Cinesa y la Cámara de Comercio de Madrid ya han grabado aquí.",
   },
   {
     question: "¿Necesito experiencia delante de la cámara?",
@@ -84,7 +90,7 @@ export const FAQS = [
   {
     question: "¿Qué puedo grabar?",
     answer:
-      "En A0 Studios puedes grabar podcasts y entrevistas, reels y vídeos cortos para Instagram, TikTok y YouTube Shorts, vídeos de marca personal para LinkedIn o presentaciones corporativas, anuncios y VSLs, cursos y formación online, y contenido corporativo en general. La mayoría de clientes graban varios formatos distintos en una misma sesión de mañana, aprovechando la disponibilidad exclusiva del espacio.",
+      "En A0Studios puedes grabar podcasts y entrevistas, reels y vídeos cortos para Instagram, TikTok y YouTube Shorts, vídeos de marca personal para LinkedIn o presentaciones corporativas, anuncios y VSLs, cursos y formación online, y contenido corporativo en general. La mayoría de clientes graban varios formatos distintos en una misma sesión de mañana, aprovechando la disponibilidad exclusiva del espacio.",
   },
   {
     question: "¿Puedo traer a mi propio equipo?",
@@ -94,7 +100,7 @@ export const FAQS = [
   {
     question: "¿Dónde está el estudio?",
     answer:
-      "A0 Studios está ubicado en Ronda de Atocha 16, planta 7, Madrid centro. El acceso en transporte público es muy sencillo: a 5 minutos a pie del Metro Atocha Renfe (líneas 1 y 3) y de la estación de Cercanías Atocha. También hay parking público en los alrededores para quienes vengan en coche.",
+      "A0Studios está ubicado en Ronda de Atocha 16, planta 7, Madrid centro. El acceso en transporte público es muy sencillo: a 5 minutos a pie del Metro Atocha Renfe (líneas 1 y 3) y de la estación de Cercanías Atocha. También hay parking público en los alrededores para quienes vengan en coche.",
   },
   {
     question: "¿Cómo reservo?",

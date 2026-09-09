@@ -29,7 +29,7 @@ export default function Navbar() {
         >
           <Image
             src="/optimized/logo.webp"
-            alt="A0 Studios"
+            alt="A0Studios"
             width={1257}
             height={252}
             className="h-4 w-auto object-contain sm:h-[18px]"

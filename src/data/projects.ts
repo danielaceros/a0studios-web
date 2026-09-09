@@ -2,9 +2,9 @@ export const projects = [
   {
     slug: "brahim-diaz",
     title: "Brahím Díaz",
-    alt: "Sesión de contenido para Brahím Díaz en A0 Studios Madrid",
+    alt: "Sesión de contenido para Brahím Díaz en A0Studios Madrid",
     video: "/video/brahim.webm",
-    videoHD: "https://firebasestorage.googleapis.com/v0/b/klip-e547f.firebasestorage.app/o/brahim.webm?alt=media&token=8166a4ee-e9a3-4e76-aa03-ff402e913f1e",
+    videoHD: "https://dhhlvt4j8kklwk3i.public.blob.vercel-storage.com/portfolio/brahim.webm",
     cover: "/optimized/covers/brahim.webp",
     sections: [
       {
@@ -19,9 +19,9 @@ export const projects = [
   {
     slug: "camara-de-comercio",
     title: "Cámara de Comercio",
-    alt: "Grabación de vídeo para la Cámara de Comercio de Madrid en A0 Studios",
+    alt: "Grabación de vídeo para la Cámara de Comercio de Madrid en A0Studios",
     video: "/video/ccomercio.webm",
-    videoHD: "https://firebasestorage.googleapis.com/v0/b/klip-e547f.firebasestorage.app/o/ccomercio.webm?alt=media&token=eaefc4f3-6288-4446-b980-fd8b76f5ecf8",
+    videoHD: "https://dhhlvt4j8kklwk3i.public.blob.vercel-storage.com/portfolio/ccomercio.webm",
     cover: "/optimized/covers/ccomercio.webp",
     sections: [
       {
@@ -37,9 +37,9 @@ export const projects = [
   {
     slug: "ifema",
     title: "IFEMA",
-    alt: "Producción audiovisual para IFEMA en A0 Studios Madrid",
+    alt: "Producción audiovisual para IFEMA en A0Studios Madrid",
     video: "/video/ifema.webm",
-    videoHD: "https://firebasestorage.googleapis.com/v0/b/klip-e547f.firebasestorage.app/o/ifema.webm?alt=media&token=f6c36099-4634-4c12-9fa9-1d823c65aa42",
+    videoHD: "https://dhhlvt4j8kklwk3i.public.blob.vercel-storage.com/portfolio/ifema.webm",
     cover: "/optimized/covers/ifema.webp",
     sections: [
       {
@@ -54,9 +54,9 @@ export const projects = [
   {
     slug: "cinesa",
     title: "Cinesa",
-    alt: "Sesión de grabación para Cinesa en A0 Studios Madrid",
+    alt: "Sesión de grabación para Cinesa en A0Studios Madrid",
     video: "/video/cinesa.webm",
-    videoHD: "https://firebasestorage.googleapis.com/v0/b/klip-e547f.firebasestorage.app/o/cinesa.webm?alt=media&token=82305aba-5ee9-41aa-8999-b47ffd29a38d",
+    videoHD: "https://dhhlvt4j8kklwk3i.public.blob.vercel-storage.com/portfolio/cinesa.webm",
     cover: "/optimized/covers/cinesa.webp",
     sections: [
       {
@@ -71,9 +71,9 @@ export const projects = [
   {
     slug: "federacion-esgrima",
     title: "Federación Española de Esgrima",
-    alt: "Vídeo corporativo para la Federación Española de Esgrima en A0 Studios",
+    alt: "Vídeo corporativo para la Federación Española de Esgrima en A0Studios",
     video: "/video/esgrima.webm",
-    videoHD: "https://firebasestorage.googleapis.com/v0/b/klip-e547f.firebasestorage.app/o/esgrima.webm?alt=media&token=ed0160b7-be0c-4df2-8cfd-2cc1af08a9c3",
+    videoHD: "https://dhhlvt4j8kklwk3i.public.blob.vercel-storage.com/portfolio/esgrima.webm",
     cover: "/optimized/covers/esgrima.webp",
     sections: [
       {

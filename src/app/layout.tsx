@@ -52,8 +52,9 @@ export default function RootLayout({
           href="/optimized/hero-poster-v2.webp"
           type="image/webp"
         />
-        <link rel="preconnect" href="https://firebasestorage.googleapis.com" />
-        <link rel="dns-prefetch" href="https://firebasestorage.googleapis.com" />
+        {/* Preconnect a Firebase Storage retirado (9-sep-2026): los vídeos de
+            portfolio ya no dependen de ese storage (ver src/data/projects.ts,
+            devolvía 402 por facturación) — el preconnect era dead weight. */}
         <link rel="preconnect" href="https://api.fitnesslaunch.es" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://connect.facebook.net" />
