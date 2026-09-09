@@ -221,7 +221,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Una guía práctica para llegar preparado a tu sesión de grabación de contenido en Madrid y sacar el máximo partido desde el primer minuto.",
-    seoTitle: "Cómo preparar tu sesión de grabación de contenido | A0 Studios Madrid",
+    seoTitle: "Cómo preparar tu sesión de grabación de contenido",
     metaDescription: "Cómo preparar una sesión de grabación de contenido en Madrid: formatos, guión, equipo, errores comunes y todo lo que necesitas para no perder tiempo en el estudio.",
     heroKicker: "Blog / A0 Studios",
     body: [
@@ -312,7 +312,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un rooftop studio combina luz natural, entorno urbano y equipo profesional. Así cambia el contenido que grabas desde el ático de Madrid.",
-    seoTitle: "Qué es un rooftop studio de contenido | A0 Studios Madrid",
+    seoTitle: "Qué es un rooftop studio de contenido",
     metaDescription:
       "Un rooftop studio transforma el contenido de marca: luz natural, vistas urbanas y equipo profesional desde el ático de Madrid.",
     heroKicker: "Blog / A0 Studios",
@@ -404,7 +404,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Qué equipo, espacio y plan necesitas para grabar reels en Madrid con resultado profesional, sin improvisar y sin perder tiempo en el estudio.",
-    seoTitle: "Grabación de reels en Madrid: qué necesitas | A0 Studios Madrid",
+    seoTitle: "Grabación de reels en Madrid: qué necesitas",
     metaDescription:
       "Grabación de reels en Madrid: qué equipo, espacio e iluminación necesitas para conseguir vídeo vertical profesional sin perder tiempo en el estudio.",
     heroKicker: "Blog / A0 Studios",
@@ -509,7 +509,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Grabar audio limpio es el mínimo. Lo que ves mientras escuchas cambia cómo percibes el mensaje. Así transforma el vídeo un podcast.",
-    seoTitle: "Podcast con vídeo: el contexto visual importa | A0 Studios Madrid",
+    seoTitle: "Podcast con vídeo: el contexto visual importa",
     metaDescription:
       "Podcast con vídeo: por qué el contexto visual define cómo se percibe tu marca y cómo grabarlo bien desde el principio en un estudio profesional.",
     heroKicker: "Blog / A0 Studios",
@@ -618,7 +618,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Una sola mañana en el estudio puede dar contenido para semanas. Así funciona el batch recording y cómo planificarlo para que salga bien.",
-    seoTitle: "Grabar contenido para semanas en una mañana | A0 Studios Madrid",
+    seoTitle: "Grabar contenido para semanas en una mañana",
     metaDescription:
       "Grabar contenido para semanas en una sola mañana es posible con buena planificación. Así funciona el batch recording y cómo hacerlo bien en estudio.",
     heroKicker: "Blog / A0 Studios",
@@ -713,7 +713,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Entre grabar en oficina y hacerlo en un estudio hay diferencias reales en imagen, audio y eficiencia. Guía para saber qué tiene sentido según tu tipo de contenido.",
-    seoTitle: "Grabar en estudio vs oficina: diferencias reales | A0 Studios Madrid",
+    seoTitle: "Grabar en estudio vs oficina: diferencias reales",
     metaDescription:
       "Estudio de grabación vs grabar en oficina: diferencias reales en imagen, audio y eficiencia. Guía práctica para saber cuándo compensa cada opción.",
     heroKicker: "Blog / A0 Studios",
@@ -805,7 +805,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Si publicas en LinkedIn para posicionar tu marca, el formato y el contexto de grabación cambian el resultado. Guía sobre qué funciona y por qué.",
-    seoTitle: "Contenido de autoridad para LinkedIn: formatos | A0 Studios Madrid",
+    seoTitle: "Contenido de autoridad para LinkedIn: formatos",
     metaDescription:
       "Contenido de autoridad para LinkedIn: qué formatos de vídeo funcionan en Madrid, cómo producirlos bien y cómo grabarlo con un contexto que refuerza tu marca.",
     heroKicker: "Blog / A0 Studios",
@@ -910,7 +910,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Una VSL bien hecha puede ser el activo de LinkedIn que más convierte. Así se estructura, cuánto debe durar y cómo grabarla en estudio para que funcione.",
-    seoTitle: "VSL para LinkedIn: estructura, duración y cómo grabarlo | A0 Studios Madrid",
+    seoTitle: "VSL para LinkedIn: estructura, duración y cómo grabarlo",
     metaDescription:
       "VSL para LinkedIn: qué es, cómo estructurarla, cuánto debe durar y cómo grabarla en un estudio para que convierta desde el primer frame.",
     heroKicker: "Blog / A0 Studios",
@@ -1015,7 +1015,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un day in studio es la forma más eficiente de producir contenido de marca en una sola jornada. Esta guía explica qué grabar, cómo organizarlo y cómo sacarle el máximo partido en el estudio.",
-    seoTitle: "Day in Studio para marcas personales | A0 Studios Madrid",
+    seoTitle: "Day in Studio para marcas personales",
     metaDescription:
       "Qué es un day in studio y cómo organizarlo para grabar el contenido de tu marca personal en Madrid en una sola jornada. Guía práctica.",
     heroKicker: "Blog / A0 Studios",
@@ -1164,7 +1164,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Los CEOs con mejor presencia digital no improvisan: saben qué formato grabar y por qué. Guía sobre los reels verticales que funcionan de verdad para empresas.",
-    seoTitle: "Reels verticales para empresa: qué graban los CEOs | A0 Studios",
+    seoTitle: "Reels verticales para empresa: qué graban los CEOs",
     metaDescription:
       "Reels verticales para empresa y CEOs: qué formatos funcionan, cómo grabarlos bien y los errores que destruyen la autoridad antes de empezar a hablar.",
     heroKicker: "Blog / A0 Studios",
@@ -1269,7 +1269,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Con multicámara, un episodio de podcast genera entre 8 y 20 clips listos para redes. Qué aporta este formato y cuándo tiene sentido contratarlo en Madrid.",
-    seoTitle: "Grabación multicámara podcast | A0 Studios Madrid",
+    seoTitle: "Grabación multicámara podcast",
     metaDescription:
       "La grabación multicámara transforma tu podcast en contenido para YouTube, LinkedIn y redes. Qué aporta, cómo funciona y cuándo tiene sentido en Madrid.",
     heroKicker: "Blog / A0 Studios",
@@ -1400,7 +1400,7 @@ export const blogPosts: BlogPost[] = [
     keyword: "como usar teleprompter sin parecer robot",
     intent: "informacional",
     excerpt: "Usar el teleprompter es una habilidad que se entrena. Estas son las claves para leer sin que se note.",
-    seoTitle: "Cómo usar el teleprompter sin parecer robot | A0 Studios Madrid",
+    seoTitle: "Cómo usar el teleprompter sin parecer robot",
     metaDescription:
       "Cómo usar el teleprompter sin parecer robot: técnica, ritmo y ajustes para grabar con naturalidad en estudio. Guía práctica de A0 Studios Madrid.",
     heroKicker: "Blog / A0 Studios",
@@ -1533,7 +1533,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "La iluminación decide si el vídeo parece profesional o no. Estos son los básicos que usamos en A0 Studios y que puedes aplicar desde el primer día.",
-    seoTitle: "Iluminación para grabación de contenido | A0 Studios Madrid",
+    seoTitle: "Iluminación para grabación de contenido",
     metaDescription:
       "Iluminación para grabación de contenido: tipos de luz, setup básico y errores que arruinan el vídeo antes de que empieces a hablar. Guía de A0 Studios Madrid.",
     heroKicker: "Blog / A0 Studios",
@@ -1638,7 +1638,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Elegir el micrófono correcto marca la diferencia entre un audio tolerable y uno que retiene al oyente. Esto es lo que usamos en A0 Studios y por qué.",
-    seoTitle: "Micrófonos para Podcast y Entrevistas | A0 Studios Madrid",
+    seoTitle: "Micrófonos para Podcast y Entrevistas",
     metaDescription:
       "Micrófonos para podcast y entrevistas: tipos, diferencias y cuándo usar cada uno. Guía práctica desde el estudio A0 Studios Madrid.",
     heroKicker: "Blog / A0 Studios",
@@ -1747,7 +1747,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Espacio, equipo y flujo de trabajo para grabar cursos online con calidad profesional en Madrid. Lo que funciona en A0 Studios para formadores y empresas.",
-    seoTitle: "Grabación de cursos online Madrid | A0 Studios Madrid",
+    seoTitle: "Grabación de cursos online Madrid",
     metaDescription:
       "Grabación de cursos online en Madrid: qué espacio, equipo y organización necesitas para producir formación en vídeo de calidad profesional.",
     heroKicker: "Blog / A0 Studios",
@@ -1856,7 +1856,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "YouTube Shorts tiene mejor alcance orgánico del que muchas marcas aprovechan. Así se planifica y graba en una sesión de estudio en Madrid sin alargar el día.",
-    seoTitle: "YouTube Shorts desde estudio: cómo planificarlo | A0 Studios Madrid",
+    seoTitle: "YouTube Shorts desde estudio: cómo planificarlo",
     metaDescription:
       "Contenido para YouTube Shorts desde una sesión de estudio: cómo planificarlo, capturarlo en vertical y estructurar los clips para que funcionen en Madrid.",
     heroKicker: "Blog / A0 Studios",
@@ -1961,7 +1961,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un día entero de estudio puede generar contenido para semanas. La clave está en saber qué grabar y en qué orden.",
-    seoTitle: "Jornada intensiva de contenido: qué grabar | A0 Studios Madrid",
+    seoTitle: "Jornada intensiva de contenido: qué grabar",
     metaDescription:
       "Jornada intensiva de contenido en estudio: qué formatos grabar, en qué orden y cómo sacar el máximo partido a un día entero de producción en Madrid.",
     heroKicker: "Blog / A0 Studios",
@@ -2069,7 +2069,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Preparar bien a un invitado antes de la grabación marca la diferencia entre una conversación forzada y una entrevista que engancha desde el minuto uno.",
-    seoTitle: "Cómo preparar a un invitado para podcast | A0 Studios Madrid",
+    seoTitle: "Cómo preparar a un invitado para podcast",
     metaDescription:
       "Cómo preparar a un invitado para grabar un podcast: briefing de temas, llamada previa y errores a evitar para que la sesión fluya desde el minuto uno.",
     heroKicker: "Blog / A0 Studios",
@@ -2177,7 +2177,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "No toda la edición vale igual. La diferencia entre montar clips y editar para que el espectador haga algo es técnica, pero sobre todo es de criterio.",
-    seoTitle: "Edición de vídeo que convierte: qué cambia | A0 Studios Madrid",
+    seoTitle: "Edición de vídeo que convierte: qué cambia",
     metaDescription:
       "Edición rápida y edición que convierte no son lo mismo. Qué diferencia el montaje eficiente del que genera resultados reales para tu marca.",
     heroKicker: "Blog / A0 Studios",
@@ -2286,7 +2286,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "No siempre necesitas producción completa. Pero a veces, ahorrarte la edición es el peor ahorro posible. Esto es lo que tienes que saber antes de decidir.",
-    seoTitle: "Producción completa vs solo grabación | A0 Studios Madrid",
+    seoTitle: "Producción completa vs solo grabación",
     metaDescription:
       "Cuándo contratar producción completa vs solo grabación: guía para elegir el servicio correcto según tu proyecto, equipo y presupuesto en A0 Studios Madrid.",
     heroKicker: "Blog / A0 Studios",
@@ -2395,7 +2395,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Publicar de forma constante construye más confianza que cualquier campaña puntual. Te contamos cómo estructurar contenido recurrente para tu marca desde una sesión de estudio.",
-    seoTitle: "Contenido recurrente para marca | A0 Studios Madrid",
+    seoTitle: "Contenido recurrente para marca",
     metaDescription:
       "Contenido recurrente para marca: por qué la constancia genera más autoridad que cualquier campaña puntual y cómo estructurarlo desde un estudio en Madrid.",
     heroKicker: "Blog / A0 Studios",
@@ -2504,7 +2504,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Grabar un testimonio de cliente mal resulta contraproducente. Guía para hacerlo bien: espacio, preguntas, técnica y errores que evitar.",
-    seoTitle: "Grabación de testimonios para empresa | A0 Studios Madrid",
+    seoTitle: "Grabación de testimonios para empresa",
     metaDescription:
       "Cómo grabar testimonios de clientes y casos de éxito que generen confianza. Guía práctica desde el estudio A0 Studios en Madrid centro.",
     heroKicker: "Blog / A0 Studios",
@@ -2637,7 +2637,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Grabar un podcast y luego cortar clips para redes no es magia. Con la estructura correcta desde el principio, una sesión de 2 horas puede darte 20 clips listos para publicar.",
-    seoTitle: "Podcast para clips de redes sociales | A0 Studios Madrid",
+    seoTitle: "Podcast para clips de redes sociales",
     metaDescription:
       "Cómo optimizar una sesión de podcast para extraer clips de redes sociales. Estructura, timing y edición para multiplicar tu contenido desde el estudio.",
     heroKicker: "Blog / A0 Studios",
@@ -2749,7 +2749,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "El micrófono no es un accesorio secundario en vídeo. Es la primera decisión de producción. Guía para elegir bien según el formato que grabas.",
-    seoTitle: "Qué micrófono usar para vídeo según el formato | A0 Studios Madrid",
+    seoTitle: "Qué micrófono usar para vídeo según el formato",
     metaDescription:
       "Audio profesional para vídeo: cómo elegir entre dinámico, condensador, lavalier o shotgun según si grabas podcast, reels, cursos o entrevistas.",
     heroKicker: "Blog / A0 Studios",
@@ -2862,7 +2862,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Concentrar la producción de contenido en una sola jornada cambia la constancia y la calidad. Guía para montar un content day que funcione de verdad.",
-    seoTitle: "Qué es un content day y cómo aprovecharlo | A0 Studios Madrid",
+    seoTitle: "Qué es un content day y cómo aprovecharlo",
     metaDescription:
       "Qué es un content day, cómo planificarlo y qué errores evitar para grabar semanas de contenido en una sola sesión en Madrid.",
     heroKicker: "Blog / A0 Studios",
@@ -2974,7 +2974,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Grabar vídeo para la web de tu empresa no es lo mismo que grabar para redes. Guía para planificar la sesión por bloques y qué necesita cada página.",
-    seoTitle: "Vídeo corporativo para la web | A0 Studios Madrid",
+    seoTitle: "Vídeo corporativo para la web",
     metaDescription:
       "Vídeo corporativo para la web: qué grabar, cómo planificar la sesión por bloques y qué necesita cada página para convertir mejor.",
     heroKicker: "Blog / A0 Studios",
@@ -3089,7 +3089,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un spot publicitario en estudio no se improvisa. Guía para planificar guion, tomas y variantes de campaña antes de pisar el plató.",
-    seoTitle: "Grabación de Spots Publicitarios | A0 Studios Madrid",
+    seoTitle: "Grabación de Spots Publicitarios",
     metaDescription:
       "Grabación de spots publicitarios en estudio: cómo planificar guion, tomas y variantes de campaña sin tener que regrabar nada.",
     heroKicker: "Blog / A0 Studios",
@@ -3201,7 +3201,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "El fondo es lo que el espectador tiene delante todo el vídeo. Guía para elegir entre un decorado neutro y un entorno real según lo que quiere transmitir tu marca.",
-    seoTitle: "Fondos y Decorados para Grabar Contenido | A0 Studios Madrid",
+    seoTitle: "Fondos y Decorados para Grabar Contenido",
     metaDescription:
       "Fondos y decorados para grabar contenido: cuándo usar un fondo neutro, cuándo un entorno real, y cómo evitar que el decorado compita con tu mensaje.",
     heroKicker: "Blog / A0 Studios",
@@ -3325,7 +3325,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "La cámara no es lo que más cambia el resultado de un vídeo de marca. Qué mirar de verdad antes de comprar o alquilar equipo.",
-    seoTitle: "Cámara para Grabar Contenido de Marca | A0 Studios Madrid",
+    seoTitle: "Cámara para Grabar Contenido de Marca",
     metaDescription:
       "Cámara para grabar contenido de marca: qué mirar en autofoco, formato de entrega y lentes antes de elegir o alquilar equipo para tu marca en Madrid.",
     heroKicker: "Blog / A0 Studios",
@@ -3437,7 +3437,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Grabar un evento corporativo no es lo mismo que grabar en estudio. Qué cambia, qué falla más a menudo y cómo llegar con un plan que no dependa de la improvisación.",
-    seoTitle: "Cobertura Audiovisual de Eventos Corporativos | A0 Studios Madrid",
+    seoTitle: "Cobertura Audiovisual de Eventos Corporativos",
     metaDescription:
       "Cobertura audiovisual de eventos corporativos: cuántas cámaras necesitas, cómo resolver el audio en directo y qué entregables pedir al terminar el evento.",
     heroKicker: "Blog / A0 Studios",
@@ -3545,7 +3545,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "El contenido UGC ya no es solo cosa de creators grabando desde casa: las marcas lo piden en estudio, con dirección y calidad, pero sin perder el tono casero que funciona.",
-    seoTitle: "Contenido UGC para marcas: cómo grabarlo | A0 Studios Madrid",
+    seoTitle: "Contenido UGC para marcas: cómo grabarlo",
     metaDescription:
       "Qué es el contenido UGC, por qué funciona en redes y cómo grabarlo en estudio con calidad profesional sin perder el tono auténtico que lo hace convertir.",
     heroKicker: "Blog / A0 Studios",
@@ -3654,7 +3654,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Cada vez más empresas graban vídeo para mostrar cómo es trabajar en su equipo. Cómo hacerlo bien para que atraiga candidatos de verdad, no solo likes.",
-    seoTitle: "Vídeos de employer branding: cómo grabarlos | A0 Studios Madrid",
+    seoTitle: "Vídeos de employer branding: cómo grabarlos",
     metaDescription:
       "Vídeo de employer branding para atraer talento: qué grabar, cómo prepararlo y por qué el estudio marca la diferencia frente a grabar en la oficina.",
     heroKicker: "Blog / A0 Studios",
@@ -3763,7 +3763,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un webinar grabado con webcam y sonido de portátil se nota. Cómo montar cámara, pantalla compartida y audio para que la masterclass funcione en directo y después.",
-    seoTitle: "Grabación de webinars y masterclasses | A0 Studios Madrid",
+    seoTitle: "Grabación de webinars y masterclasses",
     metaDescription:
       "Grabación de webinars y masterclasses con nivel profesional: cámara, pantalla compartida y audio limpio, listos para el directo y para reutilizar después.",
     heroKicker: "Blog / A0 Studios",
@@ -3876,7 +3876,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un vídeo de producto grabado con el móvil en la mesa de la oficina se nota. Cómo montar fondo, luz y planos en estudio para que el producto se vea bien y venda.",
-    seoTitle: "Vídeo de producto en estudio | A0 Studios Madrid",
+    seoTitle: "Vídeo de producto en estudio",
     metaDescription:
       "Cómo grabar un vídeo de producto en estudio: cámara, luz y fondo para que el producto se vea bien y el vídeo sirva para vender de verdad.",
     heroKicker: "Blog / A0 Studios",
@@ -3989,7 +3989,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "El fondo y la luz se ven a primera vista. El tratamiento acústico no se ve, pero se escucha en cada grabación. Qué hace que una sala suene bien y cómo se consigue.",
-    seoTitle: "Tratamiento acústico en un estudio de grabación | A0 Studios Madrid",
+    seoTitle: "Tratamiento acústico en un estudio de grabación",
     metaDescription:
       "Tratamiento acústico de un estudio: qué hace falta para que un podcast o un vídeo no suenen a habitación vacía y en qué se diferencia de insonorizar.",
     heroKicker: "Blog / A0 Studios",
@@ -4114,7 +4114,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "La ropa es lo primero que se ve en cualquier grabación, antes incluso de escuchar la primera frase. Qué colores, patrones y prendas funcionan bien en cámara y cuáles conviene evitar.",
-    seoTitle: "Qué ropa ponerte para grabar vídeo | A0 Studios Madrid",
+    seoTitle: "Qué ropa ponerte para grabar vídeo",
     metaDescription:
       "Qué ropa ponerte para grabar vídeo: colores que funcionan en cámara, patrones a evitar y errores de vestuario que se notan en cualquier grabación.",
     heroKicker: "Blog / A0 Studios",
@@ -4227,7 +4227,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "La mayoría de guiones suenan a anuncio porque están escritos como un folleto, no como algo que alguien diría en voz alta. Cómo escribir uno que suene a conversación real.",
-    seoTitle: "Guion para grabar contenido sin sonar a anuncio | A0 Studios Madrid",
+    seoTitle: "Guion para grabar contenido sin sonar a anuncio",
     metaDescription:
       "Guion para grabar contenido sin sonar a anuncio: cómo estructurar el hook, escribir para el oído y dejar hueco a la voz real de quien graba.",
     heroKicker: "Blog / A0 Studios",
@@ -4344,7 +4344,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Horizontal o vertical no es gusto personal, es una decisión que depende de dónde se va a ver el vídeo. Cómo elegir el formato antes de grabar, no después en edición.",
-    seoTitle: "Vídeo horizontal vs vertical: qué formato usar | A0 Studios Madrid",
+    seoTitle: "Vídeo horizontal vs vertical: qué formato usar",
     metaDescription:
       "Vídeo horizontal vs vertical: cómo elegir el formato según la plataforma y el objetivo, y cómo grabar una sesión pensando en ambos sin perder calidad.",
     heroKicker: "Blog / A0 Studios",
@@ -4455,7 +4455,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un vídeo pitch mal grabado puede hundir una buena idea antes de la primera llamada. Cómo prepararlo, qué evitar y cómo estructurarlo para que transmita seriedad.",
-    seoTitle: "Vídeo Pitch para Inversores: Cómo Grabarlo | A0 Studios Madrid",
+    seoTitle: "Vídeo Pitch para Inversores: Cómo Grabarlo",
     metaDescription:
       "Vídeo pitch para inversores: cómo grabarlo para transmitir seriedad y claridad sin sonar ensayado. Guía práctica desde nuestro estudio en Madrid.",
     heroKicker: "Blog / A0 Studios",
@@ -4576,7 +4576,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un vídeo de onboarding bien hecho ahorra horas de RRHH repetidas y hace que la bienvenida no dependa de quién esté libre esa semana. Cómo estructurarlo y grabarlo.",
-    seoTitle: "Vídeo de Onboarding para Empleados | A0 Studios Madrid",
+    seoTitle: "Vídeo de Onboarding para Empleados",
     metaDescription:
       "Vídeo de onboarding para empleados nuevos: qué contar, quién debe salir y cómo grabarlo bien en un estudio de Madrid.",
     heroKicker: "Blog / A0 Studios",
@@ -4689,7 +4689,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un vídeo explicativo de producto bien grabado convence enseñando, no vendiendo. Cómo estructurarlo, qué mostrar en pantalla y qué evitar para que no suene a anuncio.",
-    seoTitle: "Vídeo explicativo de producto: cómo grabarlo | A0 Studios Madrid",
+    seoTitle: "Vídeo explicativo de producto: cómo grabarlo",
     metaDescription:
       "Cómo grabar un vídeo explicativo de producto en Madrid que enganche y no suene a anuncio: guion, ritmo, planos y errores que evitar.",
     heroKicker: "Blog / A0 Studios",
@@ -4802,7 +4802,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un anuncio grabado como si fuera contenido orgánico rinde mejor que uno con pinta de spot. Qué cambia realmente entre grabar para pauta y grabar para feed.",
-    seoTitle: "Vídeo para anuncios de pago: qué cambia | A0 Studios Madrid",
+    seoTitle: "Vídeo para anuncios de pago: qué cambia",
     metaDescription:
       "Cómo grabar vídeo para anuncios de pago (Meta y TikTok) que no parezca un anuncio genérico y qué cambia frente al contenido orgánico.",
     heroKicker: "Blog / A0 Studios",
@@ -4919,7 +4919,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Grabar contenido es una inversión, no un gasto de marketing suelto. Así se calcula si de verdad está compensando y qué mirar antes de decidir cuánto meter cada mes.",
-    seoTitle: "Cómo calcular el ROI del vídeo | A0 Studios Madrid",
+    seoTitle: "Cómo calcular el ROI del vídeo",
     metaDescription:
       "Cómo calcular el ROI de grabar contenido en vídeo: qué contar como coste real, qué contar como retorno y en qué plazo se empieza a notar.",
     heroKicker: "Blog / A0 Studios",
@@ -5028,7 +5028,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "El b-roll es lo que separa un vídeo plano de uno que engancha. Qué es, cuándo grabarlo y cómo lo integramos en cada sesión de A0 Studios.",
-    seoTitle: "Qué es el B-roll y por qué lo necesitas | A0 Studios Madrid",
+    seoTitle: "Qué es el B-roll y por qué lo necesitas",
     metaDescription:
       "El b-roll es el material de apoyo que hace que tu vídeo de marca se vea profesional. Qué es, cuándo grabarlo y cómo lo usamos en A0 Studios.",
     heroKicker: "Blog / A0 Studios",
@@ -5140,7 +5140,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "El aftermovie es la pieza que resume tu evento en menos de dos minutos de energía. Te contamos cómo se planifica la grabación y el montaje para que funcione.",
-    seoTitle: "Aftermovie de evento: cómo se produce | A0 Studios Madrid",
+    seoTitle: "Aftermovie de evento: cómo se produce",
     metaDescription:
       "Qué es un aftermovie, en qué se diferencia de la cobertura de un evento y cómo se planifica la grabación, la música y el montaje para que funcione en redes.",
     heroKicker: "Blog / A0 Studios",
@@ -5249,7 +5249,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Grabar un podcast con un invitado conectado por videollamada no tiene que sonar peor que uno grabado en persona. Así lo montamos en A0 Studios para que no se note la diferencia.",
-    seoTitle: "Podcast con invitado remoto: cómo grabarlo bien | A0 Studios Madrid",
+    seoTitle: "Podcast con invitado remoto: cómo grabarlo bien",
     metaDescription:
       "Podcast con invitados en remoto: cómo grabar audio y vídeo para que no se note la diferencia con el estudio. Herramientas, encuadre y montaje.",
     heroKicker: "Blog / A0 Studios",
@@ -5358,7 +5358,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un directo no da margen para repetir la toma. Así preparamos en A0 Studios las cámaras, el audio y la conexión antes de salir en streaming.",
-    seoTitle: "Streaming en Directo desde Estudio | A0 Studios Madrid",
+    seoTitle: "Streaming en Directo desde Estudio",
     metaDescription:
       "Streaming en directo desde estudio: qué necesitas en cámaras, conexión y audio para que la retransmisión salga bien sin sustos.",
     heroKicker: "Blog / A0 Studios",
@@ -5470,7 +5470,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "En redes la mayoría ve el vídeo con el sonido apagado. Sin subtítulos, ese vídeo no comunica nada. Así los preparamos en A0 Studios para que no se note el trabajo detrás.",
-    seoTitle: "Subtítulos en Vídeo: por qué importan | A0 Studios Madrid",
+    seoTitle: "Subtítulos en Vídeo: por qué importan",
     metaDescription:
       "Subtítulos en vídeo: por qué la mayoría de tu audiencia los necesita, cómo se generan bien y qué errores evitar para que no rompan el ritmo del vídeo.",
     heroKicker: "Blog / A0 Studios",
@@ -5582,7 +5582,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "La voz en off puede salvar un vídeo corporativo o hundirlo. Cuándo tiene sentido grabarla en estudio y cómo preparar guion, voz y ritmo antes de sentarte delante del micro.",
-    seoTitle: "Locución y voz en off en estudio | A0 Studios Madrid",
+    seoTitle: "Locución y voz en off en estudio",
     metaDescription:
       "Voz en off: cuándo usarla en lugar de un presentador, cómo preparar el guion antes de grabar y qué hace que una locución suene profesional en vez de leída.",
     heroKicker: "Blog / A0 Studios",
@@ -5714,7 +5714,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "El talking head no tiene montaje que lo salve: si la persona no sostiene la atención, el vídeo no funciona. Cuándo usarlo y cómo grabarlo para que no se note el esfuerzo.",
-    seoTitle: "Talking Head en Vídeo de Marca | A0 Studios Madrid",
+    seoTitle: "Talking Head en Vídeo de Marca",
     metaDescription:
       "Talking head en vídeo: qué es, cuándo funciona mejor que un reel editado y cómo grabarlo en estudio para que sostenga la atención sin montaje de apoyo.",
     heroKicker: "Blog / A0 Studios",
@@ -5834,7 +5834,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "El croma key no perdona: bien iluminado es invisible, mal iluminado deja un halo verde alrededor del pelo. Cuándo tiene sentido usarlo y cómo grabarlo para que el recorte salga limpio.",
-    seoTitle: "Croma Key en Vídeo: Cuándo Usarlo | A0 Studios Madrid",
+    seoTitle: "Croma Key en Vídeo: Cuándo Usarlo",
     metaDescription:
       "Croma key en vídeo: cuándo grabar con fondo verde compensa, cuándo no, y cómo iluminarlo bien en estudio para un recorte limpio.",
     heroKicker: "Blog / A0 Studios",
@@ -5947,7 +5947,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "No hay una duración única que funcione en todas partes: un Reel y un vídeo de LinkedIn piden tiempos distintos. Rangos reales por plataforma y por objetivo.",
-    seoTitle: "Duración ideal de un vídeo por plataforma | A0 Studios Madrid",
+    seoTitle: "Duración ideal de un vídeo por plataforma",
     metaDescription:
       "La duración ideal de un vídeo cambia según la plataforma: Reels, LinkedIn, YouTube o tu web. Rangos reales y por qué la retención importa más que el minutaje.",
     heroKicker: "Blog / A0 Studios",
@@ -6060,7 +6060,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un brief bien hecho no es papeleo: es la diferencia entre grabar en dos horas lo que necesitas o alargarte a cuatro con material que no encaja. Qué preguntamos antes de cualquier sesión.",
-    seoTitle: "Brief antes de grabar contenido | A0 Studios Madrid",
+    seoTitle: "Brief antes de grabar contenido",
     metaDescription:
       "Qué preguntar antes de grabar contenido para no perder tiempo en sesión: objetivo, número de piezas, tono y quién sale delante de cámara.",
     heroKicker: "Blog / A0 Studios",
@@ -6173,7 +6173,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Comprar la canción no te da derecho a usarla. Qué es una licencia de sincronización, qué bibliotecas usamos en A0 Studios y los errores que meten a más marcas en un aviso de copyright.",
-    seoTitle: "Música para vídeo de marca sin copyright | A0 Studios Madrid",
+    seoTitle: "Música para vídeo de marca sin copyright",
     metaDescription:
       "Cómo elegir música para vídeo de marca sin riesgo de copyright: qué es una licencia de sincronización, qué bibliotecas usar y los errores más comunes.",
     heroKicker: "Blog / A0 Studios",
@@ -6286,7 +6286,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "El espectador decide si se queda o se va antes de que termines la primera frase. Cómo planificamos y grabamos el hook en A0 Studios para que ese primer segundo no se pierda.",
-    seoTitle: "El hook en vídeo: primeros 3 segundos | A0 Studios Madrid",
+    seoTitle: "El hook en vídeo: primeros 3 segundos",
     metaDescription:
       "Cómo grabar el hook de un vídeo: los primeros segundos que deciden si el espectador se queda, y cómo planificarlos antes de grabar en A0 Studios Madrid.",
     heroKicker: "Blog / A0 Studios",
@@ -6407,7 +6407,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "El color grading es lo que hace que un vídeo bien grabado se sienta terminado. Qué es, cuándo se aplica y qué diferencia real marca en el resultado final.",
-    seoTitle: "Color grading en vídeo: qué es y por qué importa | A0 Studios Madrid",
+    seoTitle: "Color grading en vídeo: qué es y por qué importa",
     metaDescription:
       "Qué es el color grading en vídeo, en qué se diferencia de la corrección de color y por qué cambia el resultado final de un vídeo de marca grabado en estudio.",
     heroKicker: "Blog / A0 Studios",
@@ -6520,7 +6520,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un feedback claro cierra un vídeo en una ronda. Uno ambiguo lo alarga semanas. Cómo estructurar las revisiones de edición para que no se conviertan en un proceso sin fin.",
-    seoTitle: "Feedback a un editor de vídeo | A0 Studios Madrid",
+    seoTitle: "Feedback a un editor de vídeo",
     metaDescription:
       "Cómo dar feedback a un editor de vídeo para que las revisiones sean rápidas y claras, sin rondas de cambios que no terminan nunca.",
     heroKicker: "Blog / A0 Studios",
@@ -6633,7 +6633,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un sizzle reel condensa lo mejor de un evento o una marca en menos de dos minutos. Cuándo tiene sentido grabarlo y en qué se diferencia de un aftermovie.",
-    seoTitle: "Qué es un sizzle reel y cuándo grabarlo | A0 Studios Madrid",
+    seoTitle: "Qué es un sizzle reel y cuándo grabarlo",
     metaDescription:
       "Qué es un sizzle reel, en qué se diferencia de un aftermovie y cuándo grabarlo para tu marca o evento en Madrid.",
     heroKicker: "Blog / A0 Studios",
@@ -6746,7 +6746,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "La mayoría de las personas que grabamos en A0 Studios no son actores ni presentadores. Cómo dirigirlas para que salgan naturales sin memorizar nada.",
-    seoTitle: "Cómo dirigir a alguien sin experiencia en cámara | A0 Studios Madrid",
+    seoTitle: "Cómo dirigir a alguien sin experiencia en cámara",
     metaDescription:
       "Cómo dirigir a alguien sin experiencia delante de la cámara para lograr una grabación natural, sin memorizar guiones ni parecer forzado.",
     heroKicker: "Blog / A0 Studios",
@@ -6855,7 +6855,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Salir a grabar fuera del estudio parece más auténtico, pero trae variables que no controlas: luz, ruido, permisos. Cuándo compensa y cuándo no.",
-    seoTitle: "Grabar en exteriores vs estudio | A0 Studios Madrid",
+    seoTitle: "Grabar en exteriores vs estudio",
     metaDescription:
       "Grabar en exteriores vs estudio: cuándo la localización aporta más que el plató y cuándo juega en contra por luz, sonido o logística.",
     heroKicker: "Blog / A0 Studios",
@@ -6963,7 +6963,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Casi nadie llega a su primera grabación relajado. Qué pasa realmente delante de una cámara y qué hacemos en A0 Studios para que la sesión no se note forzada.",
-    seoTitle: "Cómo perder el miedo a la cámara | A0 Studios Madrid",
+    seoTitle: "Cómo perder el miedo a la cámara",
     metaDescription:
       "Perder el miedo a la cámara: por qué se traba la voz al grabar y cómo prepararte antes de tu primera sesión para que salga natural.",
     heroKicker: "Blog / A0 Studios",
@@ -7072,7 +7072,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Una sola sesión bien planteada puede dar clips, citas y fragmentos de audio para semanas. Así pensamos el repurposing de vídeo en A0 Studios.",
-    seoTitle: "Repurposing de vídeo: saca más contenido | A0 Studios Madrid",
+    seoTitle: "Repurposing de vídeo: saca más contenido",
     metaDescription:
       "Repurposing de vídeo: convierte una sola sesión en semanas de contenido para redes sin volver a grabar. Así lo hacemos en A0 Studios.",
     heroKicker: "Blog / A0 Studios",
@@ -7184,7 +7184,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Un documental de marca no es un vídeo corporativo ni un aftermovie: es una pieza narrativa sobre la historia y las personas detrás de un proyecto. Cuándo tiene sentido grabarlo y cómo lo hacemos en A0 Studios.",
-    seoTitle: "Documental de marca: qué es y cuándo grabarlo | A0 Studios Madrid",
+    seoTitle: "Documental de marca: qué es y cuándo grabarlo",
     metaDescription:
       "Documental de marca: qué es, en qué se diferencia de un aftermovie y cuándo tiene sentido grabarlo en A0 Studios.",
     heroKicker: "Blog / A0 Studios",
@@ -7297,7 +7297,7 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Una checklist directa para elegir estudio de grabación cuando trabajas tu marca personal: qué preguntar antes de reservar y qué errores evitar.",
-    seoTitle: "Cómo elegir estudio de grabación | A0 Studios Madrid",
+    seoTitle: "Cómo elegir estudio de grabación",
     metaDescription:
       "Checklist para elegir estudio de grabación en Madrid si trabajas tu marca personal: equipo, ubicación, formato de sesión y errores a evitar.",
     heroKicker: "Blog / A0 Studios",

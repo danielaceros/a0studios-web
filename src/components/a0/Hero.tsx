@@ -60,16 +60,8 @@ export default function Hero() {
             />
           </div>
           <span className="sr-only">
-            A0 Studios es un estudio de grabación de contenido audiovisual en Madrid centro, en un
-            ático en Ronda de Atocha 16, planta 7, a 5 minutos a pie de Metro Atocha Renfe. Fundado
-            por Dani Acero, filmmaker con seis años de experiencia produciendo audiovisual para
-            marcas como IFEMA, Cinesa y la Cámara de Comercio de Madrid: más de 28 proyectos y 500
-            horas de grabación hasta la fecha. Cada sesión incluye acceso exclusivo al ático (solo
-            se agenda una grabación al día), iluminación profesional LED, cámaras Sony con
-            objetivos, sonido profesional, teleprompter, filmmaker y dirección creativa. Se pueden
-            grabar podcasts, reels, vídeo corporativo, cursos online y anuncios, y una sola mañana
-            suele dar para unas 12 piezas de contenido distintas. Con el plan de edición, la
-            entrega llega en 24-48 horas, lista para publicar en cada plataforma.
+            A0 Studios — estudio de grabación de contenido audiovisual en un ático en Madrid
+            centro, fundado por Dani Acero.
           </span>
         </h1>
 
