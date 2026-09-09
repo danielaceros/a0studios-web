@@ -29,10 +29,6 @@ export function getProfessionalServiceSchema() {
     ],
     address: {
       "@type": "PostalAddress",
-      // Piso/puerta "7ºC" añadido el 9-sep-2026 para que coincida con la
-      // ficha real de Google Business Profile (antes solo decía "16", sin
-      // planta/puerta, aunque el copy visible del sitio sí menciona "planta 7"
-      // en varios sitios). Confirmar con Dani si "7ºC" es correcto.
       streetAddress: "Calle Ronda de Atocha, 16, 7ºC",
       addressLocality: "Madrid",
       addressRegion: "Madrid",
@@ -178,9 +174,6 @@ export function getProfessionalServiceSchema() {
       {
         "@type": "Review",
         author: { "@type": "Person", name: "Geko Marketing" },
-        // TODO: Dani ya pasó este texto, pero sigue terminando en "…" y esta
-        // vez no había indicador "Más" visible — confirmar con Dani si hay
-        // más texto después de "Gracias a todos 🫡…" o si así termina de verdad.
         reviewBody:
           "Muuuuuy agradecidos con el lugar y sobre todo con Dani. Un chico encantador, con un equipazo y súper generoso. Sin duda volveremos pronto a grabar contenido en el estudio. Gracias a todos 🫡…",
         reviewRating: {
