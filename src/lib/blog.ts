@@ -7409,6 +7409,123 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "kit-contenido-mensual-empresas-que-grabar",
+    title: "Kit de contenido mensual para empresas: qué grabar y cuánto dura una sesión",
+    description:
+      "Cómo montar un kit de contenido mensual para empresas: cuántas piezas grabar, cuánto dura la sesión y qué formato de servicio elegir.",
+    publishedAt: "2026-09-09",
+    readingTime: "4 min",
+    category: "Guía",
+    tags: ["contenido corporativo", "estudio de grabación", "Madrid", "producción de vídeo", "empresas"],
+    keyword: "kit de contenido mensual para empresas",
+    intent: "informacional",
+    excerpt:
+      "Qué es un kit de contenido mensual, cuántas piezas puedes sacar de una sesión y cómo repartir el tiempo para que la empresa no se quede sin publicar.",
+    seoTitle: "Kit de contenido mensual para empresas | A0 Studios Madrid",
+    metaDescription:
+      "Kit de contenido mensual para empresas: cuántas piezas grabar, cuánto dura la sesión y cómo organizar un plan recurrente en A0 Studios Madrid.",
+    heroKicker: "Blog / A0 Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Muchas empresas tienen el mismo problema con el contenido: publican con ganas un mes y desaparecen los tres siguientes. No es falta de ideas, es falta de sistema. Grabar de forma puntual cada vez que hace falta un vídeo consume más tiempo del que parece y nunca sale barato por pieza.",
+      },
+      {
+        type: "paragraph",
+        text: "Un kit de contenido mensual soluciona eso: una sesión recurrente donde sales con un lote de piezas para todo el mes en vez de una sola pieza suelta. En A0 Studios lo montamos así con varios equipos de marketing que necesitan alimentar LinkedIn, la web y redes sin depender de agendar sesión cada vez que hace falta algo nuevo.",
+      },
+      {
+        type: "image",
+        src: "/blog/kit-contenido-mensual-empresas-que-grabar/hero.webp",
+        alt: "Equipo de marketing grabando una sesión de contenido corporativo en estudio",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué es un kit de contenido mensual y por qué importa" },
+      {
+        type: "paragraph",
+        text: "Un kit de contenido mensual es una sesión de grabación recurrente diseñada para producir varias piezas de una sola vez: entrevistas cortas, vídeos de producto, testimoniales, clips para redes y material de apoyo para la web. No se graba una pieza y se corta, se planifica un lote completo pensado para durar todo el mes.",
+      },
+      {
+        type: "paragraph",
+        text: "Importa porque resuelve el problema real de la mayoría de empresas: no falta presupuesto para un vídeo suelto, falta constancia. Si el equipo de marketing tiene que reservar estudio cada vez que necesita una pieza, el contenido siempre acaba en la lista de tareas pendientes. Con una sesión fija cada mes, el calendario de publicación deja de depender de si hay tiempo esa semana.",
+      },
+      {
+        type: "paragraph",
+        text: "También baja el coste por pieza. Montar cámara, luz y audio una sola vez para grabar ocho o diez piezas sale mucho más rentable que repetir el montaje cada vez que hace falta un vídeo nuevo. El ahorro no está en la tarifa por hora, está en cuánto material sale de cada hora de sala.",
+      },
+      { type: "heading", level: 2, text: "Cómo se hace bien" },
+      { type: "heading", level: 3, text: "Cuántas piezas grabar en una sesión" },
+      {
+        type: "paragraph",
+        text: "Con una sesión de 3 horas suele salir un lote de 8 a 12 piezas: un vídeo largo para LinkedIn o web, 4 o 5 clips cortos para redes, y el resto en fotos o b-roll de apoyo. La clave no es grabar mucho, es grabar variado: si todo sale del mismo plano y el mismo tono, el mes entero se ve repetitivo aunque sean piezas distintas.",
+      },
+      { type: "heading", level: 3, text: "Cuánto dura la sesión y cómo se reparte el tiempo" },
+      {
+        type: "paragraph",
+        text: "Una sesión mensual completa suele necesitar entre 2 y 4 horas, según cuántas personas de la empresa van a salir en cámara. Lo que más tiempo come no es grabar, es cambiar de setup: pasar de una entrevista a un plano de producto, o de un talking head a un clip de equipo trabajando. Repartir bien esos bloques antes de llegar ahorra media hora fácil.",
+      },
+      { type: "heading", level: 3, text: "Qué formato de servicio elegir" },
+      {
+        type: "paragraph",
+        text: "En A0 Studios el kit mensual puede ir en Solo Grabación, si la empresa ya tiene quien edite; Grabación + Edición, si quieres salir con el material ya cortado en formatos listos; o Producción Completa, si además necesitas guion y dirección de la sesión. La mayoría de empresas que repiten mes a mes acaban en Grabación + Edición: es el punto donde no pierden tiempo interno pero mantienen control sobre el resultado final.",
+      },
+      {
+        type: "image",
+        src: "/blog/kit-contenido-mensual-empresas-que-grabar/mid.webp",
+        alt: "Persona siendo grabada en una entrevista de contenido corporativo con cámara profesional",
+        width: 1920,
+        height: 1080,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al montar un kit mensual" },
+      {
+        type: "list",
+        items: [
+          "Llegar sin lista cerrada de piezas y decidir sobre la marcha, lo que alarga la sesión sin necesidad.",
+          "Pedir demasiados formatos distintos para el tiempo reservado y acabar con piezas a medias.",
+          "No definir quién de la empresa aprueba el contenido antes de que se publique.",
+          "Cambiar de persona en cámara cada mes, lo que rompe la consistencia visual del contenido.",
+          "No planificar el calendario de publicación después de la sesión, así que el material se queda guardado sin usar.",
+          "Grabar todo con el mismo fondo y el mismo plano, lo que hace que el mes entero se vea monótono.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión mensual de contenido?",
+        answer:
+          "Entre 2 y 4 horas, según cuántas piezas y cuántas personas participan. Con una lista cerrada de antemano, 3 horas suelen bastar para un mes completo de contenido.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuántas piezas salen de una sesión de 3 horas?",
+        answer:
+          "Normalmente entre 8 y 12: un vídeo largo, varios clips cortos para redes y material de apoyo en foto o b-roll. Depende de cuánto varíen los setups dentro de la sesión.",
+      },
+      {
+        type: "faq",
+        question: "¿Necesito llevar guion preparado?",
+        answer:
+          "Ayuda mucho tener al menos los temas y el orden cerrados antes de llegar. Si contratas Producción Completa, en A0 Studios te ayudamos a estructurarlo antes de la sesión.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué diferencia hay entre un kit mensual y una sesión puntual?",
+        answer:
+          "La sesión puntual resuelve una necesidad concreta y aislada. El kit mensual está pensado para sostener el calendario de publicación de la empresa todo el mes, con un coste por pieza más bajo al repartir el montaje entre más contenido.",
+      },
+      {
+        type: "paragraph",
+        text: "Un kit de contenido mensual no es más trabajo, es menos fricción repartida en una sola sesión al mes en vez de varias sesiones sueltas mal planificadas. Empresas como las que ya graban con nosotros en A0 Studios lo usan para no depender de encontrar hueco cada vez que hace falta una pieza nueva.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tu equipo de marketing necesita salir cada mes con contenido listo para publicar, hablemos del formato que mejor encaja. Escríbenos desde /#contacto y montamos el plan de la primera sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

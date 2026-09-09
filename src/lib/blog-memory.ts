@@ -577,6 +577,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant, mismo issue OAuth documentado en RCS — requiere reautorización manual, escalar a Dani). Fallback evergreen ítem 1 de la lista temática A0 Studios: checklist para elegir estudio de grabación en marca personal, tema no cubierto por las 65 entradas previas heredadas de RCS. Imágenes Unsplash.",
   },
+  {
+    slug: "kit-contenido-mensual-empresas-que-grabar",
+    keyword: "kit de contenido mensual para empresas",
+    intent: "informacional",
+    createdAt: "2026-09-09",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant, mismo issue OAuth persistente — requiere reautorización manual, escalar a Dani). Fallback evergreen ítem 4 de la lista temática A0 Studios (ítem 1 ya publicado el 2026-09-07; ítem 2 'vídeo para captación de inversores' se descartó por solapar con 'video pitch para inversores' ya en memoria; ítem 3 se descartó por mencionar literalmente 'cliente'). Tema nuevo sobre kit de contenido mensual recurrente para empresas: cuántas piezas grabar y cómo repartir el tiempo de sesión, ángulo de servicio/paquete distinto de day-in-studio, content day y jornada intensiva ya cubiertos. Imágenes Unsplash.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
