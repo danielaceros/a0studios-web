@@ -34,3 +34,5 @@ pnpm-debug.log*
 
 # Local Claude/Cursor machine permissions
 .claude/settings.local.json
+.vercel
+.env*

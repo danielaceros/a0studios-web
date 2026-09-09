@@ -19,6 +19,10 @@ export default function WorkRow({ item, index }: { item: WorkItem; index: number
   const [load, setLoad] = useState(false);
   const [open, setOpen] = useState(false);
   const [ready, setReady] = useState(false);
+  // Fuente del reproductor del modal: HD remota (Vercel Blob) primero, con
+  // fallback real en tiempo de ejecución al .webm local si falla la carga —
+  // red de seguridad permanente, no temporal.
+  const [modalSrc, setModalSrc] = useState(item.videoHD || item.video);
 
   // Carga el vídeo solo cuando la fila se acerca al viewport
   useEffect(() => {
@@ -147,12 +151,15 @@ export default function WorkRow({ item, index }: { item: WorkItem; index: number
                   Cerrar
                 </button>
                 <video
-                  src={item.videoHD || item.video}
+                  src={modalSrc}
                   controls
                   autoPlay
                   playsInline
                   preload="metadata"
                   onLoadedData={() => setReady(true)}
+                  onError={() => {
+                    if (modalSrc !== item.video) setModalSrc(item.video);
+                  }}
                   className="block max-h-[88svh] max-w-[94vw] bg-black object-contain"
                 >
                   <track kind="captions" />

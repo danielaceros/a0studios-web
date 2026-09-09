@@ -30,6 +30,10 @@ export default function PortfolioCard({
   hideOverlayTitle = false,
 }: Props) {
   const cardRef = useRef<HTMLDivElement | null>(null)
+  // Fuente del reproductor del modal: empieza en la HD remota (Vercel Blob) y,
+  // si falla en tiempo real (el store externo cae otra vez), cae al .webm local
+  // servido por el propio Next.js — red de seguridad permanente, no temporal.
+  const [modalSrc, setModalSrc] = useState(videoHD || video)
   const [canAutoplay] = useState(() => {
     if (typeof navigator === "undefined") return true
     const connection = (navigator as Navigator & { connection?: NavigatorConnection }).connection
@@ -166,12 +170,15 @@ export default function PortfolioCard({
                     Cerrar
                   </button>
                   <video
-                    src={videoHD || video}
+                    src={modalSrc}
                     controls
                     autoPlay
                     playsInline
                     preload="metadata"
                     onLoadedData={() => setIsModalReady(true)}
+                    onError={() => {
+                      if (modalSrc !== video) setModalSrc(video)
+                    }}
                     className="block max-h-[88svh] max-w-[94vw] bg-black object-contain"
                   >
                     <track kind="captions" />
