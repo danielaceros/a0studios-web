@@ -1,20 +1,22 @@
-// Material real para la sección "Formatos" de #espacio: mezcla de BTS
-// (grabado en el propio ático) y resultado final ya editado (reels, ads
-// verticales, VSL), para que se vea el contraste bruto -> pieza acabada.
-// Alojado en el store de Vercel Blob dedicado de este proyecto
-// (a0studios-media), bajo el prefijo formatos/ para no mezclarlo con
-// formatos/bts/ los vídeos de portfolio (que van bajo portfolio/).
+// Material real para "El espacio": BTS del ático (carrusel ambiental,
+// pasivo) + Resultados finales ya editados (Reels / Ads / VSL, sección
+// aparte con lightbox). Alojado en el store de Vercel Blob dedicado de
+// este proyecto (a0studios-media), bajo el prefijo formatos/ para no
+// mezclarlo con formatos/portfolio/.
 const BLOB_BASE = "https://dhhlvt4j8kklwk3i.public.blob.vercel-storage.com/formatos";
 
 export type FormatoOrientation = "horizontal" | "vertical";
 export type FormatoKind = "photo" | "video";
 export type FormatoSource = "bts" | "resultado";
+export type ResultadoCategory = "reel" | "ad" | "vsl";
 
 export type FormatoItem = {
   id: string;
   kind: FormatoKind;
   orientation: FormatoOrientation;
   source: FormatoSource;
+  /** Solo en items de resultado — a qué pestaña pertenece (Reels/Ads/VSL). */
+  category?: ResultadoCategory;
   src: string;
   poster?: string;
   alt: string;
@@ -164,12 +166,13 @@ export const FORMATOS_ITEMS: FormatoItem[] = [
     poster: `${BLOB_BASE}/bts/bts-set-9-poster.jpg`,
     alt: "Plano amplio del ático durante la sesión",
   },
-  // --- Resultado final editado: verticales (ads/reels) ---
+  // --- Resultado final editado: Ads (verticales) ---
   {
     id: "resultado-vertical-ad-1",
     kind: "video",
     orientation: "vertical",
     source: "resultado",
+    category: "ad",
     src: `${BLOB_BASE}/resultados/resultado-vertical-ad-1.mp4`,
     poster: `${BLOB_BASE}/resultados/resultado-vertical-ad-1-poster.jpg`,
     alt: "Anuncio vertical editado, resultado final de una sesión en A0Studios",
@@ -179,24 +182,29 @@ export const FORMATOS_ITEMS: FormatoItem[] = [
     kind: "video",
     orientation: "vertical",
     source: "resultado",
+    category: "ad",
     src: `${BLOB_BASE}/resultados/resultado-vertical-ad-2.mp4`,
     poster: `${BLOB_BASE}/resultados/resultado-vertical-ad-2-poster.jpg`,
     alt: "Segundo anuncio vertical editado, resultado final",
   },
+  // --- Resultado final editado: VSL (horizontal) ---
   {
     id: "resultado-vsl-horizontal",
     kind: "video",
     orientation: "horizontal",
     source: "resultado",
+    category: "vsl",
     src: `${BLOB_BASE}/resultados/resultado-vsl-horizontal.mp4`,
     poster: `${BLOB_BASE}/resultados/resultado-vsl-horizontal-poster.jpg`,
     alt: "VSL horizontal editado, resultado final grabado en A0Studios",
   },
+  // --- Resultado final editado: Reels (verticales) ---
   {
     id: "resultado-reel-1",
     kind: "video",
     orientation: "vertical",
     source: "resultado",
+    category: "reel",
     src: `${BLOB_BASE}/resultados/resultado-reel-1.mp4`,
     poster: `${BLOB_BASE}/resultados/resultado-reel-1-poster.jpg`,
     alt: "Reel publicado, resultado final editado",
@@ -206,6 +214,7 @@ export const FORMATOS_ITEMS: FormatoItem[] = [
     kind: "video",
     orientation: "vertical",
     source: "resultado",
+    category: "reel",
     src: `${BLOB_BASE}/resultados/resultado-reel-2.mp4`,
     poster: `${BLOB_BASE}/resultados/resultado-reel-2-poster.jpg`,
     alt: "Reel publicado, resultado final editado",
@@ -215,6 +224,7 @@ export const FORMATOS_ITEMS: FormatoItem[] = [
     kind: "video",
     orientation: "vertical",
     source: "resultado",
+    category: "reel",
     src: `${BLOB_BASE}/resultados/resultado-reel-3.mp4`,
     poster: `${BLOB_BASE}/resultados/resultado-reel-3-poster.jpg`,
     alt: "Reel publicado, resultado final editado",
@@ -224,6 +234,7 @@ export const FORMATOS_ITEMS: FormatoItem[] = [
     kind: "video",
     orientation: "vertical",
     source: "resultado",
+    category: "reel",
     src: `${BLOB_BASE}/resultados/resultado-reel-4.mp4`,
     poster: `${BLOB_BASE}/resultados/resultado-reel-4-poster.jpg`,
     alt: "Reel de clienta grabado en A0Studios, resultado final editado",
@@ -233,6 +244,7 @@ export const FORMATOS_ITEMS: FormatoItem[] = [
     kind: "video",
     orientation: "vertical",
     source: "resultado",
+    category: "reel",
     src: `${BLOB_BASE}/resultados/resultado-reel-5.mp4`,
     poster: `${BLOB_BASE}/resultados/resultado-reel-5-poster.jpg`,
     alt: "Reel de clienta grabado en A0Studios, resultado final editado",
@@ -242,6 +254,7 @@ export const FORMATOS_ITEMS: FormatoItem[] = [
     kind: "video",
     orientation: "vertical",
     source: "resultado",
+    category: "reel",
     src: `${BLOB_BASE}/resultados/resultado-reel-6.mp4`,
     poster: `${BLOB_BASE}/resultados/resultado-reel-6-poster.jpg`,
     alt: "Reel de marca grabado en A0Studios, resultado final editado",
@@ -251,27 +264,17 @@ export const FORMATOS_ITEMS: FormatoItem[] = [
     kind: "video",
     orientation: "vertical",
     source: "resultado",
+    category: "reel",
     src: `${BLOB_BASE}/resultados/resultado-reel-7.mp4`,
     poster: `${BLOB_BASE}/resultados/resultado-reel-7-poster.jpg`,
     alt: "Reel de marca grabado en A0Studios, resultado final editado",
   },
 ];
 
-/**
- * Devuelve los items del formato pedido, intercalando BTS y resultado
- * final (en vez de mostrarlos en dos bloques separados) para que se vea
- * el contraste bruto -> pieza editada mientras se recorre el grid.
- */
-export function getFormatosByOrientation(orientation: FormatoOrientation): FormatoItem[] {
-  const items = FORMATOS_ITEMS.filter((item) => item.orientation === orientation);
-  const bts = items.filter((item) => item.source === "bts");
-  const resultado = items.filter((item) => item.source === "resultado");
+/** Todos los items de BTS, para el carrusel ambiental de #espacio. */
+export const BTS_ITEMS: FormatoItem[] = FORMATOS_ITEMS.filter((item) => item.source === "bts");
 
-  const interleaved: FormatoItem[] = [];
-  const max = Math.max(bts.length, resultado.length);
-  for (let i = 0; i < max; i++) {
-    if (bts[i]) interleaved.push(bts[i]);
-    if (resultado[i]) interleaved.push(resultado[i]);
-  }
-  return interleaved;
+/** Items de resultado final para la categoría pedida (Reels/Ads/VSL). */
+export function getResultadosByCategory(category: ResultadoCategory): FormatoItem[] {
+  return FORMATOS_ITEMS.filter((item) => item.source === "resultado" && item.category === category);
 }

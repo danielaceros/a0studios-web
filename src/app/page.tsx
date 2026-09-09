@@ -10,6 +10,7 @@ import { getWebPageSchema, getFaqPageSchema } from "@/lib/structured-data";
 import { FAQS, SITE_URL } from "@/lib/constants";
 
 const Espacio = dynamic(() => import("@/components/a0/Espacio"));
+const Resultados = dynamic(() => import("@/components/a0/Resultados"));
 const Proceso = dynamic(() => import("@/components/a0/Proceso"));
 const Precios = dynamic(() => import("@/components/a0/Precios"));
 const Testimonios = dynamic(() => import("@/components/a0/Testimonios"));
@@ -41,6 +42,7 @@ export default function Home() {
         <Estudio />
         <Formatos />
         <Espacio />
+        <Resultados />
         <Proceso />
         <Precios />
         <Testimonios />
