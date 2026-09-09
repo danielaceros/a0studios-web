@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SectionHead from "./SectionHead";
+import { SITE_NAME_TRADEMARKED } from "@/lib/constants";
 
 const STATS = [
   { value: "28+", label: "Proyectos producidos" },
@@ -51,8 +52,9 @@ export default function Estudio() {
               <p className="text-[1.02rem] leading-[1.75] text-foreground/88 sm:text-[1.2rem] sm:leading-[1.7]">
                 Seis años produciendo audiovisual para marcas como{" "}
                 <span className="accent-italic">IFEMA, Cinesa</span> y la Cámara de Comercio de
-                Madrid. Monté A0Studios para que empresas y creadores pudieran grabar contenido
-                profesional sin los costes ni la logística de un rodaje tradicional.
+                Madrid. Monté {SITE_NAME_TRADEMARKED} para que empresas y creadores pudieran
+                grabar contenido profesional sin los costes ni la logística de un rodaje
+                tradicional.
               </p>
               <p className="prose-body max-w-[56ch] text-[0.93rem]">
                 Superviso personalmente cada sesión: preparo el set, dirijo la grabación y entrego el
