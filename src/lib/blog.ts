@@ -7422,10 +7422,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Qué es un kit de contenido mensual, cuántas piezas puedes sacar de una sesión y cómo repartir el tiempo para que la empresa no se quede sin publicar.",
-    seoTitle: "Kit de contenido mensual para empresas | A0 Studios Madrid",
+    seoTitle: "Kit de contenido mensual para empresas",
     metaDescription:
-      "Kit de contenido mensual para empresas: cuántas piezas grabar, cuánto dura la sesión y cómo organizar un plan recurrente en A0 Studios Madrid.",
-    heroKicker: "Blog / A0 Studios",
+      "Kit de contenido mensual para empresas: cuántas piezas grabar, cuánto dura la sesión y cómo organizar un plan recurrente en A0Studios Madrid.",
+    heroKicker: "Blog / A0Studios",
     body: [
       {
         type: "paragraph",
@@ -7433,7 +7433,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Un kit de contenido mensual soluciona eso: una sesión recurrente donde sales con un lote de piezas para todo el mes en vez de una sola pieza suelta. En A0 Studios lo montamos así con varios equipos de marketing que necesitan alimentar LinkedIn, la web y redes sin depender de agendar sesión cada vez que hace falta algo nuevo.",
+        text: "Un kit de contenido mensual soluciona eso: una sesión recurrente donde sales con un lote de piezas para todo el mes en vez de una sola pieza suelta. En A0Studios lo montamos así con varios equipos de marketing que necesitan alimentar LinkedIn, la web y redes sin depender de agendar sesión cada vez que hace falta algo nuevo.",
       },
       {
         type: "image",
@@ -7470,7 +7470,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 3, text: "Qué formato de servicio elegir" },
       {
         type: "paragraph",
-        text: "En A0 Studios el kit mensual puede ir en Solo Grabación, si la empresa ya tiene quien edite; Grabación + Edición, si quieres salir con el material ya cortado en formatos listos; o Producción Completa, si además necesitas guion y dirección de la sesión. La mayoría de empresas que repiten mes a mes acaban en Grabación + Edición: es el punto donde no pierden tiempo interno pero mantienen control sobre el resultado final.",
+        text: "En A0Studios el kit mensual puede ir en Solo Grabación, si la empresa ya tiene quien edite; Grabación + Edición, si quieres salir con el material ya cortado en formatos listos; o Producción Completa, si además necesitas guion y dirección de la sesión. La mayoría de empresas que repiten mes a mes acaban en Grabación + Edición: es el punto donde no pierden tiempo interno pero mantienen control sobre el resultado final.",
       },
       {
         type: "image",
@@ -7508,7 +7508,7 @@ export const blogPosts: BlogPost[] = [
         type: "faq",
         question: "¿Necesito llevar guion preparado?",
         answer:
-          "Ayuda mucho tener al menos los temas y el orden cerrados antes de llegar. Si contratas Producción Completa, en A0 Studios te ayudamos a estructurarlo antes de la sesión.",
+          "Ayuda mucho tener al menos los temas y el orden cerrados antes de llegar. Si contratas Producción Completa, en A0Studios te ayudamos a estructurarlo antes de la sesión.",
       },
       {
         type: "faq",
@@ -7518,7 +7518,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Un kit de contenido mensual no es más trabajo, es menos fricción repartida en una sola sesión al mes en vez de varias sesiones sueltas mal planificadas. Empresas como las que ya graban con nosotros en A0 Studios lo usan para no depender de encontrar hueco cada vez que hace falta una pieza nueva.",
+        text: "Un kit de contenido mensual no es más trabajo, es menos fricción repartida en una sola sesión al mes en vez de varias sesiones sueltas mal planificadas. Empresas como las que ya graban con nosotros en A0Studios lo usan para no depender de encontrar hueco cada vez que hace falta una pieza nueva.",
       },
       {
         type: "paragraph",
