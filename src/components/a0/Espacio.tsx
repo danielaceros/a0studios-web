@@ -1,22 +1,26 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import { createPortal } from "react-dom";
 import SectionHead from "./SectionHead";
+import { getFormatosByOrientation, type FormatoItem, type FormatoOrientation } from "@/data/formatos";
 
-type Shot = { src: string; alt: string; zone: string; caption: string };
-
-// Provisional: solo estas 3 hasta que Dani pase el vídeo del estudio
-// (el resto de fotos no representan bien el espacio — ver conversación).
-const SHOTS: Shot[] = [
-  { src: "/optimized/tour-podcast-2.webp", zone: "Set", caption: "Setup con teleprompter", alt: "Setup de grabación con teleprompter y cámara" },
-  { src: "/IMG_7368.webp", zone: "Podcast", caption: "Dos presentadores", alt: "Dos presentadores mirándose en el set de podcast" },
-  { src: "/4_1.webp", zone: "Podcast", caption: "Ambiente púrpura", alt: "Sesión de podcast con iluminación ambiente púrpura" },
+const ORIENTATIONS: { value: FormatoOrientation; label: string }[] = [
+  { value: "vertical", label: "Vertical" },
+  { value: "horizontal", label: "Horizontal" },
 ];
 
+const SOURCE_LABEL: Record<FormatoItem["source"], string> = {
+  bts: "Detrás de cámaras",
+  resultado: "Resultado final",
+};
+
 export default function Espacio() {
-  const [active, setActive] = useState<Shot | null>(null);
+  const [orientation, setOrientation] = useState<FormatoOrientation>("vertical");
+  const [active, setActive] = useState<FormatoItem | null>(null);
+
+  const items = useMemo(() => getFormatosByOrientation(orientation), [orientation]);
 
   useEffect(() => {
     if (!active) return;
@@ -43,30 +47,66 @@ export default function Espacio() {
           lead="Terraza con skyline, sala polivalente y set de podcast. Todo en la misma planta, a cinco minutos andando de Atocha."
         />
 
-        {/* Mosaico */}
-        <div className="reveal mt-14 columns-2 gap-3 sm:mt-[clamp(3.5rem,5vw,5rem)] sm:gap-4 lg:columns-3 xl:columns-4">
-          {SHOTS.map((shot) => (
+        {/* Picker Horizontal / Vertical */}
+        <div className="reveal mt-14 flex items-center gap-2 sm:mt-[clamp(3.5rem,5vw,5rem)]">
+          <div className="glass inline-flex items-center gap-1 rounded-full p-1">
+            {ORIENTATIONS.map((o) => (
+              <button
+                key={o.value}
+                type="button"
+                onClick={() => setOrientation(o.value)}
+                aria-pressed={orientation === o.value}
+                className={`meta rounded-full px-4 py-2 transition-colors duration-300 ${
+                  orientation === o.value
+                    ? "bg-foreground text-background"
+                    : "text-foreground/55 hover:text-foreground"
+                }`}
+              >
+                {o.label}
+              </button>
+            ))}
+          </div>
+          <p className="meta hidden text-foreground/40 sm:block">
+            BTS del ático mezclado con el resultado ya editado
+          </p>
+        </div>
+
+        {/* Mosaico mixto: BTS + resultado final, foto + vídeo intercalados */}
+        <div className="reveal mt-6 columns-2 gap-3 sm:gap-4 lg:columns-3 xl:columns-4">
+          {items.map((item) => (
             <button
-              key={shot.src}
+              key={item.id}
               type="button"
-              onClick={() => setActive(shot)}
-              aria-label={`Ampliar: ${shot.caption}`}
+              onClick={() => setActive(item)}
+              aria-label={`Ampliar: ${item.alt}`}
               className="group relative mb-3 block w-full cursor-pointer overflow-hidden rounded-[12px] border border-line sm:mb-4"
             >
               <Image
-                src={shot.src}
-                alt={shot.alt}
+                src={item.kind === "video" ? item.poster! : item.src}
+                alt={item.alt}
                 width={800}
-                height={1000}
+                height={item.orientation === "vertical" ? 1400 : 600}
                 sizes="(max-width: 640px) 50vw, (max-width: 1280px) 33vw, 25vw"
                 className="h-auto w-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]"
+                unoptimized
               />
               <span className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#0B0A09]/85 via-transparent to-transparent opacity-70 transition-opacity duration-500 group-hover:opacity-95" />
               <span className="pointer-events-none absolute inset-x-0 top-0 h-16 bg-gradient-to-b from-[#0B0A09]/55 to-transparent" />
-              <span className="badge pointer-events-none absolute left-3 top-3">{shot.zone}</span>
-              <span className="meta pointer-events-none absolute bottom-3.5 left-3.5 right-3.5 text-left normal-case tracking-[0.01em] text-[12.5px] text-foreground/90">
-                {shot.caption}
+              <span className="badge pointer-events-none absolute left-3 top-3">
+                {SOURCE_LABEL[item.source]}
               </span>
+              {item.kind === "video" ? (
+                <span
+                  aria-hidden="true"
+                  className="pointer-events-none absolute inset-0 flex items-center justify-center"
+                >
+                  <span className="glass flex h-11 w-11 items-center justify-center rounded-full transition-transform duration-300 group-hover:scale-110">
+                    <svg viewBox="0 0 24 24" className="h-4 w-4 translate-x-[1px] fill-foreground">
+                      <path d="M8 5v14l11-7z" />
+                    </svg>
+                  </span>
+                </span>
+              ) : null}
             </button>
           ))}
         </div>
@@ -108,7 +148,7 @@ export default function Espacio() {
         </div>
       </div>
 
-      {/* Lightbox */}
+      {/* Lightbox — foto o vídeo según el item */}
       {active && typeof document !== "undefined"
         ? createPortal(
             <div
@@ -117,24 +157,40 @@ export default function Espacio() {
               onClick={() => setActive(null)}
               role="dialog"
               aria-modal="true"
-              aria-label={active.caption}
+              aria-label={active.alt}
             >
               <button
                 type="button"
                 onClick={() => setActive(null)}
-                aria-label="Cerrar imagen"
+                aria-label="Cerrar"
                 className="glass meta absolute right-4 top-4 z-10 flex h-11 items-center rounded-full px-5 text-foreground"
               >
                 Cerrar
               </button>
-              <Image
-                src={active.src}
-                alt={active.alt}
-                width={1800}
-                height={1200}
-                className="max-h-[86svh] w-auto max-w-[94vw] rounded-[12px] object-contain"
-                onClick={(e) => e.stopPropagation()}
-              />
+              {active.kind === "video" ? (
+                <video
+                  src={active.src}
+                  poster={active.poster}
+                  controls
+                  autoPlay
+                  playsInline
+                  preload="metadata"
+                  className="max-h-[86svh] w-auto max-w-[94vw] rounded-[12px] object-contain"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <track kind="captions" />
+                </video>
+              ) : (
+                <Image
+                  src={active.src}
+                  alt={active.alt}
+                  width={1800}
+                  height={1200}
+                  unoptimized
+                  className="max-h-[86svh] w-auto max-w-[94vw] rounded-[12px] object-contain"
+                  onClick={(e) => e.stopPropagation()}
+                />
+              )}
             </div>,
             document.body,
           )
