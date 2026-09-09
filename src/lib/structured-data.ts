@@ -26,7 +26,11 @@ export function getProfessionalServiceSchema() {
     ],
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Calle Ronda de Atocha, 16",
+      // Piso/puerta "7ºC" añadido el 9-sep-2026 para que coincida con la
+      // ficha real de Google Business Profile (antes solo decía "16", sin
+      // planta/puerta, aunque el copy visible del sitio sí menciona "planta 7"
+      // en varios sitios). Confirmar con Dani si "7ºC" es correcto.
+      streetAddress: "Calle Ronda de Atocha, 16, 7ºC",
       addressLocality: "Madrid",
       addressRegion: "Madrid",
       postalCode: "28012",
@@ -150,12 +154,19 @@ export function getProfessionalServiceSchema() {
         },
       ],
     },
+    // NOTA SEO (9-sep-2026): las reviews de más abajo SÍ son legítimas para schema —
+    // vienen de la ficha real de Google Business Profile (a nombre antiguo
+    // "Rooftop Content Studio", ver alternateName arriba), verificables por
+    // terceros en Google Maps. Sustituyen a los 2 testimonios propios que se
+    // habían quitado antes por ser "self-serving" (no venían de ninguna
+    // plataforma externa) y suponer riesgo de manual action.
     review: [
       {
         "@type": "Review",
-        author: { "@type": "Person", name: "Guillermo" },
+        author: { "@type": "Person", name: "Mónica López vozmediano" },
+        // TODO: pedir a Dani el texto completo de esta reseña en Google Maps (cortada por "Más" en la captura)
         reviewBody:
-          "En tres horas grabamos contenido para todo el equipo. Volveremos.",
+          "Ha sido una experiencia increíble, me he sentido muy cómoda desde el principio con Dani. La verdad es que lo ha hecho todo muy fácil y después de 4 horas me llevo contenido para meses…",
         reviewRating: {
           "@type": "Rating",
           ratingValue: "5",
@@ -164,21 +175,39 @@ export function getProfessionalServiceSchema() {
       },
       {
         "@type": "Review",
-        author: { "@type": "Person", name: "Almudena" },
-        reviewBody: "El espacio es super comodo. Cinco estrellas.",
+        author: { "@type": "Person", name: "Geko Marketing" },
+        // TODO: pedir a Dani el texto completo de esta reseña en Google Maps (cortada por "Más" en la captura)
+        reviewBody:
+          "Muuuuuy agradecidos con el lugar y sobre todo con Dani. Un chico encantador, con un equipazo y súper generoso. Sin duda volveremos pronto a grabar contenido en el estudio. Gracias a todos 🫡…",
         reviewRating: {
           "@type": "Rating",
           ratingValue: "5",
           bestRating: "5",
         },
       },
+      {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Carlos Galán" },
+        // TODO: pedir a Dani el texto completo de esta reseña en Google Maps (cortada por "Más" en la captura)
+        reviewBody:
+          "De lo más económico que he encontrado en Madrid. Me salvó la grabación. Estaba de paso por Madrid y tenía que grabar. Di con este estudio y fue todo un…",
+        reviewRating: {
+          "@type": "Rating",
+          ratingValue: "5",
+          bestRating: "5",
+        },
+      },
+      // TODO: falta la 4ª reseña real de Google — Dani aún no la ha pasado.
+      // aggregateRating.reviewCount ya cuenta con ella (4 reseñas reales en
+      // Google Business Profile), aunque aquí solo haya 3 objetos Review.
     ],
-    // Calculado a partir de las 2 reviews reales de arriba (ambas 5/5).
-    // Recalcular ratingValue/reviewCount si se añaden más reviews.
+    // Ratings reales de la ficha de Google Business Profile "Rooftop Content
+    // Studio - Estudio de Grabación" (5,0 · 4 reseñas). Recalcular si cambia
+    // el total en Google.
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "5",
-      reviewCount: "2",
+      reviewCount: "4",
       bestRating: "5",
     },
     sameAs: [
