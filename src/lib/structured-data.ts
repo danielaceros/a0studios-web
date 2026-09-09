@@ -167,9 +167,8 @@ export function getProfessionalServiceSchema() {
       {
         "@type": "Review",
         author: { "@type": "Person", name: "Mónica López vozmediano" },
-        // TODO: pedir a Dani el texto completo de esta reseña en Google Maps (cortada por "Más" en la captura)
         reviewBody:
-          "Ha sido una experiencia increíble, me he sentido muy cómoda desde el principio con Dani. La verdad es que lo ha hecho todo muy fácil y después de 4 horas me llevo contenido para meses…",
+          "Ha sido una experiencia increíble, me he sentido muy cómoda desde el principio con Dani. La verdad es que lo ha hecho todo muy fácil y después de 4 horas me llevo contenido para meses. Una de las acciones que más pereza me da hacer en casa y de esta forma he ahorrado mucho tiempo y procrastinación. Gracias Dani por todo y muy muy recomendado ❤️",
         reviewRating: {
           "@type": "Rating",
           ratingValue: "5",
@@ -179,7 +178,9 @@ export function getProfessionalServiceSchema() {
       {
         "@type": "Review",
         author: { "@type": "Person", name: "Geko Marketing" },
-        // TODO: pedir a Dani el texto completo de esta reseña en Google Maps (cortada por "Más" en la captura)
+        // TODO: Dani ya pasó este texto, pero sigue terminando en "…" y esta
+        // vez no había indicador "Más" visible — confirmar con Dani si hay
+        // más texto después de "Gracias a todos 🫡…" o si así termina de verdad.
         reviewBody:
           "Muuuuuy agradecidos con el lugar y sobre todo con Dani. Un chico encantador, con un equipazo y súper generoso. Sin duda volveremos pronto a grabar contenido en el estudio. Gracias a todos 🫡…",
         reviewRating: {
@@ -191,18 +192,25 @@ export function getProfessionalServiceSchema() {
       {
         "@type": "Review",
         author: { "@type": "Person", name: "Carlos Galán" },
-        // TODO: pedir a Dani el texto completo de esta reseña en Google Maps (cortada por "Más" en la captura)
         reviewBody:
-          "De lo más económico que he encontrado en Madrid. Me salvó la grabación. Estaba de paso por Madrid y tenía que grabar. Di con este estudio y fue todo un…",
+          "De lo más económico que he encontrado en Madrid. Me salvó la grabación. Estaba de paso por Madrid y tenía que grabar. Di con este estudio y fue todo un acierto. Dani estuvo súper involucrado con el proyecto desde el primer momento. Un gustazo de profesional, atento a cada detalle y siempre buscando que el resultado quedara lo mejor posible. Además el equipo que puso era de calidad y la ubicación no puede ser mejor. Lo recomendaría sin dudar.",
         reviewRating: {
           "@type": "Rating",
           ratingValue: "5",
           bestRating: "5",
         },
       },
-      // TODO: falta la 4ª reseña real de Google — Dani aún no la ha pasado.
-      // aggregateRating.reviewCount ya cuenta con ella (4 reseñas reales en
-      // Google Business Profile), aunque aquí solo haya 3 objetos Review.
+      {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Javier Bascón" },
+        reviewBody:
+          "Una combinación de profesionalidad y tecnología a la altura de los mejores estudios",
+        reviewRating: {
+          "@type": "Rating",
+          ratingValue: "5",
+          bestRating: "5",
+        },
+      },
     ],
     // Ratings reales de la ficha de Google Business Profile "Rooftop Content
     // Studio - Estudio de Grabación" (5,0 · 4 reseñas). Recalcular si cambia
