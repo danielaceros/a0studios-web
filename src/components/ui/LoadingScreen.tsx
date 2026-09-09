@@ -408,7 +408,7 @@ export default function LoadingScreen() {
         >
           <Image
             src="/optimized/logo.webp"
-            alt="A0 Studios"
+            alt="A0Studios"
             width={1257}
             height={252}
             className="h-8 w-auto object-contain sm:h-10"

@@ -2,7 +2,7 @@ export const projects = [
   {
     slug: "brahim-diaz",
     title: "Brahím Díaz",
-    alt: "Sesión de contenido para Brahím Díaz en A0 Studios Madrid",
+    alt: "Sesión de contenido para Brahím Díaz en A0Studios Madrid",
     video: "/video/brahim.webm",
     videoHD: "https://dhhlvt4j8kklwk3i.public.blob.vercel-storage.com/portfolio/brahim.webm",
     cover: "/optimized/covers/brahim.webp",
@@ -19,7 +19,7 @@ export const projects = [
   {
     slug: "camara-de-comercio",
     title: "Cámara de Comercio",
-    alt: "Grabación de vídeo para la Cámara de Comercio de Madrid en A0 Studios",
+    alt: "Grabación de vídeo para la Cámara de Comercio de Madrid en A0Studios",
     video: "/video/ccomercio.webm",
     videoHD: "https://dhhlvt4j8kklwk3i.public.blob.vercel-storage.com/portfolio/ccomercio.webm",
     cover: "/optimized/covers/ccomercio.webp",
@@ -37,7 +37,7 @@ export const projects = [
   {
     slug: "ifema",
     title: "IFEMA",
-    alt: "Producción audiovisual para IFEMA en A0 Studios Madrid",
+    alt: "Producción audiovisual para IFEMA en A0Studios Madrid",
     video: "/video/ifema.webm",
     videoHD: "https://dhhlvt4j8kklwk3i.public.blob.vercel-storage.com/portfolio/ifema.webm",
     cover: "/optimized/covers/ifema.webp",
@@ -54,7 +54,7 @@ export const projects = [
   {
     slug: "cinesa",
     title: "Cinesa",
-    alt: "Sesión de grabación para Cinesa en A0 Studios Madrid",
+    alt: "Sesión de grabación para Cinesa en A0Studios Madrid",
     video: "/video/cinesa.webm",
     videoHD: "https://dhhlvt4j8kklwk3i.public.blob.vercel-storage.com/portfolio/cinesa.webm",
     cover: "/optimized/covers/cinesa.webp",
@@ -71,7 +71,7 @@ export const projects = [
   {
     slug: "federacion-esgrima",
     title: "Federación Española de Esgrima",
-    alt: "Vídeo corporativo para la Federación Española de Esgrima en A0 Studios",
+    alt: "Vídeo corporativo para la Federación Española de Esgrima en A0Studios",
     video: "/video/esgrima.webm",
     videoHD: "https://dhhlvt4j8kklwk3i.public.blob.vercel-storage.com/portfolio/esgrima.webm",
     cover: "/optimized/covers/esgrima.webp",

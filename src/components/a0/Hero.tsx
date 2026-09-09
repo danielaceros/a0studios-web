@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { SITE_NAME_TRADEMARKED } from "@/lib/constants";
 
 export default function Hero() {
   return (
@@ -51,7 +52,7 @@ export default function Hero() {
           <div className="relative w-[clamp(9rem,42vw,34rem)] max-w-full min-w-0">
             <Image
               src="/optimized/wordmark-hero.webp"
-              alt="A0 Studios"
+              alt={SITE_NAME_TRADEMARKED}
               width={1257}
               height={252}
               priority
@@ -60,8 +61,8 @@ export default function Hero() {
             />
           </div>
           <span className="sr-only">
-            A0 Studios — estudio de grabación de contenido audiovisual en un ático en Madrid
-            centro, fundado por Dani Acero.
+            {SITE_NAME_TRADEMARKED} — estudio de grabación de contenido audiovisual en un ático
+            en Madrid centro, fundado por Dani Acero.
           </span>
         </h1>
 

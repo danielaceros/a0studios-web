@@ -38,7 +38,7 @@ export default function Estudio() {
           <div className="panel relative aspect-[4/5] overflow-hidden lg:aspect-auto">
             <Image
               src="/me.webp"
-              alt="Dani Acero, fundador y filmmaker de A0 Studios"
+              alt="Dani Acero, fundador y filmmaker de A0Studios"
               width={640}
               height={640}
               className="absolute inset-0 h-full w-full object-cover object-center"
@@ -51,7 +51,7 @@ export default function Estudio() {
               <p className="text-[1.02rem] leading-[1.75] text-foreground/88 sm:text-[1.2rem] sm:leading-[1.7]">
                 Seis años produciendo audiovisual para marcas como{" "}
                 <span className="accent-italic">IFEMA, Cinesa</span> y la Cámara de Comercio de
-                Madrid. Monté A0 Studios para que empresas y creadores pudieran grabar contenido
+                Madrid. Monté A0Studios para que empresas y creadores pudieran grabar contenido
                 profesional sin los costes ni la logística de un rodaje tradicional.
               </p>
               <p className="prose-body max-w-[56ch] text-[0.93rem]">

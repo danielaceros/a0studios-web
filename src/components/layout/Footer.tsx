@@ -98,7 +98,7 @@ export default function Footer() {
 
         <div className="mt-10 border-t border-foreground/[0.06] pt-6 md:mt-12 md:pt-8">
           <p className="text-center font-mono text-[10px] tracking-[0.1em] text-foreground/20">
-            &copy; {currentYear} A0 Studios
+            &copy; {currentYear} A0Studios
           </p>
         </div>
       </div>

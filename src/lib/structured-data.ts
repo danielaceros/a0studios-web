@@ -1,11 +1,14 @@
-import { SITE_URL, SITE_NAME } from "./constants";
+import { SITE_URL, SITE_NAME, SITE_NAME_TRADEMARKED } from "./constants";
 
 export function getProfessionalServiceSchema() {
   return {
     "@context": "https://schema.org",
     "@type": ["ProfessionalService", "LocalBusiness"],
     "@id": `${SITE_URL}/#business`,
-    name: SITE_NAME,
+    // Marca registrada: aquí sí lleva ® — es el campo que identifica la
+    // entidad de negocio (Organization/LocalBusiness), no un título de
+    // página ni copy corrido.
+    name: SITE_NAME_TRADEMARKED,
     alternateName: "Rooftop Content Studio",
     description:
       "El estudio de Dani Acero — filmmaker de IFEMA, Cinesa y la Cámara de Comercio de Madrid. Graba podcast, reels y contenido corporativo en un ático en Madrid centro con equipo y dirección incluidos.",
@@ -246,7 +249,7 @@ export function getWebPageSchema() {
     "@type": "WebPage",
     "@id": `${SITE_URL}/#webpage`,
     url: SITE_URL,
-    name: "A0 Studios — Tu Contenido. Tu Marca. Un Día. Madrid",
+    name: "A0Studios — Tu Contenido. Tu Marca. Un Día. Madrid",
     description:
       "El estudio de Dani Acero — filmmaker de IFEMA, Cinesa y la Cámara de Comercio de Madrid. Graba podcast, reels y contenido corporativo en un ático en Madrid centro con equipo y dirección incluidos.",
     isPartOf: {
@@ -284,9 +287,9 @@ export function getVideoSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "VideoObject",
-    name: "A0 Studios - Showreel",
+    name: "A0Studios - Showreel",
     description:
-      "Portfolio de producciones audiovisuales realizadas en A0 Studios, estudio de grabación premium en Madrid.",
+      "Portfolio de producciones audiovisuales realizadas en A0Studios, estudio de grabación premium en Madrid.",
     thumbnailUrl: `${SITE_URL}/optimized/og-image.jpg`,
     uploadDate: "2024-01-01",
     duration: "PT30S",

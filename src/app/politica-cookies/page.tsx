@@ -2,7 +2,7 @@ import Nav from "@/components/a0/Nav";
 import Footer from "@/components/a0/Footer";
 
 export const metadata = {
-  title: "Política de Cookies — A0 Studios",
+  title: "Política de Cookies — A0Studios",
 };
 
 export default function PoliticaCookies() {

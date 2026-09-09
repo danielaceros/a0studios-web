@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { SITE_NAME_TRADEMARKED } from "@/lib/constants";
 
 const LINKS = [
   { label: "Estudio", href: "#estudio" },
@@ -41,7 +42,7 @@ export default function Nav() {
           >
             <Image
               src="/optimized/logo.webp"
-              alt="A0 Studios"
+              alt={SITE_NAME_TRADEMARKED}
               width={1257}
               height={252}
               className="h-4 w-auto object-contain sm:h-[18px]"

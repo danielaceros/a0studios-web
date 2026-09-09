@@ -2,7 +2,7 @@ import Nav from "@/components/a0/Nav";
 import Footer from "@/components/a0/Footer";
 
 export const metadata = {
-  title: "Política de Privacidad — A0 Studios",
+  title: "Política de Privacidad — A0Studios",
 };
 
 export default function PoliticaPrivacidad() {

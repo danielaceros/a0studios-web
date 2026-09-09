@@ -53,10 +53,10 @@ export default function ContactFormEmbed({ className, loadDelay = 0, signalReady
           data-activation-value=""
           data-deactivation-type="neverDeactivate"
           data-deactivation-value=""
-          data-form-name="Form - The A0 Studios"
+          data-form-name="Form - The A0Studios"
           data-layout-iframe-id="inline-sxDYj1gBgfvDh9PI9Jte"
           data-form-id="sxDYj1gBgfvDh9PI9Jte"
-          title="Formulario de contacto A0 Studios"
+          title="Formulario de contacto A0Studios"
           scrolling="no"
           suppressHydrationWarning
           onLoad={(e) => {

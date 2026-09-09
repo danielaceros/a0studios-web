@@ -80,11 +80,11 @@ export default function CTA() {
                     data-activation-value=""
                     data-deactivation-type="neverDeactivate"
                     data-deactivation-value=""
-                    data-form-name="Form - The A0 Studios"
+                    data-form-name="Form - The A0Studios"
                     data-height="487"
                     data-layout-iframe-id="inline-sxDYj1gBgfvDh9PI9Jte"
                     data-form-id="sxDYj1gBgfvDh9PI9Jte"
-                    title="Form - The A0 Studios"
+                    title="Form - The A0Studios"
                     scrolling="no"
                   />
                   <Script
