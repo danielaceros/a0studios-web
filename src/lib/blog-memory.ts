@@ -586,6 +586,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant, mismo issue OAuth persistente — requiere reautorización manual, escalar a Dani). Fallback evergreen ítem 4 de la lista temática A0Studios (ítem 1 ya publicado el 2026-09-07; ítem 2 'vídeo para captación de inversores' se descartó por solapar con 'video pitch para inversores' ya en memoria; ítem 3 se descartó por mencionar literalmente 'cliente'). Tema nuevo sobre kit de contenido mensual recurrente para empresas: cuántas piezas grabar y cómo repartir el tiempo de sesión, ángulo de servicio/paquete distinto de day-in-studio, content day y jornada intensiva ya cubiertos. Imágenes Unsplash.",
   },
+  {
+    slug: "grabar-instagram-linkedin-youtube-misma-sesion",
+    keyword: "grabar para instagram linkedin y youtube misma sesion",
+    intent: "informacional",
+    createdAt: "2026-09-10",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d — issue OAuth persistente, sigue pendiente de reautorización manual, escalar a Dani). Fallback evergreen ítem 6 de la lista temática A0Studios (ítems 1, 2 y 4 ya publicados; ítem 3 descartado por mencionar 'cliente' literalmente). Tema nuevo sobre adaptar plano, guion y ritmo de habla al grabar para Instagram, LinkedIn y YouTube en una sola sesión, ángulo distinto de reels verticales, contenido autoridad LinkedIn y grabación de reels ya cubiertos en memoria. Imágenes Unsplash.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

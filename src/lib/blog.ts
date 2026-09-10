@@ -7526,6 +7526,114 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-instagram-linkedin-youtube-misma-sesion",
+    title: "Grabar para Instagram, LinkedIn y YouTube en la misma sesión: qué cambia",
+    description:
+      "Qué cambia en plano, guion y ritmo de habla al grabar contenido para Instagram, LinkedIn y YouTube en una sola sesión, sin repetir grabaciones.",
+    publishedAt: "2026-09-10",
+    readingTime: "4 min",
+    category: "Guía",
+    tags: ["contenido corporativo", "reels", "LinkedIn", "estudio de grabación", "Madrid"],
+    keyword: "grabar para instagram linkedin y youtube misma sesion",
+    intent: "informacional",
+    excerpt:
+      "Cada red pide un plano, un ritmo y una duración distintos. Cómo planificar una sola sesión de grabación para sacar contenido nativo de Instagram, LinkedIn y YouTube sin repetir la grabación.",
+    seoTitle: "Grabar para Instagram, LinkedIn y YouTube en una sesión",
+    metaDescription:
+      "Grabar para Instagram, LinkedIn y YouTube en la misma sesión: qué cambia en plano, guion y duración para aprovechar cada plataforma.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Cuando una empresa o una marca personal me pide contenido para Instagram, LinkedIn y YouTube a la vez, la primera pregunta suele ser si hace falta grabar tres veces la misma idea. La respuesta casi siempre es no. El problema real no es la cantidad de grabaciones, es que cada plataforma pide un formato de plano, un ritmo de habla y una duración distintos, y si grabas sin tenerlo en cuenta acabas con piezas que no encajan bien en ninguna red.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios montamos casi todas las sesiones corporativas pensando en esto desde el minuto uno: una sola sesión de grabación, un guion dividido en bloques y un encuadre pensado para recortar después sin perder calidad. Así una empresa sale con contenido para LinkedIn, Instagram y YouTube sin repetir la grabación ni triplicar el coste.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-instagram-linkedin-youtube-misma-sesion/hero.webp",
+        alt: "Persona siendo grabada en estudio con cámara profesional para varias plataformas",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué cambia todo según la plataforma" },
+      {
+        type: "paragraph",
+        text: "Lo que cambia entre plataformas no es solo el formato de pantalla. LinkedIn funciona mejor con un plano más estático, ritmo pausado y explicaciones completas: la gente que scrollea LinkedIn está dispuesta a parar más tiempo si el contenido aporta. Instagram y TikTok piden lo contrario: gancho en los primeros dos o tres segundos, cortes rápidos y frases cortas, porque el margen antes de que alguien pase al siguiente vídeo es mínimo.",
+      },
+      {
+        type: "paragraph",
+        text: "YouTube, sobre todo en formato largo, permite planos más abiertos y un desarrollo con más contexto, sin necesidad de enganchar en el primer segundo. Grabar para las tres a la vez no significa hacer un vídeo genérico que sirva más o menos en todas. Significa planificar antes de encender la cámara qué bloques van a cada red y grabar cada bloque pensando en esa plataforma concreta, aunque salgan todos de la misma sesión.",
+      },
+      { type: "heading", level: 2, text: "Cómo se hace bien" },
+      { type: "heading", level: 3, text: "Graba en horizontal con margen para recortar en vertical" },
+      {
+        type: "paragraph",
+        text: "Grabamos en horizontal, con margen a los lados de la persona, para poder recortar a formato vertical en edición sin que el plano se quede corto ni tengamos que reencuadrar de forma forzada. Si el proyecto es solo para reels o TikTok, ajustamos directamente el encuadre en vertical desde el principio, pero cuando hay que servir a varias redes, el horizontal con margen da más flexibilidad en postproducción.",
+      },
+      { type: "heading", level: 3, text: "Divide el guion en bloques, no en un discurso seguido" },
+      {
+        type: "paragraph",
+        text: "En vez de grabar el guion entero seguido y cortarlo después, dividimos el contenido en bloques cortos y autoconclusivos desde el guion. Cada bloque responde una idea completa por sí solo, así en edición se puede usar entero como pieza corta para Instagram o encadenarlo con otros bloques para formar el vídeo largo de LinkedIn o YouTube sin que se note el corte.",
+      },
+      { type: "heading", level: 3, text: "Cambia el ritmo de habla según el destino del bloque" },
+      {
+        type: "paragraph",
+        text: "El ritmo de habla cambia según para dónde vaya cada bloque. Para LinkedIn y YouTube dejamos que la persona hable a su ritmo natural, con pausas y desarrollo completo de la idea. Para los bloques pensados como reels, pedimos frases más cortas, menos muletillas y un arranque directo sin rodeos, porque ahí cada segundo de más es una razón para que alguien pase al siguiente vídeo.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-instagram-linkedin-youtube-misma-sesion/mid.webp",
+        alt: "Equipo de producción grabando una entrevista en estudio con iluminación profesional",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al grabar para varias plataformas en una sesión" },
+      {
+        type: "list",
+        items: [
+          "Grabar todo pensando solo en vertical y luego intentar rellenar los lados para LinkedIn o YouTube: el recorte se nota y el plano se ve forzado.",
+          "Reutilizar el mismo arranque en las tres piezas sin adaptar el gancho a cómo consume cada red.",
+          "Grabar el guion entero sin parar entre bloques, lo que complica separar piezas independientes en edición.",
+          "Usar la misma duración de plano para todo el contenido, cuando cada red pide un ritmo de corte distinto.",
+          "No dejar un par de segundos de gesto neutro entre bloques, transiciones que luego hacen falta en montaje y si no están grabadas, faltan.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Necesito grabar tres veces la misma idea para cada red?",
+        answer:
+          "No. Con un guion dividido en bloques cortos y autoconclusivos, un solo bloque de grabación puede dar la pieza larga para LinkedIn o YouTube y varios recortes nativos para Instagram sin repetir la grabación.",
+      },
+      {
+        type: "faq",
+        question: "¿En qué formato grabáis, vertical u horizontal?",
+        answer:
+          "En A0Studios grabamos en horizontal con margen de seguridad a los lados, así podemos recortar a vertical en edición sin perder composición. Si el proyecto es solo para reels, ajustamos el encuadre directamente en vertical.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para sacar contenido de varias redes?",
+        answer:
+          "Con el guion cerrado por bloques, una sesión de 2 a 3 horas suele bastar para sacar una pieza larga y entre 5 y 6 piezas cortas para distintas plataformas.",
+      },
+      {
+        type: "faq",
+        question: "¿Se nota que el mismo vídeo se recortó para varias redes?",
+        answer:
+          "Solo si el plano y el ritmo son los mismos en todas las piezas. Si cambias el hook, la duración y el ritmo de habla según la red, cada pieza se siente nativa aunque venga de la misma sesión.",
+      },
+      {
+        type: "paragraph",
+        text: "Grabar para varias plataformas a la vez no va de hacer un vídeo que sirva un poco para todo, va de planificar antes de grabar qué bloque alimenta cada red. Si tu marca necesita salir de una sesión con contenido nativo para Instagram, LinkedIn y YouTube, escríbenos desde /#contacto y lo montamos juntos.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
