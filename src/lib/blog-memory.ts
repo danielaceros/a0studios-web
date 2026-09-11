@@ -595,6 +595,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d — issue OAuth persistente, sigue pendiente de reautorización manual, escalar a Dani). Fallback evergreen ítem 6 de la lista temática A0Studios (ítems 1, 2 y 4 ya publicados; ítem 3 descartado por mencionar 'cliente' literalmente). Tema nuevo sobre adaptar plano, guion y ritmo de habla al grabar para Instagram, LinkedIn y YouTube en una sola sesión, ángulo distinto de reels verticales, contenido autoridad LinkedIn y grabación de reels ya cubiertos en memoria. Imágenes Unsplash.",
   },
+  {
+    slug: "estructurar-guion-video-corporativo-menos-5-minutos",
+    keyword: "guion de video corporativo corto",
+    intent: "informacional",
+    createdAt: "2026-09-11",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d — issue OAuth persistente desde al menos 2026-09-10, sigue pendiente de reautorización manual, escalar a Dani). Fallback evergreen ítem 5 de la lista temática A0Studios (ítems 1, 2 y 4 ya publicados; ítem 3 descartado por mencionar 'cliente' literalmente). Tema nuevo sobre cómo estructurar el guion de un vídeo corporativo en bloques de menos de 5 minutos, ángulo distinto de guion sin sonar a anuncio y vídeo corporativo para web ya cubiertos en memoria. Imágenes Unsplash.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

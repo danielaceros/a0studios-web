@@ -7634,6 +7634,114 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "estructurar-guion-video-corporativo-menos-5-minutos",
+    title: "Cómo estructurar el guion de un vídeo corporativo en menos de 5 minutos",
+    description:
+      "Cómo escribir un guion corto para vídeo corporativo: un único mensaje, tres bloques y cronometraje antes de grabar en A0 Studios.",
+    publishedAt: "2026-09-11",
+    readingTime: "4 min",
+    category: "Guía",
+    tags: ["vídeo corporativo", "guion", "producción de contenido", "estudio de grabación", "Madrid"],
+    keyword: "guion de video corporativo corto",
+    intent: "informacional",
+    excerpt:
+      "Un guion de cinco minutos cuenta más que uno de diez si sabe qué dejar fuera. Cómo estructurarlo en bloques antes de grabar en A0 Studios.",
+    seoTitle: "Guion de vídeo corporativo corto | A0 Studios Madrid",
+    metaDescription:
+      "Cómo estructurar el guion de un vídeo corporativo en menos de cinco minutos: mensaje central, bloques y cronometraje antes de grabar.",
+    heroKicker: "Blog / A0 Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Cuando una empresa nos trae el guion de un vídeo corporativo, casi siempre pasa lo mismo: quieren contar todo lo que hace la empresa en una sola pieza y el resultado son ocho minutos de vídeo que nadie termina de ver. El problema no es la cámara ni el estudio, es que el guion intenta cubrir demasiado. Un vídeo corporativo que dura más de cinco minutos pierde a la mayoría de la audiencia antes del minuto tres, así que la pregunta correcta no es cuánto necesitamos grabar, sino qué podemos dejar fuera.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0 Studios ayudamos a estructurar el guion antes de encender ninguna cámara. Un vídeo corporativo corto y bien construido cuenta más que uno largo que intenta abarcarlo todo, porque obliga a decidir qué es lo importante. Esto es lo que revisamos con cada cliente antes de la sesión de grabación.",
+      },
+      {
+        type: "image",
+        src: "/blog/estructurar-guion-video-corporativo-menos-5-minutos/hero.webp",
+        alt: "Persona escribiendo un guion en un cuaderno antes de una sesión de grabación",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué es un guion corto y por qué importa" },
+      {
+        type: "paragraph",
+        text: "Un vídeo de menos de cinco minutos se ve entero. Uno de diez minutos, en la mayoría de los casos, no. La atención cae rápido después del primer minuto y sigue cayendo cada minuto que pasa, así que cada minuto de más en el guion es audiencia que se pierde antes del cierre. Reducir el guion no es hacer un resumen peor, es obligarte a decidir qué mensaje quieres que la persona recuerde cuando termine de verlo.",
+      },
+      {
+        type: "paragraph",
+        text: "También cambia el coste de producción. Un guion de cinco minutos se graba en menos tomas, necesita menos repeticiones si el que habla se equivoca, y se edita más rápido. Un guion largo, además de perder audiencia, suele significar más horas de estudio y más horas de edición para un resultado que al final ve menos gente.",
+      },
+      { type: "heading", level: 2, text: "Cómo se hace bien" },
+      { type: "heading", level: 3, text: "Define un único mensaje central antes de escribir una línea" },
+      {
+        type: "paragraph",
+        text: "Antes de escribir el guion, le pedimos al cliente que resuma en una frase qué quiere que el espectador recuerde. Si no hay una frase clara, el guion tampoco la va a tener. Un vídeo corporativo no necesita explicar toda la empresa, necesita dejar una idea clara: qué problema resuelve, para quién y por qué de forma distinta a la competencia. Todo lo demás es candidato a quedarse fuera.",
+      },
+      { type: "heading", level: 3, text: "Divide el guion en tres bloques: gancho, desarrollo y cierre" },
+      {
+        type: "paragraph",
+        text: "Un guion de cinco minutos se organiza mejor en tres bloques que en un discurso continuo. El gancho, los primeros 15-20 segundos, plantea el problema o la pregunta que engancha a quien está viendo. El desarrollo, entre dos y tres minutos, explica la solución con ejemplos concretos, no con adjetivos. El cierre, medio minuto, deja claro qué tiene que hacer la persona después de ver el vídeo. Si un bloque no encaja en ese esquema, casi siempre sobra.",
+      },
+      { type: "heading", level: 3, text: "Cronometra el guion en voz alta antes de grabar" },
+      {
+        type: "paragraph",
+        text: "Un guion que parece corto en el papel puede durar el doble al leerlo en voz alta. En A0 Studios pedimos siempre una lectura cronometrada antes de la sesión, a ritmo normal de conversación, sin acelerar. Si pasa de cinco minutos leído así, no hace falta hablar más rápido en cámara, hace falta cortar texto. Grabar más rápido de lo natural se nota y resta naturalidad al mensaje.",
+      },
+      {
+        type: "image",
+        src: "/blog/estructurar-guion-video-corporativo-menos-5-minutos/mid.webp",
+        alt: "Equipo de producción grabando una entrevista en estudio con cámara profesional",
+        width: 1920,
+        height: 1080,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al escribir un guion de vídeo corporativo corto" },
+      {
+        type: "list",
+        items: [
+          "Intentar meter cada servicio o línea de negocio en el mismo vídeo en vez de hacer piezas separadas por tema.",
+          "Escribir frases largas pensadas para leer, no para hablar; en cámara suenan artificiales.",
+          "No cronometrar el guion antes de grabar y descubrir en el estudio que dura el doble de lo previsto.",
+          "Empezar con la presentación de la empresa en vez de con el problema que resuelve, perdiendo el gancho de los primeros segundos.",
+          "Cerrar sin una llamada a la acción clara, dejando al espectador sin saber qué hacer después de ver el vídeo.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto debería durar un guion de vídeo corporativo?",
+        answer:
+          "Entre tres y cinco minutos leído en voz alta a ritmo normal. Si tu empresa tiene varios mensajes importantes, mejor hacer dos vídeos cortos que uno largo que los mezcle todos.",
+      },
+      {
+        type: "faq",
+        question: "¿Quién debería escribir el guion, la empresa o el estudio?",
+        answer:
+          "Lo ideal es un guion conjunto: la empresa aporta el mensaje y los datos reales, y en A0 Studios ayudamos a estructurarlo en bloques y a recortar lo que sobra antes de grabar.",
+      },
+      {
+        type: "faq",
+        question: "¿Se puede improvisar en vez de seguir un guion cerrado?",
+        answer:
+          "Se puede trabajar con un guion de puntos en vez de texto cerrado si la persona que habla se siente cómoda improvisando sobre una estructura clara. Lo que no funciona es grabar sin ningún guion, porque el resultado suele alargarse y perder el hilo.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión de grabación para un vídeo corporativo de 5 minutos?",
+        answer:
+          "Con el guion cronometrado y cerrado antes de la sesión, dos horas de estudio suelen bastar para grabar el vídeo con margen para un par de repeticiones por bloque.",
+      },
+      {
+        type: "paragraph",
+        text: "Un guion corto no es un guion incompleto, es un guion que ha decidido qué es lo importante. Si tu empresa necesita un vídeo corporativo que la gente vea entero, escríbenos desde /#contacto y lo estructuramos juntos antes de reservar la sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
