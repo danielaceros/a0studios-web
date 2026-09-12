@@ -1,45 +1,41 @@
 import SectionHead from "./SectionHead";
-import { TARIFA_PIEZAS, formatEuros } from "@/lib/constants";
 
-// La unidad de venta es la pieza entregada, nunca el tiempo de estudio.
-// Dos opciones con los mismos tramos: el cliente elige qué se lleva.
+// Sin precios publicados: el presupuesto se hace a medida según los
+// entregables (p. ej. 12 reels) y siempre con dos opciones para que el
+// cliente elija. Nunca se vende tiempo de estudio ni el espacio por separado.
 type Opcion = {
   name: string;
   tag: string;
   desc: string;
-  precio: "grabacion" | "llave";
   incluye: string[];
   destacado: boolean;
 };
 
 const OPCIONES: Opcion[] = [
   {
-    name: "Solo grabación",
-    tag: "Te llevas los brutos",
-    desc: "Grabamos contigo todas las piezas y te entregamos los brutos organizados, listos para que los edite tu equipo.",
-    precio: "grabacion",
-    incluye: [
-      "Guion de cada pieza antes de venir",
-      "Estudio, iluminación y cámaras",
-      "Sonido y teleprompter",
-      "Dirección durante toda la grabación",
-      "Brutos organizados en 24-48h",
-    ],
-    destacado: false,
-  },
-  {
     name: "Llave en mano",
     tag: "Te llevas los vídeos",
-    desc: "Todo lo anterior y además la edición: te llevas las piezas terminadas, listas para publicar o para lanzar como anuncio.",
-    precio: "llave",
+    desc: "Grabamos contigo y nos encargamos de la edición: te llevas las piezas terminadas, listas para publicar en redes o para lanzar como anuncio.",
     incluye: [
       "Todo lo de Solo grabación",
-      "Edición con estructura de anuncio o de reel",
-      "Subtítulos y música",
-      "Formato para cada plataforma",
-      "Una ronda de ajustes",
+      "Edición con estructura de anuncio, VSL o reel",
+      "Subtítulos y formato para cada plataforma",
+      "Listo para publicar en 24-48h",
     ],
     destacado: true,
+  },
+  {
+    name: "Solo grabación",
+    tag: "Te llevas los brutos",
+    desc: "Vienes al estudio, grabamos todas las piezas con el equipo montado y la sesión dirigida, y sales con los brutos listos para que los edite tu equipo.",
+    incluye: [
+      "Guion de cada pieza antes de venir",
+      "Estudio con iluminación y cámaras",
+      "Sonido profesional y teleprompter",
+      "Dirección durante toda la grabación",
+      "Brutos del día, listos para editar",
+    ],
+    destacado: false,
   },
 ];
 
@@ -51,14 +47,14 @@ export default function Precios() {
     >
       <div className="mx-auto max-w-[1360px]">
         <SectionHead
-          label="Precios"
-          title="Pagas por lo que te"
-          accent="llevas"
-          lead="Cuéntame qué quieres conseguir y te propongo las piezas. Después eliges: solo los brutos o los vídeos terminados."
+          label="Presupuesto"
+          title="Un presupuesto a tu"
+          accent="medida"
+          lead="Dime qué necesitas grabar, por ejemplo 12 reels y dos anuncios, y te doy siempre dos precios: llave en mano o solo grabación. Tú eliges."
         />
 
-        {/* Dos columnas comparables dentro de un mismo bloque, con los mismos
-            tramos a la misma altura: se leen como una tabla, no como tarjetas. */}
+        {/* Dos columnas comparables dentro de un mismo bloque: se leen como una
+            tabla de servicios, no como tarjetas sueltas. */}
         <div className="reveal mt-14 grid overflow-hidden rounded-[12px] border border-line sm:mt-[clamp(3.5rem,5vw,5rem)] lg:grid-cols-2">
           {OPCIONES.map((op, i) => (
             <div
@@ -79,30 +75,15 @@ export default function Precios() {
                 <span className={`badge shrink-0 ${op.destacado ? "badge-solid" : ""}`}>{op.tag}</span>
               </div>
 
-              <p className="prose-body mt-4 max-w-[46ch] text-[0.92rem]">{op.desc}</p>
+              <p className="font-heading mt-5 text-[1.05rem] text-foreground/85">
+                Presupuesto según lo que grabes
+              </p>
 
-              {/* Tramos por número de piezas */}
-              <div className="mt-8">
-                <div className="rule" />
-                {TARIFA_PIEZAS.map((t) => (
-                  <div key={t.piezas}>
-                    <div className="flex items-baseline justify-between gap-6 py-4">
-                      <div className="flex flex-col gap-1">
-                        <p className="font-heading text-[1.02rem] tracking-[-0.018em] text-foreground">
-                          {t.piezas} piezas
-                        </p>
-                        <p className="meta normal-case tracking-[0.02em]">{t.uso}</p>
-                      </div>
-                      <p className="figure shrink-0 text-[clamp(1.5rem,2.6vw,1.95rem)] tabular-nums text-foreground">
-                        {formatEuros(t[op.precio])}
-                      </p>
-                    </div>
-                    <div className="rule" />
-                  </div>
-                ))}
-              </div>
+              <p className="prose-body mt-3 max-w-[46ch] text-[0.92rem]">{op.desc}</p>
 
-              <ul className="mt-8 flex flex-col gap-3.5">
+              <div className="mt-8 rule" />
+
+              <ul className="mt-6 flex flex-col gap-3.5">
                 {op.incluye.map((item) => (
                   <li
                     key={item}
@@ -126,13 +107,14 @@ export default function Precios() {
           ))}
         </div>
 
-        {/* Definición de la unidad + recurrencia mensual */}
+        {/* Claim boutique + recurrencia mensual */}
         <div className="reveal mt-4 grid gap-4 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)]">
           <div className="panel flex flex-col gap-3 px-6 py-7 sm:px-10 sm:py-8">
-            <p className="meta">Qué es una pieza</p>
+            <p className="meta">Estudio boutique · Una única sesión al día</p>
             <p className="prose-body max-w-[60ch] text-[0.92rem]">
-              Un vídeo de hasta 60 segundos, vertical u horizontal. Los VSLs y los vídeos largos se
-              presupuestan aparte. Precios sin IVA.
+              Solo agendo una sesión al día. Ese día el estudio y yo estamos dedicados solo a ti, sin
+              prisas y sin reloj. Por eso no cobro por tiempo de estudio: el presupuesto depende de lo
+              que te llevas.
             </p>
           </div>
           <div className="panel flex flex-col justify-between gap-5 px-6 py-7 sm:px-10 sm:py-8">
@@ -150,7 +132,7 @@ export default function Precios() {
         </div>
 
         <p className="reveal meta mt-8 text-center normal-case tracking-[0.02em] text-[0.9rem] leading-[1.8] sm:mt-10">
-          Anuncios · VSLs · Lanzamientos · Reels — una sola sesión al día, reserva con antelación.
+          Anuncios · VSLs · Reels · Podcast · Cursos — una única sesión al día, reserva con antelación.
         </p>
       </div>
     </section>

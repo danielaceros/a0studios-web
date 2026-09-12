@@ -8,7 +8,7 @@ type T = { src: string; poster: string; name: string; role: string; quote: strin
 const TESTIMONIOS: T[] = [
   { src: "/TJAVI.webm", poster: "/optimized/poster-tjavi.webp", name: "Javi", role: "CEO & Founder, ECOM Advisory", quote: "Es la segunda vez que venimos. La primera fue un éxito y ahora vamos a por el segundo." },
   { src: "/TNARRO.webm", poster: "/optimized/poster-tnarro.webp", name: "Narro Machetti", role: "CEO, GoalGuiders IA", quote: "Brutal. Gente cercana, profesional. Grabamos anuncios, podcast, VSL y contenido orgánico." },
-  { src: "/AXZ.webm", poster: "/optimized/poster-axz.webp", name: "Guillermo", role: "Founder, Geko Marketing", quote: "En tres horas grabamos contenido para todo el equipo. Volveremos." },
+  { src: "/AXZ.webm", poster: "/optimized/poster-axz.webp", name: "Guillermo", role: "Founder, Geko Marketing", quote: "Grabamos contenido para todo el equipo. Volveremos." },
   { src: "/TCARLOS.webm", poster: "/optimized/poster-tcarlos.webp", name: "Carlos Niño", role: "CFO, Wifiads", quote: "Te sientes como en casa. La comodidad, los equipos, las innovaciones… Para mí un diez." },
   { src: "/TALEXANDRA.webm", poster: "/optimized/poster-talexandra.webp", name: "Alexandra", role: "Creadora de contenido", quote: "Todo muy profesional. Buena calidad, buena luz, buen ambiente. Este es tu sitio." },
   { src: "/C5694.webm", poster: "/optimized/poster-c5694.webp", name: "Almudena", role: "Content Creator, Geko Marketing", quote: "El espacio es súper cómodo. Cinco estrellas." },

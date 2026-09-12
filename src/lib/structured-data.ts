@@ -4,24 +4,18 @@ import {
   SITE_NAME_TRADEMARKED,
   SITE_NAME_SPOKEN,
   SITE_DESCRIPTION,
-  TARIFA_PIEZAS,
 } from "./constants";
 
-// Una Offer por tramo de la tarifa por piezas (misma tabla que #precios).
-function buildOffer(name: string, piezas: number, price: number) {
+// Presupuesto a medida según entregables: las dos opciones se publican sin
+// precio (PriceSpecification solo con la moneda), como en la versión anterior.
+function buildOffer(name: string, description: string) {
   return {
     "@type": "Offer",
     name,
+    description,
     priceSpecification: {
-      "@type": "UnitPriceSpecification",
+      "@type": "PriceSpecification",
       priceCurrency: "EUR",
-      price: String(price),
-      valueAddedTaxIncluded: false,
-      referenceQuantity: {
-        "@type": "QuantitativeValue",
-        value: String(piezas),
-        unitText: "piezas",
-      },
     },
     availability: "https://schema.org/InStock",
     url: `${SITE_URL}/#precios`,
@@ -67,7 +61,7 @@ export function getProfessionalServiceSchema() {
       latitude: 40.4072,
       longitude: -3.6992,
     },
-    priceRange: "€€",
+    priceRange: "€€€",
     currenciesAccepted: "EUR",
     paymentAccepted: "Transferencia bancaria, Tarjeta de crédito",
     openingHoursSpecification: [
@@ -111,26 +105,18 @@ export function getProfessionalServiceSchema() {
     },
     hasOfferCatalog: {
       "@type": "OfferCatalog",
-      name: "Grabación de contenido por piezas",
+      name: "Grabación de contenido a medida en un estudio boutique",
+      description:
+        "Presupuesto a medida según lo que necesites grabar, con dos opciones: llave en mano o solo grabación. Una única sesión al día.",
       itemListElement: [
-        {
-          "@type": "OfferCatalog",
-          name: "Solo grabación",
-          description:
-            "Guion previo, estudio, equipo y dirección durante la grabación. Te llevas los brutos organizados.",
-          itemListElement: TARIFA_PIEZAS.map((t) =>
-            buildOffer(`Solo grabación · ${t.piezas} piezas`, t.piezas, t.grabacion)
-          ),
-        },
-        {
-          "@type": "OfferCatalog",
-          name: "Llave en mano",
-          description:
-            "Guion, grabación dirigida y edición: te llevas las piezas terminadas, subtituladas y listas para publicar.",
-          itemListElement: TARIFA_PIEZAS.map((t) =>
-            buildOffer(`Llave en mano · ${t.piezas} piezas`, t.piezas, t.llave)
-          ),
-        },
+        buildOffer(
+          "Llave en mano",
+          "Guion, grabación dirigida en el estudio y edición: te llevas las piezas editadas, subtituladas y listas para publicar en 24-48h."
+        ),
+        buildOffer(
+          "Solo grabación",
+          "Guion, estudio con equipo completo y dirección durante la grabación: te llevas los brutos del día."
+        ),
       ],
     },
     // NOTA SEO (9-sep-2026): las reviews de más abajo SÍ son legítimas para schema —
@@ -144,7 +130,7 @@ export function getProfessionalServiceSchema() {
         "@type": "Review",
         author: { "@type": "Person", name: "Mónica López vozmediano" },
         reviewBody:
-          "Ha sido una experiencia increíble, me he sentido muy cómoda desde el principio con Dani. La verdad es que lo ha hecho todo muy fácil y después de 4 horas me llevo contenido para meses. Una de las acciones que más pereza me da hacer en casa y de esta forma he ahorrado mucho tiempo y procrastinación. Gracias Dani por todo y muy muy recomendado ❤️",
+          "Ha sido una experiencia increíble, me he sentido muy cómoda desde el principio con Dani. La verdad es que lo ha hecho todo muy fácil y […] me llevo contenido para meses. Una de las acciones que más pereza me da hacer en casa y de esta forma he ahorrado mucho tiempo y procrastinación. Gracias Dani por todo y muy muy recomendado ❤️",
         reviewRating: {
           "@type": "Rating",
           ratingValue: "5",
@@ -203,7 +189,7 @@ export function getProfessionalServiceSchema() {
       "@type": "City",
       name: "Madrid",
     },
-    serviceType: "Grabación de anuncios, VSLs y contenido para redes sociales",
+    serviceType: "Estudio de grabación de contenido audiovisual: anuncios, VSLs, reels y podcast",
     knowsLanguage: ["es"],
   };
 }
@@ -216,7 +202,7 @@ export function getWebSiteSchema() {
     url: SITE_URL,
     name: SITE_NAME,
     description:
-      "Estudio de grabación en Madrid para contenido que convierte: anuncios, VSLs, reels y piezas de lanzamiento.",
+      "Estudio de grabación de contenido en Madrid centro: anuncios, VSLs, reels y podcast que convierten, en un ático con una única sesión al día.",
     inLanguage: "es",
     publisher: {
       "@id": `${SITE_URL}/#business`,
@@ -230,7 +216,7 @@ export function getWebPageSchema() {
     "@type": "WebPage",
     "@id": `${SITE_URL}/#webpage`,
     url: SITE_URL,
-    name: `${SITE_NAME} — Contenido que convierte · Madrid`,
+    name: `${SITE_NAME} — Estudio de Grabación de Contenido en Madrid`,
     description: SITE_DESCRIPTION,
     isPartOf: {
       "@id": `${SITE_URL}/#website`,
@@ -269,7 +255,7 @@ export function getVideoSchema() {
     "@type": "VideoObject",
     name: "A0Studios - Showreel",
     description:
-      "Showreel de A0Studios, estudio de grabación de contenido que convierte en Madrid: anuncios, VSLs y reels.",
+      "Showreel de A0Studios, estudio de grabación de contenido en Madrid: anuncios, VSLs, reels y podcast.",
     thumbnailUrl: `${SITE_URL}/optimized/og-image.jpg`,
     uploadDate: "2024-01-01",
     duration: "PT30S",

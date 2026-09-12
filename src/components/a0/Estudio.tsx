@@ -30,13 +30,13 @@ const STATS = [
   { value: "6 años", label: "Produciendo para marcas" },
   { value: "12", label: "Piezas de media por sesión" },
   { value: "1", label: "Sesión al día" },
-  { value: "24-48h", label: "Brutos entregados" },
+  { value: "24-48h", label: "Entrega con edición" },
 ];
 
 export default function Estudio() {
   return (
     <section
-      id="metodo"
+      id="estudio"
       className="px-4 py-[clamp(4.5rem,8vw,7.5rem)] sm:px-6 lg:px-8"
     >
       <div className="mx-auto max-w-[1360px]">
@@ -44,7 +44,7 @@ export default function Estudio() {
           label="El método"
           title="Sabemos para qué"
           accent="grabas"
-          lead="Casi todos los estudios te ofrecen buena luz y buena cámara. Aquí además te dirige alguien que monta anuncios, construye funnels y mide lo que cuesta conseguir cada cliente."
+          lead="Casi todos los estudios de grabación de Madrid te ofrecen buena luz y buena cámara. Aquí además te dirige alguien que monta anuncios, construye funnels y mide lo que cuesta conseguir cada cliente."
         />
 
         {/* Comparativa — dos columnas sobre filetes compartidos */}

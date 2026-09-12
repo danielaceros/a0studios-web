@@ -25,9 +25,10 @@ export default function Footer() {
             <p className="meta pt-4">Secciones</p>
             <nav className="mt-5 flex flex-col gap-3" aria-label="Pie de página">
               {[
-                { l: "El método", h: "#metodo" },
-                { l: "Qué grabamos", h: "#formatos" },
-                { l: "Precios", h: "#precios" },
+                { l: "El estudio", h: "#estudio" },
+                { l: "Qué grabar", h: "#formatos" },
+                { l: "El espacio", h: "#espacio" },
+                { l: "Presupuesto", h: "#precios" },
               ].map((i) => (
                 <a key={i.h} href={i.h} className={LINK}>
                   {i.l}
@@ -79,7 +80,7 @@ export default function Footer() {
             <div className="mt-5 flex flex-col gap-3 text-[0.875rem] font-medium leading-relaxed tracking-[-0.005em] text-muted">
               <span>Ronda de Atocha 16</span>
               <span>Planta 7 · 28012 Madrid</span>
-              <span className="text-foreground/40">Una sesión al día</span>
+              <span className="text-foreground/40">Una única sesión al día</span>
             </div>
           </div>
 

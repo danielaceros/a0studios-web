@@ -4,11 +4,11 @@ import { SITE_URL, SITE_NAME, SITE_DESCRIPTION } from "./constants";
 export const siteMetadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} — Estudio de grabación de contenido que convierte en Madrid`,
+    default: `${SITE_NAME} — Estudio de Grabación de Contenido en Madrid`,
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "Estudio de grabación en Madrid para anuncios, VSLs, reels y lanzamientos que convierten. Con dirección de marketing y precio por piezas.",
+    "Estudio boutique de grabación de contenido en Madrid para grabar anuncios, VSLs, reels y podcast que convierten. Con equipo y dirección. Una sesión al día.",
   authors: [{ name: SITE_NAME }],
   creator: SITE_NAME,
   openGraph: {
@@ -16,7 +16,7 @@ export const siteMetadata: Metadata = {
     locale: "es_ES",
     url: SITE_URL,
     siteName: SITE_NAME,
-    title: `${SITE_NAME} — Contenido que convierte · Madrid`,
+    title: `${SITE_NAME} — Estudio de grabación de contenido que convierte en Madrid`,
     description: SITE_DESCRIPTION,
     images: [
       {
@@ -29,7 +29,7 @@ export const siteMetadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE_NAME} — Contenido que convierte · Madrid`,
+    title: `${SITE_NAME} — Estudio de grabación de contenido que convierte en Madrid`,
     description: SITE_DESCRIPTION,
     images: ["/optimized/og-image.jpg"],
   },

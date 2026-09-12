@@ -6,28 +6,34 @@ const OBJETIVOS = [
   {
     objetivo: "Convertir en ventas",
     title: "Anuncios",
-    desc: "Verticales para Meta Ads y TikTok Ads, con varios ganchos por pieza para testear y quedarte con el que mejor funciona.",
+    desc: "Anuncios verticales para Meta Ads y TikTok Ads, con varios ganchos por pieza para testear y quedarte con el que mejor funciona.",
     piezas: ["Anuncios verticales", "Variantes de gancho", "Remarketing"],
   },
   {
     objetivo: "Convertir en clientes",
-    title: "VSL y lanzamientos",
+    title: "VSLs y lanzamientos",
     desc: "El vídeo de venta de tu landing, la pieza horizontal para la web y todo lo que necesita un lanzamiento para llevar a la llamada o a la compra.",
     piezas: ["VSL", "Vídeo para web", "Piezas de lanzamiento"],
   },
   {
     objetivo: "Convertir en seguidores",
-    title: "Contenido orgánico",
-    desc: "Reels y TikToks para crecer en redes, series para tener el mes cubierto y formato podcast para sacar clips.",
-    piezas: ["Reels y TikToks", "Series mensuales", "Clips tipo podcast"],
+    title: "Reels, TikToks y Shorts",
+    desc: "Contenido orgánico vertical para crecer en redes: varias piezas en la misma sesión y series para tener el mes cubierto.",
+    piezas: ["Reels y TikToks", "YouTube Shorts", "Series mensuales"],
+  },
+  {
+    objetivo: "Convertir en autoridad",
+    title: "Podcast y marca personal",
+    desc: "Podcast y entrevistas en audio y vídeo, en solitario o con invitados, vídeos para LinkedIn y cursos online grabados con teleprompter.",
+    piezas: ["Podcast y entrevistas", "Vídeo para LinkedIn", "Cursos online"],
   },
 ];
 
 const INCLUYE = [
   { title: "Guion antes de grabar", desc: "Cada pieza llega pensada: gancho, mensaje y llamada a la acción." },
   { title: "Dirección con criterio de marketing", desc: "Te dirijo según dónde se publica y qué tiene que conseguir." },
-  { title: "Todo en una mañana", desc: "Anuncios, orgánico y la pieza de la web en la misma sesión." },
-  { title: "Listo para lanzar", desc: "Vertical u horizontal, subtitulado y en formato por plataforma." },
+  { title: "Todo en una sola sesión", desc: "Anuncios, orgánico y la pieza de la web el mismo día." },
+  { title: "Listo para publicar en 24-48h", desc: "Si eliges llave en mano: editado, subtitulado y en formato por plataforma." },
 ];
 
 export default function Formatos() {
@@ -39,9 +45,9 @@ export default function Formatos() {
       <div className="mx-auto max-w-[1360px]">
         <SectionHead
           label="Qué grabamos"
-          title="Contenido pensado para"
+          title="Qué grabar para"
           accent="convertir"
-          lead="En ventas, en clientes o en seguidores. Tú eliges el objetivo y el formato sale de ahí."
+          lead="En ventas, en clientes, en seguidores o en autoridad. Tú eliges el objetivo y el formato sale de ahí."
         />
 
         {/* Lista editorial sobre filetes */}

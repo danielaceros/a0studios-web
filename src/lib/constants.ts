@@ -11,24 +11,7 @@ export const SITE_NAME_TRADEMARKED = "A0Studios®";
 // responde a búsquedas por voz o en buscadores de IA.
 export const SITE_NAME_SPOKEN = "Acero Studios";
 export const SITE_DESCRIPTION =
-  "A0Studios (Acero Studios) es el estudio de grabación de Dani Acero en Madrid: anuncios, VSLs, reels y piezas de lanzamiento pensados para convertir, con la dirección de alguien que hace marketing.";
-
-// Tarifa por piezas (sep-2026). Única fuente de verdad: la leen la sección
-// #precios, la respuesta de la FAQ y el OfferCatalog del schema.
-// Importes en euros, sin IVA. No se vende por horas.
-export const TARIFA_PIEZAS = [
-  { piezas: 8, uso: "Para arrancar", grabacion: 400, llave: 650 },
-  { piezas: 15, uso: "Un mes de contenido", grabacion: 700, llave: 1100 },
-  { piezas: 25, uso: "Lanzamiento completo", grabacion: 1050, llave: 1650 },
-] as const;
-
-/** 1100 -> "1.100 €" (separador de miles siempre, también con 4 cifras). */
-export function formatEuros(n: number) {
-  return `${String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ".")} €`;
-}
-
-const listaTarifa = (clave: "grabacion" | "llave") =>
-  TARIFA_PIEZAS.map((t) => `${t.piezas} piezas por ${formatEuros(t[clave])}`).join(", ");
+  "A0Studios (Acero Studios) es un estudio boutique de grabación de contenido en Madrid centro, dirigido por Dani Acero: anuncios, VSLs, reels y podcast pensados para convertir. Una única sesión al día y presupuesto a medida.";
 
 export const NAV_LINKS = [
   { label: "Espacio", href: "/#tour-virtual" },
@@ -68,9 +51,9 @@ export const BENEFICIOS = [
 export const PROCESO = [
   {
     step: 1,
-    title: "Cuéntame qué quieres conseguir",
+    title: "Cuéntame qué necesitas grabar",
     description:
-      "Un lanzamiento, captar clientes con anuncios o crecer en redes. En menos de 1 hora te respondo con las piezas que necesitas y el precio.",
+      "Anuncios, un VSL, los reels del mes o un podcast. En menos de 1h te respondo con disponibilidad y dos presupuestos: llave en mano o solo grabación.",
   },
   {
     step: 2,
@@ -80,15 +63,15 @@ export const PROCESO = [
   },
   {
     step: 3,
-    title: "Grabamos en una mañana",
+    title: "Grabamos, sin reloj",
     description:
-      "Esa mañana el estudio es solo tuyo y te dirijo yo. Si sobra tiempo, lo aprovechamos para sacarte material extra para redes.",
+      "Solo hay una sesión al día, así que el estudio y yo estamos dedicados a ti. Llegas, todo está montado y te dirijo toma a toma.",
   },
   {
     step: 4,
-    title: "Te llevas las piezas",
+    title: "Te llevas tu contenido",
     description:
-      "Los brutos organizados en 24-48h, o las piezas editadas, subtituladas y listas para publicar en menos de una semana.",
+      "Con solo grabación, sales con los brutos del día. Con llave en mano, en 24-48h tienes las piezas editadas, subtituladas y listas para publicar.",
   },
 ] as const;
 
@@ -96,31 +79,52 @@ export const FAQS = [
   {
     question: "¿Qué es A0Studios y para quién es?",
     answer:
-      "A0Studios (se lee Acero Studios) es un estudio de grabación en Madrid centro especializado en contenido que convierte: anuncios para Meta Ads y TikTok Ads, VSLs, piezas de lanzamiento, remarketing y reels para crecer en redes. Está pensado para founders, empresas, agencias de marketing y creadores que venden o captan clientes a través de su contenido y quieren grabar lo que necesitan sin complicarse. Lo dirige Dani Acero, filmmaker con seis años produciendo para marcas como IFEMA, Cinesa y la Cámara de Comercio de Madrid, que además gestiona campañas de publicidad y funnels de venta. Solo se agenda una sesión al día, así que el estudio es exclusivamente tuyo durante la grabación.",
+      "A0Studios (se lee Acero Studios) es un estudio boutique de grabación de contenido audiovisual en un ático en Madrid centro, en Ronda de Atocha 16. Está especializado en contenido que convierte en ventas, en clientes o en seguidores: anuncios para Meta Ads y TikTok Ads, VSLs, piezas de lanzamiento y remarketing, reels y podcast. Está pensado para founders, empresas y agencias de marketing que quieren grabar lo que necesitan y olvidarse, y también para creadores de contenido que quieren crecer en orgánico. Lo dirige Dani Acero, filmmaker con seis años produciendo para marcas como IFEMA, Cinesa y la Cámara de Comercio de Madrid, que además gestiona campañas de publicidad y funnels de venta. Solo se agenda una única sesión al día.",
   },
   {
-    question: "¿Qué diferencia a A0Studios de otros estudios de grabación de Madrid?",
+    question: "¿Qué diferencia a A0Studios de otros estudios de grabación en Madrid?",
     answer:
-      "La mayoría de estudios compiten en calidad audiovisual: buena luz, buena cámara y un set bonito. En A0Studios también se cuida, pero la diferencia está en quién dirige la sesión. Dani Acero trabaja con anuncios en redes, SEO, posicionamiento en buscadores de IA y funnels de venta, y maneja métricas como el coste por lead o el coste de adquisición de cliente. Por eso no se limita a grabar lo que traes: te ayuda a estructurar cada pieza según su objetivo, propone preguntas que funcionan como reels, cuida el gancho de los primeros segundos de un anuncio y ordena un VSL para que lleve a la llamada o a la compra.",
+      "La mayoría de estudios de grabación compiten en calidad audiovisual: buena luz, buena cámara y un set bonito. En A0Studios también se cuida, pero la diferencia está en quién dirige la sesión. Dani Acero trabaja con anuncios en redes, SEO, posicionamiento en buscadores de IA y funnels de venta, y maneja métricas como el coste por lead o el coste de adquisición de cliente. Por eso no se limita a grabar lo que traes: te ayuda a estructurar cada pieza según su objetivo, propone preguntas que funcionan como reels, cuida el gancho de los primeros segundos de un anuncio y ordena un VSL para que lleve a la llamada o a la compra. Además es un estudio boutique: una única sesión al día, sin prisas y sin otros clientes esperando.",
   },
   {
     question: "¿Qué puedo grabar en A0Studios?",
     answer:
-      "Todo el contenido que necesitas para vender o captar: anuncios verticales para Meta Ads y TikTok Ads con varios ganchos para testear, VSLs para tu landing, vídeo horizontal para la web, piezas de lanzamiento y de remarketing, reels y TikToks para crecer en orgánico y formato podcast para sacar clips. Lo habitual es combinar varios en la misma mañana: los anuncios, el contenido orgánico y la pieza de la web, todo en una sola sesión.",
+      "Anuncios verticales para Meta Ads y TikTok Ads con varios ganchos para testear, VSLs para tu landing, vídeo corporativo y para la web, piezas de lanzamiento y de remarketing, reels, TikToks y YouTube Shorts, podcasts y entrevistas, vídeos de marca personal para LinkedIn y cursos o formación online con teleprompter. Lo habitual es combinar varios formatos en la misma sesión: los anuncios, el contenido orgánico y la pieza de la web, todo en un solo día.",
+  },
+  {
+    question: "¿Dónde grabar anuncios o un VSL en Madrid?",
+    answer:
+      "En A0Studios puedes grabar anuncios y VSLs en Madrid centro con la dirección de alguien que gestiona campañas. Antes de grabar se prepara el guion de cada pieza: en los anuncios, el gancho de los primeros segundos y varias variantes para testear en Meta Ads o TikTok Ads; en el VSL, una estructura que lleve a la llamada o a la compra. Se graba en vertical u horizontal según dónde se vaya a publicar, y puedes llevarte los brutos o las piezas ya editadas y listas para lanzar.",
+  },
+  {
+    question: "¿Se puede grabar un podcast en el estudio?",
+    answer:
+      "Sí. El ático tiene un set de podcast listo para grabar en solitario o con invitados, en audio y vídeo, con micrófonos profesionales, iluminación de estudio y cámaras Sony. Si quieres, el podcast se graba pensando también en los clips: se marcan las preguntas y respuestas que funcionan como reels para sacar contenido para redes de la misma sesión.",
+  },
+  {
+    question: "¿Es un buen estudio para creadores de contenido que quieren grabar reels?",
+    answer:
+      "Sí. Si eres creador de contenido, en A0Studios puedes grabar en Madrid los reels y TikToks de todo el mes en una sola sesión. De media, una sesión da para unas 12 piezas distintas, aprovechando la terraza con vistas, la sala polivalente y el set de podcast para variar los planos sin cambiar de localización. Y como Dani trabaja el crecimiento en redes, te ayuda a elegir los temas y los ganchos, no solo a que el vídeo se vea bien.",
   },
   {
     question: "¿Cuánto cuesta grabar en A0Studios?",
-    answer: `El precio va por las piezas que te llevas, no por tiempo de estudio, y hay dos opciones. Solo grabación, en la que te llevas los brutos organizados: ${listaTarifa("grabacion")}. Y llave en mano, con las piezas editadas, subtituladas y listas para publicar: ${listaTarifa("llave")}. Los precios no incluyen IVA. Una pieza es un vídeo de hasta 60 segundos, vertical u horizontal; los VSLs y los vídeos largos se presupuestan aparte.`,
+    answer:
+      "El presupuesto es a medida y depende de lo que necesites grabar, no del tiempo que pases en el estudio. Nos cuentas qué quieres llevarte (por ejemplo, 12 reels y dos anuncios) y te damos siempre dos precios para que elijas: llave en mano, con las piezas editadas, subtituladas y listas para publicar en 24-48h, o solo grabación, en la que te llevas los brutos del día. Te respondemos con los dos presupuestos en menos de 1h, sin compromiso.",
   },
   {
-    question: "¿Cuánto dura una sesión?",
+    question: "¿Se puede alquilar el estudio de grabación sin más?",
     answer:
-      "La sesión no tiene un tiempo cerrado. Cuando reservas, el estudio es tuyo durante toda la mañana y la grabación dura lo que necesiten tus piezas: si terminamos antes, terminamos antes. Como el guion de cada pieza se prepara antes de venir, la mayoría de sesiones acaban con margen, y ese tiempo se puede aprovechar para sacar material extra para redes.",
+      "El espacio no se alquila por separado. Si buscas alquilar un estudio de grabación en Madrid, en A0Studios el estudio viene siempre con todo: iluminación, cámaras, sonido profesional, teleprompter y la dirección de Dani durante la grabación, y si quieres también la edición. La opción más parecida a un alquiler es solo grabación: vienes, todo está montado, grabas dirigido y te llevas los brutos.",
+  },
+  {
+    question: "¿Por qué solo hay una sesión al día?",
+    answer:
+      "Porque A0Studios es un estudio boutique. Solo se agenda una única sesión al día, así que ese día el estudio y Dani están dedicados solo a ti: sin prisas, sin reloj y sin otros clientes esperando a que termines. Por eso tampoco se cobra por tiempo de estudio, sino según lo que te llevas.",
   },
   {
     question: "¿Necesito experiencia delante de la cámara?",
     answer:
-      "No. Antes de la sesión preparamos juntos el guion de cada pieza, así que llegas sabiendo qué vas a decir. Durante la grabación Dani te dirige toma a toma, gestiona el teleprompter y te ajusta el ritmo y el mensaje para que cada vídeo funcione en la plataforma donde se va a publicar.",
+      "No. El espacio es un ático real, no un plató artificial, y eso hace que grabar resulte más natural. Antes de la sesión preparamos juntos el guion de cada pieza, así que llegas sabiendo qué vas a decir. Durante la grabación Dani te dirige toma a toma, gestiona el teleprompter y te ajusta el ritmo y el mensaje para que cada vídeo funcione en la plataforma donde se va a publicar.",
   },
   {
     question: "¿Garantizáis resultados en ventas o en seguidores?",
@@ -140,7 +144,7 @@ export const FAQS = [
   {
     question: "¿Cómo reservo?",
     answer:
-      "Rellena el formulario de contacto de la web o escribe a dani@a0studios.es o al +34 711 25 54 96. Cuéntanos qué quieres conseguir y en menos de 1 hora te respondemos con disponibilidad, las piezas que recomendamos y el precio. Solo se agenda una sesión al día, así que conviene reservar con al menos dos semanas de antelación.",
+      "Rellena el formulario de contacto de la web o escribe a dani@a0studios.es o al +34 711 25 54 96. Cuéntanos qué necesitas grabar y te respondemos en menos de 1h con disponibilidad y los dos presupuestos. Solo se agenda una sesión al día, así que conviene reservar con al menos dos semanas de antelación.",
   },
 ] as const;
 

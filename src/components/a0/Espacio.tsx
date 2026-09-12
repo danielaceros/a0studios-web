@@ -10,9 +10,9 @@ export default function Espacio() {
       <div className="mx-auto max-w-[1360px]">
         <SectionHead
           label="El espacio"
-          title="Dónde se"
-          accent="graba"
-          lead="Un ático en Madrid centro con terraza, sala y set de podcast, a cinco minutos andando de Atocha. Una sola sesión al día, así que ese día es solo tuyo."
+          title="Dónde vas a"
+          accent="grabar"
+          lead="Un ático en Madrid centro con terraza con vistas al skyline, sala polivalente y set de podcast, con equipo profesional. A cinco minutos andando de Atocha y con una única sesión al día."
         />
 
         {/* Carrusel ambiental de BTS — 100% pasivo, sin interacción (ver BtsMarquee) */}

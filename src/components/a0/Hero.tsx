@@ -61,9 +61,9 @@ export default function Hero() {
             />
           </div>
           <span className="sr-only">
-            {SITE_NAME_TRADEMARKED} ({SITE_NAME_SPOKEN}) — estudio de grabación de contenido que
-            convierte en Madrid: anuncios, VSLs, reels y piezas de lanzamiento dirigidos por Dani
-            Acero.
+            {SITE_NAME_TRADEMARKED} ({SITE_NAME_SPOKEN}) — estudio boutique de grabación de
+            contenido audiovisual en un ático en Madrid centro: anuncios, VSLs, reels y podcast que
+            convierten, dirigidos por Dani Acero.
           </span>
         </h1>
 
@@ -92,9 +92,10 @@ export default function Hero() {
           Contenido que <span className="accent-italic tracking-normal">convierte</span>
         </p>
         <p className="mt-4 max-w-[34ch] text-balance text-center text-[0.95rem] leading-[1.65] text-foreground/65 sm:max-w-[48ch] sm:text-[1.02rem]">
-          En ventas, en clientes o en seguidores. Estudio de grabación en Madrid para anuncios,
-          VSLs, reels y lanzamientos.
+          En ventas, en clientes o en seguidores. Estudio de grabación en Madrid centro para
+          anuncios, VSLs, reels y podcast.
         </p>
+        <p className="meta mt-5 text-center">Estudio boutique · Una única sesión al día</p>
 
         <div className="mt-10 flex flex-col items-center gap-3 sm:mt-12 sm:flex-row">
           <a href="#contacto" className="btn btn-solid">
