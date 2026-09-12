@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { SITE_NAME_TRADEMARKED } from "@/lib/constants";
+import { SITE_NAME_SPOKEN, SITE_NAME_TRADEMARKED } from "@/lib/constants";
 
 export default function Hero() {
   return (
@@ -61,8 +61,9 @@ export default function Hero() {
             />
           </div>
           <span className="sr-only">
-            {SITE_NAME_TRADEMARKED} — estudio de grabación de contenido audiovisual en un ático
-            en Madrid centro, fundado por Dani Acero.
+            {SITE_NAME_TRADEMARKED} ({SITE_NAME_SPOKEN}) — estudio de grabación de contenido que
+            convierte en Madrid: anuncios, VSLs, reels y piezas de lanzamiento dirigidos por Dani
+            Acero.
           </span>
         </h1>
 
@@ -87,17 +88,20 @@ export default function Hero() {
           </a>
         </div>
 
-        <p className="mt-6 max-w-[30ch] text-center text-[0.95rem] leading-[1.7] text-foreground/70 sm:mt-8 sm:max-w-none sm:text-[1.02rem]">
-          <span className="block">Estudio de grabación · Ático en Madrid centro</span>
-          <span className="block">Contenido para semanas, en una mañana</span>
+        <p className="mt-7 max-w-[22ch] text-balance text-center font-heading text-[clamp(1.55rem,3.6vw,2.4rem)] leading-[1.1] tracking-[-0.03em] text-foreground sm:mt-9">
+          Contenido que <span className="accent-italic tracking-normal">convierte</span>
+        </p>
+        <p className="mt-4 max-w-[34ch] text-balance text-center text-[0.95rem] leading-[1.65] text-foreground/65 sm:max-w-[48ch] sm:text-[1.02rem]">
+          En ventas, en clientes o en seguidores. Estudio de grabación en Madrid para anuncios,
+          VSLs, reels y lanzamientos.
         </p>
 
         <div className="mt-10 flex flex-col items-center gap-3 sm:mt-12 sm:flex-row">
           <a href="#contacto" className="btn btn-solid">
             Pedir presupuesto
           </a>
-          <a href="#espacio" className="btn btn-outline">
-            Ver el espacio
+          <a href="#resultados" className="btn btn-outline">
+            Ver resultados
           </a>
         </div>
       </div>

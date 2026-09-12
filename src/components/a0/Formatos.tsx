@@ -1,29 +1,33 @@
 import SectionHead from "./SectionHead";
 
-const FORMATOS = [
+// Ordenado por objetivo, no por tipo de vídeo: el cliente viene a conseguir
+// algo (vender, captar, crecer) y el formato se deriva de eso.
+const OBJETIVOS = [
   {
-    title: "Podcast & entrevistas",
-    desc: "Sets listos para grabar en solitario o con invitados, en audio y vídeo.",
+    objetivo: "Convertir en ventas",
+    title: "Anuncios",
+    desc: "Verticales para Meta Ads y TikTok Ads, con varios ganchos por pieza para testear y quedarte con el que mejor funciona.",
+    piezas: ["Anuncios verticales", "Variantes de gancho", "Remarketing"],
   },
   {
-    title: "Reels, TikToks & Shorts",
-    desc: "Vertical optimizado por plataforma. Varias piezas en una misma mañana.",
+    objetivo: "Convertir en clientes",
+    title: "VSL y lanzamientos",
+    desc: "El vídeo de venta de tu landing, la pieza horizontal para la web y todo lo que necesita un lanzamiento para llevar a la llamada o a la compra.",
+    piezas: ["VSL", "Vídeo para web", "Piezas de lanzamiento"],
   },
   {
-    title: "Vídeo corporativo & marca personal",
-    desc: "LinkedIn, web, presentaciones comerciales y VSLs.",
-  },
-  {
-    title: "Cursos & formación online",
-    desc: "Módulos completos grabados en una sola sesión, con teleprompter.",
+    objetivo: "Convertir en seguidores",
+    title: "Contenido orgánico",
+    desc: "Reels y TikToks para crecer en redes, series para tener el mes cubierto y formato podcast para sacar clips.",
+    piezas: ["Reels y TikToks", "Series mensuales", "Clips tipo podcast"],
   },
 ];
 
 const INCLUYE = [
-  { title: "Semanas de contenido en una mañana", desc: "Vienes un día. Sales con material para meses." },
-  { title: "Espacio real, no decorado", desc: "Un ático con luz natural y vistas, no un ciclorama." },
-  { title: "Dirección y equipo incluidos", desc: "Tú traes el mensaje, del resto me encargo yo." },
-  { title: "Listo para publicar en 24-48h", desc: "Editado, subtitulado y en formato por plataforma." },
+  { title: "Guion antes de grabar", desc: "Cada pieza llega pensada: gancho, mensaje y llamada a la acción." },
+  { title: "Dirección con criterio de marketing", desc: "Te dirijo según dónde se publica y qué tiene que conseguir." },
+  { title: "Todo en una mañana", desc: "Anuncios, orgánico y la pieza de la web en la misma sesión." },
+  { title: "Listo para lanzar", desc: "Vertical u horizontal, subtitulado y en formato por plataforma." },
 ];
 
 export default function Formatos() {
@@ -33,25 +37,40 @@ export default function Formatos() {
       className="px-4 py-[clamp(4.5rem,8vw,7.5rem)] sm:px-6 lg:px-8"
     >
       <div className="mx-auto max-w-[1360px]">
-        <SectionHead label="Formatos" title="Qué puedes" accent="grabar" />
+        <SectionHead
+          label="Qué grabamos"
+          title="Contenido pensado para"
+          accent="convertir"
+          lead="En ventas, en clientes o en seguidores. Tú eliges el objetivo y el formato sale de ahí."
+        />
 
         {/* Lista editorial sobre filetes */}
         <div className="mt-14 sm:mt-[clamp(3.5rem,5vw,5rem)]">
           <div className="rule" />
-          {FORMATOS.map((f, i) => (
-            <div key={f.title} className="reveal">
-              <div className="group grid grid-cols-[auto_1fr] items-baseline gap-x-6 gap-y-3 py-7 sm:py-9 md:grid-cols-[4rem_minmax(0,1.05fr)_minmax(0,0.95fr)] md:gap-x-10">
+          {OBJETIVOS.map((o, i) => (
+            <div key={o.title} className="reveal">
+              <div className="group grid grid-cols-[auto_1fr] items-baseline gap-x-6 gap-y-4 py-8 sm:py-10 md:grid-cols-[4rem_minmax(0,1.05fr)_minmax(0,0.95fr)] md:gap-x-10">
                 <span className="index text-foreground/30 transition-colors duration-300 group-hover:text-foreground/70">
                   {String(i + 1).padStart(2, "0")}
                 </span>
 
-                <h3 className="font-heading text-[clamp(1.4rem,3vw,2.15rem)] leading-[1.08] tracking-[-0.028em] text-foreground">
-                  {f.title}
-                </h3>
+                <div className="flex flex-col gap-3">
+                  <p className="meta">{o.objetivo}</p>
+                  <h3 className="font-heading text-[clamp(1.4rem,3vw,2.15rem)] leading-[1.08] tracking-[-0.028em] text-foreground">
+                    {o.title}
+                  </h3>
+                </div>
 
-                <p className="prose-body col-span-2 max-w-[44ch] text-[0.92rem] md:col-span-1 md:col-start-3">
-                  {f.desc}
-                </p>
+                <div className="col-span-2 flex flex-col gap-5 md:col-span-1 md:col-start-3">
+                  <p className="prose-body max-w-[46ch] text-[0.92rem]">{o.desc}</p>
+                  <ul className="flex flex-wrap gap-2" aria-label={`Piezas de ${o.title}`}>
+                    {o.piezas.map((p) => (
+                      <li key={p} className="badge">
+                        {p}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
               <div className="rule" />
             </div>

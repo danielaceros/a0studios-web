@@ -4,11 +4,11 @@ import { SITE_URL, SITE_NAME, SITE_DESCRIPTION } from "./constants";
 export const siteMetadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} — Estudio de Grabación de Contenido en Madrid`,
+    default: `${SITE_NAME} — Estudio de grabación de contenido que convierte en Madrid`,
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "El estudio de Dani Acero — filmmaker de IFEMA, Cinesa y la Cámara de Comercio de Madrid. Graba podcast, reels y contenido corporativo en un ático en Madrid centro con equipo y dirección incluidos.",
+    "Estudio de grabación en Madrid para anuncios, VSLs, reels y lanzamientos que convierten. Con dirección de marketing y precio por piezas.",
   authors: [{ name: SITE_NAME }],
   creator: SITE_NAME,
   openGraph: {
@@ -16,20 +16,20 @@ export const siteMetadata: Metadata = {
     locale: "es_ES",
     url: SITE_URL,
     siteName: SITE_NAME,
-    title: `${SITE_NAME} — Tu Contenido. Tu Marca. Un Día. Madrid`,
+    title: `${SITE_NAME} — Contenido que convierte · Madrid`,
     description: SITE_DESCRIPTION,
     images: [
       {
         url: "/optimized/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: `${SITE_NAME} — Estudio de contenido en un ático en Madrid`,
+        alt: `${SITE_NAME} — Estudio de grabación de contenido que convierte en Madrid`,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE_NAME} — Tu Contenido. Tu Marca. Un Día. Madrid`,
+    title: `${SITE_NAME} — Contenido que convierte · Madrid`,
     description: SITE_DESCRIPTION,
     images: ["/optimized/og-image.jpg"],
   },

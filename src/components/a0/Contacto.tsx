@@ -40,12 +40,12 @@ export default function Contacto() {
 
             <h2 className="display mt-9 max-w-[13ch] text-foreground sm:mt-11">
               Cuéntame qué quieres{" "}
-              <span className="accent-italic normal-case tracking-normal">grabar</span>
+              <span className="accent-italic normal-case tracking-normal">conseguir</span>
             </h2>
 
             <p className="lead mt-7 max-w-[40ch]">
-              Te respondo con disponibilidad y presupuesto personalizado en menos de 1 hora. Sin
-              compromiso.
+              Un lanzamiento, anuncios o contenido para redes. Te respondo en menos de 1 hora con
+              las piezas que necesitas y el precio. Sin compromiso.
             </p>
 
             {/* Ficha de contacto: etiqueta izquierda, dato derecha, filete entre medias */}

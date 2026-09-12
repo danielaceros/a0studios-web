@@ -1,4 +1,32 @@
-import { SITE_URL, SITE_NAME, SITE_NAME_TRADEMARKED } from "./constants";
+import {
+  SITE_URL,
+  SITE_NAME,
+  SITE_NAME_TRADEMARKED,
+  SITE_NAME_SPOKEN,
+  SITE_DESCRIPTION,
+  TARIFA_PIEZAS,
+} from "./constants";
+
+// Una Offer por tramo de la tarifa por piezas (misma tabla que #precios).
+function buildOffer(name: string, piezas: number, price: number) {
+  return {
+    "@type": "Offer",
+    name,
+    priceSpecification: {
+      "@type": "UnitPriceSpecification",
+      priceCurrency: "EUR",
+      price: String(price),
+      valueAddedTaxIncluded: false,
+      referenceQuantity: {
+        "@type": "QuantitativeValue",
+        value: String(piezas),
+        unitText: "piezas",
+      },
+    },
+    availability: "https://schema.org/InStock",
+    url: `${SITE_URL}/#precios`,
+  };
+}
 
 export function getProfessionalServiceSchema() {
   return {
@@ -9,9 +37,8 @@ export function getProfessionalServiceSchema() {
     // entidad de negocio (Organization/LocalBusiness), no un título de
     // página ni copy corrido.
     name: SITE_NAME_TRADEMARKED,
-    alternateName: "Rooftop Content Studio",
-    description:
-      "El estudio de Dani Acero — filmmaker de IFEMA, Cinesa y la Cámara de Comercio de Madrid. Graba podcast, reels y contenido corporativo en un ático en Madrid centro con equipo y dirección incluidos.",
+    alternateName: [SITE_NAME_SPOKEN, "Rooftop Content Studio"],
+    description: SITE_DESCRIPTION,
     url: SITE_URL,
     telephone: "+34711255496",
     email: "dani@a0studios.es",
@@ -76,80 +103,33 @@ export function getProfessionalServiceSchema() {
         "Producción de contenido para marcas",
         "Grabación de podcast",
         "Edición de vídeo",
+        "Publicidad en Meta Ads",
+        "Funnels de venta",
+        "Guion de anuncios y VSL",
+        "SEO y posicionamiento en buscadores de IA",
       ],
     },
     hasOfferCatalog: {
       "@type": "OfferCatalog",
-      name: "Sesiones de grabación a medida",
+      name: "Grabación de contenido por piezas",
       itemListElement: [
         {
           "@type": "OfferCatalog",
-          name: "Solo Grabación",
+          name: "Solo grabación",
           description:
-            "Ático privado con equipo técnico, cámaras, sonido profesional y teleprompter. Sales con los brutos del día.",
-          itemListElement: [
-            {
-              "@type": "Offer",
-              name: "Solo Grabación",
-              description:
-                "Ático privado con equipo técnico, cámaras, sonido profesional y teleprompter. Sales con los brutos del día.",
-              priceSpecification: {
-                "@type": "UnitPriceSpecification",
-                priceCurrency: "EUR",
-                price: "200",
-                valueAddedTaxIncluded: false,
-                referenceQuantity: {
-                  "@type": "QuantitativeValue",
-                  value: "1",
-                  unitText: "sesión",
-                },
-              },
-              availability: "https://schema.org/InStock",
-              url: `${SITE_URL}/#tarifas`,
-            },
-          ],
+            "Guion previo, estudio, equipo y dirección durante la grabación. Te llevas los brutos organizados.",
+          itemListElement: TARIFA_PIEZAS.map((t) =>
+            buildOffer(`Solo grabación · ${t.piezas} piezas`, t.piezas, t.grabacion)
+          ),
         },
         {
           "@type": "OfferCatalog",
-          name: "Grabación + Edición",
+          name: "Llave en mano",
           description:
-            "Grabación con filmmaker y dirección creativa, edición profesional, subtítulos y entrega en 24-48h.",
-          itemListElement: [
-            {
-              "@type": "Offer",
-              name: "Grabación + Edición",
-              description:
-                "Grabación con filmmaker y dirección creativa, edición profesional, subtítulos y entrega en 24-48h.",
-              priceSpecification: {
-                "@type": "PriceSpecification",
-                priceCurrency: "EUR",
-                // Presupuesto a medida — sin precio fijo publicado.
-              },
-              availability: "https://schema.org/InStock",
-              url: `${SITE_URL}/#tarifas`,
-            },
-          ],
-        },
-        {
-          "@type": "OfferCatalog",
-          name: "Producción Completa",
-          description:
-            "Grabación, edición, estrategia de contenido y distribución multiplataforma. Servicio integral a medida.",
-          itemListElement: [
-            {
-              "@type": "Offer",
-              name: "Producción Completa",
-              description:
-                "Grabación, edición, estrategia de contenido y distribución multiplataforma. Servicio integral a medida.",
-              priceSpecification: {
-                "@type": "PriceSpecification",
-                priceCurrency: "EUR",
-                // Presupuesto a medida — sin precio fijo publicado.
-              },
-              availability: "https://schema.org/InStock",
-              url: `${SITE_URL}/#tarifas`,
-            },
-          ],
+            "Guion, grabación dirigida y edición: te llevas las piezas terminadas, subtituladas y listas para publicar.",
+          itemListElement: TARIFA_PIEZAS.map((t) =>
+            buildOffer(`Llave en mano · ${t.piezas} piezas`, t.piezas, t.llave)
+          ),
         },
       ],
     },
@@ -223,7 +203,7 @@ export function getProfessionalServiceSchema() {
       "@type": "City",
       name: "Madrid",
     },
-    serviceType: "Producción audiovisual y grabación de contenido digital",
+    serviceType: "Grabación de anuncios, VSLs y contenido para redes sociales",
     knowsLanguage: ["es"],
   };
 }
@@ -236,7 +216,7 @@ export function getWebSiteSchema() {
     url: SITE_URL,
     name: SITE_NAME,
     description:
-      "Estudio de contenido en un ático en Madrid. Graba podcast, reels, YouTube y cursos con look auténtico y calidad de producción.",
+      "Estudio de grabación en Madrid para contenido que convierte: anuncios, VSLs, reels y piezas de lanzamiento.",
     inLanguage: "es",
     publisher: {
       "@id": `${SITE_URL}/#business`,
@@ -250,9 +230,8 @@ export function getWebPageSchema() {
     "@type": "WebPage",
     "@id": `${SITE_URL}/#webpage`,
     url: SITE_URL,
-    name: "A0Studios — Tu Contenido. Tu Marca. Un Día. Madrid",
-    description:
-      "El estudio de Dani Acero — filmmaker de IFEMA, Cinesa y la Cámara de Comercio de Madrid. Graba podcast, reels y contenido corporativo en un ático en Madrid centro con equipo y dirección incluidos.",
+    name: `${SITE_NAME} — Contenido que convierte · Madrid`,
+    description: SITE_DESCRIPTION,
     isPartOf: {
       "@id": `${SITE_URL}/#website`,
     },
@@ -261,7 +240,7 @@ export function getWebPageSchema() {
     },
     inLanguage: "es",
     datePublished: "2025-09-01",
-    dateModified: "2026-03-20",
+    dateModified: "2026-09-12",
     author: {
       "@id": `${SITE_URL}/#founder`,
     },
@@ -290,7 +269,7 @@ export function getVideoSchema() {
     "@type": "VideoObject",
     name: "A0Studios - Showreel",
     description:
-      "Portfolio de producciones audiovisuales realizadas en A0Studios, estudio de grabación premium en Madrid.",
+      "Showreel de A0Studios, estudio de grabación de contenido que convierte en Madrid: anuncios, VSLs y reels.",
     thumbnailUrl: `${SITE_URL}/optimized/og-image.jpg`,
     uploadDate: "2024-01-01",
     duration: "PT30S",

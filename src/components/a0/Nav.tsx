@@ -6,8 +6,8 @@ import Link from "next/link";
 import { SITE_NAME_TRADEMARKED } from "@/lib/constants";
 
 const LINKS = [
-  { label: "Estudio", href: "#estudio" },
-  { label: "Espacio", href: "#espacio" },
+  { label: "Método", href: "#metodo" },
+  { label: "Qué grabar", href: "#formatos" },
   { label: "Precios", href: "#precios" },
   { label: "FAQ", href: "#faq" },
 ];

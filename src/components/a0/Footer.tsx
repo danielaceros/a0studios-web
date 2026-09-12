@@ -25,8 +25,8 @@ export default function Footer() {
             <p className="meta pt-4">Secciones</p>
             <nav className="mt-5 flex flex-col gap-3" aria-label="Pie de página">
               {[
-                { l: "El estudio", h: "#estudio" },
-                { l: "El espacio", h: "#espacio" },
+                { l: "El método", h: "#metodo" },
+                { l: "Qué grabamos", h: "#formatos" },
                 { l: "Precios", h: "#precios" },
               ].map((i) => (
                 <a key={i.h} href={i.h} className={LINK}>

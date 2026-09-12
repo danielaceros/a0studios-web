@@ -41,8 +41,8 @@ export default function Home() {
         <LogoStrip />
         <Estudio />
         <Formatos />
-        <Espacio />
         <Resultados />
+        <Espacio />
         <Proceso />
         <Precios />
         <Testimonios />
