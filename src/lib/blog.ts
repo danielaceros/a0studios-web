@@ -7742,6 +7742,114 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "video-corporativo-vs-marca-personal-produccion",
+    title: "Vídeo corporativo vs vídeo de marca personal: qué cambia en la producción",
+    description:
+      "Vídeo corporativo y vídeo de marca personal no se producen igual: qué cambia en objetivo, guion, dirección y edición antes de reservar sesión en A0 Studios.",
+    publishedAt: "2026-09-14",
+    readingTime: "4 min",
+    category: "Guía",
+    tags: ["vídeo corporativo", "marca personal", "producción de contenido", "estudio de grabación", "Madrid"],
+    keyword: "video corporativo vs video marca personal",
+    intent: "informacional",
+    excerpt:
+      "No son el mismo producto. Cómo cambia el guion, la dirección en cámara y la edición entre un vídeo corporativo y uno de marca personal.",
+    seoTitle: "Vídeo corporativo vs marca personal | A0 Studios Madrid",
+    metaDescription:
+      "Vídeo corporativo vs vídeo de marca personal: qué cambia en guion, dirección y edición antes de grabar en A0 Studios.",
+    heroKicker: "Blog / A0 Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Nos llega el mismo brief mal planteado bastante a menudo: una empresa quiere un vídeo corporativo y lo describe con el lenguaje de un vídeo de marca personal, o al revés, un founder pide un vídeo de marca personal pero espera el tono institucional de un corporativo. Son dos productos distintos, con objetivos distintos, y tratarlos igual en producción es la razón por la que muchos vídeos corporativos se sienten fríos y muchos vídeos de marca personal se sienten impostados.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0 Studios grabamos los dos formatos cada semana y la diferencia no está en la cámara ni en la sala, está en las decisiones que se toman antes de grabar: quién habla, para quién habla y qué tiene que sentir quien lo ve. Esto es lo que cambia realmente entre uno y otro.",
+      },
+      {
+        type: "image",
+        src: "/blog/video-corporativo-vs-marca-personal-produccion/hero.webp",
+        alt: "Persona siendo entrevistada en un set de grabación corporativo con iluminación profesional",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué es cada uno y por qué se confunden" },
+      {
+        type: "paragraph",
+        text: "Un vídeo corporativo representa a la empresa como entidad: habla en nombre de una marca, un equipo o una institución, y su objetivo suele ser generar confianza institucional, explicar un servicio o comunicar hacia dentro o fuera de la organización. Un vídeo de marca personal representa a una persona concreta: un founder, un consultor, un profesional que construye su propia reputación, y su objetivo es que esa persona se recuerde, no la empresa detrás.",
+      },
+      {
+        type: "paragraph",
+        text: "Se confunden porque ambos se graban en estudio, con equipo similar y muchas veces con la misma persona delante de cámara: el propio fundador. Pero cuando ese fundador habla como representante de la empresa, está haciendo vídeo corporativo. Cuando habla desde su propio criterio, opinión o experiencia, está haciendo marca personal. La misma persona, dos registros distintos.",
+      },
+      { type: "heading", level: 2, text: "Cómo se hace bien" },
+      { type: "heading", level: 3, text: "El objetivo cambia el guion" },
+      {
+        type: "paragraph",
+        text: "En un guion corporativo partimos siempre del mensaje institucional: qué problema resuelve la empresa, para quién y con qué diferencia frente a la competencia. La persona que habla es una voz de la empresa, así que evitamos opiniones personales y frases en primera persona del singular salvo que sea el testimonio puntual de un cliente. En un guion de marca personal es justo al revés: partimos de la experiencia o el criterio de esa persona, buscamos que hable en primera persona y dejamos fuera cualquier frase que suene a nota de prensa.",
+      },
+      { type: "heading", level: 3, text: "La dirección en cámara no es la misma" },
+      {
+        type: "paragraph",
+        text: "A un directivo grabando vídeo corporativo lo dirigimos hacia la claridad y el ritmo institucional: frases cortas, tono estable, mirada directa a cámara, gestos contenidos. A alguien grabando marca personal lo dirigimos hacia la naturalidad: le pedimos que hable como si estuviera respondiendo a un amigo, permitimos pausas, dudas y algo de gesto de más, porque ahí está la autenticidad que hace que el contenido funcione en redes.",
+      },
+      { type: "heading", level: 3, text: "La edición y el ritmo se adaptan a cada uno" },
+      {
+        type: "paragraph",
+        text: "El corporativo se edita limpio: cortes discretos, motion gráfico si hace falta explicar datos, música que no compite con la voz. La marca personal se edita con más energía: cortes de aire para acelerar el ritmo, subtítulos dinámicos, algún zoom o jump cut que mantenga la atención en los primeros segundos. Aplicar el ritmo de marca personal a un corporativo institucional resta seriedad, y aplicar el ritmo limpio de un corporativo a una pieza de marca personal la hace parecer aburrida.",
+      },
+      {
+        type: "image",
+        src: "/blog/video-corporativo-vs-marca-personal-produccion/mid.webp",
+        alt: "Persona grabando contenido de marca personal frente a la cámara en un espacio informal",
+        width: 1920,
+        height: 1080,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al mezclar los dos formatos" },
+      {
+        type: "list",
+        items: [
+          "Poner al CEO a hablar en primera persona del singular en un vídeo institucional, sonando como si diera su opinión personal en vez de representar a la empresa.",
+          "Grabar un vídeo de marca personal con guion cerrado palabra por palabra, perdiendo la naturalidad que hace que funcione.",
+          "Usar la misma música y el mismo ritmo de corte para ambos formatos, cuando cada uno necesita un tratamiento distinto.",
+          "Vestir y dirigir igual a la persona en los dos casos, sin adaptar el registro al tipo de vídeo que se está grabando.",
+          "No decidir antes de la sesión si el vídeo representa a la empresa o a la persona, y acabar grabando algo que no sirve para ninguno de los dos objetivos.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Puede la misma persona protagonizar vídeo corporativo y vídeo de marca personal?",
+        answer:
+          "Sí, es habitual con founders y directivos. Lo importante es que en cada pieza quede claro desde qué rol habla: como representante de la empresa o como profesional a título personal, y que el guion y la dirección se adapten a eso.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuál necesita más sesiones de grabación?",
+        answer:
+          "Depende del volumen de contenido, no del formato. Una sesión de marca personal suele generar más piezas cortas porque se planifica pensando en varias plataformas, mientras que un corporativo suele centrarse en una o dos piezas más largas.",
+      },
+      {
+        type: "faq",
+        question: "¿Se pueden grabar los dos formatos en la misma sesión de estudio?",
+        answer:
+          "Sí, siempre que el guion esté separado por bloques y quede claro qué parte es institucional y qué parte es personal. Mezclar los dos dentro del mismo bloque es lo que genera piezas confusas.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué formato conviene más para una empresa que empieza?",
+        answer:
+          "Casi siempre marca personal primero. Genera conexión más rápido con menos inversión, y una vez esa persona tiene audiencia, el vídeo corporativo institucional rinde mejor porque ya hay confianza previa.",
+      },
+      {
+        type: "paragraph",
+        text: "Corporativo y marca personal no compiten entre sí, resuelven objetivos distintos con reglas de producción distintas. Si no tienes claro qué necesita tu empresa o tu marca personal antes de reservar sesión, escríbenos desde /#contacto y lo definimos juntos antes de grabar.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
