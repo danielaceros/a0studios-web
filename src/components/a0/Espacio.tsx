@@ -12,7 +12,7 @@ export default function Espacio() {
           label="El espacio"
           title="Dónde vas a"
           accent="grabar"
-          lead="Terraza con skyline, sala polivalente y set de podcast. Todo en la misma planta, a cinco minutos andando de Atocha."
+          lead="Un ático en Madrid centro con terraza con vistas al skyline, sala polivalente y set de podcast, con equipo profesional. A cinco minutos andando de Atocha y con una única sesión al día."
         />
 
         {/* Carrusel ambiental de BTS — 100% pasivo, sin interacción (ver BtsMarquee) */}

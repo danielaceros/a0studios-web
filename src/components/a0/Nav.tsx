@@ -7,8 +7,8 @@ import { SITE_NAME_TRADEMARKED } from "@/lib/constants";
 
 const LINKS = [
   { label: "Estudio", href: "#estudio" },
-  { label: "Espacio", href: "#espacio" },
-  { label: "Precios", href: "#precios" },
+  { label: "Qué grabar", href: "#formatos" },
+  { label: "Presupuesto", href: "#precios" },
   { label: "FAQ", href: "#faq" },
 ];
 

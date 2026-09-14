@@ -44,8 +44,8 @@ export default function Contacto() {
             </h2>
 
             <p className="lead mt-7 max-w-[40ch]">
-              Te respondo con disponibilidad y presupuesto personalizado en menos de 1 hora. Sin
-              compromiso.
+              Anuncios, un VSL, los reels del mes o un podcast. Te respondo en menos de 1h con
+              disponibilidad y dos presupuestos: llave en mano o solo grabación. Sin compromiso.
             </p>
 
             {/* Ficha de contacto: etiqueta izquierda, dato derecha, filete entre medias */}

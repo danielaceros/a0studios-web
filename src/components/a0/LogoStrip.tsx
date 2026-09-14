@@ -5,7 +5,7 @@ export default function LogoStrip() {
     <section aria-label="Clientes" className="border-y border-line py-8 sm:py-10">
       <div className="mx-auto mb-7 flex max-w-[1360px] items-center gap-3 px-4 sm:px-6 lg:px-8">
         <span className="tick" aria-hidden="true" />
-        <p className="meta">Han grabado aquí</p>
+        <p className="meta">Dani ha producido para</p>
       </div>
 
       <div

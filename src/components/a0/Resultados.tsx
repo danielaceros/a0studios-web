@@ -80,7 +80,7 @@ export default function Resultados() {
           label="Resultados"
           title="Lo que sale de"
           accent="aquí"
-          lead="Piezas ya editadas y publicadas, grabadas en A0Studios: reels, anuncios verticales y VSL."
+          lead="Anuncios, VSLs y reels grabados aquí y ya publicados por nuestros clientes."
         />
 
         {/* Picker Reels / Ads / VSL */}
