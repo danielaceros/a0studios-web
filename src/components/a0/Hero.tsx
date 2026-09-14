@@ -14,10 +14,18 @@ export default function Hero() {
           loop
           playsInline
           preload="metadata"
-          poster="/optimized/hero-poster-v2.webp"
+          poster="/optimized/hero-poster-v3.webp"
           className="h-full w-full object-cover opacity-[0.3]"
         >
-          <source src="/optimized/hero-desktop.mp4" type="video/mp4" />
+          {/* Montaje vertical en pantallas en retrato: el hero ocupa 100svh y
+              un 16:9 con object-cover se quedaría en la franja central. El
+              orden importa: el navegador usa la primera <source> que encaja. */}
+          <source
+            src="/optimized/hero-mobile-v2.mp4"
+            type="video/mp4"
+            media="(orientation: portrait)"
+          />
+          <source src="/optimized/hero-desktop-v2.mp4" type="video/mp4" />
           <track kind="captions" />
         </video>
         {/* Viñeta para asegurar contraste del texto */}

@@ -49,7 +49,7 @@ export default function RootLayout({
         <link
           rel="preload"
           as="image"
-          href="/optimized/hero-poster-v2.webp"
+          href="/optimized/hero-poster-v3.webp"
           type="image/webp"
         />
         {/* Preconnect a Firebase Storage retirado (9-sep-2026): los vídeos de
