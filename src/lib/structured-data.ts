@@ -1,10 +1,4 @@
-import {
-  SITE_URL,
-  SITE_NAME,
-  SITE_NAME_TRADEMARKED,
-  SITE_NAME_SPOKEN,
-  SITE_DESCRIPTION,
-} from "./constants";
+import { SITE_URL, SITE_NAME, SITE_DESCRIPTION, NAP } from "./constants";
 
 // Presupuesto a medida según entregables: las dos opciones se publican sin
 // precio (PriceSpecification solo con la moneda), como en la versión anterior.
@@ -27,14 +21,14 @@ export function getProfessionalServiceSchema() {
     "@context": "https://schema.org",
     "@type": ["ProfessionalService", "LocalBusiness"],
     "@id": `${SITE_URL}/#business`,
-    // Marca registrada: aquí sí lleva ® — es el campo que identifica la
-    // entidad de negocio (Organization/LocalBusiness), no un título de
-    // página ni copy corrido.
-    name: SITE_NAME_TRADEMARKED,
-    alternateName: [SITE_NAME_SPOKEN, "Rooftop Content Studio"],
+    // Nombre, dirección, teléfono y web = NAP canónico, idéntico a la ficha
+    // de Google Business Profile (sin ®). "Rooftop Content Studio" es el
+    // nombre anterior del negocio.
+    name: NAP.name,
+    alternateName: "Rooftop Content Studio",
     description: SITE_DESCRIPTION,
-    url: SITE_URL,
-    telephone: "+34711255496",
+    url: NAP.url,
+    telephone: NAP.phone,
     email: "dani@a0studios.es",
     foundingDate: "2024-01-01",
     logo: {
@@ -50,10 +44,10 @@ export function getProfessionalServiceSchema() {
     ],
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Calle Ronda de Atocha, 16, 7ºC",
-      addressLocality: "Madrid",
+      streetAddress: NAP.streetAddress,
+      addressLocality: NAP.locality,
       addressRegion: "Madrid",
-      postalCode: "28012",
+      postalCode: NAP.postalCode,
       addressCountry: "ES",
     },
     geo: {
@@ -68,14 +62,21 @@ export function getProfessionalServiceSchema() {
       {
         "@type": "OpeningHoursSpecification",
         dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        opens: "09:00",
+        opens: "08:00",
         closes: "20:00",
       },
       {
         "@type": "OpeningHoursSpecification",
         dayOfWeek: "Saturday",
-        opens: "10:00",
-        closes: "18:00",
+        opens: "08:00",
+        closes: "14:00",
+      },
+      // Domingo cerrado: Google lo interpreta con opens y closes a 00:00.
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: "Sunday",
+        opens: "00:00",
+        closes: "00:00",
       },
     ],
     founder: {
@@ -181,6 +182,7 @@ export function getProfessionalServiceSchema() {
       bestRating: "5",
     },
     sameAs: [
+      "https://www.instagram.com/a0.studios/",
       "https://www.instagram.com/daniaceros",
       "https://es.linkedin.com/in/daniaceros",
       "https://www.youtube.com/@daniacerxs/videos",
@@ -189,7 +191,6 @@ export function getProfessionalServiceSchema() {
       "@type": "City",
       name: "Madrid",
     },
-    serviceType: "Estudio de grabación de contenido audiovisual: anuncios, VSLs, reels y podcast",
     knowsLanguage: ["es"],
   };
 }
@@ -226,7 +227,7 @@ export function getWebPageSchema() {
     },
     inLanguage: "es",
     datePublished: "2025-09-01",
-    dateModified: "2026-09-12",
+    dateModified: "2026-09-15",
     author: {
       "@id": `${SITE_URL}/#founder`,
     },

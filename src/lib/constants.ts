@@ -10,6 +10,18 @@ export const SITE_NAME_TRADEMARKED = "A0Studios®";
 // fundador). Se usa como alternateName en el schema y en el texto que
 // responde a búsquedas por voz o en buscadores de IA.
 export const SITE_NAME_SPOKEN = "Acero Studios";
+// NAP canónico (15-sep-2026): tiene que coincidir carácter a carácter en la web,
+// el schema, el footer y la ficha de Google Business Profile. No reformatear.
+export const NAP = {
+  name: SITE_NAME,
+  streetAddress: "Rda. de Atocha, 16, 7ºC esc dcha",
+  postalCode: "28012",
+  locality: "Madrid",
+  address: "Rda. de Atocha, 16, 7ºC esc dcha, 28012 Madrid",
+  phone: "711 25 54 96",
+  phoneHref: "tel:+34711255496",
+  url: "https://www.a0studios.es/",
+} as const;
 export const SITE_DESCRIPTION =
   "A0Studios (Acero Studios) es un estudio boutique de grabación de contenido en Madrid centro, dirigido por Dani Acero: anuncios, VSLs, reels y podcast pensados para convertir. Una única sesión al día y presupuesto a medida.";
 
@@ -79,7 +91,7 @@ export const FAQS = [
   {
     question: "¿Qué es A0Studios y para quién es?",
     answer:
-      "A0Studios (se lee Acero Studios) es un estudio boutique de grabación de contenido audiovisual en un ático en Madrid centro, en Ronda de Atocha 16. Está especializado en contenido que convierte en ventas, en clientes o en seguidores: anuncios para Meta Ads y TikTok Ads, VSLs, piezas de lanzamiento y remarketing, reels y podcast. Está pensado para founders, empresas y agencias de marketing que quieren grabar lo que necesitan y olvidarse, y también para creadores de contenido que quieren crecer en orgánico. Lo dirige Dani Acero, filmmaker con seis años produciendo para marcas como IFEMA, Cinesa y la Cámara de Comercio de Madrid, que además gestiona campañas de publicidad y funnels de venta. Solo se agenda una única sesión al día.",
+      `A0Studios (se lee Acero Studios) es un estudio boutique de grabación de contenido audiovisual en un ático en Madrid centro, en ${NAP.address}. Está especializado en contenido que convierte en ventas, en clientes o en seguidores: anuncios para Meta Ads y TikTok Ads, VSLs, piezas de lanzamiento y remarketing, reels y podcast. Está pensado para founders, empresas y agencias de marketing que quieren grabar lo que necesitan y olvidarse, y también para creadores de contenido que quieren crecer en orgánico. Lo dirige Dani Acero, filmmaker con seis años produciendo para marcas como IFEMA, Cinesa y la Cámara de Comercio de Madrid, que además gestiona campañas de publicidad y funnels de venta. Solo se agenda una única sesión al día.`,
   },
   {
     question: "¿Qué diferencia a A0Studios de otros estudios de grabación en Madrid?",
@@ -139,21 +151,22 @@ export const FAQS = [
   {
     question: "¿Dónde está el estudio?",
     answer:
-      "A0Studios está ubicado en Ronda de Atocha 16, planta 7, Madrid centro. El acceso en transporte público es muy sencillo: a 5 minutos a pie del Metro Atocha Renfe (líneas 1 y 3) y de la estación de Cercanías Atocha. También hay parking público en los alrededores para quienes vengan en coche.",
+      `A0Studios está en ${NAP.address}, en pleno centro. El acceso en transporte público es muy sencillo: a 5 minutos a pie del Metro Atocha Renfe (líneas 1 y 3) y de la estación de Cercanías Atocha. También hay parking público en los alrededores para quienes vengan en coche.`,
   },
   {
     question: "¿Cómo reservo?",
     answer:
-      "Rellena el formulario de contacto de la web o escribe a dani@a0studios.es o al +34 711 25 54 96. Cuéntanos qué necesitas grabar y te respondemos en menos de 1h con disponibilidad y los dos presupuestos. Solo se agenda una sesión al día, así que conviene reservar con al menos dos semanas de antelación.",
+      `Rellena el formulario de contacto de la web o escribe a dani@a0studios.es o al ${NAP.phone}. Cuéntanos qué necesitas grabar y te respondemos en menos de 1h con disponibilidad y los dos presupuestos. Solo se agenda una sesión al día, así que conviene reservar con al menos dos semanas de antelación.`,
   },
 ] as const;
 
 export const CONTACT_INFO = {
   email: "dani@a0studios.es",
-  phone: "+34 711 25 54 96",
-  address: "Calle Ronda de Atocha, 16",
-  city: "Madrid",
-  postalCode: "28012",
+  phone: NAP.phone,
+  phoneHref: NAP.phoneHref,
+  address: NAP.streetAddress,
+  city: NAP.locality,
+  postalCode: NAP.postalCode,
   country: "ES",
 } as const;
 
