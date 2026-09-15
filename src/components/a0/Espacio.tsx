@@ -1,5 +1,6 @@
 import SectionHead from "./SectionHead";
 import BtsMarquee from "./BtsMarquee";
+import { NAP } from "@/lib/constants";
 
 export default function Espacio() {
   return (
@@ -25,7 +26,7 @@ export default function Espacio() {
           <div className="min-w-0">
             <p className="meta">Dónde estamos</p>
             <p className="mt-4 font-heading text-[clamp(1.35rem,2.4vw,2rem)] leading-[1.15] tracking-[-0.03em] text-foreground">
-              Ronda de Atocha 16 · Planta 7
+              {NAP.streetAddress}
             </p>
             <div className="mt-6 flex flex-col gap-0 sm:max-w-[30rem]">
               <div className="rule" />

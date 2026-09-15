@@ -1,5 +1,5 @@
 import ContactFormEmbed from "@/components/sections/ContactFormEmbed";
-import { CONTACT_INFO } from "@/lib/constants";
+import { CONTACT_INFO, NAP } from "@/lib/constants";
 
 const FICHA = [
   {
@@ -11,12 +11,12 @@ const FICHA = [
   {
     label: "Teléfono",
     value: CONTACT_INFO.phone,
-    href: `tel:${CONTACT_INFO.phone.replace(/\s/g, "")}`,
+    href: CONTACT_INFO.phoneHref,
     external: false,
   },
   {
     label: "Estudio",
-    value: "Ronda de Atocha 16, P7",
+    value: NAP.address,
     href: "https://maps.google.com/?q=Calle+Ronda+de+Atocha,+16,+Madrid",
     external: true,
   },

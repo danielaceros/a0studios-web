@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { CONTACT_INFO, SITE_NAME_TRADEMARKED } from "@/lib/constants";
+import { CONTACT_INFO, NAP, SITE_NAME, SITE_NAME_TRADEMARKED } from "@/lib/constants";
 
 const LINK = "text-[0.875rem] font-medium tracking-[-0.005em] text-muted transition-colors hover:text-foreground";
 
@@ -44,9 +44,6 @@ export default function Footer() {
               <a href={`mailto:${CONTACT_INFO.email}`} className={`${LINK} break-words`}>
                 {CONTACT_INFO.email}
               </a>
-              <a href={`tel:${CONTACT_INFO.phone.replace(/\s/g, "")}`} className={LINK}>
-                {CONTACT_INFO.phone}
-              </a>
               <a
                 href="https://www.instagram.com/daniaceros"
                 target="_blank"
@@ -77,11 +74,15 @@ export default function Footer() {
           <div>
             <div className="rule" />
             <p className="meta pt-4">Estudio</p>
-            <div className="mt-5 flex flex-col gap-3 text-[0.875rem] font-medium leading-relaxed tracking-[-0.005em] text-muted">
-              <span>Ronda de Atocha 16</span>
-              <span>Planta 7 · 28012 Madrid</span>
+            {/* Bloque NAP: texto plano idéntico a la ficha de Google Business Profile */}
+            <address className="mt-5 flex flex-col gap-3 text-[0.875rem] font-medium not-italic leading-relaxed tracking-[-0.005em] text-muted">
+              <span>{NAP.name}</span>
+              <span>{NAP.address}</span>
+              <a href={NAP.phoneHref} className={LINK}>
+                {NAP.phone}
+              </a>
               <span className="text-foreground/40">Una única sesión al día</span>
-            </div>
+            </address>
           </div>
 
           <div>
@@ -105,7 +106,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-16 flex flex-col gap-3 border-t border-line pt-6 sm:mt-20 sm:flex-row sm:items-center sm:justify-between">
-          <p className="meta text-foreground/28">© {year} {SITE_NAME_TRADEMARKED}</p>
+          <p className="meta text-foreground/28">© {year} {SITE_NAME}</p>
           <p className="meta text-foreground/28">Madrid · Est. 2025</p>
         </div>
       </div>

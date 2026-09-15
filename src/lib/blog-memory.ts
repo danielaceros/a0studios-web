@@ -569,6 +569,33 @@ export const blogMemory: BlogMemoryEntry[] = [
       "Auto-generado por blog-auto-rcs. SC: sin datos (refresh token OAuth invalid_grant persiste, confirmado de nuevo esta ejecución, sigue requiriendo reautorización manual — infra issue documentado, escalar a Dani, 35ª ejecución consecutiva con el mismo fallo). Lista de fallback evergreen (25 temas) sigue agotada — tema original nuevo sobre el documental de marca (formato narrativo con conflicto real, distinto del aftermovie de evento y del sizzle reel), ángulo de storytelling largo no cubierto por ningún post anterior. Imágenes Unsplash.",
   },
   {
+    slug: "video-bienvenida-clientes-como-grabarlo",
+    keyword: "video de bienvenida para clientes",
+    intent: "informacional",
+    createdAt: "2026-09-04",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-rcs. SC: sin datos (refresh token OAuth invalid_grant persiste, confirmado de nuevo esta ejecución, sigue requiriendo reautorización manual — infra issue documentado, escalar a Dani, 36ª ejecución consecutiva con el mismo fallo). Lista de fallback evergreen (25 temas) sigue agotada — tema original nuevo sobre el vídeo de bienvenida para clientes tras firmar (distinto del vídeo de onboarding para empleados nuevos, que es interno), ángulo de experiencia de cliente/post-venta no cubierto por ningún post anterior. Imágenes Unsplash.",
+  },
+  {
+    slug: "mesas-redondas-paneles-invitados-como-grabarlos",
+    keyword: "mesas redondas y paneles de invitados",
+    intent: "informacional",
+    createdAt: "2026-09-07",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-rcs. SC: sin datos (refresh token OAuth invalid_grant persiste, confirmado de nuevo esta ejecución, sigue requiriendo reautorización manual — infra issue documentado, escalar a Dani, 37ª ejecución consecutiva con el mismo fallo). Lista de fallback evergreen (25 temas) sigue agotada — tema original nuevo sobre grabación de mesas redondas y paneles con varios invitados (número de micrófonos, cámaras y moderación), ángulo de formato multi-invitado en debate distinto del podcast a dos voces, la preparación de un único invitado y la grabación multicámara ya cubiertos. Imágenes Unsplash.",
+  },
+  {
+    slug: "run-of-show-sesion-grabacion-como-planificarla",
+    keyword: "run of show grabacion",
+    intent: "informacional",
+    createdAt: "2026-09-08",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-rcs. SC: sin datos (refresh token OAuth invalid_grant persiste, confirmado de nuevo esta ejecución con ambas queries de 90 y 28 días, sigue requiriendo reautorización manual — infra issue documentado, escalar a Dani, 38ª ejecución consecutiva con el mismo fallo). Lista de fallback evergreen (25 temas) sigue agotada — tema original nuevo sobre el run of show (escaleta minuto a minuto de una sesión de grabación: bloques de setup, tiempos reales y margen), ángulo de planificación logística del día distinto del brief de pre-producción (contenido/preguntas al cliente) y del guion (qué se dice) ya cubiertos. Imágenes Pexels/Unsplash.",
+  },
+  {
     slug: "como-elegir-estudio-grabacion-marca-personal",
     keyword: "como elegir estudio de grabacion para marca personal",
     intent: "informacional",

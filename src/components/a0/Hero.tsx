@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { SITE_NAME_SPOKEN, SITE_NAME_TRADEMARKED } from "@/lib/constants";
+import { NAP, SITE_NAME } from "@/lib/constants";
 
 export default function Hero() {
   return (
@@ -60,7 +60,7 @@ export default function Hero() {
           <div className="relative w-[clamp(9rem,42vw,34rem)] max-w-full min-w-0">
             <Image
               src="/optimized/wordmark-hero.webp"
-              alt={SITE_NAME_TRADEMARKED}
+              alt={SITE_NAME}
               width={1876}
               height={304}
               priority
@@ -69,7 +69,7 @@ export default function Hero() {
             />
           </div>
           <span className="sr-only">
-            {SITE_NAME_TRADEMARKED} ({SITE_NAME_SPOKEN}) — estudio boutique de grabación de
+            {SITE_NAME} — estudio boutique de grabación de
             contenido audiovisual en un ático en Madrid centro: anuncios, VSLs, reels y podcast que
             convierten, dirigidos por Dani Acero.
           </span>
@@ -119,7 +119,7 @@ export default function Hero() {
       <div className="relative mx-auto w-full max-w-[1360px] px-4 pb-14 sm:px-6 sm:pb-2 lg:px-8">
         <div className="rule" />
         <div className="flex items-center justify-between gap-8 pt-4">
-          <p className="meta">Ronda de Atocha 16 · Planta 7 · Madrid</p>
+          <p className="meta">{NAP.address}</p>
           <p className="meta hidden lg:block">
             Est. 2025 — por{" "}
             <a

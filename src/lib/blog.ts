@@ -7285,6 +7285,340 @@ export const blogPosts: BlogPost[] = [
     ],
   },
   {
+    slug: "video-bienvenida-clientes-como-grabarlo",
+    title: "Vídeo de bienvenida para clientes: qué debe tener y cómo grabarlo",
+    description:
+      "Un vídeo de bienvenida corto genera más confianza que cualquier email de onboarding. Qué debe incluir, quién debe salir en él y cómo grabarlo sin que parezca una plantilla.",
+    publishedAt: "2026-09-04",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["vídeo de bienvenida", "experiencia de cliente", "vídeo corporativo", "onboarding de clientes", "Madrid"],
+    keyword: "video de bienvenida para clientes",
+    intent: "informacional",
+    excerpt:
+      "Un vídeo de bienvenida corto genera más confianza que cualquier email de onboarding. Qué debe llevar, quién debe aparecer y cómo grabarlo para que no parezca una plantilla.",
+    seoTitle: "Vídeo de bienvenida para clientes",
+    metaDescription:
+      "Vídeo de bienvenida para clientes: qué debe incluir, cuánto debe durar y cómo grabarlo bien. Guía práctica de A0Studios, estudio de grabación en Madrid.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Cuando un cliente firma contigo, lo primero que recibe suele ser un contrato o un email de bienvenida con enlaces a herramientas. Pocas empresas se paran a grabar un vídeo corto de bienvenida, y es un error: ese primer minuto en vídeo genera más confianza que cualquier texto bien escrito, por bien redactado que esté.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios grabamos bastantes de estos vídeos para agencias, consultoras y SaaS que quieren que el cliente sienta que hay personas reales detrás del contrato desde el primer día. No es una pieza compleja de producir, pero si se graba con la cámara del portátil y luz de ventana a contraluz, transmite justo lo contrario de lo que se busca: descuido, en vez de cuidado.",
+      },
+      {
+        type: "image",
+        src: "/blog/video-bienvenida-clientes-como-grabarlo/hero.webp",
+        alt: "Persona grabando un mensaje a cámara en estudio con iluminación profesional",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué es un vídeo de bienvenida y por qué importa" },
+      {
+        type: "paragraph",
+        text: "Es la primera pieza audiovisual que ve un cliente nuevo después de firmar, antes incluso de la primera llamada de onboarding o del primer entregable. Sustituye, o acompaña, al email de bienvenida clásico con algo que se siente personal: una cara, una voz, un tono cercano en lugar de un párrafo genérico copiado de una plantilla.",
+      },
+      {
+        type: "paragraph",
+        text: "Reduce la sensación de vacío que aparece justo después de firmar, ese momento en el que el cliente se pregunta si ha tomado la decisión correcta. Un vídeo corto, bien grabado, con la persona de contacto real hablando a cámara, corta esa duda antes de que se instale y le da cara humana a lo que hasta entonces era solo un intercambio de emails.",
+      },
+      {
+        type: "paragraph",
+        text: "También filtra expectativas. Si en un minuto explicas qué va a pasar en los próximos días y quién va a acompañar el proceso, evitas buena parte de los mensajes de \"¿y ahora qué?\" que llegan en la primera semana, cuando el cliente todavía no tiene claro a quién escribir ni qué esperar del proceso.",
+      },
+      { type: "heading", level: 2, text: "Cómo se hace bien" },
+      { type: "heading", level: 3, text: "Un guion corto, no un speech corporativo" },
+      {
+        type: "paragraph",
+        text: "Sesenta a noventa segundos, tres bloques: gracias por confiar, qué va a pasar ahora, quién va a acompañar el proceso. Nada de frases de manual ni promesas genéricas del tipo \"estamos comprometidos con la excelencia\". Cuanto más se note que está leído palabra por palabra, menos funciona: mejor un guion de apoyo con las ideas clave que un texto cerrado para memorizar.",
+      },
+      { type: "heading", level: 3, text: "La persona de contacto real, no el CEO por defecto" },
+      {
+        type: "paragraph",
+        text: "Si el cliente va a hablar con un account manager durante los próximos meses, que sea esa persona quien aparezca, no el fundador que no va a volver a cruzarse con él. La cara del vídeo debe coincidir con la cara que responde al email tres días después, o el efecto de cercanía se rompe nada más empezar la relación real.",
+      },
+      { type: "heading", level: 3, text: "Dónde se envía importa tanto como el contenido" },
+      {
+        type: "paragraph",
+        text: "Un vídeo de bienvenida enterrado en un PDF de onboarding no lo ve nadie. Funciona mejor como primer mensaje en el canal donde va a vivir la relación: el email de kickoff, el primer mensaje de Slack o Teams compartido con el cliente, o el portal de cliente si existe uno.",
+      },
+      {
+        type: "image",
+        src: "/blog/video-bienvenida-clientes-como-grabarlo/mid.webp",
+        alt: "Cámara y monitor de referencia durante una grabación de entrevista en estudio",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes" },
+      {
+        type: "list",
+        items: [
+          "Grabarlo con la cámara del portátil y luz de ventana a contraluz.",
+          "Leer el guion palabra por palabra sin haber ensayado antes.",
+          "Usar el mismo vídeo genérico para todos los clientes sin ningún dato personalizado.",
+          "Alargarlo más de dos minutos: la atención cae rápido en un mensaje que no aporta nueva información.",
+          "No cerrar con próximos pasos claros, dejando al cliente sin saber qué hacer después de verlo.",
+          "Subirlo sin subtítulos, cuando buena parte de la gente lo ve primero sin sonido.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto debe durar un vídeo de bienvenida para clientes?",
+        answer:
+          "Entre 60 y 90 segundos. Es suficiente para agradecer, explicar los próximos pasos y presentar a la persona de contacto, sin que se convierta en otro vídeo corporativo que nadie termina de ver entero.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta grabar uno distinto para cada cliente?",
+        answer:
+          "No. Un vídeo base grabado una vez, con una mención personalizada al nombre del cliente o del proyecto en el email que lo acompaña, funciona mejor que grabar uno desde cero por cada firma y evita que la pieza pierda calidad por las prisas.",
+      },
+      {
+        type: "faq",
+        question: "¿Quién debe salir en el vídeo, el fundador o el equipo de cuentas?",
+        answer:
+          "La persona con la que el cliente va a tratar en el día a día. Si el fundador no va a estar presente después de la venta, mejor que no sea la cara del vídeo de bienvenida: genera una expectativa que luego no se cumple.",
+      },
+      {
+        type: "faq",
+        question: "¿Se puede grabar en la misma sesión que otros vídeos de empresa?",
+        answer:
+          "Sí. En un content day grabamos el vídeo de bienvenida junto con testimonios, contenido para redes o vídeo de producto, aprovechando el mismo set, la misma luz y el mismo desplazamiento.",
+      },
+      {
+        type: "paragraph",
+        text: "Si crees que tu empresa necesita un vídeo de bienvenida que se vea como algo hecho por gente real y no como una plantilla más, cuéntanos el contexto desde /#contacto. En media hora de sesión sale de sobra, y normalmente lo combinamos con alguna otra pieza para aprovechar el desplazamiento.",
+      },
+    ],
+  },
+  {
+    slug: "mesas-redondas-paneles-invitados-como-grabarlos",
+    title: "Mesas redondas y paneles de invitados: cómo grabarlos bien",
+    description:
+      "Grabar un panel con varios invitados no es lo mismo que grabar un podcast a dos voces. Cámaras, micrófonos y moderación para que el debate se entienda sin cortes raros.",
+    publishedAt: "2026-09-07",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["mesa redonda", "panel de invitados", "podcast", "estudio de grabación", "Madrid"],
+    keyword: "mesas redondas y paneles de invitados",
+    intent: "informacional",
+    excerpt:
+      "Grabar una mesa redonda con varios invitados no es lo mismo que grabar un podcast a dos voces. Así organizamos cámaras, audio y turnos de palabra en A0Studios.",
+    seoTitle: "Mesas redondas y paneles de invitados",
+    metaDescription:
+      "Cómo grabar mesas redondas y paneles con varios invitados en estudio: cámaras, micrófonos y moderación para que el debate fluya sin audio pisado.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Grabar una mesa redonda con tres o cuatro invitados no es lo mismo que grabar un podcast a dos voces. Cambia el número de micrófonos, cambia el encuadre, cambia quién corta cuando dos personas hablan a la vez. Si tratas un panel como si fuera una entrevista ampliada, el resultado se nota: audio pisado, planos que no cuadran, conversación que no fluye.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios montamos paneles para eventos corporativos, mesas de expertos para marca y series de entrevista grupal para LinkedIn. La parte técnica se resuelve con equipo, pero lo que marca la diferencia entre un panel que se ve profesional y uno que parece improvisado es la planificación previa: quién habla primero, cuánto dura cada intervención y qué pasa si alguien se enrolla.",
+      },
+      {
+        type: "image",
+        src: "/blog/mesas-redondas-paneles-invitados-como-grabarlos/hero.webp",
+        alt: "Varios micrófonos sobre mesa preparados para grabar una entrevista con varios invitados",
+        width: 1920,
+        height: 1267,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué es una mesa redonda y por qué es distinta de un podcast normal" },
+      {
+        type: "paragraph",
+        text: "Una mesa redonda son tres o más personas debatiendo un tema con un moderador que reparte turnos, frente a un podcast de dos voces donde la conversación fluye de forma más orgánica. El reto técnico crece con cada invitado que se suma: más micrófonos que aislar, más ángulos de cámara que cubrir, más solapamientos de voz que limpiar en edición.",
+      },
+      {
+        type: "paragraph",
+        text: "El error más común es aplicar el mismo setup de un podcast a dos voces a un panel de cuatro. Con dos micrófonos y dos cámaras cubres una conversación; con cuatro invitados necesitas doblar el audio y añadir al menos una cámara de plano general, o la edición se convierte en un rompecabezas de cortes para tapar los fallos del rodaje.",
+      },
+      { type: "heading", level: 2, text: "Cómo se hace bien" },
+      { type: "heading", level: 3, text: "Cuántos invitados caben en plano sin perder calidad" },
+      {
+        type: "paragraph",
+        text: "Con cuatro personas más el moderador ya tocas el límite de lo manejable en una sala de tamaño medio. A partir de ahí, cada persona añadida resta atención a las demás y complica el plano general: en A0Studios solemos recomendar no pasar de cinco voces si el objetivo es que el espectador siga el hilo sin perderse quién habla.",
+      },
+      { type: "heading", level: 3, text: "Audio: un canal por persona, sin excepciones" },
+      {
+        type: "paragraph",
+        text: "Compartir un micrófono entre dos invitados parece ahorrar tiempo de montaje, pero se paga carísimo en edición: cuando dos personas hablan a la vez, sin canal separado no hay forma de bajar una voz sin bajar la otra. Un lavalier o un micrófono de mesa por persona, grabado en su propio canal, es la diferencia entre un audio limpio y una mezcla imposible.",
+      },
+      { type: "heading", level: 3, text: "Moderación: quién corta y cómo" },
+      {
+        type: "paragraph",
+        text: "El moderador no está ahí solo para presentar; su trabajo real es cortar con naturalidad cuando alguien se alarga o cuando dos personas empiezan a hablar a la vez. Un panel sin moderador activo tiende a derivar hacia quien habla más alto o más rápido, y esa no suele ser la persona con la respuesta más interesante.",
+      },
+      {
+        type: "image",
+        src: "/blog/mesas-redondas-paneles-invitados-como-grabarlos/mid.webp",
+        alt: "Micrófonos alineados sobre una mesa para grabación de panel con varios participantes",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes" },
+      {
+        type: "list",
+        items: [
+          "Compartir micrófono entre dos invitados para ahorrar canales.",
+          "Sentar a los invitados sin pensar el orden: quién debate mejor con quién debería quedar cerca en plano.",
+          "No definir de antemano cuánto dura cada bloque temático, lo que alarga la sesión sin necesidad.",
+          "Grabar con una sola cámara fija de plano general, sin ningún primer plano para los momentos clave.",
+          "Dejar que el moderador improvise las preguntas sin un guion mínimo de transición entre temas.",
+          "No hacer una prueba de sonido con todos los micrófonos activos a la vez antes de empezar a grabar.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuántos micrófonos hacen falta para grabar una mesa redonda?",
+        answer:
+          "Uno por persona, sin compartir canal. Para un panel de cuatro invitados más moderador son cinco micrófonos grabando cada uno en su propia pista, aunque luego se mezclen en un único audio final.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuántas cámaras se necesitan para cubrir un panel de invitados?",
+        answer:
+          "Con tres cámaras cubres lo esencial: un plano general fijo y dos cámaras que roten entre primeros planos según quién esté hablando. Con cuatro invitados o más, una cuarta cámara ayuda a no perder las reacciones de quien no tiene el turno.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto debería durar una mesa redonda grabada?",
+        answer:
+          "Entre 40 y 60 minutos de grabación bruta suele dar para 20-25 minutos de pieza editada, que es la duración donde un panel se sostiene sin que la atención decaiga. Más allá de la hora, la energía de los invitados también empieza a bajar.",
+      },
+      {
+        type: "faq",
+        question: "¿Se puede sacar contenido para redes de una mesa redonda?",
+        answer:
+          "Sí, y suele salir mejor que de una entrevista a dos: los momentos de desacuerdo o las respuestas más directas entre varios invitados generan clips con más gancho que el monólogo de una sola persona.",
+      },
+      {
+        type: "paragraph",
+        text: "Si estás organizando un panel de expertos, una mesa de debate para un evento o una serie de entrevista grupal para LinkedIn, cuéntanos cuántos invitados y qué formato tienes en mente desde /#contacto. Con la sala, los micrófonos y las cámaras ya montados, lo que cambia entre una mesa de tres y una de cinco es sobre todo la planificación previa, no el día de grabación.",
+      },
+    ],
+  },
+  {
+    slug: "run-of-show-sesion-grabacion-como-planificarla",
+    title: "Run of show: cómo planificar el minuto a minuto de tu sesión de grabación",
+    description:
+      "Un run of show es la escaleta que evita perder tiempo de sala grabando. Cómo dividir por bloques, calcular tiempos reales y dejar margen antes de pisar el estudio.",
+    publishedAt: "2026-09-08",
+    readingTime: "4 min",
+    category: "Guía",
+    tags: ["run of show", "planificación de grabación", "producción audiovisual", "estudio de grabación", "Madrid"],
+    keyword: "run of show grabacion",
+    intent: "informacional",
+    excerpt:
+      "Un run of show bien hecho es la diferencia entre grabar todo lo que necesitas en tres horas o quedarte a medias. Cómo lo montamos en A0Studios antes de cada sesión.",
+    seoTitle: "Run of show para grabar contenido",
+    metaDescription:
+      "Run of show: la escaleta que evita perder tiempo de sala grabando. Cómo montarla antes de tu sesión en un estudio de Madrid.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "La diferencia entre una sesión de grabación que sale redonda y otra que se alarga dos horas de más casi nunca es el equipo. Es la planificación previa. Un run of show —la escaleta minuto a minuto de qué se graba, en qué orden y cuánto dura cada bloque— es el documento que evita que la sala se convierta en una improvisación colectiva.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios lo pedimos antes de cualquier sesión con más de una pieza. No hace falta que sea complejo: una tabla con hora, bloque, quién interviene y qué necesita cada uno (vestuario, atrezzo, cambio de plano) es suficiente para que el día de grabación se ejecute sin sorpresas.",
+      },
+      {
+        type: "image",
+        src: "/blog/run-of-show-sesion-grabacion-como-planificarla/hero.webp",
+        alt: "Mano escribiendo con boli sobre una carpeta con la escaleta de una sesión de grabación",
+        width: 1880,
+        height: 1253,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué es un run of show y por qué importa" },
+      {
+        type: "paragraph",
+        text: "Un run of show nace del mundo del directo —eventos, retransmisiones, conciertos— pero funciona igual de bien para una sesión de contenido de marca. Es distinto de un guion: el guion dice qué se dice, el run of show dice cuándo se graba cada cosa y cuánto tiempo tiene asignado.",
+      },
+      {
+        type: "paragraph",
+        text: "Sin él, la sesión avanza por inercia: se graba lo que se recuerda, en el orden que se ocurre, y los bloques que necesitan más preparación —cambios de vestuario, montaje de una segunda cámara, ajuste de luz para un plano distinto— se comen el tiempo de los que estaban planeados para el final. El resultado casi siempre es el mismo: la última pieza de la lista se graba con prisa o no se graba.",
+      },
+      {
+        type: "paragraph",
+        text: "Con tres horas de sala reservadas, cada bloque sin tiempo asignado es tiempo que le quitas a otro. Un run of show no elimina los imprevistos, pero los hace visibles antes de que ocurran, que es la mitad del problema resuelto.",
+      },
+      { type: "heading", level: 2, text: "Cómo se hace bien" },
+      { type: "heading", level: 3, text: "Divide por bloques de setup, no por piezas" },
+      {
+        type: "paragraph",
+        text: "En vez de listar \"vídeo 1, vídeo 2, vídeo 3\", divide la sesión por bloques de setup: todo lo que se graba con la misma cámara, la misma luz y el mismo vestuario va junto, aunque acabe siendo contenido para tres plataformas distintas. Cambiar de setup es lo que realmente consume tiempo, no grabar una toma más.",
+      },
+      { type: "heading", level: 3, text: "Asigna minutos reales, no optimistas" },
+      {
+        type: "paragraph",
+        text: "Si una entrevista de 20 minutos sueles grabarla en 35 contando repeticiones y ajustes, pon 35 en el run of show. Subestimar sistemáticamente el tiempo de cada bloque es el error más común, y se acumula: cinco bloques con diez minutos de más cada uno son casi una hora de retraso al final del día.",
+      },
+      { type: "heading", level: 3, text: "Deja un margen fijo, no lo repartas" },
+      {
+        type: "paragraph",
+        text: "En lugar de añadir cinco minutos de margen a cada bloque, reserva un bloque de margen único de 20-30 minutos al final de la sesión. Así el margen está donde hace falta —el imprevisto real, no repartido en cada línea— y si no se usa, sirve para grabar contenido extra de redes.",
+      },
+      {
+        type: "image",
+        src: "/blog/run-of-show-sesion-grabacion-como-planificarla/mid.webp",
+        alt: "Equipo de cámaras y set de grabación preparado en plató antes de una sesión",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes" },
+      {
+        type: "list",
+        items: [
+          "No incluir los cambios de vestuario o atrezzo como bloques con tiempo propio.",
+          "Meter la pieza más importante al final, cuando ya queda menos margen si algo se retrasa.",
+          "No compartir el run of show con todos los que participan antes del día de grabación.",
+          "Calcular el tiempo de grabación sin contar el del montaje de cada setup.",
+          "No dejar hueco para revisar en cámara lo grabado antes de pasar al siguiente bloque.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Un run of show es lo mismo que un guion?",
+        answer:
+          "No. El guion define qué se dice y cómo; el run of show define cuándo se graba cada cosa y cuánto tiempo tiene asignado. Para una sesión con varias piezas necesitas los dos: el guion para cada bloque y el run of show para organizar el día completo.",
+      },
+      {
+        type: "faq",
+        question: "¿Para cuántas piezas grabadas merece la pena hacer un run of show?",
+        answer:
+          "A partir de dos piezas distintas en la misma sesión ya compensa. Con una sola pieza el orden es evidente; en cuanto se cruzan formatos, invitados o cambios de vestuario, sin escaleta se pierde tiempo real de sala.",
+      },
+      {
+        type: "faq",
+        question: "¿Quién debería preparar el run of show, el cliente o el estudio?",
+        answer:
+          "En A0Studios lo montamos juntos: el cliente aporta qué piezas necesita y quién interviene, nosotros calculamos los tiempos de cada bloque según el equipo y el espacio disponible. Enviarlo dos o tres días antes de la sesión da margen para ajustar antes de llegar a sala.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué pasa si algo se retrasa el día de la grabación?",
+        answer:
+          "Para eso está el bloque de margen al final. Si el retraso es mayor, el run of show también sirve para decidir con criterio qué pieza se recorta o se pasa a otra sesión, en vez de improvisarlo sobre la marcha.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes varias piezas que grabar en la misma sesión y quieres que el día salga como lo planeaste, cuéntanos qué necesitas desde /#contacto. Te ayudamos a montar el run of show antes de pisar la sala, para que el tiempo se vaya en grabar y no en decidir qué toca ahora.",
+      },
+    ],
+  },
+  {
     slug: "como-elegir-estudio-grabacion-marca-personal",
     title: "Cómo elegir estudio de grabación para tu marca personal: checklist antes de reservar",
     description:
