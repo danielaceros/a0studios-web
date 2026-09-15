@@ -640,6 +640,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d — issue OAuth persistente desde al menos 2026-09-10, sigue pendiente de reautorización manual, escalar a Dani, confirmado de nuevo esta ejecución). Fallback evergreen ítem 10 de la lista temática A0Studios (ítems 1, 2, 4, 5 y 6 ya publicados; ítem 3 descartado por mencionar 'cliente' literalmente; ítem 7 descartado por solaparse con 'dirigir-talento-sin-experiencia-camara' y 'perder-miedo-camara-primera-grabacion' ya publicados; ítem 8 descartado por estar ya cubierto dentro de 'como-elegir-estudio-grabacion-marca-personal'; ítem 9 descartado por solaparse con los posts existentes sobre sacar contenido de una sola sesión). Tema nuevo: diferencias de producción (guion, dirección, edición) entre vídeo corporativo institucional y vídeo de marca personal, ángulo no cubierto por ningún post existente. Imágenes Unsplash.",
   },
+  {
+    slug: "donde-grabar-anuncios-en-madrid",
+    keyword: "donde grabar anuncios en madrid",
+    intent: "informacional",
+    createdAt: "2026-09-15",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d — issue OAuth persistente desde al menos 2026-09-10, sigue pendiente de reautorización manual, escalar a Dani, confirmado de nuevo esta ejecución). Fallback evergreen Prioridad 1 (SEO local/comercial) ítem 1 de la lista, primero de esa lista no presente en memoria — nueva dirección de posicionamiento (2026-09-14) hacia intención local/comercial de 'dónde grabar' en vez de solo buyer persona. Tema sobre qué mirar antes de reservar estudio para grabar anuncios (Meta/TikTok Ads, VSL) en Madrid, reforzando el pitch de dirección técnica con criterio de venta. Imágenes Unsplash.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

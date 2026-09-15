@@ -8184,6 +8184,114 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "donde-grabar-anuncios-en-madrid",
+    title: "Dónde grabar anuncios en Madrid: qué mirar antes de reservar estudio",
+    description:
+      "Dónde grabar anuncios en Madrid sin quedarte en un vídeo bonito que no vende: qué buscar en dirección, equipo y producción antes de reservar sesión en A0 Studios.",
+    publishedAt: "2026-09-15",
+    readingTime: "4 min",
+    category: "Guía",
+    tags: ["anuncios", "estudio de grabación", "Madrid", "Meta Ads", "producción publicitaria"],
+    keyword: "donde grabar anuncios en madrid",
+    intent: "informacional",
+    excerpt:
+      "Buscar dónde grabar anuncios en Madrid no es solo encontrar un espacio con buena luz. Qué mirar de verdad antes de reservar estudio.",
+    seoTitle: "Dónde grabar anuncios en Madrid | A0 Studios Madrid",
+    metaDescription:
+      "Dónde grabar anuncios en Madrid: qué mirar en dirección, equipo y producción antes de reservar estudio para tus campañas de Meta Ads o TikTok Ads.",
+    heroKicker: "Blog / A0 Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Cada semana nos escribe alguien con la misma pregunta: dónde grabar un anuncio en Madrid. Buscan estudio, pero la pregunta que en realidad tienen que responder es otra: quién va a dirigir la sesión para que ese anuncio venda, no solo para que quede bonito.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0 Studios grabamos anuncios para Meta Ads, TikTok Ads y VSLs en nuestro ático de Ronda de Atocha 16, en Madrid centro. Aquí te cuento qué mirar antes de reservar cualquier estudio, no solo el nuestro, para que la sesión no se quede en metraje bonito que nadie sabe cómo convertir en campaña.",
+      },
+      {
+        type: "image",
+        src: "/blog/donde-grabar-anuncios-en-madrid/hero.webp",
+        alt: "Persona grabando con cámara en trípode con iluminación de estudio en tonos azules y rojos",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué necesitas para grabar un anuncio, no solo un vídeo bonito" },
+      {
+        type: "paragraph",
+        text: "Un anuncio no se juzga por si queda estético, se juzga por si para el scroll y consigue que alguien haga clic o deje sus datos. Eso cambia todo lo que importa en la sesión: el hook tiene que estar resuelto en los primeros 3 segundos, el encuadre tiene que pensarse para feed vertical antes que para plano cinematográfico, y el guion tiene que estar construido sobre el problema del cliente, no sobre lo que la empresa quiere contar de sí misma.",
+      },
+      {
+        type: "paragraph",
+        text: "Por eso un estudio con buena luz y una sala bonita no resuelve el problema si nadie en la sala sabe qué convierte en Meta Ads o en TikTok Ads. El espacio es la parte fácil. La parte que decide si el anuncio funciona es la dirección: alguien que ha visto métricas de campaña real y sabe qué hook frena el scroll y qué plano hace que la gente lo salte.",
+      },
+      { type: "heading", level: 2, text: "Cómo elegir dónde grabar tu anuncio en Madrid" },
+      { type: "heading", level: 3, text: "Dirección con criterio de venta, no solo estético" },
+      {
+        type: "paragraph",
+        text: "En A0 Studios no alquilamos una sala para que grabes tú solo: dirigimos la sesión con el mismo criterio que usamos para nuestras propias campañas de pago. Eso significa cortar una toma que se ve bien pero no va a convertir, y pedir una repetición de un plano soso aunque técnicamente esté correcto. La diferencia entre un anuncio que rinde y uno que se queda sin presupuesto está casi siempre en decisiones que se toman durante la grabación, no en la sala en la que se graba.",
+      },
+      { type: "heading", level: 3, text: "Equipo pensado para el formato del anuncio" },
+      {
+        type: "paragraph",
+        text: "Un anuncio para feed vertical de Meta necesita un encuadre distinto al de un VSL de LinkedIn o al de un spot horizontal para YouTube. Antes de reservar, pregunta si el estudio puede grabar en 9:16 nativo con espacio para texto superpuesto, si tiene teleprompter para guiones largos de VSL y si el sonido está tratado para que la voz se entienda sin subtítulos forzados. Grabamos con Sony A7 y edición final en DaVinci Resolve, pero el equipo solo importa si sirve al formato que vas a lanzar en campaña.",
+      },
+      { type: "heading", level: 3, text: "Producción rápida: de guion a clip listo para subir" },
+      {
+        type: "paragraph",
+        text: "Una campaña de pago no espera tres semanas de postproducción. En una sesión de 3 horas solemos salir con 4 o 5 variantes de anuncio grabadas, listas para que el editor entregue los primeros clips en menos de una semana. Si el estudio que estás mirando no tiene claro cuánto tarda en devolverte el material editado, esa demora se traduce en presupuesto de campaña parado.",
+      },
+      {
+        type: "image",
+        src: "/blog/donde-grabar-anuncios-en-madrid/mid.webp",
+        alt: "Plató de grabación fotografiado con lente ojo de pez mostrando equipo de rodaje",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al elegir estudio para grabar anuncios" },
+      {
+        type: "list",
+        items: [
+          "Reservar por la estética del espacio sin preguntar quién dirige la sesión ni qué experiencia tiene con anuncios reales.",
+          "Llegar sin guion ni hooks definidos, asumiendo que la improvisación en cámara resolverá lo que falta de estrategia.",
+          "Grabar en horizontal por costumbre cuando la campaña se va a lanzar en feed vertical de Meta o TikTok.",
+          "No preguntar el plazo de entrega del material editado antes de reservar, y descubrir después que retrasa el lanzamiento de la campaña.",
+          "Confundir contenido de marca con anuncio: un vídeo pensado para gustar no está pensado para vender, y son dos guiones distintos.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para grabar anuncios en A0 Studios?",
+        answer:
+          "Entre 2 y 3 horas para varias variantes de un mismo anuncio. Si necesitas piezas para distintas campañas o públicos, ajustamos el tiempo según cuántos guiones y cambios de vestuario o fondo hagan falta.",
+      },
+      {
+        type: "faq",
+        question: "¿Necesito el guion cerrado antes de venir a grabar?",
+        answer:
+          "Ayuda tener claro el ángulo y el hook, pero no hace falta un guion palabra por palabra. En sesión ajustamos el texto según cómo suena en cámara, porque un guion que se lee bien en papel no siempre convierte igual hablado.",
+      },
+      {
+        type: "faq",
+        question: "¿Podéis grabar varios anuncios distintos en la misma sesión?",
+        answer:
+          "Sí, es lo habitual. En una sesión de 3 horas solemos grabar entre 4 y 5 variantes: mismo mensaje con distintos hooks, o mensajes distintos para probar qué ángulo funciona mejor en campaña.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis el vídeo editado o solo la grabación en bruto?",
+        answer:
+          "Depende del servicio: en Solo Grabación te llevas el material en bruto, en Grabación + Edición y en Producción Completa entregamos los clips montados y listos para subir a la plataforma de anuncios.",
+      },
+      {
+        type: "paragraph",
+        text: "Si estás buscando dónde grabar tu próximo anuncio en Madrid, la pregunta que de verdad importa es quién va a dirigir esa sesión. Escríbenos desde /#contacto y lo hablamos antes de que reserves nada.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
