@@ -1,5 +1,5 @@
 import SectionHead from "./SectionHead";
-import { FAQS, SITE_NAME, SITE_NAME_TRADEMARKED } from "@/lib/constants";
+import { FAQS } from "@/lib/constants";
 
 export default function Faq() {
   return (
@@ -35,9 +35,7 @@ export default function Faq() {
               </summary>
               <div className="pb-8 sm:pl-[calc(4rem+0.75rem)]">
                 <p className="max-w-[68ch] text-[0.94rem] leading-[1.85] text-muted sm:text-[0.98rem]">
-                  {/* Trademark solo en el render visible — el FAQPage schema
-                      sigue leyendo FAQS tal cual, sin ®, desde page.tsx. */}
-                  {faq.answer.replaceAll(SITE_NAME, SITE_NAME_TRADEMARKED)}
+                  {faq.answer}
                 </p>
               </div>
               <div className="rule" />

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { NAP, SITE_NAME, SITE_NAME_SPOKEN } from "@/lib/constants";
+import { NAP, SITE_NAME } from "@/lib/constants";
 
 export default function Hero() {
   return (
@@ -69,7 +69,7 @@ export default function Hero() {
             />
           </div>
           <span className="sr-only">
-            {SITE_NAME} ({SITE_NAME_SPOKEN}) — estudio boutique de grabación de
+            {SITE_NAME} — estudio boutique de grabación de
             contenido audiovisual en un ático en Madrid centro: anuncios, VSLs, reels y podcast que
             convierten, dirigidos por Dani Acero.
           </span>

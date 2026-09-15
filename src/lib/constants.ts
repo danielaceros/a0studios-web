@@ -1,15 +1,8 @@
 export const SITE_URL = "https://www.a0studios.es";
 export const SITE_NAME = "A0Studios";
-// Marca registrada (9-sep-2026). Solo para los puntos de contacto de marca
-// (logo/nav, footer/copyright, H1 del hero, schema de Organization/LocalBusiness)
-// — NO para el resto (títulos de página, blog, meta, copy corrido), donde
-// repetir el símbolo en cada mención quedaría raro/spam. Usar SITE_NAME a secas
-// en todo lo demás.
+// El ® vive SOLO en el alt de los logos (nav y footer). Todo texto indexable
+// (copy, FAQ, copyright, H1, schema, meta) usa SITE_NAME sin símbolo.
 export const SITE_NAME_TRADEMARKED = "A0Studios®";
-// "A0" se lee "A cero": la marca se pronuncia Acero Studios (apellido del
-// fundador). Se usa como alternateName en el schema y en el texto que
-// responde a búsquedas por voz o en buscadores de IA.
-export const SITE_NAME_SPOKEN = "Acero Studios";
 // NAP canónico (15-sep-2026): tiene que coincidir carácter a carácter en la web,
 // el schema, el footer y la ficha de Google Business Profile. No reformatear.
 export const NAP = {

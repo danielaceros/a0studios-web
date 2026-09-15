@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { CONTACT_INFO, NAP, SITE_NAME_TRADEMARKED } from "@/lib/constants";
+import { CONTACT_INFO, NAP, SITE_NAME, SITE_NAME_TRADEMARKED } from "@/lib/constants";
 
 const LINK = "text-[0.875rem] font-medium tracking-[-0.005em] text-muted transition-colors hover:text-foreground";
 
@@ -106,7 +106,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-16 flex flex-col gap-3 border-t border-line pt-6 sm:mt-20 sm:flex-row sm:items-center sm:justify-between">
-          <p className="meta text-foreground/28">© {year} {SITE_NAME_TRADEMARKED}</p>
+          <p className="meta text-foreground/28">© {year} {SITE_NAME}</p>
           <p className="meta text-foreground/28">Madrid · Est. 2025</p>
         </div>
       </div>
