@@ -119,8 +119,13 @@ export default function Hero() {
       <div className="relative mx-auto w-full max-w-[1360px] px-4 pb-14 sm:px-6 sm:pb-2 lg:px-8">
         <div className="rule" />
         <div className="flex items-center justify-between gap-8 pt-4">
-          <p className="meta">{NAP.address}</p>
-          <p className="meta hidden lg:block">
+          {/* normal-case: el NAP se muestra tal cual, sin el lowercase de .meta */}
+          <p className="meta normal-case">{NAP.address}</p>
+          {/* Hueco a la derecha para que el botón fijo de WhatsApp (right-7, ~9rem de
+              ancho) no tape este texto: 9rem menos lo que ya separa del borde el
+              contenedor centrado de 1360px (0 en pantallas anchas). Una sola clase: con
+              dos variantes de breakpoint, el orden del CSS dejaba ganar siempre a lg. */}
+          <p className="meta hidden lg:block lg:mr-[max(0px,calc(9rem_-_(100vw_-_min(100vw,1360px))_/_2))]">
             Est. 2025 — por{" "}
             <a
               href="https://www.instagram.com/daniaceros"
