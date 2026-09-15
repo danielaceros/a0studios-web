@@ -7972,7 +7972,7 @@ export const blogPosts: BlogPost[] = [
     slug: "estructurar-guion-video-corporativo-menos-5-minutos",
     title: "Cómo estructurar el guion de un vídeo corporativo en menos de 5 minutos",
     description:
-      "Cómo escribir un guion corto para vídeo corporativo: un único mensaje, tres bloques y cronometraje antes de grabar en A0 Studios.",
+      "Cómo escribir un guion corto para vídeo corporativo: un único mensaje, tres bloques y cronometraje antes de grabar en A0Studios.",
     publishedAt: "2026-09-11",
     readingTime: "4 min",
     category: "Guía",
@@ -7980,11 +7980,11 @@ export const blogPosts: BlogPost[] = [
     keyword: "guion de video corporativo corto",
     intent: "informacional",
     excerpt:
-      "Un guion de cinco minutos cuenta más que uno de diez si sabe qué dejar fuera. Cómo estructurarlo en bloques antes de grabar en A0 Studios.",
-    seoTitle: "Guion de vídeo corporativo corto | A0 Studios Madrid",
+      "Un guion de cinco minutos cuenta más que uno de diez si sabe qué dejar fuera. Cómo estructurarlo en bloques antes de grabar en A0Studios.",
+    seoTitle: "Guion de vídeo corporativo corto",
     metaDescription:
       "Cómo estructurar el guion de un vídeo corporativo en menos de cinco minutos: mensaje central, bloques y cronometraje antes de grabar.",
-    heroKicker: "Blog / A0 Studios",
+    heroKicker: "Blog / A0Studios",
     body: [
       {
         type: "paragraph",
@@ -7992,7 +7992,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En A0 Studios ayudamos a estructurar el guion antes de encender ninguna cámara. Un vídeo corporativo corto y bien construido cuenta más que uno largo que intenta abarcarlo todo, porque obliga a decidir qué es lo importante. Esto es lo que revisamos con cada cliente antes de la sesión de grabación.",
+        text: "En A0Studios ayudamos a estructurar el guion antes de encender ninguna cámara. Un vídeo corporativo corto y bien construido cuenta más que uno largo que intenta abarcarlo todo, porque obliga a decidir qué es lo importante. Esto es lo que revisamos con cada cliente antes de la sesión de grabación.",
       },
       {
         type: "image",
@@ -8025,7 +8025,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 3, text: "Cronometra el guion en voz alta antes de grabar" },
       {
         type: "paragraph",
-        text: "Un guion que parece corto en el papel puede durar el doble al leerlo en voz alta. En A0 Studios pedimos siempre una lectura cronometrada antes de la sesión, a ritmo normal de conversación, sin acelerar. Si pasa de cinco minutos leído así, no hace falta hablar más rápido en cámara, hace falta cortar texto. Grabar más rápido de lo natural se nota y resta naturalidad al mensaje.",
+        text: "Un guion que parece corto en el papel puede durar el doble al leerlo en voz alta. En A0Studios pedimos siempre una lectura cronometrada antes de la sesión, a ritmo normal de conversación, sin acelerar. Si pasa de cinco minutos leído así, no hace falta hablar más rápido en cámara, hace falta cortar texto. Grabar más rápido de lo natural se nota y resta naturalidad al mensaje.",
       },
       {
         type: "image",
@@ -8056,7 +8056,7 @@ export const blogPosts: BlogPost[] = [
         type: "faq",
         question: "¿Quién debería escribir el guion, la empresa o el estudio?",
         answer:
-          "Lo ideal es un guion conjunto: la empresa aporta el mensaje y los datos reales, y en A0 Studios ayudamos a estructurarlo en bloques y a recortar lo que sobra antes de grabar.",
+          "Lo ideal es un guion conjunto: la empresa aporta el mensaje y los datos reales, y en A0Studios ayudamos a estructurarlo en bloques y a recortar lo que sobra antes de grabar.",
       },
       {
         type: "faq",
@@ -8080,7 +8080,7 @@ export const blogPosts: BlogPost[] = [
     slug: "video-corporativo-vs-marca-personal-produccion",
     title: "Vídeo corporativo vs vídeo de marca personal: qué cambia en la producción",
     description:
-      "Vídeo corporativo y vídeo de marca personal no se producen igual: qué cambia en objetivo, guion, dirección y edición antes de reservar sesión en A0 Studios.",
+      "Vídeo corporativo y vídeo de marca personal no se producen igual: qué cambia en objetivo, guion, dirección y edición antes de reservar sesión en A0Studios.",
     publishedAt: "2026-09-14",
     readingTime: "4 min",
     category: "Guía",
@@ -8089,10 +8089,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "No son el mismo producto. Cómo cambia el guion, la dirección en cámara y la edición entre un vídeo corporativo y uno de marca personal.",
-    seoTitle: "Vídeo corporativo vs marca personal | A0 Studios Madrid",
+    seoTitle: "Vídeo corporativo vs marca personal",
     metaDescription:
-      "Vídeo corporativo vs vídeo de marca personal: qué cambia en guion, dirección y edición antes de grabar en A0 Studios.",
-    heroKicker: "Blog / A0 Studios",
+      "Vídeo corporativo vs vídeo de marca personal: qué cambia en guion, dirección y edición antes de grabar en A0Studios.",
+    heroKicker: "Blog / A0Studios",
     body: [
       {
         type: "paragraph",
@@ -8100,7 +8100,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En A0 Studios grabamos los dos formatos cada semana y la diferencia no está en la cámara ni en la sala, está en las decisiones que se toman antes de grabar: quién habla, para quién habla y qué tiene que sentir quien lo ve. Esto es lo que cambia realmente entre uno y otro.",
+        text: "En A0Studios grabamos los dos formatos cada semana y la diferencia no está en la cámara ni en la sala, está en las decisiones que se toman antes de grabar: quién habla, para quién habla y qué tiene que sentir quien lo ve. Esto es lo que cambia realmente entre uno y otro.",
       },
       {
         type: "image",
@@ -8188,7 +8188,7 @@ export const blogPosts: BlogPost[] = [
     slug: "donde-grabar-anuncios-en-madrid",
     title: "Dónde grabar anuncios en Madrid: qué mirar antes de reservar estudio",
     description:
-      "Dónde grabar anuncios en Madrid sin quedarte en un vídeo bonito que no vende: qué buscar en dirección, equipo y producción antes de reservar sesión en A0 Studios.",
+      "Dónde grabar anuncios en Madrid sin quedarte en un vídeo bonito que no vende: qué buscar en dirección, equipo y producción antes de reservar sesión en A0Studios.",
     publishedAt: "2026-09-15",
     readingTime: "4 min",
     category: "Guía",
@@ -8197,10 +8197,10 @@ export const blogPosts: BlogPost[] = [
     intent: "informacional",
     excerpt:
       "Buscar dónde grabar anuncios en Madrid no es solo encontrar un espacio con buena luz. Qué mirar de verdad antes de reservar estudio.",
-    seoTitle: "Dónde grabar anuncios en Madrid | A0 Studios Madrid",
+    seoTitle: "Dónde grabar anuncios en Madrid",
     metaDescription:
       "Dónde grabar anuncios en Madrid: qué mirar en dirección, equipo y producción antes de reservar estudio para tus campañas de Meta Ads o TikTok Ads.",
-    heroKicker: "Blog / A0 Studios",
+    heroKicker: "Blog / A0Studios",
     body: [
       {
         type: "paragraph",
@@ -8208,7 +8208,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "En A0 Studios grabamos anuncios para Meta Ads, TikTok Ads y VSLs en nuestro ático de Ronda de Atocha 16, en Madrid centro. Aquí te cuento qué mirar antes de reservar cualquier estudio, no solo el nuestro, para que la sesión no se quede en metraje bonito que nadie sabe cómo convertir en campaña.",
+        text: "En A0Studios grabamos anuncios para Meta Ads, TikTok Ads y VSLs en nuestro ático de Ronda de Atocha 16, en Madrid centro. Aquí te cuento qué mirar antes de reservar cualquier estudio, no solo el nuestro, para que la sesión no se quede en metraje bonito que nadie sabe cómo convertir en campaña.",
       },
       {
         type: "image",
@@ -8231,7 +8231,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 3, text: "Dirección con criterio de venta, no solo estético" },
       {
         type: "paragraph",
-        text: "En A0 Studios no alquilamos una sala para que grabes tú solo: dirigimos la sesión con el mismo criterio que usamos para nuestras propias campañas de pago. Eso significa cortar una toma que se ve bien pero no va a convertir, y pedir una repetición de un plano soso aunque técnicamente esté correcto. La diferencia entre un anuncio que rinde y uno que se queda sin presupuesto está casi siempre en decisiones que se toman durante la grabación, no en la sala en la que se graba.",
+        text: "En A0Studios no alquilamos una sala para que grabes tú solo: dirigimos la sesión con el mismo criterio que usamos para nuestras propias campañas de pago. Eso significa cortar una toma que se ve bien pero no va a convertir, y pedir una repetición de un plano soso aunque técnicamente esté correcto. La diferencia entre un anuncio que rinde y uno que se queda sin presupuesto está casi siempre en decisiones que se toman durante la grabación, no en la sala en la que se graba.",
       },
       { type: "heading", level: 3, text: "Equipo pensado para el formato del anuncio" },
       {
@@ -8264,7 +8264,7 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", level: 2, text: "Preguntas frecuentes" },
       {
         type: "faq",
-        question: "¿Cuánto dura una sesión para grabar anuncios en A0 Studios?",
+        question: "¿Cuánto dura una sesión para grabar anuncios en A0Studios?",
         answer:
           "Entre 2 y 3 horas para varias variantes de un mismo anuncio. Si necesitas piezas para distintas campañas o públicos, ajustamos el tiempo según cuántos guiones y cambios de vestuario o fondo hagan falta.",
       },
