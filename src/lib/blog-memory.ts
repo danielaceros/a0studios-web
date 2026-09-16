@@ -649,6 +649,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d — issue OAuth persistente desde al menos 2026-09-10, sigue pendiente de reautorización manual, escalar a Dani, confirmado de nuevo esta ejecución). Fallback evergreen Prioridad 1 (SEO local/comercial) ítem 1 de la lista, primero de esa lista no presente en memoria — nueva dirección de posicionamiento (2026-09-14) hacia intención local/comercial de 'dónde grabar' en vez de solo buyer persona. Tema sobre qué mirar antes de reservar estudio para grabar anuncios (Meta/TikTok Ads, VSL) en Madrid, reforzando el pitch de dirección técnica con criterio de venta. Imágenes Unsplash.",
   },
+  {
+    slug: "donde-grabar-vsl-en-madrid",
+    keyword: "donde grabar un vsl en madrid",
+    intent: "informacional",
+    createdAt: "2026-09-16",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d — issue OAuth persistente desde al menos 2026-09-10, sigue pendiente de reautorización manual, escalar a Dani, confirmado de nuevo esta ejecución). Fallback evergreen Prioridad 1 (SEO local/comercial) ítem 2 de la lista (ítem 1 ya publicado el 2026-09-15). Tema sobre dónde y cómo grabar un VSL en Madrid: audio, dirección de venta e iluminación antes de reservar estudio, ángulo distinto de 'vsl-linkedin-estructura-duracion-como-grabarlo' (foco en plataforma LinkedIn, no en intención local de dónde grabar). Imágenes Unsplash.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

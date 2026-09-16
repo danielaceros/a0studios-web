@@ -8292,6 +8292,119 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "donde-grabar-vsl-en-madrid",
+    title: "Dónde grabar un VSL en Madrid: qué mirar antes de reservar estudio",
+    description:
+      "Dónde grabar un VSL en Madrid sin quedarte en un vídeo bonito que no vende: audio, dirección de venta y errores comunes antes de reservar sesión en A0Studios.",
+    publishedAt: "2026-09-16",
+    readingTime: "4 min",
+    category: "Guía",
+    tags: ["VSL", "estudio de grabación", "Madrid", "vídeo para ventas", "producción publicitaria"],
+    keyword: "donde grabar un vsl en madrid",
+    intent: "informacional",
+    excerpt:
+      "Un VSL es un argumento de venta grabado, no un vídeo corporativo. Qué mirar de verdad antes de reservar estudio en Madrid para grabarlo.",
+    seoTitle: "Dónde grabar un VSL en Madrid",
+    metaDescription:
+      "Dónde grabar un VSL en Madrid: qué mirar en audio, dirección de venta e iluminación antes de reservar estudio para tu campaña.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Un VSL es un vídeo de ventas: una pieza pensada para vender un producto o servicio directamente, ya sea como anuncio en Meta o TikTok o como vídeo principal de una landing. No es un vídeo corporativo ni un reel bonito. Es un argumento de venta grabado, y eso cambia todo lo que necesitas del sitio donde lo grabas.",
+      },
+      {
+        type: "paragraph",
+        text: "En Madrid hay estudios de sobra para grabar algo con buena imagen. Lo que escasea es dirección con criterio de venta: alguien que sepa qué frase se corta, qué toma sostiene la atención y qué remate cierra sin sonar a anuncio. Elegir dónde grabar tu VSL es elegir quién te dirige, no solo qué cámara usan.",
+      },
+      {
+        type: "image",
+        src: "/blog/donde-grabar-vsl-en-madrid/hero.webp",
+        alt: "Micrófono profesional y auriculares en mesa de grabación de estudio",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué es un VSL y por qué importa dónde lo grabas" },
+      {
+        type: "paragraph",
+        text: "Un VSL bien hecho combina guion de venta, presencia en cámara y una producción que no distraiga del mensaje. Se usa como creativo de Meta Ads o TikTok Ads, como vídeo principal de una landing, o como apertura de un webinar de venta. La duración habitual va de 90 segundos a 4 minutos, según sea un anuncio corto o una pieza de ventas larga.",
+      },
+      {
+        type: "paragraph",
+        text: "El sitio donde lo grabas afecta a tres cosas: el audio (una sala sin tratar se nota en cualquier VSL con voz en primer plano), el tiempo real de producción (montar luces y cámara en una oficina cuesta más de lo que parece) y, sobre todo, la dirección durante la grabación. Un VSL se graba en tomas cortas con ajustes de tono y ritmo entre toma y toma, y eso exige a alguien que dirija con criterio de venta, no solo de imagen.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios grabamos VSL para founders y equipos de marketing en Ronda de Atocha 16, en pleno centro de Madrid. La diferencia no es el ático: es que quien dirige la sesión ha hecho anuncios que han vendido, y distingue una toma que convence de una que solo queda bien.",
+      },
+      { type: "heading", level: 2, text: "Cómo se graba bien un VSL" },
+      { type: "heading", level: 3, text: "Audio limpio, sin eco de sala" },
+      {
+        type: "paragraph",
+        text: "El VSL vive o muere en el audio. Si la voz suena a habitación vacía, el espectador lo nota en los primeros segundos y se va. Grabamos con micrófono de solapa o de cañón según el plano, en una sala con tratamiento acústico, nada de grabar en una sala de reuniones con cristales y mesa que rebota cada palabra.",
+      },
+      { type: "heading", level: 3, text: "Dirección de venta, no solo de cámara" },
+      {
+        type: "paragraph",
+        text: "Antes de grabar, repasamos el guion en voz alta y marcamos dónde va el hook, dónde entra la prueba social y dónde cierra la oferta. Durante la grabación dirijo cada toma pensando en qué frase necesita más énfasis y qué se puede cortar en edición, igual que dirigiría un anuncio pagado, porque muchas veces es exactamente eso.",
+      },
+      { type: "heading", level: 3, text: "Iluminación y encuadre que no distraigan del mensaje" },
+      {
+        type: "paragraph",
+        text: "Un VSL no necesita un montaje visual complejo. Necesita luz que no cambie de tono entre tomas y un encuadre estable que mantenga el foco en la persona que habla. Usamos un esquema de 2-3 luces fijo y objetivos de foco corto para que la cara ocupe el plano sin distorsión.",
+      },
+      {
+        type: "image",
+        src: "/blog/donde-grabar-vsl-en-madrid/mid.webp",
+        alt: "Persona hablando a cámara en estudio con iluminación profesional",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al grabar un VSL" },
+      {
+        type: "list",
+        items: [
+          "Grabar en una oficina con eco y luz de fluorescente que cambia de tono entre tomas.",
+          "Leer el guion palabra por palabra sin pausas, lo que suena a robot y baja la conversión.",
+          "No grabar tomas de repaso para las frases clave de la oferta.",
+          "Confundir dirección de imagen con dirección de venta: quedar bien no es lo mismo que vender.",
+          "Llegar sin haber probado el guion en voz alta antes, lo que alarga la sesión y cansa a quien habla.",
+          "No dejar margen para repetir el cierre de la oferta, que suele ser la parte que más se repite.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión de grabación de un VSL?",
+        answer:
+          "Entre 2 y 3 horas para un guion de hasta 4 minutos, contando repeticiones y ajustes de tono. Si el guion tiene varias versiones, por ejemplo distintos hooks para testear en Meta Ads, puede alargarse a media jornada.",
+      },
+      {
+        type: "faq",
+        question: "¿Necesito llevar mi propio guion?",
+        answer:
+          "Sí, o al menos un esquema claro del argumento de venta: hook, problema, solución, prueba social, oferta y cierre. Ayudamos a ajustarlo en sala, pero la estructura de venta la define quien conoce el producto.",
+      },
+      {
+        type: "faq",
+        question: "¿Se puede grabar más de una versión del VSL en la misma sesión?",
+        answer:
+          "Sí. Es habitual grabar 2-3 variaciones del hook inicial para testear en campañas de Meta o TikTok Ads, manteniendo el resto del guion igual.",
+      },
+      {
+        type: "faq",
+        question: "¿El estudio incluye edición del VSL?",
+        answer:
+          "Depende del servicio: Solo Grabación entrega el material en bruto, Grabación + Edición incluye el montaje listo para publicar, y Producción Completa añade guion y dirección estratégica desde cero.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes un guion de venta y quieres grabarlo con dirección de alguien que también hace anuncios, cuéntanos en /#contacto qué necesitas y hablamos de fecha.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
