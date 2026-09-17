@@ -59,6 +59,27 @@ export function whenPixelReady(callback: () => void, timeoutMs = 20000) {
 
 /** sessionStorage: de qué formulario sale el lead. Lo guarda FormOriginBeacon; lo lee /gracias. */
 export const FORM_ORIGIN_KEY = "form_origin";
+
+/**
+ * sessionStorage: marca de tiempo de un ENVÍO real del formulario. La escribe FormOriginBeacon cuando el iframe
+ * de GHL avisa de que ha creado el contacto; la lee /gracias. `form_origin` NO sirve para esto: se escribe al
+ * montar el formulario, o sea con solo llegar a verlo, y dejaba que /gracias contara como lead a cualquiera que
+ * bajase hasta el formulario sin enviarlo y luego llegase a /gracias por historial o atrás/adelante.
+ */
+export const FORM_SUBMIT_KEY = "form_submitted_at";
+
+/** Un envío vale como lead solo si /gracias llega poco después; pasado este rato, la marca se considera vieja. */
+export const SUBMIT_MAX_AGE_MS = 15 * 60 * 1000;
+
+/** sessionStorage: qué lead se ha contado ya, para no repetirlo al recargar /gracias o volver con atrás/adelante. */
+export const LEAD_FIRED_KEY = "lead_fired";
+
+/**
+ * Origen del formulario de GHL: solo se aceptan mensajes suyos al escuchar el envío. Es el dominio white-label
+ * de Dani. Ojo: es subdominio de daniaceros.com, no de a0studios.es, así que aquí el iframe sigue siendo
+ * third-party; se usa igualmente porque es el host que sirve el formulario de las dos marcas.
+ */
+export const GHL_FORM_ORIGIN = "https://api.daniaceros.com";
 export const UTM_KEYS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"] as const;
 
 export type FormOrigin = {
@@ -77,4 +98,19 @@ export function currentFormOrigin(): FormOrigin {
     if (value) result[key] = value.slice(0, 100);
   }
   return result;
+}
+
+/** Id del formulario de GHL de A0Studios (el mismo en las dos partes de la web donde está embebido). */
+export const GHL_FORM_ID = "sxDYj1gBgfvDh9PI9Jte";
+
+/**
+ * URL del iframe del formulario con el origen del lead: la query de la página (UTM) + `origen` y `pagina`.
+ * GHL copia estos params a la URL de la redirección, así que son la prueba en /gracias de que el lead viene
+ * de un envío de verdad. Solo en cliente. Mismo patrón que `prepareFormSrc` en daniaceros.com.
+ */
+export function ghlFormSrc(): string {
+  const params = new URLSearchParams(window.location.search);
+  params.set("origen", "web");
+  params.set("pagina", window.location.pathname);
+  return `${GHL_FORM_ORIGIN}/widget/form/${GHL_FORM_ID}?${params}`;
 }

@@ -1,10 +1,19 @@
 "use client";
 
+import { useEffect, useState } from "react";
+
 import FormOriginBeacon from "@/components/analytics/FormOriginBeacon";
+import { ghlFormSrc } from "@/lib/analytics";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import Script from "next/script";
 
 export default function CTA() {
+  // El src se calcula en cliente (lleva las UTM y el origen de la página); hasta entonces no se monta el iframe.
+  const [formSrc, setFormSrc] = useState<string | null>(null);
+
+  useEffect(() => {
+    setFormSrc(ghlFormSrc());
+  }, []);
 
   return (
     <section
@@ -72,8 +81,8 @@ export default function CTA() {
                 <div className="rounded-[4px] border border-foreground/[0.08] bg-[#0A0A0A]" style={{ minHeight: 500, width: "100%" }}>
                   {/* Guarda el origen del lead antes de que GHL redirija a /gracias. */}
                   <FormOriginBeacon />
-                  <iframe
-                    src="https://api.fitnesslaunch.es/widget/form/sxDYj1gBgfvDh9PI9Jte"
+                  {formSrc && <iframe
+                    src={formSrc}
                     style={{ width: "100%", height: "100%", border: "none", borderRadius: 0, minHeight: 500 }}
                     id="inline-sxDYj1gBgfvDh9PI9Jte"
                     data-layout='{"id":"INLINE"}'
@@ -89,9 +98,9 @@ export default function CTA() {
                     data-form-id="sxDYj1gBgfvDh9PI9Jte"
                     title="Form - The A0Studios"
                     scrolling="no"
-                  />
+                  />}
                   <Script
-                    src="https://api.fitnesslaunch.es/js/form_embed.js"
+                    src="https://api.daniaceros.com/js/form_embed.js"
                     strategy="afterInteractive"
                   />
                 </div>
