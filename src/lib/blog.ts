@@ -8405,6 +8405,131 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "estudio-grabar-contenido-organico-madrid",
+    title: "Estudio para grabar contenido orgánico en Madrid: qué mirar antes de reservar",
+    description:
+      "Grabar contenido orgánico para redes no es lo mismo que grabar un anuncio. Qué mirar en formato, ritmo y dirección antes de reservar estudio en Madrid.",
+    publishedAt: "2026-09-17",
+    readingTime: "4 min",
+    category: "Guía",
+    tags: ["contenido orgánico", "estudio de grabación", "Madrid", "redes sociales", "reels", "creadores de contenido"],
+    keyword: "estudio para grabar contenido organico en madrid",
+    intent: "informacional",
+    excerpt:
+      "Contenido orgánico no tiene presupuesto de medios empujándolo: tiene que enganchar solo. Qué mirar antes de reservar estudio en Madrid para grabarlo bien.",
+    seoTitle: "Estudio para grabar contenido orgánico en Madrid",
+    metaDescription:
+      "Estudio para grabar contenido orgánico en Madrid: qué mirar en formato, ritmo de sesión y dirección antes de reservar.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Contenido orgánico es todo lo que publicas sin pauta detrás: reels, TikToks, vídeos para LinkedIn, carruseles en vídeo. No hay presupuesto de medios empujando la pieza, así que tiene que enganchar sola en los primeros segundos o el algoritmo la entierra antes de que nadie la vea completa.",
+      },
+      {
+        type: "paragraph",
+        text: "En Madrid hay estudios con buena luz y cámara de sobra. Lo que marca la diferencia para contenido orgánico es la dirección: alguien que sepa qué formato retiene por plataforma, cuántas piezas sacar de una sesión y cómo hacer que suene natural, no a guion leído.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-grabar-contenido-organico-madrid/hero.webp",
+        alt: "Creador de contenido grabando con estabilizador en interior con luz de estudio",
+        width: 1880,
+        height: 1253,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué es contenido orgánico y por qué importa dónde lo grabas" },
+      {
+        type: "paragraph",
+        text: "Un anuncio se sostiene con presupuesto: si el hook no funciona a la primera, ajustas la puja o cambias la variante y sigues teniendo alcance. Un vídeo orgánico no tiene ese colchón. Depende de que las primeras personas que lo ven se queden, comenten o lo compartan, porque de eso depende que el algoritmo se lo enseñe a más gente.",
+      },
+      {
+        type: "paragraph",
+        text: "Eso cambia lo que necesitas del sitio donde grabas: menos importa un plató enorme y más importa moverte rápido entre looks y temas, tener quien dirija el ritmo de habla para que no suene a lectura, y salir de la sesión con material suficiente para no volver a pisar el estudio en semanas.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios grabamos contenido orgánico para founders, marcas personales y equipos de marketing en Ronda de Atocha 16, en un ático en pleno centro de Madrid. La diferencia no es el ático: es que quien dirige la sesión también dirige anuncios de pago, y sabe distinguir un hook que retiene de uno que solo queda bien.",
+      },
+      {
+        type: "paragraph",
+        text: "Eso no significa que el espacio no importe. Un fondo limpio, luz constante y una sala donde no entre ruido de calle te ahorran horas de edición corrigiendo lo que se pudo evitar en el momento de grabar. Pero el espacio es la base, no la razón por la que un vídeo funciona: eso lo decide quién dirige la sesión.",
+      },
+      { type: "heading", level: 2, text: "Cómo se graba bien contenido orgánico" },
+      { type: "heading", level: 3, text: "Formato vertical pensado para cada plataforma" },
+      {
+        type: "paragraph",
+        text: "Grabamos en vertical 9:16 dejando margen arriba y abajo para la interfaz de cada red: la barra de comentarios de TikTok no ocupa el mismo espacio que los controles de Instagram. Encuadrar pensando en el recorte final evita perder texto en pantalla o cortar una mano en un gesto importante.",
+      },
+      {
+        type: "paragraph",
+        text: "También cambia el plano según la red: LinkedIn tiende a premiar planos más cerrados y estáticos, mientras que Reels y TikTok aguantan más movimiento de cámara. Decidir esto antes de grabar, no en edición, ahorra tener que recortar mal una toma pensada para otro formato.",
+      },
+      { type: "heading", level: 3, text: "Ritmo y cantidad de piezas por sesión" },
+      {
+        type: "paragraph",
+        text: "Una sesión de 2-3 horas da para 15-20 clips si llegas con temas definidos de antemano, no solo con una idea general. Solemos agrupar por looks o localizaciones dentro del estudio y grabar todos los temas de cada look seguidos, para no perder tiempo cambiando de sitio entre pieza y pieza.",
+      },
+      { type: "heading", level: 3, text: "Dirección que suene natural, no publicitaria" },
+      {
+        type: "paragraph",
+        text: "El error más común es leer el guion palabra por palabra. Dirigimos con esquema, no con texto cerrado: marcamos la idea de cada frase y dejamos que la persona la diga con sus palabras, cortando y repitiendo solo cuando se pierde el hilo, no cuando cambia una palabra por otra.",
+      },
+      {
+        type: "paragraph",
+        text: "Con cámaras o founders que nunca han grabado, empezamos con la pieza más fácil, normalmente una opinión corta sobre algo que dominan, antes de pasar a temas que requieren más estructura. Ese calentamiento cambia por completo el resultado de las piezas que vienen después.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-grabar-contenido-organico-madrid/mid.webp",
+        alt: "Persona grabando contenido a cámara con cámara en mano en estudio",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al grabar contenido orgánico" },
+      {
+        type: "list",
+        items: [
+          "Grabar en horizontal y recortar después, perdiendo composición y texto en pantalla.",
+          "Usar un único look o vestuario para todas las piezas, lo que hace que el feed se vea repetitivo.",
+          "No preparar un hook distinto para cada pieza y reciclar la misma apertura en todo.",
+          "Llevar un guion cerrado y leerlo palabra por palabra, sonando a anuncio en vez de a persona real.",
+          "No planificar cuántos temas grabar antes de llegar, saliendo de la sesión con menos material del necesario.",
+          "Confundir buena luz con buena dirección: la luz no salva una pieza sin gancho en los primeros segundos.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión de contenido orgánico?",
+        answer:
+          "Entre 2 y 3 horas para sacar 15-20 piezas cortas, si llegas con los temas definidos. Sin temas claros, la misma sesión rinde bastante menos porque el tiempo se va en decidir qué grabar.",
+      },
+      {
+        type: "faq",
+        question: "¿Necesito llevar guion escrito?",
+        answer:
+          "Mejor un esquema por pieza: idea principal, ejemplo y cierre. Un guion palabra por palabra suele sonar más forzado en contenido orgánico que en un anuncio, precisamente porque el formato pide naturalidad.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar para varias redes en la misma sesión?",
+        answer:
+          "Sí, y es habitual. Cambia el encuadre y el ritmo de habla según la plataforma, pero el grueso del contenido y la localización dentro del estudio se puede compartir entre piezas. Lo que no compartimos es el vestuario y el look entre piezas de la misma sesión: variarlos evita que el feed se vea como un único vídeo cortado en trozos.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué servicio incluye la edición de los clips?",
+        answer:
+          "Solo Grabación entrega el material en bruto, Grabación + Edición incluye el montaje de cada pieza lista para publicar, y Producción Completa añade planificación de temas y dirección estratégica desde cero.",
+      },
+      {
+        type: "paragraph",
+        text: "Si quieres salir de una sesión con contenido orgánico que de verdad retenga, cuéntanos en /#contacto qué temas tienes en mente y hablamos de fecha.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

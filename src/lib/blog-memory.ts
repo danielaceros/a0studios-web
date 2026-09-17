@@ -658,6 +658,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d — issue OAuth persistente desde al menos 2026-09-10, sigue pendiente de reautorización manual, escalar a Dani, confirmado de nuevo esta ejecución). Fallback evergreen Prioridad 1 (SEO local/comercial) ítem 2 de la lista (ítem 1 ya publicado el 2026-09-15). Tema sobre dónde y cómo grabar un VSL en Madrid: audio, dirección de venta e iluminación antes de reservar estudio, ángulo distinto de 'vsl-linkedin-estructura-duracion-como-grabarlo' (foco en plataforma LinkedIn, no en intención local de dónde grabar). Imágenes Unsplash.",
   },
+  {
+    slug: "estudio-grabar-contenido-organico-madrid",
+    keyword: "estudio para grabar contenido organico en madrid",
+    intent: "informacional",
+    createdAt: "2026-09-17",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d — issue OAuth persistente desde al menos 2026-09-10, sigue pendiente de reautorización manual, escalar a Dani, confirmado de nuevo esta ejecución). Fallback evergreen Prioridad 1 (SEO local/comercial): ítem 3 ('estudio para grabar anuncios en Madrid') se descartó por solapar demasiado con 'donde-grabar-anuncios-en-madrid' ya publicado (misma intención, solo cambia 'dónde' por 'estudio'); se usó ítem 4 de la lista. Tema sobre grabar contenido orgánico (reels, TikToks, LinkedIn) frente a anuncios de pago: formato vertical, ritmo de piezas por sesión y dirección natural, ángulo distinto de los VSL/anuncios ya cubiertos y de 'grabar-instagram-linkedin-youtube-misma-sesion' (foco en adaptar a varias redes, no en distinguir orgánico de pago). Imágenes Unsplash/Pexels.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
