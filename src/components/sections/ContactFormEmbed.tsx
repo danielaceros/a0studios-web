@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import FormOriginBeacon from "@/components/analytics/FormOriginBeacon";
 
 type Props = {
   className?: string;
@@ -37,6 +38,8 @@ export default function ContactFormEmbed({ className, loadDelay = 0, signalReady
 
   return (
     <div ref={containerRef} className={`relative ${className ?? ""}`}>
+      {/* Guarda el origen del lead antes de que GHL redirija a /gracias. */}
+      <FormOriginBeacon />
       {!shouldRender && (
         <div className="flex min-h-[300px] items-center justify-center sm:min-h-[400px] md:min-h-[600px]">
           <span className="h-8 w-8 animate-spin rounded-full border border-foreground/20 border-t-foreground/60" />

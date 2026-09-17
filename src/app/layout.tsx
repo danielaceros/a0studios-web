@@ -71,6 +71,23 @@ export default function RootLayout({
             gtag('config', 'G-5RBDKSDEZQ');
           `}
         </Script>
+        {/* Píxel de Meta de A0Studios. Vivía dentro de CookieConsent y solo cargaba si aceptaban el banner,
+            mientras Google Ads/GA4 cargaban siempre: incoherente dentro de la propia web y, sobre todo,
+            distinto de daniaceros.com. Decisión de Dani (17-sep-2026): las dos webs igual, sin gate. */}
+        <Script id="meta-pixel" strategy="lazyOnload">
+          {`
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '900204272395673');
+            fbq('track', 'PageView');
+          `}
+        </Script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

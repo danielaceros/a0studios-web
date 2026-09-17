@@ -57,7 +57,9 @@ export default function CookieConsent() {
 
   return (
     <>
-      {/* Tracking scripts — solo se cargan con consentimiento aceptado */}
+      {/* Clarity — solo con consentimiento aceptado.
+          El píxel de Meta ya NO vive aquí: se carga siempre desde src/app/layout.tsx, igual que
+          Google Ads/GA4 y que daniaceros.com, para que los dos píxeles midan lo mismo. */}
       {consent === "accepted" && (
         <>
           <Script id="microsoft-clarity" strategy="lazyOnload">
@@ -67,20 +69,6 @@ export default function CookieConsent() {
                 t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
                 y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
               })(window, document, "clarity", "script", "vn26qy7r7m");
-            `}
-          </Script>
-          <Script id="meta-pixel" strategy="lazyOnload">
-            {`
-              !function(f,b,e,v,n,t,s)
-              {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-              n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-              if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-              n.queue=[];t=b.createElement(e);t.async=!0;
-              t.src=v;s=b.getElementsByTagName(e)[0];
-              s.parentNode.insertBefore(t,s)}(window, document,'script',
-              'https://connect.facebook.net/en_US/fbevents.js');
-              fbq('init', '900204272395673');
-              fbq('track', 'PageView');
             `}
           </Script>
         </>
