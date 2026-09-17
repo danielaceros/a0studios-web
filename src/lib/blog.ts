@@ -8292,6 +8292,244 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "donde-grabar-vsl-en-madrid",
+    title: "Dónde grabar un VSL en Madrid: qué mirar antes de reservar estudio",
+    description:
+      "Dónde grabar un VSL en Madrid sin quedarte en un vídeo bonito que no vende: audio, dirección de venta y errores comunes antes de reservar sesión en A0Studios.",
+    publishedAt: "2026-09-16",
+    readingTime: "4 min",
+    category: "Guía",
+    tags: ["VSL", "estudio de grabación", "Madrid", "vídeo para ventas", "producción publicitaria"],
+    keyword: "donde grabar un vsl en madrid",
+    intent: "informacional",
+    excerpt:
+      "Un VSL es un argumento de venta grabado, no un vídeo corporativo. Qué mirar de verdad antes de reservar estudio en Madrid para grabarlo.",
+    seoTitle: "Dónde grabar un VSL en Madrid",
+    metaDescription:
+      "Dónde grabar un VSL en Madrid: qué mirar en audio, dirección de venta e iluminación antes de reservar estudio para tu campaña.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Un VSL es un vídeo de ventas: una pieza pensada para vender un producto o servicio directamente, ya sea como anuncio en Meta o TikTok o como vídeo principal de una landing. No es un vídeo corporativo ni un reel bonito. Es un argumento de venta grabado, y eso cambia todo lo que necesitas del sitio donde lo grabas.",
+      },
+      {
+        type: "paragraph",
+        text: "En Madrid hay estudios de sobra para grabar algo con buena imagen. Lo que escasea es dirección con criterio de venta: alguien que sepa qué frase se corta, qué toma sostiene la atención y qué remate cierra sin sonar a anuncio. Elegir dónde grabar tu VSL es elegir quién te dirige, no solo qué cámara usan.",
+      },
+      {
+        type: "image",
+        src: "/blog/donde-grabar-vsl-en-madrid/hero.webp",
+        alt: "Micrófono profesional y auriculares en mesa de grabación de estudio",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué es un VSL y por qué importa dónde lo grabas" },
+      {
+        type: "paragraph",
+        text: "Un VSL bien hecho combina guion de venta, presencia en cámara y una producción que no distraiga del mensaje. Se usa como creativo de Meta Ads o TikTok Ads, como vídeo principal de una landing, o como apertura de un webinar de venta. La duración habitual va de 90 segundos a 4 minutos, según sea un anuncio corto o una pieza de ventas larga.",
+      },
+      {
+        type: "paragraph",
+        text: "El sitio donde lo grabas afecta a tres cosas: el audio (una sala sin tratar se nota en cualquier VSL con voz en primer plano), el tiempo real de producción (montar luces y cámara en una oficina cuesta más de lo que parece) y, sobre todo, la dirección durante la grabación. Un VSL se graba en tomas cortas con ajustes de tono y ritmo entre toma y toma, y eso exige a alguien que dirija con criterio de venta, no solo de imagen.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios grabamos VSL para founders y equipos de marketing en Ronda de Atocha 16, en pleno centro de Madrid. La diferencia no es el ático: es que quien dirige la sesión ha hecho anuncios que han vendido, y distingue una toma que convence de una que solo queda bien.",
+      },
+      { type: "heading", level: 2, text: "Cómo se graba bien un VSL" },
+      { type: "heading", level: 3, text: "Audio limpio, sin eco de sala" },
+      {
+        type: "paragraph",
+        text: "El VSL vive o muere en el audio. Si la voz suena a habitación vacía, el espectador lo nota en los primeros segundos y se va. Grabamos con micrófono de solapa o de cañón según el plano, en una sala con tratamiento acústico, nada de grabar en una sala de reuniones con cristales y mesa que rebota cada palabra.",
+      },
+      { type: "heading", level: 3, text: "Dirección de venta, no solo de cámara" },
+      {
+        type: "paragraph",
+        text: "Antes de grabar, repasamos el guion en voz alta y marcamos dónde va el hook, dónde entra la prueba social y dónde cierra la oferta. Durante la grabación dirijo cada toma pensando en qué frase necesita más énfasis y qué se puede cortar en edición, igual que dirigiría un anuncio pagado, porque muchas veces es exactamente eso.",
+      },
+      { type: "heading", level: 3, text: "Iluminación y encuadre que no distraigan del mensaje" },
+      {
+        type: "paragraph",
+        text: "Un VSL no necesita un montaje visual complejo. Necesita luz que no cambie de tono entre tomas y un encuadre estable que mantenga el foco en la persona que habla. Usamos un esquema de 2-3 luces fijo y objetivos de foco corto para que la cara ocupe el plano sin distorsión.",
+      },
+      {
+        type: "image",
+        src: "/blog/donde-grabar-vsl-en-madrid/mid.webp",
+        alt: "Persona hablando a cámara en estudio con iluminación profesional",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al grabar un VSL" },
+      {
+        type: "list",
+        items: [
+          "Grabar en una oficina con eco y luz de fluorescente que cambia de tono entre tomas.",
+          "Leer el guion palabra por palabra sin pausas, lo que suena a robot y baja la conversión.",
+          "No grabar tomas de repaso para las frases clave de la oferta.",
+          "Confundir dirección de imagen con dirección de venta: quedar bien no es lo mismo que vender.",
+          "Llegar sin haber probado el guion en voz alta antes, lo que alarga la sesión y cansa a quien habla.",
+          "No dejar margen para repetir el cierre de la oferta, que suele ser la parte que más se repite.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión de grabación de un VSL?",
+        answer:
+          "Entre 2 y 3 horas para un guion de hasta 4 minutos, contando repeticiones y ajustes de tono. Si el guion tiene varias versiones, por ejemplo distintos hooks para testear en Meta Ads, puede alargarse a media jornada.",
+      },
+      {
+        type: "faq",
+        question: "¿Necesito llevar mi propio guion?",
+        answer:
+          "Sí, o al menos un esquema claro del argumento de venta: hook, problema, solución, prueba social, oferta y cierre. Ayudamos a ajustarlo en sala, pero la estructura de venta la define quien conoce el producto.",
+      },
+      {
+        type: "faq",
+        question: "¿Se puede grabar más de una versión del VSL en la misma sesión?",
+        answer:
+          "Sí. Es habitual grabar 2-3 variaciones del hook inicial para testear en campañas de Meta o TikTok Ads, manteniendo el resto del guion igual.",
+      },
+      {
+        type: "faq",
+        question: "¿El estudio incluye edición del VSL?",
+        answer:
+          "Depende del servicio: Solo Grabación entrega el material en bruto, Grabación + Edición incluye el montaje listo para publicar, y Producción Completa añade guion y dirección estratégica desde cero.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes un guion de venta y quieres grabarlo con dirección de alguien que también hace anuncios, cuéntanos en /#contacto qué necesitas y hablamos de fecha.",
+      },
+    ],
+  },
+  {
+    slug: "estudio-grabar-contenido-organico-madrid",
+    title: "Estudio para grabar contenido orgánico en Madrid: qué mirar antes de reservar",
+    description:
+      "Grabar contenido orgánico para redes no es lo mismo que grabar un anuncio. Qué mirar en formato, ritmo y dirección antes de reservar estudio en Madrid.",
+    publishedAt: "2026-09-17",
+    readingTime: "4 min",
+    category: "Guía",
+    tags: ["contenido orgánico", "estudio de grabación", "Madrid", "redes sociales", "reels", "creadores de contenido"],
+    keyword: "estudio para grabar contenido organico en madrid",
+    intent: "informacional",
+    excerpt:
+      "Contenido orgánico no tiene presupuesto de medios empujándolo: tiene que enganchar solo. Qué mirar antes de reservar estudio en Madrid para grabarlo bien.",
+    seoTitle: "Estudio para grabar contenido orgánico en Madrid",
+    metaDescription:
+      "Estudio para grabar contenido orgánico en Madrid: qué mirar en formato, ritmo de sesión y dirección antes de reservar.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Contenido orgánico es todo lo que publicas sin pauta detrás: reels, TikToks, vídeos para LinkedIn, carruseles en vídeo. No hay presupuesto de medios empujando la pieza, así que tiene que enganchar sola en los primeros segundos o el algoritmo la entierra antes de que nadie la vea completa.",
+      },
+      {
+        type: "paragraph",
+        text: "En Madrid hay estudios con buena luz y cámara de sobra. Lo que marca la diferencia para contenido orgánico es la dirección: alguien que sepa qué formato retiene por plataforma, cuántas piezas sacar de una sesión y cómo hacer que suene natural, no a guion leído.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-grabar-contenido-organico-madrid/hero.webp",
+        alt: "Creador de contenido grabando con estabilizador en interior con luz de estudio",
+        width: 1880,
+        height: 1253,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué es contenido orgánico y por qué importa dónde lo grabas" },
+      {
+        type: "paragraph",
+        text: "Un anuncio se sostiene con presupuesto: si el hook no funciona a la primera, ajustas la puja o cambias la variante y sigues teniendo alcance. Un vídeo orgánico no tiene ese colchón. Depende de que las primeras personas que lo ven se queden, comenten o lo compartan, porque de eso depende que el algoritmo se lo enseñe a más gente.",
+      },
+      {
+        type: "paragraph",
+        text: "Eso cambia lo que necesitas del sitio donde grabas: menos importa un plató enorme y más importa moverte rápido entre looks y temas, tener quien dirija el ritmo de habla para que no suene a lectura, y salir de la sesión con material suficiente para no volver a pisar el estudio en semanas.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios grabamos contenido orgánico para founders, marcas personales y equipos de marketing en Ronda de Atocha 16, en un ático en pleno centro de Madrid. La diferencia no es el ático: es que quien dirige la sesión también dirige anuncios de pago, y sabe distinguir un hook que retiene de uno que solo queda bien.",
+      },
+      {
+        type: "paragraph",
+        text: "Eso no significa que el espacio no importe. Un fondo limpio, luz constante y una sala donde no entre ruido de calle te ahorran horas de edición corrigiendo lo que se pudo evitar en el momento de grabar. Pero el espacio es la base, no la razón por la que un vídeo funciona: eso lo decide quién dirige la sesión.",
+      },
+      { type: "heading", level: 2, text: "Cómo se graba bien contenido orgánico" },
+      { type: "heading", level: 3, text: "Formato vertical pensado para cada plataforma" },
+      {
+        type: "paragraph",
+        text: "Grabamos en vertical 9:16 dejando margen arriba y abajo para la interfaz de cada red: la barra de comentarios de TikTok no ocupa el mismo espacio que los controles de Instagram. Encuadrar pensando en el recorte final evita perder texto en pantalla o cortar una mano en un gesto importante.",
+      },
+      {
+        type: "paragraph",
+        text: "También cambia el plano según la red: LinkedIn tiende a premiar planos más cerrados y estáticos, mientras que Reels y TikTok aguantan más movimiento de cámara. Decidir esto antes de grabar, no en edición, ahorra tener que recortar mal una toma pensada para otro formato.",
+      },
+      { type: "heading", level: 3, text: "Ritmo y cantidad de piezas por sesión" },
+      {
+        type: "paragraph",
+        text: "Una sesión de 2-3 horas da para 15-20 clips si llegas con temas definidos de antemano, no solo con una idea general. Solemos agrupar por looks o localizaciones dentro del estudio y grabar todos los temas de cada look seguidos, para no perder tiempo cambiando de sitio entre pieza y pieza.",
+      },
+      { type: "heading", level: 3, text: "Dirección que suene natural, no publicitaria" },
+      {
+        type: "paragraph",
+        text: "El error más común es leer el guion palabra por palabra. Dirigimos con esquema, no con texto cerrado: marcamos la idea de cada frase y dejamos que la persona la diga con sus palabras, cortando y repitiendo solo cuando se pierde el hilo, no cuando cambia una palabra por otra.",
+      },
+      {
+        type: "paragraph",
+        text: "Con cámaras o founders que nunca han grabado, empezamos con la pieza más fácil, normalmente una opinión corta sobre algo que dominan, antes de pasar a temas que requieren más estructura. Ese calentamiento cambia por completo el resultado de las piezas que vienen después.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-grabar-contenido-organico-madrid/mid.webp",
+        alt: "Persona grabando contenido a cámara con cámara en mano en estudio",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al grabar contenido orgánico" },
+      {
+        type: "list",
+        items: [
+          "Grabar en horizontal y recortar después, perdiendo composición y texto en pantalla.",
+          "Usar un único look o vestuario para todas las piezas, lo que hace que el feed se vea repetitivo.",
+          "No preparar un hook distinto para cada pieza y reciclar la misma apertura en todo.",
+          "Llevar un guion cerrado y leerlo palabra por palabra, sonando a anuncio en vez de a persona real.",
+          "No planificar cuántos temas grabar antes de llegar, saliendo de la sesión con menos material del necesario.",
+          "Confundir buena luz con buena dirección: la luz no salva una pieza sin gancho en los primeros segundos.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión de contenido orgánico?",
+        answer:
+          "Entre 2 y 3 horas para sacar 15-20 piezas cortas, si llegas con los temas definidos. Sin temas claros, la misma sesión rinde bastante menos porque el tiempo se va en decidir qué grabar.",
+      },
+      {
+        type: "faq",
+        question: "¿Necesito llevar guion escrito?",
+        answer:
+          "Mejor un esquema por pieza: idea principal, ejemplo y cierre. Un guion palabra por palabra suele sonar más forzado en contenido orgánico que en un anuncio, precisamente porque el formato pide naturalidad.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar para varias redes en la misma sesión?",
+        answer:
+          "Sí, y es habitual. Cambia el encuadre y el ritmo de habla según la plataforma, pero el grueso del contenido y la localización dentro del estudio se puede compartir entre piezas. Lo que no compartimos es el vestuario y el look entre piezas de la misma sesión: variarlos evita que el feed se vea como un único vídeo cortado en trozos.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué servicio incluye la edición de los clips?",
+        answer:
+          "Solo Grabación entrega el material en bruto, Grabación + Edición incluye el montaje de cada pieza lista para publicar, y Producción Completa añade planificación de temas y dirección estratégica desde cero.",
+      },
+      {
+        type: "paragraph",
+        text: "Si quieres salir de una sesión con contenido orgánico que de verdad retenga, cuéntanos en /#contacto qué temas tienes en mente y hablamos de fecha.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
