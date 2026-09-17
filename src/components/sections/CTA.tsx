@@ -1,5 +1,6 @@
 "use client";
 
+import FormOriginBeacon from "@/components/analytics/FormOriginBeacon";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import Script from "next/script";
 
@@ -69,6 +70,8 @@ export default function CTA() {
 
                 {/* GHL Form embed */}
                 <div className="rounded-[4px] border border-foreground/[0.08] bg-[#0A0A0A]" style={{ minHeight: 500, width: "100%" }}>
+                  {/* Guarda el origen del lead antes de que GHL redirija a /gracias. */}
+                  <FormOriginBeacon />
                   <iframe
                     src="https://api.fitnesslaunch.es/widget/form/sxDYj1gBgfvDh9PI9Jte"
                     style={{ width: "100%", height: "100%", border: "none", borderRadius: 0, minHeight: 500 }}
