@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import FormOriginBeacon from "@/components/analytics/FormOriginBeacon";
+import { ghlFormSrc } from "@/lib/analytics";
 
 type Props = {
   className?: string;
@@ -13,7 +14,14 @@ type Props = {
 
 export default function ContactFormEmbed({ className, loadDelay = 0, signalReady = false }: Props) {
   const [shouldRender, setShouldRender] = useState(loadDelay === 0);
+  // El src se calcula en cliente (lleva las UTM y el origen de la página), así que el iframe no se pinta
+  // hasta tenerlo: si no, el servidor renderizaría una URL sin params y la hidratación no cuadraría.
+  const [formSrc, setFormSrc] = useState<string | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    setFormSrc(ghlFormSrc());
+  }, []);
 
   useEffect(() => {
     if (shouldRender || !containerRef.current) return;
@@ -40,14 +48,14 @@ export default function ContactFormEmbed({ className, loadDelay = 0, signalReady
     <div ref={containerRef} className={`relative ${className ?? ""}`}>
       {/* Guarda el origen del lead antes de que GHL redirija a /gracias. */}
       <FormOriginBeacon />
-      {!shouldRender && (
+      {!(shouldRender && formSrc) && (
         <div className="flex min-h-[300px] items-center justify-center sm:min-h-[400px] md:min-h-[600px]">
           <span className="h-8 w-8 animate-spin rounded-full border border-foreground/20 border-t-foreground/60" />
         </div>
       )}
-      {shouldRender && (
+      {shouldRender && formSrc && (
         <iframe
-          src="https://api.fitnesslaunch.es/widget/form/sxDYj1gBgfvDh9PI9Jte"
+          src={formSrc}
           id="inline-sxDYj1gBgfvDh9PI9Jte"
           data-layout='{"id":"INLINE"}'
           data-trigger-type="alwaysShow"
