@@ -81,7 +81,7 @@ export const LEAD_FIRED_KEY = "lead_fired";
  * white-label, rompía el formulario en producción ("Este contenido está bloqueado") aunque la URL respondiera
  * 200 al pedirla suelta. Falta configurar ese dominio en GHL para poder embeberlo; hasta entonces, no tocar.
  */
-export const GHL_FORM_ORIGIN = "https://api.fitnesslaunch.es";
+export const GHL_FORM_ORIGIN = "https://api.daniaceros.com";
 export const UTM_KEYS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"] as const;
 
 export type FormOrigin = {
