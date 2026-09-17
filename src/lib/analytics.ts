@@ -75,11 +75,13 @@ export const SUBMIT_MAX_AGE_MS = 15 * 60 * 1000;
 export const LEAD_FIRED_KEY = "lead_fired";
 
 /**
- * Origen del formulario de GHL: solo se aceptan mensajes suyos al escuchar el envío. Es el dominio white-label
- * de Dani. Ojo: es subdominio de daniaceros.com, no de a0studios.es, así que aquí el iframe sigue siendo
- * third-party; se usa igualmente porque es el host que sirve el formulario de las dos marcas.
+ * Origen del formulario de GHL: solo se aceptan mensajes suyos al escuchar el envío.
+ *
+ * REVERTIDO (17-sep-2026) a api.fitnesslaunch.es: servir el iframe desde api.daniaceros.com, el dominio
+ * white-label, rompía el formulario en producción ("Este contenido está bloqueado") aunque la URL respondiera
+ * 200 al pedirla suelta. Falta configurar ese dominio en GHL para poder embeberlo; hasta entonces, no tocar.
  */
-export const GHL_FORM_ORIGIN = "https://api.daniaceros.com";
+export const GHL_FORM_ORIGIN = "https://api.fitnesslaunch.es";
 export const UTM_KEYS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"] as const;
 
 export type FormOrigin = {

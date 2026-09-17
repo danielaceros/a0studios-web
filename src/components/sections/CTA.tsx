@@ -100,7 +100,7 @@ export default function CTA() {
                     scrolling="no"
                   />}
                   <Script
-                    src="https://api.daniaceros.com/js/form_embed.js"
+                    src="https://api.fitnesslaunch.es/js/form_embed.js"
                     strategy="afterInteractive"
                   />
                 </div>

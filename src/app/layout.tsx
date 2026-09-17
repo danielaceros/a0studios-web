@@ -55,7 +55,7 @@ export default function RootLayout({
         {/* Preconnect a Firebase Storage retirado (9-sep-2026): los vídeos de
             portfolio ya no dependen de ese storage (ver src/data/projects.ts,
             devolvía 402 por facturación) — el preconnect era dead weight. */}
-        <link rel="preconnect" href="https://api.daniaceros.com" />
+        <link rel="preconnect" href="https://api.fitnesslaunch.es" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://connect.facebook.net" />
         <Script
