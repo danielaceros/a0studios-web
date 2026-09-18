@@ -8530,6 +8530,119 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "estudio-grabacion-redes-sociales-madrid",
+    title: "Estudio de grabación para redes sociales en Madrid: qué necesitas antes de reservar",
+    description:
+      "Qué debe tener un estudio de grabación para redes sociales en Madrid: equipo pensado para vertical, dirección con criterio de venta y ritmo de sesión.",
+    publishedAt: "2026-09-18",
+    readingTime: "4 min",
+    category: "Guía",
+    tags: ["redes sociales", "estudio de grabación", "Madrid", "contenido para redes", "reels", "creadores de contenido"],
+    keyword: "estudio de grabacion para redes sociales en madrid",
+    intent: "informacional",
+    excerpt:
+      "Grabar para redes sociales de forma recurrente pide otro tipo de estudio: menos plató, más rapidez y alguien que dirija pensando en qué convierte.",
+    seoTitle: "Estudio de grabación para redes sociales en Madrid",
+    metaDescription:
+      "Estudio de grabación para redes sociales en Madrid: qué equipo, fondo y dirección necesitas para grabar rápido y con resultado que funcione.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Cuando grabas para redes sociales de forma recurrente, no buscas lo mismo que para un anuncio puntual o un vídeo corporativo de una vez al año. Buscas un sitio donde puedas volver cada dos o tres semanas, montar rápido, grabar varias piezas seguidas y salir sin haber perdido media sesión en ajustar luz o encuadre.",
+      },
+      {
+        type: "paragraph",
+        text: "En Madrid hay estudios pensados para rodajes largos con equipo de cine y otros pensados para esto: sesiones cortas, formato vertical y mucha rotación de piezas. Elegir el que no encaja con tu ritmo real de publicación es la forma más común de acabar pagando de más por algo que no necesitas.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-grabacion-redes-sociales-madrid/hero.webp",
+        alt: "Persona grabando contenido para redes sociales con smartphone en estabilizador",
+        width: 1880,
+        height: 1253,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué es un estudio para redes sociales y por qué no es un plató cualquiera" },
+      {
+        type: "paragraph",
+        text: "Un estudio pensado para redes sociales prioriza cosas distintas a un plató de rodaje tradicional: fondos que se cambian en minutos, luz ya calibrada para piel y pantalla sin tener que montarla desde cero, y un flujo de trabajo donde grabar 10 o 15 piezas cortas en una tarde es lo normal, no la excepción.",
+      },
+      {
+        type: "paragraph",
+        text: "El equipo importa, pero importa más quién dirige. Cualquier sala con buena luz produce un vídeo correcto. Lo que separa una pieza que retiene de una que se desliza sin pena ni gloria es la dirección: alguien que sepa qué hook funciona en cada red, cuánto debe durar un plano antes de cortar y cuándo un guion suena a guion.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios grabamos contenido para redes en Ronda de Atocha 16, un ático en el centro de Madrid, con quien dirige también campañas de pago en Meta y TikTok. Eso cambia el criterio: no dirigimos pensando solo en que quede bonito, dirigimos pensando en qué formato retiene y qué frase abre bien un vídeo.",
+      },
+      { type: "heading", level: 2, text: "Cómo se hace bien" },
+      { type: "heading", level: 3, text: "Equipo montado para grabar en vertical desde el minuto uno" },
+      {
+        type: "paragraph",
+        text: "Cámara y luz ya orientadas a 9:16, sin tener que reconfigurar nada al llegar. Encuadramos dejando margen para la interfaz de cada red desde la propia grabación, no en edición, así no se pierde texto en pantalla ni se recorta mal un gesto importante.",
+      },
+      { type: "heading", level: 3, text: "Dirección con criterio de venta, no solo estético" },
+      {
+        type: "paragraph",
+        text: "Antes de grabar preguntamos qué red es prioritaria y qué se quiere conseguir con cada pieza: awareness, tráfico o venta directa. La dirección cambia según la respuesta. Un hook para retención orgánica no es el mismo que uno pensado para parar el scroll en un anuncio pagado.",
+      },
+      { type: "heading", level: 3, text: "Ritmo de sesión pensado para salir con semanas de contenido" },
+      {
+        type: "paragraph",
+        text: "Una sesión de 2-3 horas con temas definidos de antemano da para 12-18 piezas cortas. Agrupamos por look o por tema y grabamos todo lo relacionado seguido, para no perder tiempo cambiando de vestuario o de fondo entre pieza y pieza.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-grabacion-redes-sociales-madrid/mid.webp",
+        alt: "Cámara sobre trípode preparada junto a equipo de grabación para contenido",
+        width: 1920,
+        height: 1281,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al elegir estudio para redes sociales" },
+      {
+        type: "list",
+        items: [
+          "Reservar un plató de rodaje tradicional para grabar piezas cortas: pagas por tiempo de montaje que no necesitas.",
+          "Llegar sin temas definidos y usar la sesión para decidir qué grabar en vez de para grabar.",
+          "No preguntar si quien dirige tiene experiencia real con anuncios de pago, no solo con estética.",
+          "Grabar en horizontal 'por si acaso' y recortar después, perdiendo composición pensada para vertical.",
+          "Repetir el mismo fondo y vestuario en todas las piezas, haciendo que el feed se vea monótono.",
+          "No planificar cuántas piezas necesitas para varias semanas, volviendo al estudio antes de lo previsto.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cada cuánto tiene sentido reservar sesión para redes sociales?",
+        answer:
+          "Depende del ritmo de publicación, pero lo habitual es cada 2-4 semanas si sales con 12-18 piezas por sesión. Menos frecuencia suele significar quedarse sin contenido a mitad de ciclo.",
+      },
+      {
+        type: "faq",
+        question: "¿Necesito equipo propio o el estudio lo pone todo?",
+        answer:
+          "En A0Studios el equipo técnico (cámara, luz, audio) está incluido en Solo Grabación. Lo único que aportas tú son los temas y, si aplica, vestuario o producto a mostrar.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar para varias redes en la misma sesión?",
+        answer:
+          "Sí. Cambia el encuadre, el ritmo y a veces la duración según la red, pero se puede cubrir Instagram, TikTok y LinkedIn en la misma visita si llegas con los temas organizados por plataforma.",
+      },
+      {
+        type: "faq",
+        question: "¿La dirección incluye ayuda con el guion?",
+        answer:
+          "En Grabación + Edición y Producción Completa sí: ayudamos a estructurar la idea de cada pieza antes de grabar. En Solo Grabación llegas con el guion o esquema ya preparado.",
+      },
+      {
+        type: "paragraph",
+        text: "Si grabas para redes de forma recurrente y quieres que además de verse bien funcione, cuéntanos en /#contacto tu ritmo de publicación y vemos qué formato de sesión encaja.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

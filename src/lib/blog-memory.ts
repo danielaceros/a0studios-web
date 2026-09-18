@@ -667,6 +667,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d — issue OAuth persistente desde al menos 2026-09-10, sigue pendiente de reautorización manual, escalar a Dani, confirmado de nuevo esta ejecución). Fallback evergreen Prioridad 1 (SEO local/comercial): ítem 3 ('estudio para grabar anuncios en Madrid') se descartó por solapar demasiado con 'donde-grabar-anuncios-en-madrid' ya publicado (misma intención, solo cambia 'dónde' por 'estudio'); se usó ítem 4 de la lista. Tema sobre grabar contenido orgánico (reels, TikToks, LinkedIn) frente a anuncios de pago: formato vertical, ritmo de piezas por sesión y dirección natural, ángulo distinto de los VSL/anuncios ya cubiertos y de 'grabar-instagram-linkedin-youtube-misma-sesion' (foco en adaptar a varias redes, no en distinguir orgánico de pago). Imágenes Unsplash/Pexels.",
   },
+  {
+    slug: "estudio-grabacion-redes-sociales-madrid",
+    keyword: "estudio de grabacion para redes sociales en madrid",
+    intent: "informacional",
+    createdAt: "2026-09-18",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d — issue OAuth persistente desde al menos 2026-09-10, sigue pendiente de reautorización manual, escalar a Dani, confirmado de nuevo esta ejecución). Fallback evergreen Prioridad 1 (SEO local/comercial) ítem 5 de la lista (ítems 1, 2 y 4 ya publicados; ítem 3 descartado por solapar con el ítem 1). Tema sobre qué necesita un estudio pensado para grabar redes sociales de forma recurrente (equipo vertical, dirección con criterio de venta, ritmo de sesión), ángulo distinto de contenido orgánico vs pago y de multi-red ya cubiertos. Imágenes Unsplash/Pexels.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
