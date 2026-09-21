@@ -676,6 +676,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d — issue OAuth persistente desde al menos 2026-09-10, sigue pendiente de reautorización manual, escalar a Dani, confirmado de nuevo esta ejecución). Fallback evergreen Prioridad 1 (SEO local/comercial) ítem 5 de la lista (ítems 1, 2 y 4 ya publicados; ítem 3 descartado por solapar con el ítem 1). Tema sobre qué necesita un estudio pensado para grabar redes sociales de forma recurrente (equipo vertical, dirección con criterio de venta, ritmo de sesión), ángulo distinto de contenido orgánico vs pago y de multi-red ya cubiertos. Imágenes Unsplash/Pexels.",
   },
+  {
+    slug: "mejor-estudio-spots-publicitarios-madrid",
+    keyword: "mejor estudio para grabar spots publicitarios en madrid",
+    intent: "informacional",
+    createdAt: "2026-09-21",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen Prioridad 1 (SEO local/comercial) ítem 6 de la lista (ítems 1, 2, 4 y 5 ya publicados; ítem 3 descartado por solapar con el ítem 1). Ángulo: cómo elegir estudio para spots con criterio de venta (luz, montaje, dirección con experiencia en ads), distinto del post heredado 'grabacion-spots-publicitarios-estudio' (proceso de grabación, sin foco local ni criterio de elección). Imágenes Unsplash.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

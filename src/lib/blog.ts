@@ -8643,6 +8643,119 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "mejor-estudio-spots-publicitarios-madrid",
+    title: "Mejor estudio para grabar spots publicitarios en Madrid: qué mirar antes de elegir",
+    description:
+      "Cómo elegir el mejor estudio para grabar spots publicitarios en Madrid: luz, equipo, dirección con criterio de venta y qué preguntar antes de reservar.",
+    publishedAt: "2026-09-21",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["spots publicitarios", "estudio de grabación", "Madrid", "anuncios", "Meta Ads", "producción de vídeo"],
+    keyword: "mejor estudio para grabar spots publicitarios en madrid",
+    intent: "informacional",
+    excerpt:
+      "El mejor estudio para un spot no es el más grande ni el más caro: es el que te da control de luz, rapidez de montaje y a alguien que dirija pensando en vender.",
+    seoTitle: "Mejor estudio para grabar spots publicitarios en Madrid",
+    metaDescription:
+      "Mejor estudio para grabar spots publicitarios en Madrid: qué equipo, luz y dirección con criterio de venta necesitas y qué preguntar antes de reservar.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Buscar el mejor estudio para grabar spots publicitarios en Madrid es más difícil de lo que parece, porque casi todos enseñan lo mismo: fotos bonitas del espacio, una lista de equipo y un precio por hora. Rara vez cuentan lo que de verdad decide si el spot funciona.",
+      },
+      {
+        type: "paragraph",
+        text: "Un spot no se mide por lo bien que queda en el portfolio del estudio. Se mide por cuánto retiene, cuánto cuesta cada clic y si alguien acaba comprando. Por eso el criterio de elección tiene que ir más allá del espacio.",
+      },
+      {
+        type: "image",
+        src: "/blog/mejor-estudio-spots-publicitarios-madrid/hero.webp",
+        alt: "Estudio fotográfico con cámara y luces preparado para grabar un spot publicitario",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué hace mejor a un estudio para spots publicitarios" },
+      {
+        type: "paragraph",
+        text: "Tres cosas: control de luz, tiempo de montaje corto y una dirección que entienda de publicidad. Lo primero permite repetir el look de un spot a otro, lo segundo te deja más minutos de cámara dentro de la misma reserva y lo tercero evita grabar cinco versiones de algo que nadie va a ver.",
+      },
+      {
+        type: "paragraph",
+        text: "El tamaño del plató pesa menos de lo que se cree. Para un spot de producto, un testimonial o un anuncio con una persona hablando a cámara, 30-40 m² bien iluminados rinden más que una nave enorme donde pierdes una hora en montar y desmontar.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios grabamos en un ático de Ronda de Atocha 16, en el centro de Madrid, con luz natural y artificial controlable. Pero el diferencial no es el ático: es que quien dirige la sesión hace anuncios y sabe qué convierte, tanto en Meta y TikTok Ads como en orgánico.",
+      },
+      { type: "heading", level: 2, text: "Cómo se elige bien" },
+      { type: "heading", level: 3, text: "Pide ver spots que hayan funcionado, no solo que se vean bien" },
+      {
+        type: "paragraph",
+        text: "Un portfolio estético no dice nada sobre resultados. Pregunta si quien te va a dirigir ha trabajado con campañas de pago y si puede explicarte qué decisiones de guion o de plano influyeron en el rendimiento. Si la respuesta es vaga, estás alquilando una sala, no una dirección.",
+      },
+      { type: "heading", level: 3, text: "Comprueba qué incluye el equipo y qué no" },
+      {
+        type: "paragraph",
+        text: "Cámara tipo Sony A7, óptica luminosa, dos o tres puntos de luz y un micrófono de corbata o de cañón son el mínimo razonable para un spot. Pregunta si el sonido va incluido y si hay fondos o cambios de decorado, porque ahí es donde suelen aparecer los extras en la factura.",
+      },
+      { type: "heading", level: 3, text: "Define el formato antes de reservar" },
+      {
+        type: "paragraph",
+        text: "Un spot de 30 segundos para Meta Ads en 9:16 se planifica distinto que uno de 60 segundos en 16:9 para web. Lo ideal es grabar varias versiones en la misma sesión: un hook distinto para cada variante, una duración corta y otra larga. Así llegas a la fase de test con material de sobra.",
+      },
+      {
+        type: "image",
+        src: "/blog/mejor-estudio-spots-publicitarios-madrid/mid.webp",
+        alt: "Equipo de producción reunido alrededor de una cámara durante el rodaje de un spot",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al elegir estudio para un spot" },
+      {
+        type: "list",
+        items: [
+          "Elegir por el precio por hora sin preguntar cuánto tarda el montaje y qué se factura aparte.",
+          "Reservar un plató enorme para un spot con una sola persona y un fondo.",
+          "Llegar sin guion ni estructura de hook, problema y llamada a la acción, y improvisar en cámara.",
+          "Grabar una única versión del spot y quedarte sin nada que testear si no funciona.",
+          "No preguntar quién dirige ni qué experiencia real tiene con anuncios de pago.",
+          "Dejar el sonido para el final: un spot con buen plano y audio flojo se descarta antes del segundo dos.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto dura la grabación de un spot publicitario?",
+        answer:
+          "Un spot de 30-60 segundos con una o dos personas suele resolverse en 2-3 horas de sesión, incluyendo montaje de luz y varias versiones. Si hay cambios de escena, producto o más gente, cuenta con media jornada.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar varios spots en una sola sesión?",
+        answer:
+          "Sí, y es lo más rentable. Agrupando spots que comparten fondo y luz puedes salir con 3-5 piezas en una mañana. Lo importante es llegar con los guiones cerrados antes de empezar.",
+      },
+      {
+        type: "faq",
+        question: "¿Necesito llevar mi propio equipo?",
+        answer:
+          "No. En A0Studios cámara, luz y audio están incluidos en Solo Grabación. Tú aportas el guion, el producto si lo hay y, si aplica, vestuario.",
+      },
+      {
+        type: "faq",
+        question: "¿Ofrecéis edición del spot?",
+        answer:
+          "Sí. Con Grabación + Edición o Producción Completa entregamos las versiones montadas en los formatos que necesites, listas para subir a Meta o TikTok.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes un spot en mente y quieres que además de verse bien venda, cuéntanos en /#contacto qué quieres anunciar y dónde lo vas a publicar, y te decimos qué formato de sesión encaja.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
