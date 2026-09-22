@@ -38,7 +38,7 @@ export function getProfessionalServiceSchema() {
       height: 604,
     },
     image: [
-      `${SITE_URL}/optimized/og-image.jpg`,
+      `${SITE_URL}/optimized/og-a0studios.jpg`,
       `${SITE_URL}/optimized/studio-1.webp`,
       `${SITE_URL}/optimized/studio-2.webp`,
     ],
@@ -257,7 +257,7 @@ export function getVideoSchema() {
     name: "A0Studios - Showreel",
     description:
       "Showreel de A0Studios, estudio de grabación de contenido en Madrid: anuncios, VSLs, reels y podcast.",
-    thumbnailUrl: `${SITE_URL}/optimized/og-image.jpg`,
+    thumbnailUrl: `${SITE_URL}/optimized/og-a0studios.jpg`,
     uploadDate: "2024-01-01",
     duration: "PT30S",
     contentUrl: `${SITE_URL}/video/corr.mp4`,
@@ -316,7 +316,7 @@ export function getBlogPostingSchema(post: {
     headline: post.title,
     description: post.description,
     url,
-    image: `${SITE_URL}/optimized/og-image.jpg`,
+    image: `${SITE_URL}/optimized/og-a0studios.jpg`,
     inLanguage: "es",
     datePublished: post.publishedAt,
     dateModified: post.updatedAt ?? post.publishedAt,

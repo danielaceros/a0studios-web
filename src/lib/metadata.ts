@@ -20,7 +20,7 @@ export const siteMetadata: Metadata = {
     description: SITE_DESCRIPTION,
     images: [
       {
-        url: "/optimized/og-image.jpg",
+        url: "/optimized/og-a0studios.jpg",
         width: 1200,
         height: 630,
         alt: `${SITE_NAME} — Estudio de grabación de contenido que convierte en Madrid`,
@@ -31,7 +31,7 @@ export const siteMetadata: Metadata = {
     card: "summary_large_image",
     title: `${SITE_NAME} — Estudio de grabación de contenido que convierte en Madrid`,
     description: SITE_DESCRIPTION,
-    images: ["/optimized/og-image.jpg"],
+    images: ["/optimized/og-a0studios.jpg"],
   },
   robots: {
     index: true,
