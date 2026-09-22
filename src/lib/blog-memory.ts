@@ -685,6 +685,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen Prioridad 1 (SEO local/comercial) ítem 6 de la lista (ítems 1, 2, 4 y 5 ya publicados; ítem 3 descartado por solapar con el ítem 1). Ángulo: cómo elegir estudio para spots con criterio de venta (luz, montaje, dirección con experiencia en ads), distinto del post heredado 'grabacion-spots-publicitarios-estudio' (proceso de grabación, sin foco local ni criterio de elección). Imágenes Unsplash.",
   },
+  {
+    slug: "estudio-grabacion-direccion-marketing-madrid",
+    keyword: "estudio de grabacion con direccion de marketing en madrid",
+    intent: "informacional",
+    createdAt: "2026-09-22",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual desde hace varias ejecuciones consecutivas). Fallback evergreen Prioridad 1 (SEO local/comercial) ítem 9 de la lista (ítems 1, 2, 4, 5 y 6 ya publicados; ítem 3 descartado por solapar con el ítem 1; ítem 7 'reels y TikToks en Madrid' descartado por solapar con 'grabacion-reels-madrid-que-necesitas' ya en memoria; ítem 8 'Meta Ads en Madrid' descartado por solapar con 'donde-grabar-anuncios-en-madrid', que ya cubre Meta/TikTok Ads). Tema nuevo sobre por qué el diferencial de un estudio no es el espacio sino la dirección con criterio de marketing (guion, hook, formatos que salen de una sesión), reforzando el pitch de venta actualizado. Imágenes Unsplash.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

@@ -8756,6 +8756,118 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "estudio-grabacion-direccion-marketing-madrid",
+    title: "Estudio de grabación con dirección de marketing en Madrid: por qué importa quién te dirige",
+    description:
+      "Por qué un estudio de grabación en Madrid con dirección de marketing da mejores resultados que uno que solo ofrece espacio, luz y cámara.",
+    publishedAt: "2026-09-22",
+    readingTime: "4 min",
+    category: "Guía",
+    tags: ["estudio de grabación", "Madrid", "dirección de contenido", "marketing", "Meta Ads", "producción audiovisual"],
+    keyword: "estudio de grabacion con direccion de marketing en madrid",
+    intent: "informacional",
+    excerpt:
+      "Un estudio bonito no vende nada por sí solo. Lo que cambia el resultado es quién dirige la sesión y si sabe qué convierte en redes o en anuncios de pago.",
+    seoTitle: "Estudio de grabación con dirección de marketing en Madrid",
+    metaDescription:
+      "Estudio de grabación con dirección de marketing en Madrid: el resultado depende de quién dirige la sesión, no solo del espacio.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Buscar estudio de grabación en Madrid casi siempre empieza igual: comparar metros cuadrados, focos y precio por hora. Pero ese comparativo no dice nada sobre lo que de verdad decide si un vídeo funciona. Un ático bonito con buena luz no vende nada por sí solo. Lo que mueve el resultado es quién dirige la sesión y con qué criterio.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios partimos de esa idea. No alquilamos un espacio para que grabes lo que traigas pensado: dirigimos la sesión con el mismo criterio que aplicaríamos a una campaña de Meta Ads o a una pieza orgánica que tiene que retener a alguien en los primeros tres segundos. La diferencia no se nota en las fotos del estudio. Se nota en si el contenido, después, hace algo.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-grabacion-direccion-marketing-madrid/hero.webp",
+        alt: "Director de grabación ajustando el encuadre de una cámara de cine en un estudio",
+        width: 1920,
+        height: 1301,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué significa dirección de marketing en un estudio de grabación" },
+      {
+        type: "paragraph",
+        text: "La mayoría de estudios en Madrid ofrecen sala, luz, cámara y a veces un técnico. Eso resuelve la parte técnica: que el vídeo se vea nítido y suene limpio. Pero no resuelve si el vídeo convierte, retiene o posiciona. Dirección de marketing significa que quien está detrás de la cámara ha grabado, editado y visto los datos de campañas reales, y aplica ese criterio al plano, al guion y al ritmo desde el primer segundo, no solo en la fase de edición.",
+      },
+      {
+        type: "paragraph",
+        text: "Eso cambia decisiones muy concretas. Cambia dónde se corta la primera frase, si el producto entra a los tres segundos o a los quince, si el plano es fijo o hay movimiento, y cuántas versiones del mismo mensaje conviene grabar para tener con qué testear luego. Un operador de cámara sin ese criterio graba lo que le pides. Alguien con dirección de marketing te dice, antes de grabar, qué versión de tu idea tiene más opciones de funcionar.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios esto lo aplicamos igual con clientes que van directos a campañas de pago y con marcas que solo publican en orgánico. El objetivo cambia, pero el método no: definir primero qué tiene que conseguir el vídeo y grabar en función de eso, no al revés.",
+      },
+      { type: "heading", level: 2, text: "Cómo se hace bien" },
+      { type: "heading", level: 3, text: "Antes de grabar: brief con objetivo real" },
+      {
+        type: "paragraph",
+        text: "No empezamos preguntando cuántas horas necesitas. Empezamos preguntando qué tiene que pasar después de que alguien vea el vídeo: que compre, que reserve una llamada, que se quede viendo el perfil, que confíe en la marca. Esa respuesta cambia el guion, el hook y hasta el orden de las piezas dentro de la sesión. Sin ese paso, el vídeo puede quedar bonito y no mover nada.",
+      },
+      { type: "heading", level: 3, text: "En sala: dirección activa, no solo encender luces" },
+      {
+        type: "paragraph",
+        text: "Durante la grabación no nos limitamos a ajustar el encuadre. Repetimos una toma si el hook no engancha en los primeros tres segundos, cambiamos el orden de las frases si la idea se entiende mejor al revés, y proponemos una segunda versión del mismo mensaje si creemos que hay una opción con más recorrido para testear. Esa parte no se arregla del todo en edición: si la dirección en sala falla, la pieza sale coja aunque el montaje sea perfecto.",
+      },
+      { type: "heading", level: 3, text: "Después: qué formatos salen de una sola sesión" },
+      {
+        type: "paragraph",
+        text: "De una sesión de tres horas suelen salir varias piezas: un spot corto para ads, dos o tres versiones del mismo hook para testear en Meta o TikTok, y contenido orgánico adicional para LinkedIn o Instagram si sobra tiempo. Planificar esto antes de grabar, no después, es lo que permite salir con material para varias semanas en lugar de un único vídeo suelto.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-grabacion-direccion-marketing-madrid/mid.webp",
+        alt: "Cámara de cine profesional preparada durante el rodaje de una entrevista en estudio",
+        width: 1920,
+        height: 1080,
+      },
+      { type: "heading", level: 2, text: "Cuándo tiene sentido buscar dirección de marketing, no solo espacio" },
+      {
+        type: "list",
+        items: [
+          "Vas a lanzar campañas de pago en Meta o TikTok y necesitas creativos que se puedan testear, no una sola versión.",
+          "Ya has grabado contenido que se ve bien pero no convierte, y sospechas que el problema está en el guion o el hook.",
+          "Quieres aprovechar una misma sesión para anuncios y para contenido orgánico sin duplicar el coste.",
+          "Eres founder o responsable de marketing sin tiempo para pensar la estrategia de cada pieza antes de grabar.",
+          "Publicas con cierta frecuencia y necesitas variaciones para ir testeando qué funciona mejor, no una única pieza fija.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Qué diferencia hay entre alquilar un estudio y contratar dirección de marketing?",
+        answer:
+          "Alquilar un estudio te da espacio, luz y cámara. La dirección de marketing añade criterio sobre qué grabar, en qué orden y con qué versión, pensando en si el vídeo va a venderse en orgánico o en pago. Es la diferencia entre grabar lo que traes y grabar lo que tiene más opciones de funcionar.",
+      },
+      {
+        type: "faq",
+        question: "¿La dirección de marketing encarece la sesión?",
+        answer:
+          "No cambia el precio por hora. Está incluida en Grabación + Edición y Producción Completa. En Solo Grabación puedes pedirla como apoyo puntual antes de empezar a grabar.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo llevar mi propio guion y aun así tener dirección?",
+        answer:
+          "Sí. Revisamos el guion antes de grabar y proponemos ajustes de hook, ritmo o estructura si creemos que mejoran el resultado. Tú decides qué cambios aplicar.",
+      },
+      {
+        type: "faq",
+        question: "¿Sirve tanto para contenido orgánico como para anuncios de pago?",
+        answer:
+          "Sí, y es habitual combinarlos en la misma sesión. Cambia el formato y a veces la duración, pero el criterio de dirección —qué retiene, qué convierte— es el mismo en ambos casos.",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a grabar contenido que tiene que vender, no solo verse bien, cuéntanos en /#contacto qué campaña o qué formato tienes en mente y vemos qué modalidad de sesión encaja.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
