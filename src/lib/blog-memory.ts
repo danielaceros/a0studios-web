@@ -694,6 +694,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual desde hace varias ejecuciones consecutivas). Fallback evergreen Prioridad 1 (SEO local/comercial) ítem 9 de la lista (ítems 1, 2, 4, 5 y 6 ya publicados; ítem 3 descartado por solapar con el ítem 1; ítem 7 'reels y TikToks en Madrid' descartado por solapar con 'grabacion-reels-madrid-que-necesitas' ya en memoria; ítem 8 'Meta Ads en Madrid' descartado por solapar con 'donde-grabar-anuncios-en-madrid', que ya cubre Meta/TikTok Ads). Tema nuevo sobre por qué el diferencial de un estudio no es el espacio sino la dirección con criterio de marketing (guion, hook, formatos que salen de una sesión), reforzando el pitch de venta actualizado. Imágenes Unsplash.",
   },
+  {
+    slug: "alquiler-estudio-horas-grabar-anuncios-madrid",
+    keyword: "alquiler de estudio por horas para grabar anuncios en madrid",
+    intent: "informacional",
+    createdAt: "2026-09-23",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual desde hace varias ejecuciones consecutivas, escalar a Dani). Fallback evergreen Prioridad 1 (SEO local/comercial) ítem 10 de la lista (ítems 1, 2, 4, 5, 6 y 9 ya publicados; ítem 3 descartado por solapar con el ítem 1; ítem 7 descartado por solapar con 'grabacion-reels-madrid-que-necesitas'; ítem 8 descartado por solapar con el ítem 1). Tema nuevo sobre el modelo de alquiler por horas en sí (qué incluye la tarifa, cómo planificar la sesión para sacar varias variantes testeables de anuncio), ángulo de logística/precio de la sesión distinto de 'donde-grabar-anuncios-en-madrid' (decisión de dónde grabar) y 'mejor-estudio-spots-publicitarios-madrid' (criterio de elección del estudio). Imágenes Unsplash.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
