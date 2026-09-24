@@ -703,6 +703,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual desde hace varias ejecuciones consecutivas, escalar a Dani). Fallback evergreen Prioridad 1 (SEO local/comercial) ítem 10 de la lista (ítems 1, 2, 4, 5, 6 y 9 ya publicados; ítem 3 descartado por solapar con el ítem 1; ítem 7 descartado por solapar con 'grabacion-reels-madrid-que-necesitas'; ítem 8 descartado por solapar con el ítem 1). Tema nuevo sobre el modelo de alquiler por horas en sí (qué incluye la tarifa, cómo planificar la sesión para sacar varias variantes testeables de anuncio), ángulo de logística/precio de la sesión distinto de 'donde-grabar-anuncios-en-madrid' (decisión de dónde grabar) y 'mejor-estudio-spots-publicitarios-madrid' (criterio de elección del estudio). Imágenes Unsplash.",
   },
+  {
+    slug: "estudio-grabacion-madrid-centro-founders-marcas",
+    keyword: "estudio de grabacion en madrid centro para founders y marcas",
+    intent: "informacional",
+    createdAt: "2026-09-24",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual, mismo issue OAuth documentado desde hace varias ejecuciones consecutivas, escalar a Dani). Fallback evergreen Prioridad 1 (SEO local/comercial) ítem 11 de la lista (ítems 1, 2, 4, 5, 6, 9 y 10 ya publicados; ítem 3 descartado por solapar con el ítem 1; ítem 7 descartado por solapar con 'grabacion-reels-madrid-que-necesitas'; ítem 8 descartado por solapar con el ítem 1). Tema nuevo sobre por qué la ubicación en pleno centro de Madrid (Ronda de Atocha 16) importa específicamente para founders y marcas personales con agenda apretada, ángulo de perfil de cliente + localización distinto del checklist genérico 'como-elegir-estudio-grabacion-marca-personal' y de 'estudio-grabacion-direccion-marketing-madrid' (criterio de dirección, no ubicación). Imágenes Unsplash.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

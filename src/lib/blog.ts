@@ -8976,6 +8976,127 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "estudio-grabacion-madrid-centro-founders-marcas",
+    title: "Estudio de grabación en Madrid centro para founders y marcas personales",
+    description:
+      "Por qué la ubicación en pleno centro de Madrid facilita que founders y marcas personales graben contenido con regularidad, sin perder media mañana en desplazamientos.",
+    publishedAt: "2026-09-24",
+    readingTime: "4 min",
+    category: "Guía",
+    tags: ["estudio de grabación", "Madrid centro", "founders", "marca personal", "contenido", "producción audiovisual"],
+    keyword: "estudio de grabacion en madrid centro para founders y marcas",
+    intent: "informacional",
+    excerpt:
+      "Para un founder, elegir dónde grabar en Madrid no es un detalle logístico: es lo que decide si el contenido se graba con constancia o se pospone mes tras mes.",
+    seoTitle: "Estudio de grabación en Madrid centro para founders",
+    metaDescription:
+      "Estudio de grabación en Madrid centro pensado para founders y marcas personales: agenda apretada, dirección con criterio de venta y piezas para orgánico y pago.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si eres founder o llevas la marca personal de tu empresa, elegir dónde grabar en Madrid no es un detalle logístico. Ronda de Atocha 16, en pleno centro, no es solo una dirección cómoda: es la diferencia entre perder una hora en desplazamientos y llegar directo a grabar con la cabeza puesta en lo que vas a decir.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios trabajamos con founders, equipos de marketing y marcas personales que necesitan grabar contenido con cierta regularidad, ya sea para LinkedIn, para una campaña de ads o para el vídeo institucional de turno. El centro de Madrid facilita que la sesión encaje en una agenda apretada sin sacrificar calidad.",
+      },
+      {
+        type: "paragraph",
+        text: "La mayoría de founders con los que trabajamos no tienen un día entero para dedicar a grabar. Tienen una franja entre dos reuniones, o una mañana antes de coger un vuelo. Un estudio pensado para ese perfil no compite en tamaño de plató ni en decorado: compite en cuánto tarda desde que entras por la puerta hasta que sales con el material grabado.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-grabacion-madrid-centro-founders-marcas/hero.webp",
+        alt: "Founder grabando contenido en un estudio del centro de Madrid",
+        width: 1920,
+        height: 1282,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué la ubicación en el centro de Madrid importa" },
+      {
+        type: "paragraph",
+        text: "Un founder no tiene tres horas libres para desplazarse a un polígono a las afueras y volver. Si el estudio está en el centro, entre reuniones se puede colar una sesión de una hora sin reorganizar el día entero. Eso, en la práctica, es lo que decide si el contenido se graba con constancia o se pospone mes tras mes.",
+      },
+      {
+        type: "paragraph",
+        text: "Ronda de Atocha 16 está a pie de metro y a minutos de Sol, Antón Martín y Atocha. Para una marca que graba cada semana o cada mes, esa cercanía multiplica las probabilidades de que la sesión ocurra de verdad, no solo de que quede apuntada en el calendario.",
+      },
+      {
+        type: "paragraph",
+        text: "También importa para quien recibe visitas o inversores en Madrid centro y quiere aprovechar el viaje para grabar algo mientras está en la ciudad, sin añadir un trayecto largo a una agenda que ya tiene reuniones repartidas por el centro. Un estudio a pocos minutos a pie encaja en ese tipo de planificación mejor que uno pensado solo para producciones grandes de medio día.",
+      },
+      { type: "heading", level: 2, text: "Qué necesita un estudio pensado para founders y marcas" },
+      { type: "heading", level: 3, text: "Rapidez para encajar en una agenda apretada" },
+      {
+        type: "paragraph",
+        text: "Las sesiones se preparan de antemano: luz, cámara y set montados antes de que llegues. Un founder no viene a esperar mientras se coloca un foco, viene a grabar. En A0Studios una sesión de una hora rinde para 3-4 piezas distintas si el guion o los temas vienen decididos, y eso reduce el tiempo fuera de la oficina a lo estrictamente necesario.",
+      },
+      { type: "heading", level: 3, text: "Dirección con criterio de venta, no solo estético" },
+      {
+        type: "paragraph",
+        text: "No basta con que el vídeo quede bien iluminado. Quien dirige la sesión tiene que saber qué hook engancha en los primeros segundos, qué plano transmite autoridad y qué ritmo funciona en LinkedIn frente a lo que funciona en un anuncio de Meta. Ese criterio sale de haber hecho ads que venden, no solo de saber manejar una cámara. Es la diferencia entre un vídeo que se ve bien y uno que además consigue que alguien siga viéndolo hasta el final.",
+      },
+      { type: "heading", level: 3, text: "Piezas que sirven tanto para orgánico como para pago" },
+      {
+        type: "paragraph",
+        text: "Una misma sesión puede dar contenido para LinkedIn, un reel y un anuncio de Meta Ads si se planifica bien desde el principio. Founders y marcas personales rara vez tienen tiempo para grabar cada formato por separado, así que la sesión tiene que rendir para varios canales a la vez: cambia el corte, el subtítulo o la duración, pero el material bruto es el mismo.",
+      },
+      { type: "heading", level: 3, text: "Espacio que no necesita presentación ni justificación" },
+      {
+        type: "paragraph",
+        text: "Un founder que trae a un cliente o a un inversor a grabar necesita que el espacio transmita seriedad sin más explicación. El ático en Ronda de Atocha 16 funciona así: no hace falta contextualizar por qué se graba ahí, el propio espacio ya comunica que es una producción cuidada, no una improvisación con el móvil y una ventana con buena luz.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-grabacion-madrid-centro-founders-marcas/mid.webp",
+        alt: "Sesión de grabación con founder frente a cámara en un estudio de Madrid",
+        width: 1920,
+        height: 1319,
+      },
+      { type: "heading", level: 2, text: "Cuándo tiene sentido grabar en un estudio así" },
+      {
+        type: "list",
+        items: [
+          "Grabas contenido con cierta regularidad (semanal o mensual) y necesitas que la logística no sea la barrera.",
+          "Tu agenda no permite desplazamientos largos entre reuniones.",
+          "Quieres piezas que sirvan tanto para presencia orgánica como para campañas de pago.",
+          "No tienes experiencia frente a cámara y necesitas dirección, no solo un espacio.",
+          "Buscas un estudio que transmita seriedad sin parecer un plató impersonal.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión típica para un founder?",
+        answer:
+          "Entre una y dos horas suele bastar si el guion o los temas a tratar vienen decididos de antemano. En ese tiempo se pueden grabar varias piezas distintas.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta grabar con recurrencia fija?",
+        answer:
+          "No. Muchos founders empiezan con una sesión puntual y pasan a mensual cuando ven que el contenido rinde en LinkedIn o en campañas.",
+      },
+      {
+        type: "faq",
+        question: "¿El estudio sirve también para grabar anuncios, no solo contenido orgánico?",
+        answer:
+          "Sí, es habitual combinar ambos en la misma sesión: cambia el formato y a veces la duración, pero el equipo y la dirección son los mismos.",
+      },
+      {
+        type: "faq",
+        question: "¿Necesito llevar guion preparado?",
+        answer:
+          "Ayuda mucho, pero no es obligatorio. Si vienes con los temas claros aunque no tengas guion cerrado, en sesión te ayudamos a estructurarlo.",
+      },
+      {
+        type: "paragraph",
+        text: "Si eres founder o llevas la marca personal de tu empresa y quieres grabar en el centro de Madrid sin perder media mañana en desplazamientos, cuéntanos en /#contacto qué necesitas grabar y vemos qué formato de sesión encaja.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
