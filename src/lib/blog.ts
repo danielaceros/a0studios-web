@@ -9097,6 +9097,123 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "diferencia-alquilar-estudio-contratar-direccion-contenido",
+    title: "Alquilar un estudio o contratar dirección de contenido: la diferencia real",
+    description:
+      "Alquilar una sala y contratar dirección de contenido no es lo mismo, y confundirlo sale caro cuando lo que grabas tiene que vender. Qué incluye cada opción y cómo saber cuál necesitas.",
+    publishedAt: "2026-09-25",
+    readingTime: "4 min",
+    category: "Guía",
+    tags: ["estudio de grabación", "dirección de contenido", "producción audiovisual", "Madrid", "contenido", "ads"],
+    keyword: "diferencia entre alquilar un estudio y contratar direccion de contenido",
+    intent: "informacional",
+    excerpt:
+      "Reservar una sala y contratar dirección de contenido no es lo mismo, y confundirlo sale caro si lo que grabas es para vender.",
+    seoTitle: "Alquilar un estudio o contratar dirección de contenido",
+    metaDescription:
+      "Diferencia entre alquilar un estudio y contratar dirección de contenido en Madrid: qué incluye cada opción y cuál necesitas antes de reservar.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Cuando alguien nos escribe buscando estudio de grabación en Madrid, casi siempre pregunta por precio y disponibilidad. Pocas veces pregunta quién va a dirigir la sesión. Y ahí está la diferencia que más pesa en el resultado: alquilar un espacio y contratar dirección de contenido no es lo mismo, aunque las dos cosas se anuncien como \"estudio\".",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios vemos las dos situaciones cada semana. Gente que reserva la sala pensando que el ático hace el trabajo, y gente que llega buscando a alguien que sepa qué grabar y por qué. Si vas a grabar algo que tiene que vender —un anuncio, un VSL, contenido para redes con objetivo real— esa diferencia no es un matiz, es la que decide si el vídeo funciona.",
+      },
+      {
+        type: "image",
+        src: "/blog/diferencia-alquilar-estudio-contratar-direccion-contenido/hero.webp",
+        alt: "Sesión de grabación dirigida en un estudio de Madrid",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué es cada cosa y por qué se confunden" },
+      {
+        type: "paragraph",
+        text: "Alquilar un estudio es reservar metros cuadrados: sala, luz montada, a veces un técnico que pulsa grabar. Tú llegas con el guion decidido, sabes qué vas a decir y en qué orden, y sales con el material en bruto para editar después. Es un servicio de espacio, no de criterio.",
+      },
+      {
+        type: "paragraph",
+        text: "Contratar dirección de contenido es distinto. Alguien revisa el guion antes de la sesión, decide cuántas tomas hacen falta de cada bloque, plantea el hook de los primeros segundos y, si el vídeo va a ads, qué variantes conviene grabar para testear. No dirige por estética, dirige con criterio de venta: sabe qué ha funcionado en anuncios reales, no solo qué queda bien en cámara.",
+      },
+      {
+        type: "paragraph",
+        text: "La confusión viene de que muchos estudios anuncian \"producción\" cuando en realidad venden sala y un técnico de cámara. No tiene nada de malo —a veces es justo lo que necesitas— pero conviene saber qué estás pagando antes de reservar, no descubrirlo en sesión.",
+      },
+      { type: "heading", level: 2, text: "Cómo se hace bien" },
+      { type: "heading", level: 3, text: "Qué incluye alquilar solo el espacio" },
+      {
+        type: "paragraph",
+        text: "En A0Studios esto es el servicio Solo Grabación: sala, iluminación fija, fondo y un técnico que maneja la cámara. Tú traes guion, tema y orden decididos. Funciona bien si ya tienes experiencia grabando, si tienes un equipo de marketing detrás que sabe qué necesita, o si el formato es sencillo y no depende de mucha dirección en sesión.",
+      },
+      { type: "heading", level: 3, text: "Qué cambia cuando hay dirección de contenido" },
+      {
+        type: "paragraph",
+        text: "Con Grabación + Edición o Producción Completa, alguien entra en el guion antes de que empiece la sesión. Se decide qué se graba primero, cuántas tomas hacen falta de cada bloque, y si el objetivo es un anuncio, qué 2 o 3 variantes de hook conviene grabar para tener algo que testear en Meta o TikTok. Es dirección con intención de resultado, no solo de encuadre. Es el mismo criterio que aplicamos en sesiones con marcas como IFEMA o la Cámara de Comercio de Madrid: no basta con grabar bien, hay que saber qué se va a hacer con cada pieza antes de encender la cámara.",
+      },
+      { type: "heading", level: 3, text: "Cómo saber cuál necesitas" },
+      {
+        type: "paragraph",
+        text: "Pregúntate quién va a decidir qué se dice y en qué orden. Si la respuesta es \"yo, ya lo tengo claro\", con el espacio te sobra. Si la respuesta es \"no estoy seguro de qué grabar primero\" o \"quiero que esto convierta, no solo que se vea bien\", necesitas dirección, no solo sala. Mezclar las dos expectativas es lo que hace que una sesión se alargue o que el material grabado no sirva para lo que en realidad hacía falta.",
+      },
+      {
+        type: "paragraph",
+        text: "Un ejemplo real: si vienes con un guion institucional ya cerrado y aprobado, Solo Grabación te sobra. Si vienes con la idea de \"necesito contenido para vender más\" pero sin saber cuántas piezas ni qué formato, ahí es donde la dirección marca la diferencia entre salir con clips sueltos o con algo que de verdad puedes lanzar.",
+      },
+      {
+        type: "image",
+        src: "/blog/diferencia-alquilar-estudio-contratar-direccion-contenido/intermedia.webp",
+        alt: "Equipo de cámara e iluminación montado en estudio antes de una sesión",
+        width: 1920,
+        height: 1080,
+      },
+      { type: "heading", level: 2, text: "Errores comunes" },
+      {
+        type: "list",
+        items: [
+          "Reservar estudio sin guion pensando que se improvisa en sala: se nota en el resultado y se pierde tiempo pagado.",
+          "Pedir \"producción completa\" sin preguntar qué incluye exactamente la dirección, solo el precio.",
+          "Grabar para ads sin que nadie plantee qué variantes de hook o duración conviene testear.",
+          "Elegir estudio solo por lo bonito del espacio, sin mirar quién dirige la sesión.",
+          "Pensar que la dirección de contenido es solo para marcas grandes: también rinde en una sola sesión de founder.",
+          "Llegar sin saber si necesitas una pieza o cinco, lo que descuadra el tiempo de sala reservado.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Puedo alquilar solo el espacio en A0Studios sin dirección?",
+        answer:
+          "Sí. Solo Grabación es justo eso: sala, luz y técnico de cámara. Tú traes el guion y decides qué se graba.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto cuesta añadir dirección de contenido a una sesión?",
+        answer:
+          "Depende de si es Grabación + Edición o Producción Completa, y del objetivo del vídeo. No hay una tarifa única: te lo confirmamos según cuántas piezas necesitas y para qué canal.",
+      },
+      {
+        type: "faq",
+        question: "¿La dirección de contenido sirve igual para orgánico que para ads?",
+        answer:
+          "El criterio cambia. En ads buscamos hook fuerte y variantes testeables. En orgánico buscamos naturalidad y ritmo que retenga sin sonar a anuncio.",
+      },
+      {
+        type: "faq",
+        question: "¿Necesito dirección si ya tengo un equipo de marketing?",
+        answer:
+          "Depende de si tu equipo sabe qué hace falta en cámara, no solo en estrategia. Muchas veces la estrategia está clara pero nadie ha dirigido antes una sesión de grabación en sí.",
+      },
+      {
+        type: "paragraph",
+        text: "Si no tienes claro cuál de las dos opciones necesitas, cuéntanos en /#contacto qué vas a grabar y para qué sirve el vídeo. Te decimos qué encaja, solo espacio o dirección completa, antes de que reserves sala.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
