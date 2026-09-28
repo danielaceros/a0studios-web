@@ -9214,6 +9214,118 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabacion-contenido-clinicas-consultas",
+    title: "Grabación de contenido para clínicas y consultas: qué formatos funcionan",
+    description:
+      "Grabación de contenido para clínicas y consultas sin que parezca publicidad médica genérica: qué formatos generan confianza y qué evitar antes de reservar sesión.",
+    publishedAt: "2026-09-28",
+    readingTime: "4 min",
+    category: "Guía",
+    tags: ["clínicas", "consultas médicas", "contenido de salud", "estudio de grabación", "Madrid", "vídeo para empresas"],
+    keyword: "grabacion de contenido para clinicas y consultas",
+    intent: "informacional",
+    excerpt:
+      "Grabar contenido para una clínica no es lo mismo que grabar un anuncio de producto: hay que generar confianza sin sonar a folleto. Qué formatos funcionan de verdad.",
+    seoTitle: "Grabación de contenido para clínicas y consultas",
+    metaDescription:
+      "Grabación de contenido para clínicas y consultas: qué formatos generan confianza y cómo preparar la sesión sin sonar a publicidad médica.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Una clínica o una consulta no vende como una marca de producto. Vende confianza. Eso cambia lo que hace falta delante de la cámara: no buscas un hook viral, buscas que el paciente que ve el vídeo antes de reservar cita sienta que va a estar en buenas manos.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios hemos grabado contenido para negocios que dependen de la confianza antes que del impulso de compra, y las clínicas son un caso extremo de eso. Aquí te cuento qué formatos funcionan de verdad para una clínica o consulta, y qué evitar para que el vídeo no acabe pareciendo publicidad genérica de seguro médico.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabacion-contenido-clinicas-consultas/hero.webp",
+        alt: "Médico con bata blanca y fonendoscopio sentado en su consulta mirando a cámara",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué cambia cuando el contenido es de una clínica" },
+      {
+        type: "paragraph",
+        text: "El contenido de salud tiene una barrera que no tiene casi ningún otro sector: la desconfianza previa. Cualquiera que busque un tratamiento o un especialista llega con dudas, y un vídeo mal grabado, con luz plana y un médico leyendo un guion sin naturalidad, refuerza esa desconfianza en lugar de resolverla.",
+      },
+      {
+        type: "paragraph",
+        text: "Por eso el objetivo no es que el vídeo parezca un anuncio, es que parezca una conversación real con alguien que sabe de lo que habla. Eso pide menos artificio de producción y más cuidado en cómo se dirige a la persona que va a salir en cámara, normalmente un médico o un especialista que no está acostumbrado a grabar y que tiene poco tiempo entre pacientes.",
+      },
+      {
+        type: "paragraph",
+        text: "También cambia el listón legal y ético: no se puede mostrar a un paciente real sin su consentimiento explícito por escrito, ni prometer resultados de un tratamiento. El contenido tiene que informar y generar confianza sin cruzar esa línea, lo que hace todavía más importante cerrar el guion antes de encender la cámara, no improvisarlo en sala.",
+      },
+      { type: "heading", level: 2, text: "Cómo grabar contenido de clínica que funcione" },
+      { type: "heading", level: 3, text: "Vídeo de presentación del equipo médico" },
+      {
+        type: "paragraph",
+        text: "Es el formato que más rendimiento da porque resuelve la primera pregunta de cualquier paciente: quién me va a atender. No hace falta un guion largo, con 60-90 segundos por especialista basta: quién es, en qué está especializado y cómo trabaja. Grabamos varias tomas cortas por persona para no ocupar más de lo necesario la agenda de un equipo médico que tiene consulta el resto del día.",
+      },
+      { type: "heading", level: 3, text: "Contenido explicativo de tratamientos y servicios" },
+      {
+        type: "paragraph",
+        text: "Aquí el error más común es grabar al especialista explicando el tratamiento con el mismo lenguaje que usaría con otro médico. Funciona mejor cuando el guion se prepara antes con el vocabulario que usaría un paciente sin conocimientos médicos, y el vídeo se estructura como respuesta a una pregunta concreta que la gente busca antes de pedir cita, no como ficha técnica del tratamiento.",
+      },
+      { type: "heading", level: 3, text: "Testimonios de pacientes, con consentimiento y cuidado" },
+      {
+        type: "paragraph",
+        text: "Los testimonios son el contenido que más confianza genera, pero también el más delicado: exige consentimiento informado por escrito y evitar cualquier promesa de resultado. Preparamos con antelación qué se puede preguntar y qué no, y dejamos que el paciente hable con sus propias palabras en lugar de leer un guion, porque se nota enseguida cuándo un testimonio suena forzado.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabacion-contenido-clinicas-consultas/mid.webp",
+        alt: "Equipo de cámara y luces de estudio preparado para una sesión de grabación",
+        width: 1920,
+        height: 1080,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al grabar contenido para una clínica" },
+      {
+        type: "list",
+        items: [
+          "Grabar con luz plana de consulta en lugar de un esquema de iluminación que suavice la imagen sin perder naturalidad.",
+          "Dejar que el especialista improvise sin haber acordado antes qué puede y qué no puede afirmar sobre un tratamiento.",
+          "Grabar testimonios sin consentimiento informado por escrito, lo que puede obligar a descartar el material entero.",
+          "Usar lenguaje técnico pensado para otro médico en vez de para quien va a ver el vídeo antes de pedir cita.",
+          "No dejar margen en la agenda de consulta para repetir tomas, lo que presiona al equipo médico y se nota en cámara.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Se puede grabar dentro de la propia clínica o hay que venir a estudio?",
+        answer:
+          "Depende del formato. Para vídeo de presentación de equipo o contenido explicativo solemos recomendar estudio, porque controlamos luz y sonido sin interrumpir la actividad de la consulta. Para mostrar las instalaciones reales, grabamos en la propia clínica.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para grabar contenido de una clínica?",
+        answer:
+          "Entre 2 y 3 horas para cubrir la presentación de 2-3 especialistas más un par de piezas explicativas. Si se suman testimonios de pacientes, conviene reservar media jornada para no precipitar el consentimiento ni las tomas.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué pasa con el consentimiento de los pacientes que salen en el vídeo?",
+        answer:
+          "Es responsabilidad de la clínica conseguirlo por escrito antes de la sesión. No grabamos a ningún paciente sin ese consentimiento firmado, y lo pedimos como requisito antes de confirmar la sesión de testimonios.",
+      },
+      {
+        type: "faq",
+        question: "¿El equipo médico necesita preparación previa para salir en cámara?",
+        answer:
+          "Ayuda, pero no hace falta que memoricen nada. En sesión trabajamos con guion abierto: marcamos los puntos que tienen que salir y dejamos que lo cuenten con sus propias palabras, que es lo que transmite más confianza en contenido de salud.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tu clínica o consulta necesita contenido que genere confianza real, no solo vídeo bonito, escríbenos en /#contacto y lo planificamos según qué especialistas y qué servicios quieres mostrar primero.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

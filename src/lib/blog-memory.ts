@@ -721,6 +721,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual, mismo issue OAuth documentado desde hace varias ejecuciones consecutivas, escalar a Dani). Fallback evergreen Prioridad 1 (SEO local/comercial) ítem 12 de la lista — última pendiente de esa lista (ítems 1, 2, 4, 5, 6, 9, 10 y 11 ya publicados; ítem 3 descartado por solapar con el ítem 1; ítem 7 descartado por solapar con 'grabacion-reels-madrid-que-necesitas'; ítem 8 descartado por solapar con el ítem 1). Tema sobre la diferencia entre alquilar solo el espacio (Solo Grabación) y contratar dirección de contenido con criterio de venta, ángulo de modelo de servicio no cubierto por ningún post anterior. Con este post se agota también la lista Prioridad 1 completa; la siguiente ejecución deberá pasar a la lista genérica de buyer persona (Prioridad 2). Imágenes Unsplash.",
   },
+  {
+    slug: "grabacion-contenido-clinicas-consultas",
+    keyword: "grabacion de contenido para clinicas y consultas",
+    intent: "informacional",
+    createdAt: "2026-09-28",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual, mismo issue OAuth documentado desde hace varias ejecuciones consecutivas, escalar a Dani). Lista Prioridad 1 (SEO local/comercial) ya agotada por completo desde 2026-09-25, así que esta ejecución pasa a la lista genérica de buyer persona (Prioridad 2): ítem 14 'Grabación de contenido para clínicas y consultas'. Ítems 1, 2, 4, 5, 6 y 10 de esa lista ya publicados previamente; ítem 3 descartado por solapar con 'grabacion-de-testimonios-para-empresa' (mismo tema, ese post ya cubre errores a evitar); ítem 7 descartado por solapar con 'dirigir-a-alguien-sin-experiencia-en-camara' y 'perder-el-miedo-a-la-camara'; ítem 8 descartado por solapar con 'como-elegir-estudio-grabacion-marca-personal' (checklist antes de reservar); ítem 9 descartado por solapar con 'content-day' y 'jornada-intensiva-de-contenido'; ítem 11 descartado por solapar con 'roi-de-grabar-contenido-en-video'; ítem 12 descartado por solapar con 'grabacion-de-testimonios-para-empresa'; ítem 13 descartado por solapar con 'content-day' y 'jornada-intensiva-de-contenido'. Ítem 14 es un vertical nuevo (salud/clínicas) no cubierto por ningún post existente. Imágenes Unsplash (Vitaly Gariev, Alexander Dummer).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
