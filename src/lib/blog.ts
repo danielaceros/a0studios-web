@@ -9326,6 +9326,122 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "making-of-publicidad-que-es-para-que-sirve",
+    title: "Vídeo making-of para publicidad: qué es y cómo grabarlo para sacarle partido",
+    description:
+      "Qué es un vídeo making-of para publicidad, para qué sirve en orgánico y en anuncios, y cómo grabarlo durante la sesión sin frenar el rodaje principal.",
+    publishedAt: "2026-09-29",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["making of", "vídeo publicitario", "contenido orgánico", "estudio de grabación", "Madrid", "behind the scenes"],
+    keyword: "video making-of para publicidad",
+    intent: "informacional",
+    excerpt:
+      "Un making-of no es un extra de cortesía: es contenido orgánico que sale gratis de una sesión que ya has pagado. Cómo grabarlo y dónde usarlo.",
+    seoTitle: "Vídeo making-of para publicidad: qué es y cómo grabarlo",
+    metaDescription:
+      "Vídeo making-of para publicidad: qué es, para qué sirve en orgánico y en ads y cómo grabarlo durante la sesión sin frenar el rodaje principal.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Cuando grabas un anuncio, un VSL o una tanda de reels, pagas una sesión entera: equipo, espacio, tiempo de gente. Lo que sale en pantalla es el anuncio. Todo lo demás, lo que pasa entre toma y toma, se pierde. Un making-of es recuperar ese material y convertirlo en otra pieza de contenido.",
+      },
+      {
+        type: "paragraph",
+        text: "Yo lo planteo como una segunda salida de la misma inversión. No añade una sesión ni un presupuesto aparte, solo exige decidir antes de grabar que quieres capturarlo. Aquí explico qué es un making-of publicitario, dónde funciona de verdad y cómo grabarlo sin estorbar al rodaje.",
+      },
+      {
+        type: "image",
+        src: "/blog/making-of-publicidad-que-es-para-que-sirve/hero.webp",
+        alt: "Equipo de rodaje trabajando en un plató con cámaras y luces durante una sesión de grabación",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué es un making-of y por qué importa" },
+      {
+        type: "paragraph",
+        text: "Un making-of es un vídeo corto que enseña cómo se ha hecho otra pieza: la preparación, la luz, las tomas fallidas, la dirección de quien sale en cámara. No es un documental. Dura entre 30 y 90 segundos y se monta con material que se ha ido grabando en paralelo durante la sesión.",
+      },
+      {
+        type: "paragraph",
+        text: "Importa porque el contenido de detrás de cámara tiene algo que el anuncio pulido no tiene: parece real. Para una marca personal o una empresa pequeña, enseñar el proceso genera cercanía y credibilidad. Para un equipo de marketing, es material extra para rellenar el calendario orgánico sin volver a grabar.",
+      },
+      {
+        type: "paragraph",
+        text: "También hay un uso menos obvio en paid. Un making-of sirve de prueba de producción: demuestra que detrás del anuncio hay un equipo, un estudio y un proceso, y eso ayuda en retargeting con quien ya conoce la marca y duda antes de comprar o reservar.",
+      },
+      { type: "heading", level: 2, text: "Cómo grabar un making-of que se pueda usar" },
+      { type: "heading", level: 3, text: "Decide el objetivo antes de la sesión" },
+      {
+        type: "paragraph",
+        text: "Un making-of para LinkedIn, uno para Instagram y uno para retargeting no se graban igual. El primero pide voz de la persona explicando el porqué de la pieza, el segundo ritmo y planos rápidos, el tercero prueba de proceso con poco texto. Elegir una sola salida principal evita acabar con horas de material sin dirección.",
+      },
+      { type: "heading", level: 3, text: "Un segundo dispositivo, sin parar el rodaje" },
+      {
+        type: "paragraph",
+        text: "El making-of no puede pedir que se repita nada. En A0Studios lo capturamos con una segunda cámara, normalmente una Sony A7 en mano o un móvil en trípode, mientras la cámara principal sigue con el anuncio. Si hay que parar para grabar el detrás de cámara, se acaba tomando peor el anuncio y peor el making-of.",
+      },
+      { type: "heading", level: 3, text: "Captura momentos concretos, no todo" },
+      {
+        type: "paragraph",
+        text: "Con 3 horas de sesión no necesitas 3 horas de detrás de cámara. Suele bastar con cinco momentos: montaje de luz, ensayo con el guion, una toma en el monitor con la dirección hablando, una toma fallida que haga gracia y el resultado final. Todo lo demás sobra en el montaje.",
+      },
+      {
+        type: "image",
+        src: "/blog/making-of-publicidad-que-es-para-que-sirve/mid.webp",
+        alt: "Cámara de cine profesional montada en un set de rodaje durante la producción de una serie",
+        width: 1920,
+        height: 1080,
+      },
+      { type: "heading", level: 2, text: "Cuándo tiene sentido y cuándo no" },
+      {
+        type: "paragraph",
+        text: "El making-of rinde cuando la sesión tiene algo que enseñar: un VSL con guion trabajado, una tanda de anuncios con varias versiones, una dirección de cámara visible. No rinde cuando se graba un clip suelto de 20 segundos o cuando la persona en cámara está incómoda y no quiere que se vea el proceso. Ahí es mejor no forzarlo.",
+      },
+      {
+        type: "list",
+        items: [
+          "Tienes una sesión de 2 horas o más con varias piezas: hay material de sobra para un making-of.",
+          "Quieres alimentar el calendario orgánico sin organizar otra grabación.",
+          "Necesitas material de confianza para retargeting o para tu web.",
+          "La persona en cámara está cómoda con que se vea el proceso.",
+          "No hay ningún dato confidencial visible en pantalla ni en el guion.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto tiempo extra añade un making-of a la sesión?",
+        answer:
+          "Ninguno si se planifica bien. Se graba en paralelo con una segunda cámara mientras la principal sigue con el anuncio. Lo que sí añade es tiempo de edición, unas 2 horas para un vídeo de 60 segundos.",
+      },
+      {
+        type: "faq",
+        question: "¿Un making-of sirve también para anuncios de pago?",
+        answer:
+          "Sí, sobre todo en retargeting. Sirve para reforzar la confianza en quien ya ha visto tu marca. Como pieza de captación en frío suele rendir peor que el anuncio directo, así que lo usaría como apoyo, no como sustituto.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta un equipo distinto para grabarlo?",
+        answer:
+          "No. Con un móvil en trípode o una segunda cámara ligera basta. La calidad de imagen importa menos que en el anuncio, porque el valor del making-of es que se vea real.",
+      },
+      {
+        type: "faq",
+        question: "¿Se puede pedir en cualquiera de vuestros servicios?",
+        answer:
+          "Se puede añadir a Solo Grabación, Grabación + Edición y Producción Completa. Lo hablamos antes de la sesión para decidir la salida principal y montarlo con criterio de venta, no solo como un vídeo bonito.",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a grabar anuncios, un VSL o contenido orgánico en Madrid y quieres sacar también un making-of de la misma sesión, escríbenos en /#contacto y lo planteamos desde el primer briefing.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

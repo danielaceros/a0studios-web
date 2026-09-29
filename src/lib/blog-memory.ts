@@ -730,6 +730,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual, mismo issue OAuth documentado desde hace varias ejecuciones consecutivas, escalar a Dani). Lista Prioridad 1 (SEO local/comercial) ya agotada por completo desde 2026-09-25, así que esta ejecución pasa a la lista genérica de buyer persona (Prioridad 2): ítem 14 'Grabación de contenido para clínicas y consultas'. Ítems 1, 2, 4, 5, 6 y 10 de esa lista ya publicados previamente; ítem 3 descartado por solapar con 'grabacion-de-testimonios-para-empresa' (mismo tema, ese post ya cubre errores a evitar); ítem 7 descartado por solapar con 'dirigir-a-alguien-sin-experiencia-en-camara' y 'perder-el-miedo-a-la-camara'; ítem 8 descartado por solapar con 'como-elegir-estudio-grabacion-marca-personal' (checklist antes de reservar); ítem 9 descartado por solapar con 'content-day' y 'jornada-intensiva-de-contenido'; ítem 11 descartado por solapar con 'roi-de-grabar-contenido-en-video'; ítem 12 descartado por solapar con 'grabacion-de-testimonios-para-empresa'; ítem 13 descartado por solapar con 'content-day' y 'jornada-intensiva-de-contenido'. Ítem 14 es un vertical nuevo (salud/clínicas) no cubierto por ningún post existente. Imágenes Unsplash (Vitaly Gariev, Alexander Dummer).",
   },
+  {
+    slug: "making-of-publicidad-que-es-para-que-sirve",
+    keyword: "video making-of para publicidad",
+    intent: "informacional",
+    createdAt: "2026-09-29",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: 5 impresiones, pos 28,4 (query 'vídeo making-of para publicidad', 90d, sin post propio, solo /blog índice). Search Console funciona de nuevo esta ejecución (sin RefreshError). El resto de candidates SC descartados por estar ya cubiertos en memoria o por URL ya existente (reels, estudio de grabación, color grading, horizontal/vertical, teleprompter, content day, sizzle reel, etc.). Imágenes Unsplash (Brands&People, Sam McGhee).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
