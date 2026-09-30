@@ -9442,6 +9442,122 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "filmmaker-madrid-como-elegir-contratar",
+    title: "Filmmaker en Madrid: cómo elegir uno y qué preguntarle antes de contratar",
+    description:
+      "Qué hace un filmmaker en Madrid, qué diferencia a uno que solo graba de uno que dirige con criterio de venta y qué preguntar antes de cerrar la sesión.",
+    publishedAt: "2026-09-30",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["filmmaker Madrid", "vídeo para marcas", "estudio de grabación", "dirección de contenido", "Madrid", "contratar videógrafo"],
+    keyword: "filmmaker madrid",
+    intent: "informacional",
+    excerpt:
+      "Un filmmaker no es solo alguien con una cámara buena. Lo que decide si el vídeo vende es quién dirige la sesión y con qué criterio.",
+    seoTitle: "Filmmaker en Madrid: cómo elegir y qué preguntar",
+    metaDescription:
+      "Filmmaker en Madrid: qué hace, en qué se diferencia quien solo graba de quien dirige con criterio de venta y qué preguntar antes de contratar.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Buscas un filmmaker en Madrid y aparecen decenas de portfolios con planos preciosos. Todos parecen buenos. La diferencia real no se ve en el reel: se ve en lo que pasa después, cuando el vídeo sale a redes o a un anuncio y hay que saber si funciona.",
+      },
+      {
+        type: "paragraph",
+        text: "Yo llevo años grabando contenido y anuncios, y lo que más veo es gente que contrata a alguien que graba bien pero no sabe para qué. Aquí explico qué hace un filmmaker, qué debes exigirle y qué preguntas te ahorran una sesión perdida.",
+      },
+      {
+        type: "image",
+        src: "/blog/filmmaker-madrid-como-elegir-contratar/hero.webp",
+        alt: "Persona grabando con una cámara sobre trípode bajo luz azul y roja",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué hace realmente un filmmaker" },
+      {
+        type: "paragraph",
+        text: "Un filmmaker cubre el trabajo de cámara, luz, sonido y, según el caso, guion y edición. A diferencia de una productora grande, suele ser una persona o un equipo pequeño que te atiende directamente, sin capas de cuentas y comerciales entre medias.",
+      },
+      {
+        type: "paragraph",
+        text: "Eso tiene ventajas claras para marcas personales, founders y equipos de marketing: precio más ajustado, entregas rápidas y una sola persona con visión de todo el proyecto. El riesgo es que la calidad depende por completo de esa persona.",
+      },
+      {
+        type: "paragraph",
+        text: "Por eso conviene separar dos perfiles. Uno graba lo que le pides con buena imagen. El otro te dice qué grabar, en qué orden y con qué gancho, porque ha visto qué retiene y qué se salta la gente. El segundo cuesta más, pero el primero puede salir caro si el vídeo no sirve.",
+      },
+      { type: "heading", level: 2, text: "Cómo elegir bien" },
+      { type: "heading", level: 3, text: "Mira resultados, no solo estética" },
+      {
+        type: "paragraph",
+        text: "Pide ejemplos de piezas que se hayan usado en anuncios o en orgánico y pregunta qué se decidió en la sesión para que funcionaran. Si la respuesta es solo técnica (objetivo, cámara, corrección de color), falta la parte que vende.",
+      },
+      { type: "heading", level: 3, text: "Comprueba dónde graba" },
+      {
+        type: "paragraph",
+        text: "Un filmmaker con estudio propio controla luz y sonido y no depende de que la oficina del cliente esté libre. En A0Studios grabamos en un ático en Ronda de Atocha 16, en Madrid centro, con luz natural y equipo fijo montado, así que la sesión empieza a grabar en minutos, no tras una hora de montaje.",
+      },
+      { type: "heading", level: 3, text: "Aclara quién dirige" },
+      {
+        type: "paragraph",
+        text: "En una sesión de 3 horas se graban unas 15 piezas cortas si alguien lleva el ritmo. Sin dirección, la mitad del tiempo se va en dudas. Pregunta quién te guía frente a cámara, quién decide el hook de cada pieza y si esa persona ha trabajado con anuncios de Meta o TikTok.",
+      },
+      {
+        type: "image",
+        src: "/blog/filmmaker-madrid-como-elegir-contratar/mid.webp",
+        alt: "Hombre con camisa negra sujetando una cámara de vídeo",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al contratar" },
+      {
+        type: "paragraph",
+        text: "Casi todos los problemas vienen de contratar por precio o por portfolio sin definir antes el objetivo del vídeo. Estos son los que más se repiten:",
+      },
+      {
+        type: "list",
+        items: [
+          "Contratar por el precio por hora sin preguntar qué incluye: edición, correcciones, formatos verticales y horizontales.",
+          "No definir si el vídeo es para orgánico, para paid o para la web, cuando cada uno pide un guion y un ritmo distintos.",
+          "Elegir a alguien que graba muy bien pero nunca ha visto los resultados de sus piezas en una campaña.",
+          "Llegar a la sesión sin brief ni referencias, y decidir todo delante de cámara.",
+          "Pagar una sesión suelta cuando lo que necesitas es contenido para varias semanas.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto cuesta contratar un filmmaker en Madrid?",
+        answer:
+          "Depende de si es solo grabación, grabación con edición o producción completa. Una sesión de medio día con edición de varias piezas cortas suele moverse en un rango muy distinto a un anuncio con guion y dirección. Lo sensato es pedir presupuesto por entregables, no por horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Es mejor un filmmaker freelance o un estudio?",
+        answer:
+          "Un freelance sirve si ya tienes claro qué grabar y dónde. Un estudio con dirección incluida encaja mejor cuando necesitas espacio, equipo y alguien que decida el enfoque de las piezas. En A0Studios ofrecemos las dos cosas en la misma sesión.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué debo llevar preparado a la sesión?",
+        answer:
+          "Un objetivo claro por pieza, dos o tres referencias de lo que te gusta y los puntos que quieres que salgan. No hace falta memorizar un guion: se ajusta en la sesión con quien dirige.",
+      },
+      {
+        type: "faq",
+        question: "¿Se puede grabar para anuncios y para orgánico en la misma sesión?",
+        answer:
+          "Sí, y suele compensar. Se graban las piezas de paid con hook y llamada a la acción, y se aprovecha el resto para reels y contenido orgánico. Lo importante es decidirlo antes de empezar para que el guion sirva a los dos usos.",
+      },
+      {
+        type: "paragraph",
+        text: "Si buscas un filmmaker en Madrid que además dirija la sesión con criterio de venta, escríbenos en /#contacto y te contamos cómo lo plantearíamos para tu marca.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

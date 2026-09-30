@@ -739,6 +739,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: 5 impresiones, pos 28,4 (query 'vídeo making-of para publicidad', 90d, sin post propio, solo /blog índice). Search Console funciona de nuevo esta ejecución (sin RefreshError). El resto de candidates SC descartados por estar ya cubiertos en memoria o por URL ya existente (reels, estudio de grabación, color grading, horizontal/vertical, teleprompter, content day, sizzle reel, etc.). Imágenes Unsplash (Brands&People, Sam McGhee).",
   },
+  {
+    slug: "filmmaker-madrid-como-elegir-contratar",
+    keyword: "filmmaker madrid",
+    intent: "informacional",
+    createdAt: "2026-09-30",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: 28 impresiones, pos 39,9 (query 'filmmaker madrid', 90d, sin post propio, solo home). Search Console vuelve a funcionar en esta ejecución. Resto de candidates descartados por URL ya cubierta o solape con keywords en memoria. Tema sobre cómo elegir filmmaker en Madrid: diferencia entre quien solo graba y quien dirige con criterio de venta. Imágenes Unsplash.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
