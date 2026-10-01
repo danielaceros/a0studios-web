@@ -748,6 +748,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: 28 impresiones, pos 39,9 (query 'filmmaker madrid', 90d, sin post propio, solo home). Search Console vuelve a funcionar en esta ejecución. Resto de candidates descartados por URL ya cubierta o solape con keywords en memoria. Tema sobre cómo elegir filmmaker en Madrid: diferencia entre quien solo graba y quien dirige con criterio de venta. Imágenes Unsplash.",
   },
+  {
+    slug: "produccion-de-video-madrid-fases-que-incluye",
+    keyword: "produccion de video",
+    intent: "informacional",
+    createdAt: "2026-10-01",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: 19 impresiones, pos 34 (query 'producción de video', 90d, sin post propio, solo /blog índice). Resto de candidates SC descartados por URL ya cubierta o solape con keywords en memoria (estudio de grabación, reels, content day, color grading, teleprompter, filmmaker madrid, etc.). Tema sobre fases de la producción de vídeo en Madrid (pre, rodaje, post) y dónde se paga de más. Imágenes Unsplash (Brands&People, Peter Stumpf).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

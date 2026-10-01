@@ -9558,6 +9558,126 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "produccion-de-video-madrid-fases-que-incluye",
+    title: "Producción de vídeo en Madrid: fases, qué incluye y cómo no pagar de más",
+    description:
+      "Producción de vídeo en Madrid explicada por fases: preproducción, rodaje y postproducción, qué incluye cada una y cómo plantearla si el vídeo tiene que vender.",
+    publishedAt: "2026-10-01",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["producción de vídeo", "Madrid", "estudio de grabación", "preproducción", "postproducción", "vídeo para marcas"],
+    keyword: "produccion de video",
+    intent: "informacional",
+    excerpt:
+      "Producir un vídeo no es solo grabarlo. Estas son las fases reales, qué se decide en cada una y dónde se suele perder dinero.",
+    seoTitle: "Producción de vídeo en Madrid: fases y qué incluye",
+    metaDescription:
+      "Producción de vídeo en Madrid: fases, qué incluye cada una y cómo plantearla para que el vídeo venda, tanto en orgánico como en anuncios.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Cuando alguien pide presupuesto de producción de vídeo en Madrid, casi siempre está comparando cosas distintas. Una oferta incluye guion y edición. Otra, solo dos horas de cámara. El precio parece comparable y no lo es.",
+      },
+      {
+        type: "paragraph",
+        text: "Yo dirijo sesiones de contenido y anuncios, y lo primero que explico es que la producción tiene fases. Quien entiende qué pasa en cada una decide mejor dónde invertir y qué puede recortar sin que el vídeo pierda fuerza.",
+      },
+      {
+        type: "image",
+        src: "/blog/produccion-de-video-madrid-fases-que-incluye/hero.webp",
+        alt: "Equipo de rodaje trabajando en un plató de grabación",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué es la producción de vídeo y por qué importa" },
+      {
+        type: "paragraph",
+        text: "Producción de vídeo es todo el proceso desde que defines el objetivo hasta que tienes las piezas listas para publicar. La grabación es solo una parte, y a menudo la más corta.",
+      },
+      {
+        type: "paragraph",
+        text: "Importa porque cada fase condiciona la siguiente. Un guion flojo no lo arregla una cámara cara. Una grabación sin planos de apoyo hace la edición más lenta y más cara. Y un vídeo sin objetivo claro no se puede medir después.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios ofrecemos tres niveles: Solo Grabación, Grabación + Edición y Producción Completa. Lo que cambia entre ellos es cuántas fases cubrimos nosotros y cuántas llegan resueltas por el cliente.",
+      },
+      { type: "heading", level: 2, text: "Cómo se hace bien" },
+      { type: "heading", level: 3, text: "Preproducción: donde se gana o se pierde el vídeo" },
+      {
+        type: "paragraph",
+        text: "Aquí se define para qué es el vídeo, dónde se va a publicar y qué tiene que provocar. No es lo mismo una pieza para Meta Ads que un reel orgánico: cambian el gancho, la duración y la llamada a la acción. También se cierran guion, referencias, vestuario y lista de piezas. Con 1 o 2 horas de preparación bien hechas, una sesión de 3 horas da unas 15 piezas cortas.",
+      },
+      { type: "heading", level: 3, text: "Rodaje: ritmo y dirección" },
+      {
+        type: "paragraph",
+        text: "En el rodaje manda el ritmo. Con el equipo fijo montado en el ático de Ronda de Atocha 16, la sesión empieza a grabar en minutos y no se pierde la primera hora en montar luces. Lo que marca la diferencia es quién dirige: alguien que corta a tiempo, repite el gancho hasta que funciona y piensa en el montaje mientras graba.",
+      },
+      { type: "heading", level: 3, text: "Postproducción: edición, color y versiones" },
+      {
+        type: "paragraph",
+        text: "La edición en DaVinci Resolve o CapCut incluye montaje, subtítulos, sonido y corrección de color. Si el vídeo es para paid, aquí también se preparan versiones: distintos ganchos, formato vertical y cuadrado, y cortes de 15 y 30 segundos para testear. Es mucho más barato prever esas variantes en el rodaje que pedirlas después.",
+      },
+      {
+        type: "image",
+        src: "/blog/produccion-de-video-madrid-fases-que-incluye/mid.webp",
+        alt: "Línea de tiempo de edición de vídeo en una pantalla oscura",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Dónde se suele pagar de más" },
+      {
+        type: "paragraph",
+        text: "El sobrecoste casi nunca viene de la cámara. Viene de decisiones que se toman tarde. Estos son los puntos que más se repiten:",
+      },
+      {
+        type: "list",
+        items: [
+          "Rodar sin guion cerrado y descubrir en edición que faltan planos.",
+          "Pedir una sola pieza larga cuando lo útil son 10 o 15 cortas para redes y anuncios.",
+          "Cambiar el objetivo del vídeo a mitad de proceso, de orgánico a paid, sin rehacer el enfoque.",
+          "No preguntar cuántas rondas de correcciones incluye la edición.",
+          "Contratar la grabación por un lado y la edición por otro, sin que nadie piense el montaje al grabar.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "El diferencial de un buen proceso no es el espacio, sino que quien lo dirige haya hecho anuncios y sepa qué convierte. Por eso en A0Studios dirigimos la sesión con criterio de venta, no solo estético, tanto para redes como para paid.",
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuáles son las fases de la producción de vídeo?",
+        answer:
+          "Tres: preproducción (objetivo, guion, planificación), rodaje (grabación y dirección) y postproducción (edición, sonido, color y versiones finales). Cada una puede contratarse por separado o en conjunto.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto tiempo lleva producir un vídeo?",
+        answer:
+          "Depende del alcance. Una sesión de contenido de 3 horas con edición de varias piezas cortas puede entregarse en pocos días. Un anuncio con guion, dirección y varias versiones necesita algo más de preproducción y revisión.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué diferencia hay entre Solo Grabación y Producción Completa?",
+        answer:
+          "Solo Grabación te da el estudio, el equipo y la sesión. Producción Completa añade preproducción, dirección, edición y entrega de versiones. Si ya llegas con guion y editor, la primera basta. Si no, la segunda te ahorra tiempo.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo producir vídeo para anuncios y orgánico a la vez?",
+        answer:
+          "Sí, y suele compensar. Se graban las piezas de paid con gancho y llamada a la acción y se aprovecha la misma sesión para reels y contenido orgánico. Hay que decidirlo en preproducción para que el guion sirva a los dos usos.",
+      },
+      {
+        type: "paragraph",
+        text: "Si necesitas producción de vídeo en Madrid y quieres que alguien dirija la sesión con criterio de venta, escríbenos en /#contacto y te proponemos cómo plantearla según tu objetivo.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
