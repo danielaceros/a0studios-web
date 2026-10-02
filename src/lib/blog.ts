@@ -9678,6 +9678,119 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "estudio-para-grabar-anuncios-en-madrid",
+    title: "Estudio para grabar anuncios en Madrid: qué necesita y qué debe incluir",
+    description:
+      "Estudio para grabar anuncios en Madrid: qué equipo, qué dirección y qué entregables debe incluir una sesión pensada para Meta Ads, TikTok Ads y VSL.",
+    publishedAt: "2026-10-02",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["estudio para anuncios", "Madrid", "Meta Ads", "TikTok Ads", "VSL", "dirección de anuncios"],
+    keyword: "estudio para grabar anuncios en madrid",
+    intent: "informacional",
+    excerpt:
+      "Un estudio para grabar anuncios no se elige por la luz. Qué necesita una sesión de paid y qué debe incluir para que el material sirva en campaña.",
+    seoTitle: "Estudio para grabar anuncios en Madrid: qué incluir",
+    metaDescription:
+      "Estudio para grabar anuncios en Madrid: equipo, dirección y entregables que necesitas para Meta Ads, TikTok Ads y VSL antes de reservar sesión.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Un anuncio no se graba como un vídeo corporativo. Tiene que frenar el dedo en los primeros 2 segundos, aguantar varias versiones y llegar al editor con material para testear. Por eso un estudio para grabar anuncios en Madrid se elige con otros criterios que uno de fotografía o de alquiler genérico.",
+      },
+      {
+        type: "paragraph",
+        text: "Yo dirijo sesiones de anuncios para Meta Ads, TikTok Ads y VSL en A0Studios, nuestro ático de Ronda de Atocha 16, en Madrid centro. Esto es lo que debería tener cualquier estudio que vaya a grabar tus anuncios, el nuestro o el de otro.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-para-grabar-anuncios-en-madrid/hero.webp",
+        alt: "Estudio de grabación con cámara y luces montadas para rodar anuncios",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué necesita un estudio pensado para anuncios" },
+      {
+        type: "paragraph",
+        text: "Lo básico es evidente: cámara con buen sensor, 2 micrófonos, luz controlada y un fondo limpio. Con una Sony A7 y una iluminación bien montada ya tienes calidad de sobra para Meta o TikTok. Lo que cambia el resultado no es el equipo, es la preparación.",
+      },
+      {
+        type: "paragraph",
+        text: "Un anuncio de pago vive de variables que se prueban: gancho, oferta, llamada a la acción. Si el estudio no graba pensando en esas variantes, acabas con un solo vídeo y sin nada que testear. Lo normal en una sesión de 3 horas es salir con entre 4 y 6 anuncios distintos, cada uno con 2 o 3 ganchos alternativos.",
+      },
+      {
+        type: "paragraph",
+        text: "Y hay un punto que casi nadie pregunta: quién dirige. En A0Studios no te dejamos solo con la cámara. Dirigimos la sesión con criterio de venta, no solo estético, porque el anuncio bonito que no convierte sale igual de caro que el que sí.",
+      },
+      { type: "heading", level: 2, text: "Cómo se prepara una sesión de anuncios" },
+      { type: "heading", level: 3, text: "Antes de reservar: oferta y público claros" },
+      {
+        type: "paragraph",
+        text: "Ningún estudio puede arreglar un anuncio sin oferta. Antes de grabar tiene que estar definido qué vendes, a quién y qué quieres que haga. Con eso en una página, el guion se escribe en una hora.",
+      },
+      { type: "heading", level: 3, text: "Durante el rodaje: ganchos y versiones" },
+      {
+        type: "paragraph",
+        text: "Se graba primero el cuerpo del anuncio y después se repiten los ganchos. Cada gancho es una toma de 3 a 5 segundos con otra frase, otro gesto o otro plano. Con 8 ganchos grabados tienes 8 formas de entrar al mismo anuncio, y eso es lo que luego se testea en campaña.",
+      },
+      { type: "heading", level: 3, text: "Después: formatos y entrega" },
+      {
+        type: "paragraph",
+        text: "Un anuncio se entrega en vertical 9:16 para Reels y TikTok, y muchas veces también en 1:1 o 4:5 para feed. Si la edición se hace en DaVinci Resolve o CapCut, estos formatos salen del mismo montaje. Conviene pedirlos desde el principio, no cuando la campaña ya está parada.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-para-grabar-anuncios-en-madrid/mid.webp",
+        alt: "Equipo de rodaje en un plató durante la grabación de un anuncio",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al elegir estudio para anuncios" },
+      {
+        type: "list",
+        items: [
+          "Elegir solo por la estética del espacio y no por quién dirige la sesión.",
+          "Grabar una única versión del anuncio, sin ganchos alternativos para testear.",
+          "No cerrar guion ni oferta antes de llegar al estudio.",
+          "Olvidar los formatos verticales y cuadrados hasta la edición.",
+          "Contratar la grabación sin saber cuánto tarda en llegar el material editado.",
+          "Pagar horas de montaje de luces en lugar de horas de grabación.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Qué equipo necesita un estudio para grabar anuncios?",
+        answer:
+          "Una cámara con buen sensor como una Sony A7, 2 micrófonos, luz controlada, un fondo limpio y un monitor para dirigir. El equipo importa menos que la preparación del guion y las variantes de gancho.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para grabar anuncios?",
+        answer:
+          "Entre 2 y 3 horas suele bastar para 4 a 6 anuncios con varios ganchos cada uno, siempre que llegues con guion y oferta cerrados. Si hay que preparar el guion en el estudio, conviene sumar tiempo.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar anuncios y contenido orgánico en la misma sesión?",
+        answer:
+          "Sí. Se graban primero las piezas de paid y se aprovecha el resto de la sesión para reels y contenido orgánico. Hay que planificarlo en el guion para que ambas cosas encajen.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué incluye Solo Grabación frente a Producción Completa?",
+        answer:
+          "Solo Grabación incluye estudio, equipo y sesión. Producción Completa suma preproducción, dirección, edición y versiones por formato. Si no tienes guion ni editor, la segunda te ahorra tiempo.",
+      },
+      {
+        type: "paragraph",
+        text: "Si buscas un estudio para grabar anuncios en Madrid con alguien que dirija la sesión pensando en ventas, escríbenos en /#contacto y te proponemos cómo plantear tu sesión según tu campaña.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

@@ -757,6 +757,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: 19 impresiones, pos 34 (query 'producción de video', 90d, sin post propio, solo /blog índice). Resto de candidates SC descartados por URL ya cubierta o solape con keywords en memoria (estudio de grabación, reels, content day, color grading, teleprompter, filmmaker madrid, etc.). Tema sobre fases de la producción de vídeo en Madrid (pre, rodaje, post) y dónde se paga de más. Imágenes Unsplash (Brands&People, Peter Stumpf).",
   },
+  {
+    slug: "estudio-para-grabar-anuncios-en-madrid",
+    keyword: "estudio para grabar anuncios en madrid",
+    intent: "informacional",
+    createdAt: "2026-10-02",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin candidate válido (todas las queries caen en URLs o keywords ya cubiertas); soporte débil: query 'estudio ode grabacion de anuncios', 2 impresiones, pos 16,5. Fallback evergreen prioridad 1 (#3). Imágenes Unsplash (Alexander Dummer, Brands&People).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
