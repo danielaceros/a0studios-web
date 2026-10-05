@@ -9791,6 +9791,144 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "video-para-reuniones-comerciales-que-grabar",
+    title: "Vídeo para reuniones comerciales: qué grabar antes de una venta importante",
+    description:
+      "Qué vídeos grabar antes de una reunión comercial importante: presentación personal, demo corta y respuesta a objeciones, y cómo prepararlos en una sesión.",
+    publishedAt: "2026-10-05",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["vídeo comercial", "reuniones de venta", "contenido B2B", "estudio de grabación", "Madrid", "ventas"],
+    keyword: "video para reuniones comerciales",
+    intent: "informacional",
+    excerpt:
+      "Antes de una venta importante, un vídeo corto bien dirigido hace parte del trabajo por ti. Qué grabar, cuánto debe durar y cómo prepararlo en una sesión.",
+    seoTitle: "Vídeo para reuniones comerciales: qué grabar antes",
+    metaDescription:
+      "Vídeo para reuniones comerciales: qué grabar antes de una venta importante, cuánto debe durar cada pieza y cómo sacarlas todas en una sola sesión.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Antes de una reunión comercial importante, el cliente ya se ha formado una opinión. Ha mirado tu web, tu LinkedIn y lo que le ha llegado por correo. Un vídeo corto bien grabado cambia lo que piensa de ti antes de que entres en la sala o abras la videollamada.",
+      },
+      {
+        type: "paragraph",
+        text: "Yo dirijo sesiones de contenido en A0Studios, nuestro ático de Ronda de Atocha 16, en Madrid centro. Cada vez más equipos comerciales vienen con una pregunta concreta: qué grabo para llegar mejor a una venta grande. Esto es lo que recomiendo.",
+      },
+      {
+        type: "image",
+        src: "/blog/video-para-reuniones-comerciales-que-grabar/hero.webp",
+        alt: "Persona presentando a un grupo sentado alrededor de una mesa con portátiles",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué un vídeo ayuda a vender antes de la reunión" },
+      {
+        type: "paragraph",
+        text: "En una venta compleja casi nunca decide una sola persona. Quien te conoce en la reunión lo explica luego al resto del comité, y lo hace mal o a medias. Un vídeo de 60 a 90 segundos viaja por correo o por chat y cuenta tu propuesta tal como tú la contarías.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, ahorra la parte más repetitiva de la reunión. Si el cliente ya ha visto quién eres y qué haces, los primeros 15 minutos se dedican a su problema y no a tu presentación corporativa.",
+      },
+      {
+        type: "paragraph",
+        text: "No hace falta una producción grande. Hace falta que el vídeo sea claro, que suene a persona y que esté pensado para una decisión de compra, no para gustar en redes.",
+      },
+      {
+        type: "paragraph",
+        text: "Piensa en el momento exacto en que se va a ver. Un directivo abre el correo entre dos reuniones, con el sonido a medias y poco tiempo. Por eso el vídeo necesita subtítulos, una primera frase que explique de qué va y un formato que se vea bien tanto en móvil como en el portátil.",
+      },
+      {
+        type: "paragraph",
+        text: "También conviene decidir quién sale en cámara. En una venta B2B, el cliente quiere ver a la persona que le va a atender: el comercial, el director de cuenta o el fundador. Una voz en off sobre imágenes de archivo no genera la misma confianza.",
+      },
+      { type: "heading", level: 2, text: "Cómo se hace bien" },
+      { type: "heading", level: 3, text: "Un vídeo de presentación de 60 a 90 segundos" },
+      {
+        type: "paragraph",
+        text: "Quién eres, a quién ayudas y qué resultado consigues, en ese orden. Sin historia de la empresa ni lista de servicios. Se graba a cámara, con un guion corto en teleprompter y una sola idea por frase. Es la pieza que se manda justo después de confirmar la reunión.",
+      },
+      { type: "heading", level: 3, text: "Una demo corta del producto o servicio" },
+      {
+        type: "paragraph",
+        text: "Entre 2 y 3 minutos enseñando cómo funciona y qué cambia para el cliente. Si es un producto digital, se graba la pantalla y después se añade tu cara en una esquina o a pantalla completa. Si es un servicio, se enseña un resultado real, no una explicación de proceso.",
+      },
+      { type: "heading", level: 3, text: "Respuestas a las objeciones más comunes" },
+      {
+        type: "paragraph",
+        text: "Precio, plazo, riesgo, comparación con la competencia. Cada objeción es un clip de 30 a 45 segundos. Con 5 o 6 de estos clips, tu equipo comercial tiene una biblioteca para enviar justo cuando el cliente duda. Aquí está el mayor retorno, porque son las respuestas que el comercial repite cada semana.",
+      },
+      {
+        type: "image",
+        src: "/blog/video-para-reuniones-comerciales-que-grabar/mid.webp",
+        alt: "Cámara sobre trípode lista para grabar una sesión",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Errores comunes" },
+      {
+        type: "list",
+        items: [
+          "Grabar un vídeo corporativo genérico en lugar de uno pensado para una decisión de compra.",
+          "Pasar de los 2 minutos en la pieza de presentación: nadie la ve entera.",
+          "Hablar de la empresa en vez del problema del cliente.",
+          "Grabar todo con el móvil en la oficina, con eco y ruido de fondo.",
+          "No dejar claro al final qué debe hacer el cliente: responder, reservar fecha o abrir un documento.",
+          "Grabar una sola pieza y no una biblioteca de clips reutilizables para el equipo.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Una regla práctica: graba antes de necesitarlo. Los vídeos de objeciones se graban cuando no hay prisa, con las respuestas ya pulidas por haberlas dado cien veces. Grabarlos la víspera de una reunión importante sale peor y, además, ya no sirven para las siguientes.",
+      },
+      {
+        type: "paragraph",
+        text: "Y revísalos cada seis meses. Si cambia el precio, el producto o la competencia, el clip se queda viejo. Con una sesión semestral de 2 o 3 horas mantienes la biblioteca al día sin que se convierta en un proyecto aparte.",
+      },
+      { type: "heading", level: 2, text: "Cómo lo planteamos en A0Studios" },
+      {
+        type: "paragraph",
+        text: "En A0Studios no te dejamos solo delante de la cámara. Dirigimos la sesión con criterio de venta: qué decir primero, qué quitar y cómo sonar seguro sin parecer un anuncio. Trabajamos con empresas como IFEMA, la Cámara de Comercio de Madrid y Cinesa, y esa forma de dirigir es la misma tanto si el vídeo va a un anuncio como a una carpeta de cliente.",
+      },
+      {
+        type: "paragraph",
+        text: "En una sesión de 3 horas puedes salir con el vídeo de presentación, una demo y entre 5 y 8 clips de objeciones. Con Sony A7, 2 micrófonos y una iluminación fija, el resultado es consistente y se edita rápido en DaVinci Resolve.",
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto debe durar un vídeo para una reunión comercial?",
+        answer:
+          "La presentación, entre 60 y 90 segundos. La demo, de 2 a 3 minutos. Las respuestas a objeciones, de 30 a 45 segundos cada una. Más largo y se deja de ver.",
+      },
+      {
+        type: "faq",
+        question: "¿Tiene sentido si mi venta se cierra por videollamada?",
+        answer:
+          "Sí. Un vídeo enviado antes de la llamada aclara quién eres y qué ofreces, y la llamada empieza ya en el problema del cliente.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo reutilizar estos vídeos en redes o en anuncios?",
+        answer:
+          "Los de presentación y objeciones funcionan bien en LinkedIn y como base de anuncios. Si lo sabemos antes de grabar, los dirigimos para que sirvan en ambos usos.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto tarda en estar listo el material editado?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición o Producción Completa te entregamos las piezas montadas y subtituladas, en los formatos que necesites.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes una venta importante en el calendario y quieres llegar con vídeo, escríbenos en /#contacto y te proponemos qué grabar según tu cliente y tu ciclo de venta.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

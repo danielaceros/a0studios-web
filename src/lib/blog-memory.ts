@@ -766,6 +766,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin candidate válido (todas las queries caen en URLs o keywords ya cubiertas); soporte débil: query 'estudio ode grabacion de anuncios', 2 impresiones, pos 16,5. Fallback evergreen prioridad 1 (#3). Imágenes Unsplash (Alexander Dummer, Brands&People).",
   },
+  {
+    slug: "video-para-reuniones-comerciales-que-grabar",
+    keyword: "video para reuniones comerciales",
+    intent: "informacional",
+    createdAt: "2026-10-05",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin candidate válido (todas las queries caen en URLs o keywords ya cubiertas; sin datos de la keyword objetivo). Fallback evergreen: lista Prioridad 1 agotada (ítems 7 y 8 descartados por solape con posts ya publicados), se usa ítem 20 de la lista genérica. Tema sobre qué grabar antes de una venta importante: vídeo de presentación, demo corta y clips de objeciones. Imágenes Unsplash (Campaign Creators, 2H Media).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
