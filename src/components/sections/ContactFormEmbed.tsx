@@ -3,6 +3,8 @@
 import { useEffect, useRef, useState } from "react";
 import FormOriginBeacon from "@/components/analytics/FormOriginBeacon";
 import { ghlFormSrc } from "@/lib/analytics";
+import type { Lang } from "@/lib/i18n";
+import { contactFormContent } from "@/lib/i18n/content/contactForm";
 
 type Props = {
   className?: string;
@@ -10,9 +12,10 @@ type Props = {
   loadDelay?: number;
   /** Signal LoadingScreen when this iframe is ready */
   signalReady?: boolean;
+  lang?: Lang;
 };
 
-export default function ContactFormEmbed({ className, loadDelay = 0, signalReady = false }: Props) {
+export default function ContactFormEmbed({ className, loadDelay = 0, signalReady = false, lang = "es" }: Props) {
   const [shouldRender, setShouldRender] = useState(loadDelay === 0);
   // El src se calcula en cliente (lleva las UTM y el origen de la página), así que el iframe no se pinta
   // hasta tenerlo: si no, el servidor renderizaría una URL sin params y la hidratación no cuadraría.
@@ -67,7 +70,7 @@ export default function ContactFormEmbed({ className, loadDelay = 0, signalReady
           data-form-name="Form - The A0Studios"
           data-layout-iframe-id="inline-sxDYj1gBgfvDh9PI9Jte"
           data-form-id="sxDYj1gBgfvDh9PI9Jte"
-          title="Formulario de contacto A0Studios"
+          title={contactFormContent[lang].iframeTitle}
           scrolling="no"
           suppressHydrationWarning
           onLoad={(e) => {

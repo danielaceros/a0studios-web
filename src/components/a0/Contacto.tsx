@@ -1,28 +1,31 @@
 import ContactFormEmbed from "@/components/sections/ContactFormEmbed";
 import { CONTACT_INFO, NAP } from "@/lib/constants";
+import type { Lang } from "@/lib/i18n";
+import { contactoContent } from "@/lib/i18n/content/contacto";
 
-const FICHA = [
+const FICHA: { key: "email" | "phone" | "studio"; value: string; href: string; external: boolean }[] = [
   {
-    label: "Email",
+    key: "email",
     value: CONTACT_INFO.email,
     href: `mailto:${CONTACT_INFO.email}`,
     external: false,
   },
   {
-    label: "Teléfono",
+    key: "phone",
     value: CONTACT_INFO.phone,
     href: CONTACT_INFO.phoneHref,
     external: false,
   },
   {
-    label: "Estudio",
+    key: "studio",
     value: NAP.address,
     href: "https://maps.google.com/?q=Calle+Ronda+de+Atocha,+16,+Madrid",
     external: true,
   },
 ];
 
-export default function Contacto() {
+export default function Contacto({ lang }: { lang: Lang }) {
+  const t = contactoContent[lang];
   return (
     <section
       id="contacto"
@@ -35,24 +38,21 @@ export default function Contacto() {
             <div className="rule" />
             <div className="flex items-center gap-3 pt-4">
               <span className="tick" aria-hidden="true" />
-              <p className="meta">Contacto</p>
+              <p className="meta">{t.label}</p>
             </div>
 
             <h2 className="display mt-9 max-w-[13ch] text-foreground sm:mt-11">
-              Cuéntame qué quieres{" "}
-              <span className="accent-italic normal-case tracking-normal">grabar</span>
+              {t.titleLead}{" "}
+              <span className="accent-italic normal-case tracking-normal">{t.accent}</span>
             </h2>
 
-            <p className="lead mt-7 max-w-[40ch]">
-              Anuncios, un VSL, los reels del mes o un podcast. Te respondo en menos de 1h con
-              disponibilidad y dos presupuestos: llave en mano o solo grabación. Sin compromiso.
-            </p>
+            <p className="lead mt-7 max-w-[40ch]">{t.lead}</p>
 
             {/* Ficha de contacto: etiqueta izquierda, dato derecha, filete entre medias */}
             <div className="mt-11 max-w-[34rem]">
               <div className="rule" />
               {FICHA.map((row) => (
-                <div key={row.label}>
+                <div key={row.key}>
                   <a
                     href={row.href}
                     {...(row.external
@@ -60,7 +60,7 @@ export default function Contacto() {
                       : {})}
                     className="group flex items-baseline justify-between gap-6 py-4 transition-colors"
                   >
-                    <span className="meta">{row.label}</span>
+                    <span className="meta">{t[row.key]}</span>
                     <span className="data transition-colors group-hover:text-foreground/60">
                       {row.value}
                     </span>
@@ -74,10 +74,10 @@ export default function Contacto() {
           {/* Formulario */}
           <div className="reveal relative">
             <span className="badge badge-solid absolute -top-3 right-5 z-20">
-              Respuesta en 1h
+              {t.badge}
             </span>
             <div className="panel overflow-hidden">
-              <ContactFormEmbed loadDelay={0} />
+              <ContactFormEmbed loadDelay={0} lang={lang} />
             </div>
           </div>
         </div>

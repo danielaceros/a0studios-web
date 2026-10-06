@@ -4,25 +4,46 @@ import Link from "next/link";
 import Image from "next/image";
 import Navbar from "@/components/a0/Nav";
 import Footer from "@/components/a0/Footer";
-import { getAllPosts, getPostBySlug, getPostMetadata } from "@/lib/blog";
+import { getAllPosts, getPostBySlug, getLocalizedPost } from "@/lib/blog";
+import { buildMetadata } from "@/lib/seo";
+import { LOCALES, localizedHref, toLang } from "@/lib/i18n";
+import { siteContent } from "@/lib/i18n/content/site";
 import { getBlogPostingSchema, getFaqPageSchema } from "@/lib/structured-data";
 import { SITE_URL } from "@/lib/constants";
 
+// El layout [lang] pone dynamicParams=false; los slugs de post se resuelven aquí (desconocido → notFound()).
+export const dynamicParams = true;
+
 export async function generateStaticParams() {
-  return getAllPosts().map((post) => ({ slug: post.slug }));
+  return LOCALES.flatMap((lang) => getAllPosts().map((post) => ({ lang, slug: post.slug })));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
-  const { slug } = await params;
-  const post = getPostBySlug(slug);
-  if (!post) return {};
-  return getPostMetadata(post);
+type PostParams = { params: Promise<{ lang: string; slug: string }> };
+
+export async function generateMetadata({ params }: PostParams): Promise<Metadata> {
+  const { lang: rawLang, slug } = await params;
+  const lang = toLang(rawLang);
+  const original = getPostBySlug(slug);
+  if (!original) return {};
+  const post = getLocalizedPost(original, lang);
+  return buildMetadata({
+    title: post.seoTitle,
+    description: post.metaDescription,
+    path: `/blog/${post.slug}`,
+    lang,
+    type: "article",
+    publishedTime: post.publishedAt,
+    modifiedTime: post.updatedAt ?? post.publishedAt,
+  });
 }
 
-export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
-  const post = getPostBySlug(slug);
-  if (!post) notFound();
+export default async function BlogPostPage({ params }: PostParams) {
+  const { lang: rawLang, slug } = await params;
+  const lang = toLang(rawLang);
+  const original = getPostBySlug(slug);
+  if (!original) notFound();
+  const post = getLocalizedPost(original, lang);
+  const t = siteContent[lang].post;
 
   const faqs = post.body.filter(
     (block): block is Extract<typeof block, { type: "faq" }> => block.type === "faq"
@@ -44,7 +65,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               description: post.description,
               publishedAt: post.publishedAt,
               updatedAt: post.updatedAt,
-            })
+            }, lang)
           ),
         }}
       />
@@ -55,13 +76,13 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             __html: JSON.stringify(
               getFaqPageSchema(
                 faqs.map((faq) => ({ question: faq.question, answer: faq.answer })),
-                `${SITE_URL}/blog/${post.slug}`
+                `${SITE_URL}${localizedHref(lang, `/blog/${post.slug}`)}`
               )
             ),
           }}
         />
       )}
-      <Navbar />
+      <Navbar lang={lang} />
       <main className="bg-background text-foreground pt-36 sm:pt-40 pb-24">
         <article className="mx-auto max-w-4xl px-5 sm:px-8 lg:px-12">
           <header className="border-b border-line pb-10">
@@ -73,6 +94,18 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <h1 className="display mt-9 text-foreground sm:mt-11">
               {post.title}
             </h1>
+            <p className="meta mt-4">
+              {t.by}{" "}
+              <a
+                href="https://www.instagram.com/daniaceros"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-foreground/78 underline decoration-foreground/25 underline-offset-4 transition-colors duration-300 hover:text-accent-dark"
+              >
+                Dani Acero
+              </a>
+              , {t.role}
+            </p>
             <p className="lead mt-7 max-w-[54ch]">
               {post.description}
             </p>
@@ -152,26 +185,26 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           </div>
 
           <div className="panel-raised mt-16 p-7 sm:p-10">
-            <p className="meta">Pedir presupuesto</p>
+            <p className="meta">{t.ctaKicker}</p>
             <h2 className="display mt-6 max-w-[16ch] text-foreground">
-              Si quieres grabar contenido premium en Madrid, hablemos
+              {t.ctaTitle}
             </h2>
             <p className="lead mt-6 max-w-[52ch]">
-              Podemos plantear desde una sesión ágil de reels hasta una jornada de producción completa con edición y entrega.
+              {t.ctaLead}
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link href="/#contacto" className="btn btn-solid">
-                Pedir Presupuesto
+              <Link href={localizedHref(lang, "/#contacto")} className="btn btn-solid">
+                {t.ctaButton}
               </Link>
-              <Link href="/blog" className="btn btn-outline">
-                Volver al blog
+              <Link href={localizedHref(lang, "/blog")} className="btn btn-outline">
+                {t.back}
               </Link>
             </div>
           </div>
         </article>
 
       </main>
-      <Footer />
+      <Footer lang={lang} />
     </>
   );
 }

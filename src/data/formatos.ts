@@ -3,6 +3,9 @@
 // aparte con lightbox). Alojado en el store de Vercel Blob dedicado de
 // este proyecto (a0studios-media), bajo el prefijo formatos/ para no
 // mezclarlo con formatos/portfolio/.
+import type { Lang } from "@/lib/i18n";
+import { FORMATOS_ALT_EN, type FormatoId } from "./formatos.en";
+
 const BLOB_BASE = "https://dhhlvt4j8kklwk3i.public.blob.vercel-storage.com/formatos";
 
 export type FormatoOrientation = "horizontal" | "vertical";
@@ -277,4 +280,21 @@ export const BTS_ITEMS: FormatoItem[] = FORMATOS_ITEMS.filter((item) => item.sou
 /** Items de resultado final para la categoría pedida (Reels/Ads/VSL). */
 export function getResultadosByCategory(category: ResultadoCategory): FormatoItem[] {
   return FORMATOS_ITEMS.filter((item) => item.source === "resultado" && item.category === category);
+}
+
+/** Items localizados: mismas claves/ids/media, solo cambia el alt. */
+export function getFormatos(lang: Lang): FormatoItem[] {
+  if (lang === "es") return FORMATOS_ITEMS;
+  return FORMATOS_ITEMS.map((item) => ({
+    ...item,
+    alt: FORMATOS_ALT_EN[item.id as FormatoId] ?? item.alt,
+  }));
+}
+
+export function getBtsItems(lang: Lang): FormatoItem[] {
+  return getFormatos(lang).filter((item) => item.source === "bts");
+}
+
+export function getResultadosByCategoryLang(lang: Lang, category: ResultadoCategory): FormatoItem[] {
+  return getFormatos(lang).filter((item) => item.source === "resultado" && item.category === category);
 }

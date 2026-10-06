@@ -1,38 +1,46 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import LeadAttribution from "@/components/analytics/LeadAttribution";
+import { localizedHref, toLang } from "@/lib/i18n";
+import { graciasContent } from "@/lib/i18n/content/gracias";
 
-export const metadata: Metadata = {
-  // Sin el sufijo "| A0Studios": lo añade el template de src/lib/metadata.ts y salía duplicado.
-  title: "Gracias",
-  description: "Gracias por contactarnos. Te respondemos en menos de 1 hora.",
-  robots: { index: false, follow: false },
-};
+type Props = { params: Promise<{ lang: string }> };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { lang: raw } = await params;
+  const lang = toLang(raw);
+  const t = graciasContent[lang];
+  return {
+    // Sin el sufijo "| A0Studios": lo añade el template de src/lib/metadata.ts y salía duplicado.
+    title: t.metaTitle,
+    description: t.metaDescription,
+    // noindex: solo canonical propio (sin hreflang heredado de la home).
+    alternates: { canonical: lang === "es" ? "/gracias" : "/en/gracias" },
+    robots: { index: false, follow: false },
+  };
+}
 
 const EMAIL = "dani@a0studios.es";
 const PHONE = "+34 711 25 54 96";
-const WHATSAPP = `https://wa.me/34711255496?text=${encodeURIComponent(
-  "Hola Dani, acabo de enviaros el formulario de A0Studios y es urgente."
-)}`;
 
-export default function GraciasPage() {
+export default async function GraciasPage({ params }: Props) {
+  const lang = toLang((await params).lang);
+  const t = graciasContent[lang];
+  const WHATSAPP = `https://wa.me/34711255496?text=${encodeURIComponent(t.whatsappText)}`;
+
   return (
     <main className="flex min-h-svh flex-col items-center justify-center px-8 py-20 text-center">
       {/* Dispara el evento `Lead` del píxel si se llega aquí desde el formulario (no en visitas directas). */}
       <LeadAttribution />
-      <p className="meta">Mensaje enviado</p>
+      <p className="meta">{t.sent}</p>
       <h1 className="display mt-7 text-foreground">
-        Gracias<span className="accent-italic">.</span>
+        {t.thanks}<span className="accent-italic">.</span>
       </h1>
-      <p className="lead mt-8 max-w-md">
-        Hemos recibido tu mensaje. Te respondemos hoy con fecha disponible.
-      </p>
+      <p className="lead mt-8 max-w-md">{t.received}</p>
 
       {/* Contacto directo: solo después del lead, para quien no pueda esperar la respuesta. */}
       <div className="mt-12 w-full max-w-md text-left">
-        <p className="text-[0.9rem] leading-relaxed text-muted">
-          ¿Es urgente? Escríbeme directamente y lo vemos ahora.
-        </p>
+        <p className="text-[0.9rem] leading-relaxed text-muted">{t.urgent}</p>
         <div className="mt-5 flex flex-col">
           <a
             href={WHATSAPP}
@@ -41,7 +49,7 @@ export default function GraciasPage() {
             className="group flex min-h-[48px] items-center gap-3 border-t border-line text-foreground transition-opacity duration-300 hover:opacity-70"
           >
             <span aria-hidden="true" className="h-px w-4 shrink-0 bg-accent transition-all duration-300 group-hover:w-6" />
-            <span className="font-mono text-[12px] sm:text-[13px]">WhatsApp · {PHONE}</span>
+            <span className="font-mono text-[12px] sm:text-[13px]">{t.whatsappLabel} · {PHONE}</span>
           </a>
           <a
             href={`mailto:${EMAIL}`}
@@ -53,8 +61,8 @@ export default function GraciasPage() {
         </div>
       </div>
 
-      <Link href="/" className="btn btn-outline mt-11">
-        Volver al inicio
+      <Link href={localizedHref(lang, "/")} className="btn btn-outline mt-11">
+        {t.back}
       </Link>
     </main>
   );

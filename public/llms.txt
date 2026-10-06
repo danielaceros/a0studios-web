@@ -37,7 +37,7 @@ IFEMA, Cinesa, Cámara de Comercio de Madrid.
 - Nombre: A0Studios
 - Dirección: Rda. de Atocha, 16, 7ºC esc dcha, 28012 Madrid
 - Teléfono: 711 25 54 96
-- Web: https://www.a0studios.es/
+- Web: https://www.a0studios.es/ (español) · https://www.a0studios.es/en (English)
 - Metro: Atocha Renfe (5 minutos a pie)
 - Presupuesto: Personalizado en menos de 1 hora, sin compromiso
 - Entrega con edición: 24-48 horas
@@ -62,3 +62,14 @@ Daniel Acero — Founder & Filmmaker. Instagram: @daniaceros
 - [Página principal](https://www.a0studios.es)
 - [Blog](https://www.a0studios.es/blog)
 - [Instagram Daniel Acero](https://www.instagram.com/daniaceros)
+
+## English
+
+A0Studios (pronounced "Acero Studios", formerly Rooftop Content Studio) is a boutique content recording studio in a penthouse in central Madrid (Rda. de Atocha, 16, 7ºC esc dcha, 28012 Madrid, 5 minutes from Atocha Renfe station). It is directed by filmmaker Dani Acero and built for ads, VSLs, Reels, podcasts and video for YouTube, courses and brands. One session per day, custom quote (turnkey or recording only), no hourly rental. The whole website, including the blog, is available in English under /en/ (hreflang es-ES / en).
+
+- [Home (EN)](https://www.a0studios.es/en): recording studio in Madrid for ads, VSLs, Reels and podcasts that convert.
+- [Blog (EN)](https://www.a0studios.es/en/blog): guides on recording studios, podcasts, Reels, VSLs and brand video production in Madrid.
+- [Where to record ads in Madrid](https://www.a0studios.es/en/blog/donde-grabar-anuncios-en-madrid)
+- [Where to record a VSL in Madrid](https://www.a0studios.es/en/blog/donde-grabar-vsl-en-madrid)
+- [Studio recording prices in Madrid](https://www.a0studios.es/en/blog/estudio-grabacion-madrid-precios)
+- [Record a podcast in Madrid](https://www.a0studios.es/en/blog/grabar-podcast-madrid-estudio)

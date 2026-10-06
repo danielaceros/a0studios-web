@@ -1,18 +1,22 @@
 import SectionHead from "./SectionHead";
-import { FAQS } from "@/lib/constants";
+import type { Lang } from "@/lib/i18n";
+import { getFaqs } from "@/lib/i18n/content/faq";
+import { faqSectionContent } from "@/lib/i18n/content/faqSection";
 
-export default function Faq() {
+export default function Faq({ lang }: { lang: Lang }) {
+  const t = faqSectionContent[lang];
+  const faqs = getFaqs(lang);
   return (
     <section
       id="faq"
       className="px-4 py-[clamp(4.5rem,8vw,7.5rem)] sm:px-6 lg:px-8"
     >
       <div className="mx-auto max-w-[1360px]">
-        <SectionHead label="Preguntas frecuentes" title="Lo que suele" accent="preguntarse" />
+        <SectionHead label={t.label} title={t.title} accent={t.accent} />
 
         <div className="mt-14 sm:mt-[clamp(3.5rem,5vw,5rem)]">
           <div className="rule" />
-          {FAQS.map((faq, i) => (
+          {faqs.map((faq, i) => (
             <details key={faq.question} className="reveal group" open={i === 0}>
               <summary className="flex cursor-pointer list-none items-start justify-between gap-6 py-6 sm:py-8 [&::-webkit-details-marker]:hidden">
                 <div className="flex items-baseline gap-5 sm:gap-8">

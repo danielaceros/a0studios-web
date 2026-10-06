@@ -1,39 +1,13 @@
 import Image from "next/image";
 import SectionHead from "./SectionHead";
+import type { Lang } from "@/lib/i18n";
+import { estudioContent } from "@/lib/i18n/content/estudio";
 
 // Lo que diferencia al estudio no es el espacio sino quién dirige la sesión:
 // la comparativa enfrenta el estudio al uso con el criterio de marketing.
-const COMPARATIVA = [
-  {
-    label: "Lo habitual",
-    items: [
-      "Te alquilan el espacio y el equipo",
-      "Grabas lo que traigas preparado",
-      "Se cuida que se vea bien",
-      "Te entregan los archivos y listo",
-    ],
-    destacado: false,
-  },
-  {
-    label: "En A0Studios",
-    items: [
-      "Te dirige alguien que hace marketing",
-      "Cada pieza llega con guion y un objetivo",
-      "Se cuida que se vea bien y que funcione donde se publica",
-      "Te llevas piezas listas para anuncio, orgánico o web",
-    ],
-    destacado: true,
-  },
-];
 
-const STATS = [
-  { value: "6 años", label: "Produciendo para marcas" },
-  { value: "12", label: "Piezas de media por sesión" },
-  { value: "1", label: "Sesión al día" },
-  { value: "24-48h", label: "Entrega con edición" },
-];
-
-export default function Estudio() {
+export default function Estudio({ lang }: { lang: Lang }) {
+  const t = estudioContent[lang];
   return (
     <section
       id="estudio"
@@ -41,15 +15,15 @@ export default function Estudio() {
     >
       <div className="mx-auto max-w-[1360px]">
         <SectionHead
-          label="El método"
-          title="Sabemos para qué"
-          accent="grabas"
-          lead="Casi todos los estudios de grabación de Madrid te ofrecen buena luz y buena cámara. Aquí además te dirige alguien que monta anuncios, construye funnels y mide lo que cuesta conseguir cada cliente."
+          label={t.head.label}
+          title={t.head.title}
+          accent={t.head.accent}
+          lead={t.head.lead}
         />
 
         {/* Comparativa — dos columnas sobre filetes compartidos */}
         <div className="reveal grid-hair grid-hair--2 mt-14 grid grid-cols-1 sm:mt-[clamp(3.5rem,5vw,5rem)] md:grid-cols-2">
-          {COMPARATIVA.map((col) => (
+          {t.comparativa.map((col) => (
             <div
               key={col.label}
               className={`px-6 py-8 sm:px-10 sm:py-11 ${col.destacado ? "bg-[var(--color-raised)]" : ""}`}
@@ -79,7 +53,7 @@ export default function Estudio() {
 
         {/* Cifras — un solo bloque con filetes compartidos, no cuatro cajas sueltas */}
         <div className="reveal grid-hair grid-hair--2 grid-hair--4 mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-          {STATS.map((s) => (
+          {t.stats.map((s) => (
             <div key={s.label} className="px-6 py-8 sm:px-8 sm:py-10">
               <p className="figure text-[clamp(2rem,4vw,2.9rem)] text-foreground">{s.value}</p>
               <p className="meta mt-4">{s.label}</p>
@@ -92,34 +66,29 @@ export default function Estudio() {
           <div className="panel relative aspect-[4/5] overflow-hidden lg:aspect-auto">
             <Image
               src="/me.webp"
-              alt="Dani Acero, fundador y filmmaker de A0Studios"
+              alt={t.photoAlt}
               width={640}
               height={640}
               className="absolute inset-0 h-full w-full object-cover object-center"
             />
-            <span className="badge absolute bottom-4 left-4">Dani Acero · Fundador</span>
+            <span className="badge absolute bottom-4 left-4">{t.badge}</span>
           </div>
 
           <div className="panel flex flex-col justify-between gap-8 px-6 py-9 sm:px-11 sm:py-12">
             <div className="flex flex-col gap-7">
               <p className="text-[1.02rem] leading-[1.75] text-foreground/88 sm:text-[1.2rem] sm:leading-[1.7]">
-                Soy filmmaker, pero ante todo{" "}
-                <span className="accent-italic">emprendedor</span>. Llevo seis años produciendo para
-                marcas como IFEMA, Cinesa y la Cámara de Comercio de Madrid, y en paralelo gestiono
-                anuncios, trabajo el SEO y el posicionamiento en IA y monto funnels de venta.
+                {t.founderPre} <span className="accent-italic">{t.founderAccent}</span>
+                {t.founderPost}
               </p>
               <p className="prose-body max-w-[56ch] text-[0.93rem]">
-                Por eso con mis clientes acabo hablando antes de captación, de coste por lead y de
-                coste por cliente que de cámaras. En la sesión no solo cuido la luz: te digo qué
-                pregunta va a funcionar como reel, cómo arrancar un anuncio para que no lo pasen de
-                largo y qué necesita tu VSL para llevar a la llamada.
+                {t.founderP2}
               </p>
             </div>
 
             <div>
               <div className="rule" />
               <div className="flex items-baseline justify-between gap-6 pt-4">
-                <span className="meta">Fundador</span>
+                <span className="meta">{t.founderLabel}</span>
                 <a
                   href="https://www.instagram.com/daniaceros"
                   target="_blank"

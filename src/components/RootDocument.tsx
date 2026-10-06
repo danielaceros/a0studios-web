@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
 import { Manrope, Playfair_Display } from "next/font/google";
 import Script from "next/script";
-import { siteMetadata } from "@/lib/metadata";
+import { buildRootMetadata } from "@/lib/metadata";
 import { getProfessionalServiceSchema, getWebSiteSchema, getBreadcrumbSchema, getVideoSchema } from "@/lib/structured-data";
 // GrainOverlay removed per user request
 import SmoothScroll from "@/components/ui/SmoothScroll";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
 import CookieConsent from "@/components/CookieConsent";
-import "./globals.css";
+import type { Lang } from "@/lib/i18n";
+import "@/app/globals.css";
 
 // Dos familias en toda la web y ni una más:
 // Manrope para todo (incluidos los datos técnicos que antes iban en mono)
@@ -27,15 +27,19 @@ const playfairDisplay = Playfair_Display({
   display: "swap",
 });
 
-export const metadata: Metadata = siteMetadata;
+export { buildRootMetadata };
 
-export default function RootLayout({
+// Documento HTML completo (<html lang>, head, tracking, JSON-LD). Lo monta app/[lang]/layout.tsx
+// y app/global-not-found.tsx. El español no cambia: mismos scripts, mismo schema.
+export default function RootDocument({
+  lang,
   children,
 }: Readonly<{
+  lang: Lang;
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className={`${manrope.variable} ${playfairDisplay.variable}`}>
+    <html lang={lang} className={`${manrope.variable} ${playfairDisplay.variable}`}>
       <head>
         {/* Inline script (not Next Script) to run before ANY other JS — catches
             webkit.messageHandlers errors thrown by Instagram/TikTok iOS WebViews */}
@@ -91,13 +95,13 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(getProfessionalServiceSchema()),
+            __html: JSON.stringify(getProfessionalServiceSchema(lang)),
           }}
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(getWebSiteSchema()),
+            __html: JSON.stringify(getWebSiteSchema(lang)),
           }}
         />
         {/* El WebPage schema (con datePublished/dateModified propios) ya no
@@ -108,21 +112,21 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(getBreadcrumbSchema()),
+            __html: JSON.stringify(getBreadcrumbSchema(lang)),
           }}
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(getVideoSchema()),
+            __html: JSON.stringify(getVideoSchema(lang)),
           }}
         />
       </head>
       <body>
         <SmoothScroll />
         {children}
-        <WhatsAppButton />
-        <CookieConsent />
+        <WhatsAppButton lang={lang} />
+        <CookieConsent lang={lang} />
       </body>
     </html>
   );
