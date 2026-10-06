@@ -775,6 +775,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin candidate válido (todas las queries caen en URLs o keywords ya cubiertas; sin datos de la keyword objetivo). Fallback evergreen: lista Prioridad 1 agotada (ítems 7 y 8 descartados por solape con posts ya publicados), se usa ítem 20 de la lista genérica. Tema sobre qué grabar antes de una venta importante: vídeo de presentación, demo corta y clips de objeciones. Imágenes Unsplash (Campaign Creators, 2H Media).",
   },
+  {
+    slug: "video-landing-page-formato-duracion-que-convierte",
+    keyword: "video para landing page",
+    intent: "informacional",
+    createdAt: "2026-10-06",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant, pendiente de reautorización manual). Fallback evergreen: lista Prioridad 1 agotada, se usa ítem 15 de la lista genérica. Tema sobre qué formato y duración de vídeo usar en una landing page (oferta, demo, testimonio) y cómo grabarlos en una sesión. Imágenes Unsplash (Ofspace LLC, Sanjeev Nagaraj).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

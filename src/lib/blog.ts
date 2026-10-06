@@ -9929,6 +9929,128 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "video-landing-page-formato-duracion-que-convierte",
+    title: "Vídeo para landing page: qué formato y duración convierten más",
+    description:
+      "Qué formato y duración de vídeo funcionan en una landing page: vídeo de oferta, demo corta o testimonio, dónde colocarlo y cómo grabarlo en una sola sesión.",
+    publishedAt: "2026-10-06",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["vídeo landing page", "conversión", "contenido para ventas", "estudio de grabación", "Madrid", "VSL"],
+    keyword: "video para landing page",
+    intent: "informacional",
+    excerpt:
+      "Un vídeo en la landing puede subir la conversión o frenar la carga y espantar al visitante. Qué formato elegir, cuánto debe durar y cómo grabarlo bien en una sesión.",
+    seoTitle: "Vídeo para landing page: formato y duración que convierten",
+    metaDescription:
+      "Vídeo para landing page: qué formato y duración convierten más, dónde colocarlo y cómo grabarlo con criterio de venta en una sola sesión de estudio.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Poner un vídeo en una landing page no garantiza nada. Un vídeo largo, sin gancho y con mala imagen hace que el visitante se vaya. Uno corto, claro y pensado para la decisión de compra hace parte del trabajo de venta por ti.",
+      },
+      {
+        type: "paragraph",
+        text: "Yo dirijo sesiones de contenido en A0Studios, nuestro ático de Ronda de Atocha 16, en Madrid centro. Vengo del mundo de los anuncios, así que miro cada vídeo de landing con una pregunta: qué tiene que decidir el visitante en los próximos 60 segundos.",
+      },
+      {
+        type: "image",
+        src: "/blog/video-landing-page-formato-duracion-que-convierte/hero.webp",
+        alt: "Persona trabajando con un portátil en una página web de una agencia digital",
+        width: 1920,
+        height: 1245,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué el vídeo cambia el comportamiento en la landing" },
+      {
+        type: "paragraph",
+        text: "Una landing tiene pocos segundos para explicar quién eres, qué ofreces y por qué fiarse. El texto lo hace bien con quien lee con calma. El vídeo llega mejor a quien escanea: ve una cara, oye una voz y entiende el tono de la marca antes de leer nada.",
+      },
+      {
+        type: "paragraph",
+        text: "El vídeo funciona sobre todo cuando la oferta necesita confianza: servicios con ticket alto, consultoría, clínicas, formación o software con demo. Si vendes algo de 15 euros que se entiende con una foto, el vídeo suele sobrar.",
+      },
+      {
+        type: "paragraph",
+        text: "Eso sí, no hay un número mágico de conversión que sirva para todos. Depende de la oferta, del tráfico y del mensaje. Lo que sí se repite es que una pieza corta y bien dirigida casi nunca perjudica, y una pieza larga sin estructura casi siempre sí.",
+      },
+      { type: "heading", level: 2, text: "Cómo elegir bien formato y duración" },
+      { type: "heading", level: 3, text: "Vídeo de oferta: 60 a 90 segundos en la parte superior" },
+      {
+        type: "paragraph",
+        text: "Es el que explica quién eres y qué problema resuelves. Estructura que uso: gancho de 5 segundos con el problema, solución en dos frases, prueba y siguiente paso. Entre 60 y 90 segundos suele bastar. Si necesitas más, probablemente estás intentando contar dos mensajes en un solo vídeo.",
+      },
+      { type: "heading", level: 3, text: "Demo corta: 30 a 60 segundos junto al botón" },
+      {
+        type: "paragraph",
+        text: "Si vendes un producto o un servicio con proceso, enseña cómo funciona en lugar de describirlo. Una demo de 45 segundos con pantalla o producto en plano cercano resuelve la duda de qué recibe exactamente el cliente. Colócala cerca del botón de acción, no al final de la página.",
+      },
+      { type: "heading", level: 3, text: "Testimonio: 30 a 45 segundos, a mitad de página" },
+      {
+        type: "paragraph",
+        text: "Un testimonio funciona cuando responde a una objeción concreta: precio, plazo o resultado. Corto, con la persona mirando a cámara y sin música que tape la voz. Dos o tres de 30 segundos funcionan mejor que uno de dos minutos.",
+      },
+      {
+        type: "image",
+        src: "/blog/video-landing-page-formato-duracion-que-convierte/mid.webp",
+        alt: "Monitor con software de edición de vídeo mostrando línea de tiempo y ventana de previsualización",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes" },
+      {
+        type: "list",
+        items: [
+          "Autoplay con sonido: el navegador suele bloquearlo y, si no lo bloquea, asusta al visitante. Mejor autoplay en silencio con subtítulos, o inicio por clic.",
+          "Empezar con logo animado y presentación de la empresa en lugar de con el problema del cliente.",
+          "Subir un archivo pesado sin comprimir y frenar la carga de la página, que penaliza la conversión y el SEO.",
+          "Un solo vídeo para todo el tráfico, sin adaptar el mensaje al anuncio o la campaña de la que llega el visitante.",
+          "Grabar con el móvil en la oficina, con eco y mala luz, para un servicio que cobra bien.",
+          "Olvidar la llamada a la acción final: qué debe hacer el visitante después de verlo.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Cómo lo grabamos en una sesión" },
+      {
+        type: "paragraph",
+        text: "En una sesión de 3 horas en A0Studios puedes sacar el vídeo de oferta, la demo y 3 testimonios, con dos micrófonos de corbata y una cámara Sony A7 en dos encuadres. Después se edita en DaVinci Resolve y se exportan versiones horizontales y verticales, de modo que la misma sesión te sirve para la landing y para anuncios en Meta o TikTok.",
+      },
+      {
+        type: "paragraph",
+        text: "La diferencia no está solo en el espacio. Dirijo la sesión con criterio de venta: qué frase abre, qué prueba se enseña y dónde cortamos. Esa dirección es lo que separa un vídeo bonito de uno que ayuda a que el visitante pulse el botón.",
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto debe durar un vídeo en una landing page?",
+        answer:
+          "Para el vídeo de oferta, entre 60 y 90 segundos. Para demos, entre 30 y 60. Para testimonios, entre 30 y 45. Si el mensaje no cabe, suele ser que hay que dividirlo en dos piezas.",
+      },
+      {
+        type: "faq",
+        question: "¿El vídeo ralentiza la landing y perjudica el SEO?",
+        answer:
+          "Puede hacerlo si subes un archivo pesado sin comprimir. Usa un vídeo comprimido, carga diferida o una imagen de portada que cargue el reproductor solo al pulsar. Así no pierdes velocidad.",
+      },
+      {
+        type: "faq",
+        question: "¿Mejor vídeo horizontal o vertical en la landing?",
+        answer:
+          "Depende de dónde llegue el tráfico. Si viene sobre todo del móvil, desde anuncios de Instagram o TikTok, el vertical encaja mejor. Para escritorio, el horizontal. En una sola sesión se pueden grabar ambos encuadres.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta un estudio o vale con grabar en la oficina?",
+        answer:
+          "Vale la oficina para pruebas internas, pero si el servicio tiene un ticket alto, la imagen y el sonido importan. Un estudio da luz controlada, audio limpio y dirección, y ahorra repeticiones.",
+      },
+      {
+        type: "paragraph",
+        text: "Si quieres grabar el vídeo de tu landing en Madrid con alguien que sepa qué convierte, escríbenos en /#contacto, cuéntanos tu oferta y te proponemos formato, duración y guion antes de reservar.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
