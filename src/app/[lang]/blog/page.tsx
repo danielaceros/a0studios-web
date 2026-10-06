@@ -3,6 +3,7 @@ import Navbar from "@/components/a0/Nav";
 import Footer from "@/components/a0/Footer";
 import { getLocalizedPosts } from "@/lib/blog";
 import { localizedMetadata, type LangParams } from "@/lib/seo";
+import { getBreadcrumbSchema } from "@/lib/structured-data";
 import { localizedHref, toLang } from "@/lib/i18n";
 import { siteContent } from "@/lib/i18n/content/site";
 
@@ -19,6 +20,12 @@ export default async function BlogPage({ params }: LangParams) {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(getBreadcrumbSchema(lang, [{ name: t.kicker, path: "/blog" }])),
+        }}
+      />
       <Navbar lang={lang} />
       <main className="bg-background text-foreground pt-36 sm:pt-40 pb-24">
         <section className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">

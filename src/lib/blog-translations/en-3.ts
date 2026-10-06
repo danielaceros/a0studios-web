@@ -2616,7 +2616,7 @@ export const enPart3: Record<string, BlogPostTranslation> = {
     "body": [
       {
         "type": "paragraph",
-        "text": "Every week someone writes to us with the same question: where to record an ad in Madrid. They are looking for a studio, but the question they really need to answer is a different one: who is going to direct the session so that the ad sells, not just looks good."
+        "text": "To record an ad in Madrid, choose who directs the session before you choose the studio, because an ad is not judged by how good it looks but by whether it stops the scroll and earns a click or a lead. At A0Studios we record ads for Meta Ads, TikTok Ads and VSLs in a penthouse at Rda. de Atocha 16, central Madrid, five minutes from Atocha Renfe metro. Dani Acero, a filmmaker who also runs ad campaigns, directs with a sales mindset: the hook solved in the first 3 seconds, framing built for the vertical feed and a script based on the customer's problem. There is one session per day, quoted to fit, with two options: turnkey or recording only. An average session gives about 12 pieces, delivered in 24-48 hours on the turnkey option."
       },
       {
         "type": "paragraph",
@@ -2748,7 +2748,7 @@ export const enPart3: Record<string, BlogPostTranslation> = {
     "body": [
       {
         "type": "paragraph",
-        "text": "A VSL is a video sales letter: a piece designed to sell a product or service directly, either as an ad on Meta or TikTok or as the main video on a landing page. It is not a corporate video or a pretty Reel. It is a recorded sales argument, and that changes everything you need from the place where you record it."
+        "text": "A VSL (video sales letter) is a sales video built to sell a product or service directly, either as an ad on Meta or TikTok or as the main video on a landing page. Recording one in Madrid takes more than a studio with a good image: you need clean audio, steady lighting and, above all, direction with a sales mindset. At A0Studios we record VSLs for founders and marketing teams in a penthouse at Rda. de Atocha 16, five minutes from Atocha Renfe metro, with Sony cameras, professional sound, fixed lighting and a teleprompter for long scripts. Dani Acero, a filmmaker who also runs ad campaigns, directs the session. A VSL usually runs from 90 seconds to 4 minutes. There is one session per day and the quote is tailored, either turnkey (editing and delivery in 24-48 hours) or recording only. We reply in under an hour."
       },
       {
         "type": "paragraph",
@@ -3036,7 +3036,7 @@ export const enPart3: Record<string, BlogPostTranslation> = {
     "body": [
       {
         "type": "paragraph",
-        "text": "When you record for social media on a recurring basis, you are not looking for the same thing as for a one-off ad or a once-a-year corporate video. You want a place you can return to every two or three weeks, set up fast, record several pieces back to back and leave without losing half the session adjusting light or framing."
+        "text": "A recording studio for social media in Madrid should let you come back every few weeks, set up fast and record several vertical pieces back to back without losing half the session adjusting light or framing. A0Studios is a penthouse studio at Rda. de Atocha 16, five minutes from Atocha Renfe metro, with Sony cameras, professional lighting and sound, a teleprompter, a terrace overlooking the skyline and a multipurpose room with a podcast set, so you can change look within the same session. Dani Acero, a filmmaker who also runs Meta and TikTok ad campaigns, directs, so the direction thinks about which format retains attention and which hook opens a video well. An average session yields about 12 pieces. There is one session per day, with a custom quote and two options: turnkey (delivery in 24-48 hours) or recording only. We reply in under an hour."
       },
       {
         "type": "paragraph",
@@ -3174,7 +3174,7 @@ export const enPart3: Record<string, BlogPostTranslation> = {
     "body": [
       {
         "type": "paragraph",
-        "text": "Finding the best studio to record commercials in Madrid is harder than it looks, because almost all of them show the same thing: pretty photos of the space, an equipment list and a price per hour. They rarely say what really decides whether the commercial works."
+        "text": "The best studio to record commercials in Madrid is not the biggest or the cheapest per hour, but the one that combines light control, short setup time and direction that understands advertising. A commercial is measured by how much it retains, what each click costs and whether someone ends up buying. For a product spot, a testimonial or one person talking to camera, 30-40 m² of well-lit space beats a huge warehouse. A0Studios is a penthouse at Rda. de Atocha 16, five minutes from Atocha Renfe metro, with Sony cameras, professional lighting and sound, a teleprompter and controllable natural and artificial light. Dani Acero, a filmmaker who also runs ad campaigns, directs. There is one session per day with a custom quote: turnkey or recording only. An average session yields about 12 pieces, built to test several versions of the spot."
       },
       {
         "type": "paragraph",

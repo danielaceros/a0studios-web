@@ -4,11 +4,11 @@ import Link from "next/link";
 import Image from "next/image";
 import Navbar from "@/components/a0/Nav";
 import Footer from "@/components/a0/Footer";
-import { getAllPosts, getPostBySlug, getLocalizedPost } from "@/lib/blog";
+import { getAllPosts, getPostBySlug, getLocalizedPost, hasPostTranslation } from "@/lib/blog";
 import { buildMetadata } from "@/lib/seo";
 import { LOCALES, localizedHref, toLang } from "@/lib/i18n";
 import { siteContent } from "@/lib/i18n/content/site";
-import { getBlogPostingSchema, getFaqPageSchema } from "@/lib/structured-data";
+import { getBlogPostingSchema, getFaqPageSchema, getBreadcrumbSchema } from "@/lib/structured-data";
 import { SITE_URL } from "@/lib/constants";
 
 // El layout [lang] pone dynamicParams=false; los slugs de post se resuelven aquí (desconocido → notFound()).
@@ -31,6 +31,9 @@ export async function generateMetadata({ params }: PostParams): Promise<Metadata
     description: post.metaDescription,
     path: `/blog/${post.slug}`,
     lang,
+    // Sin traducción: /en se sirve con el texto ES → noindex; y el ES no declara alternate EN que no existe.
+    pendingTranslation: !hasPostTranslation(slug, lang),
+    noAlternates: !hasPostTranslation(slug, "en"),
     type: "article",
     publishedTime: post.publishedAt,
     modifiedTime: post.updatedAt ?? post.publishedAt,
@@ -44,6 +47,14 @@ export default async function BlogPostPage({ params }: PostParams) {
   if (!original) notFound();
   const post = getLocalizedPost(original, lang);
   const t = siteContent[lang].post;
+  // Fechas legibles en el idioma de la página (UTC para que no cambie el día según la zona horaria).
+  const dateFmt = new Intl.DateTimeFormat(lang === "es" ? "es-ES" : "en-GB", {
+    dateStyle: "long",
+    timeZone: "UTC",
+  });
+  const published = dateFmt.format(new Date(post.publishedAt));
+  const updated =
+    post.updatedAt && post.updatedAt !== post.publishedAt ? dateFmt.format(new Date(post.updatedAt)) : null;
 
   const faqs = post.body.filter(
     (block): block is Extract<typeof block, { type: "faq" }> => block.type === "faq"
@@ -66,6 +77,17 @@ export default async function BlogPostPage({ params }: PostParams) {
               publishedAt: post.publishedAt,
               updatedAt: post.updatedAt,
             }, lang)
+          ),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            getBreadcrumbSchema(lang, [
+              { name: siteContent[lang].blog.kicker, path: "/blog" },
+              { name: post.title, path: `/blog/${post.slug}` },
+            ])
           ),
         }}
       />
@@ -110,7 +132,15 @@ export default async function BlogPostPage({ params }: PostParams) {
               {post.description}
             </p>
             <div className="meta mt-8 flex flex-wrap items-center gap-3">
-              <span>{post.publishedAt}</span>
+              <time dateTime={post.publishedAt}>{published}</time>
+              {updated ? (
+                <>
+                  <span className="h-px w-3 bg-foreground/35" />
+                  <time dateTime={post.updatedAt}>
+                    {t.updated}: {updated}
+                  </time>
+                </>
+              ) : null}
               <span className="h-px w-3 bg-foreground/35" />
               <span>{post.readingTime}</span>
               <span className="h-px w-3 bg-foreground/35" />

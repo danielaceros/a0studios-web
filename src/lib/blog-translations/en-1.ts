@@ -22,7 +22,7 @@ export const enPart1: Record<string, BlogPostTranslation> = {
     "body": [
       {
         "type": "paragraph",
-        "text": "Looking for a recording studio in Madrid is not just about finding four walls, some lights and an hourly rate. It is about choosing a space that fits the type of content you want to produce, your standards and the feeling you want to give when someone watches the finished piece."
+        "text": "Recording studio prices in Madrid have no single figure: the cost depends on the space, the equipment included and whether you book just the room or full production. A0Studios does not publish rates or rent by the hour. It runs one session per day with a custom quote and two options: turnkey (recording, editing and delivery in 24-48 hours) or recording only (you shoot and take the raw footage). What raises or lowers the price is session length, the number of final pieces, editing and subtitles, and set complexity. A0Studios is a penthouse studio at Rda. de Atocha 16, five minutes from Atocha Renfe metro, with Sony cameras, professional lighting and sound, a teleprompter, a terrace overlooking the skyline and a multipurpose room with a podcast set. An average session yields about 12 pieces. We reply in under an hour."
       },
       {
         "type": "paragraph",
@@ -157,7 +157,7 @@ export const enPart1: Record<string, BlogPostTranslation> = {
     "body": [
       {
         "type": "paragraph",
-        "text": "Recording a podcast in Madrid has become easy. Recording it well, not so much. There are plenty of places where you can put two mics on a table and hit record, but not many where the result actually makes your brand look more serious, more polished and more credible."
+        "text": "A good podcast recording studio in Madrid gives you clean sound, a visual setting that adds to your brand, lighting that does not flatten the image and enough room for the guest, the gear and extra formats such as vertical clips. A0Studios is a penthouse studio at Rda. de Atocha 16, five minutes from Atocha Renfe metro, with a multipurpose room holding a podcast set, professional sound, Sony cameras, professional lighting and a terrace overlooking the skyline. A podcast is no longer consumed only as audio: it is cut into clips, shared on social media and is often someone's first impression of your brand. That is why a session does not end with one long episode: on average it yields about 12 pieces, including vertical clips, themed cuts and still photos. One session is booked per day with a custom quote, turnkey or recording only. We reply in under an hour."
       },
       {
         "type": "paragraph",
