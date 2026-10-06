@@ -16,7 +16,7 @@ export default function PoliticaCookies() {
           </h1>
 
           <p>
-            Esta web, titularidad de Daniel Acero Sagredo (KLIP), utiliza
+            Esta web, titularidad de Daniel Acero Sagredo (A0Studios), utiliza
             cookies propias y de terceros para mejorar la experiencia de
             navegación, analizar el uso del sitio y ofrecer contenidos adaptados
             a los intereses del usuario.

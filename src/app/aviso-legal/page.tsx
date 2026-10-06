@@ -24,10 +24,10 @@ export default function AvisoLegal() {
 
           <ul className="mt-6 space-y-1">
             <li><strong className="text-foreground">Titular del sitio web:</strong> Daniel Acero Sagredo</li>
-            <li><strong className="text-foreground">Nombre comercial:</strong> KLIP</li>
+            <li><strong className="text-foreground">Nombre comercial:</strong> A0Studios</li>
             <li><strong className="text-foreground">DNI/NIF:</strong> 06590329R</li>
-            <li><strong className="text-foreground">Domicilio:</strong> Calle de Mercedes Arteaga 24, España</li>
-            <li><strong className="text-foreground">Correo electrónico de contacto:</strong> work@daniaceros.com</li>
+            <li><strong className="text-foreground">Domicilio:</strong> Rda. de Atocha, 16, 7ºC esc dcha, 28012 Madrid, España</li>
+            <li><strong className="text-foreground">Correo electrónico de contacto:</strong> dani@a0studios.es</li>
           </ul>
 
           <h2 className="mb-4 mt-14 font-heading text-[1.35rem] tracking-[-0.028em] text-foreground">

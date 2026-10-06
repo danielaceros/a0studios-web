@@ -73,6 +73,18 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <h1 className="display mt-9 text-foreground sm:mt-11">
               {post.title}
             </h1>
+            <p className="meta mt-4">
+              Por{" "}
+              <a
+                href="https://www.instagram.com/daniaceros"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-foreground/78 underline decoration-foreground/25 underline-offset-4 transition-colors duration-300 hover:text-accent-dark"
+              >
+                Dani Acero
+              </a>
+              , Founder &amp; Filmmaker
+            </p>
             <p className="lead mt-7 max-w-[54ch]">
               {post.description}
             </p>

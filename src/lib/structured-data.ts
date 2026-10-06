@@ -120,18 +120,23 @@ export function getProfessionalServiceSchema() {
         ),
       ],
     },
-    // NOTA SEO (9-sep-2026): las reviews de más abajo SÍ son legítimas para schema —
-    // vienen de la ficha real de Google Business Profile (a nombre antiguo
-    // "Rooftop Content Studio", ver alternateName arriba), verificables por
-    // terceros en Google Maps. Sustituyen a los 2 testimonios propios que se
-    // habían quitado antes por ser "self-serving" (no venían de ninguna
-    // plataforma externa) y suponer riesgo de manual action.
+    // NOTA SEO (28-sep-2026): las reviews de más abajo tienen que coincidir
+    // exactamente con los testimonios en vídeo visibles en la sección
+    // #testimonios de la home (ver TESTIMONIOS en
+    // src/components/a0/Testimonios.tsx) — Google exige que el review
+    // schema refleje contenido visible en la página. Antes había 4 reviews
+    // (Mónica López, Geko Marketing, Carlos Galán, Javier Bascón) que no
+    // correspondían a ningún testimonio real mostrado en la web — una de
+    // ellas describía el estudio como "lo más económico", lo cual además
+    // contradice el posicionamiento boutique/premium sin precios públicos.
+    // Si se añaden o cambian testimonios en Testimonios.tsx, actualizar
+    // este array en el mismo cambio.
     review: [
       {
         "@type": "Review",
-        author: { "@type": "Person", name: "Mónica López vozmediano" },
+        author: { "@type": "Person", name: "Javi" },
         reviewBody:
-          "Ha sido una experiencia increíble, me he sentido muy cómoda desde el principio con Dani. La verdad es que lo ha hecho todo muy fácil y […] me llevo contenido para meses. Una de las acciones que más pereza me da hacer en casa y de esta forma he ahorrado mucho tiempo y procrastinación. Gracias Dani por todo y muy muy recomendado ❤️",
+          "Es la segunda vez que venimos. La primera fue un éxito y ahora vamos a por el segundo.",
         reviewRating: {
           "@type": "Rating",
           ratingValue: "5",
@@ -140,9 +145,9 @@ export function getProfessionalServiceSchema() {
       },
       {
         "@type": "Review",
-        author: { "@type": "Person", name: "Geko Marketing" },
+        author: { "@type": "Person", name: "Narro Machetti" },
         reviewBody:
-          "Muuuuuy agradecidos con el lugar y sobre todo con Dani. Un chico encantador, con un equipazo y súper generoso. Sin duda volveremos pronto a grabar contenido en el estudio. Gracias a todos 🫡…",
+          "Brutal. Gente cercana, profesional. Grabamos anuncios, podcast, VSL y contenido orgánico.",
         reviewRating: {
           "@type": "Rating",
           ratingValue: "5",
@@ -151,9 +156,9 @@ export function getProfessionalServiceSchema() {
       },
       {
         "@type": "Review",
-        author: { "@type": "Person", name: "Carlos Galán" },
+        author: { "@type": "Person", name: "Guillermo" },
         reviewBody:
-          "De lo más económico que he encontrado en Madrid. Me salvó la grabación. Estaba de paso por Madrid y tenía que grabar. Di con este estudio y fue todo un acierto. Dani estuvo súper involucrado con el proyecto desde el primer momento. Un gustazo de profesional, atento a cada detalle y siempre buscando que el resultado quedara lo mejor posible. Además el equipo que puso era de calidad y la ubicación no puede ser mejor. Lo recomendaría sin dudar.",
+          "Grabamos contenido para todo el equipo. Volveremos.",
         reviewRating: {
           "@type": "Rating",
           ratingValue: "5",
@@ -162,9 +167,31 @@ export function getProfessionalServiceSchema() {
       },
       {
         "@type": "Review",
-        author: { "@type": "Person", name: "Javier Bascón" },
+        author: { "@type": "Person", name: "Carlos Niño" },
         reviewBody:
-          "Una combinación de profesionalidad y tecnología a la altura de los mejores estudios",
+          "Te sientes como en casa. La comodidad, los equipos, las innovaciones… Para mí un diez.",
+        reviewRating: {
+          "@type": "Rating",
+          ratingValue: "5",
+          bestRating: "5",
+        },
+      },
+      {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Alexandra" },
+        reviewBody:
+          "Todo muy profesional. Buena calidad, buena luz, buen ambiente. Este es tu sitio.",
+        reviewRating: {
+          "@type": "Rating",
+          ratingValue: "5",
+          bestRating: "5",
+        },
+      },
+      {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Almudena" },
+        reviewBody:
+          "El espacio es súper cómodo. Cinco estrellas.",
         reviewRating: {
           "@type": "Rating",
           ratingValue: "5",
@@ -172,13 +199,13 @@ export function getProfessionalServiceSchema() {
         },
       },
     ],
-    // Ratings reales de la ficha de Google Business Profile "Rooftop Content
-    // Studio - Estudio de Grabación" (5,0 · 4 reseñas). Recalcular si cambia
-    // el total en Google.
+    // Ratings agregados a partir de los 6 testimonios reales mostrados en
+    // #testimonios (todos 5 estrellas). Recalcular si cambia el número de
+    // testimonios en Testimonios.tsx.
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "5",
-      reviewCount: "4",
+      reviewCount: "6",
       bestRating: "5",
     },
     sameAs: [
