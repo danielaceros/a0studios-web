@@ -32,6 +32,8 @@ type BuildMetadataArgs = {
   /** Sin hreflang (p. ej. página que solo existe en un idioma) */
   noAlternates?: boolean;
   noIndex?: boolean;
+  /** Versión /en sin traducir (se sirve con el texto ES): noindex, sin hreflang. */
+  pendingTranslation?: boolean;
   type?: "website" | "article";
   publishedTime?: string;
   modifiedTime?: string;
@@ -46,6 +48,7 @@ export function buildMetadata({
   lang,
   noAlternates = false,
   noIndex = false,
+  pendingTranslation = false,
   type = "website",
   publishedTime,
   modifiedTime,
@@ -59,9 +62,13 @@ export function buildMetadata({
     description,
     alternates: {
       canonical: localizedPath,
-      ...(noAlternates || noIndex ? {} : { languages: buildLanguageAlternates(path) }),
+      ...(noAlternates || noIndex || pendingTranslation ? {} : { languages: buildLanguageAlternates(path) }),
     },
-    ...(noIndex ? { robots: { index: false, follow: false } } : {}),
+    ...(noIndex
+      ? { robots: { index: false, follow: false } }
+      : pendingTranslation
+        ? { robots: { index: false, follow: true } }
+        : {}),
     openGraph: {
       type,
       locale: OG_LOCALE[lang],

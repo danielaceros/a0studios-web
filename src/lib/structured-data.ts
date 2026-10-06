@@ -1,6 +1,7 @@
 import { SITE_URL, SITE_NAME, SITE_DESCRIPTION, NAP } from "./constants";
 import { localizedHref, SCHEMA_LANGUAGE, type Lang } from "./i18n/config";
 import { siteContent } from "./i18n/content/site";
+import { testimoniosContent } from "./i18n/content/testimonios";
 
 // Textos del schema por idioma (el español es el original, sin cambios).
 const T = {
@@ -189,8 +190,8 @@ export function getProfessionalServiceSchema(lang: Lang = "es") {
       {
         "@type": "Review",
         author: { "@type": "Person", name: "Javi" },
-        reviewBody:
-          "Es la segunda vez que venimos. La primera fue un éxito y ahora vamos a por el segundo.",
+        reviewBody: testimoniosContent[lang].items[0].quote,
+        inLanguage: SCHEMA_LANGUAGE[lang],
         reviewRating: {
           "@type": "Rating",
           ratingValue: "5",
@@ -200,8 +201,8 @@ export function getProfessionalServiceSchema(lang: Lang = "es") {
       {
         "@type": "Review",
         author: { "@type": "Person", name: "Narro Machetti" },
-        reviewBody:
-          "Brutal. Gente cercana, profesional. Grabamos anuncios, podcast, VSL y contenido orgánico.",
+        reviewBody: testimoniosContent[lang].items[1].quote,
+        inLanguage: SCHEMA_LANGUAGE[lang],
         reviewRating: {
           "@type": "Rating",
           ratingValue: "5",
@@ -211,8 +212,8 @@ export function getProfessionalServiceSchema(lang: Lang = "es") {
       {
         "@type": "Review",
         author: { "@type": "Person", name: "Guillermo" },
-        reviewBody:
-          "Grabamos contenido para todo el equipo. Volveremos.",
+        reviewBody: testimoniosContent[lang].items[2].quote,
+        inLanguage: SCHEMA_LANGUAGE[lang],
         reviewRating: {
           "@type": "Rating",
           ratingValue: "5",
@@ -222,8 +223,8 @@ export function getProfessionalServiceSchema(lang: Lang = "es") {
       {
         "@type": "Review",
         author: { "@type": "Person", name: "Carlos Niño" },
-        reviewBody:
-          "Te sientes como en casa. La comodidad, los equipos, las innovaciones… Para mí un diez.",
+        reviewBody: testimoniosContent[lang].items[3].quote,
+        inLanguage: SCHEMA_LANGUAGE[lang],
         reviewRating: {
           "@type": "Rating",
           ratingValue: "5",
@@ -233,8 +234,8 @@ export function getProfessionalServiceSchema(lang: Lang = "es") {
       {
         "@type": "Review",
         author: { "@type": "Person", name: "Alexandra" },
-        reviewBody:
-          "Todo muy profesional. Buena calidad, buena luz, buen ambiente. Este es tu sitio.",
+        reviewBody: testimoniosContent[lang].items[4].quote,
+        inLanguage: SCHEMA_LANGUAGE[lang],
         reviewRating: {
           "@type": "Rating",
           ratingValue: "5",
@@ -244,8 +245,8 @@ export function getProfessionalServiceSchema(lang: Lang = "es") {
       {
         "@type": "Review",
         author: { "@type": "Person", name: "Almudena" },
-        reviewBody:
-          "El espacio es súper cómodo. Cinco estrellas.",
+        reviewBody: testimoniosContent[lang].items[5].quote,
+        inLanguage: SCHEMA_LANGUAGE[lang],
         reviewRating: {
           "@type": "Rating",
           ratingValue: "5",
@@ -318,18 +319,20 @@ export function getWebPageSchema(lang: Lang = "es") {
   };
 }
 
-export function getBreadcrumbSchema(lang: Lang = "es") {
+export function getBreadcrumbSchema(
+  lang: Lang = "es",
+  trail: ReadonlyArray<{ name: string; path: string }> = []
+) {
+  const items = [{ name: T[lang].home, path: "/" }, ...trail];
   return {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    itemListElement: [
-      {
-        "@type": "ListItem",
-        position: 1,
-        name: T[lang].home,
-        item: pageUrl(lang),
-      },
-    ],
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: pageUrl(lang, item.path),
+    })),
   };
 }
 

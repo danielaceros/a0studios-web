@@ -47,7 +47,7 @@ export const blogPosts: BlogPost[] = [
     body: [
       {
         type: "paragraph",
-        text: "Buscar un estudio de grabación en Madrid no va solo de encontrar cuatro paredes, focos y una tarifa por hora. Va de elegir un espacio que encaje con el tipo de contenido que quieres producir, con tu nivel de exigencia y con la sensación que quieres transmitir cuando alguien vea la pieza terminada.",
+        text: "Un estudio de grabación en Madrid no tiene un precio único: el coste depende del espacio, del equipo incluido y de si contratas solo la sala o también producción. En A0Studios no se publican tarifas ni se alquila por horas: se reserva una sesión al día con presupuesto a medida y dos opciones, llave en mano (grabación, edición y entrega en 24-48 horas) o solo grabación (grabas y te llevas los brutos). Lo que encarece o abarata una sesión es la duración, el número de piezas finales, la edición y los subtítulos, y la complejidad del set. A0Studios es un ático-estudio en Ronda de Atocha 16, a 5 minutos del metro Atocha Renfe, con cámaras Sony, iluminación y sonido profesionales, teleprompter, terraza con vistas al skyline y sala polivalente con set de podcast. De media, una sesión da unas 12 piezas. Respondemos en menos de 1 hora.",
       },
       {
         type: "paragraph",
@@ -147,7 +147,7 @@ export const blogPosts: BlogPost[] = [
     body: [
       {
         type: "paragraph",
-        text: "Grabar podcast en Madrid se ha vuelto fácil. Grabarlo bien, no tanto. Hay muchos espacios donde colocar dos micros y dar a grabar, pero no tantos donde el resultado ayude de verdad a que tu marca se vea más seria, más cuidada y más creíble.",
+        text: "Un buen estudio para grabar podcast en Madrid ofrece buen sonido, un entorno visual que sume marca, luz que no deje la imagen plana y espacio para invitado, equipo y formatos extra como clips verticales. A0Studios es un ático-estudio en Ronda de Atocha 16, a 5 minutos del metro Atocha Renfe, con una sala polivalente con set de podcast, sonido profesional, cámaras Sony, iluminación profesional y terraza con vistas al skyline. Un podcast ya no se consume solo como audio: se corta en clips, se distribuye en redes y suele ser la primera impresión que alguien tiene de tu marca. Por eso una sesión no acaba en un episodio largo: de media da unas 12 piezas, entre clips verticales, cortes temáticos y fotos fijas. Se reserva una sesión al día con presupuesto a medida, llave en mano o solo grabación. Respondemos en menos de 1 hora.",
       },
       {
         type: "paragraph",
@@ -8204,7 +8204,7 @@ export const blogPosts: BlogPost[] = [
     body: [
       {
         type: "paragraph",
-        text: "Cada semana nos escribe alguien con la misma pregunta: dónde grabar un anuncio en Madrid. Buscan estudio, pero la pregunta que en realidad tienen que responder es otra: quién va a dirigir la sesión para que ese anuncio venda, no solo para que quede bonito.",
+        text: "Para grabar un anuncio en Madrid conviene elegir primero quién dirige la sesión y después el estudio, porque un anuncio no se juzga por lo bien que queda, sino por si para el scroll y consigue un clic o un lead. En A0Studios grabamos anuncios para Meta Ads, TikTok Ads y VSL en un ático de Ronda de Atocha 16, en Madrid centro, a 5 minutos del metro Atocha Renfe. Dirige Dani Acero, filmmaker que también gestiona campañas de ads, así que el criterio es de venta: hook resuelto en los primeros 3 segundos, encuadre pensado para feed vertical y guion construido sobre el problema del cliente. Hay una sola sesión al día, con presupuesto a medida en dos opciones: llave en mano o solo grabación. De media, una sesión da unas 12 piezas, con entrega en 24-48 horas en llave en mano.",
       },
       {
         type: "paragraph",
@@ -8312,7 +8312,7 @@ export const blogPosts: BlogPost[] = [
     body: [
       {
         type: "paragraph",
-        text: "Un VSL es un vídeo de ventas: una pieza pensada para vender un producto o servicio directamente, ya sea como anuncio en Meta o TikTok o como vídeo principal de una landing. No es un vídeo corporativo ni un reel bonito. Es un argumento de venta grabado, y eso cambia todo lo que necesitas del sitio donde lo grabas.",
+        text: "Un VSL (video sales letter) es un vídeo de ventas pensado para vender un producto o servicio directamente, ya sea como anuncio en Meta o TikTok o como vídeo principal de una landing. Para grabar un VSL en Madrid no basta un estudio con buena imagen: hacen falta audio limpio, luz estable y, sobre todo, dirección con criterio de venta. En A0Studios grabamos VSL para founders y equipos de marketing en un ático de Ronda de Atocha 16, a 5 minutos del metro Atocha Renfe, con cámaras Sony, sonido profesional, iluminación fija y teleprompter para guiones largos. Dirige Dani Acero, filmmaker que también gestiona campañas de ads. Un VSL suele durar entre 90 segundos y 4 minutos. Hay una sola sesión al día y el presupuesto es a medida, llave en mano (edición y entrega en 24-48 horas) o solo grabación. Respondemos en menos de 1 hora.",
       },
       {
         type: "paragraph",
@@ -8550,7 +8550,7 @@ export const blogPosts: BlogPost[] = [
     body: [
       {
         type: "paragraph",
-        text: "Cuando grabas para redes sociales de forma recurrente, no buscas lo mismo que para un anuncio puntual o un vídeo corporativo de una vez al año. Buscas un sitio donde puedas volver cada dos o tres semanas, montar rápido, grabar varias piezas seguidas y salir sin haber perdido media sesión en ajustar luz o encuadre.",
+        text: "Un estudio de grabación para redes sociales en Madrid debe permitirte volver cada pocas semanas, montar rápido y grabar varias piezas seguidas en vertical sin perder media sesión ajustando luz o encuadre. A0Studios es un ático-estudio en Ronda de Atocha 16, a 5 minutos del metro Atocha Renfe, con cámaras Sony, iluminación y sonido profesionales, teleprompter, terraza con vistas al skyline y una sala polivalente con set de podcast, lo que permite cambiar de look dentro de la misma sesión. Dirige Dani Acero, filmmaker que también gestiona campañas de ads en Meta y TikTok, así que la dirección piensa en qué formato retiene y qué hook abre bien un vídeo. De media, una sesión da unas 12 piezas. Hay una sola sesión al día, con presupuesto a medida en dos opciones, llave en mano (entrega en 24-48 horas) o solo grabación. Respondemos en menos de 1 hora.",
       },
       {
         type: "paragraph",
@@ -8663,7 +8663,7 @@ export const blogPosts: BlogPost[] = [
     body: [
       {
         type: "paragraph",
-        text: "Buscar el mejor estudio para grabar spots publicitarios en Madrid es más difícil de lo que parece, porque casi todos enseñan lo mismo: fotos bonitas del espacio, una lista de equipo y un precio por hora. Rara vez cuentan lo que de verdad decide si el spot funciona.",
+        text: "El mejor estudio para grabar spots publicitarios en Madrid no es el más grande ni el más barato por hora, sino el que combina control de luz, montaje corto y una dirección que entienda de publicidad. Un spot se mide por cuánto retiene, cuánto cuesta cada clic y si alguien acaba comprando. Para un spot de producto, un testimonial o una persona hablando a cámara, 30-40 m² bien iluminados rinden más que una nave enorme. A0Studios es un ático en Ronda de Atocha 16, a 5 minutos del metro Atocha Renfe, con cámaras Sony, iluminación y sonido profesionales, teleprompter y luz natural y artificial controlable. Dirige Dani Acero, filmmaker que también gestiona campañas de ads. Hay una sola sesión al día, con presupuesto a medida: llave en mano o solo grabación. De media, una sesión da unas 12 piezas, pensadas para testear varias versiones del spot.",
       },
       {
         type: "paragraph",
@@ -8996,7 +8996,7 @@ export const blogPosts: BlogPost[] = [
     body: [
       {
         type: "paragraph",
-        text: "Si eres founder o llevas la marca personal de tu empresa, elegir dónde grabar en Madrid no es un detalle logístico. Ronda de Atocha 16, en pleno centro, no es solo una dirección cómoda: es la diferencia entre perder una hora en desplazamientos y llegar directo a grabar con la cabeza puesta en lo que vas a decir.",
+        text: "Para un founder o una marca personal, el mejor estudio de grabación en Madrid centro es el que permite grabar con constancia: cercano, rápido y con dirección. A0Studios está en Ronda de Atocha 16, a 5 minutos del metro Atocha Renfe y a pocos minutos de Sol y Antón Martín, así que una sesión cabe entre dos reuniones sin perder media mañana en desplazamientos. El ático tiene cámaras Sony, iluminación y sonido profesionales, teleprompter, terraza con vistas al skyline y una sala polivalente con set de podcast, con luz, cámara y set montados antes de que llegues. Dirige Dani Acero, filmmaker que también gestiona campañas de ads, con criterio de venta. Hay una sola sesión al día, con presupuesto a medida en dos opciones: llave en mano o solo grabación. De media, una sesión da unas 12 piezas, válidas para orgánico y para ads.",
       },
       {
         type: "paragraph",
@@ -10074,6 +10074,9 @@ export function hasPostTranslation(slug: string, lang: Lang) {
   return lang === DEFAULT_LOCALE || !!blogTranslations[lang]?.[slug];
 }
 
+/** Posts para el índice del blog: en un idioma no por defecto, solo los ya traducidos. */
 export function getLocalizedPosts(lang: Lang) {
-  return getAllPosts().map((post) => getLocalizedPost(post, lang));
+  return getAllPosts()
+    .filter((post) => hasPostTranslation(post.slug, lang))
+    .map((post) => getLocalizedPost(post, lang));
 }

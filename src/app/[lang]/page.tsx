@@ -6,7 +6,7 @@ import LogoStrip from "@/components/a0/LogoStrip";
 import Estudio from "@/components/a0/Estudio";
 import Formatos from "@/components/a0/Formatos";
 import Footer from "@/components/a0/Footer";
-import { getWebPageSchema, getFaqPageSchema } from "@/lib/structured-data";
+import { getWebPageSchema, getFaqPageSchema, getBreadcrumbSchema } from "@/lib/structured-data";
 import { SITE_URL } from "@/lib/constants";
 import { getFaqs } from "@/lib/i18n/content/faq";
 import type { LangParams } from "@/lib/seo";
@@ -38,6 +38,12 @@ export default async function Home({ params }: LangParams) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(getFaqPageSchema(getFaqs(lang), `${SITE_URL}${localizedHref(lang, "/") === "/" ? "" : localizedHref(lang, "/")}`)),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(getBreadcrumbSchema(lang)),
         }}
       />
       <Nav lang={lang} />

@@ -25,6 +25,7 @@ const es = {
   },
   post: {
     by: "Por",
+    updated: "Actualizado",
     role: "Founder & Filmmaker",
     ctaKicker: "Pedir presupuesto",
     ctaTitle: "Si quieres grabar contenido premium en Madrid, hablemos",
@@ -61,6 +62,7 @@ const en: typeof es = {
   },
   post: {
     by: "By",
+    updated: "Updated",
     role: "Founder & Filmmaker",
     ctaKicker: "Get a quote",
     ctaTitle: "If you want to record premium content in Madrid, let's talk",

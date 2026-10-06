@@ -1,7 +1,7 @@
 import { Manrope, Playfair_Display } from "next/font/google";
 import Script from "next/script";
 import { buildRootMetadata } from "@/lib/metadata";
-import { getProfessionalServiceSchema, getWebSiteSchema, getBreadcrumbSchema, getVideoSchema } from "@/lib/structured-data";
+import { getProfessionalServiceSchema, getWebSiteSchema, getVideoSchema } from "@/lib/structured-data";
 // GrainOverlay removed per user request
 import SmoothScroll from "@/components/ui/SmoothScroll";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
@@ -109,12 +109,6 @@ export default function RootDocument({
             ~65 posts del blog. Ahora vive en cada page.tsx: la home tiene el
             suyo (WebPage) y cada post de blog el suyo (BlogPosting), con sus
             fechas reales. */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(getBreadcrumbSchema(lang)),
-          }}
-        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

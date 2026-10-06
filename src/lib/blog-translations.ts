@@ -6,6 +6,7 @@ import type { Lang } from "@/lib/i18n/config";
 import { enPart1 } from "@/lib/blog-translations/en-1";
 import { enPart2 } from "@/lib/blog-translations/en-2";
 import { enPart3 } from "@/lib/blog-translations/en-3";
+import { enPart4 } from "@/lib/blog-translations/en-4";
 
 export type BlogPostTranslation = Pick<
   BlogPost,
@@ -23,5 +24,5 @@ export type BlogPostTranslation = Pick<
 >;
 
 export const blogTranslations: Partial<Record<Lang, Record<string, BlogPostTranslation>>> = {
-  en: { ...enPart1, ...enPart2, ...enPart3 },
+  en: { ...enPart1, ...enPart2, ...enPart3, ...enPart4 },
 };
