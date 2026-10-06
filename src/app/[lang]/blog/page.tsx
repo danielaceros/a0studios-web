@@ -1,31 +1,38 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "@/components/a0/Nav";
 import Footer from "@/components/a0/Footer";
-import { getAllPosts, getBlogMetadata } from "@/lib/blog";
+import { getLocalizedPosts } from "@/lib/blog";
+import { localizedMetadata, type LangParams } from "@/lib/seo";
+import { localizedHref, toLang } from "@/lib/i18n";
+import { siteContent } from "@/lib/i18n/content/site";
 
-export const metadata: Metadata = getBlogMetadata();
+export const generateMetadata = localizedMetadata((lang) => ({
+  title: siteContent[lang].blog.metaTitle,
+  description: siteContent[lang].blog.metaDescription,
+  path: "/blog",
+}));
 
-export default function BlogPage() {
-  const posts = getAllPosts();
+export default async function BlogPage({ params }: LangParams) {
+  const lang = toLang((await params).lang);
+  const t = siteContent[lang].blog;
+  const posts = getLocalizedPosts(lang);
 
   return (
     <>
-      <Navbar />
+      <Navbar lang={lang} />
       <main className="bg-background text-foreground pt-36 sm:pt-40 pb-24">
         <section className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
           <div className="max-w-4xl">
             <div className="rule" />
             <div className="flex items-center gap-3 pt-4">
               <span className="tick" aria-hidden="true" />
-              <p className="meta">Blog</p>
+              <p className="meta">{t.kicker}</p>
             </div>
             <h1 className="display mt-9 max-w-[18ch] text-foreground sm:mt-11">
-              Blog de creación de contenido en Madrid
+              {t.h1}
             </h1>
             <p className="lead mt-7 max-w-[52ch]">
-              Guías, comparativas y artículos sobre estudios de grabación, reels, podcast, contenido de marca
-              y producción audiovisual en Madrid.
+              {t.lead}
             </p>
           </div>
         </section>
@@ -43,7 +50,7 @@ export default function BlogPage() {
                   <span>{post.readingTime}</span>
                 </div>
                 <h2 className="mt-6 max-w-[20ch] font-heading text-[clamp(1.5rem,2.6vw,2.1rem)] leading-[1.1] tracking-[-0.03em] text-foreground">
-                  <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+                  <Link href={localizedHref(lang, `/blog/${post.slug}`)}>{post.title}</Link>
                 </h2>
                 <p className="prose-body mt-5 max-w-[58ch]">
                   {post.excerpt}
@@ -57,10 +64,10 @@ export default function BlogPage() {
                 </div>
                 <div className="mt-8">
                   <Link
-                    href={`/blog/${post.slug}`}
+                    href={localizedHref(lang, `/blog/${post.slug}`)}
                     className="btn btn-outline btn-sm"
                   >
-                    Leer artículo
+                    {t.readMore}
                   </Link>
                 </div>
               </article>
@@ -68,7 +75,7 @@ export default function BlogPage() {
           </div>
         </section>
       </main>
-      <Footer />
+      <Footer lang={lang} />
     </>
   );
 }

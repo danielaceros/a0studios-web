@@ -1,45 +1,13 @@
 import SectionHead from "./SectionHead";
+import type { Lang } from "@/lib/i18n";
+import { localizedHref } from "@/lib/i18n";
+import { preciosContent } from "@/lib/i18n/content/precios";
 
 // Sin precios publicados: el presupuesto se hace a medida según los
 // entregables (p. ej. 12 reels) y siempre con dos opciones para que el
 // cliente elija. Nunca se vende tiempo de estudio ni el espacio por separado.
-type Opcion = {
-  name: string;
-  tag: string;
-  desc: string;
-  incluye: string[];
-  destacado: boolean;
-};
-
-const OPCIONES: Opcion[] = [
-  {
-    name: "Llave en mano",
-    tag: "Te llevas los vídeos",
-    desc: "Grabamos contigo y nos encargamos de la edición: te llevas las piezas terminadas, listas para publicar en redes o para lanzar como anuncio.",
-    incluye: [
-      "Todo lo de Solo grabación",
-      "Edición con estructura de anuncio, VSL o reel",
-      "Subtítulos y formato para cada plataforma",
-      "Listo para publicar en 24-48h",
-    ],
-    destacado: true,
-  },
-  {
-    name: "Solo grabación",
-    tag: "Te llevas los brutos",
-    desc: "Vienes al estudio, grabamos todas las piezas con el equipo montado y la sesión dirigida, y sales con los brutos listos para que los edite tu equipo.",
-    incluye: [
-      "Guion de cada pieza antes de venir",
-      "Estudio con iluminación y cámaras",
-      "Sonido profesional y teleprompter",
-      "Dirección durante toda la grabación",
-      "Brutos del día, listos para editar",
-    ],
-    destacado: false,
-  },
-];
-
-export default function Precios() {
+export default function Precios({ lang }: { lang: Lang }) {
+  const t = preciosContent[lang];
   return (
     <section
       id="precios"
@@ -47,16 +15,16 @@ export default function Precios() {
     >
       <div className="mx-auto max-w-[1360px]">
         <SectionHead
-          label="Presupuesto"
-          title="Un presupuesto a tu"
-          accent="medida"
-          lead="Dime qué necesitas grabar, por ejemplo 12 reels y dos anuncios, y te doy siempre dos precios: llave en mano o solo grabación. Tú eliges."
+          label={t.label}
+          title={t.title}
+          accent={t.accent}
+          lead={t.lead}
         />
 
         {/* Dos columnas comparables dentro de un mismo bloque: se leen como una
             tabla de servicios, no como tarjetas sueltas. */}
         <div className="reveal mt-14 grid overflow-hidden rounded-[12px] border border-line sm:mt-[clamp(3.5rem,5vw,5rem)] lg:grid-cols-2">
-          {OPCIONES.map((op, i) => (
+          {t.opciones.map((op, i) => (
             <div
               key={op.name}
               className={`relative flex h-full flex-col p-7 sm:p-10 ${
@@ -76,7 +44,7 @@ export default function Precios() {
               </div>
 
               <p className="font-heading mt-5 text-[1.05rem] text-foreground/85">
-                Presupuesto según lo que grabes
+                {t.perShoot}
               </p>
 
               <p className="prose-body mt-3 max-w-[46ch] text-[0.92rem]">{op.desc}</p>
@@ -97,10 +65,10 @@ export default function Precios() {
 
               <div className="mt-auto pt-10">
                 <a
-                  href="#contacto"
+                  href={localizedHref(lang, "#contacto")}
                   className={`btn w-full justify-center ${op.destacado ? "btn-solid" : "btn-outline"}`}
                 >
-                  Pedir presupuesto
+                  {t.cta}
                 </a>
               </div>
             </div>
@@ -110,29 +78,22 @@ export default function Precios() {
         {/* Claim boutique + recurrencia mensual */}
         <div className="reveal mt-4 grid gap-4 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)]">
           <div className="panel flex flex-col gap-3 px-6 py-7 sm:px-10 sm:py-8">
-            <p className="meta">Estudio boutique · Una única sesión al día</p>
-            <p className="prose-body max-w-[60ch] text-[0.92rem]">
-              Solo agendo una sesión al día. Ese día el estudio y yo estamos dedicados solo a ti, sin
-              prisas y sin reloj. Por eso no cobro por tiempo de estudio: el presupuesto depende de lo
-              que te llevas.
-            </p>
+            <p className="meta">{t.boutiqueMeta}</p>
+            <p className="prose-body max-w-[60ch] text-[0.92rem]">{t.boutiqueText}</p>
           </div>
           <div className="panel flex flex-col justify-between gap-5 px-6 py-7 sm:px-10 sm:py-8">
             <div className="flex flex-col gap-3">
-              <p className="meta">¿Vienes cada mes?</p>
-              <p className="prose-body text-[0.92rem]">
-                Te reservo una fecha fija y preparamos contigo el guion del mes, para tener el
-                orgánico al día y renovar los anuncios antes de que se quemen.
-              </p>
+              <p className="meta">{t.monthlyMeta}</p>
+              <p className="prose-body text-[0.92rem]">{t.monthlyText}</p>
             </div>
-            <a href="#contacto" className="link-rule data w-fit">
-              Quiero una fecha fija
+            <a href={localizedHref(lang, "#contacto")} className="link-rule data w-fit">
+              {t.monthlyCta}
             </a>
           </div>
         </div>
 
         <p className="reveal meta mt-8 text-center normal-case tracking-[0.02em] text-[0.9rem] leading-[1.8] sm:mt-10">
-          Anuncios · VSLs · Reels · Podcast · Cursos — una única sesión al día, reserva con antelación.
+          {t.footer}
         </p>
       </div>
     </section>

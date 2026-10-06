@@ -3,16 +3,60 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import {
+  LANGUAGE_NAMES,
+  localizedHref,
+  stripLocale,
+  switchLocalePath,
+  type Lang,
+} from "@/lib/i18n";
+import { persistLocale } from "@/lib/i18n/client";
+import { navContent } from "@/lib/i18n/content/nav";
 import { SITE_NAME_TRADEMARKED } from "@/lib/constants";
 
-const LINKS = [
-  { label: "Estudio", href: "#estudio" },
-  { label: "Qué grabar", href: "#formatos" },
-  { label: "Presupuesto", href: "#precios" },
-  { label: "FAQ", href: "#faq" },
-];
+function LanguageSwitch({ lang, onNavigate }: { lang: Lang; onNavigate?: () => void }) {
+  const pathname = usePathname() ?? "/";
+  const target: Lang = lang === "es" ? "en" : "es";
+  const path = stripLocale(pathname).path;
+  const t = navContent[lang];
+  return (
+    <div
+      className="meta flex items-center gap-1.5"
+      role="group"
+      aria-label={t.languageLabel}
+    >
+      {(["es", "en"] as const).map((code, i) => (
+        <span key={code} className="flex items-center gap-1.5">
+          {i > 0 && <span aria-hidden="true" className="text-foreground/25">|</span>}
+          {code === lang ? (
+            <span aria-current="true" className="text-foreground">
+              {code.toUpperCase()}
+            </span>
+          ) : (
+            <Link
+              href={switchLocalePath(path, target)}
+              hrefLang={target}
+              lang={target}
+              aria-label={LANGUAGE_NAMES[target]}
+              onClick={() => {
+                persistLocale(target);
+                onNavigate?.();
+              }}
+              className="text-foreground/50 transition-colors duration-300 hover:text-foreground"
+            >
+              {code.toUpperCase()}
+            </Link>
+          )}
+        </span>
+      ))}
+    </div>
+  );
+}
 
-export default function Nav() {
+export default function Nav({ lang }: { lang: Lang }) {
+  const t = navContent[lang];
+  const LINKS = t.links;
   const [open, setOpen] = useState(false);
 
   // Bloquea el scroll del body con el menú móvil abierto
@@ -33,11 +77,11 @@ export default function Nav() {
       >
         <nav
           className="mx-auto mt-3 flex max-w-[1440px] items-center justify-between gap-3 px-3 sm:mt-4 sm:px-5 lg:px-7"
-          aria-label="Navegación principal"
+          aria-label={t.navLabel}
         >
           {/* Marca */}
           <Link
-            href="/"
+            href={localizedHref(lang, "/")}
             className="glass flex shrink-0 items-center rounded-full py-2 pl-4 pr-4 sm:py-2.5 sm:pr-5"
           >
             <Image
@@ -65,11 +109,14 @@ export default function Nav() {
           </div>
 
           <div className="flex items-center gap-2">
+            <div className="glass hidden rounded-full px-4 py-3 md:block">
+              <LanguageSwitch lang={lang} />
+            </div>
             <a
               href="#contacto"
               className="btn btn-solid btn-sm hidden md:inline-flex"
             >
-              Presupuesto
+              {t.quote}
             </a>
 
             {/* Botón menú — móvil */}
@@ -77,7 +124,7 @@ export default function Nav() {
               type="button"
               onClick={() => setOpen((v) => !v)}
               aria-expanded={open}
-              aria-label={open ? "Cerrar menú" : "Abrir menú"}
+              aria-label={open ? t.closeMenu : t.openMenu}
               className="glass flex h-11 w-11 items-center justify-center rounded-full md:hidden"
             >
               <span className="relative block h-3 w-4">
@@ -102,7 +149,7 @@ export default function Nav() {
         }`}
         style={{ background: "rgba(11,10,9,0.94)", backdropFilter: "blur(24px)" }}
       >
-        <nav className="flex flex-col gap-1" aria-label="Menú móvil">
+        <nav className="flex flex-col gap-1" aria-label={t.mobileLabel}>
           <div className="rule" />
           {LINKS.map((l, i) => (
             <a
@@ -118,12 +165,15 @@ export default function Nav() {
             </a>
           ))}
         </nav>
+        <div className="mt-8">
+          <LanguageSwitch lang={lang} onNavigate={() => setOpen(false)} />
+        </div>
         <a
           href="#contacto"
           onClick={() => setOpen(false)}
-          className="btn btn-solid mt-10 justify-center"
+          className="btn btn-solid mt-6 justify-center"
         >
-          Pedir presupuesto
+          {t.mobileQuote}
         </a>
       </div>
     </>

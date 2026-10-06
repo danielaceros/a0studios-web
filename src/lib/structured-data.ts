@@ -1,8 +1,81 @@
 import { SITE_URL, SITE_NAME, SITE_DESCRIPTION, NAP } from "./constants";
+import { localizedHref, SCHEMA_LANGUAGE, type Lang } from "./i18n/config";
+import { siteContent } from "./i18n/content/site";
+
+// Textos del schema por idioma (el español es el original, sin cambios).
+const T = {
+  es: {
+    offerCatalogName: "Grabación de contenido a medida en un estudio boutique",
+    offerCatalogDescription:
+      "Presupuesto a medida según lo que necesites grabar, con dos opciones: llave en mano o solo grabación. Una única sesión al día.",
+    turnkey: "Llave en mano",
+    turnkeyDesc:
+      "Guion, grabación dirigida en el estudio y edición: te llevas las piezas editadas, subtituladas y listas para publicar en 24-48h.",
+    recordingOnly: "Solo grabación",
+    recordingOnlyDesc:
+      "Guion, estudio con equipo completo y dirección durante la grabación: te llevas los brutos del día.",
+    payment: "Transferencia bancaria, Tarjeta de crédito",
+    knowsAbout: [
+      "Producción audiovisual",
+      "Filmmaking",
+      "Contenido para redes sociales",
+      "Videografía profesional",
+      "Dirección creativa",
+      "Producción de contenido para marcas",
+      "Grabación de podcast",
+      "Edición de vídeo",
+      "Publicidad en Meta Ads",
+      "Funnels de venta",
+      "Guion de anuncios y VSL",
+      "SEO y posicionamiento en buscadores de IA",
+    ],
+    siteDescription:
+      "Estudio de grabación de contenido en Madrid centro: anuncios, VSLs, reels y podcast que convierten, en un ático con una única sesión al día.",
+    home: "Inicio",
+    videoDescription:
+      "Showreel de A0Studios, estudio de grabación de contenido en Madrid: anuncios, VSLs, reels y podcast.",
+  },
+  en: {
+    offerCatalogName: "Custom content recording in a boutique studio",
+    offerCatalogDescription:
+      "A custom quote based on what you need to record, with two options: turnkey or recording only. One session per day.",
+    turnkey: "Turnkey",
+    turnkeyDesc:
+      "Script, directed recording in the studio and editing: you get edited, subtitled pieces ready to publish within 24-48h.",
+    recordingOnly: "Recording only",
+    recordingOnlyDesc:
+      "Script, a fully equipped studio and direction during the shoot: you take home the day's raw footage.",
+    payment: "Bank transfer, Credit card",
+    knowsAbout: [
+      "Video production",
+      "Filmmaking",
+      "Social media content",
+      "Professional videography",
+      "Creative direction",
+      "Brand content production",
+      "Podcast recording",
+      "Video editing",
+      "Meta Ads advertising",
+      "Sales funnels",
+      "Ad and VSL scriptwriting",
+      "SEO and AI search visibility",
+    ],
+    siteDescription:
+      "Content recording studio in central Madrid: ads, VSLs, Reels and podcasts that convert, in a penthouse with a single session per day.",
+    home: "Home",
+    videoDescription:
+      "A0Studios showreel, a content recording studio in Madrid: ads, VSLs, Reels and podcasts.",
+  },
+} as const;
+
+function pageUrl(lang: Lang, path = "/") {
+  const href = localizedHref(lang, path);
+  return href === "/" ? SITE_URL : `${SITE_URL}${href}`;
+}
 
 // Presupuesto a medida según entregables: las dos opciones se publican sin
 // precio (PriceSpecification solo con la moneda), como en la versión anterior.
-function buildOffer(name: string, description: string) {
+function buildOffer(name: string, description: string, lang: Lang) {
   return {
     "@type": "Offer",
     name,
@@ -12,11 +85,12 @@ function buildOffer(name: string, description: string) {
       priceCurrency: "EUR",
     },
     availability: "https://schema.org/InStock",
-    url: `${SITE_URL}/#precios`,
+    url: `${pageUrl(lang)}#precios`,
   };
 }
 
-export function getProfessionalServiceSchema() {
+export function getProfessionalServiceSchema(lang: Lang = "es") {
+  const t = T[lang];
   return {
     "@context": "https://schema.org",
     "@type": ["ProfessionalService", "LocalBusiness"],
@@ -26,7 +100,7 @@ export function getProfessionalServiceSchema() {
     // nombre anterior del negocio.
     name: NAP.name,
     alternateName: "Rooftop Content Studio",
-    description: SITE_DESCRIPTION,
+    description: lang === "es" ? SITE_DESCRIPTION : siteContent.en.home.ogDescription,
     url: NAP.url,
     telephone: NAP.phone,
     email: "dani@a0studios.es",
@@ -57,7 +131,7 @@ export function getProfessionalServiceSchema() {
     },
     priceRange: "€€€",
     currenciesAccepted: "EUR",
-    paymentAccepted: "Transferencia bancaria, Tarjeta de crédito",
+    paymentAccepted: t.payment,
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",
@@ -89,35 +163,15 @@ export function getProfessionalServiceSchema() {
         "https://www.instagram.com/daniaceros",
         "https://www.daniaceros.com",
       ],
-      knowsAbout: [
-        "Producción audiovisual",
-        "Filmmaking",
-        "Contenido para redes sociales",
-        "Videografía profesional",
-        "Dirección creativa",
-        "Producción de contenido para marcas",
-        "Grabación de podcast",
-        "Edición de vídeo",
-        "Publicidad en Meta Ads",
-        "Funnels de venta",
-        "Guion de anuncios y VSL",
-        "SEO y posicionamiento en buscadores de IA",
-      ],
+      knowsAbout: [...t.knowsAbout],
     },
     hasOfferCatalog: {
       "@type": "OfferCatalog",
-      name: "Grabación de contenido a medida en un estudio boutique",
-      description:
-        "Presupuesto a medida según lo que necesites grabar, con dos opciones: llave en mano o solo grabación. Una única sesión al día.",
+      name: t.offerCatalogName,
+      description: t.offerCatalogDescription,
       itemListElement: [
-        buildOffer(
-          "Llave en mano",
-          "Guion, grabación dirigida en el estudio y edición: te llevas las piezas editadas, subtituladas y listas para publicar en 24-48h."
-        ),
-        buildOffer(
-          "Solo grabación",
-          "Guion, estudio con equipo completo y dirección durante la grabación: te llevas los brutos del día."
-        ),
+        buildOffer(t.turnkey, t.turnkeyDesc, lang),
+        buildOffer(t.recordingOnly, t.recordingOnlyDesc, lang),
       ],
     },
     // NOTA SEO (28-sep-2026): las reviews de más abajo tienen que coincidir
@@ -218,41 +272,44 @@ export function getProfessionalServiceSchema() {
       "@type": "City",
       name: "Madrid",
     },
-    knowsLanguage: ["es"],
+    knowsLanguage: ["es", "en"],
+    availableLanguage: [
+      { "@type": "Language", name: "Spanish", alternateName: "es" },
+      { "@type": "Language", name: "English", alternateName: "en" },
+    ],
   };
 }
 
-export function getWebSiteSchema() {
+export function getWebSiteSchema(lang: Lang = "es") {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "@id": `${SITE_URL}/#website`,
     url: SITE_URL,
     name: SITE_NAME,
-    description:
-      "Estudio de grabación de contenido en Madrid centro: anuncios, VSLs, reels y podcast que convierten, en un ático con una única sesión al día.",
-    inLanguage: "es",
+    description: T[lang].siteDescription,
+    inLanguage: SCHEMA_LANGUAGE[lang],
     publisher: {
       "@id": `${SITE_URL}/#business`,
     },
   };
 }
 
-export function getWebPageSchema() {
+export function getWebPageSchema(lang: Lang = "es") {
   return {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": `${SITE_URL}/#webpage`,
-    url: SITE_URL,
-    name: `${SITE_NAME} — Estudio de Grabación de Contenido en Madrid`,
-    description: SITE_DESCRIPTION,
+    "@id": `${pageUrl(lang)}#webpage`,
+    url: pageUrl(lang),
+    name: siteContent[lang].home.title,
+    description: lang === "es" ? SITE_DESCRIPTION : siteContent.en.home.ogDescription,
     isPartOf: {
       "@id": `${SITE_URL}/#website`,
     },
     about: {
       "@id": `${SITE_URL}/#business`,
     },
-    inLanguage: "es",
+    inLanguage: SCHEMA_LANGUAGE[lang],
     datePublished: "2025-09-01",
     dateModified: "2026-09-15",
     author: {
@@ -261,7 +318,7 @@ export function getWebPageSchema() {
   };
 }
 
-export function getBreadcrumbSchema() {
+export function getBreadcrumbSchema(lang: Lang = "es") {
   return {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -269,21 +326,20 @@ export function getBreadcrumbSchema() {
       {
         "@type": "ListItem",
         position: 1,
-        name: "Inicio",
-        item: SITE_URL,
+        name: T[lang].home,
+        item: pageUrl(lang),
       },
     ],
   };
 }
 
 
-export function getVideoSchema() {
+export function getVideoSchema(lang: Lang = "es") {
   return {
     "@context": "https://schema.org",
     "@type": "VideoObject",
     name: "A0Studios - Showreel",
-    description:
-      "Showreel de A0Studios, estudio de grabación de contenido en Madrid: anuncios, VSLs, reels y podcast.",
+    description: T[lang].videoDescription,
     thumbnailUrl: `${SITE_URL}/optimized/og-a0studios.jpg`,
     uploadDate: "2024-01-01",
     duration: "PT30S",
@@ -330,8 +386,8 @@ export function getBlogPostingSchema(post: {
   description: string;
   publishedAt: string;
   updatedAt?: string;
-}) {
-  const url = `${SITE_URL}/blog/${post.slug}`;
+}, lang: Lang = "es") {
+  const url = pageUrl(lang, `/blog/${post.slug}`);
   return {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -344,7 +400,7 @@ export function getBlogPostingSchema(post: {
     description: post.description,
     url,
     image: `${SITE_URL}/optimized/og-a0studios.jpg`,
-    inLanguage: "es",
+    inLanguage: SCHEMA_LANGUAGE[lang],
     datePublished: post.publishedAt,
     dateModified: post.updatedAt ?? post.publishedAt,
     author: {

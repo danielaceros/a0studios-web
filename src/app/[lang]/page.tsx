@@ -7,7 +7,10 @@ import Estudio from "@/components/a0/Estudio";
 import Formatos from "@/components/a0/Formatos";
 import Footer from "@/components/a0/Footer";
 import { getWebPageSchema, getFaqPageSchema } from "@/lib/structured-data";
-import { FAQS, SITE_URL } from "@/lib/constants";
+import { SITE_URL } from "@/lib/constants";
+import { getFaqs } from "@/lib/i18n/content/faq";
+import type { LangParams } from "@/lib/seo";
+import { localizedHref, toLang } from "@/lib/i18n";
 
 const Espacio = dynamic(() => import("@/components/a0/Espacio"));
 const Resultados = dynamic(() => import("@/components/a0/Resultados"));
@@ -17,7 +20,9 @@ const Testimonios = dynamic(() => import("@/components/a0/Testimonios"));
 const Faq = dynamic(() => import("@/components/a0/Faq"));
 const Contacto = dynamic(() => import("@/components/a0/Contacto"));
 
-export default function Home() {
+// Metadata de la home: la aporta app/[lang]/layout.tsx (buildRootMetadata: título, hreflang, OG).
+export default async function Home({ params }: LangParams) {
+  const lang = toLang((await params).lang);
   return (
     <>
       {/* Schema propio de la home: WebPage con sus fechas reales (ya no vive
@@ -26,30 +31,30 @@ export default function Home() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(getWebPageSchema()),
+          __html: JSON.stringify(getWebPageSchema(lang)),
         }}
       />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(getFaqPageSchema(FAQS, SITE_URL)),
+          __html: JSON.stringify(getFaqPageSchema(getFaqs(lang), `${SITE_URL}${localizedHref(lang, "/") === "/" ? "" : localizedHref(lang, "/")}`)),
         }}
       />
-      <Nav />
+      <Nav lang={lang} />
       <main>
-        <Hero />
-        <LogoStrip />
-        <Estudio />
-        <Formatos />
-        <Resultados />
-        <Espacio />
-        <Proceso />
-        <Precios />
-        <Testimonios />
-        <Faq />
-        <Contacto />
+        <Hero lang={lang} />
+        <LogoStrip lang={lang} />
+        <Estudio lang={lang} />
+        <Formatos lang={lang} />
+        <Resultados lang={lang} />
+        <Espacio lang={lang} />
+        <Proceso lang={lang} />
+        <Precios lang={lang} />
+        <Testimonios lang={lang} />
+        <Faq lang={lang} />
+        <Contacto lang={lang} />
       </main>
-      <Footer />
+      <Footer lang={lang} />
     </>
   );
 }

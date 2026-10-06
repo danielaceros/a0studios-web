@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Script from "next/script";
+import { localizedHref, type Lang } from "@/lib/i18n";
+import { cookieConsentContent } from "@/lib/i18n/content/cookie-consent";
 
 type Consent = "accepted" | "rejected" | null;
 
@@ -34,7 +36,8 @@ function Switch({
   );
 }
 
-export default function CookieConsent() {
+export default function CookieConsent({ lang }: { lang: Lang }) {
+  const t = cookieConsentContent[lang];
   const [consent, setConsent] = useState<Consent>(null);
   const [visible, setVisible] = useState(false);
   const [functional, setFunctional] = useState(true);
@@ -80,47 +83,47 @@ export default function CookieConsent() {
           <div className="min-h-0 overflow-y-auto p-5 sm:p-6">
             <div className="flex items-center gap-3">
               <span className="tick" aria-hidden="true" />
-              <p className="meta">Cookies</p>
+              <p className="meta">{t.kicker}</p>
             </div>
             <h3 className="mt-3 font-heading text-[1.15rem] leading-tight tracking-[-0.028em] text-foreground">
-              Ajustes de privacidad
+              {t.title}
             </h3>
             <p className="mt-2 text-[0.85rem] leading-relaxed text-muted">
-              Usamos cookies para analítica y publicidad.{" "}
-              <Link href="/politica-cookies" className="text-foreground underline underline-offset-2">
-                Política de cookies
+              {t.intro}{" "}
+              <Link href={localizedHref(lang, "/politica-cookies")} className="text-foreground underline underline-offset-2">
+                {t.policy}
               </Link>
             </p>
 
             <div className="mt-5 flex flex-col">
               <div className="flex items-center justify-between border-t border-line py-3.5">
                 <div className="pr-4">
-                  <p className="text-[0.85rem] font-medium text-foreground">Necesarias</p>
+                  <p className="text-[0.85rem] font-medium text-foreground">{t.necessary}</p>
                   <p className="mt-0.5 text-[0.75rem] leading-snug text-muted">
-                    Imprescindibles para que la web funcione.
+                    {t.necessaryDesc}
                   </p>
                 </div>
-                <Switch on disabled label="Cookies necesarias, siempre activas" />
+                <Switch on disabled label={t.necessaryLabel} />
               </div>
 
               <div className="flex items-center justify-between border-t border-line py-3.5">
                 <div className="pr-4">
-                  <p className="text-[0.85rem] font-medium text-foreground">Analítica y publicidad</p>
+                  <p className="text-[0.85rem] font-medium text-foreground">{t.analytics}</p>
                   <p className="mt-0.5 text-[0.75rem] leading-snug text-muted">
-                    Nos ayudan a medir visitas y mejorar la web.
+                    {t.analyticsDesc}
                   </p>
                 </div>
-                <Switch on={functional} onToggle={() => setFunctional((v) => !v)} label="Cookies de analítica y publicidad" />
+                <Switch on={functional} onToggle={() => setFunctional((v) => !v)} label={t.analyticsLabel} />
               </div>
             </div>
           </div>
 
           <div className="flex shrink-0 gap-3 border-t border-line p-5 pt-4 sm:p-6 sm:pt-5">
             <button type="button" onClick={() => save(false)} className="btn btn-ghost btn-sm">
-              Solo esenciales
+              {t.essentialOnly}
             </button>
             <button type="button" onClick={() => save(functional)} className="btn btn-solid btn-sm flex-1">
-              Guardar preferencias
+              {t.save}
             </button>
           </div>
         </div>

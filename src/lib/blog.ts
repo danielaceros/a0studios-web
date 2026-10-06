@@ -1,5 +1,5 @@
-import type { Metadata } from "next";
-import { SITE_URL, SITE_NAME } from "@/lib/constants";
+import { DEFAULT_LOCALE, type Lang } from "@/lib/i18n/config";
+import { blogTranslations } from "@/lib/blog-translations";
 
 export type BlogPost = {
   slug: string;
@@ -8880,38 +8880,17 @@ export function getPostBySlug(slug: string) {
   return blogPosts.find((post) => post.slug === slug);
 }
 
-export function getBlogMetadata(): Metadata {
-  return {
-    title: "Blog",
-    description:
-      "Artículos sobre estudios de grabación, contenido para marcas, reels, podcast y producción audiovisual en Madrid.",
-    alternates: { canonical: "/blog" },
-    openGraph: {
-      title: "Blog",
-      description:
-        "Ideas, guías y artículos sobre espacios para grabar contenido, producción audiovisual y contenido orgánico en Madrid.",
-      url: `${SITE_URL}/blog`,
-      siteName: SITE_NAME,
-      type: "website",
-      locale: "es_ES",
-    },
-  };
+/** Post con el texto en el idioma pedido (fechas y slug siempre del original). */
+export function getLocalizedPost(post: BlogPost, lang: Lang): BlogPost {
+  if (lang === DEFAULT_LOCALE) return post;
+  const translation = blogTranslations[lang]?.[post.slug];
+  return translation ? { ...post, ...translation } : post;
 }
 
-export function getPostMetadata(post: BlogPost): Metadata {
-  return {
-    title: post.seoTitle,
-    description: post.metaDescription,
-    alternates: { canonical: `/blog/${post.slug}` },
-    openGraph: {
-      title: post.seoTitle,
-      description: post.metaDescription,
-      url: `${SITE_URL}/blog/${post.slug}`,
-      siteName: SITE_NAME,
-      type: "article",
-      locale: "es_ES",
-      publishedTime: post.publishedAt,
-      modifiedTime: post.updatedAt ?? post.publishedAt,
-    },
-  };
+export function hasPostTranslation(slug: string, lang: Lang) {
+  return lang === DEFAULT_LOCALE || !!blogTranslations[lang]?.[slug];
+}
+
+export function getLocalizedPosts(lang: Lang) {
+  return getAllPosts().map((post) => getLocalizedPost(post, lang));
 }

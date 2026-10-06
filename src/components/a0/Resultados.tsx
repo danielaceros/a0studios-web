@@ -4,22 +4,21 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import { createPortal } from "react-dom";
 import SectionHead from "./SectionHead";
-import { getResultadosByCategory, type FormatoItem, type ResultadoCategory } from "@/data/formatos";
+import { getResultadosByCategoryLang, type FormatoItem, type ResultadoCategory } from "@/data/formatos";
+import type { Lang } from "@/lib/i18n";
+import { resultadosContent } from "@/lib/i18n/content/resultados";
 
-const CATEGORIES: { value: ResultadoCategory; label: string }[] = [
-  { value: "reel", label: "Reels" },
-  { value: "ad", label: "Ads" },
-  { value: "vsl", label: "VSL" },
-];
+const CATEGORY_ORDER: ResultadoCategory[] = ["reel", "ad", "vsl"];
 
-export default function Resultados() {
+export default function Resultados({ lang }: { lang: Lang }) {
+  const t = resultadosContent[lang];
   const [category, setCategory] = useState<ResultadoCategory>("reel");
   const [active, setActive] = useState<FormatoItem | null>(null);
   const trackRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(false);
 
-  const items = useMemo(() => getResultadosByCategory(category), [category]);
+  const items = useMemo(() => getResultadosByCategoryLang(lang, category), [lang, category]);
 
   const updateArrows = () => {
     const el = trackRef.current;
@@ -77,28 +76,28 @@ export default function Resultados() {
     >
       <div className="mx-auto max-w-[1360px]">
         <SectionHead
-          label="Resultados"
-          title="Lo que sale de"
-          accent="aquí"
-          lead="Anuncios, VSLs y reels grabados aquí y ya publicados por nuestros clientes."
+          label={t.label}
+          title={t.title}
+          accent={t.accent}
+          lead={t.lead}
         />
 
         {/* Picker Reels / Ads / VSL */}
         <div className="reveal mt-14 sm:mt-[clamp(3.5rem,5vw,5rem)]">
           <div className="glass inline-flex items-center gap-1 rounded-full p-1">
-            {CATEGORIES.map((c) => (
+            {CATEGORY_ORDER.map((c) => (
               <button
-                key={c.value}
+                key={c}
                 type="button"
-                onClick={() => setCategory(c.value)}
-                aria-pressed={category === c.value}
+                onClick={() => setCategory(c)}
+                aria-pressed={category === c}
                 className={`meta rounded-full px-4 py-2 transition-colors duration-300 ${
-                  category === c.value
+                  category === c
                     ? "bg-foreground text-background"
                     : "text-foreground/55 hover:text-foreground"
                 }`}
               >
-                {c.label}
+                {t.categories[c]}
               </button>
             ))}
           </div>
@@ -116,7 +115,7 @@ export default function Resultados() {
                 type="button"
                 data-card
                 onClick={() => setActive(item)}
-                aria-label={`Reproducir: ${item.alt}`}
+                aria-label={`${t.play}: ${item.alt}`}
                 className={`group relative shrink-0 snap-start cursor-pointer overflow-hidden rounded-[12px] border border-line ${
                   item.orientation === "vertical"
                     ? "aspect-[9/16] w-[150px] sm:w-[190px] lg:w-[220px]"
@@ -152,7 +151,7 @@ export default function Resultados() {
             type="button"
             onClick={() => scrollByCard(-1)}
             disabled={!canScrollLeft}
-            aria-label="Ver anteriores"
+            aria-label={t.prev}
             className="glass absolute left-0 top-1/2 z-10 hidden h-10 w-10 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full text-foreground transition-opacity duration-300 disabled:pointer-events-none disabled:opacity-0 sm:flex"
           >
             <svg viewBox="0 0 24 24" className="h-4 w-4 fill-current">
@@ -163,7 +162,7 @@ export default function Resultados() {
             type="button"
             onClick={() => scrollByCard(1)}
             disabled={!canScrollRight}
-            aria-label="Ver siguientes"
+            aria-label={t.next}
             className="glass absolute right-0 top-1/2 z-10 hidden h-10 w-10 -translate-y-1/2 translate-x-1/2 items-center justify-center rounded-full text-foreground transition-opacity duration-300 disabled:pointer-events-none disabled:opacity-0 sm:flex"
           >
             <svg viewBox="0 0 24 24" className="h-4 w-4 fill-current">
@@ -187,10 +186,10 @@ export default function Resultados() {
               <button
                 type="button"
                 onClick={() => setActive(null)}
-                aria-label="Cerrar"
+                aria-label={t.close}
                 className="glass meta absolute right-4 top-4 z-10 flex h-11 items-center rounded-full px-5 text-foreground"
               >
-                Cerrar
+                {t.close}
               </button>
               <video
                 src={active.src}

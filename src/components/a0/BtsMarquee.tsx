@@ -2,7 +2,9 @@
 
 import { useEffect, useRef } from "react";
 import Image from "next/image";
-import { BTS_ITEMS, type FormatoItem } from "@/data/formatos";
+import { useMemo } from "react";
+import { getBtsItems, type FormatoItem } from "@/data/formatos";
+import type { Lang } from "@/lib/i18n";
 
 /**
  * Tira ambiental de BTS del ático — 100% pasiva, sin ninguna interacción:
@@ -16,7 +18,8 @@ import { BTS_ITEMS, type FormatoItem } from "@/data/formatos";
  */
 const SPEED = 0.28;
 
-export default function BtsMarquee() {
+export default function BtsMarquee({ lang }: { lang: Lang }) {
+  const btsItems = useMemo(() => getBtsItems(lang), [lang]);
   const trackRef = useRef<HTMLDivElement>(null);
   const rafRef = useRef<number | null>(null);
   const xRef = useRef(0);
@@ -72,7 +75,7 @@ export default function BtsMarquee() {
   return (
     <div className="relative w-full overflow-hidden" role="presentation" aria-hidden="true">
       <div ref={trackRef} className="flex w-max gap-3 will-change-transform sm:gap-4">
-        {[...BTS_ITEMS, ...BTS_ITEMS].map((item, i) => (
+        {[...btsItems, ...btsItems].map((item, i) => (
           <BtsTile key={`${item.id}-${i}`} item={item} />
         ))}
       </div>
