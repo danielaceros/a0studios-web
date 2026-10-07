@@ -784,6 +784,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant, pendiente de reautorización manual). Fallback evergreen: lista Prioridad 1 agotada, se usa ítem 15 de la lista genérica. Tema sobre qué formato y duración de vídeo usar en una landing page (oferta, demo, testimonio) y cómo grabarlos en una sesión. Imágenes Unsplash (Ofspace LLC, Sanjeev Nagaraj).",
   },
+  {
+    slug: "dirigir-entrevista-que-no-se-note-el-guion",
+    keyword: "como dirigir una entrevista en video",
+    intent: "informacional",
+    createdAt: "2026-10-07",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant, pendiente de reautorización manual). Fallback evergreen: lista Prioridad 1 agotada, se usa ítem 16 de la lista genérica. Tema sobre cómo dirigir una entrevista en cámara con temas y no respuestas, repetición de tomas y silencios. Imágenes Unsplash (Ansis Kančs, 2H Media).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

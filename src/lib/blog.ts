@@ -10051,6 +10051,128 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "dirigir-entrevista-que-no-se-note-el-guion",
+    title: "Cómo dirigir una entrevista para que no se note el guion",
+    description:
+      "Cómo preparar y dirigir una entrevista en cámara para que suene natural aunque lleve guion: preguntas, ritmo, repeticiones y cómo grabarla en estudio.",
+    publishedAt: "2026-10-07",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["dirigir entrevista", "vídeo corporativo", "guion", "estudio de grabación", "Madrid", "contenido de marca"],
+    keyword: "como dirigir una entrevista en video",
+    intent: "informacional",
+    excerpt:
+      "Una entrevista leída se nota en los primeros diez segundos. Cómo preparar las preguntas, dirigir al entrevistado y grabar para que suene a conversación.",
+    seoTitle: "Cómo dirigir una entrevista en vídeo sin que se note el guion",
+    metaDescription:
+      "Cómo dirigir una entrevista en vídeo para que suene natural aunque haya guion: preguntas, ritmo y repeticiones, y cómo grabarla en estudio en Madrid.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Una entrevista con guion se nota en diez segundos. La mirada baja hacia un papel, el tono plano, las frases demasiado redondas. El espectador no sabe explicar qué falla, pero deja de creerse lo que oye.",
+      },
+      {
+        type: "paragraph",
+        text: "Yo dirijo sesiones en A0Studios, nuestro ático de Ronda de Atocha 16, en Madrid centro. Vengo del mundo de los anuncios, así que dirijo cada entrevista pensando en qué tiene que sentir quien la ve y qué debe hacer después. Estas son las reglas que uso.",
+      },
+      {
+        type: "image",
+        src: "/blog/dirigir-entrevista-que-no-se-note-el-guion/hero.webp",
+        alt: "Dos personas en una sala con iluminación de estudio durante una grabación",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué una entrevista guionizada suena falsa" },
+      {
+        type: "paragraph",
+        text: "Cuando alguien memoriza una respuesta, la recita. Habla con otro ritmo, no duda, no busca la palabra. En una conversación real hay pausas, giros y frases a medias. Quitarlas del todo es lo que delata el guion.",
+      },
+      {
+        type: "paragraph",
+        text: "Lo contrario también falla. Una entrevista sin preparación suele divagar, repetir y llenarse de muletillas. En contenido de marca, donde cada minuto cuesta dinero y atención, no puedes permitirte ninguna de las dos cosas.",
+      },
+      {
+        type: "paragraph",
+        text: "El equilibrio es tener estructura sin tener texto. Sabes qué tema toca cada pregunta y qué idea clave debe salir, pero la frase exacta la pone la persona en el momento.",
+      },
+      { type: "heading", level: 2, text: "Cómo se dirige bien una entrevista" },
+      { type: "heading", level: 3, text: "Prepara temas, no respuestas" },
+      {
+        type: "paragraph",
+        text: "Antes de la sesión mando al entrevistado una lista de 6 a 8 temas con la idea que quiero que salga de cada uno. Nunca el texto. Le pido que piense un ejemplo real por tema: un cliente, una cifra, una anécdota. Con ejemplos, la respuesta sale con detalle y no suena a folleto.",
+      },
+      { type: "heading", level: 3, text: "Pregunta con preguntas abiertas y repite sin avisar" },
+      {
+        type: "paragraph",
+        text: "Empiezo con preguntas fáciles para que se suelte, como a qué se dedica o cómo empezó. Después paso a las importantes. Si la primera respuesta suena ensayada, repito la pregunta con otras palabras y le pido que la cuente como se la contaría a un amigo. La segunda toma casi siempre es mejor.",
+      },
+      { type: "heading", level: 3, text: "Dirige con la mirada y no cortes demasiado" },
+      {
+        type: "paragraph",
+        text: "El entrevistado debe mirarme a mí, no a la cámara, salvo que la pieza pida hablar a cámara. Yo me coloco junto al objetivo, a su altura. Dejo que termine las frases y aguanto un par de segundos de silencio al final: ahí suele aparecer lo mejor. Cortar cada vez que se equivoca mata el ritmo. Una muletilla se arregla en edición.",
+      },
+      {
+        type: "image",
+        src: "/blog/dirigir-entrevista-que-no-se-note-el-guion/mid.webp",
+        alt: "Escritorio con auriculares y un micrófono listos para grabar una entrevista",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes" },
+      {
+        type: "list",
+        items: [
+          "Dar al entrevistado las respuestas escritas y pedirle que las lea en un teleprompter. Funciona para un mensaje corto, no para una conversación.",
+          "Empezar a grabar con las preguntas difíciles, antes de que la persona haya entrado en calor.",
+          "Hacer preguntas cerradas que se contestan con sí o no y no dan material de edición.",
+          "No dar tiempo de silencio tras la respuesta. Muchas veces la mejor frase llega después.",
+          "Grabar con un solo plano y sin audio limpio: si el sonido falla, la entrevista entera es inservible.",
+          "Entrevistar a media luz y con eco, sin cuidar la sala. El espacio cambia cómo se siente el entrevistado.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Cómo lo grabamos en A0Studios" },
+      {
+        type: "paragraph",
+        text: "En una sesión de 2 a 3 horas en A0Studios grabamos entrevistas con una cámara Sony A7 en dos encuadres, dos micrófonos de corbata y luz controlada. De una conversación de 40 minutos salen entre 8 y 12 clips para redes, el vídeo principal y cortes para anuncios. Se edita en DaVinci Resolve.",
+      },
+      {
+        type: "paragraph",
+        text: "La diferencia no está solo en el espacio. Dirijo la sesión con criterio de venta: qué pregunta abre, qué prueba queda en pantalla y qué frase sirve de gancho en un anuncio de Meta o TikTok. Eso es lo que separa una entrevista bonita de una que ayuda a vender, tanto en orgánico como en pago.",
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Hay que enviar las preguntas antes al entrevistado?",
+        answer:
+          "Sí, pero en forma de temas, no de preguntas redactadas. Así llega preparado y con ejemplos, sin memorizar respuestas. Las preguntas exactas las hago en la sesión, adaptadas a lo que va contando.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una entrevista en vídeo?",
+        answer:
+          "Grabamos entre 30 y 45 minutos para una pieza final de 3 a 5 minutos, más clips cortos. Con más tiempo la persona se cansa y la calidad baja. Con menos, no hay margen de repetición.",
+      },
+      {
+        type: "faq",
+        question: "¿Y si el entrevistado se bloquea ante la cámara?",
+        answer:
+          "Empiezo con una charla sin grabar de unos 10 minutos y con preguntas fáciles. Si hace falta, repito la pregunta con otro enfoque. La mayoría se suelta pronto si siente que es una conversación y no un examen.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo usar teleprompter en una entrevista?",
+        answer:
+          "Para un mensaje corto a cámara, sí. Para una entrevista, no: rompe la mirada y el ritmo. Lo más natural es una conversación guiada por temas, con el entrevistado mirando a quien pregunta.",
+      },
+      {
+        type: "paragraph",
+        text: "Si quieres grabar una entrevista en Madrid con alguien que sepa dirigirla y sacar piezas que vendan, escríbenos en /#contacto, cuéntanos el tema y quién la va a dar, y te proponemos estructura y formato antes de reservar.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
