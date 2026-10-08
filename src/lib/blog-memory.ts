@@ -793,6 +793,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant, pendiente de reautorización manual). Fallback evergreen: lista Prioridad 1 agotada, se usa ítem 16 de la lista genérica. Tema sobre cómo dirigir una entrevista en cámara con temas y no respuestas, repetición de tomas y silencios. Imágenes Unsplash (Ansis Kančs, 2H Media).",
   },
+  {
+    slug: "preparar-lanzamiento-producto-grabar-estudio",
+    keyword: "como preparar el lanzamiento de un producto para grabar en estudio",
+    intent: "informacional",
+    createdAt: "2026-10-08",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 (SEO local/comercial) agotada (ítems 7 y 8 descartados por solapar con posts ya publicados); Prioridad 2 ítem 19 de la lista genérica, ángulo de preparación de lanzamiento (mensaje, piezas y destino de cada una, orgánico + anuncios), distinto de grabacion-videos-producto-estudio (foco en técnica de plano de producto). Imágenes Unsplash.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

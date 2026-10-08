@@ -10173,6 +10173,124 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "preparar-lanzamiento-producto-grabar-estudio",
+    title: "Cómo preparar el lanzamiento de un producto para grabar en estudio",
+    description:
+      "Cómo preparar el lanzamiento de un producto para grabar en estudio: qué cerrar antes, qué piezas grabar y cómo dejar material para orgánico y anuncios.",
+    publishedAt: "2026-10-08",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["lanzamiento de producto", "grabación en estudio", "Madrid", "Meta Ads", "contenido de marca"],
+    keyword: "cómo preparar el lanzamiento de un producto para grabar en estudio",
+    intent: "informacional",
+    excerpt:
+      "Un lanzamiento se gana antes de entrar al estudio. Qué cerrar con antelación, qué piezas grabar y cómo salir con material para orgánico y anuncios.",
+    seoTitle: "Preparar el lanzamiento de un producto para grabar",
+    metaDescription:
+      "Cómo preparar el lanzamiento de un producto para grabar en estudio: qué cerrar antes, qué piezas grabar y cómo salir con material para redes y anuncios.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Un lanzamiento no se graba el día que lo anuncias. Se graba antes, con calma, y se reparte en piezas durante las semanas siguientes. Si llegas al estudio sin tener claro qué vendes, a quién y con qué promesa, pagas horas de cámara para decidir cosas que se resuelven en una llamada.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios vemos la diferencia desde el primer minuto. Quien llega con el mensaje cerrado graba 12 o 15 piezas útiles en una sesión. Quien llega improvisando se pasa media mañana buscando el ángulo. Esto es lo que conviene tener hecho antes de reservar.",
+      },
+      {
+        type: "image",
+        src: "/blog/preparar-lanzamiento-producto-grabar-estudio/hero.webp",
+        alt: "Dos latas de refresco rojas sobre fondo rosa, producto preparado para una sesión de lanzamiento",
+        width: 1920,
+        height: 1440,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué importa preparar la grabación" },
+      {
+        type: "paragraph",
+        text: "Un lanzamiento tiene fecha y la fecha no se mueve. Si el material llega tarde, la campaña sale con piezas a medias o se retrasa. Y cada día de retraso es un día sin ventas, con el presupuesto de anuncios esperando.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, un lanzamiento necesita más piezas que un día normal de contenido. Hacen falta vídeos para la web, para el orgánico de lanzamiento, para anuncios en Meta y TikTok y, si el producto lo pide, un VSL. Todo eso se puede grabar en una sola sesión si se planifica. Si no se planifica, se acaba repitiendo.",
+      },
+      { type: "heading", level: 2, text: "Cómo se prepara bien" },
+      { type: "heading", level: 3, text: "Cierra el mensaje antes de grabar" },
+      {
+        type: "paragraph",
+        text: "Necesitas una frase que diga qué problema resuelve el producto, para quién y por qué ahora. Si no cabe en dos líneas, aún no está listo. Escríbela, léela en voz alta y comprueba que alguien ajeno al producto la entiende a la primera.",
+      },
+      { type: "heading", level: 3, text: "Define las piezas y dónde van a vivir" },
+      {
+        type: "paragraph",
+        text: "Haz una lista con cada pieza y su destino: un vídeo principal para la web, 5 o 6 clips verticales para redes, 3 o 4 variantes de anuncio con ganchos distintos y, si procede, un VSL. Con esa lista el estudio puede dimensionar el tiempo. Una sesión de 3 horas da para mucho si cada plano tiene un uso previsto.",
+      },
+      { type: "heading", level: 3, text: "Lleva el producto y el material de apoyo" },
+      {
+        type: "paragraph",
+        text: "Si el producto es físico, lleva al menos dos unidades limpias, alguna en uso y su packaging. Si es digital o un servicio, prepara capturas, la demo ensayada y los datos que sí puedas enseñar. Y no olvides el guion: una página por pieza, con el gancho escrito, no un documento de diez.",
+      },
+      {
+        type: "image",
+        src: "/blog/preparar-lanzamiento-producto-grabar-estudio/mid.webp",
+        alt: "Equipo de rodaje reunido alrededor de una cámara durante una sesión de grabación",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Errores comunes antes de un lanzamiento" },
+      {
+        type: "list",
+        items: [
+          "Reservar el estudio sin tener el mensaje cerrado y decidirlo delante de cámara.",
+          "Grabar una sola pieza larga y no pensar en los cortes verticales que necesitan las redes.",
+          "Dejar los anuncios para después, cuando ya no hay presupuesto de producción ni tiempo.",
+          "Llegar con un solo portavoz y sin plan B si esa persona se bloquea o no puede asistir.",
+          "Grabar sin tener la oferta, el precio o la fecha definidos, y tener que regrabar por un cambio.",
+          "Pensar solo en estética y olvidar el gancho de los primeros 3 segundos.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Cómo lo planteamos en A0Studios" },
+      {
+        type: "paragraph",
+        text: "Antes de la sesión hacemos una llamada corta para cerrar mensaje, piezas y destino de cada una. En el ático grabamos con Sony A7 en vertical y horizontal, y dejamos preparadas las variantes de gancho que luego se testean en Meta y TikTok. La edición se hace en DaVinci Resolve.",
+      },
+      {
+        type: "paragraph",
+        text: "No vendemos solo el espacio. Dirijo la sesión con criterio de venta: qué prueba enseñar, qué frase abre un anuncio y qué clip funciona mejor en orgánico. Esa dirección es lo que convierte un día de grabación en una campaña de lanzamiento utilizable.",
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Con cuánta antelación debo reservar la sesión de un lanzamiento?",
+        answer:
+          "Lo ideal son 3 o 4 semanas antes de la fecha de lanzamiento. Así queda margen para preparar guiones, grabar, editar y, si quieres, testear anuncios antes de que arranque la campaña.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuántas piezas se pueden grabar en una sesión?",
+        answer:
+          "Con una sesión de 3 horas y el material bien preparado, entre 12 y 15 piezas entre vídeos principales, clips para redes y variantes de anuncio. Depende de la complejidad del producto y de cuántas personas salgan en cámara.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta tener el producto terminado para grabar?",
+        answer:
+          "Para un producto físico, sí: conviene grabarlo con el acabado final. Para un producto digital o un servicio, basta con tener la oferta y la demo cerradas. Lo que no puede cambiar tras grabar es el mensaje, el precio y la fecha.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar los anuncios en la misma sesión que el contenido orgánico?",
+        answer:
+          "Sí, y es lo más eficiente. Se graban los mismos mensajes con enfoques distintos: más directo y con oferta para pago, más cercano para orgánico. Así tienes variantes para testear sin volver a reservar.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes un lanzamiento en el calendario y quieres grabarlo en Madrid con alguien que dirija la sesión pensando en vender, escríbenos en /#contacto, cuéntanos producto y fecha, y te proponemos piezas y plan antes de reservar.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
