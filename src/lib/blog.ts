@@ -10291,6 +10291,124 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "preguntas-estudio-grabacion-antes-de-reservar",
+    title: "Qué preguntar a un estudio de grabación en Madrid antes de reservar",
+    description:
+      "Qué preguntar a un estudio de grabación antes de reservar sesión en Madrid: equipo, tiempos, dirección, entregables y condiciones que conviene aclarar.",
+    publishedAt: "2026-10-09",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["estudio de grabación", "reservar sesión", "Madrid", "dirección de contenido", "producción de vídeo"],
+    keyword: "qué preguntar a un estudio de grabación antes de reservar sesión",
+    intent: "informacional",
+    excerpt:
+      "Antes de pagar una sesión conviene hacer ocho preguntas al estudio. Qué incluye el precio, quién dirige, qué recibes al final y qué se cobra aparte.",
+    seoTitle: "Qué preguntar a un estudio de grabación antes de reservar",
+    metaDescription:
+      "Qué preguntar a un estudio de grabación antes de reservar sesión en Madrid: equipo, dirección, tiempos, entregables y extras que conviene aclarar.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Casi todos los estudios enseñan fotos bonitas y un precio por hora. Pocos te dicen qué pasa entre el momento en que pagas y el momento en que tienes vídeos publicables. Ahí es donde se pierde el dinero: en lo que nadie preguntó antes de reservar.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios nos hacen siempre las mismas preguntas, y las buenas llegan tarde, a mitad de la sesión. Esta es la lista que yo haría antes de firmar nada con cualquier estudio de grabación en Madrid, incluido el nuestro.",
+      },
+      {
+        type: "image",
+        src: "/blog/preguntas-estudio-grabacion-antes-de-reservar/hero.webp",
+        alt: "Sistema de cámara de cine Sony FS7 montado en un set de rodaje",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué importa preguntar antes de reservar" },
+      {
+        type: "paragraph",
+        text: "Dos estudios con el mismo precio por hora pueden dar resultados opuestos. Uno te entrega un espacio y una cámara encendida. Otro te dirige, te dice qué grabar y te devuelve material listo para publicar o para meter en un anuncio.",
+      },
+      {
+        type: "paragraph",
+        text: "El precio por hora es solo una parte. Lo que cuenta es el coste por pieza útil. Si en 3 horas sales con 3 vídeos que no sirven, has pagado más que alguien que sale con 12 que sí. Las preguntas correctas te permiten comparar eso antes de gastar.",
+      },
+      { type: "heading", level: 2, text: "Las preguntas que sí conviene hacer" },
+      { type: "heading", level: 3, text: "Quién dirige la sesión y con qué criterio" },
+      {
+        type: "paragraph",
+        text: "Pregunta si alguien te dirige o si solo te dan el espacio y un técnico. Pregunta también qué experiencia tiene esa persona con anuncios y contenido que vende. Un buen director sabe qué gancho abre un vídeo y qué plano sobra. Eso no se improvisa en el set.",
+      },
+      { type: "heading", level: 3, text: "Qué equipo incluye el precio" },
+      {
+        type: "paragraph",
+        text: "Cámara, objetivos, micrófonos, luz, teleprompter y fondos. Pide que te lo digan por escrito. Una configuración habitual para contenido de marca es una Sony A7 con dos micrófonos y luz de estudio. Si algo se cobra aparte, mejor saberlo hoy que en la factura.",
+      },
+      { type: "heading", level: 3, text: "Qué recibes al terminar y en cuánto tiempo" },
+      {
+        type: "paragraph",
+        text: "Hay tres escenarios: solo material en bruto, material con edición o producción completa con guion y dirección. Pregunta formato de entrega, resolución, versiones verticales y horizontales, y plazo. Y cuántas rondas de cambios entran en el precio, porque ahí suelen aparecer los extras.",
+      },
+      {
+        type: "image",
+        src: "/blog/preguntas-estudio-grabacion-antes-de-reservar/mid.webp",
+        alt: "Persona tomando notas con un portátil sobre un escritorio de trabajo",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Qué preguntar sobre condiciones y logística" },
+      {
+        type: "list",
+        items: [
+          "Cuánto dura realmente la sesión: si el montaje y el desmontaje cuentan dentro de las horas que pagas.",
+          "Qué pasa si hay que cancelar o mover la fecha, y con cuánta antelación sin coste.",
+          "Cuántas personas pueden entrar en el estudio y si hay límite de invitados o equipo.",
+          "Dónde está, cómo se llega y si hay camerino o zona para cambiarse y esperar.",
+          "Si puedes grabar anuncios, contenido orgánico y un VSL en la misma sesión, o si cada formato se reserva por separado.",
+          "Quién conserva los derechos del material grabado y si puedes usarlo en anuncios de pago.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Cómo lo resolvemos en A0Studios" },
+      {
+        type: "paragraph",
+        text: "Estamos en Ronda de Atocha 16, séptima planta, en Madrid centro. Antes de reservar hacemos una llamada corta para saber qué quieres vender y a quién. Con eso te decimos cuántas piezas caben en la sesión y qué servicio encaja: solo grabación, grabación más edición o producción completa.",
+      },
+      {
+        type: "paragraph",
+        text: "Dirijo yo la sesión con criterio de venta, porque trabajo con anuncios en Meta y TikTok y sé qué abre un vídeo que convierte. Editamos con DaVinci Resolve y entregamos en vertical y horizontal. Hemos trabajado con IFEMA, la Cámara de Comercio de Madrid y Cinesa, así que sabemos lo que es un plazo real.",
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuántas horas necesito reservar para una primera sesión?",
+        answer:
+          "Para una primera sesión, entre 2 y 3 horas suelen bastar si llegas con guion. Con ese tiempo se graban entre 8 y 12 piezas cortas. Si es un VSL o una pieza larga, conviene reservar más y ensayar antes.",
+      },
+      {
+        type: "faq",
+        question: "¿Debo ir con el guion hecho o me ayudan en el estudio?",
+        answer:
+          "Depende del servicio. En solo grabación llevas el guion tú. En producción completa lo trabajamos contigo antes de la sesión. Lo que no recomendamos es llegar sin nada: se pagan horas de cámara para decidir qué decir.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo usar lo grabado en anuncios de pago?",
+        answer:
+          "Debería poder, pero pregúntalo y que conste por escrito. Si hay música, locutores o personas externas, revisa también sus permisos. En nuestros proyectos el material es tuyo para usarlo en orgánico y en Meta o TikTok Ads.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué debo llevar el día de la sesión?",
+        answer:
+          "El guion o los temas, la ropa elegida con alguna alternativa, el producto si lo hay y una lista de las piezas con su destino. Si llevas todo eso, el tiempo en cámara rinde mucho más.",
+      },
+      {
+        type: "paragraph",
+        text: "Si estás comparando estudios en Madrid y quieres saber qué incluiría tu sesión con nosotros, escríbenos en /#contacto, cuéntanos qué quieres grabar y te respondemos con piezas, tiempos y precio antes de que reserves nada.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

@@ -802,6 +802,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 (SEO local/comercial) agotada (ítems 7 y 8 descartados por solapar con posts ya publicados); Prioridad 2 ítem 19 de la lista genérica, ángulo de preparación de lanzamiento (mensaje, piezas y destino de cada una, orgánico + anuncios), distinto de grabacion-videos-producto-estudio (foco en técnica de plano de producto). Imágenes Unsplash.",
   },
+  {
+    slug: "preguntas-estudio-grabacion-antes-de-reservar",
+    keyword: "que preguntar a un estudio de grabacion antes de reservar sesion",
+    intent: "informacional",
+    createdAt: "2026-10-09",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 agotada (ítems 7 y 8 descartados por solapar con posts ya publicados); Prioridad 2 ítem 8 de la lista genérica, ángulo de preguntas previas a reservar (dirección, equipo, entregables, condiciones, derechos para anuncios), distinto de como-elegir-estudio-grabacion-marca-personal. Imágenes Unsplash (Sam McGhee, Christin Hume).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
