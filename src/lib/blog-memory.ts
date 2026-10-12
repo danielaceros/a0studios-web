@@ -811,6 +811,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 agotada (ítems 7 y 8 descartados por solapar con posts ya publicados); Prioridad 2 ítem 8 de la lista genérica, ángulo de preguntas previas a reservar (dirección, equipo, entregables, condiciones, derechos para anuncios), distinto de como-elegir-estudio-grabacion-marca-personal. Imágenes Unsplash (Sam McGhee, Christin Hume).",
   },
+  {
+    slug: "plan-contenido-trimestral-una-sola-sesion-grabacion",
+    keyword: "plan de contenido trimestral con una sola sesion de grabacion",
+    intent: "informacional",
+    createdAt: "2026-10-12",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 agotada; Prioridad 2 ítem 13 de la lista genérica (plan de contenido trimestral con una sola sesión), ángulo de planificación por bloques y reparto orgánico/anuncio, distinto de kit-contenido-mensual-empresas-que-grabar (mensual) y roi-contenido-video-marca. Imágenes Unsplash (Eric Rothermel, Voyage Pro).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

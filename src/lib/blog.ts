@@ -10409,6 +10409,127 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "plan-contenido-trimestral-una-sola-sesion-grabacion",
+    title: "Plan de contenido trimestral con una sola sesión de grabación en Madrid",
+    description:
+      "Cómo montar un plan de contenido trimestral a partir de una sola sesión de grabación en estudio: qué grabar, cuántas piezas salen y cómo repartirlas en 12 semanas.",
+    publishedAt: "2026-10-12",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["plan de contenido", "sesión de grabación", "estudio Madrid", "contenido orgánico", "batch recording"],
+    keyword: "plan de contenido trimestral con una sola sesión de grabación",
+    intent: "informacional",
+    excerpt:
+      "Una sesión bien planificada da contenido para 12 semanas. Cómo decidir qué grabar, cuántas piezas esperar y cómo repartirlas entre orgánico y anuncios.",
+    seoTitle: "Plan de contenido trimestral con una sola sesión",
+    metaDescription:
+      "Plan de contenido trimestral con una sola sesión de grabación en Madrid: qué grabar, cuántas piezas salen y cómo repartirlas en 12 semanas.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Grabar cada semana es la forma más cara de tener contenido. Hay que montar luz, cámara y sonido cada vez, y la persona que sale en pantalla llega cansada y sin ganas de repetir lo mismo. Lo habitual es que el calendario se rompa a la tercera semana.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios hacemos otra cosa con muchos clientes: una sola sesión larga al trimestre, con un plan de 12 semanas ya escrito antes de encender la cámara. Dirijo yo la sesión con criterio de venta, porque trabajo con anuncios en Meta y TikTok y sé qué piezas merece la pena grabar dos veces.",
+      },
+      {
+        type: "image",
+        src: "/blog/plan-contenido-trimestral-una-sola-sesion-grabacion/hero.webp",
+        alt: "Planificador mensual abierto sobre un escritorio de madera",
+        width: 1920,
+        height: 1285,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué una sesión al trimestre funciona" },
+      {
+        type: "paragraph",
+        text: "El coste de una sesión no está en la grabación en sí, sino en el montaje, la preparación y el tiempo de quien graba. Si repartes eso entre 30 o 40 piezas, el coste por pieza baja mucho frente a grabar 3 vídeos cada semana.",
+      },
+      {
+        type: "paragraph",
+        text: "Además ganas coherencia. Misma ropa, misma luz y mismo set dan una marca reconocible. Y puedes decidir con calma qué mensajes van en orgánico, cuáles se prueban como anuncio y cuáles se guardan para un lanzamiento.",
+      },
+      {
+        type: "paragraph",
+        text: "El riesgo es grabar cosas que caducan. Precios, promociones y fechas no entran en un plan trimestral. Lo que sí entra es contenido que no pierde vigencia: explicaciones, objeciones, procesos, opiniones y preguntas de clientes.",
+      },
+      { type: "heading", level: 2, text: "Cómo se monta un plan trimestral bien hecho" },
+      { type: "heading", level: 3, text: "Empieza por las 12 semanas, no por el guion" },
+      {
+        type: "paragraph",
+        text: "Antes de escribir una sola frase, define qué quieres que pase en cada mes. Primer mes: que te conozcan. Segundo: que entiendan qué haces distinto. Tercero: que reserven. Con esa estructura decides cuántas piezas necesitas de cada tipo, normalmente 3 o 4 por semana en orgánico.",
+      },
+      { type: "heading", level: 3, text: "Agrupa los temas por bloques de grabación" },
+      {
+        type: "paragraph",
+        text: "Dentro de la sesión se graba por bloques, no por orden de publicación. Un bloque de piezas a cámara hablando, otro con producto o servicio en acción, otro de entrevista corta. Cada bloque comparte plano, luz y energía, y así se evitan cambios de set que comen una hora.",
+      },
+      { type: "heading", level: 3, text: "Graba más de lo que vas a publicar" },
+      {
+        type: "paragraph",
+        text: "Una sesión de 4 horas con 2 micrófonos y una Sony A7 da entre 30 y 40 clips útiles si el guion está listo. Reserva un 20% para versiones alternativas del arranque de los vídeos. Un buen gancho decide más que el resto de la pieza, y probar 3 aperturas distintas en anuncios sale casi gratis una vez grabadas.",
+      },
+      {
+        type: "image",
+        src: "/blog/plan-contenido-trimestral-una-sola-sesion-grabacion/mid.webp",
+        alt: "Cámara montada en un set de estudio con fondo blanco",
+        width: 1920,
+        height: 1282,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al planificar un trimestre" },
+      {
+        type: "list",
+        items: [
+          "Llegar sin guion y decidir sobre la marcha: se gastan las horas más caras del estudio en pensar.",
+          "Grabar todo en el mismo tono: hacen falta piezas serias, ligeras y directas para que la cuenta no se vuelva monótona.",
+          "Meter contenido con fecha de caducidad: ofertas, eventos y precios se quedan viejos a las dos semanas.",
+          "No separar lo orgánico de lo que va a anuncio: un vídeo de pago necesita gancho, oferta y llamada a la acción, y uno orgánico no.",
+          "Olvidar la edición: 40 clips sin editar no son un plan, son una carpeta. Cuenta el tiempo de montaje desde el principio.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Cómo lo hacemos en A0Studios" },
+      {
+        type: "paragraph",
+        text: "Estamos en Ronda de Atocha 16, séptima planta, en Madrid centro. Antes de reservar hacemos una llamada para ordenar el trimestre: qué vendes, qué objeciones aparecen siempre y qué piezas funcionan mejor en tu caso. De ahí sale la lista de clips y el orden de grabación.",
+      },
+      {
+        type: "paragraph",
+        text: "Según el servicio, grabamos nosotros y entregas tú el material (Solo Grabación), editamos con DaVinci Resolve y CapCut (Grabación + Edición) o nos encargamos de guion, dirección y calendario (Producción Completa). Hemos trabajado con IFEMA, la Cámara de Comercio de Madrid y Cinesa, y el método es el mismo con una marca personal que con un equipo.",
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para cubrir un trimestre?",
+        answer:
+          "Entre 3 y 5 horas, según cuántas piezas necesites y cuánta gente graba. Con 2 personas y guion cerrado, 4 horas suelen dar de 30 a 40 clips. Más de 5 horas seguidas cansa y se nota en cámara.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuántas piezas necesito para 12 semanas?",
+        answer:
+          "Si publicas 3 veces por semana, necesitas unas 36 piezas, más algunas de reserva. Con piezas cortas de 30 a 60 segundos es perfectamente posible grabarlas en una mañana si todo está preparado.",
+      },
+      {
+        type: "faq",
+        question: "¿Se puede usar el mismo material para anuncios?",
+        answer:
+          "Sí, y conviene planearlo desde el principio. Se graban varias aperturas por cada mensaje y se prueban en Meta o TikTok Ads. Lo que gana en pago se refuerza con más piezas en el siguiente trimestre.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué pasa si cambia algo a mitad del trimestre?",
+        answer:
+          "Para eso se deja un hueco de reserva. Una sesión corta de una hora, mes y medio después, cubre novedades sin repetir todo el montaje. El contenido que no caduca se mantiene tal cual.",
+      },
+      {
+        type: "paragraph",
+        text: "Si quieres tener tres meses de contenido resueltos con una sola mañana de grabación en Madrid, escríbenos en /#contacto, cuéntanos qué vendes y te proponemos piezas, calendario y precio antes de reservar nada.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
