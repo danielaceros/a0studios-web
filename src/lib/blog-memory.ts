@@ -820,6 +820,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 agotada; Prioridad 2 ítem 13 de la lista genérica (plan de contenido trimestral con una sola sesión), ángulo de planificación por bloques y reparto orgánico/anuncio, distinto de kit-contenido-mensual-empresas-que-grabar (mensual) y roi-contenido-video-marca. Imágenes Unsplash (Eric Rothermel, Voyage Pro).",
   },
+  {
+    slug: "contenido-todo-el-ano-un-solo-evento-corporativo",
+    keyword: "como sacar contenido para todo el ano de un solo evento corporativo",
+    intent: "informacional",
+    createdAt: "2026-10-13",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 agotada; Prioridad 2 ítem 9 de la lista genérica (contenido para todo el año de un solo evento corporativo), ángulo de planificar piezas antes del evento + sesión posterior en estudio, distinto de aftermovie-evento-corporativo y cobertura-audiovisual-eventos-corporativos. Imágenes Unsplash (Headway, Sam McGhee).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

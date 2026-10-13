@@ -10530,6 +10530,127 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "contenido-todo-el-ano-un-solo-evento-corporativo",
+    title: "Cómo sacar contenido para todo el año de un solo evento corporativo",
+    description:
+      "Cómo convertir un solo evento corporativo en contenido para todo el año: qué grabar durante y después, cuántas piezas salen y cómo repartirlas entre orgánico y anuncios.",
+    publishedAt: "2026-10-13",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["evento corporativo", "contenido para empresas", "estudio Madrid", "repurposing", "contenido orgánico"],
+    keyword: "cómo sacar contenido para todo el año de un solo evento corporativo",
+    intent: "informacional",
+    excerpt:
+      "Un evento corporativo dura un día, pero el contenido puede durar doce meses si lo planificas antes. Qué grabar, qué sesión añadir después y cómo repartir las piezas.",
+    seoTitle: "Contenido para todo el año de un solo evento corporativo",
+    metaDescription:
+      "Cómo sacar contenido para todo el año de un solo evento corporativo: qué grabar, qué sesión añadir en estudio y cómo repartir las piezas en 12 meses.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Una empresa monta un evento, invita a clientes, trae ponentes y lo celebra un jueves. El viernes ya nadie habla de él. Se publica un aftermovie, un par de fotos en LinkedIn y se archiva todo. Eso es desperdiciar el trabajo más caro del año.",
+      },
+      {
+        type: "paragraph",
+        text: "Un evento es una fábrica de materia prima: gente con ideas, testimonios espontáneos y un decorado que ya está pagado. En A0Studios lo tratamos así. Yo planifico antes qué piezas necesita la marca durante doce meses, y el evento y una sesión posterior en estudio las producen.",
+      },
+      {
+        type: "image",
+        src: "/blog/contenido-todo-el-ano-un-solo-evento-corporativo/hero.webp",
+        alt: "Público sentado en sillas durante un evento corporativo",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué un evento da más contenido del que parece" },
+      {
+        type: "paragraph",
+        text: "En una jornada de 6 horas con 5 ponentes hay 5 charlas, decenas de conversaciones de pasillo y unas 10 personas con una opinión útil sobre tu sector. Si solo grabas la sala en plano general, te quedas con una cinta larga que nadie va a ver entera.",
+      },
+      {
+        type: "paragraph",
+        text: "El problema es que el evento no está pensado para cámara. Hay ruido, la luz cambia y los ponentes hablan para la sala, no para un móvil. Por eso el evento aporta la autenticidad y el estudio aporta la calidad. Las dos cosas juntas dan un año de contenido.",
+      },
+      {
+        type: "paragraph",
+        text: "Hemos trabajado con IFEMA, la Cámara de Comercio de Madrid y Cinesa, y el patrón se repite: lo que más rinde después no es la pieza resumen, sino las respuestas cortas a una pregunta concreta.",
+      },
+      { type: "heading", level: 2, text: "Cómo se hace bien" },
+      { type: "heading", level: 3, text: "Antes: decide las 12 piezas que necesitas" },
+      {
+        type: "paragraph",
+        text: "Antes del evento, escribe qué quieres tener al terminar. Por ejemplo: 6 clips de opinión de ponentes, 4 testimonios de asistentes, 1 resumen de 90 segundos y 10 citas para publicaciones. Con esa lista se decide cuántas cámaras llevar y a quién hay que preparar.",
+      },
+      { type: "heading", level: 3, text: "Durante: una cámara para la sala y otra para entrevistas" },
+      {
+        type: "paragraph",
+        text: "Con 2 cámaras y 2 micrófonos de solapa se cubre casi todo. Una graba la charla desde un trípode fijo. La otra, con una Sony A7, se queda en una esquina tranquila para entrevistas de 2 minutos con ponentes y asistentes. El audio manda: un clip con buen sonido y plano discreto se usa, uno con eco no.",
+      },
+      { type: "heading", level: 3, text: "Después: una sesión de 3 horas en estudio" },
+      {
+        type: "paragraph",
+        text: "Una semana después, citamos a 3 o 4 ponentes en A0Studios, en Ronda de Atocha 16, para regrabar sus ideas centrales a cámara, con luz controlada y guion corto. Aquí es donde sale el contenido que va a anuncio: aperturas distintas, mensajes claros y llamada a la acción. Dirijo la sesión con criterio de venta, porque trabajo con Meta y TikTok Ads y sé qué se prueba.",
+      },
+      {
+        type: "image",
+        src: "/blog/contenido-todo-el-ano-un-solo-evento-corporativo/mid.webp",
+        alt: "Cámara de cine en un set de grabación",
+        width: 1920,
+        height: 1080,
+      },
+      { type: "heading", level: 2, text: "Cómo repartir las piezas durante el año" },
+      {
+        type: "paragraph",
+        text: "No publiques todo la semana siguiente. Reparte el material por trimestres: el primero para el resumen y los testimonios, que tienen más tirón mientras el evento está fresco. El segundo y el tercero para clips de opinión y respuestas a objeciones. El cuarto para anunciar la siguiente edición, con las mejores piezas ya probadas.",
+      },
+      {
+        type: "paragraph",
+        text: "Edita con DaVinci Resolve o CapCut según el formato y ordena todo en una carpeta por mes. Un calendario sencillo, con 2 o 3 piezas por semana, es suficiente para llenar doce meses.",
+      },
+      { type: "heading", level: 2, text: "Errores comunes" },
+      {
+        type: "list",
+        items: [
+          "Grabar el evento sin guion de piezas: se acumulan horas de cinta y no sale nada publicable.",
+          "Depender del sonido de sala: sin micrófonos de solapa, la mitad de las charlas no se pueden usar.",
+          "Publicar todo en una semana: el contenido se quema y el resto del año queda vacío.",
+          "No pedir permisos de imagen a ponentes y asistentes antes del evento.",
+          "Pensar solo en orgánico: las mejores respuestas también funcionan como anuncios si se regraban con buen arranque.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuántas piezas salen de un evento de un día?",
+        answer:
+          "Con una buena planificación, entre 30 y 50 piezas cortas, sumando el material del evento y una sesión posterior de 3 horas en estudio. Sin planificación, normalmente salen 3 o 4.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta una sesión en estudio después del evento?",
+        answer:
+          "No es obligatoria, pero mejora mucho el resultado. El evento da autenticidad, pero el estudio da luz, sonido y control para las piezas que van a anuncio o a la web.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuántas cámaras necesito en el evento?",
+        answer:
+          "Dos suelen bastar: una fija para la charla y otra móvil para entrevistas. Lo importante es el audio, con micrófonos de solapa en los ponentes y uno de apoyo en la sala.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuándo debo contar con el estudio?",
+        answer:
+          "Antes de cerrar el programa del evento. Así decidimos qué ponentes regrabar, qué preguntas hacerles y cómo encajar la sesión en las semanas siguientes.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes un evento en el calendario y quieres que te dure todo el año, escríbenos en /#contacto, cuéntanos fechas y formato y te proponemos piezas, cobertura y sesión en estudio en Madrid antes de reservar nada.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
