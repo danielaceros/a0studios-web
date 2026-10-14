@@ -54,7 +54,7 @@ export default function ContactFormEmbed({ className, loadDelay = 0, signalReady
       {!(shouldRender && formSrc) && (
         // Misma altura que el iframe: si la silueta midiera menos, al cargar el formulario la
         // página daría un salto (CLS) justo en la sección de contacto.
-        <div className="flex min-h-[700px] items-center justify-center sm:min-h-[600px]">
+        <div className="flex min-h-[740px] items-center justify-center sm:min-h-[680px]">
           <span className="h-8 w-8 animate-spin rounded-full border border-foreground/20 border-t-foreground/60" />
         </div>
       )}
@@ -73,10 +73,9 @@ export default function ContactFormEmbed({ className, loadDelay = 0, signalReady
           data-layout-iframe-id="inline-sxDYj1gBgfvDh9PI9Jte"
           data-form-id="sxDYj1gBgfvDh9PI9Jte"
           title={contactFormContent[lang].iframeTitle}
-          // Red de seguridad, igual que en daniaceros.com: si algún día el contenido vuelve a pasarse
-          // del alto, el usuario puede desplazarse dentro del iframe en vez de quedarse sin botón.
-          // Con las alturas de abajo no llega a hacer falta, pero no cuesta nada tenerlo.
-          scrolling="yes"
+          // Sin scroll interno: con los altos de abajo sobra sitio, y activarlo pintaba una barra gris
+          // permanente dentro del panel aunque el contenido cupiera. Quedaba como un fallo visual.
+          scrolling="no"
           suppressHydrationWarning
           onLoad={(e) => {
             (e.target as HTMLIFrameElement).style.opacity = "1";
@@ -85,20 +84,23 @@ export default function ContactFormEmbed({ className, loadDelay = 0, signalReady
               window.dispatchEvent(new Event("ghlReady"));
             }
           }}
-          // MÁS ALTO EN MÓVIL QUE EN ESCRITORIO, que es justo al revés de lo que parece lógico.
+          // MÁS ALTO EN MÓVIL QUE EN ESCRITORIO, que es al revés de lo que parece lógico: el alto que
+          // necesita el formulario de GHL depende de lo ANCHO que sea. Cuanto más estrecho, más envuelven
+          // las etiquetas y los textos de ayuda, y más crece hacia abajo.
           //
-          // El alto que necesita el formulario de GHL depende de lo ANCHO que sea: cuanto más estrecho,
-          // más envuelven las etiquetas y los textos de ayuda, y más crece hacia abajo. Medido sobre el
-          // formulario real: ~563px con el panel a 438px de ancho (escritorio, que es cuando la sección
-          // pasa a dos columnas) y ~650px con el panel a 360px (un móvil pequeño).
+          // MEDIR SIEMPRE AQUÍ DENTRO, NO EN EL FORMULARIO SUELTO. Abriendo la URL del widget en una
+          // pestaña salen ~563px, pero ahí el `clamp(..., 4.5vw, ...)` del padding de la hoja de estilos
+          // de GHL se resuelve contra el ancho de la VENTANA, no contra el del iframe, y da un resultado
+          // distinto. Medido embebido de verdad: ~607px con el panel a 438px (escritorio, cuando la
+          // sección pasa a dos columnas) y ~650px con el panel a 360px (móvil pequeño).
           //
-          // Por eso 600px servía en escritorio pero NO en móvil: ahí el botón de enviar se quedaba
-          // cortado fuera del iframe y el formulario no se podía enviar, que es donde cae la mayoría del
-          // tráfico de anuncios. Mismo patrón que daniaceros.com, que ya usa 790px en móvil y 760 en md.
+          // Esa confusión costó dos intentos fallidos: 600px parecía de sobra y en realidad cortaba el
+          // botón de enviar en móvil Y en escritorio. Los valores de abajo dejan ~70px de margen en los
+          // dos casos. Mismo patrón que daniaceros.com, que usa 790px en móvil y 760 en md.
           //
           // El iframe no puede auto-ajustarse: este formulario solo emite ["iframeLoaded"] y nunca manda
           // su altura. Si se añaden campos en GHL, hay que subir estos números a mano.
-          className="w-full border-0 min-h-[700px] sm:min-h-[600px]"
+          className="w-full border-0 min-h-[740px] sm:min-h-[680px]"
         />
       )}
     </div>
