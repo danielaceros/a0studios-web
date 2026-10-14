@@ -52,7 +52,9 @@ export default function ContactFormEmbed({ className, loadDelay = 0, signalReady
       {/* Guarda el origen del lead antes de que GHL redirija a /gracias. */}
       <FormOriginBeacon />
       {!(shouldRender && formSrc) && (
-        <div className="flex min-h-[300px] items-center justify-center sm:min-h-[400px] md:min-h-[600px]">
+        // Misma altura que el iframe: si la silueta midiera menos, al cargar el formulario la
+        // página daría un salto (CLS) justo en la sección de contacto.
+        <div className="flex min-h-[600px] items-center justify-center">
           <span className="h-8 w-8 animate-spin rounded-full border border-foreground/20 border-t-foreground/60" />
         </div>
       )}
@@ -80,7 +82,18 @@ export default function ContactFormEmbed({ className, loadDelay = 0, signalReady
               window.dispatchEvent(new Event("ghlReady"));
             }
           }}
-          className="w-full border-0 min-h-[400px] sm:min-h-[500px] md:min-h-[600px]"
+          // 600px FIJOS en todos los tamaños, no escalados por breakpoint.
+          //
+          // El formulario de GHL mide 600px de alto SIEMPRE: es una medida suya, no responsive, y su
+          // contenido ocupa 563px. Con `scrolling="no"`, lo que sobresalga del iframe no se puede ver ni
+          // alcanzar. Las alturas de antes (400px en móvil, 500px hasta 768px) recortaban 163px y 63px:
+          // en móvil se veían nombre, teléfono y medio email — el textarea y el botón de enviar quedaban
+          // fuera, así que NO SE PODÍA ENVIAR EL FORMULARIO desde un teléfono.
+          //
+          // No se puede resolver escuchando al iframe: este formulario solo emite ["iframeLoaded"], nunca
+          // manda su altura, así que no hay nada que sincronizar. Si algún día se añaden campos en GHL,
+          // hay que subir este número a mano.
+          className="w-full border-0 min-h-[600px]"
         />
       )}
     </div>

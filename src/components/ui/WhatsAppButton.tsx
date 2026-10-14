@@ -2,6 +2,7 @@
 
 import type { Lang } from "@/lib/i18n";
 import { whatsappButtonContent } from "@/lib/i18n/content/whatsapp-button";
+import { trackWhatsAppClick } from "@/lib/analytics";
 
 const PHONE = "34711255496";
 
@@ -14,6 +15,9 @@ export default function WhatsAppButton({ lang }: { lang: Lang }) {
       target="_blank"
       rel="noopener noreferrer"
       aria-label={t.ariaLabel}
+      // Abre en pestaña nueva, así que la página no se descarga y da tiempo de sobra a que salga
+      // el evento. No hace falta sendBeacon ni retrasar la navegación.
+      onClick={() => trackWhatsAppClick("boton_flotante", lang)}
       className="glass glass-hover fixed bottom-5 right-4 z-[55] flex h-13 items-center gap-2.5 rounded-full px-5 py-4 transition-transform duration-300 hover:scale-[1.03] sm:bottom-7 sm:right-7"
     >
       <svg viewBox="0 0 32 32" className="h-4 w-4 fill-foreground" aria-hidden="true">
