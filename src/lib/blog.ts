@@ -10651,6 +10651,118 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabacion-contenido-founders-antes-primera-sesion",
+    title: "Grabación de contenido para founders: qué necesitas antes de la primera sesión",
+    description:
+      "Qué debe tener claro un founder antes de su primera sesión de grabación en estudio en Madrid: objetivo, guion, piezas, vestuario y cómo repartir orgánico y anuncios.",
+    publishedAt: "2026-10-14",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["founders", "primera sesión", "estudio Madrid", "contenido para startups", "marca personal", "anuncios"],
+    keyword: "grabación de contenido para founders: qué necesitas antes de la primera sesión",
+    intent: "informacional",
+    excerpt:
+      "La primera sesión de un founder en cámara se gana antes de llegar al estudio. Qué preparar, qué decidir y qué dejar en manos de quien dirige.",
+    seoTitle: "Grabación de contenido para founders: antes de la primera sesión",
+    metaDescription:
+      "Grabación de contenido para founders: qué preparar antes de la primera sesión en estudio en Madrid. Objetivo, guion, piezas y reparto entre orgánico y anuncios.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Un founder llega a su primera sesión con una idea vaga: quiere salir en cámara, quiere que se vea profesional y quiere vender. Tres deseos razonables, ninguno es un plan. El resultado habitual son tres horas de grabación con mucho material correcto y pocas piezas que alguien quiera ver o que un anuncio pueda usar.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, en Madrid centro, vemos el mismo patrón una y otra vez. La sesión sale bien o mal según lo que se decide la semana anterior, no según la cámara. Esto es lo que pido a un founder antes de reservar.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabacion-contenido-founders-antes-primera-sesion/hero.webp",
+        alt: "Cámara de vídeo grabando una sesión en un set de producción",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué la primera sesión decide las siguientes" },
+      {
+        type: "paragraph",
+        text: "La primera grabación marca el tono, el formato y el ritmo de publicación de los meses siguientes. Si sale una pieza buena de cada tipo, tienes una plantilla que repetir. Si sale material genérico, tendrás que rehacerlo todo con la segunda sesión.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, un founder tiene poco tiempo. Normalmente son 2 o 3 horas en las que hay que sacar el contenido de un mes. Con esa ventana no hay margen para improvisar el mensaje delante de la cámara.",
+      },
+      {
+        type: "paragraph",
+        text: "Yo dirijo las sesiones con criterio de venta, porque trabajo con Meta y TikTok Ads y sé qué piezas se prueban y cuáles se quedan en el disco duro. El espacio es un ático luminoso, pero lo que cambia el resultado es que alguien decida contigo qué se graba y para qué.",
+      },
+      { type: "heading", level: 2, text: "Cómo se prepara bien la primera sesión" },
+      { type: "heading", level: 3, text: "Un objetivo por sesión, no cinco" },
+      {
+        type: "paragraph",
+        text: "Elige uno: captar clientes, atraer inversores, contratar o construir marca personal. Cada objetivo pide un tono y una duración distintos. Un clip para anuncio dura 30 o 45 segundos y vende una cosa. Uno para LinkedIn puede llegar a 90 segundos y explicar una opinión.",
+      },
+      { type: "heading", level: 3, text: "Entre 8 y 12 ideas escritas en una frase" },
+      {
+        type: "paragraph",
+        text: "No hace falta un guion palabra por palabra. Hace falta una lista de 8 a 12 ideas, cada una en una frase: el problema que resuelves, un error típico de tu sector, una objeción de cliente, un dato tuyo real. En estudio las ordenamos, las convertimos en piezas y usamos teleprompter solo donde ayuda.",
+      },
+      { type: "heading", level: 3, text: "Vestuario y logística resueltos" },
+      {
+        type: "paragraph",
+        text: "Lleva 2 o 3 opciones de ropa lisa, sin rayas finas ni logos grandes, y cámbiate entre bloques para que las piezas no parezcan del mismo día. Llega 15 minutos antes, con el móvil en silencio y la agenda libre: una sesión interrumpida por llamadas pierde energía y se nota en pantalla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabacion-contenido-founders-antes-primera-sesion/mid.webp",
+        alt: "Portátil sobre una mesa de madera con material de planificación de contenido",
+        width: 1920,
+        height: 1416,
+      },
+      { type: "heading", level: 2, text: "Errores comunes en la primera sesión" },
+      {
+        type: "list",
+        items: [
+          "Llegar sin objetivo y querer \"un poco de todo\": acabas con piezas que no sirven para nada concreto.",
+          "Memorizar un guion largo: suena a leído y cuesta el doble de tomas.",
+          "No pensar en anuncios: grabar solo orgánico y descubrir después que no hay aperturas ni llamadas a la acción para probar.",
+          "Ir con una sola camisa y sin margen de tiempo para cambiar de plano.",
+          "Dejar el primer corte sin revisar con alguien que sepa qué funciona en Meta, TikTok y LinkedIn.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto dura la primera sesión de un founder?",
+        answer:
+          "Entre 2 y 3 horas suelen bastar para 10 a 15 piezas cortas. Más de 4 horas cansa a quien está delante de cámara y baja la calidad de las últimas tomas.",
+      },
+      {
+        type: "faq",
+        question: "¿Necesito guion completo antes de venir?",
+        answer:
+          "No. Con una lista de 8 a 12 ideas en una frase cada una es suficiente. Los guiones cortos los afinamos juntos en el estudio, según el objetivo de cada pieza.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar a la vez para orgánico y para anuncios?",
+        answer:
+          "Sí, y conviene. Se graban las mismas ideas con distintas aperturas y cierres. Las versiones orgánicas son más naturales y las de anuncio llevan una llamada a la acción clara.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta edición después de la sesión?",
+        answer:
+          "Para publicar, sí. Puedes contratar solo la grabación y editar con DaVinci Resolve o CapCut, o encargarnos grabación y edición. La opción de producción completa incluye además guion y estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a grabar por primera vez y quieres llegar con un plan, escríbenos en /#contacto, cuéntanos tu objetivo y tu sector y te proponemos piezas, duración y estructura antes de reservar sesión en A0Studios.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

@@ -829,6 +829,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 agotada; Prioridad 2 ítem 9 de la lista genérica (contenido para todo el año de un solo evento corporativo), ángulo de planificar piezas antes del evento + sesión posterior en estudio, distinto de aftermovie-evento-corporativo y cobertura-audiovisual-eventos-corporativos. Imágenes Unsplash (Headway, Sam McGhee).",
   },
+  {
+    slug: "grabacion-contenido-founders-antes-primera-sesion",
+    keyword: "grabacion de contenido para founders antes de la primera sesion",
+    intent: "informacional",
+    createdAt: "2026-10-14",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 agotada; Prioridad 2 ítem 22 de la lista genérica (founders, qué necesitas antes de la primera sesión), ángulo de preparación (objetivo, ideas, vestuario, reparto orgánico/anuncio), distinto de perder-miedo-camara-primera-grabacion y como-preparar-sesion-grabacion-contenido-madrid. Imágenes Unsplash (Jesus Loves Austin, Radek Grzybowski).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
