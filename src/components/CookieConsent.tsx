@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import Script from "next/script";
 import { localizedHref, type Lang } from "@/lib/i18n";
 import { cookieConsentContent } from "@/lib/i18n/content/cookie-consent";
 
@@ -60,23 +59,6 @@ export default function CookieConsent({ lang }: { lang: Lang }) {
 
   return (
     <>
-      {/* Clarity — solo con consentimiento aceptado.
-          El píxel de Meta ya NO vive aquí: se carga siempre desde src/app/layout.tsx, igual que
-          Google Ads/GA4 y que daniaceros.com, para que los dos píxeles midan lo mismo. */}
-      {consent === "accepted" && (
-        <>
-          <Script id="microsoft-clarity" strategy="lazyOnload">
-            {`
-              (function(c,l,a,r,i,t,y){
-                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-              })(window, document, "clarity", "script", "yy0hxpclbe");
-            `}
-          </Script>
-        </>
-      )}
-
       {/* Panel de cookies — tarjeta de ajustes, no barra */}
       {visible && (
         <div className="panel-raised fixed bottom-5 left-4 z-[200] flex max-h-[min(50svh,230px)] w-[calc(100%-2rem)] max-w-[352px] flex-col overflow-hidden shadow-[0_18px_50px_rgba(0,0,0,0.55)] sm:bottom-7 sm:left-7">
