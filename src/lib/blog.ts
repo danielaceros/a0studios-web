@@ -10763,6 +10763,119 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "donde-grabar-contenido-meta-ads-madrid",
+    title: "Dónde grabar contenido para Meta Ads en Madrid",
+    description:
+      "Qué buscar en un estudio de Madrid para grabar contenido para Meta Ads: formatos, aperturas, luz, sonido y dirección con criterio de venta, no solo estético.",
+    publishedAt: "2026-10-15",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["Meta Ads", "estudio Madrid", "anuncios", "contenido para anuncios", "UGC", "dirección de contenido"],
+    keyword: "dónde grabar contenido para Meta Ads en Madrid",
+    intent: "informacional",
+    excerpt:
+      "Un anuncio de Meta se gana en los primeros 3 segundos y en lo que se graba para probar. Qué debe tener el sitio donde lo grabas y quién te dirige.",
+    seoTitle: "Dónde grabar contenido para Meta Ads en Madrid",
+    metaDescription:
+      "Dónde grabar contenido para Meta Ads en Madrid: qué pedir a un estudio, qué piezas grabar para probar y por qué importa más quién dirige que el espacio.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Cuando alguien busca dónde grabar contenido para Meta Ads en Madrid, suele pensar en alquilar un espacio con buena luz. Es lo de menos. Un anuncio no funciona porque se vea bonito, funciona porque retiene a la persona los primeros 3 segundos y le dice qué hacer después.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, en Madrid centro, grabamos para anuncios y para orgánico en el mismo ático. Lo que marca la diferencia no es el sitio: es que yo dirijo la sesión con criterio de venta, porque trabajo con Meta y TikTok Ads y sé qué piezas se prueban y cuáles se quedan en el disco duro.",
+      },
+      {
+        type: "image",
+        src: "/blog/donde-grabar-contenido-meta-ads-madrid/hero.webp",
+        alt: "Set de estudio con cámara y focos preparado para grabar anuncios",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué necesita el contenido para Meta Ads" },
+      {
+        type: "paragraph",
+        text: "Meta reparte la entrega entre las piezas que le das. Cuantas más variantes distintas pruebes, más rápido sabes cuál aguanta. Por eso una sesión para anuncios no busca un vídeo perfecto: busca 10 o 15 clips cortos con aperturas, ángulos y llamadas a la acción diferentes.",
+      },
+      {
+        type: "paragraph",
+        text: "Los formatos que más se repiten son el vertical 9:16 para Reels y Stories, el cuadrado o 4:5 para el feed y piezas de 15 a 45 segundos. Todo se graba pensando en que el sonido puede estar apagado, así que cada frase importante tiene que funcionar también en subtítulo.",
+      },
+      {
+        type: "paragraph",
+        text: "El audio sí importa mucho. Una voz limpia, con lavalier o micrófono de cañón fuera de plano, sube la credibilidad del anuncio más que cualquier cambio de cámara. En un estudio con tratamiento acústico te ahorras ese problema.",
+      },
+      { type: "heading", level: 2, text: "Cómo se elige bien dónde grabar" },
+      { type: "heading", level: 3, text: "Un sitio que permita varios fondos y looks en una mañana" },
+      {
+        type: "paragraph",
+        text: "Para testear anuncios necesitas cambiar de plano, de ropa y de fondo sin perder media hora cada vez. Pregunta cuántos sets reales hay y si puedes mover el equipo. Con 2 o 3 fondos distintos, las variantes dejan de parecer el mismo vídeo repetido.",
+      },
+      { type: "heading", level: 3, text: "Equipo que no te obligue a traer el tuyo" },
+      {
+        type: "paragraph",
+        text: "Una cámara tipo Sony A7, dos o tres focos con control de intensidad, un teleprompter y 2 micrófonos cubren casi cualquier anuncio de marca personal o producto. Si el estudio te alquila solo la sala vacía, acabas pagando aparte todo lo que hace que el vídeo parezca profesional.",
+      },
+      { type: "heading", level: 3, text: "Alguien que dirija, no solo que pulse el botón de grabar" },
+      {
+        type: "paragraph",
+        text: "Es la parte que casi nadie pregunta y la que más pesa. Un técnico te graba lo que le pides. Un director te dice que la apertura es lenta, que el beneficio llega tarde o que ese plano no se entiende sin sonido. Esa diferencia se nota en el coste por resultado, no en la estética.",
+      },
+      {
+        type: "image",
+        src: "/blog/donde-grabar-contenido-meta-ads-madrid/mid.webp",
+        alt: "Móvil sobre una mesa de madera con una app de redes sociales abierta",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al grabar para Meta Ads" },
+      {
+        type: "list",
+        items: [
+          "Grabar un único vídeo \"bien hecho\" en vez de varias aperturas para probar.",
+          "Dejar el mensaje principal para el segundo 10, cuando el scroll ya ha seguido.",
+          "Ignorar el sonido apagado: sin subtítulos ni gestos claros, la pieza no se entiende.",
+          "Alquilar solo el espacio y descubrir después que nadie sabe qué convierte.",
+          "Grabar en horizontal por costumbre y recortar luego a vertical con la cara cortada.",
+          "No grabar también versiones orgánicas de las mismas ideas, que salen casi gratis en la misma sesión.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuántos clips debo grabar para probar anuncios en Meta?",
+        answer:
+          "Entre 10 y 15 clips cortos suelen bastar para una primera tanda: 3 o 4 ideas con 3 aperturas distintas cada una. En 2 o 3 horas de sesión se cubre bien.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta un estudio o vale con el móvil?",
+        answer:
+          "El móvil vale para el contenido tipo UGC. Para anuncios de marca o de founder, el estudio aporta luz controlada, audio limpio y repetibilidad entre sesiones, algo que importa cuando quieres escalar lo que funciona.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo usar la misma sesión para orgánico y anuncios?",
+        answer:
+          "Sí, y es lo más eficiente. Se graban las mismas ideas con tono natural para orgánico y con apertura y llamada a la acción más marcadas para anuncio.",
+      },
+      {
+        type: "faq",
+        question: "¿Incluís edición y subtítulos?",
+        answer:
+          "Depende del servicio. Puedes contratar solo grabación, grabación más edición o producción completa con guion y estrategia. La edición se hace en DaVinci Resolve o CapCut, con subtítulos pensados para ver sin sonido.",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a invertir en Meta Ads y quieres grabar con alguien que sabe qué se prueba y qué se descarta, escríbenos en /#contacto con tu producto y tu objetivo, y te proponemos piezas, duración y estructura antes de reservar sesión en A0Studios.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

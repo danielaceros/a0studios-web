@@ -838,6 +838,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 agotada; Prioridad 2 ítem 22 de la lista genérica (founders, qué necesitas antes de la primera sesión), ángulo de preparación (objetivo, ideas, vestuario, reparto orgánico/anuncio), distinto de perder-miedo-camara-primera-grabacion y como-preparar-sesion-grabacion-contenido-madrid. Imágenes Unsplash (Jesus Loves Austin, Radek Grzybowski).",
   },
+  {
+    slug: "donde-grabar-contenido-meta-ads-madrid",
+    keyword: "donde grabar contenido para meta ads en madrid",
+    intent: "informacional",
+    createdAt: "2026-10-15",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 ítem 8 (dónde grabar contenido para Meta Ads en Madrid), aún sin cubrir en memoria; ángulo de variantes para testeo y dirección con criterio de venta, distinto de donde-grabar-anuncios-en-madrid y video-anuncios-pago-vs-contenido-organico. Imágenes Unsplash (Alexander Dummer, dole777).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
