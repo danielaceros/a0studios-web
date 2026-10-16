@@ -66,8 +66,16 @@
   --default-mono-font-family: var(--font-manrope), "Helvetica Neue", Arial, sans-serif;
 }
 
+/* Las anclas (#contacto, #resultados...) saltan en seco, a propósito.
+   Con `scroll-behavior: smooth` el navegador animaba el recorrido entero de la
+   página: desde el hero hasta el formulario son varias pantallas y la animación
+   se hacía larga, sobre todo en el navegador interno de Instagram. El usuario
+   toca el botón y no pasa nada durante un segundo largo: parece que no responde
+   y vuelve a tocar. El desplazamiento suave se mantiene donde el recorrido es
+   corto y sí se lee como un gesto (los carruseles, con su propio `scroll-smooth`
+   y sus `scrollBy({ behavior: "smooth" })`). */
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 }
 
 body {

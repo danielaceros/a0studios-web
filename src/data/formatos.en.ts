@@ -5,10 +5,12 @@ export type FormatoId =
   | "bts-set-1" | "bts-set-2" | "bts-foto-1" | "bts-set-3" | "bts-set-4"
   | "bts-foto-2" | "bts-set-5" | "bts-set-6" | "bts-set-7" | "bts-foto-3"
   | "bts-set-8" | "bts-set-9"
-  | "resultado-vertical-ad-1" | "resultado-vertical-ad-2"
-  | "resultado-vsl-horizontal"
+  | "resultado-vertical-ad-1" | "resultado-vertical-ad-2" | "resultado-vertical-ad-3"
+  | "resultado-vertical-ad-4" | "resultado-vertical-ad-5"
+  | "resultado-vsl-horizontal" | "resultado-vsl-2" | "resultado-vsl-3"
   | "resultado-reel-1" | "resultado-reel-2" | "resultado-reel-3" | "resultado-reel-4"
-  | "resultado-reel-5" | "resultado-reel-6" | "resultado-reel-7";
+  | "resultado-reel-5" | "resultado-reel-6" | "resultado-reel-7"
+  | "resultado-reel-8" | "resultado-reel-9" | "resultado-reel-10";
 
 export const FORMATOS_ALT_EN: Record<FormatoId, string> = {
   "bts-dron-1": "Aerial drone view of the A0Studios penthouse",
@@ -29,7 +31,12 @@ export const FORMATOS_ALT_EN: Record<FormatoId, string> = {
   "bts-set-9": "Wide shot of the penthouse during the session",
   "resultado-vertical-ad-1": "Edited vertical ad, final result of a session at A0Studios",
   "resultado-vertical-ad-2": "Second edited vertical ad, final result",
+  "resultado-vertical-ad-3": "Vertical ad for a clinic, shot and edited at A0Studios",
+  "resultado-vertical-ad-4": "Personal-brand vertical ad with supporting b-roll, edited at A0Studios",
+  "resultado-vertical-ad-5": "Narrative vertical ad with titles and b-roll, final edited result",
   "resultado-vsl-horizontal": "Edited widescreen VSL, final result shot at A0Studios",
+  "resultado-vsl-2": "Widescreen VSL for a client's website, shot and edited at A0Studios",
+  "resultado-vsl-3": "Widescreen campaign VSL with subtitles, final edited result",
   "resultado-reel-1": "Published Reel, final edited result",
   "resultado-reel-2": "Published Reel, final edited result",
   "resultado-reel-3": "Published Reel, final edited result",
@@ -37,4 +44,7 @@ export const FORMATOS_ALT_EN: Record<FormatoId, string> = {
   "resultado-reel-5": "Client Reel shot at A0Studios, final edited result",
   "resultado-reel-6": "Brand Reel shot at A0Studios, final edited result",
   "resultado-reel-7": "Brand Reel shot at A0Studios, final edited result",
+  "resultado-reel-8": "Vertical clip from an institutional podcast shot at A0Studios",
+  "resultado-reel-9": "Vertical podcast clip with subtitles, final edited result",
+  "resultado-reel-10": "Vertical podcast clip in Q&A format, edited at A0Studios",
 };
