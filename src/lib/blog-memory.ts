@@ -847,6 +847,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 ítem 8 (dónde grabar contenido para Meta Ads en Madrid), aún sin cubrir en memoria; ángulo de variantes para testeo y dirección con criterio de venta, distinto de donde-grabar-anuncios-en-madrid y video-anuncios-pago-vs-contenido-organico. Imágenes Unsplash (Alexander Dummer, dole777).",
   },
+  {
+    slug: "cuanto-dura-sesion-grabacion-aprovecharla",
+    keyword: "cuanto dura una sesion de grabacion",
+    intent: "informacional",
+    createdAt: "2026-10-16",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 agotada; Prioridad 2 ítem 18 de la lista genérica (duración de la sesión y cómo aprovecharla), ángulo de reparto de bloques y horas, distinto de run-of-show-sesion-grabacion-como-planificarla y como-preparar-sesion-grabacion-contenido-madrid. Imágenes Unsplash (Alexander Dummer, Jakob Owens).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

@@ -10876,6 +10876,124 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "cuanto-dura-sesion-grabacion-aprovecharla",
+    title: "Cuánto dura una sesión de grabación y cómo aprovecharla al máximo",
+    description:
+      "Cuánto dura una sesión de grabación en estudio, cómo repartir las horas y qué hacer para salir con contenido para semanas sin alargarla de más.",
+    publishedAt: "2026-10-16",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["sesión de grabación", "estudio Madrid", "planificación", "contenido de marca", "producción", "dirección de contenido"],
+    keyword: "cuánto dura una sesión de grabación",
+    intent: "informacional",
+    excerpt:
+      "Una sesión de 3 horas bien planificada da más que una de 6 sin guion. Cómo se reparte el tiempo y qué decide cuántas piezas salen.",
+    seoTitle: "Cuánto dura una sesión de grabación y cómo aprovecharla",
+    metaDescription:
+      "Cuánto dura una sesión de grabación en estudio: 2 a 4 horas según el objetivo. Cómo repartir el tiempo y salir con contenido para varias semanas.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "La pregunta que más nos hacen antes de reservar es cuánto dura una sesión. La respuesta corta: entre 2 y 4 horas para la mayoría de marcas personales y equipos pequeños. Pasar de ahí rara vez suma contenido y casi siempre resta energía delante de cámara.",
+      },
+      {
+        type: "paragraph",
+        text: "Lo que cambia el resultado no es el reloj, es lo que haces dentro. En A0Studios, en Ronda de Atocha 16, en Madrid centro, dirijo las sesiones con criterio de venta: sé qué piezas funcionan en orgánico y en anuncios, y eso decide cómo se reparten las horas.",
+      },
+      {
+        type: "image",
+        src: "/blog/cuanto-dura-sesion-grabacion-aprovecharla/hero.webp",
+        alt: "Set de estudio fotográfico con cámara y focos preparado para una sesión",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué la duración importa menos de lo que parece" },
+      {
+        type: "paragraph",
+        text: "Una sesión no es un alquiler por horas donde cada minuto se factura igual. Hay tiempo de montaje, de prueba de luz y sonido, de grabación real y de cambios de plano. La grabación efectiva suele ser un 60 % del total.",
+      },
+      {
+        type: "paragraph",
+        text: "Delante de cámara, la mayoría de personas rinde bien durante 90 minutos. Después baja el ritmo de habla, aparecen muletillas y las tomas se parecen cada vez menos a como hablas en realidad. Por eso preferimos dos bloques con pausa que un maratón.",
+      },
+      {
+        type: "paragraph",
+        text: "La referencia que usamos: una sesión de 3 horas da entre 12 y 15 clips verticales de 30 a 60 segundos, o 2 vídeos largos más 6 o 8 cortos. Si grabas también para anuncios, suma 3 aperturas distintas por idea.",
+      },
+      { type: "heading", level: 2, text: "Cómo se hace bien" },
+      { type: "heading", level: 3, text: "Primera media hora: montaje y pruebas" },
+      {
+        type: "paragraph",
+        text: "Luz, encuadre, micrófono y una toma de prueba. Con una Sony A7 y dos micrófonos queda fijado en 20 o 30 minutos. Si llegas con el vestuario decidido y el guion en el móvil, no se pierde ni uno más.",
+      },
+      { type: "heading", level: 3, text: "Dos bloques de grabación con una pausa" },
+      {
+        type: "paragraph",
+        text: "El primer bloque, de 60 a 75 minutos, es para lo que más importa: la pieza principal o los anuncios. Es cuando tienes más energía. Tras 10 minutos de descanso, el segundo bloque se dedica a clips orgánicos, respuestas a preguntas y material de apoyo.",
+      },
+      { type: "heading", level: 3, text: "Último cuarto de hora: repasar antes de irte" },
+      {
+        type: "paragraph",
+        text: "Antes de recoger se revisa lo grabado y se repiten las tomas dudosas. Es mucho más barato repetir una frase hoy que reservar otra sesión por un clip sin sonido. También se anota qué piezas irán primero a edición en DaVinci Resolve o CapCut.",
+      },
+      {
+        type: "image",
+        src: "/blog/cuanto-dura-sesion-grabacion-aprovecharla/mid.webp",
+        alt: "Grupo de personas alrededor de una cámara durante una grabación",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Cuándo tiene sentido una sesión más larga" },
+      {
+        type: "paragraph",
+        text: "Hay casos en los que 4 horas o una jornada completa compensan: varios portavoces, cambios de vestuario, grabación de producto o un plan trimestral de contenido en una sola visita. Pero entonces el calendario es otro: pausas fijas, orden de bloques y alguien que mire el reloj por ti.",
+      },
+      { type: "heading", level: 2, text: "Errores comunes que alargan la sesión" },
+      {
+        type: "list",
+        items: [
+          "Llegar sin saber qué se quiere grabar y decidirlo delante de cámara.",
+          "Memorizar el guion palabra por palabra en vez de dominar 3 ideas por pieza.",
+          "Grabar todo seguido sin pausa hasta que el rendimiento cae.",
+          "Cambiar de vestuario o de decorado sin necesidad por cada clip.",
+          "No separar lo prioritario (anuncios, pieza principal) de lo accesorio.",
+          "Salir sin revisar las tomas y descubrir un fallo de audio al editar.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión de grabación estándar?",
+        answer:
+          "Entre 2 y 4 horas incluyendo montaje. Con 3 horas se graban entre 12 y 15 clips cortos o unos pocos vídeos largos con piezas de apoyo.",
+      },
+      {
+        type: "faq",
+        question: "¿Merece la pena una sesión de media jornada?",
+        answer:
+          "Si tienes varios portavoces o un plan de contenido de tres meses, sí. Para una sola persona suele bastar con 3 horas bien planificadas y una pausa a mitad.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto contenido sale de una sesión de 3 horas?",
+        answer:
+          "Unos 12 a 15 clips verticales de 30 a 60 segundos, o 2 vídeos largos y 6 u 8 cortos. Depende del guion y de cuántas aperturas grabes por idea para probar en anuncios.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué debo llevar preparado para no perder tiempo?",
+        answer:
+          "Objetivo de cada pieza, 3 ideas clave por vídeo, vestuario decidido y una lista ordenada por prioridad. Con eso el montaje y las pruebas se quedan en media hora.",
+      },
+      {
+        type: "paragraph",
+        text: "Si no sabes cuántas horas necesitas, escríbenos en /#contacto con tu objetivo y las piezas que quieres sacar, y te proponemos duración, bloques y estructura antes de reservar sesión en A0Studios.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
