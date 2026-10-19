@@ -10994,6 +10994,119 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "empezar-grabar-contenido-linkedin-primera-vez",
+    title: "Cómo empezar a grabar contenido para LinkedIn si nunca has salido en cámara",
+    description:
+      "Guía para grabar tus primeros vídeos de LinkedIn sin experiencia en cámara: qué contar, cómo prepararte y cuánto grabar en la primera sesión.",
+    publishedAt: "2026-10-19",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["contenido LinkedIn", "primera grabación", "estudio Madrid", "marca personal", "founders", "dirección de contenido"],
+    keyword: "grabar contenido para linkedin si nunca has salido en cámara",
+    intent: "informacional",
+    excerpt:
+      "No necesitas soltura delante de cámara para empezar en LinkedIn. Necesitas una idea por vídeo, un guion corto y alguien que te dirija la primera sesión.",
+    seoTitle: "Grabar contenido para LinkedIn si nunca has salido en cámara",
+    metaDescription:
+      "Cómo grabar contenido para LinkedIn si nunca has salido en cámara: qué contar, cómo preparar la primera sesión y cuántos vídeos salen en 2 horas.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "La mayoría de founders y directivos que quieren empezar en LinkedIn tienen el mismo bloqueo: no han salido nunca en cámara y creen que se nota desde el primer segundo. Se nota menos de lo que piensas. Lo que sí se nota es no tener nada claro que decir.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, en Madrid centro, dirijo muchas primeras sesiones. Yo hago anuncios y sé qué vídeos mueven a una audiencia a actuar, así que la sesión se prepara con criterio de venta y no solo con estética.",
+      },
+      {
+        type: "image",
+        src: "/blog/empezar-grabar-contenido-linkedin-primera-vez/hero.webp",
+        alt: "Profesional hablando a cámara frente a un portátil en una oficina",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué empezar en vídeo en LinkedIn compensa" },
+      {
+        type: "paragraph",
+        text: "En LinkedIn compites con texto y con imágenes de archivo. Un vídeo de 40 segundos en el que se te ve hablar de tu sector genera confianza antes de la primera reunión: quien te contacta ya sabe cómo piensas y cómo suenas.",
+      },
+      {
+        type: "paragraph",
+        text: "No hace falta publicar cinco veces por semana. Con dos o tres vídeos a la semana durante dos meses ya tienes una base. El primer mes sirve sobre todo para soltarte, no para medir resultados.",
+      },
+      {
+        type: "paragraph",
+        text: "Y el vídeo vale por partida doble. Lo que grabas para orgánico se puede probar después como anuncio dirigido a decisores, que es donde LinkedIn suele rendir mejor para B2B.",
+      },
+      { type: "heading", level: 2, text: "Cómo se hace bien la primera vez" },
+      { type: "heading", level: 3, text: "Una idea por vídeo, no un tema" },
+      {
+        type: "paragraph",
+        text: "\"Hablar de liderazgo\" no es una idea. \"Por qué dejé de hacer reuniones de lunes\" sí lo es. Escribe 6 ideas concretas antes de la sesión, cada una con un punto de vista tuyo, y cada una cabe en 30 a 60 segundos.",
+      },
+      { type: "heading", level: 3, text: "Guion de tres frases, no de tres folios" },
+      {
+        type: "paragraph",
+        text: "Si lees un texto entero, suenas a lectura. Anota un gancho, el desarrollo en dos puntos y un cierre. Con eso hablas con tus palabras y repites la toma si hace falta. Un teleprompter ayuda, pero solo si el texto está escrito para hablarse.",
+      },
+      { type: "heading", level: 3, text: "Graba más tomas de las que crees" },
+      {
+        type: "paragraph",
+        text: "La primera toma casi nunca es la buena, y es normal. A la tercera ya te has olvidado de la cámara. Por eso en una sesión de 2 horas grabamos entre 8 y 10 vídeos de los que se publican 6 o 7. Una Sony A7 con un micrófono de solapa es suficiente para LinkedIn.",
+      },
+      {
+        type: "image",
+        src: "/blog/empezar-grabar-contenido-linkedin-primera-vez/mid.webp",
+        alt: "Cámara grabando un vídeo sobre un trípode",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Errores comunes en la primera grabación" },
+      {
+        type: "list",
+        items: [
+          "Memorizar el discurso y quedarte en blanco a mitad de frase.",
+          "Empezar con presentaciones largas en lugar de ir directo a la idea.",
+          "Grabar con el móvil en la mano, sin trípode ni micrófono, y con audio de eco.",
+          "Elegir temas de empresa genéricos en vez de una opinión propia.",
+          "Quitar todos los silencios y pausas hasta que suenas a robot.",
+          "Esperar a sentirte cómodo para empezar: la soltura llega grabando, no antes.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Necesito experiencia previa para grabar vídeo en LinkedIn?",
+        answer:
+          "No. Necesitas una idea concreta por vídeo y algo de dirección en las primeras tomas. La mayoría de personas que nunca han grabado rinden bien a partir de la tercera toma.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto debe durar un vídeo de LinkedIn?",
+        answer:
+          "Para empezar, entre 30 y 60 segundos. Es lo bastante corto para sostener una idea y lo bastante largo para que se vea tu criterio. Los vídeos largos se pueden dejar para cuando ya te sientas cómodo.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuántos vídeos salen de una primera sesión?",
+        answer:
+          "En 2 horas se graban unos 8 o 10 vídeos cortos y se publican entre 6 y 7. Es contenido para dos o tres semanas con un ritmo de 2 o 3 publicaciones semanales.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabarlo con el móvil o es mejor un estudio?",
+        answer:
+          "Con el móvil se puede empezar si cuidas luz y audio. En estudio ganas control sobre ambos y alguien que te dirija, que es lo que más pesa cuando nunca has salido en cámara.",
+      },
+      {
+        type: "paragraph",
+        text: "Si quieres grabar tu primer lote de vídeos para LinkedIn con alguien que te dirija la sesión, escríbenos en /#contacto con tu sector y las ideas que tengas, y preparamos contigo la estructura antes de reservar en A0Studios.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

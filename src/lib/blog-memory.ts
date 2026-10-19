@@ -856,6 +856,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 agotada; Prioridad 2 ítem 18 de la lista genérica (duración de la sesión y cómo aprovecharla), ángulo de reparto de bloques y horas, distinto de run-of-show-sesion-grabacion-como-planificarla y como-preparar-sesion-grabacion-contenido-madrid. Imágenes Unsplash (Alexander Dummer, Jakob Owens).",
   },
+  {
+    slug: "empezar-grabar-contenido-linkedin-primera-vez",
+    keyword: "grabar contenido para linkedin si nunca has salido en camara",
+    intent: "informacional",
+    createdAt: "2026-10-19",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 agotada; Prioridad 2 ítem 21 (empezar en LinkedIn sin haber salido nunca en cámara), ángulo de primera sesión y guion corto, distinto de contenido-autoridad-linkedin-formatos-madrid, perder-miedo-camara-primera-grabacion y grabar-instagram-linkedin-youtube-misma-sesion. Imágenes Unsplash (Vitaly Gariev, Standsome Worklifestyle).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
