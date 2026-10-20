@@ -1,6 +1,6 @@
 # I18N_GUIDE — a0studios.es (ES + EN)
 
-Mismo patrón que daniaceros.com. **El español no cambia**: sin prefijo (`/`, `/blog`); inglés bajo `/en` con los mismos slugs.
+Mismo patrón que daniaceros.com. **El español no cambia**: sin prefijo (`/`, `/blog`); inglés bajo `/en` con slug en inglés en los artículos (`EN_BLOG_SLUGS` en `src/lib/i18n/config.ts`; 301 desde el slug español). Los artículos nuevos de la automatización se traducen en `src/lib/blog-translations/en-auto.ts`.
 
 | Pieza | Archivo |
 | --- | --- |
