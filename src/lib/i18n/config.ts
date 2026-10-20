@@ -139,6 +139,12 @@ export const EN_BLOG_SLUGS: Record<string, string> = {
   "estudio-para-grabar-anuncios-en-madrid": "studio-to-shoot-ads-madrid",
   "video-para-reuniones-comerciales-que-grabar": "video-for-sales-meetings",
   "video-landing-page-formato-duracion-que-convierte": "landing-page-video",
+  "contenido-todo-el-ano-un-solo-evento-corporativo": "a-year-of-content-from-one-event",
+  "dirigir-entrevista-que-no-se-note-el-guion": "how-to-direct-a-video-interview",
+  "grabacion-contenido-founders-antes-primera-sesion": "content-recording-for-founders",
+  "plan-contenido-trimestral-una-sola-sesion-grabacion": "quarterly-content-plan-one-session",
+  "preguntas-estudio-grabacion-antes-de-reservar": "questions-to-ask-a-recording-studio",
+  "preparar-lanzamiento-producto-grabar-estudio": "product-launch-studio-shoot",
 }
 
 const EN_PATH_TO_ES: Record<string, string> = Object.fromEntries([
