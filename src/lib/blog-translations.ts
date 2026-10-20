@@ -8,6 +8,7 @@ import { enPart2 } from "@/lib/blog-translations/en-2";
 import { enPart3 } from "@/lib/blog-translations/en-3";
 import { enPart4 } from "@/lib/blog-translations/en-4";
 import { enPart5 } from "@/lib/blog-translations/en-5";
+import { enAuto } from "@/lib/blog-translations/en-auto";
 
 export type BlogPostTranslation = Pick<
   BlogPost,
@@ -25,5 +26,5 @@ export type BlogPostTranslation = Pick<
 >;
 
 export const blogTranslations: Partial<Record<Lang, Record<string, BlogPostTranslation>>> = {
-  en: { ...enPart1, ...enPart2, ...enPart3, ...enPart4, ...enPart5 },
+  en: { ...enPart1, ...enPart2, ...enPart3, ...enPart4, ...enPart5, ...enAuto },
 };
