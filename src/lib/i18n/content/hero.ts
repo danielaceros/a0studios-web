@@ -16,7 +16,7 @@ const en: typeof es = {
   srOnly:
     " — boutique recording studio and content studio in a penthouse in central Madrid: ads, VSLs, reels and podcasts that convert, directed by Dani Acero.",
   by: "by",
-  avatarAlt: "Daniel Acero",
+  avatarAlt: "Dani Acero",
   taglinePre: "Content that",
   taglineAccent: "converts",
   lead: "In sales, in clients or in followers. A recording studio in central Madrid for ads, VSLs, reels and podcasts.",

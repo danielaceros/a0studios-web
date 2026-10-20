@@ -1,7 +1,7 @@
 // proxy.ts (Next 16: antes middleware.ts)
 // Routing i18n (mismo patrón que daniaceros.com):
 //   1. /es y /es/...  → 301 a la URL sin prefijo (el español no lleva prefijo).
-//   2. /en/...        → pasa tal cual (app/[lang] con lang="en").
+//   2. /en/...        → slugs EN: /en/<slug-es> → 301 a /en/<slug-en>; /en/<slug-en> → rewrite a la carpeta ES.
 //   3. Sin prefijo    → rewrite interno a /es/... (la URL visible no cambia).
 //      Detección automática SOLO si no hay cookie NEXT_LOCALE, la petición es
 //      una navegación de documento (no RSC/prefetch), no es un bot y trae
@@ -15,7 +15,9 @@ import {
   LOCALE_COOKIE,
   LOCALE_COOKIE_MAX_AGE,
   SPANISH_FAMILY_LANGUAGES,
+  enRedirectTarget,
   isLang,
+  toEsPath,
   localizedHref,
   type Lang,
 } from "@/lib/i18n/config"
@@ -92,8 +94,24 @@ export function proxy(request: NextRequest) {
     return NextResponse.redirect(url, 301)
   }
 
-  // 2) /en/... → tal cual
-  if (isLang(firstSegment)) return NextResponse.next()
+  // 2) /en/... → slugs en inglés: /en/<slug-es> → 301 a /en/<slug-en>;
+  //    /en/<slug-en> → rewrite interno a la carpeta española /en/<slug-es>.
+  if (isLang(firstSegment)) {
+    const enPath = pathname.slice(firstSegment.length + 1).replace(/\/$/, "") || "/"
+    const redirectTo = enRedirectTarget(enPath)
+    if (redirectTo) {
+      const url = request.nextUrl.clone()
+      url.pathname = `/${firstSegment}${redirectTo}`
+      return NextResponse.redirect(url, 301)
+    }
+    const esPath = toEsPath(enPath)
+    if (esPath !== enPath) {
+      const url = request.nextUrl.clone()
+      url.pathname = `/${firstSegment}${esPath}`
+      return NextResponse.rewrite(url)
+    }
+    return NextResponse.next()
+  }
 
   // 3) Sin prefijo → detección (solo primera visita) o rewrite a ES
   const cookieLocale = request.cookies.get(LOCALE_COOKIE)?.value
