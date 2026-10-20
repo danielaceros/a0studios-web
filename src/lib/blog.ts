@@ -11107,6 +11107,119 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "calcular-retorno-sesion-contenido-recurrente",
+    title: "Cómo calcular el retorno de una sesión de contenido recurrente",
+    description:
+      "Método para medir el retorno de una sesión de grabación mensual: coste por pieza, qué métricas mirar y cuándo una sesión recurrente sale a cuenta.",
+    publishedAt: "2026-10-20",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["retorno contenido", "sesión recurrente", "estudio Madrid", "contenido de marca", "métricas vídeo", "dirección de contenido"],
+    keyword: "retorno de una sesión de contenido recurrente",
+    intent: "informacional",
+    excerpt:
+      "Una sesión de grabación mensual se justifica con números, no con sensaciones. Así se calcula el coste por pieza y qué medir para saber si compensa.",
+    seoTitle: "Retorno de una sesión de contenido recurrente: cómo medirlo",
+    metaDescription:
+      "Retorno de una sesión de contenido recurrente: cómo calcular el coste por pieza, qué métricas mirar y cuándo una grabación mensual sale a cuenta.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Mucha gente contrata una sesión de grabación al mes y a los tres meses no sabe decir si le ha salido a cuenta. No es porque no funcione. Es porque nadie fijó antes qué número iba a mirar.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, en Madrid centro, dirijo sesiones recurrentes para marcas y founders. Yo hago anuncios y sé qué se puede medir y qué es ruido, así que la sesión se planifica con el cálculo de retorno desde el primer día.",
+      },
+      {
+        type: "image",
+        src: "/blog/calcular-retorno-sesion-contenido-recurrente/hero.webp",
+        alt: "Persona mirando un portátil con gráficos de resultados mientras trabaja",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué medir el retorno de una sesión recurrente" },
+      {
+        type: "paragraph",
+        text: "Una sesión suelta se puede juzgar por si te gustó el resultado. Una sesión recurrente es una inversión mensual, y una inversión mensual se revisa con números. Si no lo haces, el contenido acaba siendo la primera partida que se recorta cuando aprieta el presupuesto.",
+      },
+      {
+        type: "paragraph",
+        text: "Hay un matiz importante: el retorno de una sesión no se ve en la sesión, se ve en las piezas que salen de ella durante las semanas siguientes. Por eso se mide por periodos de 60 o 90 días, no por vídeo.",
+      },
+      {
+        type: "paragraph",
+        text: "Y conviene separar dos usos. Lo que publicas en orgánico construye confianza y demanda. Lo que pones en anuncios se mide por coste de captación. Una misma sesión puede alimentar los dos, pero se evalúan con métricas distintas.",
+      },
+      { type: "heading", level: 2, text: "Cómo se calcula bien" },
+      { type: "heading", level: 3, text: "Primero, el coste por pieza" },
+      {
+        type: "paragraph",
+        text: "Suma el coste total del mes: sesión, edición y tu tiempo de preparación. Divídelo entre las piezas publicadas. Si una sesión de 3 horas y su edición cuestan 1.200 euros y salen 15 clips, cada pieza te cuesta 80 euros. Si solo se publican 5, sube a 240. El rendimiento de la sesión se decide en cuántas piezas útiles saca, no en cuántas horas dura.",
+      },
+      { type: "heading", level: 3, text: "Después, un objetivo concreto por canal" },
+      {
+        type: "paragraph",
+        text: "Elige un único resultado por canal y por trimestre. En LinkedIn pueden ser reuniones pedidas por mensaje directo. En Instagram, solicitudes de presupuesto. En anuncios, coste por lead. Mirar visualizaciones sin más te dice poco: un vídeo con muchas vistas y cero consultas no ha dado retorno.",
+      },
+      { type: "heading", level: 3, text: "Por último, compara contra tu alternativa real" },
+      {
+        type: "paragraph",
+        text: "La pregunta útil no es si el contenido da dinero, sino cuánto te costaría conseguir lo mismo de otra forma. Si cada lead de anuncios te cuesta 25 euros y el contenido orgánico de la sesión te trae 20 consultas al mes, ya tienes una referencia de lo que vale. Anota también las consultas que mencionan un vídeo concreto: es el dato más fiable que tendrás.",
+      },
+      {
+        type: "image",
+        src: "/blog/calcular-retorno-sesion-contenido-recurrente/mid.webp",
+        alt: "Cámara sobre trípode preparada para una sesión de grabación en estudio",
+        width: 1920,
+        height: 1282,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al medir el retorno" },
+      {
+        type: "list",
+        items: [
+          "Evaluar la sesión a las dos semanas, cuando la mayoría de piezas aún no se han publicado.",
+          "Contar solo seguidores o vistas y no consultas, reuniones o ventas.",
+          "No etiquetar de dónde llega cada contacto: sin un campo de origen en el CRM no hay forma de atribuir.",
+          "Grabar sin plan y publicar solo 4 de 15 clips, con lo que el coste por pieza se dispara.",
+          "Cambiar de formato cada mes y no dejar tiempo a que ninguno se pueda comparar.",
+          "Olvidar el valor de reutilizar: un clip orgánico que funciona se puede probar como anuncio.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto tiempo hay que esperar para ver el retorno?",
+        answer:
+          "Entre 60 y 90 días. En el primer mes se publica, se aprende qué formatos tiran y se ajusta. A partir del segundo ya hay datos suficientes para comparar piezas y decidir qué repetir.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué métrica es mejor para medir una sesión de contenido?",
+        answer:
+          "La que esté más cerca de una venta: consultas recibidas, reuniones pedidas o coste por lead si usas anuncios. Las vistas y los likes sirven para comparar piezas entre sí, no para justificar la inversión.",
+      },
+      {
+        type: "faq",
+        question: "¿Una sesión mensual compensa más que una trimestral?",
+        answer:
+          "Depende del ritmo de publicación. Si publicas 3 veces por semana, una sesión mensual de 3 horas con 12 a 15 clips te da material justo. Con menos ritmo, una sesión trimestral más larga reduce el coste por pieza.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo medir el retorno si solo publico en orgánico?",
+        answer:
+          "Sí, aunque con menos precisión. Pregunta en cada primera llamada cómo te conocieron y apunta el vídeo que mencionan. Con tres meses de esas respuestas ya tienes una estimación razonable.",
+      },
+      {
+        type: "paragraph",
+        text: "Si quieres montar una sesión recurrente con un objetivo medible desde el principio, escríbenos en /#contacto con tu sector, tu ritmo de publicación y tu coste por lead actual, y lo calculamos contigo antes de reservar en A0Studios.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

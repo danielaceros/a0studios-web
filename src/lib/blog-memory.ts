@@ -865,6 +865,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 agotada; Prioridad 2 ítem 21 (empezar en LinkedIn sin haber salido nunca en cámara), ángulo de primera sesión y guion corto, distinto de contenido-autoridad-linkedin-formatos-madrid, perder-miedo-camara-primera-grabacion y grabar-instagram-linkedin-youtube-misma-sesion. Imágenes Unsplash (Vitaly Gariev, Standsome Worklifestyle).",
   },
+  {
+    slug: "calcular-retorno-sesion-contenido-recurrente",
+    keyword: "retorno de una sesion de contenido recurrente",
+    intent: "informacional",
+    createdAt: "2026-10-20",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 agotada; Prioridad 2 ítem 11 (retorno de una sesión de contenido recurrente), ángulo de coste por pieza, objetivo por canal y comparación contra coste de anuncios, distinto de roi-contenido-video-marca y contenido-recurrente-marca-constancia. Imágenes Unsplash (dlxmedia.hu, Voyage Pro).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
