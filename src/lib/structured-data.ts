@@ -157,7 +157,9 @@ export function getProfessionalServiceSchema(lang: Lang = "es") {
     founder: {
       "@type": "Person",
       "@id": `${SITE_URL}/#founder`,
-      name: "Daniel Acero",
+      // En EN el nombre público es "Dani Acero"; ES se mantiene tal cual.
+      name: lang === "en" ? "Dani Acero" : "Daniel Acero",
+      ...(lang === "en" ? { alternateName: ["Daniel Acero"] } : {}),
       jobTitle: "Founder & Filmmaker",
       url: "https://www.daniaceros.com",
       sameAs: [
