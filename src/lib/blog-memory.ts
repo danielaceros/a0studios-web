@@ -874,6 +874,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 agotada; Prioridad 2 ítem 11 (retorno de una sesión de contenido recurrente), ángulo de coste por pieza, objetivo por canal y comparación contra coste de anuncios, distinto de roi-contenido-video-marca y contenido-recurrente-marca-constancia. Imágenes Unsplash (dlxmedia.hu, Voyage Pro).",
   },
+  {
+    slug: "estudio-podcast-madrid-expats-founders",
+    keyword: "estudio de podcast en madrid para expats y founders",
+    intent: "informacional",
+    createdAt: "2026-10-21",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin candidatos nuevos (los 100 queries de 90d/28d ya cubiertos por posts existentes, pos 5-35). Tema público extranjero (rotación 1/3): ítem 1 de la lista, ángulo expats/founders internacionales (idioma, reserva, qué llevar), distinto de grabar-podcast-madrid-estudio. Imágenes Unsplash (Jonathan Velasquez, Austin Distel).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

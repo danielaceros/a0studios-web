@@ -11220,6 +11220,119 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "estudio-podcast-madrid-expats-founders",
+    title: "Estudio de podcast en Madrid para expats y founders: cómo grabar sin complicaciones",
+    description:
+      "Guía para grabar un podcast en Madrid siendo expat o founder internacional: qué incluye un estudio, cómo reservar, en qué idioma grabar y qué llevar.",
+    publishedAt: "2026-10-21",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["estudio de podcast", "Madrid", "expats", "founders", "podcast en inglés", "dirección de contenido"],
+    keyword: "estudio de podcast en madrid para expats y founders",
+    intent: "informacional",
+    excerpt:
+      "Si vives en Madrid sin hablar español a diario, o vienes de visita, grabar un podcast en estudio es más fácil de lo que parece. Qué incluye, cómo se reserva y qué llevar.",
+    seoTitle: "Estudio de podcast en Madrid para expats y founders",
+    metaDescription:
+      "Estudio de podcast en Madrid para expats y founders: qué incluye una sesión, en qué idioma grabar y cómo reservar en el centro, cerca de Atocha.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Un estudio de podcast en Madrid para expats y founders internacionales se reserva igual que cualquier otro: eliges fecha, llegas con tus ideas y sales con el episodio grabado. Lo único que cambia es el idioma de la conversación y la logística, y ninguna de las dos cosas es un problema si se prepara antes.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, Madrid centro, grabamos podcasts en español, en inglés y mezclando ambos. Yo hago anuncios y sé qué formatos mueven a una audiencia a actuar, así que la sesión no se queda en grabar bien: se piensa para que el episodio también te traiga clientes.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-podcast-madrid-expats-founders/hero.webp",
+        alt: "Micrófono de condensador en un estudio de podcast",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué grabar el podcast en estudio y no en casa" },
+      {
+        type: "paragraph",
+        text: "Muchos founders que llegan a Madrid empiezan grabando en el salón o en un coworking. El problema es el audio: eco, ruido de la calle y una conexión que se corta. En un estudio con tratamiento acústico, dos micrófonos y una cámara por persona, el sonido es limpio desde el primer minuto y no hay que arreglarlo en edición.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, el estudio te da algo que en casa no tienes: alguien que dirige. Un podcast sale mejor cuando una persona externa vigila el ritmo, corta las muletillas y avisa cuando una respuesta se alarga. Eso pesa más si hablas en un idioma que no es el tuyo.",
+      },
+      {
+        type: "paragraph",
+        text: "Y si grabas con vídeo, el mismo episodio se convierte en 8 o 10 clips verticales para LinkedIn e Instagram. Para un founder que quiere darse a conocer en un mercado nuevo, ese es el verdadero valor de la sesión.",
+      },
+      { type: "heading", level: 2, text: "Cómo se organiza una sesión si no vives en Madrid o no hablas español a diario" },
+      { type: "heading", level: 3, text: "El idioma: grábalo en el que te sientas más cómodo" },
+      {
+        type: "paragraph",
+        text: "El idioma lo eliges tú. Si tu audiencia es internacional, graba en inglés. Si quieres llegar al mercado español, graba en español o alterna ambos y añade subtítulos. Lo importante es que el invitado y tú os entendáis sin esfuerzo, porque eso se oye en el resultado.",
+      },
+      { type: "heading", level: 3, text: "La reserva y el calendario" },
+      {
+        type: "paragraph",
+        text: "Una sesión de podcast de un episodio dura entre 2 y 3 horas contando montaje y pruebas. Si estás de paso, conviene cerrar fecha y hora antes de aterrizar y grabar varios episodios en la misma visita. Con 3 horas bien planificadas salen dos episodios de unos 30 minutos y piezas cortas para redes.",
+      },
+      { type: "heading", level: 3, text: "Llegar y encontrar el estudio" },
+      {
+        type: "paragraph",
+        text: "Estamos en Ronda de Atocha 16, en la 7ª planta, a pocos minutos a pie de la estación de Atocha. Si vienes de visita o con invitados que no conocen la ciudad, es un punto fácil de localizar desde el AVE, el Cercanías y el metro.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-podcast-madrid-expats-founders/mid.webp",
+        alt: "Dos personas grabando un podcast con micrófonos en un estudio",
+        width: 1920,
+        height: 1267,
+      },
+      { type: "heading", level: 2, text: "Qué llevar a la sesión" },
+      {
+        type: "list",
+        items: [
+          "Tres a cinco temas o preguntas por episodio, no un guion palabra por palabra.",
+          "Una lista con nombre y empresa de cada invitado, escrita tal como quieres que aparezca.",
+          "El idioma de cada episodio decidido de antemano.",
+          "Ropa lisa, sin rayas finas ni logotipos grandes, que se vea bien en cámara.",
+          "Un pendrive o disco para llevarte los archivos, aunque también se pueden enviar por enlace.",
+          "Agua y un plan realista: no más de dos episodios por sesión de 3 horas.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Puedo grabar mi podcast en inglés en un estudio de Madrid?",
+        answer:
+          "Sí. El estudio no condiciona el idioma. Puedes grabar en inglés, en español o mezclar ambos. Si quieres llegar a las dos audiencias, se puede subtitular el vídeo en el segundo idioma.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión de podcast en estudio?",
+        answer:
+          "Entre 2 y 3 horas incluyendo montaje y pruebas de sonido. En ese tiempo se graban uno o dos episodios de unos 30 minutos, según lo preparado que llegues.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar varios episodios en una sola visita?",
+        answer:
+          "Sí, y es lo más práctico si estás de paso por Madrid. Lo habitual es planificar dos episodios en 3 horas, con una pausa entre ambos, y sacar además clips cortos de cada uno.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué equipo se usa para grabar el podcast?",
+        answer:
+          "Normalmente dos micrófonos, una cámara por persona, como una Sony A7, y la edición posterior en DaVinci Resolve o CapCut. Con eso el episodio sale en audio y en vídeo.",
+      },
+      {
+        type: "paragraph",
+        text: "Si estás en Madrid o vas a estarlo y quieres grabar tu podcast con alguien que te dirija la sesión, escríbenos en /#contacto con el idioma, el número de invitados y las fechas que manejas, y te proponemos duración y estructura antes de reservar en A0Studios.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

@@ -148,6 +148,7 @@ export const EN_BLOG_SLUGS: Record<string, string> = {
   "cuanto-dura-sesion-grabacion-aprovecharla": "how-long-recording-session-lasts",
   "empezar-grabar-contenido-linkedin-primera-vez": "start-linkedin-video-never-on-camera",
   "calcular-retorno-sesion-contenido-recurrente": "recurring-content-session-roi",
+  "estudio-podcast-madrid-expats-founders": "podcast-studio-madrid-expats-founders",
 }
 
 const EN_PATH_TO_ES: Record<string, string> = Object.fromEntries([

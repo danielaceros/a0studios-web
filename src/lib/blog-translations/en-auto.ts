@@ -339,4 +339,114 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "estudio-podcast-madrid-expats-founders": {
+    title: "Podcast Studio in Madrid for Expats and Founders: How to Record Without the Hassle",
+    description:
+      "A guide to recording a podcast in Madrid as an expat or international founder: what a studio includes, how to book, which language to record in and what to bring.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["podcast studio", "Madrid", "expats", "founders", "English podcast", "content direction"],
+    keyword: "podcast studio madrid expats",
+    excerpt:
+      "If you live in Madrid without speaking Spanish every day, or you're visiting, recording a podcast in a studio is easier than it looks. What it includes, how to book and what to bring.",
+    seoTitle: "Podcast Studio in Madrid for Expats and Founders",
+    metaDescription:
+      "Podcast studio in Madrid for expats and founders: what a session includes, which language to record in and how to book in the centre, near Atocha.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "A podcast studio in Madrid for expats and international founders is booked like any other: you pick a date, arrive with your ideas and leave with the episode recorded. The only things that change are the language of the conversation and the logistics, and neither is a problem if you prepare ahead.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, central Madrid, we record podcasts in Spanish, in English and mixing both. Our team makes ads and knows which formats move an audience to act, so a session isn't just about recording well: it's planned so the episode also brings you clients.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-podcast-madrid-expats-founders/hero.webp",
+        alt: "Condenser microphone in a podcast studio",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Why record your podcast in a studio and not at home" },
+      {
+        type: "paragraph",
+        text: "Many founders who arrive in Madrid start by recording in the living room or a coworking space. The problem is audio: echo, street noise and a connection that drops. In a studio with acoustic treatment, two microphones and one camera per person, the sound is clean from minute one and doesn't need fixing in editing.",
+      },
+      {
+        type: "paragraph",
+        text: "A studio also gives you something you don't have at home: someone directing. A podcast comes out better when an outside person watches the pace, cuts filler words and flags when an answer runs long. That matters even more if you're speaking in a language that isn't your first.",
+      },
+      {
+        type: "paragraph",
+        text: "And if you record with video, the same episode becomes 8 to 10 vertical clips for LinkedIn and Instagram. For a founder who wants to get known in a new market, that is the real value of the session.",
+      },
+      { type: "heading", level: 2, text: "How to organise a session if you don't live in Madrid or don't speak Spanish daily" },
+      { type: "heading", level: 3, text: "Language: record in the one you feel most comfortable in" },
+      {
+        type: "paragraph",
+        text: "You choose the language. If your audience is international, record in English. If you want to reach the Spanish market, record in Spanish or alternate both and add subtitles. What matters is that you and your guest understand each other without effort, because it shows in the result.",
+      },
+      { type: "heading", level: 3, text: "Booking and scheduling" },
+      {
+        type: "paragraph",
+        text: "A single-episode podcast session lasts 2 to 3 hours including setup and tests. If you're only passing through, lock in a date and time before you land and record several episodes in the same visit. With 3 well-planned hours you get two episodes of about 30 minutes and short pieces for social media.",
+      },
+      { type: "heading", level: 3, text: "Getting here and finding the studio" },
+      {
+        type: "paragraph",
+        text: "We're at Ronda de Atocha 16, on the 7th floor, a few minutes' walk from Atocha station. If you're visiting or bringing guests who don't know the city, it's an easy spot to find from the AVE high-speed train, the Cercanías commuter line and the metro.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-podcast-madrid-expats-founders/mid.webp",
+        alt: "Two people recording a podcast with microphones in a studio",
+        width: 1920,
+        height: 1267,
+      },
+      { type: "heading", level: 2, text: "What to bring to the session" },
+      {
+        type: "list",
+        items: [
+          "Three to five topics or questions per episode, not a word-for-word script.",
+          "A list with each guest's name and company, written the way you want it to appear.",
+          "The language of each episode decided in advance.",
+          "Plain clothes, no fine stripes or large logos, that look good on camera.",
+          "A USB drive or disk to take the files with you, although they can also be sent by link.",
+          "Water and a realistic plan: no more than two episodes per 3-hour session.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Frequently asked questions" },
+      {
+        type: "faq",
+        question: "Can I record my podcast in English in a Madrid studio?",
+        answer:
+          "Yes. The studio doesn't dictate the language. You can record in English, in Spanish or mix both. If you want to reach both audiences, the video can be subtitled in the second language.",
+      },
+      {
+        type: "faq",
+        question: "How long does a podcast studio session last?",
+        answer:
+          "Between 2 and 3 hours including setup and sound tests. In that time you record one or two episodes of about 30 minutes, depending on how prepared you arrive.",
+      },
+      {
+        type: "faq",
+        question: "Can I record several episodes in one visit?",
+        answer:
+          "Yes, and it's the most practical option if you're passing through Madrid. The usual plan is two episodes in 3 hours, with a break between them, plus short clips from each.",
+      },
+      {
+        type: "faq",
+        question: "What equipment is used to record the podcast?",
+        answer:
+          "Usually two microphones, one camera per person such as a Sony A7, and post-production in DaVinci Resolve or CapCut. With that the episode comes out in both audio and video.",
+      },
+      {
+        type: "paragraph",
+        text: "If you're in Madrid or about to be and want to record your podcast with someone directing the session, write to us in /#contacto with the language, the number of guests and your dates, and we'll propose length and structure before you book at A0Studios.",
+      },
+    ],
+  },
 }
