@@ -449,4 +449,114 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "donde-grabar-contenido-meta-ads-madrid": {
+    title: "Where to Record Content for Meta Ads in Madrid",
+    description:
+      "What to look for in a Madrid studio to record Meta Ads content: formats, hooks, light, sound and direction with a sales mindset, not just an aesthetic one.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["Meta Ads", "Madrid studio", "ads", "ad content", "UGC", "content direction"],
+    keyword: "record meta ads content madrid",
+    excerpt:
+      "A Meta ad is won in the first 3 seconds and in what you record to test. What the place you record in needs, and who directs you.",
+    seoTitle: "Where to Record Content for Meta Ads in Madrid",
+    metaDescription:
+      "Where to record Meta Ads content in Madrid: what to ask a studio, which pieces to record for testing and why who directs matters more than the space.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you are looking for where to record Meta Ads content in Madrid, you probably think of renting a space with good light. That is the least important part. An ad doesn't work because it looks nice; it works because it holds attention for the first 3 seconds and tells the viewer what to do next.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16 in central Madrid, we record ads and organic content in the same penthouse. What makes the difference isn't the place: it's that our team directs the session with a sales mindset, because we work with Meta and TikTok Ads and know which pieces get tested and which stay on the hard drive.",
+      },
+      {
+        type: "image",
+        src: "/blog/donde-grabar-contenido-meta-ads-madrid/hero.webp",
+        alt: "Studio set with camera and lights ready to record ads",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "What content for Meta Ads needs" },
+      {
+        type: "paragraph",
+        text: "Meta splits delivery across the pieces you give it. The more different variants you test, the faster you learn which one holds up. That is why an ad session doesn't aim for one perfect video: it aims for 10 or 15 short clips with different hooks, angles and calls to action.",
+      },
+      {
+        type: "paragraph",
+        text: "The most common formats are vertical 9:16 for Reels and Stories, square or 4:5 for the feed, and pieces of 15 to 45 seconds. Everything is recorded assuming the sound may be off, so every important sentence also has to work as a subtitle.",
+      },
+      {
+        type: "paragraph",
+        text: "Audio does matter a lot. A clean voice, with a lavalier or an off-frame shotgun mic, raises an ad's credibility more than any camera change. In a studio with acoustic treatment you skip that problem.",
+      },
+      { type: "heading", level: 2, text: "How to choose where to record" },
+      { type: "heading", level: 3, text: "A place that allows several backgrounds and looks in one morning" },
+      {
+        type: "paragraph",
+        text: "To test ads you need to change shot, outfit and background without losing half an hour each time. Ask how many real sets there are and whether you can move the gear. With 2 or 3 different backgrounds, the variants stop looking like the same video on repeat.",
+      },
+      { type: "heading", level: 3, text: "Gear that doesn't force you to bring your own" },
+      {
+        type: "paragraph",
+        text: "A Sony A7-type camera, two or three lights with intensity control, a teleprompter and 2 microphones cover almost any personal brand or product ad. If the studio only rents you the empty room, you end up paying separately for everything that makes the video look professional.",
+      },
+      { type: "heading", level: 3, text: "Someone who directs, not just someone who presses record" },
+      {
+        type: "paragraph",
+        text: "This is the part almost nobody asks about and the one that weighs the most. A technician records what you ask for. A director tells you the opening is slow, the benefit arrives late or that shot makes no sense without sound. That difference shows up in your cost per result, not in the aesthetics.",
+      },
+      {
+        type: "image",
+        src: "/blog/donde-grabar-contenido-meta-ads-madrid/mid.webp",
+        alt: "Phone on a wooden table with a social media app open",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Common mistakes when recording for Meta Ads" },
+      {
+        type: "list",
+        items: [
+          "Recording a single \"well made\" video instead of several hooks to test.",
+          "Leaving the main message for second 10, when the viewer has already scrolled on.",
+          "Ignoring muted playback: without subtitles or clear gestures, the piece makes no sense.",
+          "Renting only the space and finding out later that nobody knows what converts.",
+          "Recording horizontally out of habit and cropping to vertical later with the face cut off.",
+          "Not recording organic versions of the same ideas too, which come almost free in the same session.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Frequently asked questions" },
+      {
+        type: "faq",
+        question: "How many clips should I record to test ads on Meta?",
+        answer:
+          "Between 10 and 15 short clips are usually enough for a first batch: 3 or 4 ideas with 3 different hooks each. A 2 to 3 hour session covers it well.",
+      },
+      {
+        type: "faq",
+        question: "Do I need a studio or is a phone enough?",
+        answer:
+          "A phone works for UGC-style content. For brand or founder ads, a studio gives you controlled light, clean audio and repeatability between sessions, which matters when you want to scale what works.",
+      },
+      {
+        type: "faq",
+        question: "Can I use the same session for organic and ads?",
+        answer:
+          "Yes, and it is the most efficient option. The same ideas are recorded with a natural tone for organic and with a sharper hook and call to action for ads.",
+      },
+      {
+        type: "faq",
+        question: "Do you include editing and subtitles?",
+        answer:
+          "It depends on the service. You can book recording only, recording plus editing, or full production with script and strategy. Editing is done in DaVinci Resolve or CapCut, with subtitles designed for watching without sound.",
+      },
+      {
+        type: "paragraph",
+        text: "If you are going to invest in Meta Ads and want to record with someone who knows what gets tested and what gets dropped, write to us in /#contacto with your product and your goal, and we'll propose pieces, length and structure before you book a session at A0Studios.",
+      },
+    ],
+  },
 }
