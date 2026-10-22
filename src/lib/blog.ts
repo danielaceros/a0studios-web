@@ -11333,6 +11333,115 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabacion-contenido-abogados-despachos-madrid",
+    title: "Grabar contenido para abogados y despachos en Madrid",
+    description:
+      "Cómo grabar contenido en vídeo para abogados y despachos en Madrid: qué formatos funcionan, cómo explicar derecho sin jerga y cómo organizar la sesión.",
+    publishedAt: "2026-10-22",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["abogados", "despachos", "estudio Madrid", "marca personal", "vídeo profesional", "dirección de contenido"],
+    keyword: "grabar contenido para abogados en Madrid",
+    intent: "informacional",
+    excerpt:
+      "Un abogado no necesita parecer influencer, necesita que el cliente entienda su problema y confíe. Qué grabar, cómo y dónde en Madrid.",
+    seoTitle: "Grabar contenido para abogados y despachos en Madrid",
+    metaDescription:
+      "Grabar contenido para abogados y despachos en Madrid: formatos que generan confianza, cómo explicar sin jerga y cómo sacar 12 piezas en una sesión.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Grabar contenido para abogados y despachos en Madrid funciona cuando el vídeo responde una duda concreta de un cliente potencial en menos de 90 segundos. No hace falta bailar ni seguir tendencias: hace falta explicar un problema real con claridad y que se note que sabes de lo que hablas.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, en Madrid centro, grabamos con profesionales que venden confianza, no entretenimiento. Yo dirijo la sesión con criterio de venta: qué pregunta atrae a un cliente, qué frase le hace pedir cita y qué se queda fuera porque solo suena a manual.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabacion-contenido-abogados-despachos-madrid/hero.webp",
+        alt: "Abogado con traje trabajando en una mesa de despacho mientras una colega le asiste",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué el vídeo importa en servicios jurídicos" },
+      {
+        type: "paragraph",
+        text: "Contratar a un abogado es una decisión de confianza con poca información. Quien busca despacho compara webs, mira perfiles y, si ve a alguien explicar su caso con calma, parte con ventaja. Un vídeo de 60 segundos enseña tono, seguridad y cercanía, cosas que un texto no transmite.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, el vídeo corto se reutiliza: el mismo clip sirve para LinkedIn, para la ficha de Google, para la página de cada área de práctica y para anuncios dirigidos a quien tiene el problema ahora. Una sesión bien planteada resuelve meses de presencia.",
+      },
+      { type: "heading", level: 2, text: "Cómo grabar contenido jurídico sin que aburra" },
+      { type: "heading", level: 3, text: "Una pregunta, una respuesta, un siguiente paso" },
+      {
+        type: "paragraph",
+        text: "Cada pieza arranca con la duda tal como la formula un cliente (\"¿me pueden echar si estoy de baja?\"), responde en 3 o 4 frases y termina con qué hacer ahora. Si necesitas más de 90 segundos, son dos vídeos.",
+      },
+      { type: "heading", level: 3, text: "Lenguaje de calle, rigor de despacho" },
+      {
+        type: "paragraph",
+        text: "Se puede ser preciso sin recitar artículos. Cita la norma solo cuando aporta credibilidad y explica el resto como se lo contarías a alguien en una primera reunión. Un teleprompter con puntos clave, no con texto cerrado, evita el tono de lectura.",
+      },
+      { type: "heading", level: 3, text: "Imagen sobria, sonido limpio" },
+      {
+        type: "paragraph",
+        text: "Un fondo neutro o de despacho real, luz suave sobre la cara y un lavalier discreto bastan. Con una cámara tipo Sony A7, 2 micrófonos y 2 o 3 fondos distintos, un mismo abogado parece tener varios escenarios en una sola mañana.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabacion-contenido-abogados-despachos-madrid/mid.webp",
+        alt: "Varias personas reunidas alrededor de un portátil en una mesa de trabajo",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al grabar para un despacho" },
+      {
+        type: "list",
+        items: [
+          "Empezar con la presentación del despacho en vez de con el problema del cliente.",
+          "Recitar la ley sin traducirla a una consecuencia práctica.",
+          "Prometer resultados: la normativa de publicidad de la abogacía lo limita y resta credibilidad.",
+          "Grabar un único vídeo institucional largo en lugar de varias piezas cortas por área.",
+          "Descuidar el audio: una sala con eco hace que el abogado suene menos fiable.",
+          "No cerrar con una acción clara hacia /#contacto, la ficha de Google o una llamada.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuántos vídeos puede grabar un abogado en una sesión?",
+        answer:
+          "En 2 o 3 horas es realista salir con 10 o 12 clips de 45 a 90 segundos si el guion está preparado. Lo ideal es agrupar por área de práctica y preparar las preguntas antes.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta aparecer en cámara siendo socio del despacho?",
+        answer:
+          "No siempre, pero ayuda: el cliente contrata a personas. Puede grabar un socio por área, y el resto del equipo aparecer en piezas sobre cómo se trabaja un caso.",
+      },
+      {
+        type: "faq",
+        question: "¿Se puede grabar sin incumplir la deontología profesional?",
+        answer:
+          "Sí, si el contenido es informativo, no promete resultados ni muestra casos de clientes identificables. Conviene revisar cada guion con las normas de tu colegio de abogados.",
+      },
+      {
+        type: "faq",
+        question: "¿Incluís edición y subtítulos?",
+        answer:
+          "Puedes contratar solo grabación, grabación más edición o producción completa. Editamos en DaVinci Resolve o CapCut con subtítulos, porque buena parte de las visualizaciones se hacen sin sonido.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes un despacho en Madrid y quieres grabar piezas que expliquen bien tus áreas de práctica, escríbenos en /#contacto con tu especialidad y el tipo de cliente que buscas, y te proponemos formatos, duración y estructura antes de reservar sesión en A0Studios.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

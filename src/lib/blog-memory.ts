@@ -883,6 +883,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin candidatos nuevos (los 100 queries de 90d/28d ya cubiertos por posts existentes, pos 5-35). Tema público extranjero (rotación 1/3): ítem 1 de la lista, ángulo expats/founders internacionales (idioma, reserva, qué llevar), distinto de grabar-podcast-madrid-estudio. Imágenes Unsplash (Jonathan Velasquez, Austin Distel).",
   },
+  {
+    slug: "grabacion-contenido-abogados-despachos-madrid",
+    keyword: "grabar contenido para abogados en madrid",
+    intent: "informacional",
+    createdAt: "2026-10-22",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin candidatos nuevos (queries de 90d/28d ya cubiertas por URLs existentes: podcast remoto, content day, cursos online, aftermovie, precios estudio). Fallback Prioridad 1 y 2 agotadas en memoria; tema original sector servicios jurídicos en Madrid, misma línea que grabacion-contenido-clinicas-consultas. Imágenes Unsplash (Gylain Omer, Fatemeh Rezvani).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

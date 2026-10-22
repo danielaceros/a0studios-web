@@ -559,4 +559,110 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabacion-contenido-abogados-despachos-madrid": {
+    title: "Recording Video Content for Lawyers and Law Firms in Madrid",
+    description:
+      "How to record video content for lawyers and law firms in Madrid: which formats work, how to explain the law without jargon and how to organise the session.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["lawyers", "law firms", "Madrid studio", "personal brand", "professional video", "content direction"],
+    keyword: "video content for lawyers madrid",
+    excerpt:
+      "A lawyer doesn't need to look like an influencer; clients need to understand their problem and trust the person. What to record, how and where in Madrid.",
+    seoTitle: "Video Content for Lawyers and Law Firms in Madrid",
+    metaDescription:
+      "Video content for lawyers and law firms in Madrid: formats that build trust, how to explain without jargon and how to get 12 pieces from one session.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Video content for lawyers and law firms in Madrid works when each clip answers one concrete question from a potential client in under 90 seconds. No dancing or chasing trends: you need to explain a real problem clearly and show that you know the subject.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16 in central Madrid, we record professionals who sell trust, not entertainment. Our team directs the session with a sales mindset: which question attracts a client, which sentence makes them book a consultation and what gets cut because it only sounds like a textbook.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabacion-contenido-abogados-despachos-madrid/hero.webp",
+        alt: "Lawyer in a suit working at an office desk while a colleague assists",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Why video matters for legal services" },
+      {
+        type: "paragraph",
+        text: "Hiring a lawyer is a trust decision made with little information. People looking for a firm compare websites, check profiles and, if they see someone explaining a case calmly, that person starts ahead. A 60-second video shows tone, confidence and approachability, which text cannot.",
+      },
+      {
+        type: "paragraph",
+        text: "Short video is also reusable: the same clip works on LinkedIn, on the Google profile, on each practice-area page and in ads aimed at people who have the problem right now. One well-planned session covers months of presence.",
+      },
+      { type: "heading", level: 2, text: "How to record legal content without boring people" },
+      { type: "heading", level: 3, text: "One question, one answer, one next step" },
+      {
+        type: "paragraph",
+        text: "Each piece opens with the doubt as a client would phrase it (\"can I be fired while on sick leave?\"), answers in 3 or 4 sentences and ends with what to do now. If you need more than 90 seconds, make it two videos.",
+      },
+      { type: "heading", level: 3, text: "Plain language, firm-level rigour" },
+      {
+        type: "paragraph",
+        text: "You can be precise without reciting articles. Cite the rule only when it adds credibility and explain the rest the way you would in a first meeting. A teleprompter with key points, not a closed script, avoids the reading tone.",
+      },
+      { type: "heading", level: 3, text: "Sober image, clean sound" },
+      {
+        type: "paragraph",
+        text: "A neutral or real-office background, soft light on the face and a discreet lavalier are enough. With a Sony A7-type camera, 2 microphones and 2 or 3 different backgrounds, one lawyer can look like they have several settings in a single morning.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabacion-contenido-abogados-despachos-madrid/mid.webp",
+        alt: "Several people gathered around a laptop at a work table",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Common mistakes when recording for a law firm" },
+      {
+        type: "list",
+        items: [
+          "Opening with the firm's introduction instead of the client's problem.",
+          "Reciting the law without translating it into a practical consequence.",
+          "Promising results: advertising rules for lawyers limit it and it hurts credibility.",
+          "Recording one long corporate video instead of several short pieces per practice area.",
+          "Neglecting audio: an echoey room makes the lawyer sound less reliable.",
+          "Not closing with a clear action towards /#contacto, the Google profile or a phone call.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Frequently asked questions" },
+      {
+        type: "faq",
+        question: "How many videos can a lawyer record in one session?",
+        answer:
+          "In 2 or 3 hours it is realistic to leave with 10 or 12 clips of 45 to 90 seconds if the script is ready. The best approach is to group them by practice area and prepare the questions beforehand.",
+      },
+      {
+        type: "faq",
+        question: "Do partners need to appear on camera?",
+        answer:
+          "Not always, but it helps: clients hire people. One partner per area can record, and the rest of the team can appear in pieces about how a case is handled.",
+      },
+      {
+        type: "faq",
+        question: "Can I record without breaching professional ethics rules?",
+        answer:
+          "Yes, if the content is informative, promises no results and shows no identifiable client cases. Review each script against the rules of your bar association.",
+      },
+      {
+        type: "faq",
+        question: "Do you include editing and subtitles?",
+        answer:
+          "You can book recording only, recording plus editing, or full production. We edit in DaVinci Resolve or CapCut with subtitles, because a large share of views happen without sound.",
+      },
+      {
+        type: "paragraph",
+        text: "If you run a firm in Madrid and want to record pieces that explain your practice areas well, write to us in /#contacto with your specialty and the type of client you want, and we'll propose formats, length and structure before you book a session at A0Studios.",
+      },
+    ],
+  },
 }

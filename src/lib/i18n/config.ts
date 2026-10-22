@@ -150,6 +150,7 @@ export const EN_BLOG_SLUGS: Record<string, string> = {
   "calcular-retorno-sesion-contenido-recurrente": "recurring-content-session-roi",
   "estudio-podcast-madrid-expats-founders": "podcast-studio-madrid-expats-founders",
   "donde-grabar-contenido-meta-ads-madrid": "where-to-record-meta-ads-content-madrid",
+  "grabacion-contenido-abogados-despachos-madrid": "lawyers-law-firms-video-content-madrid",
 }
 
 const EN_PATH_TO_ES: Record<string, string> = Object.fromEntries([
