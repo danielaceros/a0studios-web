@@ -892,6 +892,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin candidatos nuevos (queries de 90d/28d ya cubiertas por URLs existentes: podcast remoto, content day, cursos online, aftermovie, precios estudio). Fallback Prioridad 1 y 2 agotadas en memoria; tema original sector servicios jurídicos en Madrid, misma línea que grabacion-contenido-clinicas-consultas. Imágenes Unsplash (Gylain Omer, Fatemeh Rezvani).",
   },
+  {
+    slug: "plato-grabacion-madrid-estudio-rodaje",
+    keyword: "plató para grabación en madrid",
+    intent: "informacional",
+    createdAt: "2026-10-23",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: 5 impresiones, pos 6.8 (query 'plató para grabación en madrid', URL estudio-grabacion-madrid-precios) + 'estudios de rodaje' 17 impr pos 28.9. Ángulo guía de elección plató vs estudio de rodaje vs ático-estudio, distinto de estudio-grabacion-madrid-precios (precios). Imágenes Unsplash (Brands&People, Jakob Owens).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

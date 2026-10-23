@@ -11442,6 +11442,119 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "plato-grabacion-madrid-estudio-rodaje",
+    title: "Plató para grabación en Madrid: cómo elegir estudio de rodaje",
+    description:
+      "Plató para grabación en Madrid: qué diferencia hay entre plató, estudio de rodaje y ático-estudio, cuánto cuesta alquilarlo y qué mirar antes de reservar.",
+    publishedAt: "2026-10-23",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["plató", "estudio de rodaje", "estudio Madrid", "alquiler por horas", "grabar anuncios", "dirección de contenido"],
+    keyword: "plató para grabación en Madrid",
+    intent: "informacional",
+    excerpt:
+      "Plató, estudio de rodaje o ático con luz natural: qué necesitas de verdad para grabar anuncios, VSLs o contenido orgánico en Madrid y cómo no pagar de más.",
+    seoTitle: "Plató para grabación en Madrid: elegir estudio de rodaje",
+    metaDescription:
+      "Plató para grabación en Madrid: diferencias entre plató, estudio de rodaje y ático-estudio, qué mirar antes de reservar y cuándo compensa cada opción.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Un plató para grabación en Madrid es un espacio acondicionado con luz, sonido y fondos para rodar sin depender de una localización. Para anuncios, VSLs o contenido de marca casi nunca necesitas un plató de cine: te basta un estudio de rodaje pequeño, bien equipado y alquilado por horas.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, en Madrid centro, grabamos en un ático-estudio con luz natural y fondos controlados. Yo dirijo la sesión con criterio de venta: no solo hay que elegir dónde rodar, hay que saber qué plano hace que alguien compre.",
+      },
+      {
+        type: "image",
+        src: "/blog/plato-grabacion-madrid-estudio-rodaje/hero.webp",
+        alt: "Plató de rodaje con focos y equipo de iluminación preparado para grabar",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Plató, estudio de rodaje y ático-estudio: qué cambia" },
+      {
+        type: "paragraph",
+        text: "Un plató clásico es una nave grande, con fondo infinito, parrilla de focos y mucho equipo técnico. Sirve para series, publicidad de gran presupuesto o escenografías complejas. Se alquila por jornada completa y suele exigir contratar equipo aparte.",
+      },
+      {
+        type: "paragraph",
+        text: "Un estudio de rodaje pequeño, de 30 a 80 metros cuadrados, cubre el 90% de lo que piden marcas y creators: entrevistas, anuncios con uno o dos protagonistas, producto, podcast en vídeo. Un ático-estudio añade luz natural y una imagen más cuidada sin construir decorado.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tu pieza es una persona hablando a cámara, un producto sobre mesa o una conversación entre dos, pagar un plató grande es gastar en metros que no salen en plano.",
+      },
+      { type: "heading", level: 2, text: "Cómo elegir plató o estudio de rodaje en Madrid" },
+      { type: "heading", level: 3, text: "Define el plano antes de buscar sitio" },
+      {
+        type: "paragraph",
+        text: "Decide si grabas primer plano, plano medio o plano general con movimiento. Un primer plano con fondo neutro cabe en cualquier estudio. Un plano general con dos personas caminando pide profundidad real. El plano marca los metros, no al revés.",
+      },
+      { type: "heading", level: 3, text: "Revisa luz, sonido y fondos, no solo fotos" },
+      {
+        type: "paragraph",
+        text: "Pregunta qué luces incluye el alquiler, si hay eco, cuántos fondos puedes cambiar y si hay corriente suficiente. Con una Sony A7, 2 micrófonos y 3 fondos distintos sacas varios escenarios en una mañana. Un estudio bonito con mal sonido te cuesta más en edición.",
+      },
+      { type: "heading", level: 3, text: "Compara precio por hora con lo que de verdad incluye" },
+      {
+        type: "paragraph",
+        text: "Un alquiler barato que no incluye luz, operador ni acceso para cargar equipo acaba saliendo caro. Pregunta la duración mínima, si el montaje cuenta como hora y si puedes entrar antes. Para una sesión de 3 horas, cuenta también una hora de montaje.",
+      },
+      {
+        type: "image",
+        src: "/blog/plato-grabacion-madrid-estudio-rodaje/mid.webp",
+        alt: "Operador de cámara grabando a una persona en un estudio interior",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al alquilar un plató" },
+      {
+        type: "list",
+        items: [
+          "Reservar un plató enorme para grabar a una sola persona hablando a cámara.",
+          "Dar por hecho que luces, fondos y operador van incluidos sin preguntarlo.",
+          "No contar el tiempo de montaje y desmontaje dentro de las horas contratadas.",
+          "Elegir por la foto del espacio sin escuchar cómo suena la sala.",
+          "Llegar sin guion ni lista de planos y pagar horas improvisando.",
+          "Pensar solo en el espacio y olvidar quién dirige la sesión con criterio de venta.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto cuesta alquilar un plató de grabación en Madrid?",
+        answer:
+          "Depende del tamaño y de lo que incluya. Un estudio pequeño por horas es mucho más barato que un plató de nave por jornada completa. Pide siempre presupuesto con luces, operador y montaje desglosados.",
+      },
+      {
+        type: "faq",
+        question: "¿Necesito un plató con fondo infinito para grabar anuncios?",
+        answer:
+          "No siempre. Para anuncios con una o dos personas y producto, un fondo neutro o un decorado sencillo basta. El fondo infinito compensa si vas a grabar cuerpo entero o a hacer croma.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo alquilar solo el espacio, sin equipo?",
+        answer:
+          "Depende del estudio. En A0Studios puedes contratar solo grabación, grabación más edición o producción completa, según lo que ya tengas resuelto.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto tiempo necesito para una sesión?",
+        answer:
+          "Para 8 o 12 clips cortos suele bastar una sesión de 3 horas más una de montaje, si llegas con guion y lista de planos preparados.",
+      },
+      {
+        type: "paragraph",
+        text: "Si buscas un plató o estudio de rodaje en Madrid y quieres que alguien te dirija la sesión, escríbenos en /#contacto con el tipo de pieza, el número de personas y las fechas que manejas, y te proponemos formato, duración y plan de planos antes de reservar en A0Studios.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

@@ -665,4 +665,114 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "plato-grabacion-madrid-estudio-rodaje": {
+    title: "Film Set and Studio Rental in Madrid: How to Choose",
+    description:
+      "Renting a film set in Madrid: how a soundstage, a filming studio and a penthouse studio differ, what it costs and what to check before you book.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["film set", "filming studio", "Madrid studio", "hourly rental", "record ads", "content direction"],
+    keyword: "film set rental madrid",
+    excerpt:
+      "Soundstage, filming studio or a penthouse with natural light: what you actually need to record ads, VSLs or organic content in Madrid without overpaying.",
+    seoTitle: "Film Set and Studio Rental in Madrid: How to Choose",
+    metaDescription:
+      "Film set rental in Madrid: soundstage vs filming studio vs penthouse studio, what to check before booking and when each option makes sense.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "A film set in Madrid is a space fitted with lighting, sound and backdrops so you can shoot without relying on a location. For ads, VSLs or brand content you rarely need a full soundstage: a small, well-equipped filming studio rented by the hour is enough.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, on Ronda de Atocha 16 in central Madrid, we record in a penthouse studio with natural light and controlled backdrops. Our team directs the session with a sales mindset: choosing where to shoot matters, but knowing which shot makes someone buy matters more.",
+      },
+      {
+        type: "image",
+        src: "/blog/plato-grabacion-madrid-estudio-rodaje/hero.webp",
+        alt: "Film set with lights and lighting equipment ready for a shoot",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Soundstage, filming studio and penthouse studio: what changes" },
+      {
+        type: "paragraph",
+        text: "A classic soundstage is a large warehouse with a cyclorama, a lighting grid and a lot of technical gear. It suits series, big-budget advertising or complex sets. It is usually rented by the full day and often requires hiring crew separately.",
+      },
+      {
+        type: "paragraph",
+        text: "A small filming studio, from 30 to 80 square metres, covers about 90% of what brands and creators ask for: interviews, ads with one or two people, product shots, video podcasts. A penthouse studio adds natural light and a more polished look without building a set.",
+      },
+      {
+        type: "paragraph",
+        text: "If your piece is one person talking to camera, a product on a table or a conversation between two people, paying for a large soundstage means paying for square metres that never appear in frame.",
+      },
+      { type: "heading", level: 2, text: "How to choose a film set or filming studio in Madrid" },
+      { type: "heading", level: 3, text: "Define the shot before you look for a venue" },
+      {
+        type: "paragraph",
+        text: "Decide whether you shoot close-ups, medium shots or a wide shot with movement. A close-up on a neutral backdrop fits any studio. A wide shot with two people walking needs real depth. The shot sets the size you need, not the other way round.",
+      },
+      { type: "heading", level: 3, text: "Check light, sound and backdrops, not just photos" },
+      {
+        type: "paragraph",
+        text: "Ask which lights the rental includes, whether the room echoes, how many backdrops you can swap and whether there is enough power. With a Sony A7, 2 microphones and 3 different backdrops you get several looks in one morning. A beautiful studio with bad sound costs you more in editing.",
+      },
+      { type: "heading", level: 3, text: "Compare the hourly price with what is really included" },
+      {
+        type: "paragraph",
+        text: "A cheap rental that excludes lighting, an operator or loading access ends up expensive. Ask about the minimum duration, whether setup counts as billable time and whether you can arrive early. For a 3-hour session, plan one extra hour for setup.",
+      },
+      {
+        type: "image",
+        src: "/blog/plato-grabacion-madrid-estudio-rodaje/mid.webp",
+        alt: "Camera operator filming a person in an indoor studio",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Common mistakes when renting a film set" },
+      {
+        type: "list",
+        items: [
+          "Booking a huge soundstage to record one person talking to camera.",
+          "Assuming lights, backdrops and an operator are included without asking.",
+          "Not counting setup and teardown time inside the hours you pay for.",
+          "Choosing from the photo of the space without hearing how the room sounds.",
+          "Arriving without a script or shot list and paying for hours of improvising.",
+          "Thinking only about the space and forgetting who directs the session with a sales mindset.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Frequently asked questions" },
+      {
+        type: "faq",
+        question: "How much does it cost to rent a film set in Madrid?",
+        answer:
+          "It depends on size and what is included. A small studio by the hour is far cheaper than a warehouse soundstage by the full day. Always ask for a quote with lighting, operator and setup itemised.",
+      },
+      {
+        type: "faq",
+        question: "Do I need a cyclorama to record ads?",
+        answer:
+          "Not always. For ads with one or two people and a product, a neutral backdrop or a simple set is enough. A cyclorama pays off if you shoot full-body or use a green screen.",
+      },
+      {
+        type: "faq",
+        question: "Can I rent just the space, without equipment?",
+        answer:
+          "It depends on the studio. At A0Studios you can book recording only, recording plus editing, or full production, depending on what you already have covered.",
+      },
+      {
+        type: "faq",
+        question: "How long should a session be?",
+        answer:
+          "For 8 to 12 short clips, a 3-hour session plus one hour of setup is usually enough if you arrive with a script and shot list ready.",
+      },
+      {
+        type: "paragraph",
+        text: "If you are looking for a film set or filming studio in Madrid and want someone to direct the session, write to us at /#contacto with the type of piece, the number of people and your dates, and we will propose the format, duration and shot plan before you book at A0Studios.",
+      },
+    ],
+  },
 }
