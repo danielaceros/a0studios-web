@@ -11555,6 +11555,119 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "que-llevar-sesion-grabacion-atico-madrid",
+    title: "Qué llevar a una sesión de grabación en un ático de Madrid",
+    description:
+      "Qué llevar a una sesión de grabación en Madrid: ropa, guion, documentos, comida y equipo propio. Lista práctica para llegar listo a un ático-estudio.",
+    publishedAt: "2026-10-26",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["qué llevar a una grabación", "ático Madrid", "estudio Madrid", "sesión de grabación", "preparar sesión", "contenido de marca"],
+    keyword: "qué llevar a una sesión de grabación en Madrid",
+    intent: "informacional",
+    excerpt:
+      "Ropa, guion, DNI, agua y un plan B: lo que conviene llevar a una sesión de grabación en un ático de Madrid, incluidos los que vienen de fuera.",
+    seoTitle: "Qué llevar a una sesión de grabación en Madrid",
+    metaDescription:
+      "Qué llevar a una sesión de grabación en un ático de Madrid: ropa, guion, equipo propio y logística de llegada. Lista práctica para no perder horas.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Para una sesión de grabación en un ático de Madrid lleva tres cosas imprescindibles: el guion o la lista de ideas en el móvil, 2 o 3 cambios de ropa lisa y tu documento de identidad para entrar al edificio. Con eso y agua tienes resuelto el 90% de lo que hace perder tiempo.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, vemos cada semana cómo una sesión de 3 horas se come 40 minutos por no traer algo básico. Yo dirijo la sesión con criterio de venta, y parte de ese criterio es que llegues sin cabos sueltos, también si vienes de otro país.",
+      },
+      {
+        type: "image",
+        src: "/blog/que-llevar-sesion-grabacion-atico-madrid/hero.webp",
+        alt: "Operador con cámara en un rodaje, ejemplo de sesión de grabación en estudio",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué llevar a una sesión de grabación: lo esencial" },
+      {
+        type: "paragraph",
+        text: "Piensa en tres bloques: lo que sale en cámara, lo que dices y lo que te mantiene entero tres horas. Si resuelves esos tres, el resto lo pone el estudio: cámara, luz, micrófonos y fondos.",
+      },
+      {
+        type: "paragraph",
+        text: "Lo que no hace falta llevar: trípode, luces ni micrófono. En A0Studios grabamos con Sony A7, dos micrófonos y luz natural más focos. Solo trae equipo propio si es parte de la pieza, por ejemplo un producto o un portátil con la demo.",
+      },
+      {
+        type: "paragraph",
+        text: "Si es tu primera vez grabando, cuéntanoslo antes. Ajustamos el ritmo, empezamos por lo más fácil y dejamos para el final lo que más te cuesta decir.",
+      },
+      { type: "heading", level: 2, text: "Cómo prepararte antes de subir al ático" },
+      { type: "heading", level: 3, text: "Ropa y aspecto: qué funciona en cámara" },
+      {
+        type: "paragraph",
+        text: "Lleva 2 o 3 opciones de ropa lisa, en tonos medios. Evita rayas finas, cuadros pequeños y blanco puro, que saturan o generan moiré. Si grabas anuncios y orgánico el mismo día, cambiar de camisa te da la sensación de dos días distintos sin repetir sesión.",
+      },
+      { type: "heading", level: 3, text: "Guion, ideas y referencias" },
+      {
+        type: "paragraph",
+        text: "Trae el guion en el móvil o impreso, y una lista de 8 a 12 ideas en orden de prioridad. No hace falta memorizar: grabamos por bloques cortos de 30 a 60 segundos. Si tienes anuncios que te gustan, guarda 3 enlaces para que veamos qué quieres replicar.",
+      },
+      { type: "heading", level: 3, text: "Logística: llegada, acceso y descansos" },
+      {
+        type: "paragraph",
+        text: "Estamos en Ronda de Atocha 16, a pocos minutos andando de la estación de Atocha, y subimos a la 7ª planta. Llega 10 minutos antes, lleva documento de identidad y agua. Planifica un descanso de 10 minutos a mitad de sesión y una comida ligera antes: grabar con hambre se nota en la voz.",
+      },
+      {
+        type: "image",
+        src: "/blog/que-llevar-sesion-grabacion-atico-madrid/mid.webp",
+        alt: "Dos personas entrevistadas en un estudio con focos y micrófonos preparados",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al llegar a una grabación" },
+      {
+        type: "list",
+        items: [
+          "Llegar sin guion y decidir qué decir delante de la cámara con el reloj corriendo.",
+          "Traer ropa con estampados llamativos, logos grandes o blanco puro.",
+          "Venir con el tiempo justo y arrancar la sesión estresado.",
+          "Olvidar el producto, el portátil o los materiales que salen en plano.",
+          "No beber agua ni comer antes, y notar la garganta seca a la hora de sesión.",
+          "Pensar que el estudio lo resuelve todo y no pedir criterio sobre qué grabar para vender.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Tengo que llevar mi propia cámara o micrófono?",
+        answer:
+          "No. En A0Studios ponemos cámara, luz, micrófonos y fondos. Solo trae equipo si forma parte de lo que se graba, como un producto o una demo en pantalla.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué ropa es mejor para grabar en un estudio?",
+        answer:
+          "Colores lisos y tonos medios: azul, verde, gris, burdeos. Evita rayas finas, cuadros pequeños y blanco puro. Lleva 2 o 3 opciones para elegir en el momento.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo llevar acompañantes a la sesión?",
+        answer:
+          "Sí, pero conviene que sean pocos. Una o dos personas que ayuden con el guion o el producto suman. Un grupo grande suele distraer y alarga la sesión.",
+      },
+      {
+        type: "faq",
+        question: "¿Hay que llegar antes de la hora reservada?",
+        answer:
+          "Llega unos 10 minutos antes para subir al ático, dejar tus cosas y cambiarte. Así la hora de grabación se usa para grabar y no para el acceso.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes una sesión en Madrid y quieres saber qué traer según el tipo de pieza, escríbenos en /#contacto con el formato, el número de personas y la fecha, y te mandamos una lista concreta antes de tu sesión en A0Studios.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

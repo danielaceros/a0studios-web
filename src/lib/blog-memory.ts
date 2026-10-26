@@ -901,6 +901,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: 5 impresiones, pos 6.8 (query 'plató para grabación en madrid', URL estudio-grabacion-madrid-precios) + 'estudios de rodaje' 17 impr pos 28.9. Ángulo guía de elección plató vs estudio de rodaje vs ático-estudio, distinto de estudio-grabacion-madrid-precios (precios). Imágenes Unsplash (Brands&People, Jakob Owens).",
   },
+  {
+    slug: "que-llevar-sesion-grabacion-atico-madrid",
+    keyword: "qué llevar a una sesión de grabación en madrid",
+    intent: "informacional",
+    createdAt: "2026-10-26",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin candidatos nuevos (queries de 90d/28d ya cubiertas por URLs existentes: podcast remoto, curso online, content day, aftermovie, estudio anuncios). Tema público extranjero (rotación 1/3): ítem 3 de la lista (ítem 2 descartado por solapar con alquiler-estudio-horas-grabar-anuncios-madrid y plato-grabacion-madrid-estudio-rodaje). Ángulo checklist de llegada (ropa, guion, documento, logística) distinto de como-preparar-sesion-grabacion-contenido-madrid. Imágenes Unsplash (Gordon Cowie, Jonah De Oliveira).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

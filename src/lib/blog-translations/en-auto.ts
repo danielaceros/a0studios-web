@@ -775,4 +775,114 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "que-llevar-sesion-grabacion-atico-madrid": {
+    title: "What to Bring to a Recording Session in a Madrid Penthouse Studio",
+    description:
+      "What to bring to a recording session in Madrid: clothes, script, ID, water and your own gear. A practical checklist for a penthouse studio shoot.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["what to bring", "Madrid penthouse", "Madrid studio", "recording session", "session prep", "brand content"],
+    keyword: "what to bring to a recording session",
+    excerpt:
+      "Clothes, script, ID, water and a plan B: what to bring to a recording session in a Madrid penthouse studio, including if you are visiting from abroad.",
+    seoTitle: "What to Bring to a Recording Session in Madrid",
+    metaDescription:
+      "What to bring to a recording session in a Madrid penthouse studio: clothes, script, your own gear and arrival logistics. A checklist to save hours.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "For a recording session in a Madrid penthouse studio, bring three essentials: your script or idea list on your phone, 2 or 3 solid-colour outfits and photo ID to enter the building. Add water and you have solved 90% of what makes sessions lose time.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, our team sees a 3-hour session lose 40 minutes every week because something basic was missing. We direct sessions with a sales mindset, and part of that is making sure you arrive with no loose ends, especially if you are visiting from another country.",
+      },
+      {
+        type: "image",
+        src: "/blog/que-llevar-sesion-grabacion-atico-madrid/hero.webp",
+        alt: "Camera operator on a shoot, an example of a studio recording session",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "What to bring to a recording session: the essentials" },
+      {
+        type: "paragraph",
+        text: "Think in three blocks: what appears on camera, what you say and what keeps you sharp for three hours. If those are covered, the studio handles the rest: camera, light, microphones and backdrops.",
+      },
+      {
+        type: "paragraph",
+        text: "What you do not need to bring: a tripod, lights or a microphone. At A0Studios we shoot with a Sony A7, two microphones, natural light and studio lights. Only bring your own gear if it is part of the piece, such as a product or a laptop with a demo.",
+      },
+      {
+        type: "paragraph",
+        text: "If it is your first time on camera, tell us beforehand. We adjust the pace, start with the easiest material and leave the hardest lines for the end.",
+      },
+      { type: "heading", level: 2, text: "How to prepare before you come up to the penthouse" },
+      { type: "heading", level: 3, text: "Clothes and look: what works on camera" },
+      {
+        type: "paragraph",
+        text: "Bring 2 or 3 solid-colour options in mid tones. Avoid thin stripes, small checks and pure white, which clip or create moire. If you are shooting ads and organic content on the same day, changing your shirt gives the feel of two different days without a second session.",
+      },
+      { type: "heading", level: 3, text: "Script, ideas and references" },
+      {
+        type: "paragraph",
+        text: "Bring the script on your phone or printed, plus a list of 8 to 12 ideas in priority order. You do not need to memorise it: we record in short blocks of 30 to 60 seconds. If you have ads you like, save 3 links so we can see what you want to replicate.",
+      },
+      { type: "heading", level: 3, text: "Logistics: arrival, access and breaks" },
+      {
+        type: "paragraph",
+        text: "We are at Ronda de Atocha 16, a few minutes on foot from Atocha station, on the 7th floor. Arrive 10 minutes early with photo ID and water. Plan a 10-minute break halfway and a light meal beforehand: recording hungry shows in your voice.",
+      },
+      {
+        type: "image",
+        src: "/blog/que-llevar-sesion-grabacion-atico-madrid/mid.webp",
+        alt: "Two people being interviewed in a studio with lights and microphones set up",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Common mistakes when arriving at a shoot" },
+      {
+        type: "list",
+        items: [
+          "Arriving without a script and deciding what to say on camera while the clock runs.",
+          "Bringing loud patterns, big logos or pure white clothing.",
+          "Showing up with no time to spare and starting the session stressed.",
+          "Forgetting the product, laptop or materials that appear on screen.",
+          "Not drinking water or eating beforehand, then a dry throat an hour in.",
+          "Assuming the studio solves everything and not asking what to record to actually sell.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Frequently asked questions" },
+      {
+        type: "faq",
+        question: "Do I need to bring my own camera or microphone?",
+        answer:
+          "No. At A0Studios we provide the camera, lights, microphones and backdrops. Only bring gear if it is part of what is being filmed, like a product or an on-screen demo.",
+      },
+      {
+        type: "faq",
+        question: "What should I wear to record in a studio?",
+        answer:
+          "Solid colours in mid tones: blue, green, grey, burgundy. Avoid thin stripes, small checks and pure white. Bring 2 or 3 options and choose on the day.",
+      },
+      {
+        type: "faq",
+        question: "Can I bring people with me to the session?",
+        answer:
+          "Yes, but keep it small. One or two people who help with the script or the product add value. A large group tends to distract and makes the session longer.",
+      },
+      {
+        type: "faq",
+        question: "Should I arrive before my booked time?",
+        answer:
+          "Arrive about 10 minutes early to come up to the penthouse, drop your things and change. That way the booked hour is for recording, not for access.",
+      },
+      {
+        type: "paragraph",
+        text: "If you have a session in Madrid and want to know what to bring for your type of piece, write to us at /#contacto with the format, the number of people and the date, and we will send you a specific list before your session at A0Studios.",
+      },
+    ],
+  },
 }
