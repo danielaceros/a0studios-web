@@ -72,6 +72,7 @@ export default function RootDocument({
             gtag('js', new Date());
             gtag('config', 'AW-17976589112');
             gtag('config', 'G-5RBDKSDEZQ');
+            gtag('config', 'AW-18540352637');
           `}
         </Script>
         {/* Píxel de Meta de A0Studios. Vivía dentro de CookieConsent y solo cargaba si aceptaban el banner,
