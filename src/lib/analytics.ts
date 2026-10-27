@@ -13,10 +13,19 @@ declare global {
   }
 }
 
+// Conversiones de Google Ads (cuenta del estudio, AW-18540352637). Cada evento de GA4 de la lista dispara
+// además su conversión: form_lead solo llega desde /gracias con prueba de envío; whatsapp_click es intención.
+const ADS_CONVERSIONS: Record<string, string> = {
+  form_lead: "AW-18540352637/ukAJCPvWzqsdEP2o3YhF",
+  whatsapp_click: "AW-18540352637/Hs4mCP7WzqsdEP2o3YhF",
+};
+
 export function trackEvent(name: string, params: EventParams = {}) {
   if (typeof window === "undefined") return;
   try {
     window.gtag?.("event", name, params);
+    const sendTo = ADS_CONVERSIONS[name];
+    if (sendTo) window.gtag?.("event", "conversion", { send_to: sendTo });
     window.clarity?.("event", name);
   } catch {
     // La medición nunca debe romper la página.
