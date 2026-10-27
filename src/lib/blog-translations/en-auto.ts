@@ -885,4 +885,114 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "estudio-grabar-reels-tiktok-madrid": {
+    title: "Studio to Record Reels and TikToks in Madrid: 15 Clips in One Morning",
+    description:
+      "A studio to record reels and TikToks in Madrid: what you need, how long a session lasts and how to shoot 15 vertical clips in 3 hours with ad-minded direction.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["reels studio Madrid", "record TikToks", "vertical video", "organic content", "recording session", "Madrid studio"],
+    keyword: "studio for reels and tiktoks",
+    excerpt:
+      "A Madrid studio for reels and TikToks gives you light, sound and direction to shoot 12 to 15 vertical clips in a single 3-hour session.",
+    seoTitle: "Studio to Record Reels and TikToks in Madrid",
+    metaDescription:
+      "Studio to record reels and TikToks in Madrid: 12-15 vertical clips in 3 hours, with light, sound and direction built to sell. A practical guide.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "A studio to record reels and TikToks in Madrid is worth it if you want 12 to 15 vertical clips from a single 3-hour session, with controlled light and sound and someone directing you. Filming at home works for one clip, not for a month of content.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, our team shoots reels and TikToks on a Sony A7 in vertical, with two microphones, natural light and studio lights. We direct sessions with a sales mindset: every clip has a hook in the first 2 seconds and a reason to exist, not just a good image.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-grabar-reels-tiktok-madrid/hero.webp",
+        alt: "Cinema camera with monitor and softbox on an interview set, an example of a studio for recording vertical video",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Why record reels and TikToks in a studio instead of at home" },
+      {
+        type: "paragraph",
+        text: "A phone at home gives an acceptable image, but the camera is not the problem: it is changing light, room echo and filming alone with nobody telling you that hook does not hook. A bad clip costs the same to edit as a good one.",
+      },
+      {
+        type: "paragraph",
+        text: "In a studio you solve in one morning what takes three weeks of attempts at home. We set up a fixed backdrop, light and sound, and record in blocks of 30 to 60 seconds. Change your shirt and it looks like a different shooting day.",
+      },
+      {
+        type: "paragraph",
+        text: "Also, an organic reel and a TikTok share about 80% of the footage. One session can cover Instagram, TikTok and YouTube Shorts, with 3 or 4 clips reserved in an ad format for Meta and TikTok Ads.",
+      },
+      { type: "heading", level: 2, text: "How to run a reels and TikTok session properly" },
+      { type: "heading", level: 3, text: "Plan 12 to 15 clips, not one" },
+      {
+        type: "paragraph",
+        text: "Before you come up to the penthouse we define a list of 12 to 15 ideas in three groups: authority clips (you explain something), proof clips (you show a result) and sales clips (you call to action). In 3 hours that is about 12 minutes per clip, retakes included.",
+      },
+      { type: "heading", level: 3, text: "Shoot vertical from the start" },
+      {
+        type: "paragraph",
+        text: "The camera is set to 9:16 from the first shot, not cropped afterwards. We watch the margins: captions and app buttons cover the bottom and the right edge, so the face and key text stay in the centre.",
+      },
+      { type: "heading", level: 3, text: "The hook, the pace and the ending" },
+      {
+        type: "paragraph",
+        text: "The first 2 seconds decide whether someone keeps watching. We write the hook before recording and shoot it 3 times in different tones. Then short sentences, a cut every 3 to 5 seconds and an ending with a single action: comment, save or message.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-grabar-reels-tiktok-madrid/mid.webp",
+        alt: "Camera with a ring light, typical gear for shooting vertical clips for reels and TikToks",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Common mistakes when recording reels and TikToks in a studio" },
+      {
+        type: "list",
+        items: [
+          "Recording a single clip per session and paying for a studio hour on something that would have worked at home.",
+          "Arriving without a script and deciding the hook on camera while the clock runs.",
+          "Shooting horizontal and cropping to vertical later, losing quality and framing.",
+          "Copying another account's format without adapting it to your offer or your customer.",
+          "Not thinking about ads: an organic clip that works can be reused as a paid creative.",
+          "Editing without captions, when a large share of reels are watched on mute.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Frequently asked questions" },
+      {
+        type: "faq",
+        question: "How many reels and TikToks can I record in one session?",
+        answer:
+          "Between 12 and 15 clips of 20 to 45 seconds in a 3-hour session, if you arrive with a script and idea list. Unprepared, the number drops to 6 or 8.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own camera or microphone?",
+        answer:
+          "No. At A0Studios we provide the camera, lights, microphones and backdrops. Only bring what appears on screen, like a product, a laptop or your outfits.",
+      },
+      {
+        type: "faq",
+        question: "Can the same clips work for Instagram, TikTok and YouTube Shorts?",
+        answer:
+          "Yes, the vertical 9:16 format is the same. Text, captions and sometimes duration change, but the footage is reused in full.",
+      },
+      {
+        type: "faq",
+        question: "Can I use these clips as Meta or TikTok ads?",
+        answer:
+          "Yes, and it is best planned in advance. We record 3 or 4 clips with an ad structure (problem, proof, call to action) so they also work as paid creatives.",
+      },
+      {
+        type: "paragraph",
+        text: "If you are looking for a studio to record reels and TikToks in Madrid and want someone to direct the session with a sales mindset, write to us at /#contacto with your sector, the number of clips you need and your dates, and we will propose the format and shot plan before you book at A0Studios.",
+      },
+    ],
+  },
 }

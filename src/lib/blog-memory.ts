@@ -910,6 +910,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin candidatos nuevos (queries de 90d/28d ya cubiertas por URLs existentes: podcast remoto, curso online, content day, aftermovie, estudio anuncios). Tema público extranjero (rotación 1/3): ítem 3 de la lista (ítem 2 descartado por solapar con alquiler-estudio-horas-grabar-anuncios-madrid y plato-grabacion-madrid-estudio-rodaje). Ángulo checklist de llegada (ropa, guion, documento, logística) distinto de como-preparar-sesion-grabacion-contenido-madrid. Imágenes Unsplash (Gordon Cowie, Jonah De Oliveira).",
   },
+  {
+    slug: "estudio-grabar-reels-tiktok-madrid",
+    keyword: "estudio para grabar reels y tiktoks en madrid",
+    intent: "informacional",
+    createdAt: "2026-10-27",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d — token OAuth expirado o revocado, requiere reautorización manual, escalar a Dani). Fallback evergreen Prioridad 1 ítem 7 (único que quedaba sin publicar). Ángulo estudio + sesión por lotes de 12-15 clips verticales con dirección de ads, distinto de grabacion-reels-madrid-que-necesitas y reels-verticales-empresa-ceos. Imágenes Unsplash (Sam McGhee, Mr Catographer).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
