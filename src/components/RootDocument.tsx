@@ -5,7 +5,6 @@ import { getProfessionalServiceSchema, getWebSiteSchema, getVideoSchema } from "
 // GrainOverlay removed per user request
 import SmoothScroll from "@/components/ui/SmoothScroll";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
-import CookieConsent from "@/components/CookieConsent";
 import type { Lang } from "@/lib/i18n";
 import "@/app/globals.css";
 
@@ -131,7 +130,6 @@ export default function RootDocument({
         <SmoothScroll />
         {children}
         <WhatsAppButton lang={lang} />
-        <CookieConsent lang={lang} />
       </body>
     </html>
   );
