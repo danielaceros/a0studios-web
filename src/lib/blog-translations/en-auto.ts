@@ -995,4 +995,114 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-asesorias-consultoras-madrid": {
+    title: "Recording Content for Accounting and Consulting Firms in Madrid: Which Videos Bring Clients",
+    description:
+      "How to record content for an accounting, tax or consulting firm in Madrid: which videos attract clients, how long the session takes and how to get a month of pieces.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["content for advisory firms", "Madrid consultancies", "B2B video", "professional services", "recording session", "Madrid studio"],
+    keyword: "content for consulting firms",
+    excerpt:
+      "An advisory or consulting firm doesn't sell something you can see: it sells trust. Which videos build it and how to record them in a single session in Madrid.",
+    seoTitle: "Recording Content for Accounting and Consulting Firms",
+    metaDescription:
+      "Recording content for accounting and consulting firms in Madrid: which videos bring clients, how long the session takes and how to get a month of pieces.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "The video content that works best for an accounting or consulting firm in Madrid is short clips where a partner explains one concrete client problem: a tax deadline, a common mistake, a decision. A 3-hour session yields 10 to 12 pieces, enough for a month.",
+      },
+      {
+        type: "paragraph",
+        text: "These businesses sell trust before service, and trust is built by seeing and hearing the person who will handle your numbers. At A0Studios, at Ronda de Atocha 16, our team directs the session with a sales mindset: every piece has a goal, not just a good-looking frame.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-asesorias-consultoras-madrid/hero.webp",
+        alt: "Professional speaking to camera in an office, example of a video for an advisory or consulting firm",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Why video works for advisory and consulting firms" },
+      {
+        type: "paragraph",
+        text: "Anyone looking for a tax advisor or consultancy compares several, and almost all of them say the same on their website: experience, proximity, professionalism. A two-minute video explaining how a regulatory change affects a freelancer shows judgement better than any paragraph.",
+      },
+      {
+        type: "paragraph",
+        text: "B2B content also has long cycles. A LinkedIn clip watched today can turn into a call three months from now, when the client finally needs to change advisor. That is why it pays to record pieces that don't expire in a week.",
+      },
+      {
+        type: "paragraph",
+        text: "The third reason is the team. If the client already knows the face of the partner and of the person who will serve them every month, the first meeting starts with trust. It is the same principle we describe in our guide to video for sales meetings: arrive with half the convincing already done.",
+      },
+      { type: "heading", level: 2, text: "How to record content for an advisory or consulting firm" },
+      { type: "heading", level: 3, text: "Authority pieces: one question, one answer" },
+      {
+        type: "paragraph",
+        text: "This is the base format: 45 to 90 seconds answering a real client question. We pull the questions from the emails and calls of the past week, not from what sounds interesting. Six of these pieces give you material for a month on LinkedIn and Instagram.",
+      },
+      { type: "heading", level: 3, text: "Team pieces: who you are and how you work" },
+      {
+        type: "paragraph",
+        text: "A 60 to 90 second video per partner or manager, explaining who they help and what the first month of work looks like. You record it once and use it on the website, in proposals and in the email signature. With 3 or 4 people that is about one hour of shooting.",
+      },
+      { type: "heading", level: 3, text: "Sales pieces: for ads and for the sales team" },
+      {
+        type: "paragraph",
+        text: "We reserve 2 or 3 clips with an ad structure: problem, proof and call to action, built for Meta Ads or LinkedIn Ads aimed at small businesses and freelancers in Madrid. This is where direction from someone who makes ads sets us apart from simply renting a space.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-asesorias-consultoras-madrid/mid.webp",
+        alt: "Sony camera on a tripod, gear for recording corporate videos for professional services",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Common mistakes when recording content for professional services" },
+      {
+        type: "list",
+        items: [
+          "Using technical jargon your client doesn't use: if you wouldn't say it on a call, don't say it on camera.",
+          "Recording generic tip videos that any competitor can repeat without changing a word.",
+          "Stretching each piece to 4 or 5 minutes, when most viewers drop off before the first minute.",
+          "Including regulatory deadlines or figures that expire and leave the video outdated within weeks.",
+          "Always featuring the same partner instead of the team that actually serves the client.",
+          "Recording without thinking about ads and missing the chance to reuse the best piece as a paid creative.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Frequently asked questions" },
+      {
+        type: "faq",
+        question: "How many videos can an advisory firm record in one session?",
+        answer:
+          "Between 10 and 12 pieces of 45 to 90 seconds in 3 hours, if you arrive with the client questions prepared. With team videos included, the session stretches to 4 hours.",
+      },
+      {
+        type: "faq",
+        question: "Do I need a script for each video?",
+        answer:
+          "A short outline of 4 or 5 ideas per piece works better than a read-out text. We prepare it with you before the session and use a teleprompter only for the sales pieces.",
+      },
+      {
+        type: "faq",
+        question: "What do I do about regulatory information that keeps changing?",
+        answer:
+          "Record pieces about criteria and common mistakes, which last for years, and keep figures and deadlines for short posts. That way the video doesn't go stale after two months.",
+      },
+      {
+        type: "faq",
+        question: "Can I use these videos to win clients with ads?",
+        answer:
+          "Yes. We record 2 or 3 clips with an ad structure for Meta or LinkedIn Ads, targeted at small businesses and freelancers in Madrid, alongside the organic pieces from the same session.",
+      },
+      {
+        type: "paragraph",
+        text: "If you run an advisory or consulting firm in Madrid and want to record a month of content in one morning, write to us at /#contacto with your sector, how many partners will be on camera and your dates, and A0Studios will propose the piece plan before you book.",
+      },
+    ],
+  },
 }

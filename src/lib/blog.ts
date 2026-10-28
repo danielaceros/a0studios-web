@@ -11781,6 +11781,119 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-asesorias-consultoras-madrid",
+    title: "Grabar contenido para asesorías y consultoras en Madrid: qué vídeos generan clientes",
+    description:
+      "Cómo grabar contenido para una asesoría, gestoría o consultora en Madrid: qué vídeos atraen clientes, cuánto dura la sesión y cómo sacar un mes de piezas.",
+    publishedAt: "2026-10-28",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["contenido para asesorías", "consultoras Madrid", "vídeo B2B", "servicios profesionales", "sesión de grabación", "estudio Madrid"],
+    keyword: "grabar contenido para asesorias y consultoras en madrid",
+    intent: "informacional",
+    excerpt:
+      "Una asesoría o consultora no vende un producto que se vea: vende confianza. Qué vídeos la construyen y cómo grabarlos en una sola sesión en Madrid.",
+    seoTitle: "Grabar contenido para asesorías y consultoras en Madrid",
+    metaDescription:
+      "Grabar contenido para asesorías y consultoras en Madrid: qué vídeos generan clientes, cuánto dura la sesión y cómo sacar un mes de piezas en una mañana.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Para grabar contenido para una asesoría o consultora en Madrid, lo que mejor funciona son vídeos cortos donde un socio explica un problema concreto del cliente: un plazo fiscal, un error habitual, una decisión. Con una sesión de 3 horas se sacan entre 10 y 12 piezas para un mes.",
+      },
+      {
+        type: "paragraph",
+        text: "Estos negocios venden confianza antes que servicio, y la confianza se construye viendo y oyendo a quien te va a llevar los números. En A0Studios, en Ronda de Atocha 16, dirigimos la sesión con criterio de venta: cada pieza tiene un objetivo, no solo una buena imagen.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-asesorias-consultoras-madrid/hero.webp",
+        alt: "Profesional hablando a cámara en una oficina, ejemplo de vídeo para una asesoría o consultora",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué el vídeo funciona para asesorías y consultoras" },
+      {
+        type: "paragraph",
+        text: "Quien busca una gestoría o una consultora compara a varias y casi todas dicen lo mismo en su web: experiencia, cercanía, profesionalidad. Un vídeo de dos minutos en el que explicas cómo afecta un cambio normativo a un autónomo demuestra criterio mejor que cualquier párrafo.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, el contenido B2B tiene ciclos largos. Un clip de LinkedIn visto hoy puede convertirse en una llamada dentro de tres meses, cuando el cliente por fin necesita cambiar de asesor. Por eso conviene grabar piezas que no caduquen en una semana.",
+      },
+      {
+        type: "paragraph",
+        text: "El tercer motivo es el equipo. Si el cliente conoce la cara del socio y de la persona que le atenderá cada mes, la primera reunión empieza con confianza. Es el mismo principio que explicamos en el vídeo para reuniones comerciales: llegar con el trabajo de convencer a medias hecho.",
+      },
+      { type: "heading", level: 2, text: "Cómo grabar contenido para una asesoría o consultora" },
+      { type: "heading", level: 3, text: "Piezas de autoridad: una pregunta, una respuesta" },
+      {
+        type: "paragraph",
+        text: "Es el formato base: 45 a 90 segundos respondiendo una duda real de cliente. Sacamos las preguntas de los correos y llamadas de la última semana, no de lo que parece interesante. Con 6 de estas piezas ya tienes material para un mes en LinkedIn e Instagram.",
+      },
+      { type: "heading", level: 3, text: "Piezas de equipo: quién eres y cómo trabajas" },
+      {
+        type: "paragraph",
+        text: "Un vídeo de 60 a 90 segundos por cada socio o responsable, contando a quién ayuda y cómo es el primer mes de trabajo. Se graba una vez, se usa en la web, en propuestas comerciales y en la firma de correo. Con 3 o 4 personas hablamos de una hora de rodaje.",
+      },
+      { type: "heading", level: 3, text: "Piezas de venta: para anuncios y para el comercial" },
+      {
+        type: "paragraph",
+        text: "Reservamos 2 o 3 clips con estructura de anuncio: problema, prueba y llamada a la acción, pensados para Meta Ads o LinkedIn Ads dirigidos a pymes y autónomos de Madrid. Es el punto donde la dirección de alguien que hace anuncios marca la diferencia respecto a alquilar solo un espacio.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-asesorias-consultoras-madrid/mid.webp",
+        alt: "Cámara Sony sobre trípode, equipo para grabar vídeos corporativos de servicios profesionales",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al grabar contenido para servicios profesionales" },
+      {
+        type: "list",
+        items: [
+          "Hablar en jerga técnica que el cliente no usa: si no lo dirías en una llamada, no lo digas en cámara.",
+          "Grabar vídeos genéricos de consejos que cualquier competidor puede repetir sin cambiar una palabra.",
+          "Alargar cada pieza a 4 o 5 minutos, cuando la mayoría se pierde antes del minuto.",
+          "Incluir plazos o cifras normativas que caducan y dejan el vídeo desactualizado en semanas.",
+          "Poner siempre al mismo socio y no al equipo que atiende al cliente.",
+          "Grabar sin pensar en el anuncio y perder la oportunidad de reutilizar la mejor pieza como creatividad de pago.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuántos vídeos puede grabar una asesoría en una sesión?",
+        answer:
+          "Entre 10 y 12 piezas de 45 a 90 segundos en 3 horas, si llegas con las preguntas de clientes preparadas. Con vídeos de equipo incluidos, la sesión se alarga hasta 4 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Hay que preparar un guion para cada vídeo?",
+        answer:
+          "Conviene un guion corto de 4 o 5 ideas por pieza, no un texto leído. Lo preparamos contigo antes de la sesión y usamos teleprompter solo en las piezas de venta.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué hago con la información normativa que cambia?",
+        answer:
+          "Graba piezas sobre criterios y errores habituales, que duran años, y deja las cifras y plazos para publicaciones cortas. Así el vídeo no se queda obsoleto a los dos meses.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo usar estos vídeos para captar clientes con anuncios?",
+        answer:
+          "Sí. Grabamos 2 o 3 clips con estructura de anuncio para Meta o LinkedIn Ads, segmentados a pymes y autónomos de Madrid, además de las piezas orgánicas de la misma sesión.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes una asesoría o consultora en Madrid y quieres grabar un mes de contenido en una mañana, escríbenos en /#contacto con tu sector, el número de socios que saldrían en cámara y tus fechas, y en A0Studios te proponemos el plan de piezas antes de reservar.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

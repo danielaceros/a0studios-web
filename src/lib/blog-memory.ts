@@ -919,6 +919,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d — token OAuth expirado o revocado, requiere reautorización manual, escalar a Dani). Fallback evergreen Prioridad 1 ítem 7 (único que quedaba sin publicar). Ángulo estudio + sesión por lotes de 12-15 clips verticales con dirección de ads, distinto de grabacion-reels-madrid-que-necesitas y reels-verticales-empresa-ceos. Imágenes Unsplash (Sam McGhee, Mr Catographer).",
   },
+  {
+    slug: "grabar-contenido-asesorias-consultoras-madrid",
+    keyword: "grabar contenido para asesorias y consultoras en madrid",
+    intent: "informacional",
+    createdAt: "2026-10-28",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: Prioridad 1 agotada y todos los ítems de Prioridad 2 ya publicados o solapados con posts existentes, así que se elige un vertical nuevo (asesorías, gestorías y consultoras), sin cubrir en memoria; vertical hermano de clínicas y abogados. Imágenes Unsplash/Pexels (Vitaly Gariev, Boris Hamer).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

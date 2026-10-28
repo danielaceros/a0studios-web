@@ -154,6 +154,7 @@ export const EN_BLOG_SLUGS: Record<string, string> = {
   "plato-grabacion-madrid-estudio-rodaje": "film-set-studio-rental-madrid",
   "que-llevar-sesion-grabacion-atico-madrid": "what-to-bring-recording-session-madrid",
   "estudio-grabar-reels-tiktok-madrid": "studio-record-reels-tiktoks-madrid",
+  "grabar-contenido-asesorias-consultoras-madrid": "content-recording-accounting-consulting-firms-madrid",
 }
 
 const EN_PATH_TO_ES: Record<string, string> = Object.fromEntries([
