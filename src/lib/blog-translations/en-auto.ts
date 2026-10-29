@@ -1105,4 +1105,123 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "estudio-contenido-madrid-cerca-atocha-como-llegar-reservar": {
+    title: "Content Studio in Madrid Near Atocha: How to Get There and How to Book",
+    description:
+      "Content studio in Madrid near Atocha station: how to reach Ronda de Atocha 16 (7th floor), how to book a recording session and what to expect on the day.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["Madrid studio Atocha", "how to get there", "book a studio", "Madrid penthouse", "content studio", "recording session"],
+    keyword: "content studio near atocha",
+    excerpt:
+      "A0Studios is at Ronda de Atocha 16, 7th floor, a few minutes' walk from Atocha station. How to get there, how to book and what happens between your first message and the shoot.",
+    seoTitle: "Content Studio in Madrid Near Atocha Station",
+    metaDescription:
+      "Content studio in Madrid near Atocha: how to reach Ronda de Atocha 16, 7th floor, and how to book your recording session step by step.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "A0Studios is a content studio in central Madrid, at Ronda de Atocha 16, 7th floor, a few minutes' walk from Atocha station. You can arrive by train, metro or on foot, and you book by writing to us at /#contacto with the type of piece, the number of people and your dates.",
+      },
+      {
+        type: "paragraph",
+        text: "If you are coming from another city or another country, Atocha puts high-speed trains, commuter rail and metro in a single place. Our team directs every session with a sales mindset, so the only things you need to sort out beforehand are how to get here and what you want to record.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-contenido-madrid-cerca-atocha-como-llegar-reservar/hero.webp",
+        alt: "Aerial view of the Madrid skyline at dusk, with tall buildings and an orange sky",
+        width: 1920,
+        height: 1275,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Where the studio is and how to reach it from Atocha" },
+      {
+        type: "paragraph",
+        text: "The studio is in a penthouse at Ronda de Atocha 16, on the 7th floor. It is a central, well-connected area, a few minutes' walk from Atocha station, where the high-speed and commuter trains arrive.",
+      },
+      {
+        type: "paragraph",
+        text: "If your team is bringing product, clothing or boxes, tell us in advance: we will explain how to enter and how much time to allow for carrying the material up. If everything fits in a backpack, nothing special is needed.",
+      },
+      {
+        type: "paragraph",
+        text: "Arrive 10 minutes before your booked time and bring photo ID for building access, so the paid hour is spent recording. For more on what to pack, read our guide to what to bring to a recording session in a Madrid penthouse, at /en/blog/what-to-bring-recording-session-madrid.",
+      },
+      { type: "heading", level: 2, text: "How to book a recording session at A0Studios" },
+      { type: "heading", level: 3, text: "Step 1: tell us what you want to record" },
+      {
+        type: "paragraph",
+        text: "Write to us at /#contacto with three details: what you are recording (ads, a VSL, reels, a podcast, a corporate video), how many people will be on camera and when you need it. That is enough for us to tell you whether it fits a 2 to 4 hour session.",
+      },
+      { type: "heading", level: 3, text: "Step 2: we choose the service and the date" },
+      {
+        type: "paragraph",
+        text: "We work with three formats: Recording Only, Recording + Editing and Full Production. If you are unsure which one you need, we cover it in a short call and recommend the one that fits your goal, not the biggest one.",
+      },
+      { type: "heading", level: 3, text: "Step 3: we prepare the session with you" },
+      {
+        type: "paragraph",
+        text: "Before shoot day we review the script or idea list, references and anything that appears on screen. We shoot with a Sony A7, two microphones and natural light plus lamps, and the studio provides all the equipment. You bring plain clothing and something to say.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-contenido-madrid-cerca-atocha-como-llegar-reservar/mid.webp",
+        alt: "Cinema camera on a film set with lights, ready for a studio recording session",
+        width: 1920,
+        height: 1080,
+      },
+      { type: "heading", level: 2, text: "When a central studio like this makes sense" },
+      {
+        type: "paragraph",
+        text: "A studio near Atocha pays off if your team travels in from several cities, if you arrive by train on the day of the shoot or if you record with guests who do not know Madrid. It removes transport friction and leaves more energy for the camera.",
+      },
+      {
+        type: "paragraph",
+        text: "It also fits if you are looking for somewhere to record ads or organic content with someone who directs with a sales eye, not only an aesthetic one. That is the A0Studios difference: technical direction from people who make ads and know what converts.",
+      },
+      { type: "heading", level: 2, text: "Common mistakes when booking a studio in Madrid" },
+      {
+        type: "list",
+        items: [
+          "Booking without knowing which pieces you will record and deciding on the clock.",
+          "Underestimating the trip from the station and starting the session in a rush.",
+          "Not mentioning that you are bringing product, boxes or more than 3 people.",
+          "Booking one hour when you need 3 to get a batch of clips.",
+          "Choosing on price alone and not asking who directs the session.",
+          "Leaving editing for later without deciding whether the studio handles it.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Frequently asked questions" },
+      {
+        type: "faq",
+        question: "Where exactly is A0Studios?",
+        answer:
+          "At Ronda de Atocha 16, 7th floor, in central Madrid, a few minutes' walk from Atocha station. We send access instructions when your booking is confirmed.",
+      },
+      {
+        type: "faq",
+        question: "How long does a recording session last?",
+        answer:
+          "Between 2 and 4 hours for most personal brands and small teams. In 3 hours you can record 12 to 15 vertical clips if you arrive with your ideas prepared.",
+      },
+      {
+        type: "faq",
+        question: "How do I book a session?",
+        answer:
+          "Write to us at /#contacto with the type of piece, the number of people and your dates. We reply with a proposed service and schedule before anything is confirmed.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own equipment?",
+        answer:
+          "No. The studio provides cameras, lighting, microphones and backdrops. Bring your own gear only if it is part of what you are recording, such as a product or a demo.",
+      },
+      {
+        type: "paragraph",
+        text: "If you are looking for a content studio near Atocha, write to us at /#contacto with what you want to record, how many of you are coming and when, and A0Studios will propose a schedule and format before you book.",
+      },
+    ],
+  },
 }

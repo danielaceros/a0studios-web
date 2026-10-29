@@ -928,6 +928,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: Prioridad 1 agotada y todos los ítems de Prioridad 2 ya publicados o solapados con posts existentes, así que se elige un vertical nuevo (asesorías, gestorías y consultoras), sin cubrir en memoria; vertical hermano de clínicas y abogados. Imágenes Unsplash/Pexels (Vitaly Gariev, Boris Hamer).",
   },
+  {
+    slug: "estudio-contenido-madrid-cerca-atocha-como-llegar-reservar",
+    keyword: "estudio de contenido en madrid cerca de atocha",
+    intent: "informacional",
+    createdAt: "2026-10-29",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Tema público extranjero (rotación 1/3): ítem 4 de la lista (ítems 1 y 3 ya publicados, 2 descartado por solape). Ángulo cómo llegar + pasos de reserva, distinto de que-llevar-sesion-grabacion-atico-madrid y preguntas-estudio-grabacion-antes-de-reservar. Imágenes Unsplash (Andres Garcia, Sam McGhee).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

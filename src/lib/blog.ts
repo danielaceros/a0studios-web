@@ -11894,6 +11894,128 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "estudio-contenido-madrid-cerca-atocha-como-llegar-reservar",
+    title: "Estudio de contenido en Madrid cerca de Atocha: cómo llegar y cómo reservar",
+    description:
+      "Estudio de contenido en Madrid cerca de Atocha: cómo llegar a Ronda de Atocha 16 (7ª planta), cómo reservar sesión y qué esperar el día de la grabación.",
+    publishedAt: "2026-10-29",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["estudio Madrid Atocha", "cómo llegar", "reservar estudio", "ático Madrid", "estudio de contenido", "sesión de grabación"],
+    keyword: "estudio de contenido en madrid cerca de atocha",
+    intent: "informacional",
+    excerpt:
+      "A0Studios está en Ronda de Atocha 16, 7ª planta, a pocos minutos andando de la estación de Atocha. Cómo llegar, cómo reservar y qué pasa desde que escribes hasta que grabas.",
+    seoTitle: "Estudio de contenido en Madrid cerca de Atocha",
+    metaDescription:
+      "Estudio de contenido en Madrid cerca de Atocha: cómo llegar a Ronda de Atocha 16, 7ª planta, y cómo reservar tu sesión de grabación paso a paso.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "A0Studios es un estudio de contenido en Madrid centro, en Ronda de Atocha 16, 7ª planta, a pocos minutos andando de la estación de Atocha. Se llega en tren, metro o a pie, y se reserva escribiendo desde /#contacto con el tipo de pieza, el número de personas y la fecha que buscas.",
+      },
+      {
+        type: "paragraph",
+        text: "Si vienes de fuera de Madrid o de otro país, tienes la ventaja de que Atocha concentra AVE, Cercanías y metro en un solo punto. Yo dirijo la sesión con criterio de venta, así que lo único que tienes que resolver antes es cómo llegar y qué quieres grabar.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-contenido-madrid-cerca-atocha-como-llegar-reservar/hero.webp",
+        alt: "Vista aérea del skyline de Madrid al atardecer, con edificios altos y el cielo anaranjado",
+        width: 1920,
+        height: 1275,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Dónde está el estudio y cómo llegar a Atocha" },
+      {
+        type: "paragraph",
+        text: "El estudio está en un ático de Ronda de Atocha 16, en la 7ª planta. Es una zona céntrica y bien conectada, a pocos minutos andando de la estación de Atocha, la misma por la que entran los trenes de alta velocidad y de Cercanías.",
+      },
+      {
+        type: "paragraph",
+        text: "Para equipos que vienen con producto, ropa o cajas, lo más cómodo es avisarnos antes: te decimos por dónde entrar y cuánto tiempo prever para subir el material. Si lo traes todo en una mochila, no hace falta nada especial.",
+      },
+      {
+        type: "paragraph",
+        text: "Llega 10 minutos antes de la hora reservada y lleva documento de identidad para el acceso al edificio. Así la hora de grabación se usa para grabar. En qué más pensar antes de subir lo explicamos en nuestra guía de qué llevar a una sesión de grabación en un ático de Madrid.",
+      },
+      { type: "heading", level: 2, text: "Cómo reservar una sesión de grabación en A0Studios" },
+      { type: "heading", level: 3, text: "Paso 1: cuéntanos qué quieres grabar" },
+      {
+        type: "paragraph",
+        text: "Escríbenos desde /#contacto con tres datos: qué vas a grabar (anuncios, VSL, reels, podcast, vídeo corporativo), cuántas personas salen en cámara y para cuándo lo necesitas. Con eso ya podemos decirte si encaja en una sesión de 2 a 4 horas.",
+      },
+      { type: "heading", level: 3, text: "Paso 2: elegimos servicio y fecha" },
+      {
+        type: "paragraph",
+        text: "Trabajamos con tres formatos: Solo Grabación, Grabación + Edición y Producción Completa. Si dudas entre ellos, lo vemos en una llamada corta y te recomiendo el que tiene sentido para tu objetivo, no el más grande.",
+      },
+      { type: "heading", level: 3, text: "Paso 3: preparamos la sesión contigo" },
+      {
+        type: "paragraph",
+        text: "Antes del día de grabación revisamos guion o lista de ideas, referencias y lo que sale en plano. Grabamos con Sony A7, dos micrófonos y luz natural más focos, y el estudio pone todo el equipo. Tú traes ropa lisa y las ganas de hablar.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-contenido-madrid-cerca-atocha-como-llegar-reservar/mid.webp",
+        alt: "Cámara de cine en un set de grabación con focos, preparada para una sesión en estudio",
+        width: 1920,
+        height: 1080,
+      },
+      { type: "heading", level: 2, text: "Cuándo tiene sentido un estudio céntrico como este" },
+      {
+        type: "paragraph",
+        text: "Un estudio cerca de Atocha compensa si tu equipo viene de varias ciudades, si llegas en tren el mismo día de la grabación o si grabas con invitados que no conocen Madrid. Quita fricción de transporte y deja más energía para delante de la cámara.",
+      },
+      {
+        type: "paragraph",
+        text: "También encaja si buscas dónde grabar anuncios o contenido orgánico con alguien que dirija con criterio de venta, no solo con criterio estético. Ese es el diferencial de A0Studios: la dirección técnica de alguien que hace anuncios y sabe qué convierte.",
+      },
+      { type: "heading", level: 2, text: "Errores comunes al reservar un estudio en Madrid" },
+      {
+        type: "list",
+        items: [
+          "Reservar sin saber qué piezas vas a grabar y decidirlo con el reloj corriendo.",
+          "Calcular mal el tiempo de llegada desde la estación y empezar la sesión con prisa.",
+          "No avisar de que traes producto, cajas o más de 3 personas.",
+          "Reservar solo una hora cuando necesitas 3 para sacar un lote de clips.",
+          "Elegir solo por precio y no preguntar quién dirige la sesión.",
+          "Dejar la edición para después sin decidir si la hace el estudio.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Dónde está A0Studios exactamente?",
+        answer:
+          "En Ronda de Atocha 16, 7ª planta, en Madrid centro. Está a pocos minutos andando de la estación de Atocha. Te enviamos la indicación de acceso al confirmar la reserva.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión de grabación?",
+        answer:
+          "Entre 2 y 4 horas para la mayoría de marcas personales y equipos pequeños. En 3 horas se pueden sacar entre 12 y 15 clips verticales si llegas con las ideas preparadas.",
+      },
+      {
+        type: "faq",
+        question: "¿Cómo reservo una sesión?",
+        answer:
+          "Escribe desde /#contacto con el tipo de pieza, el número de personas y la fecha. Respondemos con una propuesta de servicio y horario antes de cerrar nada.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta llevar equipo propio?",
+        answer:
+          "No. El estudio pone cámara, luz, micrófonos y fondos. Solo trae material propio si forma parte de lo que se graba, como un producto o una demo.",
+      },
+      {
+        type: "paragraph",
+        text: "Si buscas un estudio de contenido cerca de Atocha, escríbenos en /#contacto con lo que quieres grabar, cuántas personas sois y cuándo vendríais, y en A0Studios te proponemos horario y formato antes de reservar.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
