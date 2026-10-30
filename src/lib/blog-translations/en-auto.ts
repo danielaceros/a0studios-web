@@ -1224,4 +1224,118 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-inmobiliarias-madrid": {
+    title: "Video Content for Real Estate Agencies in Madrid: What Works and How to Record It in a Studio",
+    description:
+      "How to record video content for real estate agencies in Madrid: which pieces work, how to film your sales team in a studio and how to get a month of video in one morning.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["Madrid real estate", "property video", "recording studio", "content for agents", "seller leads", "reels"],
+    keyword: "real estate video content madrid",
+    excerpt:
+      "Property tours are filmed at the property. The content that wins seller leads and builds trust is filmed in a studio. Which pieces work and how to get them in a single morning.",
+    seoTitle: "Real Estate Video Content in Madrid: Studio Guide",
+    metaDescription:
+      "Real estate video content in Madrid: which pieces win seller leads and how to film your sales team in a studio in a single morning.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "The best way to record video content for a real estate agency in Madrid is to split it into two jobs: property tours are filmed on site, while authority content (advice, market updates, answers to seller questions) is filmed in a studio with good audio and direction. That builds trust, not just views.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, our team films agents and office directors in 2 to 3 hour sessions. We direct with a sales mindset: every piece has to bring in owners who want to sell or buyers who get in touch, not just likes.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-inmobiliarias-madrid/hero.webp",
+        alt: "Modern living room with a television, armchair and abstract framed art, an example of a home interior",
+        width: 1920,
+        height: 1016,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Why most real estate content fails" },
+      {
+        type: "paragraph",
+        text: "Almost every agency posts the same thing: the property, the price and a tour with background music. It helps the buyer of that one flat, but it builds no brand and wins no sellers. An owner who wants to sell decides who to call by who earned their trust before they needed anyone.",
+      },
+      {
+        type: "paragraph",
+        text: "That is where the agent's face comes in. A 45-second video explaining how a sale price is set in a specific neighbourhood, or which mistakes make a flat sit on the market for months, builds authority. It is easier to film sitting in front of a camera with a decent microphone than in an echoing living room.",
+      },
+      {
+        type: "paragraph",
+        text: "There is a practical problem too: filming in empty flats sounds bad. Unfurnished rooms bounce sound and the light changes within half an hour. In a studio you control both and can record 12 to 15 clips with the same look, which keeps your profile consistent.",
+      },
+      { type: "heading", level: 2, text: "How to record real estate content in a studio" },
+      { type: "heading", level: 3, text: "Pieces that win seller leads" },
+      {
+        type: "paragraph",
+        text: "Think of the questions you get on the first call: how much is my flat worth, how long will it take to sell, which documents do I need, is it worth renovating first. Each one is a 30 to 60 second clip. Eight questions give you two months of posts.",
+      },
+      { type: "heading", level: 3, text: "Pieces for buyers and investors" },
+      {
+        type: "paragraph",
+        text: "For buyers, area videos work: what is paid per square metre in each neighbourhood, what mortgage you can get, or what changes if you buy to let. They can be filmed standing against a clean backdrop and finished with property footage as b-roll.",
+      },
+      { type: "heading", level: 3, text: "Team and brand pieces" },
+      {
+        type: "paragraph",
+        text: "If your agency has 4 or 5 agents, film each one in the same session: an introduction, a specialty and a story about how they work. It is brand content they later reuse on LinkedIn, on your website and in lead-generation ads. One morning of filming covers the whole team.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-inmobiliarias-madrid/mid.webp",
+        alt: "Bright living room with a large window, a reference for a home space with natural light",
+        width: 1920,
+        height: 1200,
+      },
+      { type: "heading", level: 2, text: "Common mistakes when filming for a real estate agency" },
+      {
+        type: "list",
+        items: [
+          "Filming only property tours and nothing that explains why you are the right agency to sell with.",
+          "Talking about yourself instead of answering the question the owner is asking.",
+          "Filming in the empty flat, with echo and changing light, instead of somewhere controlled.",
+          "Making videos longer than 90 seconds for a lead-generation reel.",
+          "Not planning a batch: posting one loose video a week instead of a block of 12 to 15 pieces.",
+          "Not deciding beforehand which lead ad will come out of the footage and with what call to action.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "A studio beats filming in your office if more than two agents are on camera, if you want to use the footage in paid ads or if your office audio is poor. For a quick reel of one property, shoot it yourself on a phone. For everything else, direction makes the difference.",
+      },
+      { type: "heading", level: 2, text: "Frequently asked questions" },
+      {
+        type: "faq",
+        question: "Which videos work best for a real estate agency?",
+        answer:
+          "Those that answer specific owner and buyer questions in 30 to 60 seconds: how much a flat is worth, how long it takes to sell or which documents are needed. Tours sell that property, they do not win other sellers.",
+      },
+      {
+        type: "faq",
+        question: "How long is a session for a real estate agency?",
+        answer:
+          "Between 2 and 3 hours for one agent or an office director. In that time you record 12 to 15 vertical clips. If the whole team is filmed, a full morning is usually booked.",
+      },
+      {
+        type: "faq",
+        question: "Can the footage be used in paid ads?",
+        answer:
+          "Yes. When we direct a session with lead generation in mind, we record several different openings for each piece so they can be tested on Meta Ads. It is one of the reasons to film with direction and not just a camera.",
+      },
+      {
+        type: "faq",
+        question: "Do we also need to film at the properties?",
+        answer:
+          "It depends on the goal. For a specific property, yes, with natural light and a good lavalier microphone. For authority and seller leads, a studio with controlled audio and backdrop is better.",
+      },
+      {
+        type: "paragraph",
+        text: "If you run a real estate agency in Madrid and want to record a block of lead-generation content in one morning, write to us at /#contacto with your team size and the questions owners ask you most, and A0Studios will propose a content plan before you book.",
+      },
+    ],
+  },
 }

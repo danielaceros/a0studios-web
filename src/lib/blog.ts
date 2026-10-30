@@ -12016,6 +12016,123 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-inmobiliarias-madrid",
+    title: "Grabar contenido para inmobiliarias en Madrid: qué funciona y cómo hacerlo en estudio",
+    description:
+      "Cómo grabar contenido para inmobiliarias en Madrid: qué piezas funcionan, cómo grabar al equipo comercial en estudio y cómo sacar un mes de vídeo en una mañana.",
+    publishedAt: "2026-10-30",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["inmobiliarias Madrid", "vídeo inmobiliario", "estudio de grabación", "contenido para agentes", "captación de propietarios", "reels"],
+    keyword: "grabar contenido para inmobiliarias en madrid",
+    intent: "informacional",
+    excerpt:
+      "Las visitas a pisos se graban en el piso. El contenido que capta propietarios y genera confianza se graba en estudio. Qué piezas funcionan y cómo sacarlas en una sola mañana.",
+    seoTitle: "Grabar contenido para inmobiliarias en Madrid",
+    metaDescription:
+      "Grabar contenido para inmobiliarias en Madrid: qué piezas captan propietarios y cómo grabar a tu equipo comercial en estudio en una sola mañana.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Para grabar contenido para una inmobiliaria en Madrid, lo que mejor funciona es separar dos trabajos: las visitas a los inmuebles se graban en el propio piso, y el contenido de autoridad (consejos, mercado, preguntas de propietarios) se graba en un estudio con buen audio y dirección. Así se capta confianza, no solo visitas.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, grabamos a agentes y directores de oficina en sesiones de 2 a 3 horas. Yo dirijo con criterio de venta: cada pieza tiene que traer propietarios que quieran vender o compradores que pregunten, no solo likes.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-inmobiliarias-madrid/hero.webp",
+        alt: "Salón moderno con televisión, sillón y cuadro abstracto, ejemplo de interior de vivienda",
+        width: 1920,
+        height: 1016,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué el contenido de una inmobiliaria falla casi siempre" },
+      {
+        type: "paragraph",
+        text: "Casi todas las inmobiliarias publican lo mismo: el piso, el precio y un tour con música de fondo. Es útil para el comprador de ese piso, pero no construye marca ni capta propietarios. Un propietario que quiere vender decide a quién llamar mirando quién le da confianza antes de necesitarlo.",
+      },
+      {
+        type: "paragraph",
+        text: "Ahí entra la cara del agente. Un vídeo de 45 segundos explicando cómo se fija un precio de venta en un barrio concreto, o qué errores hacen que un piso tarde meses en venderse, trabaja la autoridad. Y eso se graba mejor sentado frente a una cámara con un micrófono decente que en un salón con eco.",
+      },
+      {
+        type: "paragraph",
+        text: "Hay otro problema práctico: grabar en pisos vacíos suena mal. Las estancias sin muebles rebotan el sonido y la luz cambia en media hora. En estudio controlas las dos cosas y puedes grabar 12 o 15 clips con la misma imagen, lo que da coherencia al perfil.",
+      },
+      { type: "heading", level: 2, text: "Cómo grabar contenido inmobiliario en estudio" },
+      { type: "heading", level: 3, text: "Piezas que captan propietarios" },
+      {
+        type: "paragraph",
+        text: "Piensa en las preguntas que te hacen en la primera llamada: cuánto vale mi piso, cuánto tarda en venderse, qué documentos necesito, si compensa reformar antes de vender. Cada una es un clip de 30 a 60 segundos. Con 8 preguntas tienes dos meses de publicaciones.",
+      },
+      { type: "heading", level: 3, text: "Piezas para compradores e inversores" },
+      {
+        type: "paragraph",
+        text: "Para el comprador sirven los vídeos de zona: qué se paga por metro cuadrado en cada barrio, qué hipoteca se puede pedir o qué cambia si compras para alquilar. Se pueden grabar de pie, con un fondo limpio, y rematar después con imágenes de los inmuebles como b-roll.",
+      },
+      { type: "heading", level: 3, text: "Piezas de equipo y de marca" },
+      {
+        type: "paragraph",
+        text: "Si tu inmobiliaria tiene 4 o 5 agentes, graba a cada uno en la misma sesión: presentación, especialidad y una historia de cómo trabaja. Es contenido de marca que luego usan en su LinkedIn, en la web y en los anuncios de captación. Una mañana de grabación cubre a todo el equipo.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-inmobiliarias-madrid/mid.webp",
+        alt: "Salón luminoso con un gran ventanal, referencia de un espacio de vivienda con luz natural",
+        width: 1920,
+        height: 1200,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al grabar para una inmobiliaria" },
+      {
+        type: "list",
+        items: [
+          "Grabar solo tours de pisos y nada que explique por qué eres la mejor opción para vender.",
+          "Hablar de ti en vez de responder la pregunta que se hace el propietario.",
+          "Grabar en el piso vacío, con eco y luz que cambia, en vez de en un sitio controlado.",
+          "Hacer vídeos de más de 90 segundos para un reel de captación.",
+          "No planificar el lote: grabar un vídeo suelto cada semana en lugar de un bloque de 12 o 15 piezas.",
+          "No decidir antes qué anuncio de captación saldrá del material y con qué llamada a la acción.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "El estudio compensa frente a grabar en oficina si tienes más de dos agentes que graban, si quieres usar el material en anuncios de pago o si el audio de tu oficina no es bueno. Para un reel rápido de un piso, grábalo tú con el móvil. Para lo demás, la dirección marca la diferencia.",
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Qué vídeos funcionan mejor para una inmobiliaria?",
+        answer:
+          "Los que responden preguntas concretas de propietarios y compradores, de 30 a 60 segundos: cuánto vale un piso, cuánto tarda en venderse o qué documentos hacen falta. Los tours sirven para vender ese inmueble, no para captar a otros propietarios.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para una inmobiliaria?",
+        answer:
+          "Entre 2 y 3 horas para un agente o un director de oficina. En ese tiempo se graban entre 12 y 15 clips verticales. Si grabáis a todo el equipo, se suele reservar una mañana completa.",
+      },
+      {
+        type: "faq",
+        question: "¿Se puede usar el material en anuncios de pago?",
+        answer:
+          "Sí. Al dirigir la sesión pensando en captación, grabamos varias aperturas distintas de cada pieza para probarlas en Meta Ads. Es una de las razones para grabar con dirección y no solo con cámara.",
+      },
+      {
+        type: "faq",
+        question: "¿Hay que grabar también en los inmuebles?",
+        answer:
+          "Depende del objetivo. Para el inmueble concreto sí, con luz natural y un buen micrófono de solapa. Para autoridad y captación de propietarios es mejor el estudio, con audio y fondo controlados.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes una inmobiliaria en Madrid y quieres grabar un bloque de contenido de captación en una mañana, escríbenos en /#contacto con el tamaño de tu equipo y las preguntas que más te hacen los propietarios, y en A0Studios te proponemos el plan de piezas antes de reservar.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

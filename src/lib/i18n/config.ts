@@ -156,6 +156,7 @@ export const EN_BLOG_SLUGS: Record<string, string> = {
   "estudio-grabar-reels-tiktok-madrid": "studio-record-reels-tiktoks-madrid",
   "grabar-contenido-asesorias-consultoras-madrid": "content-recording-accounting-consulting-firms-madrid",
   "estudio-contenido-madrid-cerca-atocha-como-llegar-reservar": "content-studio-madrid-near-atocha-how-to-book",
+  "grabar-contenido-inmobiliarias-madrid": "real-estate-video-content-madrid-studio",
 }
 
 const EN_PATH_TO_ES: Record<string, string> = Object.fromEntries([

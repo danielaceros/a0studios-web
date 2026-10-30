@@ -937,6 +937,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Tema público extranjero (rotación 1/3): ítem 4 de la lista (ítems 1 y 3 ya publicados, 2 descartado por solape). Ángulo cómo llegar + pasos de reserva, distinto de que-llevar-sesion-grabacion-atico-madrid y preguntas-estudio-grabacion-antes-de-reservar. Imágenes Unsplash (Andres Garcia, Sam McGhee).",
   },
+  {
+    slug: "grabar-contenido-inmobiliarias-madrid",
+    keyword: "grabar contenido para inmobiliarias en madrid",
+    intent: "informacional",
+    createdAt: "2026-10-30",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en la consulta 90d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: listas de Prioridad 1 y 2 agotadas, se elige vertical nuevo (inmobiliarias en Madrid), hermano de clínicas, abogados y asesorías. Imágenes Unsplash (Huy Nguyen, Prydumano Design).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
