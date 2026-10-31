@@ -1338,4 +1338,118 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-startups-saas-madrid": {
+    title: "Filming Content for Startups and SaaS in Madrid: What to Record and How to Do It in a Studio",
+    description:
+      "How to film content for startups and SaaS in Madrid: demos, founder videos and lead-generation ads, and how to get a month of pieces in one session.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["Madrid startups", "SaaS", "product video", "recording studio", "founder content", "Meta Ads"],
+    keyword: "startup video studio madrid",
+    excerpt:
+      "A startup does not need a 3-minute corporate video. It needs short pieces that explain the product and book demos. What to film and how to get it done in one morning.",
+    seoTitle: "Filming Content for Startups and SaaS in Madrid",
+    metaDescription:
+      "Filming content for startups and SaaS in Madrid: which pieces book demos and how to film your founder and team in a studio in a single morning.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "To film content for a startup or SaaS in Madrid, the approach that works best is a batch of 12 to 15 vertical pieces of 30 to 60 seconds, with the founder explaining the problem the product solves, plus a separately recorded demo. All of it fits in a 3-hour session.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, our team films founders and product teams. We direct with an advertiser's mindset: every piece is planned for organic and for demo-booking ads on Meta Ads, not just to look good.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-startups-saas-madrid/hero.webp",
+        alt: "Team gathered around laptops, an example of a startup team at work",
+        width: 1920,
+        height: 1281,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Why startup videos usually fall flat" },
+      {
+        type: "paragraph",
+        text: "Most startups publish one long intro video nobody watches to the end, or screen captures over music. A software buyer decides by looking at who is behind the product and whether they understand the problem within the first 5 seconds.",
+      },
+      {
+        type: "paragraph",
+        text: "The founder is usually the best content asset a company has, and almost never appears on camera. A 40-second video explaining why the product exists builds more trust than any feature page.",
+      },
+      {
+        type: "paragraph",
+        text: "Audio also matters. A coworking space or a living room sounds bad, and for paid ads that hurts: echo lowers retention in the first seconds. In a studio you control sound, light and background, and film everything with the same look.",
+      },
+      { type: "heading", level: 2, text: "How to film SaaS content in a studio" },
+      { type: "heading", level: 3, text: "Founder pieces" },
+      {
+        type: "paragraph",
+        text: "Four or five clips: the problem you solve, who it is for, what makes the product different and a customer story told without invented names. Each one runs 30 to 45 seconds with a hook in the first sentence. They are the base for the founder's LinkedIn and for ads.",
+      },
+      { type: "heading", level: 3, text: "Product and demo pieces" },
+      {
+        type: "paragraph",
+        text: "The demo is recorded on screen and combined with an intro clip filmed in the studio, then assembled in DaVinci Resolve. What works best is a 60 to 90 second walkthrough of a single use case, not the whole product.",
+      },
+      { type: "heading", level: 3, text: "Hiring and team pieces" },
+      {
+        type: "paragraph",
+        text: "If you are hiring, also film 2 or 3 team members explaining how they work. It is employer branding you can reuse on your careers page and on LinkedIn. In one morning you leave with product, brand and recruiting content.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-startups-saas-madrid/mid.webp",
+        alt: "Man presenting to a group in front of a screen, an example of a product presentation",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Common mistakes when filming for a startup" },
+      {
+        type: "list",
+        items: [
+          "Recording one long intro video instead of a batch of short pieces.",
+          "Explaining features before explaining the customer's problem.",
+          "Recording the demo with no script and a screen full of notifications.",
+          "Having the founder read text with no teleprompter or rehearsal.",
+          "Not deciding beforehand which demo-booking ad will come out of the footage.",
+          "Filming in a coworking space, with background noise and changing light.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "A studio pays off if a founder films regularly, if you will use the pieces in ads or if you need visual consistency across your catalogue. For a quick product update, shoot it yourself on a phone with a lavalier microphone.",
+      },
+      { type: "heading", level: 2, text: "Frequently asked questions" },
+      {
+        type: "faq",
+        question: "Which videos does a software startup need?",
+        answer:
+          "A 30 to 45 second founder introduction, a 60 to 90 second demo of a single use case and 8 to 10 clips answering common customer questions. That covers both organic and ads.",
+      },
+      {
+        type: "faq",
+        question: "How long is a session for a startup?",
+        answer:
+          "Between 2 and 3 hours for the founder and a couple of team members. In that time you record 12 to 15 vertical clips. The on-screen demo is recorded separately and edited in afterwards.",
+      },
+      {
+        type: "faq",
+        question: "Can the footage be used in paid ads?",
+        answer:
+          "Yes. We record several different openings for each piece to test on Meta Ads with a clear goal, such as booking a demo. That is the difference between filming with direction and filming with just a camera.",
+      },
+      {
+        type: "faq",
+        question: "Do we need a script?",
+        answer:
+          "You need an outline, not a word-for-word script. We prepare the questions and hooks before the session and the founder answers in their own words, which sounds more natural and converts better.",
+      },
+      {
+        type: "paragraph",
+        text: "If you run a startup or SaaS in Madrid and want to film a month of content in one morning, write to us at /#contacto with your product and ideal customer, and A0Studios will propose a content plan before you book.",
+      },
+    ],
+  },
 }

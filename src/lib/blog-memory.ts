@@ -946,6 +946,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en la consulta 90d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: listas de Prioridad 1 y 2 agotadas, se elige vertical nuevo (inmobiliarias en Madrid), hermano de clínicas, abogados y asesorías. Imágenes Unsplash (Huy Nguyen, Prydumano Design).",
   },
+  {
+    slug: "grabar-contenido-startups-saas-madrid",
+    keyword: "grabar contenido para startups y saas en madrid",
+    intent: "informacional",
+    createdAt: "2026-10-31",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: listas de Prioridad 1 y 2 agotadas, se elige vertical nuevo (startups y SaaS en Madrid), hermano de inmobiliarias, asesorías, clínicas y abogados. Imágenes Unsplash (Annie Spratt, Flipsnack).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

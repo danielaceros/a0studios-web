@@ -12133,6 +12133,123 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-startups-saas-madrid",
+    title: "Grabar contenido para startups y SaaS en Madrid: qué piezas grabar y cómo hacerlo en estudio",
+    description:
+      "Cómo grabar contenido para startups y SaaS en Madrid: demos, vídeos de founder y anuncios de captación, y cómo sacar un mes de piezas en una sola sesión.",
+    publishedAt: "2026-10-31",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["startups Madrid", "SaaS", "vídeo de producto", "estudio de grabación", "contenido para founders", "Meta Ads"],
+    keyword: "grabar contenido para startups y saas en madrid",
+    intent: "informacional",
+    excerpt:
+      "Una startup no necesita un vídeo corporativo de 3 minutos, necesita piezas cortas que expliquen el producto y generen demos. Qué grabar y cómo sacarlo en una sola mañana.",
+    seoTitle: "Grabar contenido para startups y SaaS en Madrid",
+    metaDescription:
+      "Grabar contenido para startups y SaaS en Madrid: qué piezas generan demos y cómo grabar a tu founder y tu equipo en estudio en una sola mañana.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Para grabar contenido para una startup o un SaaS en Madrid, lo que mejor funciona es un lote de 12 a 15 piezas verticales de 30 a 60 segundos, con el founder explicando el problema que resuelve el producto, más una demo grabada aparte. Todo se puede sacar en una sesión de 3 horas.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, grabamos a founders y equipos de producto. Yo dirijo con criterio de anunciante: cada pieza se piensa para orgánico y para anuncios de captación de demos en Meta Ads, no solo para que quede bonita.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-startups-saas-madrid/hero.webp",
+        alt: "Equipo de trabajo reunido alrededor de portátiles, ejemplo de equipo de una startup",
+        width: 1920,
+        height: 1281,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué el vídeo de una startup suele fallar" },
+      {
+        type: "paragraph",
+        text: "La mayoría de startups publican un vídeo de presentación largo que nadie ve entero, o capturas de pantalla con música. El comprador de software decide mirando quién hay detrás y si entiende el problema que resuelves en los primeros 5 segundos.",
+      },
+      {
+        type: "paragraph",
+        text: "El founder suele ser el mejor activo de contenido que tiene la empresa, y casi nunca sale en cámara. Un vídeo de 40 segundos contando por qué existe el producto genera más confianza que cualquier página de funcionalidades.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, el audio de una oficina de coworking o de un salón de casa suena mal. Para anuncios de pago esto penaliza: un audio con eco baja la retención en los primeros segundos. En estudio controlas sonido, luz y fondo, y grabas todo con la misma imagen.",
+      },
+      { type: "heading", level: 2, text: "Cómo grabar contenido para un SaaS en estudio" },
+      { type: "heading", level: 3, text: "Piezas del founder" },
+      {
+        type: "paragraph",
+        text: "Cuatro o cinco clips: el problema que resuelves, a quién va dirigido, qué hace distinto el producto y una historia de cliente contada sin nombres inventados. Cada uno de 30 a 45 segundos, con gancho en la primera frase. Son la base tanto del LinkedIn del founder como de los anuncios.",
+      },
+      { type: "heading", level: 3, text: "Piezas de producto y demo" },
+      {
+        type: "paragraph",
+        text: "La demo se graba en pantalla con DaVinci Resolve o con grabación de pantalla, y se combina con un clip de presentación en estudio. Lo que mejor funciona es un recorrido de 60 a 90 segundos que muestra un único caso de uso, no todo el producto.",
+      },
+      { type: "heading", level: 3, text: "Piezas para captación y empleo" },
+      {
+        type: "paragraph",
+        text: "Si estás contratando, graba también a 2 o 3 personas del equipo explicando cómo trabajan. Es contenido de employer branding que puedes reutilizar en la página de empleo y en LinkedIn. En la misma mañana te llevas contenido de producto, de marca y de reclutamiento.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-startups-saas-madrid/mid.webp",
+        alt: "Hombre presentando ante un grupo con una pantalla, ejemplo de presentación de producto",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al grabar para una startup" },
+      {
+        type: "list",
+        items: [
+          "Grabar un único vídeo largo de presentación en vez de un lote de piezas cortas.",
+          "Explicar las funcionalidades antes de explicar el problema del cliente.",
+          "Grabar la demo sin guion y con la pantalla llena de notificaciones.",
+          "Hacer que el founder lea un texto sin teleprompter ni ensayo previo.",
+          "No decidir antes qué anuncio de captación de demos saldrá del material.",
+          "Grabar en el coworking, con ruido de fondo y cambios de luz.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "El estudio compensa si hay un founder que graba con regularidad, si vas a usar las piezas en anuncios o si necesitas coherencia visual en todo el catálogo. Para una actualización rápida de producto, grábala tú con el móvil y un micrófono de solapa.",
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Qué vídeos necesita una startup de software?",
+        answer:
+          "Una presentación del founder de 30 a 45 segundos, una demo de 60 a 90 segundos de un único caso de uso y entre 8 y 10 clips que respondan preguntas frecuentes de clientes. Con eso se cubre orgánico y anuncios.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para una startup?",
+        answer:
+          "Entre 2 y 3 horas para el founder y un par de miembros del equipo. En ese tiempo se graban entre 12 y 15 clips verticales. La demo en pantalla se graba aparte y se monta después.",
+      },
+      {
+        type: "faq",
+        question: "¿Se puede usar el material en anuncios de pago?",
+        answer:
+          "Sí. Grabamos varias aperturas distintas de cada pieza para probarlas en Meta Ads con un objetivo claro, por ejemplo reservar una demo. Esa es la diferencia entre grabar con dirección y solo con cámara.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta guion?",
+        answer:
+          "Hace falta un esquema, no un guion palabra por palabra. Preparamos las preguntas y los ganchos antes de la sesión y el founder responde con sus palabras, que suena más natural y convierte mejor.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes una startup o un SaaS en Madrid y quieres grabar un mes de contenido en una mañana, escríbenos en /#contacto con tu producto y tu cliente ideal, y en A0Studios te proponemos el plan de piezas antes de reservar.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
