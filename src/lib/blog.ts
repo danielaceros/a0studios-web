@@ -12250,6 +12250,111 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "alquiler-estudio-grabacion-madrid-por-horas-visitantes",
+    title: "Alquiler de estudio de grabación en Madrid por horas: guía para visitantes",
+    description:
+      "Alquiler de estudio de grabación en Madrid por horas: precios de referencia, cuántas horas reservar y cómo aprovechar la sesión si estás de visita en la ciudad.",
+    publishedAt: "2026-11-01",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["alquiler estudio Madrid", "estudio por horas", "visitantes", "sesión de grabación", "estudio de contenido", "Atocha"],
+    keyword: "alquiler de estudio de grabación en madrid por horas",
+    intent: "informacional",
+    excerpt:
+      "Cuánto cuesta alquilar un estudio por horas en Madrid, cuántas horas reservar y cómo salir con material listo si solo estás unos días en la ciudad.",
+    seoTitle: "Alquiler de estudio de grabación en Madrid por horas",
+    metaDescription:
+      "Alquiler de estudio de grabación en Madrid por horas: precio de referencia, cuántas horas reservar y cómo aprovechar la sesión si estás de visita.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Alquilar un estudio de grabación en Madrid por horas cuesta, de media, entre 80 y 150 € la hora según el equipo y si incluye operador. En A0Studios, en Ronda de Atocha 16 (7ª planta), trabajamos con bloques de 2 a 4 horas, que es lo que necesita casi cualquier visitante para salir con material útil.",
+      },
+      {
+        type: "paragraph",
+        text: "Si vienes de fuera de Madrid, lo importante es no perder la visita: llegar con el plan cerrado, grabar con dirección y volver con clips listos para publicar. Yo dirijo la sesión con criterio de venta, así que no pagas solo el espacio, pagas que cada hora produzca piezas que sirvan para orgánico o para anuncios.",
+      },
+      {
+        type: "image",
+        src: "/blog/alquiler-estudio-grabacion-madrid-por-horas-visitantes/hero.webp",
+        alt: "Estudio de grabación con focos, cámara y mesa preparados para una sesión por horas",
+        width: 1920,
+        height: 1440,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Cómo funciona el alquiler por horas de un estudio en Madrid" },
+      {
+        type: "paragraph",
+        text: "El alquiler por horas es una reserva de bloque: eliges fecha y franja, y durante ese tiempo tienes el estudio, la luz, el sonido y el equipo montado. Lo habitual es un mínimo de 2 horas, porque entre montaje, pruebas de micrófono y ajuste de luz se van 20 o 30 minutos antes de grabar nada.",
+      },
+      {
+        type: "paragraph",
+        text: "Para un visitante, el bloque de 3 horas suele ser el punto dulce: da para 12 a 15 clips verticales, o para 2 o 3 piezas más largas con sus variantes. Si solo estás unos días en la ciudad, es mejor una sesión concentrada que dos mañanas sueltas.",
+      },
+      { type: "heading", level: 2, text: "Cómo sacar partido a cada hora" },
+      { type: "heading", level: 3, text: "Llega con el esquema cerrado" },
+      {
+        type: "paragraph",
+        text: "No hace falta un guion palabra por palabra. Hace falta saber qué quieres decir, a quién y con qué llamada a la acción. Si me mandas el esquema dos días antes, preparamos preguntas y aperturas y la primera hora ya es de grabación real.",
+      },
+      { type: "heading", level: 3, text: "Graba por lotes, no por piezas" },
+      {
+        type: "paragraph",
+        text: "Cambiar de plano o de ropa cuesta tiempo. Agrupamos todo lo que va en el mismo encuadre: primero todos los clips a cámara, luego las entrevistas, al final los planos de apoyo. Con una Sony A7 y dos micrófonos es un flujo muy rápido.",
+      },
+      { type: "heading", level: 3, text: "Piensa ya en la edición" },
+      {
+        type: "paragraph",
+        text: "Si vas a volar de vuelta, decide antes si te llevas el bruto o prefieres que lo montemos. Nuestro servicio Grabación + Edición se entrega en DaVinci Resolve y CapCut según el formato, y puedes recibirlo en remoto sin volver a Madrid.",
+      },
+      {
+        type: "image",
+        src: "/blog/alquiler-estudio-grabacion-madrid-por-horas-visitantes/mid.webp",
+        alt: "Persona grabando contenido con trípode y micrófono durante una sesión de estudio",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al alquilar un estudio por horas" },
+      {
+        type: "list",
+        items: [
+          "Reservar solo una hora y descubrir que el montaje se come un tercio del tiempo.",
+          "Llegar sin saber qué piezas necesitas ni dónde se van a publicar.",
+          "No confirmar si la tarifa incluye operador, luz y sonido o solo el espacio.",
+          "Planificar la sesión el mismo día del vuelo, sin margen para retrasos.",
+          "Grabar sin pensar en aperturas alternativas para probar en Meta Ads.",
+          "Olvidar llevar ropa de repuesto y evitar los patrones que dan moiré en cámara.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto cuesta alquilar un estudio de grabación por horas en Madrid?",
+        answer: "Depende del equipo y de si incluye operador y dirección. Como referencia de mercado, entre 80 y 150 € la hora. En A0Studios presupuestamos por sesión según el servicio: Solo Grabación, Grabación + Edición o Producción Completa.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuántas horas necesito reservar?",
+        answer: "Entre 2 y 4 horas para la mayoría de casos. Con 3 horas se graban unos 12 a 15 clips verticales o 2 o 3 piezas largas. Menos de 2 horas casi nunca compensa por el tiempo de montaje.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo reservar si solo estoy unos días en Madrid?",
+        answer: "Sí. Escríbenos con tus fechas y te proponemos una franja. El estudio está junto a Atocha, así que es fácil llegar desde el AVE o el aeropuerto.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo recibir el vídeo editado fuera de España?",
+        answer: "Sí. Con Grabación + Edición entregamos el montaje por enlace descargable, con una ronda de cambios, para que no tengas que volver a Madrid.",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a estar en Madrid y quieres grabar en un estudio con dirección de alguien que hace anuncios y sabe vender, escríbenos en /#contacto con tus fechas y lo que necesitas, y en A0Studios te proponemos el bloque de horas adecuado.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

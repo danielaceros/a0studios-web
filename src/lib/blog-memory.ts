@@ -955,6 +955,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: listas de Prioridad 1 y 2 agotadas, se elige vertical nuevo (startups y SaaS en Madrid), hermano de inmobiliarias, asesorías, clínicas y abogados. Imágenes Unsplash (Annie Spratt, Flipsnack).",
   },
+  {
+    slug: "alquiler-estudio-grabacion-madrid-por-horas-visitantes",
+    keyword: "alquiler de estudio de grabación en madrid por horas",
+    intent: "informacional",
+    createdAt: "2026-11-01",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (RefreshError invalid_grant en consultas 90d/28d, token OAuth caducado, escalar a Dani). Tema público extranjero (rotación 1/3), ítem 2. Ángulo visitante, distinto de 'alquiler-estudio-horas-grabar-anuncios-madrid'. Imágenes Unsplash.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

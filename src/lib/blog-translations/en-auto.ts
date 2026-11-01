@@ -1452,4 +1452,106 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "alquiler-estudio-grabacion-madrid-por-horas-visitantes": {
+    title: "Rent a Recording Studio in Madrid by the Hour: Guide for Visitors",
+    description:
+      "Renting a recording studio in Madrid by the hour: reference prices, how many hours to book and how to make the most of your session when visiting the city.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["rent studio Madrid", "hourly studio", "visitors", "recording session", "content studio", "Atocha"],
+    keyword: "rent recording studio madrid",
+    excerpt:
+      "How much it costs to rent a studio by the hour in Madrid, how many hours to book and how to leave with finished footage if you are only in town for a few days.",
+    seoTitle: "Rent a Recording Studio in Madrid by the Hour",
+    metaDescription:
+      "Rent a recording studio in Madrid by the hour: reference prices, how many hours to book and how to get the most from your session as a visitor.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Renting a recording studio in Madrid by the hour typically costs between €80 and €150 an hour depending on equipment and whether an operator is included. At A0Studios, at Ronda de Atocha 16 (7th floor), we work in blocks of 2 to 4 hours, which is what almost any visitor needs to leave with usable footage.",
+      },
+      {
+        type: "paragraph",
+        text: "If you are visiting Madrid, the goal is not to waste the trip: arrive with the plan settled, record with direction and fly home with clips ready to publish. Our team directs the session with a sales mindset, so you are not just paying for a room, you are paying for every hour to produce pieces that work for organic or paid.",
+      },
+      {
+        type: "image",
+        src: "/blog/alquiler-estudio-grabacion-madrid-por-horas-visitantes/hero.webp",
+        alt: "Recording studio with lights, camera and table set up for an hourly session",
+        width: 1920,
+        height: 1440,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "How hourly studio rental works in Madrid" },
+      {
+        type: "paragraph",
+        text: "Hourly rental is a block booking: you pick a date and a slot, and during that time you get the studio, lighting, sound and the equipment already set up. The usual minimum is 2 hours, because setup, microphone tests and lighting adjustments take 20 to 30 minutes before anything is recorded.",
+      },
+      {
+        type: "paragraph",
+        text: "For a visitor, a 3-hour block is the sweet spot: enough for 12 to 15 vertical clips, or 2 or 3 longer pieces with variants. If you are only in town for a few days, one focused session beats two loose mornings.",
+      },
+      { type: "heading", level: 2, text: "How to get the most out of every hour" },
+      { type: "heading", level: 3, text: "Arrive with the outline locked" },
+      {
+        type: "paragraph",
+        text: "You do not need a word-for-word script. You need to know what you want to say, to whom and with what call to action. If you send us the outline two days ahead, we prepare questions and hooks and the first hour is already real recording.",
+      },
+      { type: "heading", level: 3, text: "Batch record, do not go piece by piece" },
+      {
+        type: "paragraph",
+        text: "Changing framing or outfit costs time. We group everything that shares a setup: all the to-camera clips first, then interviews, then supporting shots last. With a Sony A7 and two microphones the flow is very fast.",
+      },
+      { type: "heading", level: 3, text: "Plan for editing from the start" },
+      {
+        type: "paragraph",
+        text: "If you are flying home, decide beforehand whether you take the raw footage or want us to edit. Our Recording + Editing service is delivered from DaVinci Resolve and CapCut depending on the format, and you can receive it remotely without coming back to Madrid.",
+      },
+      {
+        type: "image",
+        src: "/blog/alquiler-estudio-grabacion-madrid-por-horas-visitantes/mid.webp",
+        alt: "Person filming content with a tripod and microphone during a studio session",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Common mistakes when renting a studio by the hour" },
+      {
+        type: "list",
+        items: [
+          "Booking a single hour and finding that setup eats a third of it.",
+          "Showing up without knowing which pieces you need or where they will be published.",
+          "Not checking whether the rate includes an operator, lighting and sound or just the room.",
+          "Scheduling the session on the day of your flight, with no margin for delays.",
+          "Recording without alternative openings to test on Meta Ads.",
+          "Forgetting spare clothes and wearing patterns that cause moiré on camera.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Frequently asked questions" },
+      {
+        type: "faq",
+        question: "How much does it cost to rent a recording studio by the hour in Madrid?",
+        answer: "It depends on equipment and whether an operator and direction are included. As a market reference, between €80 and €150 an hour. At A0Studios we quote per session by service: Recording Only, Recording + Editing or Full Production.",
+      },
+      {
+        type: "faq",
+        question: "How many hours do I need to book?",
+        answer: "Between 2 and 4 hours for most cases. In 3 hours you record around 12 to 15 vertical clips or 2 or 3 long pieces. Less than 2 hours rarely pays off because of setup time.",
+      },
+      {
+        type: "faq",
+        question: "Can I book if I am only in Madrid for a few days?",
+        answer: "Yes. Send us your dates and we will propose a slot. The studio is next to Atocha, so it is easy to reach from the high-speed train or the airport.",
+      },
+      {
+        type: "faq",
+        question: "Can I receive the edited video outside Spain?",
+        answer: "Yes. With Recording + Editing we deliver the cut by download link, with one round of changes, so you do not have to come back to Madrid.",
+      },
+      {
+        type: "paragraph",
+        text: "If you will be in Madrid and want to record in a studio directed by someone who makes ads and knows how to sell, write to us at /#contacto with your dates and what you need, and A0Studios will propose the right block of hours.",
+      },
+    ],
+  },
 }
