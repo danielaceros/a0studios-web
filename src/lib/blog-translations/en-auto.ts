@@ -1554,4 +1554,118 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-ecommerce-marcas-dtc-madrid": {
+    title: "Filming Content for Ecommerce and DTC Brands in Madrid: Ads and Organic in One Studio Session",
+    description:
+      "How to film content for ecommerce and DTC brands in Madrid: product ads, unboxing and founder videos, and how to get a month of pieces in one session.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["Madrid ecommerce", "DTC brands", "product ads", "recording studio", "Meta Ads", "organic content"],
+    keyword: "ecommerce video studio madrid",
+    excerpt:
+      "An online store lives on ads that convert and content that builds trust. What to film, how many pieces one session gives you and how to plan it for Meta Ads and organic.",
+    seoTitle: "Filming Content for Ecommerce and DTC Brands in Madrid",
+    metaDescription:
+      "Filming content for ecommerce and DTC brands in Madrid: which pieces work in ads and organic, and how to get a month of videos from one studio session.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "To film content for an ecommerce or DTC brand in Madrid, the approach that works best is a batch of 15 to 20 vertical pieces of 15 to 45 seconds: product in hand, unboxing, a usage test and the founder explaining why the brand exists. It all fits in a 3 to 4 hour session.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, we film product and people on the same day. Our team directs with an advertiser's mindset: every piece is planned with several openings to test on Meta Ads and TikTok Ads, plus a clean version for organic, not just to make the product look nice.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-ecommerce-marcas-dtc-madrid/hero.webp",
+        alt: "Cardboard box on a white table, an example of an ecommerce product ready to be filmed",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Why ecommerce content usually falls short" },
+      {
+        type: "paragraph",
+        text: "Many online stores only have catalogue photos and one product video with music. That does little for ads: the buyer needs to see the product in use, hear a real person explain it and understand within the first 3 seconds why it matters to them.",
+      },
+      {
+        type: "paragraph",
+        text: "The other problem is volume. An ad account needs to rotate creatives every few weeks because they fatigue. If you film one piece a month, you have nothing to test. With one session per quarter and good planning you have material to rotate for weeks.",
+      },
+      {
+        type: "paragraph",
+        text: "Sound matters more than it seems, too. An unboxing filmed in an echoing kitchen sounds cheap. In a studio you control light, background and audio, and every piece shares the same brand look.",
+      },
+      { type: "heading", level: 2, text: "How to film ecommerce content in a studio" },
+      { type: "heading", level: 3, text: "Product in hand and unboxing" },
+      {
+        type: "paragraph",
+        text: "Between 6 and 8 short clips: the product in hand, opening the package, the detail of the material, the size compared with an everyday object. With a Sony A7 on a tripod and an overhead angle for hands, you get two angles per piece without moving anything.",
+      },
+      { type: "heading", level: 3, text: "Usage test and to-camera review" },
+      {
+        type: "paragraph",
+        text: "One person uses the product and tells what happens, in their own words, without reading. We record 4 or 5 versions with different openings: a question, an objection, a result. These are the ones you later test in ads to see which holds attention best.",
+      },
+      { type: "heading", level: 3, text: "The founder and the brand story" },
+      {
+        type: "paragraph",
+        text: "A 40-second clip of the founder explaining why they started the brand builds trust and works both on the product page and in retargeting ads. It is the piece almost no store films and the one that sets you apart most.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-ecommerce-marcas-dtc-madrid/mid.webp",
+        alt: "Woman in a white t-shirt holding a microphone, an example of recording a to-camera review",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Common mistakes when filming for an online store" },
+      {
+        type: "list",
+        items: [
+          "Recording one long brand video instead of a batch of short pieces to rotate in ads.",
+          "Showing the product without showing it in use or in someone's hands.",
+          "Letting someone read a script with no teleprompter, in a radio-ad voice.",
+          "Not recording alternative openings so you can test on Meta Ads.",
+          "Filming the product with reflections and fingerprints that cannot be removed in editing.",
+          "Not deciding beforehand which piece goes on the product page, which in ads and which in organic.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "A studio pays off if you run campaigns regularly, if you have several products or if you want visual consistency across the store. For a single product and a quick test, you can start with a phone and window light.",
+      },
+      { type: "heading", level: 2, text: "Frequently asked questions" },
+      {
+        type: "faq",
+        question: "Which videos does an ecommerce need to advertise?",
+        answer:
+          "Between 8 and 10 clips of the product in use, 4 or 5 to-camera reviews with different openings and one founder piece. That gives you material to test several creatives on Meta Ads and TikTok Ads.",
+      },
+      {
+        type: "faq",
+        question: "How long is a session for a DTC brand?",
+        answer:
+          "Between 3 and 4 hours for a small range. In that time you record 15 to 20 vertical clips. If you have many products, it is better to split it into two sessions by product family.",
+      },
+      {
+        type: "faq",
+        question: "Can physical products be filmed in the studio?",
+        answer:
+          "Yes. You bring the product and samples, and we set up background, light and angles. If the product is large or fragile, tell us beforehand so we can prepare the space and access to the 7th floor.",
+      },
+      {
+        type: "faq",
+        question: "Do you handle editing for ads?",
+        answer:
+          "With Recording + Editing we cut the pieces in DaVinci Resolve and CapCut, with subtitles and the formats each platform needs. With Full Production we add the script and opening variants.",
+      },
+      {
+        type: "paragraph",
+        text: "If you run an ecommerce or DTC brand in Madrid and want to film a month of ads and content in one morning, write to us at /#contacto with your product and ideal customer, and A0Studios will propose a content plan before you book.",
+      },
+    ],
+  },
 }

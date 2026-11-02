@@ -12355,6 +12355,123 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-ecommerce-marcas-dtc-madrid",
+    title: "Grabar contenido para ecommerce y marcas DTC en Madrid: anuncios y orgánico en una sesión de estudio",
+    description:
+      "Cómo grabar contenido para ecommerce y marcas DTC en Madrid: anuncios de producto, unboxing y vídeos de fundador, y cómo sacar un mes de piezas en una sesión.",
+    publishedAt: "2026-11-02",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["ecommerce Madrid", "marcas DTC", "anuncios de producto", "estudio de grabación", "Meta Ads", "contenido orgánico"],
+    keyword: "grabar contenido para ecommerce y marcas dtc en madrid",
+    intent: "informacional",
+    excerpt:
+      "Una tienda online vive de anuncios que convierten y de contenido que genera confianza. Qué grabar, cuántas piezas salen de una sesión y cómo plantearlo para Meta Ads y orgánico.",
+    seoTitle: "Grabar contenido para ecommerce y marcas DTC en Madrid",
+    metaDescription:
+      "Grabar contenido para ecommerce y marcas DTC en Madrid: qué piezas funcionan en anuncios y orgánico y cómo sacar un mes de vídeos en una sesión de estudio.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Para grabar contenido para un ecommerce o una marca DTC en Madrid, lo que mejor funciona es un lote de 15 a 20 piezas verticales de 15 a 45 segundos: producto en mano, unboxing, prueba de uso y el fundador explicando por qué existe la marca. Se graba en una sesión de 3 a 4 horas.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, grabamos producto y personas en el mismo día. Yo dirijo con criterio de anunciante: cada pieza se plantea con varias aperturas para probar en Meta Ads y TikTok Ads, y con una versión limpia para orgánico, no solo para que el producto se vea bonito.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-ecommerce-marcas-dtc-madrid/hero.webp",
+        alt: "Caja de cartón sobre una mesa blanca, ejemplo de producto de ecommerce preparado para grabar",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué el contenido de un ecommerce suele quedarse corto" },
+      {
+        type: "paragraph",
+        text: "Muchas tiendas online solo tienen fotos de catálogo y un vídeo de producto con música. Para anunciar eso sirve poco: el comprador necesita ver el producto en uso, oír a alguien real explicarlo y entender en los primeros 3 segundos por qué le interesa.",
+      },
+      {
+        type: "paragraph",
+        text: "El otro problema es el volumen. Una cuenta de anuncios necesita rotar creatividades cada pocas semanas porque se fatigan. Si grabas una sola pieza cada mes, no tienes nada que probar. Con una sesión por trimestre y buena planificación tienes material para rotar durante semanas.",
+      },
+      {
+        type: "paragraph",
+        text: "Y el sonido importa más de lo que parece. Un unboxing grabado en una cocina con eco suena barato. En estudio controlas luz, fondo y audio, y todas las piezas comparten la misma imagen de marca.",
+      },
+      { type: "heading", level: 2, text: "Cómo grabar contenido para un ecommerce en estudio" },
+      { type: "heading", level: 3, text: "Producto en mano y unboxing" },
+      {
+        type: "paragraph",
+        text: "Entre 6 y 8 clips cortos: el producto en la mano, abrir el paquete, el detalle del material, el tamaño comparado con algo cotidiano. Con una Sony A7 en trípode y un plano cenital para las manos tienes dos ángulos por pieza sin mover nada.",
+      },
+      { type: "heading", level: 3, text: "Prueba de uso y reseña a cámara" },
+      {
+        type: "paragraph",
+        text: "Una persona usa el producto y cuenta lo que le pasa, en sus palabras, sin leer. Grabamos 4 o 5 versiones con aperturas distintas: una pregunta, una objeción, un resultado. Son las que luego se prueban en anuncios para ver cuál retiene mejor.",
+      },
+      { type: "heading", level: 3, text: "El fundador y la historia de la marca" },
+      {
+        type: "paragraph",
+        text: "Un clip de 40 segundos del fundador contando por qué creó la marca genera confianza y funciona tanto en la ficha de producto como en anuncios de retargeting. Es la pieza que casi ninguna tienda graba y la que más diferencia.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-ecommerce-marcas-dtc-madrid/mid.webp",
+        alt: "Mujer con camiseta blanca sosteniendo un micrófono, ejemplo de grabación de una reseña a cámara",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al grabar para una tienda online" },
+      {
+        type: "list",
+        items: [
+          "Grabar un único vídeo de marca largo en vez de un lote de piezas cortas para rotar anuncios.",
+          "Enseñar el producto sin mostrarlo en uso ni en manos de una persona.",
+          "Dejar que alguien lea un texto sin teleprompter, con voz de anuncio de radio.",
+          "No grabar aperturas alternativas para poder probar en Meta Ads.",
+          "Grabar el producto con reflejos y huellas que luego no se pueden quitar en edición.",
+          "No decidir antes qué pieza va a ficha de producto, cuál a anuncio y cuál a orgánico.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "El estudio compensa si lanzas campañas con regularidad, si tienes varios productos o si quieres coherencia visual en toda la tienda. Para un producto suelto y una prueba rápida, puedes empezar con el móvil y luz de ventana.",
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Qué vídeos necesita un ecommerce para anunciarse?",
+        answer:
+          "Entre 8 y 10 clips de producto en uso, 4 o 5 reseñas a cámara con aperturas distintas y una pieza del fundador. Con eso hay material para probar varias creatividades en Meta Ads y TikTok Ads.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para una marca DTC?",
+        answer:
+          "Entre 3 y 4 horas para una gama pequeña. En ese tiempo se graban entre 15 y 20 clips verticales. Si tienes muchos productos, conviene dividirlo en dos sesiones por familias de producto.",
+      },
+      {
+        type: "faq",
+        question: "¿Se puede grabar producto físico en el estudio?",
+        answer:
+          "Sí. Llevas el producto y las muestras, y nosotros montamos fondo, luz y ángulos. Si el producto es grande o delicado, nos avisas antes para preparar el espacio y el acceso a la 7ª planta.",
+      },
+      {
+        type: "faq",
+        question: "¿Os encargáis de la edición para anuncios?",
+        answer:
+          "Con Grabación + Edición montamos las piezas en DaVinci Resolve y CapCut, con subtítulos y los formatos que pida cada plataforma. Con Producción Completa añadimos guion y variantes de apertura.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes un ecommerce o una marca DTC en Madrid y quieres grabar un mes de anuncios y contenido en una mañana, escríbenos en /#contacto con tu producto y tu cliente ideal, y en A0Studios te proponemos el plan de piezas antes de reservar.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

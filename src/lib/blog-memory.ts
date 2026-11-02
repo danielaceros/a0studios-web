@@ -964,6 +964,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (RefreshError invalid_grant en consultas 90d/28d, token OAuth caducado, escalar a Dani). Tema público extranjero (rotación 1/3), ítem 2. Ángulo visitante, distinto de 'alquiler-estudio-horas-grabar-anuncios-madrid'. Imágenes Unsplash.",
   },
+  {
+    slug: "grabar-contenido-ecommerce-marcas-dtc-madrid",
+    keyword: "grabar contenido para ecommerce y marcas dtc en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-02",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (RefreshError invalid_grant en consultas 90d/28d, token OAuth caducado, escalar a Dani). Fallback evergreen: listas de Prioridad 1 y 2 agotadas, se elige vertical nuevo (ecommerce y marcas DTC en Madrid), hermano de startups, inmobiliarias, asesorías, clínicas y abogados. Imágenes Unsplash (Mildlee, Laura Chouette).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
