@@ -973,6 +973,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (RefreshError invalid_grant en consultas 90d/28d, token OAuth caducado, escalar a Dani). Fallback evergreen: listas de Prioridad 1 y 2 agotadas, se elige vertical nuevo (ecommerce y marcas DTC en Madrid), hermano de startups, inmobiliarias, asesorías, clínicas y abogados. Imágenes Unsplash (Mildlee, Laura Chouette).",
   },
+  {
+    slug: "grabar-contenido-agencias-marketing-madrid",
+    keyword: "estudio de grabacion para agencias de marketing en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-03",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (RefreshError invalid_grant en consultas 90d/28d, token OAuth caducado, escalar a Dani). Fallback evergreen: listas de Prioridad 1 y 2 agotadas, se elige vertical nuevo (agencias de marketing en Madrid, B2B), hermano de ecommerce, startups, inmobiliarias y asesorías. Imágenes Unsplash (Campaign Creators, Voyage Pro).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

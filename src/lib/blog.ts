@@ -12472,6 +12472,123 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-agencias-marketing-madrid",
+    title: "Estudio de grabación para agencias de marketing en Madrid: graba los anuncios de tus clientes sin montar plató",
+    description:
+      "Estudio de grabación para agencias de marketing en Madrid: cómo grabar anuncios y contenido de varios clientes en un ático con dirección técnica, sin montar tu propio plató.",
+    publishedAt: "2026-11-03",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["agencias de marketing Madrid", "estudio de grabación", "anuncios para clientes", "Meta Ads", "producción de vídeo", "contenido orgánico"],
+    keyword: "estudio de grabacion para agencias de marketing en madrid",
+    intent: "informacional",
+    excerpt:
+      "Si tu agencia vende vídeo a sus clientes pero no tiene plató, alquilar un estudio con dirección es más barato que montarlo. Cómo plantear la sesión y qué pedir.",
+    seoTitle: "Estudio de grabación para agencias de marketing en Madrid",
+    metaDescription:
+      "Estudio de grabación para agencias de marketing en Madrid: graba anuncios de varios clientes en una sesión, con dirección técnica y sin montar plató.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Una agencia de marketing en Madrid que vende vídeo a sus clientes no necesita plató propio: le sale más barato reservar un estudio por bloques de 3 o 4 horas y grabar en ese tiempo las piezas de 2 o 3 clientes. Lo que sí necesita es que alguien dirija la sesión con criterio de anunciante.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, trabajamos con agencias que nos traen el briefing y los clientes. Yo dirijo la grabación pensando en qué pieza se va a anunciar y qué gancho aguanta mejor en Meta Ads y TikTok Ads, para que la agencia entregue material que se puede probar y no solo material bonito.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-agencias-marketing-madrid/hero.webp",
+        alt: "Hombre de pie frente a un equipo sentado con portátiles alrededor de una mesa, reunión de una agencia de marketing",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué una agencia no debería montar su propio plató" },
+      {
+        type: "paragraph",
+        text: "Un plató propio exige alquiler, luz, fondos, audio, una cámara decente y a alguien que lo mantenga. Con dos o tres sesiones al mes, la inversión se amortiza mal y el espacio se queda parado el resto del tiempo. Un estudio por horas convierte ese coste fijo en un coste por proyecto que puedes repercutir al cliente.",
+      },
+      {
+        type: "paragraph",
+        text: "El segundo problema es el criterio. Una agencia suele tener buen estratega y buen editor, pero no siempre alguien que sepa dirigir a un cliente que nunca ha estado delante de una cámara. Ahí se pierde la sesión: tomas rígidas, aperturas flojas y tres semanas de edición para arreglarlo.",
+      },
+      {
+        type: "paragraph",
+        text: "Y está el tiempo del equipo. Cada hora que tu community manager pasa montando luces es una hora que no pasa en las cuentas de los clientes. En estudio llegáis, grabáis y os vais.",
+      },
+      { type: "heading", level: 2, text: "Cómo plantear una sesión de agencia en estudio" },
+      { type: "heading", level: 3, text: "Agrupa varios clientes en un mismo bloque" },
+      {
+        type: "paragraph",
+        text: "Un bloque de 4 horas da para dos clientes con 8 o 10 clips cada uno si el briefing está cerrado. Cambiar de fondo y de ropa lleva unos 20 minutos. Conviene ordenar los clientes de menos a más complejos para no arrancar el día con el más difícil.",
+      },
+      { type: "heading", level: 3, text: "Llega con el briefing y las aperturas decididas" },
+      {
+        type: "paragraph",
+        text: "Para cada pieza, el guion y al menos tres aperturas distintas: una pregunta, una objeción y un resultado. Grabar las tres cuesta un par de minutos más y te da algo que probar en la cuenta de anuncios. Con teleprompter, el cliente lee sin parecer que lee.",
+      },
+      { type: "heading", level: 3, text: "Decide quién edita antes de grabar" },
+      {
+        type: "paragraph",
+        text: "Si tu equipo edita, te entregamos el material con audio limpio y claqueta por pieza para que no pierdas tiempo ordenando. Si prefieres externalizarlo, con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y los formatos de cada plataforma.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-agencias-marketing-madrid/mid.webp",
+        alt: "Cámara montada sobre un trípode frente a un fondo blanco en un estudio de grabación",
+        width: 1920,
+        height: 1282,
+      },
+      { type: "heading", level: 2, text: "Errores comunes cuando una agencia graba en estudio" },
+      {
+        type: "list",
+        items: [
+          "Reservar el estudio sin tener cerrado el guion ni el briefing del cliente.",
+          "Traer al cliente sin prepararlo antes: sin saber qué va a decir, graba lento y sin soltura.",
+          "Grabar una sola apertura por pieza y no tener nada que probar en anuncios.",
+          "Meter cuatro clientes en un bloque de 3 horas y acabar sin tiempo para ninguno.",
+          "No acordar con el estudio el formato de entrega y los nombres de archivo.",
+          "Ir solo con criterio estético y olvidar para qué plataforma y objetivo es cada pieza.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si grabas para clientes al menos una vez al mes o si quieres ofrecer vídeo como servicio sin invertir en equipo. Si tu cliente solo necesita una pieza al año, quizá le baste con grabar con el móvil y buena luz.",
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Puedo grabar a varios clientes de mi agencia en una misma sesión?",
+        answer:
+          "Sí. Un bloque de 4 horas da para dos clientes si el briefing está cerrado. Reservamos el tiempo por bloques y organizamos el orden para minimizar cambios de fondo.",
+      },
+      {
+        type: "faq",
+        question: "¿Ponéis vuestro nombre en el material que entregamos?",
+        answer:
+          "No. El material se entrega para que la agencia lo use como suyo. Hablamos de cómo presentarlo al cliente antes de la sesión para que todo quede claro.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué equipo y formato de entrega ofrecéis?",
+        answer:
+          "Grabamos con Sony A7, micrófonos de solapa y teleprompter. Entregamos archivos nombrados por pieza, en vertical o en horizontal según pidas, con audio limpio.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto cuesta una sesión para una agencia?",
+        answer:
+          "Depende del bloque de horas y de si incluye edición o producción completa. Escríbenos con el número de clientes y piezas y te proponemos un presupuesto cerrado antes de reservar.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tu agencia necesita grabar anuncios y contenido para clientes en Madrid sin montar un plató, escríbenos en /#contacto con el número de clientes y piezas, y en A0Studios te proponemos el bloque de horas y el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

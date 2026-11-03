@@ -1668,4 +1668,118 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-agencias-marketing-madrid": {
+    title: "Recording Studio for Marketing Agencies in Madrid: Film Your Clients' Ads Without Building a Set",
+    description:
+      "Recording studio for marketing agencies in Madrid: how to film ads and content for several clients in a penthouse studio with technical direction, without building your own set.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["Madrid marketing agencies", "recording studio", "client ads", "Meta Ads", "video production", "organic content"],
+    keyword: "studio for marketing agencies madrid",
+    excerpt:
+      "If your agency sells video to clients but has no set, renting a directed studio is cheaper than building one. How to plan the session and what to ask for.",
+    seoTitle: "Recording Studio for Marketing Agencies in Madrid",
+    metaDescription:
+      "Recording studio for marketing agencies in Madrid: film ads and content for several clients in one session, with technical direction and no need to build a set.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "A marketing agency in Madrid that sells video to its clients does not need its own set: it is cheaper to book a studio in blocks of 3 or 4 hours and film the pieces for 2 or 3 clients in that time. What it does need is someone directing the session with an advertiser's mindset.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, we work with agencies that bring the brief and the clients. Our team directs the shoot thinking about which piece will run as an ad and which hook holds best on Meta Ads and TikTok Ads, so the agency delivers material it can test, not just material that looks good.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-agencias-marketing-madrid/hero.webp",
+        alt: "Man standing in front of a team seated with laptops around a table, a marketing agency meeting",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Why an agency should not build its own set" },
+      {
+        type: "paragraph",
+        text: "Your own set needs rent, lighting, backdrops, audio, a decent camera and someone to maintain it. With two or three sessions a month, the investment pays back poorly and the space sits idle the rest of the time. An hourly studio turns that fixed cost into a per-project cost you can pass on to the client.",
+      },
+      {
+        type: "paragraph",
+        text: "The second problem is judgement. An agency usually has a good strategist and a good editor, but not always someone who can direct a client who has never been in front of a camera. That is where sessions get lost: stiff takes, weak openings and three weeks of editing to fix it.",
+      },
+      {
+        type: "paragraph",
+        text: "Then there is team time. Every hour your community manager spends rigging lights is an hour not spent on client accounts. In a studio you arrive, film and leave.",
+      },
+      { type: "heading", level: 2, text: "How to plan an agency session in a studio" },
+      { type: "heading", level: 3, text: "Group several clients in the same block" },
+      {
+        type: "paragraph",
+        text: "A 4-hour block fits two clients with 8 to 10 clips each if the brief is closed. Changing backdrop and outfit takes about 20 minutes. It helps to order clients from simplest to most complex so you do not start the day with the hardest one.",
+      },
+      { type: "heading", level: 3, text: "Arrive with the brief and the openings decided" },
+      {
+        type: "paragraph",
+        text: "For each piece, bring the script and at least three different openings: a question, an objection and a result. Recording all three costs a couple of extra minutes and gives you something to test in the ad account. With a teleprompter, the client reads without looking like they are reading.",
+      },
+      { type: "heading", level: 3, text: "Decide who edits before you film" },
+      {
+        type: "paragraph",
+        text: "If your team edits, we hand over the footage with clean audio and a slate for each piece so you do not waste time sorting files. If you prefer to outsource it, with Recording + Editing we cut in DaVinci Resolve and CapCut with subtitles and each platform's formats.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-agencias-marketing-madrid/mid.webp",
+        alt: "Camera mounted on a tripod in front of a white backdrop in a recording studio",
+        width: 1920,
+        height: 1282,
+      },
+      { type: "heading", level: 2, text: "Common mistakes when an agency films in a studio" },
+      {
+        type: "list",
+        items: [
+          "Booking the studio without a closed script or client brief.",
+          "Bringing the client unprepared: without knowing what they will say, they record slowly and stiffly.",
+          "Recording only one opening per piece and having nothing to test in ads.",
+          "Fitting four clients into a 3-hour block and running out of time for all of them.",
+          "Not agreeing with the studio on the delivery format and file names.",
+          "Going only for aesthetics and forgetting which platform and goal each piece is for.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if you film for clients at least once a month or if you want to offer video as a service without investing in equipment. If a client only needs one piece a year, a phone and good light may be enough.",
+      },
+      { type: "heading", level: 2, text: "Frequently asked questions" },
+      {
+        type: "faq",
+        question: "Can I film several of my agency's clients in one session?",
+        answer:
+          "Yes. A 4-hour block fits two clients if the brief is closed. We book time in blocks and arrange the order to minimise backdrop changes.",
+      },
+      {
+        type: "faq",
+        question: "Do you put your name on the material we deliver?",
+        answer:
+          "No. The material is handed over for the agency to use as its own. We agree beforehand how to present it to the client so everything is clear.",
+      },
+      {
+        type: "faq",
+        question: "What equipment and delivery format do you offer?",
+        answer:
+          "We film with Sony A7 cameras, lavalier microphones and a teleprompter. We deliver files named per piece, vertical or horizontal as you ask, with clean audio.",
+      },
+      {
+        type: "faq",
+        question: "How much does a session cost for an agency?",
+        answer:
+          "It depends on the block of hours and whether it includes editing or full production. Write to us with the number of clients and pieces and we will propose a fixed quote before you book.",
+      },
+      {
+        type: "paragraph",
+        text: "If your agency needs to film ads and content for clients in Madrid without building a set, write to us at /#contacto with the number of clients and pieces, and A0Studios will propose the block of hours and the session plan.",
+      },
+    ],
+  },
 }
