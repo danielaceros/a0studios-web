@@ -158,6 +158,7 @@ export const EN_BLOG_SLUGS: Record<string, string> = {
   "estudio-contenido-madrid-cerca-atocha-como-llegar-reservar": "content-studio-madrid-near-atocha-how-to-book",
   "grabar-contenido-inmobiliarias-madrid": "real-estate-video-content-madrid-studio",
   "grabar-contenido-startups-saas-madrid": "startup-saas-video-content-madrid",
+  "grabar-podcast-ingles-madrid-estudio-logistica": "record-english-podcast-madrid-studio",
   "alquiler-estudio-grabacion-madrid-por-horas-visitantes": "rent-recording-studio-madrid-by-the-hour",
   "grabar-contenido-ecommerce-marcas-dtc-madrid": "ecommerce-dtc-video-content-madrid",
   "grabar-contenido-agencias-marketing-madrid": "marketing-agency-recording-studio-madrid",

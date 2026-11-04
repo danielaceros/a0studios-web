@@ -1782,4 +1782,146 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-podcast-ingles-madrid-estudio-logistica": {
+    title: "Record an English Podcast in Madrid: Studio, Equipment and Logistics for International Guests",
+    description:
+      "How to record an English-language podcast in Madrid: studio, equipment, session length and logistics for founders, expats and international guests.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["English podcast Madrid", "podcast studio", "expats", "founders", "video recording", "LinkedIn content"],
+    keyword: "record english podcast madrid",
+    excerpt:
+      "What equipment, time and logistics you need to record an English-language podcast in a Madrid studio, with international guests and clips ready for social.",
+    seoTitle: "Record an English Podcast in Madrid: Studio and Logistics",
+    metaDescription:
+      "Record an English podcast in Madrid: equipment, session length and logistics for international guests in a studio with technical direction.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "To record an English-language podcast in Madrid you need a studio with controlled acoustics, at least 2 studio microphones, one camera per person if you want video, and a 2 to 3 hour block for a 40-minute episode. The rest is logistics: arriving on time, having a question script and agreeing the delivery format before you start.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, we record English-language podcasts with founders, expats and international teams. Our team directs the session thinking about which clips will work on LinkedIn, Instagram and YouTube, not just whether the audio sounds good.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-podcast-ingles-madrid-estudio-logistica/hero.webp",
+        alt: "Studio condenser microphone for recording a podcast",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What an English-language podcast recorded in Madrid needs",
+      },
+      {
+        type: "paragraph",
+        text: "Language does not change the equipment, but it does change the logistics. If the guest lives abroad or has just landed, you need to coordinate times, building access and what gets recorded in each block. A 40-minute episode needs about 2 hours of session between setup, sound check and recording.",
+      },
+      {
+        type: "paragraph",
+        text: "With two people at the table, the usual setup is 2 dynamic or condenser microphones on boom arms, closed headphones for each person, and one camera per person plus a wide shot. That setup gives you one full episode and 8 to 10 vertical clips.",
+      },
+      {
+        type: "paragraph",
+        text: "The second point is the working language. If the host or the guest are not native speakers, it helps to record with a closed question script and leave room to repeat sentences without pressure. Stopping an answer and redoing it in the studio is normal.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to organise a session with international guests",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Lock in times and arrival in advance",
+      },
+      {
+        type: "paragraph",
+        text: "Ask guests to arrive 10 minutes early with ID or a passport for building access. A 3-hour session that starts 30 minutes late loses a whole clip. If they travel from another city, we recommend booking in the morning to avoid afternoon traffic in the centre. For more on arriving and booking, read /en/blog/content-studio-madrid-near-atocha-how-to-book.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Prepare a question script and three possible openings",
+      },
+      {
+        type: "paragraph",
+        text: "Bring 10 or 12 ordered questions, plus three ways to open the episode: a question, a bold statement and an anecdote. Recording all three takes a couple of minutes and gives you options for the clip that goes to ads or LinkedIn.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Decide the delivery format before recording",
+      },
+      {
+        type: "paragraph",
+        text: "Define whether you want audio only, horizontal video for YouTube or both, and whether you need English subtitles. With Recording + Editing we cut in DaVinci Resolve and CapCut, with subtitles and formats per platform. With Recording Only we hand over the footage with clean audio and a slate per episode. For multi-camera setups, see /en/blog/multicamera-podcast-recording-madrid.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-podcast-ingles-madrid-estudio-logistica/mid.webp",
+        alt: "Host and guest wearing headphones talking during a podcast recording",
+        width: 1920,
+        height: 1204,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Common mistakes when recording an English podcast in Madrid",
+      },
+      {
+        type: "list",
+        items: [
+          "Arriving without a question script and improvising the first 15 minutes.",
+          "Recording with echo because the room has no acoustic treatment.",
+          "Not testing each microphone before starting the episode.",
+          "Not agreeing the subtitle language or delivery format in advance.",
+          "Booking only 1 hour and having no room to redo takes.",
+          "Thinking only about audio and forgetting that vertical clips are what gives the most reach.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if you will publish at least one episode a month or want to use the podcast as a content engine for LinkedIn and Meta Ads. For a one-off episode, recording remotely with good microphones may be enough.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently asked questions",
+      },
+      {
+        type: "faq",
+        question: "How long does a session to record an English podcast take?",
+        answer:
+          "Between 2 and 3 hours for a 40-minute episode, counting setup, sound check and retakes. If you want two episodes back to back, we recommend a 4-hour block.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own equipment?",
+        answer:
+          "No. We provide microphones, Sony A7 cameras, a teleprompter and lighting. You only need to bring your question script and your guest.",
+      },
+      {
+        type: "faq",
+        question: "Can you direct the session in English?",
+        answer:
+          "Yes. The session can be directed and run in English, and the delivery can include English subtitles if you ask beforehand.",
+      },
+      {
+        type: "faq",
+        question: "Where is the studio and how do I get there?",
+        answer:
+          "We are at Ronda de Atocha 16, 7th floor, in central Madrid, a few minutes from Atocha station. We send access directions when you confirm the booking.",
+      },
+      {
+        type: "paragraph",
+        text: "If you want to record an English-language podcast in Madrid, write to us at /#contacto with the number of guests and the format you want, and A0Studios will propose the block of hours and the session plan.",
+      },
+    ],
+  },
 }

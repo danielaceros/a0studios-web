@@ -12589,6 +12589,151 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-podcast-ingles-madrid-estudio-logistica",
+    title: "Grabar un podcast en inglés en Madrid: estudio, equipo y logística para invitados internacionales",
+    description:
+      "Cómo grabar un podcast en inglés en Madrid: estudio, equipo, duración de la sesión y logística para founders, expats e invitados internacionales.",
+    publishedAt: "2026-11-04",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["podcast en inglés Madrid", "estudio de podcast", "expats", "founders", "grabación de vídeo", "contenido para LinkedIn"],
+    keyword: "grabar un podcast en ingles en madrid",
+    intent: "informacional",
+    excerpt:
+      "Qué equipo, cuánto tiempo y qué logística necesitas para grabar un podcast en inglés en un estudio de Madrid, con invitados internacionales y clips listos para redes.",
+    seoTitle: "Grabar un podcast en inglés en Madrid: estudio y logística",
+    metaDescription:
+      "Grabar un podcast en inglés en Madrid: equipo, duración de la sesión y logística para invitados internacionales en un estudio con dirección técnica.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Para grabar un podcast en inglés en Madrid necesitas un estudio con acústica controlada, al menos 2 micrófonos de estudio, una cámara por persona si quieres vídeo y 2 o 3 horas de bloque para un episodio de 40 minutos. Lo demás es logística: llegar a tiempo, tener el guion de preguntas y acordar el formato de entrega antes de empezar.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, grabamos podcasts en inglés con founders, expats y equipos internacionales. Yo dirijo la sesión pensando en qué clips van a funcionar en LinkedIn, Instagram y YouTube, no solo en que el audio suene bien.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-podcast-ingles-madrid-estudio-logistica/hero.webp",
+        alt: "Micrófono de condensador de estudio para grabar un podcast",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Qué necesita un podcast en inglés grabado en Madrid",
+      },
+      {
+        type: "paragraph",
+        text: "El idioma no cambia el equipo, pero sí la logística. Si el invitado vive fuera o acaba de aterrizar, hay que coordinar horarios, acceso al edificio y qué se graba en cada bloque. Un episodio de 40 minutos pide unas 2 horas de sesión entre montaje, prueba de sonido y grabación.",
+      },
+      {
+        type: "paragraph",
+        text: "Con dos personas en mesa, lo habitual son 2 micrófonos dinámicos o de condensador con brazo, auriculares cerrados para cada uno y una cámara por persona más un plano general. Con ese montaje salen un episodio completo y 8 o 10 clips verticales.",
+      },
+      {
+        type: "paragraph",
+        text: "El segundo punto es el idioma de trabajo. Si el host o el invitado no son nativos, conviene grabar con un guion de preguntas cerrado y dejar margen para repetir frases sin presión. Cortar una respuesta y repetirla en estudio es normal.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión con invitados internacionales",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Cierra horarios y llegada con antelación",
+      },
+      {
+        type: "paragraph",
+        text: "Pide a los invitados que lleguen 10 minutos antes, con DNI o pasaporte para el acceso al edificio. Una sesión de 3 horas que arranca 30 minutos tarde pierde un clip entero. Si vienen de otra ciudad, recomendamos reservar por la mañana para evitar atascos de tarde en el centro.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Prepara guion de preguntas y tres posibles aperturas",
+      },
+      {
+        type: "paragraph",
+        text: "Lleva 10 o 12 preguntas ordenadas, más tres formas de abrir el episodio: una pregunta, una afirmación fuerte y una anécdota. Grabar las tres lleva un par de minutos y te da opciones para el clip que va a anuncios o a LinkedIn.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Decide el formato de entrega antes de grabar",
+      },
+      {
+        type: "paragraph",
+        text: "Define si quieres solo audio, vídeo horizontal para YouTube o los dos, y si necesitas subtítulos en inglés. Con Grabación + Edición montamos en DaVinci Resolve y CapCut, con subtítulos y formatos por plataforma. Con Solo Grabación te entregamos el material con audio limpio y claqueta por episodio.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-podcast-ingles-madrid-estudio-logistica/mid.webp",
+        alt: "Presentador e invitado con auriculares hablando durante una grabación de podcast",
+        width: 1920,
+        height: 1204,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar un podcast en inglés en Madrid",
+      },
+      {
+        type: "list",
+        items: [
+          "Llegar sin guion de preguntas y improvisar los primeros 15 minutos.",
+          "Grabar con eco por usar una sala sin tratamiento acústico.",
+          "No probar el sonido de cada micrófono antes de arrancar el episodio.",
+          "No acordar de antemano el idioma de los subtítulos ni el formato de entrega.",
+          "Reservar solo 1 hora y no tener margen para repetir tomas.",
+          "Pensar solo en el audio y olvidar que los clips verticales son lo que más alcance da.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si vas a publicar al menos un episodio al mes o si quieres usar el podcast como motor de contenido para LinkedIn y Meta Ads. Para un episodio puntual, puede bastarte con grabar remoto con buenos micrófonos.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para grabar un podcast en inglés?",
+        answer:
+          "Entre 2 y 3 horas para un episodio de 40 minutos, contando montaje, prueba de sonido y repeticiones. Si quieres dos episodios seguidos, recomendamos un bloque de 4 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos micrófonos, cámaras Sony A7, teleprompter e iluminación. Solo necesitas traer el guion de preguntas y tu invitado.",
+      },
+      {
+        type: "faq",
+        question: "¿Podéis dirigir la sesión en inglés?",
+        answer:
+          "Sí. Se puede dirigir y conversar en inglés durante la sesión, y la entrega puede llevar subtítulos en inglés si lo pides antes.",
+      },
+      {
+        type: "faq",
+        question: "¿Dónde está el estudio y cómo llego?",
+        answer:
+          "Estamos en Ronda de Atocha 16, 7ª planta, en Madrid centro, a pocos minutos de la estación de Atocha. Te enviamos las indicaciones de acceso al confirmar la reserva.",
+      },
+      {
+        type: "paragraph",
+        text: "Si quieres grabar un podcast en inglés en Madrid, escríbenos en /#contacto con el número de invitados y el formato que buscas, y en A0Studios te proponemos el bloque de horas y el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
