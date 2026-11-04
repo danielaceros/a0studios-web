@@ -991,6 +991,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Tema público extranjero (rotación 1/3): ítem 5 de la lista. Ángulo equipo y logística con invitados internacionales, distinto de estudio-podcast-madrid-expats-founders. Imágenes Unsplash (Jonathan Velasquez, Flipsnack).",
   },
+  {
+    slug: "grabar-contenido-coaches-mentores-madrid",
+    keyword: "grabar contenido para coaches y mentores en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-04",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (RefreshError invalid_grant en consultas 90d/28d, token OAuth caducado, escalar a Dani). Fallback evergreen: listas de Prioridad 1 y 2 agotadas, se elige vertical nuevo (coaches y mentores en Madrid), hermano de asesorías, clínicas, abogados y startups; ángulo vídeo de presentación + clips + aperturas para anuncios. Segundo post del día (ejecución manual). Imágenes Unsplash/Pexels (Mr Catographer, Vanessa Garcia).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

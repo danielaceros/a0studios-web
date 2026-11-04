@@ -12734,6 +12734,151 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-coaches-mentores-madrid",
+    title: "Grabar contenido para coaches y mentores en Madrid: cómo preparar la sesión",
+    description:
+      "Cómo grabar contenido como coach o mentor en un estudio de Madrid: qué piezas grabar en una sesión, cómo estructurarlas y qué errores evitar para vender más.",
+    publishedAt: "2026-11-04",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["coaches", "mentores", "estudio madrid", "marca personal", "contenido orgánico", "anuncios"],
+    keyword: "grabar contenido para coaches y mentores en madrid",
+    intent: "informacional",
+    excerpt:
+      "Un coach vende confianza antes que método. Qué grabar en una sola sesión en Madrid para tener contenido orgánico, un vídeo de venta y piezas para anuncios.",
+    seoTitle: "Grabar contenido para coaches y mentores en Madrid",
+    metaDescription:
+      "Grabar contenido para coaches y mentores en Madrid: qué piezas grabar en una sesión de 3 horas, cómo estructurarlas y qué errores evitar para vender más.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si eres coach o mentor y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 3 horas con tres piezas claras: un vídeo de presentación de 2 a 3 minutos, entre 8 y 12 clips cortos para redes y 2 o 3 aperturas distintas para anuncios. Con eso cubres orgánico y paid sin volver a montar el set.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, trabajamos con profesionales que venden su criterio. Yo dirijo la sesión con mentalidad de anuncios y de venta: lo importante no es que el plano quede bonito, sino que quien te ve entienda en 10 segundos para quién eres y qué cambia contigo.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-coaches-mentores-madrid/hero.webp",
+        alt: "Persona sosteniendo una cámara delante de un aro de luz para grabar vídeo",
+        width: 1920,
+        height: 1079,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué un coach necesita vídeo antes que web",
+      },
+      {
+        type: "paragraph",
+        text: "Un coach o mentor no vende un producto que se pueda tocar. Vende confianza en una persona. Por eso el vídeo pesa más que cualquier texto: en dos minutos se ve cómo hablas, cómo escuchas y si tu forma de explicar encaja con quien te mira.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, el vídeo se reutiliza. Una misma sesión da piezas para Instagram, LinkedIn y YouTube, y para una página de venta o una llamada de captación. Quien llega a esa llamada ya te ha visto hablar varias veces, y la conversación empieza mucho más avanzada.",
+      },
+      {
+        type: "paragraph",
+        text: "El error habitual es grabar en casa con la luz de la ventana y el audio del móvil. Para una hora de contenido puede valer, pero cuando vendes programas de varios cientos o miles de euros, la calidad del sonido y de la imagen forma parte de la confianza.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo de presentación",
+      },
+      {
+        type: "paragraph",
+        text: "Es la pieza más importante y la que más cuesta, así que va primero, cuando tienes más energía. Estructura: a quién ayudas, qué problema tienen, qué método usas y cuál es el siguiente paso. Con teleprompter, para no perder el hilo, y repitiendo hasta que suene a conversación, no a lectura.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips cortos con una sola idea cada uno",
+      },
+      {
+        type: "paragraph",
+        text: "Después del vídeo de presentación, graba entre 8 y 12 clips de 30 a 60 segundos. Cada uno con una sola idea: un error que ves repetirse, una pregunta que te hacen siempre, una creencia que quieres desmontar. Con una Sony A7 en vertical y un micrófono de solapa, se graba un clip cada 5 minutos si el guion está claro.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Deja un bloque para anuncios",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a invertir en Meta Ads o TikTok Ads, graba la misma idea con tres aperturas distintas: una pregunta, una afirmación fuerte y un caso concreto. Cuesta 10 minutos más y te da material para probar qué gancho funciona. Si quieres saber cómo repartir las horas, lo explicamos en /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-coaches-mentores-madrid/mid.webp",
+        alt: "Hombre con portátil y móvil en una sesión de formación online",
+        width: 1200,
+        height: 799,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido como coach o mentor",
+      },
+      {
+        type: "list",
+        items: [
+          "Hablar de tu método sin decir a quién va dirigido ni qué problema resuelve.",
+          "Grabar un único vídeo largo en lugar de piezas cortas que se puedan publicar durante semanas.",
+          "Leer el guion de corrido en vez de hablar con las ideas clave delante.",
+          "Prometer resultados sin ejemplos concretos ni límites claros.",
+          "Cambiar de ropa, de fondo y de luz entre piezas, de modo que el feed parece de varias personas.",
+          "Olvidar el vídeo para anuncios y tener que volver a reservar un segundo día.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si ofreces un programa o una mentoría de precio medio-alto y necesitas que quien llegue a tu llamada ya confíe en ti. Si todavía no tienes oferta definida, primero ordena el mensaje y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para un coach?",
+        answer:
+          "Entre 2 y 3 horas para una pieza de presentación, 8 a 12 clips cortos y las aperturas para anuncios. Si además quieres un curso o una masterclass, mejor reservar un bloque aparte de 4 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar si nunca he salido en cámara?",
+        answer:
+          "Sí. Empezamos por el vídeo corto y vamos subiendo. Con teleprompter y un guion de ideas clave se pierde el miedo pronto, y las primeras tomas se repiten sin presión.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y las ideas de los clips.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si eres coach o mentor y quieres grabar en Madrid, escríbenos en /#contacto con tu oferta y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

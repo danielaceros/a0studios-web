@@ -162,6 +162,7 @@ export const EN_BLOG_SLUGS: Record<string, string> = {
   "alquiler-estudio-grabacion-madrid-por-horas-visitantes": "rent-recording-studio-madrid-by-the-hour",
   "grabar-contenido-ecommerce-marcas-dtc-madrid": "ecommerce-dtc-video-content-madrid",
   "grabar-contenido-agencias-marketing-madrid": "marketing-agency-recording-studio-madrid",
+  "grabar-contenido-coaches-mentores-madrid": "coach-mentor-video-content-madrid",
 }
 
 const EN_PATH_TO_ES: Record<string, string> = Object.fromEntries([

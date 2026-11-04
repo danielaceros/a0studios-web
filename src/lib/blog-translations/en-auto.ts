@@ -1924,4 +1924,146 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-coaches-mentores-madrid": {
+    title: "Recording Content for Coaches and Mentors in Madrid: How to Prepare the Session",
+    description:
+      "How to record content as a coach or mentor in a Madrid studio: which pieces to shoot in one session, how to structure them and which mistakes to avoid to sell more.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["coaches", "mentors", "Madrid studio", "personal brand", "organic content", "ads"],
+    keyword: "coach video content madrid",
+    excerpt:
+      "A coach sells trust before method. What to record in a single Madrid session to leave with organic content, a sales video and pieces for ads.",
+    seoTitle: "Video Content for Coaches and Mentors in Madrid",
+    metaDescription:
+      "Video content for coaches and mentors in Madrid: which pieces to record in a 3-hour session, how to structure them and which mistakes to avoid to sell more.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you are a coach or mentor and want to record content in Madrid, what works best is a 3-hour session with three clear pieces: a 2 to 3 minute introduction video, 8 to 12 short clips for social media and 2 or 3 different openings for ads. That covers organic and paid without rebuilding the set.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, our team works with professionals who sell their judgement. We direct the session with an ads and sales mindset: what matters is not a pretty shot, but that whoever watches understands within 10 seconds who you are for and what changes with you.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-coaches-mentores-madrid/hero.webp",
+        alt: "Person holding a camera in front of a ring light to record video",
+        width: 1920,
+        height: 1079,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why a coach needs video before a website",
+      },
+      {
+        type: "paragraph",
+        text: "A coach or mentor doesn't sell something you can touch. They sell trust in a person. That's why video weighs more than any text: in two minutes people see how you speak, how you listen and whether your way of explaining fits them.",
+      },
+      {
+        type: "paragraph",
+        text: "Video is also reusable. One session gives you pieces for Instagram, LinkedIn and YouTube, plus a sales page or a discovery call. Whoever lands on that call has already seen you speak several times, and the conversation starts much further along.",
+      },
+      {
+        type: "paragraph",
+        text: "The usual mistake is recording at home with window light and phone audio. That can do for a casual post, but when you sell programs worth hundreds or thousands of euros, sound and image quality are part of the trust.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to organise the recording session",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Start with the introduction video",
+      },
+      {
+        type: "paragraph",
+        text: "It's the most important piece and the hardest, so it goes first, when your energy is highest. Structure: who you help, what problem they have, what method you use and what the next step is. Use a teleprompter so you don't lose the thread, and repeat until it sounds like conversation, not reading.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Record short clips with one idea each",
+      },
+      {
+        type: "paragraph",
+        text: "After the introduction video, record 8 to 12 clips of 30 to 60 seconds. Each one with a single idea: a mistake you see repeated, a question you always get, a belief you want to challenge. With a vertical Sony A7 and a lavalier microphone, you can shoot one clip every 5 minutes if the script is clear.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Leave a block for ads",
+      },
+      {
+        type: "paragraph",
+        text: "If you plan to invest in Meta Ads or TikTok Ads, record the same idea with three different openings: a question, a strong statement and a concrete example. It takes 10 extra minutes and gives you material to test which hook works. To see how to split the hours, read /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-coaches-mentores-madrid/mid.webp",
+        alt: "Man with a laptop and phone in an online training session",
+        width: 1200,
+        height: 799,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Common mistakes when recording content as a coach or mentor",
+      },
+      {
+        type: "list",
+        items: [
+          "Talking about your method without saying who it's for or what problem it solves.",
+          "Recording one long video instead of short pieces you can publish over weeks.",
+          "Reading the script straight through instead of speaking from key ideas.",
+          "Promising results with no concrete examples or clear limits.",
+          "Changing outfit, background and light between pieces, so the feed looks like several different people.",
+          "Forgetting the ad footage and having to book a second day.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if you offer a mid-to-high ticket program or mentoring and need people to trust you before they reach your call. If you don't have a defined offer yet, sort out the message first and then record.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently asked questions",
+      },
+      {
+        type: "faq",
+        question: "How long is a recording session for a coach?",
+        answer:
+          "Between 2 and 3 hours for an introduction piece, 8 to 12 short clips and the openings for ads. If you also want a course or masterclass, it's better to book a separate 4-hour block.",
+      },
+      {
+        type: "faq",
+        question: "Can I record if I have never been on camera?",
+        answer:
+          "Yes. We start with the short video and build up. With a teleprompter and a script of key ideas, nerves fade quickly, and the first takes can be repeated without pressure.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own equipment?",
+        answer:
+          "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You only bring the script, your outfit and the ideas for the clips.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver edited videos?",
+        answer:
+          "It depends on the service. With Recording Only you take the raw footage. With Recording + Editing we edit in DaVinci Resolve and CapCut with subtitles and formats per platform. With Full Production we also handle the script and strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you are a coach or mentor and want to record in Madrid, write to us at /#contacto with your offer and the kind of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }
