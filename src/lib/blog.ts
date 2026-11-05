@@ -12879,6 +12879,151 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-asesores-financieros-fintech-madrid",
+    title: "Grabar contenido para asesores financieros y fintech en Madrid: cómo preparar la sesión",
+    description:
+      "Cómo grabar contenido como asesor financiero o fintech en un estudio de Madrid: qué piezas grabar, cómo explicar dinero sin tecnicismos y qué cuidar en anuncios.",
+    publishedAt: "2026-11-05",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["asesores financieros", "fintech", "estudio madrid", "contenido orgánico", "anuncios", "marca personal"],
+    keyword: "grabar contenido para asesores financieros y fintech en madrid",
+    intent: "informacional",
+    excerpt:
+      "En finanzas se vende confianza antes que producto. Qué grabar en una sola sesión en Madrid para tener vídeo de presentación, clips educativos y aperturas para anuncios.",
+    seoTitle: "Grabar contenido para asesores financieros y fintech en Madrid",
+    metaDescription:
+      "Grabar contenido para asesores financieros y fintech en Madrid: qué piezas grabar en una sesión de 3 horas, cómo explicar dinero con claridad y qué evitar.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si eres asesor financiero o trabajas en una fintech y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 3 horas con tres piezas: un vídeo de presentación de 2 a 3 minutos, entre 8 y 12 clips educativos de 30 a 60 segundos y 2 o 3 aperturas distintas para anuncios. Con una sola mañana tienes material para semanas de orgánico y para pruebas de paid.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, trabajamos con profesionales que venden criterio, y el dinero es el caso extremo: nadie confía su patrimonio a alguien que no ha visto hablar. Yo dirijo la sesión con mentalidad de anuncios y de venta. No buscamos un plano bonito, buscamos que quien te ve entienda en 10 segundos a quién ayudas y por qué puede fiarse de ti.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-asesores-financieros-fintech-madrid/hero.webp",
+        alt: "Persona sentada frente a una estantería durante un rodaje con cámara de cine Sony FS7",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué el vídeo pesa más en finanzas que en otros sectores",
+      },
+      {
+        type: "paragraph",
+        text: "Un asesor financiero, un gestor independiente o una fintech venden algo que el cliente no puede probar antes de decidir. Lo único que puede evaluar es a la persona o a la marca. Por eso dos minutos de vídeo con buena imagen y buen sonido hacen más por la confianza que una página entera de texto con tus credenciales.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, en finanzas casi todo el mundo explica mal. Abundan los tecnicismos, las siglas y las frases largas. Si eres capaz de explicar una cuestión de ahorro, hipotecas o inversión en 45 segundos y sin jerga, ya te diferencias de la mayoría de tu competencia en Madrid.",
+      },
+      {
+        type: "paragraph",
+        text: "Y hay un límite que conviene tener claro desde el guion: este contenido es educativo, no una promesa de rentabilidad. En una fintech o un despacho regulado, lo recomendable es que quien se encargue del cumplimiento normativo revise los textos antes de la sesión. Es más barato corregir un guion que volver a grabar.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo de presentación",
+      },
+      {
+        type: "paragraph",
+        text: "Va primero, cuando tienes más energía. Estructura: a quién ayudas, qué problema tiene esa persona con su dinero, cómo trabajas y cuál es el siguiente paso. Con teleprompter para no perder el hilo, y repitiendo hasta que suene a conversación. Si es tu primera vez delante de cámara, 5 o 6 tomas son normales.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips educativos con una sola idea",
+      },
+      {
+        type: "paragraph",
+        text: "Entre 8 y 12 clips, cada uno con una pregunta real de cliente: qué hacer con un ahorro parado, cómo leer una nómina, qué pasa con las comisiones de un fondo. Con una Sony A7 en vertical y un micrófono de solapa, un clip cada 5 minutos es un ritmo realista si el guion está claro. Mejor sin cifras que no puedas respaldar: explica el criterio, no prometas resultados.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para anuncios",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a invertir en Meta Ads o TikTok Ads para captar clientes, graba la misma idea con tres aperturas: una pregunta, una afirmación incómoda y un caso genérico sin datos reales de nadie. Son 10 minutos más y te dan material para probar qué gancho funciona. Para repartir bien las horas, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-asesores-financieros-fintech-madrid/mid.webp",
+        alt: "Persona gesticulando durante una reunión con un portátil sobre la mesa",
+        width: 1200,
+        height: 800,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido financiero",
+      },
+      {
+        type: "list",
+        items: [
+          "Usar jerga y siglas que el cliente no entiende en lugar de ejemplos cotidianos.",
+          "Prometer rentabilidades o resultados, algo que además puede traerte problemas con la normativa.",
+          "Leer el guion de corrido, con tono de comunicado, en vez de hablar con las ideas clave delante.",
+          "Grabar un único vídeo largo en lugar de piezas cortas que se puedan publicar durante semanas.",
+          "Cambiar de ropa, fondo y luz entre piezas, de modo que el perfil parece de varias personas.",
+          "Dejar la revisión de cumplimiento para después de grabar y tener que repetir tomas.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si tu servicio tiene un ticket medio-alto o una relación larga con el cliente, y si tu captación depende de que alguien confíe en ti antes de la primera llamada. Si todavía no tienes claro a quién te diriges, primero define el cliente y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para un asesor financiero?",
+        answer:
+          "Entre 2 y 3 horas para un vídeo de presentación, 8 a 12 clips educativos y las aperturas para anuncios. Si además quieres una masterclass o un curso, mejor reservar un bloque aparte de 4 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar si trabajo en una entidad regulada?",
+        answer:
+          "Sí, pero conviene que el guion pase antes por quien lleve el cumplimiento normativo de tu empresa. Nosotros grabamos lo que traes aprobado y te ayudamos a que suene claro y natural.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y las ideas de los clips.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si eres asesor financiero o fintech y quieres grabar en Madrid, escríbenos en /#contacto con tu servicio y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

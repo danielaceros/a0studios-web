@@ -2066,4 +2066,146 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-asesores-financieros-fintech-madrid": {
+    title: "Recording Content for Financial Advisors and Fintech in Madrid: How to Prepare the Session",
+    description:
+      "How to record content as a financial advisor or fintech in a Madrid studio: which pieces to shoot, how to explain money without jargon and what to watch in ads.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["financial advisors", "fintech", "Madrid studio", "organic content", "ads", "personal brand"],
+    keyword: "financial advisor video madrid",
+    excerpt:
+      "In finance, trust sells before the product does. What to record in a single Madrid session to leave with an introduction video, educational clips and openings for ads.",
+    seoTitle: "Video Content for Financial Advisors and Fintech in Madrid",
+    metaDescription:
+      "Video content for financial advisors and fintech in Madrid: which pieces to record in a 3-hour session, how to explain money clearly and what to avoid.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you are a financial advisor or work at a fintech and want to record content in Madrid, what works best is a 3-hour session with three pieces: a 2 to 3 minute introduction video, 8 to 12 educational clips of 30 to 60 seconds and 2 or 3 different openings for ads. One morning gives you material for weeks of organic posting and for paid tests.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, our team works with professionals who sell judgement, and money is the extreme case: nobody hands their savings to someone they have never seen speak. We direct the session with an ads and sales mindset. We are not after a pretty shot, we are after whoever watches understanding within 10 seconds who you help and why they can trust you.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-asesores-financieros-fintech-madrid/hero.webp",
+        alt: "Person sitting in front of a bookshelf during a shoot with a Sony FS7 cinema camera",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why video weighs more in finance than in other sectors",
+      },
+      {
+        type: "paragraph",
+        text: "A financial advisor, an independent manager or a fintech sells something the client cannot try before deciding. The only thing they can judge is the person or the brand. That's why two minutes of video with good image and good sound do more for trust than a whole page of text listing your credentials.",
+      },
+      {
+        type: "paragraph",
+        text: "Also, almost everyone in finance explains badly. Jargon, acronyms and long sentences are everywhere. If you can explain a question about savings, mortgages or investing in 45 seconds without jargon, you already stand out from most of your competition in Madrid.",
+      },
+      {
+        type: "paragraph",
+        text: "And there is a limit worth setting from the script stage: this content is educational, not a promise of returns. At a fintech or a regulated firm, the sensible move is to have whoever handles compliance review the texts before the session. Fixing a script is cheaper than re-recording.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to organise the recording session",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Start with the introduction video",
+      },
+      {
+        type: "paragraph",
+        text: "It goes first, when your energy is highest. Structure: who you help, what problem that person has with their money, how you work and what the next step is. Use a teleprompter so you don't lose the thread, and repeat until it sounds like conversation. If it's your first time on camera, 5 or 6 takes are normal.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Record educational clips with a single idea",
+      },
+      {
+        type: "paragraph",
+        text: "Between 8 and 12 clips, each answering a real client question: what to do with idle savings, how to read a payslip, what happens with a fund's fees. With a vertical Sony A7 and a lavalier microphone, one clip every 5 minutes is a realistic pace if the script is clear. Better to skip figures you can't back up: explain the reasoning, don't promise results.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserve a block for ads",
+      },
+      {
+        type: "paragraph",
+        text: "If you plan to invest in Meta Ads or TikTok Ads to win clients, record the same idea with three openings: a question, an uncomfortable statement and a generic example with nobody's real data. It's 10 extra minutes and gives you material to test which hook works. To split the hours well, read /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-asesores-financieros-fintech-madrid/mid.webp",
+        alt: "Person gesturing during a meeting with a laptop on the table",
+        width: 1200,
+        height: 800,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Common mistakes when recording financial content",
+      },
+      {
+        type: "list",
+        items: [
+          "Using jargon and acronyms the client doesn't understand instead of everyday examples.",
+          "Promising returns or results, which can also get you into trouble with regulation.",
+          "Reading the script straight through in a press-release tone instead of speaking from key ideas.",
+          "Recording one long video instead of short pieces you can publish over weeks.",
+          "Changing outfit, background and light between pieces, so the profile looks like several different people.",
+          "Leaving the compliance review until after recording and having to redo takes.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if your service has a mid-to-high ticket or a long client relationship, and if your acquisition depends on someone trusting you before the first call. If you aren't yet clear on who you serve, define the client first and then record.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently asked questions",
+      },
+      {
+        type: "faq",
+        question: "How long is a recording session for a financial advisor?",
+        answer:
+          "Between 2 and 3 hours for an introduction video, 8 to 12 educational clips and the openings for ads. If you also want a masterclass or a course, it's better to book a separate 4-hour block.",
+      },
+      {
+        type: "faq",
+        question: "Can I record if I work at a regulated firm?",
+        answer:
+          "Yes, but the script should first go past whoever handles your company's compliance. We record what you bring approved and help it sound clear and natural.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own equipment?",
+        answer:
+          "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You only bring the script, your outfit and the ideas for the clips.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver edited videos?",
+        answer:
+          "It depends on the service. With Recording Only you take the raw footage. With Recording + Editing we edit in DaVinci Resolve and CapCut with subtitles and formats per platform. With Full Production we also handle the script and strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you are a financial advisor or fintech and want to record in Madrid, write to us at /#contacto with your service and the kind of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }

@@ -1000,6 +1000,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (RefreshError invalid_grant en consultas 90d/28d, token OAuth caducado, escalar a Dani). Fallback evergreen: listas de Prioridad 1 y 2 agotadas, se elige vertical nuevo (coaches y mentores en Madrid), hermano de asesorías, clínicas, abogados y startups; ángulo vídeo de presentación + clips + aperturas para anuncios. Segundo post del día (ejecución manual). Imágenes Unsplash/Pexels (Mr Catographer, Vanessa Garcia).",
   },
+  {
+    slug: "grabar-contenido-asesores-financieros-fintech-madrid",
+    keyword: "grabar contenido para asesores financieros y fintech en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-05",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (RefreshError invalid_grant en consultas 90d/28d, token OAuth caducado, escalar a Dani). Fallback evergreen: listas de Prioridad 1 y 2 agotadas, se elige vertical nuevo (asesores financieros y fintech en Madrid), hermano de coaches, asesorías, startups y abogados; ángulo educativo sin promesas de rentabilidad y revisión de cumplimiento. Imágenes Unsplash (Sam McGhee, Headway).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
