@@ -1009,6 +1009,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (RefreshError invalid_grant en consultas 90d/28d, token OAuth caducado, escalar a Dani). Fallback evergreen: listas de Prioridad 1 y 2 agotadas, se elige vertical nuevo (asesores financieros y fintech en Madrid), hermano de coaches, asesorías, startups y abogados; ángulo educativo sin promesas de rentabilidad y revisión de cumplimiento. Imágenes Unsplash (Sam McGhee, Headway).",
   },
+  {
+    slug: "grabar-contenido-arquitectos-interioristas-madrid",
+    keyword: "grabar contenido para arquitectos e interioristas en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-06",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (RefreshError invalid_grant en consultas 90d/28d, token OAuth caducado, escalar a Dani). Fallback evergreen: listas de Prioridad 1 y 2 agotadas, se elige vertical nuevo (arquitectos e interioristas en Madrid), hermano de asesores financieros, coaches, asesorías y startups; ángulo proceso + clips de método + aperturas para anuncios. Imágenes Unsplash (Sable Flow, Mohammad Lotfian).",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

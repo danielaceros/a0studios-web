@@ -13024,6 +13024,151 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-arquitectos-interioristas-madrid",
+    title: "Grabar contenido para arquitectos e interioristas en Madrid: cómo preparar la sesión",
+    description:
+      "Cómo grabar contenido como arquitecto o interiorista en un estudio de Madrid: qué piezas grabar, cómo explicar tu método y cómo preparar aperturas para anuncios.",
+    publishedAt: "2026-11-06",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["arquitectos", "interiorismo", "estudio madrid", "contenido orgánico", "anuncios", "marca personal"],
+    keyword: "grabar contenido para arquitectos e interioristas en madrid",
+    intent: "informacional",
+    excerpt:
+      "Un estudio de arquitectura o interiorismo vende criterio antes que planos. Qué grabar en una sola sesión en Madrid para tener vídeo de presentación, clips de método y aperturas para anuncios.",
+    seoTitle: "Grabar contenido para arquitectos e interioristas en Madrid",
+    metaDescription:
+      "Grabar contenido para arquitectos e interioristas en Madrid: qué piezas grabar en una sesión de 3 horas, cómo explicar tu método y qué evitar al grabar.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si eres arquitecto o interiorista y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 3 horas con tres piezas: un vídeo de presentación de 2 a 3 minutos, entre 8 y 10 clips de 30 a 60 segundos sobre tu método y 2 o 3 aperturas distintas para anuncios. Una sola mañana te da material para semanas de orgánico y para pruebas de paid.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, trabajamos con profesionales que venden criterio. Un cliente que va a reformar su casa o abrir un local no compara metros cuadrados, compara a quién se fía. Dirigimos la sesión con mentalidad de anuncios y de venta: no buscamos un plano bonito, buscamos que quien te ve entienda en 10 segundos qué haces, para quién y cómo trabajas.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-arquitectos-interioristas-madrid/hero.webp",
+        alt: "Grupo de personas sentadas alrededor de una mesa trabajando en un proyecto",
+        width: 1920,
+        height: 1281,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué el vídeo funciona tan bien en arquitectura e interiorismo",
+      },
+      {
+        type: "paragraph",
+        text: "Tu portfolio enseña el resultado, pero no cómo trabajas. Y el cliente de una reforma o de un proyecto de interiorismo tiene miedo a lo mismo: retrasos, sobrecostes y que le impongan un gusto que no es el suyo. Dos minutos de vídeo en los que explicas cómo es el proceso, cuánto suele durar y cómo decides con el cliente responden a ese miedo mejor que cualquier galería de fotos.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, casi todo el sector enseña imágenes sin voz. Si apareces tú explicando por qué una distribución funciona o por qué un material envejece mejor, te diferencias de la mayoría de estudios de Madrid con muy poco esfuerzo.",
+      },
+      {
+        type: "paragraph",
+        text: "Un matiz práctico: el estudio es ideal para la parte en la que hablas a cámara. Las imágenes de obra terminada se graban en el propio proyecto, y luego se mezclan en edición con lo que grabamos aquí.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo de presentación",
+      },
+      {
+        type: "paragraph",
+        text: "Va primero, cuando tienes más energía. Estructura: a quién ayudas, qué problema tiene esa persona con su espacio, cómo es tu proceso en tres pasos y cuál es el siguiente paso. Con teleprompter para no perder el hilo, y repitiendo hasta que suene a conversación. Si es tu primera vez delante de cámara, 5 o 6 tomas son normales.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips de método con una sola idea",
+      },
+      {
+        type: "paragraph",
+        text: "Entre 8 y 10 clips, cada uno con una pregunta real de cliente: cuánto cuesta reformar un piso en Madrid, qué licencia hace falta, qué se decide antes de empezar la obra. Con una Sony A7 en vertical y un micrófono de solapa, un clip cada 5 minutos es un ritmo realista si el guion está claro. Si no puedes dar una cifra exacta, da un rango y explica de qué depende.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para anuncios",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a invertir en Meta Ads para captar proyectos, graba la misma idea con tres aperturas: una pregunta, una afirmación incómoda y un caso genérico sin datos de ningún cliente. Son 10 minutos más y te dan material para probar qué gancho funciona. Para repartir bien las horas, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-arquitectos-interioristas-madrid/mid.webp",
+        alt: "Persona sosteniendo una muestra de material naranja sobre un escritorio con muestrarios de diseño",
+        width: 1920,
+        height: 1396,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido de arquitectura e interiorismo",
+      },
+      {
+        type: "list",
+        items: [
+          "Hablar en términos técnicos que el cliente no entiende en lugar de explicar qué cambia en su día a día.",
+          "Enseñar solo el resultado final y no el proceso, que es lo que reduce el miedo a contratar.",
+          "Leer el guion de corrido, con tono de memoria de proyecto, en vez de hablar con las ideas clave delante.",
+          "Grabar un único vídeo largo en lugar de piezas cortas que se puedan publicar durante semanas.",
+          "Cambiar de ropa, fondo y luz entre piezas, de modo que el perfil parece de varias personas.",
+          "Mostrar proyectos de clientes sin su permiso por escrito.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si tu servicio tiene un ticket medio-alto y tu captación depende de que alguien confíe en ti antes de la primera visita. Si todavía no tienes claro qué tipo de proyecto quieres atraer, primero define el cliente y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para un arquitecto o interiorista?",
+        answer:
+          "Entre 2 y 3 horas para un vídeo de presentación, 8 a 10 clips de método y las aperturas para anuncios. Si además quieres una masterclass o un curso, mejor reservar un bloque aparte de 4 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar mis proyectos terminados en el estudio?",
+        answer:
+          "Lo que se graba en el estudio es a ti hablando a cámara. Las imágenes de obra se graban en el propio proyecto, con permiso del cliente, y se integran después en la edición.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y las ideas de los clips.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si eres arquitecto o interiorista y quieres grabar en Madrid, escríbenos en /#contacto con tu servicio y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

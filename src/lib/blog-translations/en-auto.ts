@@ -2208,4 +2208,146 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-arquitectos-interioristas-madrid": {
+    title: "Recording Content for Architects and Interior Designers in Madrid: How to Prepare the Session",
+    description:
+      "How to record content as an architect or interior designer in a Madrid studio: which pieces to shoot, how to explain your method and how to prepare ad openings.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["architects", "interior design", "Madrid studio", "organic content", "ads", "personal brand"],
+    keyword: "architect video content madrid",
+    excerpt:
+      "An architecture or interior design firm sells judgement before drawings. What to record in a single Madrid session to leave with an introduction video, method clips and openings for ads.",
+    seoTitle: "Video Content for Architects and Interior Designers in Madrid",
+    metaDescription:
+      "Video content for architects and interior designers in Madrid: which pieces to record in a 3-hour session, how to explain your method and what to avoid.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you are an architect or interior designer and want to record content in Madrid, what works best is a 3-hour session with three pieces: a 2 to 3 minute introduction video, 8 to 10 clips of 30 to 60 seconds about your method and 2 or 3 different openings for ads. One morning gives you material for weeks of organic posting and for paid tests.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, our team works with professionals who sell judgement. A client about to renovate a home or open a premises does not compare square metres, they compare who they trust. We direct the session with an ads and sales mindset: we are not after a pretty shot, we are after whoever watches understanding within 10 seconds what you do, for whom and how you work.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-arquitectos-interioristas-madrid/hero.webp",
+        alt: "Group of people sitting around a table working on a project",
+        width: 1920,
+        height: 1281,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why video works so well in architecture and interior design",
+      },
+      {
+        type: "paragraph",
+        text: "Your portfolio shows the result, but not how you work. And the client of a renovation or interior design project fears the same things: delays, cost overruns and having a taste imposed on them that is not theirs. Two minutes of video explaining what the process looks like, how long it usually takes and how you decide with the client answer that fear better than any photo gallery.",
+      },
+      {
+        type: "paragraph",
+        text: "Also, almost the whole sector shows images without a voice. If you appear explaining why a layout works or why a material ages better, you stand out from most Madrid firms with very little effort.",
+      },
+      {
+        type: "paragraph",
+        text: "A practical note: the studio is ideal for the part where you talk to camera. Footage of finished work is shot at the project itself, then mixed in editing with what we record here.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to organise the recording session",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Start with the introduction video",
+      },
+      {
+        type: "paragraph",
+        text: "It goes first, when your energy is highest. Structure: who you help, what problem that person has with their space, what your process looks like in three steps and what the next step is. Use a teleprompter so you don't lose the thread, and repeat until it sounds like conversation. If it's your first time on camera, 5 or 6 takes are normal.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Record method clips with a single idea",
+      },
+      {
+        type: "paragraph",
+        text: "Between 8 and 10 clips, each answering a real client question: how much it costs to renovate a flat in Madrid, which permit is needed, what gets decided before works start. With a vertical Sony A7 and a lavalier microphone, one clip every 5 minutes is a realistic pace if the script is clear. If you can't give an exact figure, give a range and explain what it depends on.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserve a block for ads",
+      },
+      {
+        type: "paragraph",
+        text: "If you plan to invest in Meta Ads to win projects, record the same idea with three openings: a question, an uncomfortable statement and a generic example with no client's data. It's 10 extra minutes and gives you material to test which hook works. To split the hours well, read /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-arquitectos-interioristas-madrid/mid.webp",
+        alt: "Person holding an orange material sample over a desk with design swatches",
+        width: 1920,
+        height: 1396,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Common mistakes when recording architecture and interior design content",
+      },
+      {
+        type: "list",
+        items: [
+          "Using technical terms the client doesn't understand instead of explaining what changes in their daily life.",
+          "Showing only the final result and not the process, which is what reduces the fear of hiring.",
+          "Reading the script straight through, in a project-report tone, instead of speaking from key ideas.",
+          "Recording one long video instead of short pieces you can publish over weeks.",
+          "Changing outfit, background and light between pieces, so the profile looks like several different people.",
+          "Showing client projects without their written permission.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if your service has a mid-to-high ticket and your acquisition depends on someone trusting you before the first visit. If you aren't yet clear on which kind of project you want to attract, define the client first and then record.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently asked questions",
+      },
+      {
+        type: "faq",
+        question: "How long is a recording session for an architect or interior designer?",
+        answer:
+          "Between 2 and 3 hours for an introduction video, 8 to 10 method clips and the openings for ads. If you also want a masterclass or a course, it's better to book a separate 4-hour block.",
+      },
+      {
+        type: "faq",
+        question: "Can I record my finished projects in the studio?",
+        answer:
+          "What gets recorded in the studio is you speaking to camera. Footage of the work is shot at the project itself, with the client's permission, and integrated later in editing.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own equipment?",
+        answer:
+          "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You only bring the script, your outfit and the ideas for the clips.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver edited videos?",
+        answer:
+          "It depends on the service. With Recording Only you take the raw footage. With Recording + Editing we edit in DaVinci Resolve and CapCut with subtitles and formats per platform. With Full Production we also handle the script and strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you are an architect or interior designer and want to record in Madrid, write to us at /#contacto with your service and the kind of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }
