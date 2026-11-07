@@ -1018,6 +1018,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (RefreshError invalid_grant en consultas 90d/28d, token OAuth caducado, escalar a Dani). Fallback evergreen: listas de Prioridad 1 y 2 agotadas, se elige vertical nuevo (arquitectos e interioristas en Madrid), hermano de asesores financieros, coaches, asesorías y startups; ángulo proceso + clips de método + aperturas para anuncios. Imágenes Unsplash (Sable Flow, Mohammad Lotfian).",
   },
+  {
+    slug: "grabar-contenido-psicologos-terapeutas-madrid",
+    keyword: "grabar contenido para psicologos y terapeutas en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-07",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: Prioridad 1 y 2 agotadas, se elige vertical nuevo (psicólogos y terapeutas), hermano de clínicas, abogados y coaches; sin cubrir en memoria. Imágenes Unsplash (FlippingBook, Flipsnack). EN publicado en el mismo commit.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

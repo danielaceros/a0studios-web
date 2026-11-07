@@ -13169,6 +13169,151 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-psicologos-terapeutas-madrid",
+    title: "Grabar contenido para psicólogos y terapeutas en Madrid: cómo preparar la sesión",
+    description:
+      "Cómo grabar contenido como psicólogo o terapeuta en un estudio de Madrid: qué piezas grabar, cómo hablar a cámara con cercanía y qué límites éticos respetar.",
+    publishedAt: "2026-11-07",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["psicólogos", "terapeutas", "estudio madrid", "contenido orgánico", "marca personal", "salud"],
+    keyword: "grabar contenido para psicologos y terapeutas en madrid",
+    intent: "informacional",
+    excerpt:
+      "Un paciente elige terapeuta por confianza antes que por currículum. Qué grabar en una sola sesión en Madrid para tener vídeo de presentación, clips de divulgación y un anuncio respetuoso.",
+    seoTitle: "Grabar contenido para psicólogos y terapeutas en Madrid",
+    metaDescription:
+      "Grabar contenido para psicólogos y terapeutas en Madrid: qué piezas grabar en una sesión de 3 horas, cómo hablar con cercanía y qué límites respetar.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si eres psicólogo o terapeuta y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 3 horas con tres piezas: un vídeo de presentación de 2 a 3 minutos, entre 8 y 10 clips de 30 a 60 segundos de divulgación y un anuncio sencillo para captar primeras consultas. Con una mañana tienes material para semanas de redes y una pieza lista para probar en Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, trabajamos con profesionales cuyo servicio se decide por confianza. Quien busca terapeuta suele llevar semanas dudando y quiere sentir, antes de escribir, cómo hablas y cómo trabajas. Dirigimos la sesión con mentalidad de anuncios y de venta, pero con un límite claro: aquí no se vende miedo ni se prometen resultados, se muestra criterio y cercanía.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-psicologos-terapeutas-madrid/hero.webp",
+        alt: "Despacho luminoso con sofá y escritorio, un entorno tranquilo para una consulta",
+        width: 1920,
+        height: 1440,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué el vídeo funciona tan bien en psicología y terapia",
+      },
+      {
+        type: "paragraph",
+        text: "Un texto en tu web explica tu enfoque, pero no transmite tu voz, tu ritmo ni cómo escuchas. Y eso es justo lo que un paciente potencial necesita comprobar. Dos minutos de vídeo en los que explicas a quién ayudas y cómo es una primera sesión reducen la barrera de dar el paso, porque ya te conocen.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, el sector sufre de contenido muy genérico: frases de motivación y listas de síntomas sin contexto. Si grabas pensando en una pregunta concreta que te hace un paciente de verdad, te diferencias sin necesidad de ser polémico.",
+      },
+      {
+        type: "paragraph",
+        text: "Un matiz importante: nunca se graba a pacientes ni se muestra una consulta real con datos de nadie. Lo que se graba en el estudio eres tú hablando a cámara, con un fondo cuidado que sustituye a tu despacho.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo de presentación",
+      },
+      {
+        type: "paragraph",
+        text: "Va primero, cuando tienes más energía. Estructura: a quién acompañas, qué le suele pasar cuando llega a consulta, cómo es la primera sesión y cómo reservar. Con teleprompter para no perder el hilo, pero leyendo despacio y con pausas. Si es tu primera vez delante de cámara, 5 o 6 tomas son normales y la última suele ser la mejor.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips de divulgación con una sola idea",
+      },
+      {
+        type: "paragraph",
+        text: "Entre 8 y 10 clips, cada uno con una pregunta real: cuándo conviene pedir ayuda, qué pasa en una primera sesión, cuánto suele durar un proceso. Con una Sony A7 en vertical y un micrófono de solapa, un clip cada 5 minutos es un ritmo realista si el guion está claro. Si no puedes dar una cifra exacta, da un rango y explica de qué depende.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para un anuncio respetuoso",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a invertir en anuncios para captar primeras consultas, graba una pieza de 30 a 45 segundos con dos aperturas distintas: una pregunta y una afirmación tranquila. Son 10 minutos más. Revisa siempre las políticas de publicidad de salud de cada plataforma, que limitan lo que puedes afirmar. Para repartir bien las horas, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-psicologos-terapeutas-madrid/mid.webp",
+        alt: "Persona con auriculares grabando una conversación con micrófono frente a un portátil",
+        width: 1920,
+        height: 1280,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido de psicología y terapia",
+      },
+      {
+        type: "list",
+        items: [
+          "Usar jerga clínica que el paciente no entiende en lugar de explicar con ejemplos cotidianos.",
+          "Prometer resultados o plazos de mejora, algo que además choca con el código deontológico y con las políticas de los anuncios.",
+          "Dar consejos como si fueran un diagnóstico para cualquiera que vea el vídeo.",
+          "Leer el guion de corrido con tono de conferencia, en vez de hablar como lo harías en consulta.",
+          "Grabar un único vídeo largo en lugar de piezas cortas que se puedan publicar durante semanas.",
+          "Mostrar casos reales o anécdotas reconocibles de pacientes, aunque cambies el nombre.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si tu agenda depende de que te encuentren y confíen en ti antes de la primera sesión. Si todavía no tienes claro a qué tipo de paciente quieres acompañar, define primero ese perfil y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para un psicólogo o terapeuta?",
+        answer:
+          "Entre 2 y 3 horas para un vídeo de presentación, 8 a 10 clips de divulgación y un anuncio con dos aperturas. Si además quieres una charla o un curso, mejor reservar un bloque aparte de 4 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar con mis pacientes o en mi consulta?",
+        answer:
+          "No es lo que recomendamos. Por confidencialidad no se graba a pacientes. En el estudio grabas tú hablando a cámara, con un fondo cuidado, y la privacidad de tu consulta queda intacta.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y las ideas de los clips.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si eres psicólogo o terapeuta y quieres grabar en Madrid, escríbenos en /#contacto con tu servicio y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

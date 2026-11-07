@@ -2349,5 +2349,146 @@ export const enAuto: Record<string, BlogPostTranslation> = {
         text: "If you are an architect or interior designer and want to record in Madrid, write to us at /#contacto with your service and the kind of pieces you need, and A0Studios will propose the session plan.",
       },
     ],
+  },  "grabar-contenido-psicologos-terapeutas-madrid": {
+    title: "Recording Video Content for Psychologists and Therapists in Madrid: How to Prepare the Session",
+    description:
+      "How to record content as a psychologist or therapist in a Madrid studio: which pieces to shoot, how to speak to camera with warmth and which ethical limits to respect.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["psychologists", "therapists", "Madrid studio", "organic content", "personal brand", "health"],
+    keyword: "video content for therapists madrid",
+    excerpt:
+      "A patient picks a therapist on trust before credentials. What to record in a single Madrid session to leave with an intro video, educational clips and one respectful ad.",
+    seoTitle: "Video Content for Psychologists and Therapists in Madrid",
+    metaDescription:
+      "Video content for psychologists and therapists in Madrid: which pieces to record in a 3-hour session, how to speak with warmth and which limits to respect.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you are a psychologist or therapist who wants to record content in Madrid, a 3-hour session with three pieces works best: a 2 to 3 minute intro video, 8 to 10 educational clips of 30 to 60 seconds and one simple ad to attract first consultations. One morning gives you material for weeks of social media and a piece ready to test on Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, our team works with professionals whose service is chosen on trust. Someone looking for a therapist has often hesitated for weeks and wants to sense, before writing, how you speak and how you work. We direct the session with an advertising and sales mindset, but with a clear limit: we don't sell fear and we don't promise results, we show judgment and warmth.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-psicologos-terapeutas-madrid/hero.webp",
+        alt: "Bright office with a sofa and desk, a calm setting for a consultation",
+        width: 1920,
+        height: 1440,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why video works so well in psychology and therapy",
+      },
+      {
+        type: "paragraph",
+        text: "Text on your website explains your approach, but it doesn't convey your voice, your pace or how you listen. That is exactly what a potential patient needs to check. Two minutes of video explaining who you help and what a first session is like lowers the barrier to taking the step, because they already know you.",
+      },
+      {
+        type: "paragraph",
+        text: "The sector is also full of very generic content: motivational quotes and symptom lists with no context. If you record thinking about a concrete question a real patient asks you, you stand out without needing to be controversial.",
+      },
+      {
+        type: "paragraph",
+        text: "An important point: patients are never recorded and no real consultation with anyone's data is shown. What gets recorded in the studio is you speaking to camera, with a polished background standing in for your office.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to organize the recording session",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Start with the intro video",
+      },
+      {
+        type: "paragraph",
+        text: "It goes first, when you have the most energy. Structure: who you support, what usually happens when they arrive, what the first session looks like and how to book. Use the teleprompter so you don't lose the thread, but read slowly and with pauses. If it's your first time on camera, 5 or 6 takes are normal and the last one is usually the best.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Record educational clips with a single idea",
+      },
+      {
+        type: "paragraph",
+        text: "8 to 10 clips, each answering a real question: when it makes sense to ask for help, what happens in a first session, how long a process usually takes. With a Sony A7 shooting vertical and a lavalier mic, one clip every 5 minutes is a realistic pace if the script is clear. If you can't give an exact figure, give a range and explain what it depends on.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Set aside a block for a respectful ad",
+      },
+      {
+        type: "paragraph",
+        text: "If you plan to invest in ads to attract first consultations, record a 30 to 45 second piece with two different openings: a question and a calm statement. That is 10 more minutes. Always check each platform's health advertising policies, which limit what you can claim. To split the hours well, read /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-psicologos-terapeutas-madrid/mid.webp",
+        alt: "Person wearing headphones recording a conversation with a microphone in front of a laptop",
+        width: 1920,
+        height: 1280,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Common mistakes when recording psychology and therapy content",
+      },
+      {
+        type: "list",
+        items: [
+          "Using clinical jargon the patient doesn't understand instead of explaining with everyday examples.",
+          "Promising results or improvement timelines, which also clashes with professional codes of ethics and with ad policies.",
+          "Giving advice as if it were a diagnosis for anyone watching the video.",
+          "Reading the script straight through in a lecture tone, instead of speaking the way you would in session.",
+          "Recording one long video instead of short pieces you can publish over weeks.",
+          "Showing real cases or recognizable anecdotes about patients, even if you change the name.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if your calendar depends on people finding you and trusting you before the first session. If you aren't yet clear on which kind of patient you want to support, define that profile first and then record.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently asked questions",
+      },
+      {
+        type: "faq",
+        question: "How long is a recording session for a psychologist or therapist?",
+        answer:
+          "Between 2 and 3 hours for an intro video, 8 to 10 educational clips and an ad with two openings. If you also want a talk or a course, it's better to book a separate 4-hour block.",
+      },
+      {
+        type: "faq",
+        question: "Can I record with my patients or in my own office?",
+        answer:
+          "We don't recommend it. For confidentiality reasons patients are not recorded. In the studio you speak to camera against a polished background, and the privacy of your practice stays intact.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own equipment?",
+        answer:
+          "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You only bring the script, your outfit and the ideas for the clips.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver edited videos?",
+        answer:
+          "It depends on the service. With Recording Only you take the raw footage. With Recording + Editing we edit in DaVinci Resolve and CapCut with subtitles and formats per platform. With Full Production we also handle the script and strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you are a psychologist or therapist and want to record in Madrid, write to us at /#contacto with your service and the kind of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
   },
 }
