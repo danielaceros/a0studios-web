@@ -1027,6 +1027,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: Prioridad 1 y 2 agotadas, se elige vertical nuevo (psicólogos y terapeutas), hermano de clínicas, abogados y coaches; sin cubrir en memoria. Imágenes Unsplash (FlippingBook, Flipsnack). EN publicado en el mismo commit.",
   },
+  {
+    slug: "grabar-contenido-entrenadores-personales-fitness-madrid",
+    keyword: "grabar contenido para entrenadores personales y centros de fitness en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-08",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: Prioridad 1 y 2 agotadas, se elige vertical nuevo (entrenadores personales y fitness), hermano de psicólogos, coaches y clínicas; sin cubrir en memoria. Imágenes Unsplash (maxhome fitness, Vitaly Gariev). EN publicado en el mismo commit.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

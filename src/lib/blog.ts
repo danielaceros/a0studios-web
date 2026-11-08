@@ -13314,6 +13314,147 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-entrenadores-personales-fitness-madrid",
+    title: "Grabar contenido para entrenadores personales y centros de fitness en Madrid",
+    description:
+      "Cómo grabar contenido como entrenador personal o centro de fitness en un estudio de Madrid: qué piezas grabar, cómo demostrar ejercicios y cómo preparar anuncios.",
+    publishedAt: "2026-11-08",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["entrenadores personales", "fitness", "estudio madrid", "contenido orgánico", "anuncios", "marca personal"],
+    keyword: "grabar contenido para entrenadores personales y centros de fitness en madrid",
+    intent: "informacional",
+    excerpt:
+      "Quien busca entrenador quiere ver cómo corriges y cómo hablas antes de apuntarse. Qué grabar en una sola sesión en Madrid para tener presentación, clips de técnica y un anuncio de captación.",
+    seoTitle: "Grabar contenido para entrenadores personales en Madrid",
+    metaDescription:
+      "Grabar contenido para entrenadores personales y centros de fitness en Madrid: qué piezas grabar en una sesión de 3 horas y cómo preparar anuncios.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si eres entrenador personal o diriges un centro de fitness y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 3 horas con tres piezas: un vídeo de presentación de 60 a 90 segundos, entre 10 y 12 clips verticales de técnica de 20 a 45 segundos y dos versiones de un anuncio para captar primeras clases de prueba. Con una mañana tienes material para un mes de redes y piezas listas para testear en Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, no te prestamos solo un espacio con luz. Dirigimos la sesión con mentalidad de anuncios y de venta: qué gancho abre el clip, qué ejercicio se ve bien en cámara y qué frase invita a reservar. En fitness sobra contenido bonito y falta contenido que haga que alguien escriba.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-entrenadores-personales-fitness-madrid/hero.webp",
+        alt: "Entrenador y alumna haciendo ejercicio juntos en un gimnasio luminoso",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué grabar en estudio si ya tienes un gimnasio",
+      },
+      {
+        type: "paragraph",
+        text: "Grabar en la sala tiene un problema práctico: ruido de máquinas, música de fondo, gente cruzando el plano y una luz que cambia según la hora. El audio es lo primero que arruina un vídeo de explicación, y en un gimnasio es muy difícil de controlar.",
+      },
+      {
+        type: "paragraph",
+        text: "En un estudio controlas sonido, fondo y luz, y el entrenamiento se ve limpio. Hay una excepción razonable: si tu valor diferencial es tu espacio, graba allí las escenas de ambiente y deja en el estudio todo lo que requiere voz clara, como la presentación, las explicaciones y el anuncio.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación para fitness",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por la presentación hablada",
+      },
+      {
+        type: "paragraph",
+        text: "Va primero, con energía alta y sin sudar. Estructura: a quién entrenas, qué le pasa antes de empezar contigo, cómo es la primera sesión y cómo reservar. Con teleprompter para no perder el hilo. Si es tu primera vez delante de cámara, 4 o 5 tomas son normales.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips de técnica con una sola corrección",
+      },
+      {
+        type: "paragraph",
+        text: "Entre 10 y 12 clips, cada uno con un solo error y su corrección: la sentadilla que se hunde de rodillas, el peso muerto con la espalda redondeada. Con una Sony A7 en vertical y un micrófono de solapa, un clip cada 10 minutos es un ritmo realista si traes el ejercicio claro. Pon el cuerpo entero en plano y deja espacio arriba para los subtítulos.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para el anuncio de captación",
+      },
+      {
+        type: "paragraph",
+        text: "Graba una pieza de 30 a 45 segundos con dos aperturas distintas: una pregunta y una afirmación. Son 15 minutos más y te permiten testear cuál retiene más. Ofrece una acción concreta, como una clase de prueba. Para repartir bien las horas, mira nuestra guía en /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-entrenadores-personales-fitness-madrid/mid.webp",
+        alt: "Mujer grabándose en vídeo con un smartphone sobre un trípode mientras hace ejercicio en casa",
+        width: 1920,
+        height: 1080,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido de fitness",
+      },
+      {
+        type: "list",
+        items: [
+          "Prometer resultados rápidos o cifras de pérdida de peso que no puedes garantizar, algo que además limitan las políticas de anuncios.",
+          "Grabar el ejercicio sin explicar el porqué, de modo que cualquiera lo copia sin saber cuándo no hacerlo.",
+          "Usar solo planos generales donde no se ve la técnica ni se oye la corrección.",
+          "Vestuario con logos grandes o estampados que molestan en cámara.",
+          "Mostrar a alumnos reconocibles sin su permiso por escrito.",
+          "Grabar un único vídeo largo en lugar de piezas cortas para publicar durante semanas.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si tu agenda depende de que te encuentren y confíen en ti antes de la primera clase. Si aún no has decidido a quién quieres entrenar, define primero ese perfil y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para un entrenador personal?",
+        answer:
+          "Entre 2 y 3 horas para una presentación, 10 a 12 clips de técnica y un anuncio con dos aperturas. Si tienes varios entrenadores o quieres un programa completo, reserva una segunda sesión de 3 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo traer material o a un alumno para demostrar ejercicios?",
+        answer:
+          "Sí. Puedes traer pesas ligeras, gomas o esterilla, y un alumno si tiene autorización por escrito. Antes de la sesión revisamos qué cabe en el plató y qué conviene grabar en tu centro.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo de grabación?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y los ejercicios que quieres explicar.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si eres entrenador o gestionas un centro y quieres grabar en Madrid, escríbenos en /#contacto con tu servicio y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

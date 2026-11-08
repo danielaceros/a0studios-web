@@ -2491,4 +2491,142 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-entrenadores-personales-fitness-madrid": {
+    title: "Recording Video Content for Personal Trainers and Fitness Studios in Madrid",
+    description:
+      "How to record content as a personal trainer or fitness studio in a Madrid studio: which pieces to shoot, how to demonstrate exercises and how to prepare ads.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["personal trainers", "fitness", "Madrid studio", "organic content", "ads", "personal brand"],
+    keyword: "video content for personal trainers madrid",
+    excerpt:
+      "People hiring a trainer want to see how you correct and how you talk before signing up. What to record in a single Madrid session for an intro, technique clips and a lead-gen ad.",
+    seoTitle: "Video Content for Personal Trainers and Gyms in Madrid",
+    metaDescription:
+      "Video content for personal trainers and fitness studios in Madrid: which pieces to record in a 3-hour session and how to prepare ads that bring in leads.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you are a personal trainer or run a fitness studio and want to record content in Madrid, a 3-hour session with three pieces works best: a 60 to 90 second intro video, 10 to 12 vertical technique clips of 20 to 45 seconds and two versions of an ad to attract first trial classes. One morning gives you a month of social content and pieces ready to test on Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, we don't just lend you a well-lit room. Our team directs the session with an advertising and sales mindset: which hook opens the clip, which exercise looks good on camera and which line invites people to book. Fitness has plenty of pretty content and too little that makes someone get in touch.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-entrenadores-personales-fitness-madrid/hero.webp",
+        alt: "Trainer and client exercising together in a bright gym",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why record in a studio if you already have a gym",
+      },
+      {
+        type: "paragraph",
+        text: "Recording on the gym floor has a practical problem: machine noise, background music, people crossing the frame and light that changes with the time of day. Audio is the first thing that ruins an explainer video, and in a gym it is very hard to control.",
+      },
+      {
+        type: "paragraph",
+        text: "In a studio you control sound, background and light, and the workout looks clean. There is one reasonable exception: if your selling point is your space, shoot the atmosphere scenes there and keep everything that needs clear voice in the studio, such as the intro, the explanations and the ad.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to organize a fitness recording session",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Start with the spoken intro",
+      },
+      {
+        type: "paragraph",
+        text: "It goes first, with high energy and before you break a sweat. Structure: who you train, what they struggle with before starting with you, what the first session looks like and how to book. Use a teleprompter to keep the thread. If it is your first time on camera, 4 or 5 takes are normal.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Record technique clips with a single correction",
+      },
+      {
+        type: "paragraph",
+        text: "Between 10 and 12 clips, each with one mistake and its fix: the squat where the knees cave in, the deadlift with a rounded back. With a Sony A7 in vertical and a lavalier microphone, one clip every 10 minutes is a realistic pace if you arrive with the exercise clear. Frame the full body and leave room at the top for subtitles.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Book a block for the lead-gen ad",
+      },
+      {
+        type: "paragraph",
+        text: "Record one 30 to 45 second piece with two different openings: a question and a statement. It takes 15 extra minutes and lets you test which one holds attention longer. Offer one concrete action, such as a trial class. To split the hours well, read our guide at /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-entrenadores-personales-fitness-madrid/mid.webp",
+        alt: "Woman filming herself with a smartphone on a tripod while exercising at home",
+        width: 1920,
+        height: 1080,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Common mistakes when recording fitness content",
+      },
+      {
+        type: "list",
+        items: [
+          "Promising fast results or weight-loss figures you can't guarantee, which ad policies also restrict.",
+          "Filming the exercise without explaining why, so anyone copies it without knowing when not to.",
+          "Using only wide shots where neither the technique nor the correction can be seen or heard.",
+          "Outfits with large logos or busy patterns that distract on camera.",
+          "Showing recognizable clients without their written permission.",
+          "Recording one long video instead of short pieces to publish over weeks.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if your calendar depends on people finding you and trusting you before the first class. If you haven't yet decided who you want to train, define that profile first and then record.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently asked questions",
+      },
+      {
+        type: "faq",
+        question: "How long is a recording session for a personal trainer?",
+        answer:
+          "Between 2 and 3 hours for an intro, 10 to 12 technique clips and an ad with two openings. If you have several trainers or want a full program, book a second 3-hour session.",
+      },
+      {
+        type: "faq",
+        question: "Can I bring equipment or a client to demonstrate exercises?",
+        answer:
+          "Yes. You can bring light weights, bands or a mat, and a client if you have their written consent. Before the session we review what fits on set and what is better recorded at your own studio.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring recording equipment?",
+        answer:
+          "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You only bring the script, your outfit and the exercises you want to explain.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver edited videos?",
+        answer:
+          "It depends on the service. With Recording Only you take the raw footage. With Recording + Editing we edit in DaVinci Resolve and CapCut with subtitles and formats per platform. With Full Production we also handle the script and strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you are a trainer or manage a fitness studio and want to record in Madrid, write to us at /#contacto with your service and the kind of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }
