@@ -91,10 +91,10 @@ export default function Estudio() {
         <div className="reveal mt-4 grid gap-4 lg:grid-cols-[minmax(0,0.78fr)_minmax(0,1.22fr)]">
           <div className="panel relative aspect-[4/5] overflow-hidden lg:aspect-auto">
             <Image
-              src="/me.webp"
+              src="/dani-camara.webp"
               alt="Dani Acero, fundador y filmmaker de A0Studios"
-              width={640}
-              height={640}
+              width={1000}
+              height={1500}
               className="absolute inset-0 h-full w-full object-cover object-center"
             />
             <span className="badge absolute bottom-4 left-4">Dani Acero · Fundador</span>
