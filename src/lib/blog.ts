@@ -13455,6 +13455,155 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-academias-centros-formacion-madrid",
+    title: "Grabar contenido para academias y centros de formación en Madrid",
+    description: "Cómo grabar contenido como academia o centro de formación en un estudio de Madrid: qué piezas grabar, muestras de clase y cómo preparar anuncios de matrícula.",
+    publishedAt: "2026-11-09",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: [
+      "academias",
+      "centros de formación",
+      "estudio madrid",
+      "contenido orgánico",
+      "anuncios",
+      "marca personal",
+    ],
+    keyword: "grabar contenido para academias y centros de formacion en madrid",
+    intent: "informacional",
+    excerpt: "Quien busca curso quiere ver quién enseña antes de pagar la matrícula. Qué grabar en una sola sesión en Madrid para tener presentación, muestras de clase y un anuncio de captación.",
+    seoTitle: "Grabar contenido para academias y formación en Madrid",
+    metaDescription: "Grabar contenido para academias y centros de formación en Madrid: qué piezas grabar en 3 horas, muestras de clase y anuncio para captar matrículas.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si diriges una academia o un centro de formación en Madrid, lo que mejor funciona es una sesión de 3 horas con tres piezas: un vídeo de presentación de 2 minutos, entre 8 y 10 clips de 30 a 60 segundos con muestras de clase y un anuncio de 30 a 45 segundos para captar matrículas. Una mañana te da material para un trimestre de redes y para probar anuncios antes de abrir convocatoria.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, grabamos a academias, profesores y responsables de formación. Quien busca un curso compara varias opciones y quiere ver quién enseña antes de pagar la matrícula. Dirigimos la sesión con mentalidad de anuncios y de venta: cada pieza responde a una duda concreta del alumno, no a la ficha del programa.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-academias-centros-formacion-madrid/hero.webp",
+        alt: "Sala de formación con asistentes y una pantalla de proyección, un entorno de clase",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué el vídeo vende cursos y formaciones mejor que el folleto",
+      },
+      {
+        type: "paragraph",
+        text: "Un curso es una promesa que no se puede probar antes de comprar. El vídeo es lo más parecido a una clase de muestra: el alumno ve cómo explicas, a qué ritmo y qué nivel esperas. Eso reduce la duda más habitual, la de si el formador merece el precio.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, el sector suele comunicar con temarios y listas de módulos, que se parecen entre academias. Un clip en el que resuelves un error típico de tus alumnos en 45 segundos te diferencia sin necesidad de rebajar el precio.",
+      },
+      {
+        type: "paragraph",
+        text: "Un matiz: no prometas empleo ni sueldos concretos si no puedes demostrarlos. Muestra el método, el tipo de ejercicios y el resultado que se puede comprobar, como un proyecto final o una certificación real.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo de presentación de la academia",
+      },
+      {
+        type: "paragraph",
+        text: "Va primero, con la energía alta. Estructura: a quién va dirigido el curso, qué sabrá hacer el alumno al terminar, cómo son las clases y cómo reservar plaza. Con teleprompter para no perder el hilo, pero sin leer de corrido. Si hay varios docentes, graba una presentación breve de cada uno de 30 segundos.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba muestras de clase con una sola idea",
+      },
+      {
+        type: "paragraph",
+        text: "Entre 8 y 10 clips, cada uno con una duda real: el error más común del principiante, un atajo que ahorra horas, una pregunta de examen. Con una Sony A7 en vertical y un micrófono de solapa, un clip cada 5 minutos es realista si el guion está claro. Si tu curso tiene pizarra o pantalla, graba esa pieza aparte con encuadre más abierto.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para el anuncio de captación",
+      },
+      {
+        type: "paragraph",
+        text: "Graba una pieza de 30 a 45 segundos con dos aperturas: una pregunta del alumno y una afirmación directa sobre el resultado del curso. Son 15 minutos más y te permiten probar en Meta Ads cuál retiene mejor. Para repartir bien las horas, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-academias-centros-formacion-madrid/mid.webp",
+        alt: "Micrófono de condensador negro preparado para grabar la voz de un formador",
+        width: 1920,
+        height: 1280,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido de formación",
+      },
+      {
+        type: "paragraph",
+        text: "La mayoría de errores vienen de grabar como si fuera una clase en directo, cuando el vídeo corto exige otro ritmo. Estos son los que más vemos:",
+      },
+      {
+        type: "list",
+        items: [
+          "Grabar la clase entera en lugar de piezas cortas que se puedan publicar durante semanas.",
+          "Empezar por el temario en vez de por la duda del alumno.",
+          "Prometer empleo, sueldos o plazos de resultados que no puedes demostrar.",
+          "Hablar al aula imaginaria y no a una sola persona que mira a cámara.",
+          "Usar diapositivas con mucho texto que no se lee en el móvil.",
+          "No grabar al docente: el alumno compra a la persona antes que al programa.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si tus matrículas dependen de que te encuentren y confíen antes de la convocatoria. Si todavía no tienes definido el perfil de alumno, defínelo primero y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para una academia o centro de formación?",
+        answer: "Entre 2 y 3 horas para un vídeo de presentación, 8 a 10 clips de muestra y un anuncio con dos aperturas. Si quieres grabar un curso completo, mejor reservar bloques de 4 horas aparte.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo traer a varios profesores en la misma sesión?",
+        answer: "Sí. Con 3 o 4 docentes planificamos turnos de 30 a 40 minutos para que cada uno grabe su presentación y 2 o 3 clips sin esperas.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer: "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y las preguntas de los clips.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer: "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si diriges una academia o das formación y quieres grabar en Madrid, escríbenos en /#contacto con tu oferta y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

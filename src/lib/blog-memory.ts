@@ -1036,6 +1036,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: Prioridad 1 y 2 agotadas, se elige vertical nuevo (entrenadores personales y fitness), hermano de psicólogos, coaches y clínicas; sin cubrir en memoria. Imágenes Unsplash (maxhome fitness, Vitaly Gariev). EN publicado en el mismo commit.",
   },
+  {
+    slug: "grabar-contenido-academias-centros-formacion-madrid",
+    keyword: "grabar contenido para academias y centros de formacion en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-09",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: Prioridad 1, 2 y rotación público extranjero agotadas, se elige vertical nuevo (academias y centros de formación), hermano de coaches, startups y asesorías; sin cubrir en memoria. Imágenes Unsplash (Quilia, CoWomen). EN publicado en el mismo commit.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

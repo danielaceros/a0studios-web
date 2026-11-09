@@ -2629,4 +2629,150 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-academias-centros-formacion-madrid": {
+    title: "Recording Video Content for Academies and Training Centers in Madrid",
+    description: "How to record content as an academy or training center in a Madrid studio: which pieces to shoot, sample lessons and how to prepare enrollment ads.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: [
+      "academies",
+      "training centers",
+      "Madrid studio",
+      "organic content",
+      "ads",
+      "personal brand",
+    ],
+    keyword: "video content for training centers madrid",
+    excerpt: "Someone shopping for a course wants to see who teaches before paying. What to record in a single Madrid session to leave with an intro, sample lessons and an enrollment ad.",
+    seoTitle: "Video Content for Academies and Training in Madrid",
+    metaDescription: "Video content for academies and training centers in Madrid: which pieces to record in 3 hours, sample lessons and an ad to attract enrollments.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you run an academy or training center in Madrid, a 3-hour session with three pieces works best: a 2-minute intro video, 8 to 10 sample-lesson clips of 30 to 60 seconds and one 30 to 45 second ad to attract enrollments. One morning gives you a quarter of social content and material to test ads before you open registration.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, our team records academies, teachers and training managers. Someone shopping for a course compares several options and wants to see who teaches before paying. We direct the session with an advertising and sales mindset: each piece answers one specific student doubt, not the program sheet.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-academias-centros-formacion-madrid/hero.webp",
+        alt: "Training room with attendees and a projection screen, a classroom setting",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why video sells courses and training better than a brochure",
+      },
+      {
+        type: "paragraph",
+        text: "A course is a promise you can't test before buying. Video is the closest thing to a sample class: the student sees how you explain, at what pace and what level you expect. That removes the most common doubt, whether the teacher is worth the price.",
+      },
+      {
+        type: "paragraph",
+        text: "The sector also tends to communicate with syllabi and module lists, which look alike across academies. A 45-second clip where you fix a typical student mistake sets you apart without cutting your price.",
+      },
+      {
+        type: "paragraph",
+        text: "One caveat: don't promise jobs or specific salaries unless you can prove them. Show the method, the kind of exercises and a result people can check, such as a final project or a real certification.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to organize the recording session",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Start with the academy intro video",
+      },
+      {
+        type: "paragraph",
+        text: "It goes first, while energy is high. Structure: who the course is for, what the student will be able to do at the end, what classes look like and how to book a seat. Use a teleprompter to keep the thread, without reading flat. If there are several teachers, record a 30-second intro for each.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Record sample lessons with a single idea",
+      },
+      {
+        type: "paragraph",
+        text: "Between 8 and 10 clips, each answering a real doubt: the most common beginner mistake, a shortcut that saves hours, an exam question. With a Sony A7 shooting vertical and a lavalier microphone, one clip every 5 minutes is realistic if the script is clear. If your course uses a whiteboard or a screen, shoot that piece separately with a wider frame.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Book a block for the enrollment ad",
+      },
+      {
+        type: "paragraph",
+        text: "Record a 30 to 45 second piece with two openings: a student's question and a direct statement about the course outcome. It takes 15 extra minutes and lets you test on Meta Ads which one holds attention better. To split the hours well, read /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-academias-centros-formacion-madrid/mid.webp",
+        alt: "Black condenser microphone set up to record a trainer's voice",
+        width: 1920,
+        height: 1280,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Common mistakes when recording training content",
+      },
+      {
+        type: "paragraph",
+        text: "Most mistakes come from recording as if it were a live class, when short video needs a different pace. These are the ones we see most:",
+      },
+      {
+        type: "list",
+        items: [
+          "Recording the whole class instead of short pieces you can publish for weeks.",
+          "Starting with the syllabus instead of the student's doubt.",
+          "Promising jobs, salaries or result timelines you can't prove.",
+          "Talking to an imaginary room instead of one person looking at the camera.",
+          "Using text-heavy slides that can't be read on a phone.",
+          "Not recording the teacher: students buy the person before the program.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if your enrollments depend on being found and trusted before registration opens. If you haven't defined your ideal student yet, define it first and then record.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently asked questions",
+      },
+      {
+        type: "faq",
+        question: "How long is a recording session for an academy or training center?",
+        answer: "Between 2 and 3 hours for an intro video, 8 to 10 sample clips and an ad with two openings. If you want to record a full course, book separate 4-hour blocks.",
+      },
+      {
+        type: "faq",
+        question: "Can I bring several teachers to the same session?",
+        answer: "Yes. With 3 or 4 teachers we plan 30 to 40 minute turns so each records an intro and 2 or 3 clips without waiting around.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring recording equipment?",
+        answer: "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You only bring the script, your outfit and the questions for the clips.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver edited videos?",
+        answer: "It depends on the service. With Recording Only you take the raw footage. With Recording + Editing we edit in DaVinci Resolve and CapCut with subtitles and platform formats. With Full Production we also handle the script and strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you run an academy or teach and want to record in Madrid, write to us at /#contacto with your offer and the kind of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }
