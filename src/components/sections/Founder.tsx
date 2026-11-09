@@ -10,7 +10,7 @@ export default function Founder() {
           <ScrollReveal>
             <div className="shrink-0">
               <Image
-                src="/me.webp"
+                src="/dani-camara.webp"
                 alt="Dani Acero — Founder & Filmmaker de A0Studios"
                 width={320}
                 height={320}
