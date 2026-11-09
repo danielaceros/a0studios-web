@@ -1,0 +1,137 @@
+import { Manrope, Playfair_Display } from "next/font/google";
+import Script from "next/script";
+import { buildRootMetadata } from "@/lib/metadata";
+import { getProfessionalServiceSchema, getWebSiteSchema, getVideoSchema } from "@/lib/structured-data";
+// GrainOverlay removed per user request
+import SmoothScroll from "@/components/ui/SmoothScroll";
+import WhatsAppButton from "@/components/ui/WhatsAppButton";
+import type { Lang } from "@/lib/i18n";
+import "@/app/globals.css";
+
+// Dos familias en toda la web y ni una más:
+// Manrope para todo (incluidos los datos técnicos que antes iban en mono)
+// y Playfair Display Italic como acento de marca.
+const manrope = Manrope({
+  weight: ["400", "500", "600", "700"],
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-manrope",
+  display: "swap",
+});
+
+const playfairDisplay = Playfair_Display({
+  style: ["italic"],
+  weight: ["400", "500", "600"],
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-playfair-italic",
+  display: "swap",
+});
+
+export { buildRootMetadata };
+
+// Documento HTML completo (<html lang>, head, tracking, JSON-LD). Lo monta app/[lang]/layout.tsx
+// y app/global-not-found.tsx. El español no cambia: mismos scripts, mismo schema.
+export default function RootDocument({
+  lang,
+  children,
+}: Readonly<{
+  lang: Lang;
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang={lang} className={`${manrope.variable} ${playfairDisplay.variable}`}>
+      <head>
+        {/* Inline script (not Next Script) to run before ANY other JS — catches
+            webkit.messageHandlers errors thrown by Instagram/TikTok iOS WebViews */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){var w='webkit',m='messageHandlers';function s(e){var g=e&&(e.message||e.reason&&e.reason.message||'');if(g.indexOf(w)!==-1||g.indexOf(m)!==-1){e.preventDefault&&e.preventDefault();e.stopImmediatePropagation&&e.stopImmediatePropagation();return true;}}window.addEventListener('error',s,true);window.addEventListener('unhandledrejection',function(e){if(s(e)){e.preventDefault();}},true);})();`,
+          }}
+        />
+        {/* Un único preload de la poster del Hero (LCP) — antes había dos
+            <link rel="preload"> idénticos para este mismo recurso. */}
+        <link
+          rel="preload"
+          as="image"
+          href="/optimized/hero-poster-v3.webp"
+          type="image/webp"
+        />
+        {/* Preconnect a Firebase Storage retirado (9-sep-2026): los vídeos de
+            portfolio ya no dependen de ese storage (ver src/data/projects.ts,
+            devolvía 402 por facturación) — el preconnect era dead weight. */}
+        <link rel="preconnect" href="https://api.daniaceros.com" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://connect.facebook.net" />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17976589112"
+          strategy="lazyOnload"
+        />
+        <Script id="google-ads-gtag" strategy="lazyOnload">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17976589112');
+            gtag('config', 'G-5RBDKSDEZQ');
+            gtag('config', 'AW-18540352637');
+          `}
+        </Script>
+        {/* Píxel de Meta de A0Studios. Vivía dentro de CookieConsent y solo cargaba si aceptaban el banner,
+            mientras Google Ads/GA4 cargaban siempre: incoherente dentro de la propia web y, sobre todo,
+            distinto de daniaceros.com. Decisión de Dani (17-sep-2026): las dos webs igual, sin gate. */}
+        <Script id="meta-pixel" strategy="lazyOnload">
+          {`
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '900204272395673');
+            fbq('track', 'PageView');
+          `}
+        </Script>
+        {/* Microsoft Clarity: siempre, sin gate de cookies (decisión de Dani, 15-oct-2026), igual que
+            Google Ads/GA4 y el píxel de Meta. */}
+        <Script id="microsoft-clarity" strategy="lazyOnload">
+          {`
+            (function(c,l,a,r,i,t,y){
+              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "yy0hxpclbe");
+          `}
+        </Script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(getProfessionalServiceSchema(lang)),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(getWebSiteSchema(lang)),
+          }}
+        />
+        {/* El WebPage schema (con datePublished/dateModified propios) ya no
+            va aquí a nivel global — se aplicaba idéntico a la home y a los
+            ~65 posts del blog. Ahora vive en cada page.tsx: la home tiene el
+            suyo (WebPage) y cada post de blog el suyo (BlogPosting), con sus
+            fechas reales. */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(getVideoSchema(lang)),
+          }}
+        />
+      </head>
+      <body>
+        <SmoothScroll />
+        {children}
+        <WhatsAppButton lang={lang} />
+      </body>
+    </html>
+  );
+}

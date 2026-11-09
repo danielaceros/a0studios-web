@@ -2,8 +2,11 @@
 
 import Image from "next/image";
 import { NAP, SITE_NAME } from "@/lib/constants";
+import type { Lang } from "@/lib/i18n";
+import { heroContent } from "@/lib/i18n/content/hero";
 
-export default function Hero() {
+export default function Hero({ lang }: { lang: Lang }) {
+  const t = heroContent[lang];
   return (
     <section className="relative flex min-h-[100svh] flex-col justify-between overflow-hidden pb-8 pt-28 sm:pt-32">
       {/* Fondo: vídeo real del estudio, muy atenuado — solo textura */}
@@ -69,14 +72,12 @@ export default function Hero() {
             />
           </div>
           <span className="sr-only">
-            {SITE_NAME} — estudio boutique de grabación de
-            contenido audiovisual en un ático en Madrid centro: anuncios, VSLs, reels y podcast que
-            convierten, dirigidos por Dani Acero.
+            {SITE_NAME}{t.srOnly}
           </span>
         </h1>
 
         <div className="mt-7 flex items-center gap-2 sm:mt-9">
-          <span className="text-[12px] tracking-[0.02em] text-foreground/45">por</span>
+          <span className="text-[12px] tracking-[0.02em] text-foreground/45">{t.by}</span>
           <a
             href="https://www.instagram.com/daniaceros/"
             target="_blank"
@@ -86,7 +87,7 @@ export default function Hero() {
             <span className="relative h-6 w-6 shrink-0 overflow-hidden rounded-full ring-1 ring-foreground/25">
               <Image
                 src="/optimized/avatar-daniaceros.webp"
-                alt="Daniel Acero"
+                alt={t.avatarAlt}
                 fill
                 sizes="24px"
                 className="object-cover"
@@ -97,20 +98,19 @@ export default function Hero() {
         </div>
 
         <p className="mt-7 max-w-[22ch] text-balance text-center font-heading text-[clamp(1.55rem,3.6vw,2.4rem)] leading-[1.1] tracking-[-0.03em] text-foreground sm:mt-9">
-          Contenido que <span className="accent-italic tracking-normal">convierte</span>
+          {t.taglinePre} <span className="accent-italic tracking-normal">{t.taglineAccent}</span>
         </p>
         <p className="mt-4 max-w-[34ch] text-balance text-center text-[0.95rem] leading-[1.65] text-foreground/65 sm:max-w-[48ch] sm:text-[1.02rem]">
-          En ventas, en clientes o en seguidores. Estudio de grabación en Madrid centro para
-          anuncios, VSLs, reels y podcast.
+          {t.lead}
         </p>
-        <p className="meta mt-5 text-center">Estudio boutique · Una única sesión al día</p>
+        <p className="meta mt-5 text-center">{t.meta}</p>
 
         <div className="mt-10 flex flex-col items-center gap-3 sm:mt-12 sm:flex-row">
           <a href="#contacto" className="btn btn-solid">
-            Pedir presupuesto
+            {t.ctaQuote}
           </a>
           <a href="#resultados" className="btn btn-outline">
-            Ver resultados
+            {t.ctaResults}
           </a>
         </div>
       </div>
@@ -126,7 +126,7 @@ export default function Hero() {
               contenedor centrado de 1360px (0 en pantallas anchas). Una sola clase: con
               dos variantes de breakpoint, el orden del CSS dejaba ganar siempre a lg. */}
           <p className="meta hidden lg:block lg:mr-[max(0px,calc(9rem_-_(100vw_-_min(100vw,1360px))_/_2))]">
-            Est. 2025 — por{" "}
+            {t.est}{" "}
             <a
               href="https://www.instagram.com/daniaceros"
               target="_blank"

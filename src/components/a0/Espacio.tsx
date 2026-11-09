@@ -1,8 +1,11 @@
 import SectionHead from "./SectionHead";
 import BtsMarquee from "./BtsMarquee";
 import { NAP } from "@/lib/constants";
+import type { Lang } from "@/lib/i18n";
+import { espacioContent } from "@/lib/i18n/content/espacio";
 
-export default function Espacio() {
+export default function Espacio({ lang }: { lang: Lang }) {
+  const t = espacioContent[lang];
   return (
     <section
       id="espacio"
@@ -10,39 +13,39 @@ export default function Espacio() {
     >
       <div className="mx-auto max-w-[1360px]">
         <SectionHead
-          label="El espacio"
-          title="Dónde vas a"
-          accent="grabar"
-          lead="Un ático en Madrid centro con terraza con vistas al skyline, sala polivalente y set de podcast, con equipo profesional. A cinco minutos andando de Atocha y con una única sesión al día."
+          label={t.head.label}
+          title={t.head.title}
+          accent={t.head.accent}
+          lead={t.head.lead}
         />
 
         {/* Carrusel ambiental de BTS — 100% pasivo, sin interacción (ver BtsMarquee) */}
         <div className="reveal mt-14 sm:mt-[clamp(3.5rem,5vw,5rem)]">
-          <BtsMarquee />
+          <BtsMarquee lang={lang} />
         </div>
 
         {/* Ficha de ubicación — datos sobre filetes, como una hoja de rodaje */}
         <div className="reveal panel mt-10 flex flex-col gap-8 px-6 py-8 sm:mt-12 sm:px-10 sm:py-10 lg:flex-row lg:items-end lg:justify-between">
           <div className="min-w-0">
-            <p className="meta">Dónde estamos</p>
+            <p className="meta">{t.whereLabel}</p>
             <p className="mt-4 font-heading text-[clamp(1.35rem,2.4vw,2rem)] leading-[1.15] tracking-[-0.03em] text-foreground">
               {NAP.streetAddress}
             </p>
             <div className="mt-6 flex flex-col gap-0 sm:max-w-[30rem]">
               <div className="rule" />
               <div className="flex items-baseline justify-between gap-6 py-3">
-                <span className="meta">Barrio</span>
-                <span className="data">Madrid centro</span>
+                <span className="meta">{t.neighborhood}</span>
+                <span className="data">{t.neighborhoodValue}</span>
               </div>
               <div className="rule" />
               <div className="flex items-baseline justify-between gap-6 py-3">
-                <span className="meta">Metro</span>
-                <span className="data">Atocha Renfe (L1) · 5 min</span>
+                <span className="meta">{t.metro}</span>
+                <span className="data">{t.metroValue}</span>
               </div>
               <div className="rule" />
               <div className="flex items-baseline justify-between gap-6 py-3">
-                <span className="meta">Cercanías</span>
-                <span className="data">Atocha · 5 min</span>
+                <span className="meta">{t.rail}</span>
+                <span className="data">{t.railValue}</span>
               </div>
               <div className="rule" />
             </div>
@@ -53,7 +56,7 @@ export default function Espacio() {
             rel="noopener noreferrer"
             className="btn btn-outline w-fit shrink-0"
           >
-            Abrir en Maps
+            {t.maps}
           </a>
         </div>
       </div>

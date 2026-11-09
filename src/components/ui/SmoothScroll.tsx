@@ -1,32 +1,27 @@
 "use client";
 
+// Anclas de la página (#contacto, #resultados...). Este componente existe por una
+// sola razón: el `<a href="#x">` nativo deja la sección pegada al borde superior y
+// la nav fija se le come los primeros 110 px. Aquí se resta ese alto y se salta.
+//
+// Antes animaba el recorrido con un easeInOutCubic de 800 ms. Desde el hero hasta
+// el formulario hay unas once pantallas, así que el usuario tocaba el botón y se
+// quedaba casi un segundo viendo pasar la página: parece que no ha respondido y
+// vuelve a tocar. Ahora el salto es seco, como el de un ancla de verdad. El
+// desplazamiento suave se queda donde el recorrido es corto y sí se lee como un
+// gesto: los carruseles, que llevan su propio `scroll-smooth`.
+
 import { useEffect } from "react";
 
-function easeInOutCubic(t: number): number {
-  return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
-}
-
-function smoothScrollTo(targetY: number, duration = 800) {
-  const startY = window.scrollY;
-  const diff = targetY - startY;
-  const start = performance.now();
-
-  const step = (now: number) => {
-    const elapsed = now - start;
-    const progress = Math.min(elapsed / duration, 1);
-    window.scrollTo(0, startY + diff * easeInOutCubic(progress));
-    if (progress < 1) requestAnimationFrame(step);
-  };
-
-  requestAnimationFrame(step);
-}
+/** Alto de la nav fija: lo que hay que descontar para que la sección no quede debajo. */
+const NAV_HEIGHT = 110;
 
 export default function SmoothScroll() {
   useEffect(() => {
-    // Use native smooth scroll on reduced-motion or mobile
-    const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
     const onClick = (e: MouseEvent) => {
+      // Un clic con modificador abre en otra pestaña/ventana: no es cosa nuestra.
+      if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+
       const target = e.target as HTMLElement;
       const anchor = target.closest<HTMLAnchorElement>('a[href^="#"]');
       if (!anchor) return;
@@ -39,16 +34,12 @@ export default function SmoothScroll() {
 
       e.preventDefault();
 
-      const navHeight = 110;
-      const targetY = el.getBoundingClientRect().top + window.scrollY - navHeight;
+      window.scrollTo({
+        top: el.getBoundingClientRect().top + window.scrollY - NAV_HEIGHT,
+        behavior: "auto",
+      });
 
-      if (prefersReduced) {
-        window.scrollTo(0, targetY);
-      } else {
-        smoothScrollTo(targetY);
-      }
-
-      // Update URL without scroll jump
+      // La URL se actualiza aparte para que el navegador no vuelva a saltar por su cuenta.
       history.pushState(null, "", hash);
     };
 

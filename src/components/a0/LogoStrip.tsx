@@ -1,11 +1,14 @@
 import Image from "next/image";
+import type { Lang } from "@/lib/i18n";
+import { logoStripContent } from "@/lib/i18n/content/logo-strip";
 
-export default function LogoStrip() {
+export default function LogoStrip({ lang }: { lang: Lang }) {
+  const t = logoStripContent[lang];
   return (
-    <section aria-label="Clientes" className="border-y border-line py-8 sm:py-10">
+    <section aria-label={t.ariaLabel} className="border-y border-line py-8 sm:py-10">
       <div className="mx-auto mb-7 flex max-w-[1360px] items-center gap-3 px-4 sm:px-6 lg:px-8">
         <span className="tick" aria-hidden="true" />
-        <p className="meta">Dani ha producido para</p>
+        <p className="meta">{t.intro}</p>
       </div>
 
       <div
@@ -24,7 +27,7 @@ export default function LogoStrip() {
             <Image
               key={copy}
               src="/optimized/logos-banner-trim.png"
-              alt={copy === 0 ? "IFEMA, Cinesa y Cámara de Comercio de Madrid" : ""}
+              alt={copy === 0 ? t.logosAlt : ""}
               aria-hidden={copy !== 0}
               width={894}
               height={81}

@@ -694,6 +694,348 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual desde hace varias ejecuciones consecutivas). Fallback evergreen Prioridad 1 (SEO local/comercial) ítem 9 de la lista (ítems 1, 2, 4, 5 y 6 ya publicados; ítem 3 descartado por solapar con el ítem 1; ítem 7 'reels y TikToks en Madrid' descartado por solapar con 'grabacion-reels-madrid-que-necesitas' ya en memoria; ítem 8 'Meta Ads en Madrid' descartado por solapar con 'donde-grabar-anuncios-en-madrid', que ya cubre Meta/TikTok Ads). Tema nuevo sobre por qué el diferencial de un estudio no es el espacio sino la dirección con criterio de marketing (guion, hook, formatos que salen de una sesión), reforzando el pitch de venta actualizado. Imágenes Unsplash.",
   },
+  {
+    slug: "alquiler-estudio-horas-grabar-anuncios-madrid",
+    keyword: "alquiler de estudio por horas para grabar anuncios en madrid",
+    intent: "informacional",
+    createdAt: "2026-09-23",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual desde hace varias ejecuciones consecutivas, escalar a Dani). Fallback evergreen Prioridad 1 (SEO local/comercial) ítem 10 de la lista (ítems 1, 2, 4, 5, 6 y 9 ya publicados; ítem 3 descartado por solapar con el ítem 1; ítem 7 descartado por solapar con 'grabacion-reels-madrid-que-necesitas'; ítem 8 descartado por solapar con el ítem 1). Tema nuevo sobre el modelo de alquiler por horas en sí (qué incluye la tarifa, cómo planificar la sesión para sacar varias variantes testeables de anuncio), ángulo de logística/precio de la sesión distinto de 'donde-grabar-anuncios-en-madrid' (decisión de dónde grabar) y 'mejor-estudio-spots-publicitarios-madrid' (criterio de elección del estudio). Imágenes Unsplash.",
+  },
+  {
+    slug: "estudio-grabacion-madrid-centro-founders-marcas",
+    keyword: "estudio de grabacion en madrid centro para founders y marcas",
+    intent: "informacional",
+    createdAt: "2026-09-24",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual, mismo issue OAuth documentado desde hace varias ejecuciones consecutivas, escalar a Dani). Fallback evergreen Prioridad 1 (SEO local/comercial) ítem 11 de la lista (ítems 1, 2, 4, 5, 6, 9 y 10 ya publicados; ítem 3 descartado por solapar con el ítem 1; ítem 7 descartado por solapar con 'grabacion-reels-madrid-que-necesitas'; ítem 8 descartado por solapar con el ítem 1). Tema nuevo sobre por qué la ubicación en pleno centro de Madrid (Ronda de Atocha 16) importa específicamente para founders y marcas personales con agenda apretada, ángulo de perfil de cliente + localización distinto del checklist genérico 'como-elegir-estudio-grabacion-marca-personal' y de 'estudio-grabacion-direccion-marketing-madrid' (criterio de dirección, no ubicación). Imágenes Unsplash.",
+  },
+  {
+    slug: "diferencia-alquilar-estudio-contratar-direccion-contenido",
+    keyword: "diferencia entre alquilar un estudio y contratar direccion de contenido",
+    intent: "informacional",
+    createdAt: "2026-09-25",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual, mismo issue OAuth documentado desde hace varias ejecuciones consecutivas, escalar a Dani). Fallback evergreen Prioridad 1 (SEO local/comercial) ítem 12 de la lista — última pendiente de esa lista (ítems 1, 2, 4, 5, 6, 9, 10 y 11 ya publicados; ítem 3 descartado por solapar con el ítem 1; ítem 7 descartado por solapar con 'grabacion-reels-madrid-que-necesitas'; ítem 8 descartado por solapar con el ítem 1). Tema sobre la diferencia entre alquilar solo el espacio (Solo Grabación) y contratar dirección de contenido con criterio de venta, ángulo de modelo de servicio no cubierto por ningún post anterior. Con este post se agota también la lista Prioridad 1 completa; la siguiente ejecución deberá pasar a la lista genérica de buyer persona (Prioridad 2). Imágenes Unsplash.",
+  },
+  {
+    slug: "grabacion-contenido-clinicas-consultas",
+    keyword: "grabacion de contenido para clinicas y consultas",
+    intent: "informacional",
+    createdAt: "2026-09-28",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual, mismo issue OAuth documentado desde hace varias ejecuciones consecutivas, escalar a Dani). Lista Prioridad 1 (SEO local/comercial) ya agotada por completo desde 2026-09-25, así que esta ejecución pasa a la lista genérica de buyer persona (Prioridad 2): ítem 14 'Grabación de contenido para clínicas y consultas'. Ítems 1, 2, 4, 5, 6 y 10 de esa lista ya publicados previamente; ítem 3 descartado por solapar con 'grabacion-de-testimonios-para-empresa' (mismo tema, ese post ya cubre errores a evitar); ítem 7 descartado por solapar con 'dirigir-a-alguien-sin-experiencia-en-camara' y 'perder-el-miedo-a-la-camara'; ítem 8 descartado por solapar con 'como-elegir-estudio-grabacion-marca-personal' (checklist antes de reservar); ítem 9 descartado por solapar con 'content-day' y 'jornada-intensiva-de-contenido'; ítem 11 descartado por solapar con 'roi-de-grabar-contenido-en-video'; ítem 12 descartado por solapar con 'grabacion-de-testimonios-para-empresa'; ítem 13 descartado por solapar con 'content-day' y 'jornada-intensiva-de-contenido'. Ítem 14 es un vertical nuevo (salud/clínicas) no cubierto por ningún post existente. Imágenes Unsplash (Vitaly Gariev, Alexander Dummer).",
+  },
+  {
+    slug: "making-of-publicidad-que-es-para-que-sirve",
+    keyword: "video making-of para publicidad",
+    intent: "informacional",
+    createdAt: "2026-09-29",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: 5 impresiones, pos 28,4 (query 'vídeo making-of para publicidad', 90d, sin post propio, solo /blog índice). Search Console funciona de nuevo esta ejecución (sin RefreshError). El resto de candidates SC descartados por estar ya cubiertos en memoria o por URL ya existente (reels, estudio de grabación, color grading, horizontal/vertical, teleprompter, content day, sizzle reel, etc.). Imágenes Unsplash (Brands&People, Sam McGhee).",
+  },
+  {
+    slug: "filmmaker-madrid-como-elegir-contratar",
+    keyword: "filmmaker madrid",
+    intent: "informacional",
+    createdAt: "2026-09-30",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: 28 impresiones, pos 39,9 (query 'filmmaker madrid', 90d, sin post propio, solo home). Search Console vuelve a funcionar en esta ejecución. Resto de candidates descartados por URL ya cubierta o solape con keywords en memoria. Tema sobre cómo elegir filmmaker en Madrid: diferencia entre quien solo graba y quien dirige con criterio de venta. Imágenes Unsplash.",
+  },
+  {
+    slug: "produccion-de-video-madrid-fases-que-incluye",
+    keyword: "produccion de video",
+    intent: "informacional",
+    createdAt: "2026-10-01",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: 19 impresiones, pos 34 (query 'producción de video', 90d, sin post propio, solo /blog índice). Resto de candidates SC descartados por URL ya cubierta o solape con keywords en memoria (estudio de grabación, reels, content day, color grading, teleprompter, filmmaker madrid, etc.). Tema sobre fases de la producción de vídeo en Madrid (pre, rodaje, post) y dónde se paga de más. Imágenes Unsplash (Brands&People, Peter Stumpf).",
+  },
+  {
+    slug: "estudio-para-grabar-anuncios-en-madrid",
+    keyword: "estudio para grabar anuncios en madrid",
+    intent: "informacional",
+    createdAt: "2026-10-02",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin candidate válido (todas las queries caen en URLs o keywords ya cubiertas); soporte débil: query 'estudio ode grabacion de anuncios', 2 impresiones, pos 16,5. Fallback evergreen prioridad 1 (#3). Imágenes Unsplash (Alexander Dummer, Brands&People).",
+  },
+  {
+    slug: "video-para-reuniones-comerciales-que-grabar",
+    keyword: "video para reuniones comerciales",
+    intent: "informacional",
+    createdAt: "2026-10-05",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin candidate válido (todas las queries caen en URLs o keywords ya cubiertas; sin datos de la keyword objetivo). Fallback evergreen: lista Prioridad 1 agotada (ítems 7 y 8 descartados por solape con posts ya publicados), se usa ítem 20 de la lista genérica. Tema sobre qué grabar antes de una venta importante: vídeo de presentación, demo corta y clips de objeciones. Imágenes Unsplash (Campaign Creators, 2H Media).",
+  },
+  {
+    slug: "video-landing-page-formato-duracion-que-convierte",
+    keyword: "video para landing page",
+    intent: "informacional",
+    createdAt: "2026-10-06",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant, pendiente de reautorización manual). Fallback evergreen: lista Prioridad 1 agotada, se usa ítem 15 de la lista genérica. Tema sobre qué formato y duración de vídeo usar en una landing page (oferta, demo, testimonio) y cómo grabarlos en una sesión. Imágenes Unsplash (Ofspace LLC, Sanjeev Nagaraj).",
+  },
+  {
+    slug: "dirigir-entrevista-que-no-se-note-el-guion",
+    keyword: "como dirigir una entrevista en video",
+    intent: "informacional",
+    createdAt: "2026-10-07",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant, pendiente de reautorización manual). Fallback evergreen: lista Prioridad 1 agotada, se usa ítem 16 de la lista genérica. Tema sobre cómo dirigir una entrevista en cámara con temas y no respuestas, repetición de tomas y silencios. Imágenes Unsplash (Ansis Kančs, 2H Media).",
+  },
+  {
+    slug: "preparar-lanzamiento-producto-grabar-estudio",
+    keyword: "como preparar el lanzamiento de un producto para grabar en estudio",
+    intent: "informacional",
+    createdAt: "2026-10-08",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 (SEO local/comercial) agotada (ítems 7 y 8 descartados por solapar con posts ya publicados); Prioridad 2 ítem 19 de la lista genérica, ángulo de preparación de lanzamiento (mensaje, piezas y destino de cada una, orgánico + anuncios), distinto de grabacion-videos-producto-estudio (foco en técnica de plano de producto). Imágenes Unsplash.",
+  },
+  {
+    slug: "preguntas-estudio-grabacion-antes-de-reservar",
+    keyword: "que preguntar a un estudio de grabacion antes de reservar sesion",
+    intent: "informacional",
+    createdAt: "2026-10-09",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 agotada (ítems 7 y 8 descartados por solapar con posts ya publicados); Prioridad 2 ítem 8 de la lista genérica, ángulo de preguntas previas a reservar (dirección, equipo, entregables, condiciones, derechos para anuncios), distinto de como-elegir-estudio-grabacion-marca-personal. Imágenes Unsplash (Sam McGhee, Christin Hume).",
+  },
+  {
+    slug: "plan-contenido-trimestral-una-sola-sesion-grabacion",
+    keyword: "plan de contenido trimestral con una sola sesion de grabacion",
+    intent: "informacional",
+    createdAt: "2026-10-12",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 agotada; Prioridad 2 ítem 13 de la lista genérica (plan de contenido trimestral con una sola sesión), ángulo de planificación por bloques y reparto orgánico/anuncio, distinto de kit-contenido-mensual-empresas-que-grabar (mensual) y roi-contenido-video-marca. Imágenes Unsplash (Eric Rothermel, Voyage Pro).",
+  },
+  {
+    slug: "contenido-todo-el-ano-un-solo-evento-corporativo",
+    keyword: "como sacar contenido para todo el ano de un solo evento corporativo",
+    intent: "informacional",
+    createdAt: "2026-10-13",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 agotada; Prioridad 2 ítem 9 de la lista genérica (contenido para todo el año de un solo evento corporativo), ángulo de planificar piezas antes del evento + sesión posterior en estudio, distinto de aftermovie-evento-corporativo y cobertura-audiovisual-eventos-corporativos. Imágenes Unsplash (Headway, Sam McGhee).",
+  },
+  {
+    slug: "grabacion-contenido-founders-antes-primera-sesion",
+    keyword: "grabacion de contenido para founders antes de la primera sesion",
+    intent: "informacional",
+    createdAt: "2026-10-14",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 agotada; Prioridad 2 ítem 22 de la lista genérica (founders, qué necesitas antes de la primera sesión), ángulo de preparación (objetivo, ideas, vestuario, reparto orgánico/anuncio), distinto de perder-miedo-camara-primera-grabacion y como-preparar-sesion-grabacion-contenido-madrid. Imágenes Unsplash (Jesus Loves Austin, Radek Grzybowski).",
+  },
+  {
+    slug: "donde-grabar-contenido-meta-ads-madrid",
+    keyword: "donde grabar contenido para meta ads en madrid",
+    intent: "informacional",
+    createdAt: "2026-10-15",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 ítem 8 (dónde grabar contenido para Meta Ads en Madrid), aún sin cubrir en memoria; ángulo de variantes para testeo y dirección con criterio de venta, distinto de donde-grabar-anuncios-en-madrid y video-anuncios-pago-vs-contenido-organico. Imágenes Unsplash (Alexander Dummer, dole777).",
+  },
+  {
+    slug: "cuanto-dura-sesion-grabacion-aprovecharla",
+    keyword: "cuanto dura una sesion de grabacion",
+    intent: "informacional",
+    createdAt: "2026-10-16",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 agotada; Prioridad 2 ítem 18 de la lista genérica (duración de la sesión y cómo aprovecharla), ángulo de reparto de bloques y horas, distinto de run-of-show-sesion-grabacion-como-planificarla y como-preparar-sesion-grabacion-contenido-madrid. Imágenes Unsplash (Alexander Dummer, Jakob Owens).",
+  },
+  {
+    slug: "empezar-grabar-contenido-linkedin-primera-vez",
+    keyword: "grabar contenido para linkedin si nunca has salido en camara",
+    intent: "informacional",
+    createdAt: "2026-10-19",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 agotada; Prioridad 2 ítem 21 (empezar en LinkedIn sin haber salido nunca en cámara), ángulo de primera sesión y guion corto, distinto de contenido-autoridad-linkedin-formatos-madrid, perder-miedo-camara-primera-grabacion y grabar-instagram-linkedin-youtube-misma-sesion. Imágenes Unsplash (Vitaly Gariev, Standsome Worklifestyle).",
+  },
+  {
+    slug: "calcular-retorno-sesion-contenido-recurrente",
+    keyword: "retorno de una sesion de contenido recurrente",
+    intent: "informacional",
+    createdAt: "2026-10-20",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console sigue fallando con RefreshError invalid_grant en ambas consultas 90d/28d, pendiente de reautorización manual). Fallback evergreen: Prioridad 1 agotada; Prioridad 2 ítem 11 (retorno de una sesión de contenido recurrente), ángulo de coste por pieza, objetivo por canal y comparación contra coste de anuncios, distinto de roi-contenido-video-marca y contenido-recurrente-marca-constancia. Imágenes Unsplash (dlxmedia.hu, Voyage Pro).",
+  },
+  {
+    slug: "estudio-podcast-madrid-expats-founders",
+    keyword: "estudio de podcast en madrid para expats y founders",
+    intent: "informacional",
+    createdAt: "2026-10-21",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin candidatos nuevos (los 100 queries de 90d/28d ya cubiertos por posts existentes, pos 5-35). Tema público extranjero (rotación 1/3): ítem 1 de la lista, ángulo expats/founders internacionales (idioma, reserva, qué llevar), distinto de grabar-podcast-madrid-estudio. Imágenes Unsplash (Jonathan Velasquez, Austin Distel).",
+  },
+  {
+    slug: "grabacion-contenido-abogados-despachos-madrid",
+    keyword: "grabar contenido para abogados en madrid",
+    intent: "informacional",
+    createdAt: "2026-10-22",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin candidatos nuevos (queries de 90d/28d ya cubiertas por URLs existentes: podcast remoto, content day, cursos online, aftermovie, precios estudio). Fallback Prioridad 1 y 2 agotadas en memoria; tema original sector servicios jurídicos en Madrid, misma línea que grabacion-contenido-clinicas-consultas. Imágenes Unsplash (Gylain Omer, Fatemeh Rezvani).",
+  },
+  {
+    slug: "plato-grabacion-madrid-estudio-rodaje",
+    keyword: "plató para grabación en madrid",
+    intent: "informacional",
+    createdAt: "2026-10-23",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: 5 impresiones, pos 6.8 (query 'plató para grabación en madrid', URL estudio-grabacion-madrid-precios) + 'estudios de rodaje' 17 impr pos 28.9. Ángulo guía de elección plató vs estudio de rodaje vs ático-estudio, distinto de estudio-grabacion-madrid-precios (precios). Imágenes Unsplash (Brands&People, Jakob Owens).",
+  },
+  {
+    slug: "que-llevar-sesion-grabacion-atico-madrid",
+    keyword: "qué llevar a una sesión de grabación en madrid",
+    intent: "informacional",
+    createdAt: "2026-10-26",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin candidatos nuevos (queries de 90d/28d ya cubiertas por URLs existentes: podcast remoto, curso online, content day, aftermovie, estudio anuncios). Tema público extranjero (rotación 1/3): ítem 3 de la lista (ítem 2 descartado por solapar con alquiler-estudio-horas-grabar-anuncios-madrid y plato-grabacion-madrid-estudio-rodaje). Ángulo checklist de llegada (ropa, guion, documento, logística) distinto de como-preparar-sesion-grabacion-contenido-madrid. Imágenes Unsplash (Gordon Cowie, Jonah De Oliveira).",
+  },
+  {
+    slug: "estudio-grabar-reels-tiktok-madrid",
+    keyword: "estudio para grabar reels y tiktoks en madrid",
+    intent: "informacional",
+    createdAt: "2026-10-27",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d — token OAuth expirado o revocado, requiere reautorización manual, escalar a Dani). Fallback evergreen Prioridad 1 ítem 7 (único que quedaba sin publicar). Ángulo estudio + sesión por lotes de 12-15 clips verticales con dirección de ads, distinto de grabacion-reels-madrid-que-necesitas y reels-verticales-empresa-ceos. Imágenes Unsplash (Sam McGhee, Mr Catographer).",
+  },
+  {
+    slug: "grabar-contenido-asesorias-consultoras-madrid",
+    keyword: "grabar contenido para asesorias y consultoras en madrid",
+    intent: "informacional",
+    createdAt: "2026-10-28",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: Prioridad 1 agotada y todos los ítems de Prioridad 2 ya publicados o solapados con posts existentes, así que se elige un vertical nuevo (asesorías, gestorías y consultoras), sin cubrir en memoria; vertical hermano de clínicas y abogados. Imágenes Unsplash/Pexels (Vitaly Gariev, Boris Hamer).",
+  },
+  {
+    slug: "estudio-contenido-madrid-cerca-atocha-como-llegar-reservar",
+    keyword: "estudio de contenido en madrid cerca de atocha",
+    intent: "informacional",
+    createdAt: "2026-10-29",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Tema público extranjero (rotación 1/3): ítem 4 de la lista (ítems 1 y 3 ya publicados, 2 descartado por solape). Ángulo cómo llegar + pasos de reserva, distinto de que-llevar-sesion-grabacion-atico-madrid y preguntas-estudio-grabacion-antes-de-reservar. Imágenes Unsplash (Andres Garcia, Sam McGhee).",
+  },
+  {
+    slug: "grabar-contenido-inmobiliarias-madrid",
+    keyword: "grabar contenido para inmobiliarias en madrid",
+    intent: "informacional",
+    createdAt: "2026-10-30",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en la consulta 90d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: listas de Prioridad 1 y 2 agotadas, se elige vertical nuevo (inmobiliarias en Madrid), hermano de clínicas, abogados y asesorías. Imágenes Unsplash (Huy Nguyen, Prydumano Design).",
+  },
+  {
+    slug: "grabar-contenido-startups-saas-madrid",
+    keyword: "grabar contenido para startups y saas en madrid",
+    intent: "informacional",
+    createdAt: "2026-10-31",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: listas de Prioridad 1 y 2 agotadas, se elige vertical nuevo (startups y SaaS en Madrid), hermano de inmobiliarias, asesorías, clínicas y abogados. Imágenes Unsplash (Annie Spratt, Flipsnack).",
+  },
+  {
+    slug: "alquiler-estudio-grabacion-madrid-por-horas-visitantes",
+    keyword: "alquiler de estudio de grabación en madrid por horas",
+    intent: "informacional",
+    createdAt: "2026-11-01",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (RefreshError invalid_grant en consultas 90d/28d, token OAuth caducado, escalar a Dani). Tema público extranjero (rotación 1/3), ítem 2. Ángulo visitante, distinto de 'alquiler-estudio-horas-grabar-anuncios-madrid'. Imágenes Unsplash.",
+  },
+  {
+    slug: "grabar-contenido-ecommerce-marcas-dtc-madrid",
+    keyword: "grabar contenido para ecommerce y marcas dtc en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-02",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (RefreshError invalid_grant en consultas 90d/28d, token OAuth caducado, escalar a Dani). Fallback evergreen: listas de Prioridad 1 y 2 agotadas, se elige vertical nuevo (ecommerce y marcas DTC en Madrid), hermano de startups, inmobiliarias, asesorías, clínicas y abogados. Imágenes Unsplash (Mildlee, Laura Chouette).",
+  },
+  {
+    slug: "grabar-contenido-agencias-marketing-madrid",
+    keyword: "estudio de grabacion para agencias de marketing en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-03",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (RefreshError invalid_grant en consultas 90d/28d, token OAuth caducado, escalar a Dani). Fallback evergreen: listas de Prioridad 1 y 2 agotadas, se elige vertical nuevo (agencias de marketing en Madrid, B2B), hermano de ecommerce, startups, inmobiliarias y asesorías. Imágenes Unsplash (Campaign Creators, Voyage Pro).",
+  },
+  {
+    slug: "grabar-podcast-ingles-madrid-estudio-logistica",
+    keyword: "grabar un podcast en ingles en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-04",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Tema público extranjero (rotación 1/3): ítem 5 de la lista. Ángulo equipo y logística con invitados internacionales, distinto de estudio-podcast-madrid-expats-founders. Imágenes Unsplash (Jonathan Velasquez, Flipsnack).",
+  },
+  {
+    slug: "grabar-contenido-coaches-mentores-madrid",
+    keyword: "grabar contenido para coaches y mentores en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-04",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (RefreshError invalid_grant en consultas 90d/28d, token OAuth caducado, escalar a Dani). Fallback evergreen: listas de Prioridad 1 y 2 agotadas, se elige vertical nuevo (coaches y mentores en Madrid), hermano de asesorías, clínicas, abogados y startups; ángulo vídeo de presentación + clips + aperturas para anuncios. Segundo post del día (ejecución manual). Imágenes Unsplash/Pexels (Mr Catographer, Vanessa Garcia).",
+  },
+  {
+    slug: "grabar-contenido-asesores-financieros-fintech-madrid",
+    keyword: "grabar contenido para asesores financieros y fintech en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-05",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (RefreshError invalid_grant en consultas 90d/28d, token OAuth caducado, escalar a Dani). Fallback evergreen: listas de Prioridad 1 y 2 agotadas, se elige vertical nuevo (asesores financieros y fintech en Madrid), hermano de coaches, asesorías, startups y abogados; ángulo educativo sin promesas de rentabilidad y revisión de cumplimiento. Imágenes Unsplash (Sam McGhee, Headway).",
+  },
+  {
+    slug: "grabar-contenido-arquitectos-interioristas-madrid",
+    keyword: "grabar contenido para arquitectos e interioristas en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-06",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (RefreshError invalid_grant en consultas 90d/28d, token OAuth caducado, escalar a Dani). Fallback evergreen: listas de Prioridad 1 y 2 agotadas, se elige vertical nuevo (arquitectos e interioristas en Madrid), hermano de asesores financieros, coaches, asesorías y startups; ángulo proceso + clips de método + aperturas para anuncios. Imágenes Unsplash (Sable Flow, Mohammad Lotfian).",
+  },
+  {
+    slug: "grabar-contenido-psicologos-terapeutas-madrid",
+    keyword: "grabar contenido para psicologos y terapeutas en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-07",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: Prioridad 1 y 2 agotadas, se elige vertical nuevo (psicólogos y terapeutas), hermano de clínicas, abogados y coaches; sin cubrir en memoria. Imágenes Unsplash (FlippingBook, Flipsnack). EN publicado en el mismo commit.",
+  },
+  {
+    slug: "grabar-contenido-entrenadores-personales-fitness-madrid",
+    keyword: "grabar contenido para entrenadores personales y centros de fitness en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-08",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: Prioridad 1 y 2 agotadas, se elige vertical nuevo (entrenadores personales y fitness), hermano de psicólogos, coaches y clínicas; sin cubrir en memoria. Imágenes Unsplash (maxhome fitness, Vitaly Gariev). EN publicado en el mismo commit.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

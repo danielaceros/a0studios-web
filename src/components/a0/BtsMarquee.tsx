@@ -1,8 +1,10 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import { BTS_ITEMS, type FormatoItem } from "@/data/formatos";
+import { useMemo } from "react";
+import { getBtsItems, type FormatoItem } from "@/data/formatos";
+import type { Lang } from "@/lib/i18n";
 
 /**
  * Tira ambiental de BTS del ático — 100% pasiva, sin ninguna interacción:
@@ -16,11 +18,15 @@ import { BTS_ITEMS, type FormatoItem } from "@/data/formatos";
  */
 const SPEED = 0.28;
 
-export default function BtsMarquee() {
+export default function BtsMarquee({ lang }: { lang: Lang }) {
+  const btsItems = useMemo(() => getBtsItems(lang), [lang]);
   const trackRef = useRef<HTMLDivElement>(null);
   const rafRef = useRef<number | null>(null);
   const xRef = useRef(0);
   const runningRef = useRef(false);
+  // Los vídeos (~20, unos 20 MB en total) solo se descargan cuando la tira
+  // está cerca de entrar en pantalla; hasta entonces se ve el póster.
+  const [near, setNear] = useState(false);
 
   useEffect(() => {
     const animate = () => {
@@ -59,12 +65,26 @@ export default function BtsMarquee() {
       { threshold: 0.05 },
     );
 
-    if (trackRef.current) observer.observe(trackRef.current);
+    const nearObserver = new IntersectionObserver(
+      ([entry]) => {
+        if (entry?.isIntersecting) {
+          setNear(true);
+          nearObserver.disconnect();
+        }
+      },
+      { rootMargin: "600px 0px" },
+    );
+
+    if (trackRef.current) {
+      observer.observe(trackRef.current);
+      nearObserver.observe(trackRef.current);
+    }
     document.addEventListener("visibilitychange", onVisibilityChange);
 
     return () => {
       stop();
       observer.disconnect();
+      nearObserver.disconnect();
       document.removeEventListener("visibilitychange", onVisibilityChange);
     };
   }, []);
@@ -72,8 +92,8 @@ export default function BtsMarquee() {
   return (
     <div className="relative w-full overflow-hidden" role="presentation" aria-hidden="true">
       <div ref={trackRef} className="flex w-max gap-3 will-change-transform sm:gap-4">
-        {[...BTS_ITEMS, ...BTS_ITEMS].map((item, i) => (
-          <BtsTile key={`${item.id}-${i}`} item={item} />
+        {[...btsItems, ...btsItems].map((item, i) => (
+          <BtsTile key={`${item.id}-${i}`} item={item} near={near} />
         ))}
       </div>
 
@@ -84,18 +104,18 @@ export default function BtsMarquee() {
   );
 }
 
-function BtsTile({ item }: { item: FormatoItem }) {
+function BtsTile({ item, near }: { item: FormatoItem; near: boolean }) {
   return (
     <div className="relative h-[120px] w-[90px] shrink-0 overflow-hidden rounded-[10px] border border-line bg-black sm:h-[150px] sm:w-[112px] lg:h-[180px] lg:w-[135px]">
       {item.kind === "video" ? (
         <video
-          src={item.src}
+          src={near ? item.src : undefined}
           poster={item.poster}
           muted
           autoPlay
           loop
           playsInline
-          preload="metadata"
+          preload="none"
           className="pointer-events-none absolute inset-0 h-full w-full object-cover"
         />
       ) : (

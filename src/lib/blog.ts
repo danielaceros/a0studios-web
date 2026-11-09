@@ -1,5 +1,5 @@
-import type { Metadata } from "next";
-import { SITE_URL, SITE_NAME } from "@/lib/constants";
+import { DEFAULT_LOCALE, type Lang } from "@/lib/i18n/config";
+import { blogTranslations } from "@/lib/blog-translations";
 
 export type BlogPost = {
   slug: string;
@@ -47,7 +47,7 @@ export const blogPosts: BlogPost[] = [
     body: [
       {
         type: "paragraph",
-        text: "Buscar un estudio de grabación en Madrid no va solo de encontrar cuatro paredes, focos y una tarifa por hora. Va de elegir un espacio que encaje con el tipo de contenido que quieres producir, con tu nivel de exigencia y con la sensación que quieres transmitir cuando alguien vea la pieza terminada.",
+        text: "Un estudio de grabación en Madrid no tiene un precio único: el coste depende del espacio, del equipo incluido y de si contratas solo la sala o también producción. En A0Studios no se publican tarifas ni se alquila por horas: se reserva una sesión al día con presupuesto a medida y dos opciones, llave en mano (grabación, edición y entrega en 24-48 horas) o solo grabación (grabas y te llevas los brutos). Lo que encarece o abarata una sesión es la duración, el número de piezas finales, la edición y los subtítulos, y la complejidad del set. A0Studios es un ático-estudio en Ronda de Atocha 16, a 5 minutos del metro Atocha Renfe, con cámaras Sony, iluminación y sonido profesionales, teleprompter, terraza con vistas al skyline y sala polivalente con set de podcast. De media, una sesión da unas 12 piezas. Respondemos en menos de 1 hora.",
       },
       {
         type: "paragraph",
@@ -147,7 +147,7 @@ export const blogPosts: BlogPost[] = [
     body: [
       {
         type: "paragraph",
-        text: "Grabar podcast en Madrid se ha vuelto fácil. Grabarlo bien, no tanto. Hay muchos espacios donde colocar dos micros y dar a grabar, pero no tantos donde el resultado ayude de verdad a que tu marca se vea más seria, más cuidada y más creíble.",
+        text: "Un buen estudio para grabar podcast en Madrid ofrece buen sonido, un entorno visual que sume marca, luz que no deje la imagen plana y espacio para invitado, equipo y formatos extra como clips verticales. A0Studios es un ático-estudio en Ronda de Atocha 16, a 5 minutos del metro Atocha Renfe, con una sala polivalente con set de podcast, sonido profesional, cámaras Sony, iluminación profesional y terraza con vistas al skyline. Un podcast ya no se consume solo como audio: se corta en clips, se distribuye en redes y suele ser la primera impresión que alguien tiene de tu marca. Por eso una sesión no acaba en un episodio largo: de media da unas 12 piezas, entre clips verticales, cortes temáticos y fotos fijas. Se reserva una sesión al día con presupuesto a medida, llave en mano o solo grabación. Respondemos en menos de 1 hora.",
       },
       {
         type: "paragraph",
@@ -8204,7 +8204,7 @@ export const blogPosts: BlogPost[] = [
     body: [
       {
         type: "paragraph",
-        text: "Cada semana nos escribe alguien con la misma pregunta: dónde grabar un anuncio en Madrid. Buscan estudio, pero la pregunta que en realidad tienen que responder es otra: quién va a dirigir la sesión para que ese anuncio venda, no solo para que quede bonito.",
+        text: "Para grabar un anuncio en Madrid conviene elegir primero quién dirige la sesión y después el estudio, porque un anuncio no se juzga por lo bien que queda, sino por si para el scroll y consigue un clic o un lead. En A0Studios grabamos anuncios para Meta Ads, TikTok Ads y VSL en un ático de Ronda de Atocha 16, en Madrid centro, a 5 minutos del metro Atocha Renfe. Dirige Dani Acero, filmmaker que también gestiona campañas de ads, así que el criterio es de venta: hook resuelto en los primeros 3 segundos, encuadre pensado para feed vertical y guion construido sobre el problema del cliente. Hay una sola sesión al día, con presupuesto a medida en dos opciones: llave en mano o solo grabación. De media, una sesión da unas 12 piezas, con entrega en 24-48 horas en llave en mano.",
       },
       {
         type: "paragraph",
@@ -8312,7 +8312,7 @@ export const blogPosts: BlogPost[] = [
     body: [
       {
         type: "paragraph",
-        text: "Un VSL es un vídeo de ventas: una pieza pensada para vender un producto o servicio directamente, ya sea como anuncio en Meta o TikTok o como vídeo principal de una landing. No es un vídeo corporativo ni un reel bonito. Es un argumento de venta grabado, y eso cambia todo lo que necesitas del sitio donde lo grabas.",
+        text: "Un VSL (video sales letter) es un vídeo de ventas pensado para vender un producto o servicio directamente, ya sea como anuncio en Meta o TikTok o como vídeo principal de una landing. Para grabar un VSL en Madrid no basta un estudio con buena imagen: hacen falta audio limpio, luz estable y, sobre todo, dirección con criterio de venta. En A0Studios grabamos VSL para founders y equipos de marketing en un ático de Ronda de Atocha 16, a 5 minutos del metro Atocha Renfe, con cámaras Sony, sonido profesional, iluminación fija y teleprompter para guiones largos. Dirige Dani Acero, filmmaker que también gestiona campañas de ads. Un VSL suele durar entre 90 segundos y 4 minutos. Hay una sola sesión al día y el presupuesto es a medida, llave en mano (edición y entrega en 24-48 horas) o solo grabación. Respondemos en menos de 1 hora.",
       },
       {
         type: "paragraph",
@@ -8550,7 +8550,7 @@ export const blogPosts: BlogPost[] = [
     body: [
       {
         type: "paragraph",
-        text: "Cuando grabas para redes sociales de forma recurrente, no buscas lo mismo que para un anuncio puntual o un vídeo corporativo de una vez al año. Buscas un sitio donde puedas volver cada dos o tres semanas, montar rápido, grabar varias piezas seguidas y salir sin haber perdido media sesión en ajustar luz o encuadre.",
+        text: "Un estudio de grabación para redes sociales en Madrid debe permitirte volver cada pocas semanas, montar rápido y grabar varias piezas seguidas en vertical sin perder media sesión ajustando luz o encuadre. A0Studios es un ático-estudio en Ronda de Atocha 16, a 5 minutos del metro Atocha Renfe, con cámaras Sony, iluminación y sonido profesionales, teleprompter, terraza con vistas al skyline y una sala polivalente con set de podcast, lo que permite cambiar de look dentro de la misma sesión. Dirige Dani Acero, filmmaker que también gestiona campañas de ads en Meta y TikTok, así que la dirección piensa en qué formato retiene y qué hook abre bien un vídeo. De media, una sesión da unas 12 piezas. Hay una sola sesión al día, con presupuesto a medida en dos opciones, llave en mano (entrega en 24-48 horas) o solo grabación. Respondemos en menos de 1 hora.",
       },
       {
         type: "paragraph",
@@ -8663,7 +8663,7 @@ export const blogPosts: BlogPost[] = [
     body: [
       {
         type: "paragraph",
-        text: "Buscar el mejor estudio para grabar spots publicitarios en Madrid es más difícil de lo que parece, porque casi todos enseñan lo mismo: fotos bonitas del espacio, una lista de equipo y un precio por hora. Rara vez cuentan lo que de verdad decide si el spot funciona.",
+        text: "El mejor estudio para grabar spots publicitarios en Madrid no es el más grande ni el más barato por hora, sino el que combina control de luz, montaje corto y una dirección que entienda de publicidad. Un spot se mide por cuánto retiene, cuánto cuesta cada clic y si alguien acaba comprando. Para un spot de producto, un testimonial o una persona hablando a cámara, 30-40 m² bien iluminados rinden más que una nave enorme. A0Studios es un ático en Ronda de Atocha 16, a 5 minutos del metro Atocha Renfe, con cámaras Sony, iluminación y sonido profesionales, teleprompter y luz natural y artificial controlable. Dirige Dani Acero, filmmaker que también gestiona campañas de ads. Hay una sola sesión al día, con presupuesto a medida: llave en mano o solo grabación. De media, una sesión da unas 12 piezas, pensadas para testear varias versiones del spot.",
       },
       {
         type: "paragraph",
@@ -8868,6 +8868,4593 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "alquiler-estudio-horas-grabar-anuncios-madrid",
+    title: "Alquiler de estudio por horas para grabar anuncios en Madrid: qué mirar antes de reservar",
+    description:
+      "Qué incluye realmente el alquiler de estudio por horas en Madrid para grabar anuncios y cómo planificar la sesión para sacar varias piezas testeables.",
+    publishedAt: "2026-09-23",
+    readingTime: "4 min",
+    category: "Guía",
+    tags: ["estudio de grabación", "Madrid", "alquiler por horas", "anuncios", "Meta Ads", "producción audiovisual"],
+    keyword: "alquiler de estudio por horas para grabar anuncios en madrid",
+    intent: "informacional",
+    excerpt:
+      "Alquilar un estudio por horas para grabar anuncios en Madrid no es solo reservar sala y luz: es aprovechar cada hora para sacar piezas que se puedan testear en campaña.",
+    seoTitle: "Alquiler de estudio por horas para grabar anuncios en Madrid",
+    metaDescription:
+      "Alquiler de estudio por horas para grabar anuncios en Madrid: qué incluye la tarifa y cómo aprovechar cada hora en campañas de pago.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Alquilar un estudio por horas para grabar anuncios en Madrid suena sencillo hasta que llega el día de la sesión y te das cuenta de que las horas se van en montar luces, repetir tomas y decidir sobre la marcha qué grabar primero. Si el objetivo es sacar creativos para Meta Ads o TikTok, cada hora cuenta doble: no solo hay que grabar bien, hay que grabar con un plan pensado para testear.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios alquilamos por horas, pero no vendemos solo el tiempo de sala. La tarifa incluye equipo técnico y, si lo necesitas, dirección de la sesión con criterio de venta: qué versión del hook grabar primero, cuántas variantes del mismo anuncio conviene sacar y en qué orden, para no llegar a la hora cuatro sin haber grabado lo importante.",
+      },
+      {
+        type: "image",
+        src: "/blog/alquiler-estudio-horas-grabar-anuncios-madrid/hero.webp",
+        alt: "Equipo técnico de grabación preparado en un estudio de Madrid para una sesión de anuncios por horas",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué incluye realmente el alquiler de estudio por horas" },
+      {
+        type: "paragraph",
+        text: "El precio por hora normalmente cubre el espacio, la luz y el equipo de cámara. Lo que no siempre viene incluido es que alguien dirija la sesión pensando en qué necesita un anuncio para funcionar: un hook que enganche en los primeros tres segundos, un producto que entre en el momento justo y una duración que no se pase de los 15-30 segundos que aguanta un feed.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios el alquiler por horas parte de tres modalidades: Solo Grabación (vienes con guion cerrado y te llevas los brutos), Grabación + Edición (dirigimos la sesión y entregamos el anuncio montado en 24-48h) y Producción Completa (además planificamos qué variantes testear). La diferencia de precio entre la primera y las otras dos suele compensar cuando el objetivo final es una campaña de pago, no solo tener un vídeo bonito.",
+      },
+      { type: "heading", level: 2, text: "Cómo aprovechar bien las horas contratadas" },
+      { type: "heading", level: 3, text: "Llega con el guion o el brief cerrado" },
+      {
+        type: "paragraph",
+        text: "Cada minuto que se dedica a decidir qué grabar en sala es un minuto que no se dedica a grabar. Si llegas con el guion, el hook y la lista de variantes decididos antes, una sesión de tres horas rinde para 3-4 piezas distintas en lugar de una sola repetida cinco veces.",
+      },
+      { type: "heading", level: 3, text: "Graba varias versiones del mismo hook" },
+      {
+        type: "paragraph",
+        text: "Para anuncios, una sola versión no basta: hace falta con qué testear. En una sesión de dos horas suele dar tiempo a grabar 2-3 variantes del mismo mensaje cambiando el arranque, el plano o el ritmo, así el equipo de ads tiene material real para comparar en campaña en vez de una única apuesta.",
+      },
+      { type: "heading", level: 3, text: "Deja margen para el plano de producto o CTA" },
+      {
+        type: "paragraph",
+        text: "Los últimos 10-15 minutos de sesión suelen reservarse para el cierre: el plano de producto, el logo o la llamada a la acción. Si se deja para el final sin haberlo planeado, es lo primero que se sacrifica cuando el tiempo aprieta, y es justo la parte que necesita el equipo de ads para montar el CTA.",
+      },
+      {
+        type: "image",
+        src: "/blog/alquiler-estudio-horas-grabar-anuncios-madrid/mid.webp",
+        alt: "Persona grabando un anuncio frente a cámara en un estudio de Madrid",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Cuándo tiene sentido alquilar por horas en vez de contratar producción completa" },
+      {
+        type: "list",
+        items: [
+          "Ya tienes guion, hook y estructura decididos y solo necesitas espacio, equipo y dirección puntual en sala.",
+          "Vas a testear varias variantes del mismo anuncio y prefieres controlar tú el proceso de edición.",
+          "Tienes un equipo de marketing interno que se encarga del montaje y solo falta el material grabado.",
+          "Necesitas repetir sesiones con frecuencia y prefieres pagar por hora en vez de por paquete cerrado.",
+          "Quieres probar el estudio antes de pasar a Grabación + Edición o Producción Completa en futuras sesiones.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuántas horas necesito para grabar varios anuncios?",
+        answer:
+          "Con dos horas suele dar tiempo a grabar 2-3 variantes de un mismo anuncio con su plano de cierre. Con tres o cuatro horas se puede cubrir más de un mensaje o formato distinto en la misma sesión.",
+      },
+      {
+        type: "faq",
+        question: "¿El alquiler por horas incluye dirección de la sesión?",
+        answer:
+          "En Solo Grabación no, vienes con el guion decidido. En Grabación + Edición y Producción Completa sí está incluida, y también se puede contratar puntualmente sobre una sesión de Solo Grabación.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo alquilar solo para grabar, sin edición?",
+        answer:
+          "Sí, es la modalidad Solo Grabación: vienes al estudio, grabas con equipo técnico profesional y te llevas los brutos del día para editar por tu cuenta.",
+      },
+      {
+        type: "faq",
+        question: "¿Hay tarifa mínima de horas?",
+        answer:
+          "Sí, las sesiones se reservan por bloques mínimos para dejar tiempo de montar y desmontar el set entre reservas. Te lo confirmamos según disponibilidad al reservar.",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a grabar anuncios para Meta o TikTok y quieres aprovechar cada hora de estudio, cuéntanos en /#contacto cuántas piezas necesitas y vemos qué modalidad encaja mejor.",
+      },
+    ],
+  },
+  {
+    slug: "estudio-grabacion-madrid-centro-founders-marcas",
+    title: "Estudio de grabación en Madrid centro para founders y marcas personales",
+    description:
+      "Por qué la ubicación en pleno centro de Madrid facilita que founders y marcas personales graben contenido con regularidad, sin perder media mañana en desplazamientos.",
+    publishedAt: "2026-09-24",
+    readingTime: "4 min",
+    category: "Guía",
+    tags: ["estudio de grabación", "Madrid centro", "founders", "marca personal", "contenido", "producción audiovisual"],
+    keyword: "estudio de grabacion en madrid centro para founders y marcas",
+    intent: "informacional",
+    excerpt:
+      "Para un founder, elegir dónde grabar en Madrid no es un detalle logístico: es lo que decide si el contenido se graba con constancia o se pospone mes tras mes.",
+    seoTitle: "Estudio de grabación en Madrid centro para founders",
+    metaDescription:
+      "Estudio de grabación en Madrid centro pensado para founders y marcas personales: agenda apretada, dirección con criterio de venta y piezas para orgánico y pago.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Para un founder o una marca personal, el mejor estudio de grabación en Madrid centro es el que permite grabar con constancia: cercano, rápido y con dirección. A0Studios está en Ronda de Atocha 16, a 5 minutos del metro Atocha Renfe y a pocos minutos de Sol y Antón Martín, así que una sesión cabe entre dos reuniones sin perder media mañana en desplazamientos. El ático tiene cámaras Sony, iluminación y sonido profesionales, teleprompter, terraza con vistas al skyline y una sala polivalente con set de podcast, con luz, cámara y set montados antes de que llegues. Dirige Dani Acero, filmmaker que también gestiona campañas de ads, con criterio de venta. Hay una sola sesión al día, con presupuesto a medida en dos opciones: llave en mano o solo grabación. De media, una sesión da unas 12 piezas, válidas para orgánico y para ads.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios trabajamos con founders, equipos de marketing y marcas personales que necesitan grabar contenido con cierta regularidad, ya sea para LinkedIn, para una campaña de ads o para el vídeo institucional de turno. El centro de Madrid facilita que la sesión encaje en una agenda apretada sin sacrificar calidad.",
+      },
+      {
+        type: "paragraph",
+        text: "La mayoría de founders con los que trabajamos no tienen un día entero para dedicar a grabar. Tienen una franja entre dos reuniones, o una mañana antes de coger un vuelo. Un estudio pensado para ese perfil no compite en tamaño de plató ni en decorado: compite en cuánto tarda desde que entras por la puerta hasta que sales con el material grabado.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-grabacion-madrid-centro-founders-marcas/hero.webp",
+        alt: "Founder grabando contenido en un estudio del centro de Madrid",
+        width: 1920,
+        height: 1282,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué la ubicación en el centro de Madrid importa" },
+      {
+        type: "paragraph",
+        text: "Un founder no tiene tres horas libres para desplazarse a un polígono a las afueras y volver. Si el estudio está en el centro, entre reuniones se puede colar una sesión de una hora sin reorganizar el día entero. Eso, en la práctica, es lo que decide si el contenido se graba con constancia o se pospone mes tras mes.",
+      },
+      {
+        type: "paragraph",
+        text: "Ronda de Atocha 16 está a pie de metro y a minutos de Sol, Antón Martín y Atocha. Para una marca que graba cada semana o cada mes, esa cercanía multiplica las probabilidades de que la sesión ocurra de verdad, no solo de que quede apuntada en el calendario.",
+      },
+      {
+        type: "paragraph",
+        text: "También importa para quien recibe visitas o inversores en Madrid centro y quiere aprovechar el viaje para grabar algo mientras está en la ciudad, sin añadir un trayecto largo a una agenda que ya tiene reuniones repartidas por el centro. Un estudio a pocos minutos a pie encaja en ese tipo de planificación mejor que uno pensado solo para producciones grandes de medio día.",
+      },
+      { type: "heading", level: 2, text: "Qué necesita un estudio pensado para founders y marcas" },
+      { type: "heading", level: 3, text: "Rapidez para encajar en una agenda apretada" },
+      {
+        type: "paragraph",
+        text: "Las sesiones se preparan de antemano: luz, cámara y set montados antes de que llegues. Un founder no viene a esperar mientras se coloca un foco, viene a grabar. En A0Studios una sesión de una hora rinde para 3-4 piezas distintas si el guion o los temas vienen decididos, y eso reduce el tiempo fuera de la oficina a lo estrictamente necesario.",
+      },
+      { type: "heading", level: 3, text: "Dirección con criterio de venta, no solo estético" },
+      {
+        type: "paragraph",
+        text: "No basta con que el vídeo quede bien iluminado. Quien dirige la sesión tiene que saber qué hook engancha en los primeros segundos, qué plano transmite autoridad y qué ritmo funciona en LinkedIn frente a lo que funciona en un anuncio de Meta. Ese criterio sale de haber hecho ads que venden, no solo de saber manejar una cámara. Es la diferencia entre un vídeo que se ve bien y uno que además consigue que alguien siga viéndolo hasta el final.",
+      },
+      { type: "heading", level: 3, text: "Piezas que sirven tanto para orgánico como para pago" },
+      {
+        type: "paragraph",
+        text: "Una misma sesión puede dar contenido para LinkedIn, un reel y un anuncio de Meta Ads si se planifica bien desde el principio. Founders y marcas personales rara vez tienen tiempo para grabar cada formato por separado, así que la sesión tiene que rendir para varios canales a la vez: cambia el corte, el subtítulo o la duración, pero el material bruto es el mismo.",
+      },
+      { type: "heading", level: 3, text: "Espacio que no necesita presentación ni justificación" },
+      {
+        type: "paragraph",
+        text: "Un founder que trae a un cliente o a un inversor a grabar necesita que el espacio transmita seriedad sin más explicación. El ático en Ronda de Atocha 16 funciona así: no hace falta contextualizar por qué se graba ahí, el propio espacio ya comunica que es una producción cuidada, no una improvisación con el móvil y una ventana con buena luz.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-grabacion-madrid-centro-founders-marcas/mid.webp",
+        alt: "Sesión de grabación con founder frente a cámara en un estudio de Madrid",
+        width: 1920,
+        height: 1319,
+      },
+      { type: "heading", level: 2, text: "Cuándo tiene sentido grabar en un estudio así" },
+      {
+        type: "list",
+        items: [
+          "Grabas contenido con cierta regularidad (semanal o mensual) y necesitas que la logística no sea la barrera.",
+          "Tu agenda no permite desplazamientos largos entre reuniones.",
+          "Quieres piezas que sirvan tanto para presencia orgánica como para campañas de pago.",
+          "No tienes experiencia frente a cámara y necesitas dirección, no solo un espacio.",
+          "Buscas un estudio que transmita seriedad sin parecer un plató impersonal.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión típica para un founder?",
+        answer:
+          "Entre una y dos horas suele bastar si el guion o los temas a tratar vienen decididos de antemano. En ese tiempo se pueden grabar varias piezas distintas.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta grabar con recurrencia fija?",
+        answer:
+          "No. Muchos founders empiezan con una sesión puntual y pasan a mensual cuando ven que el contenido rinde en LinkedIn o en campañas.",
+      },
+      {
+        type: "faq",
+        question: "¿El estudio sirve también para grabar anuncios, no solo contenido orgánico?",
+        answer:
+          "Sí, es habitual combinar ambos en la misma sesión: cambia el formato y a veces la duración, pero el equipo y la dirección son los mismos.",
+      },
+      {
+        type: "faq",
+        question: "¿Necesito llevar guion preparado?",
+        answer:
+          "Ayuda mucho, pero no es obligatorio. Si vienes con los temas claros aunque no tengas guion cerrado, en sesión te ayudamos a estructurarlo.",
+      },
+      {
+        type: "paragraph",
+        text: "Si eres founder o llevas la marca personal de tu empresa y quieres grabar en el centro de Madrid sin perder media mañana en desplazamientos, cuéntanos en /#contacto qué necesitas grabar y vemos qué formato de sesión encaja.",
+      },
+    ],
+  },
+  {
+    slug: "diferencia-alquilar-estudio-contratar-direccion-contenido",
+    title: "Alquilar un estudio o contratar dirección de contenido: la diferencia real",
+    description:
+      "Alquilar una sala y contratar dirección de contenido no es lo mismo, y confundirlo sale caro cuando lo que grabas tiene que vender. Qué incluye cada opción y cómo saber cuál necesitas.",
+    publishedAt: "2026-09-25",
+    readingTime: "4 min",
+    category: "Guía",
+    tags: ["estudio de grabación", "dirección de contenido", "producción audiovisual", "Madrid", "contenido", "ads"],
+    keyword: "diferencia entre alquilar un estudio y contratar direccion de contenido",
+    intent: "informacional",
+    excerpt:
+      "Reservar una sala y contratar dirección de contenido no es lo mismo, y confundirlo sale caro si lo que grabas es para vender.",
+    seoTitle: "Alquilar un estudio o contratar dirección de contenido",
+    metaDescription:
+      "Diferencia entre alquilar un estudio y contratar dirección de contenido en Madrid: qué incluye cada opción y cuál necesitas antes de reservar.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Cuando alguien nos escribe buscando estudio de grabación en Madrid, casi siempre pregunta por precio y disponibilidad. Pocas veces pregunta quién va a dirigir la sesión. Y ahí está la diferencia que más pesa en el resultado: alquilar un espacio y contratar dirección de contenido no es lo mismo, aunque las dos cosas se anuncien como \"estudio\".",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios vemos las dos situaciones cada semana. Gente que reserva la sala pensando que el ático hace el trabajo, y gente que llega buscando a alguien que sepa qué grabar y por qué. Si vas a grabar algo que tiene que vender —un anuncio, un VSL, contenido para redes con objetivo real— esa diferencia no es un matiz, es la que decide si el vídeo funciona.",
+      },
+      {
+        type: "image",
+        src: "/blog/diferencia-alquilar-estudio-contratar-direccion-contenido/hero.webp",
+        alt: "Sesión de grabación dirigida en un estudio de Madrid",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué es cada cosa y por qué se confunden" },
+      {
+        type: "paragraph",
+        text: "Alquilar un estudio es reservar metros cuadrados: sala, luz montada, a veces un técnico que pulsa grabar. Tú llegas con el guion decidido, sabes qué vas a decir y en qué orden, y sales con el material en bruto para editar después. Es un servicio de espacio, no de criterio.",
+      },
+      {
+        type: "paragraph",
+        text: "Contratar dirección de contenido es distinto. Alguien revisa el guion antes de la sesión, decide cuántas tomas hacen falta de cada bloque, plantea el hook de los primeros segundos y, si el vídeo va a ads, qué variantes conviene grabar para testear. No dirige por estética, dirige con criterio de venta: sabe qué ha funcionado en anuncios reales, no solo qué queda bien en cámara.",
+      },
+      {
+        type: "paragraph",
+        text: "La confusión viene de que muchos estudios anuncian \"producción\" cuando en realidad venden sala y un técnico de cámara. No tiene nada de malo —a veces es justo lo que necesitas— pero conviene saber qué estás pagando antes de reservar, no descubrirlo en sesión.",
+      },
+      { type: "heading", level: 2, text: "Cómo se hace bien" },
+      { type: "heading", level: 3, text: "Qué incluye alquilar solo el espacio" },
+      {
+        type: "paragraph",
+        text: "En A0Studios esto es el servicio Solo Grabación: sala, iluminación fija, fondo y un técnico que maneja la cámara. Tú traes guion, tema y orden decididos. Funciona bien si ya tienes experiencia grabando, si tienes un equipo de marketing detrás que sabe qué necesita, o si el formato es sencillo y no depende de mucha dirección en sesión.",
+      },
+      { type: "heading", level: 3, text: "Qué cambia cuando hay dirección de contenido" },
+      {
+        type: "paragraph",
+        text: "Con Grabación + Edición o Producción Completa, alguien entra en el guion antes de que empiece la sesión. Se decide qué se graba primero, cuántas tomas hacen falta de cada bloque, y si el objetivo es un anuncio, qué 2 o 3 variantes de hook conviene grabar para tener algo que testear en Meta o TikTok. Es dirección con intención de resultado, no solo de encuadre. Es el mismo criterio que aplicamos en sesiones con marcas como IFEMA o la Cámara de Comercio de Madrid: no basta con grabar bien, hay que saber qué se va a hacer con cada pieza antes de encender la cámara.",
+      },
+      { type: "heading", level: 3, text: "Cómo saber cuál necesitas" },
+      {
+        type: "paragraph",
+        text: "Pregúntate quién va a decidir qué se dice y en qué orden. Si la respuesta es \"yo, ya lo tengo claro\", con el espacio te sobra. Si la respuesta es \"no estoy seguro de qué grabar primero\" o \"quiero que esto convierta, no solo que se vea bien\", necesitas dirección, no solo sala. Mezclar las dos expectativas es lo que hace que una sesión se alargue o que el material grabado no sirva para lo que en realidad hacía falta.",
+      },
+      {
+        type: "paragraph",
+        text: "Un ejemplo real: si vienes con un guion institucional ya cerrado y aprobado, Solo Grabación te sobra. Si vienes con la idea de \"necesito contenido para vender más\" pero sin saber cuántas piezas ni qué formato, ahí es donde la dirección marca la diferencia entre salir con clips sueltos o con algo que de verdad puedes lanzar.",
+      },
+      {
+        type: "image",
+        src: "/blog/diferencia-alquilar-estudio-contratar-direccion-contenido/intermedia.webp",
+        alt: "Equipo de cámara e iluminación montado en estudio antes de una sesión",
+        width: 1920,
+        height: 1080,
+      },
+      { type: "heading", level: 2, text: "Errores comunes" },
+      {
+        type: "list",
+        items: [
+          "Reservar estudio sin guion pensando que se improvisa en sala: se nota en el resultado y se pierde tiempo pagado.",
+          "Pedir \"producción completa\" sin preguntar qué incluye exactamente la dirección, solo el precio.",
+          "Grabar para ads sin que nadie plantee qué variantes de hook o duración conviene testear.",
+          "Elegir estudio solo por lo bonito del espacio, sin mirar quién dirige la sesión.",
+          "Pensar que la dirección de contenido es solo para marcas grandes: también rinde en una sola sesión de founder.",
+          "Llegar sin saber si necesitas una pieza o cinco, lo que descuadra el tiempo de sala reservado.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Puedo alquilar solo el espacio en A0Studios sin dirección?",
+        answer:
+          "Sí. Solo Grabación es justo eso: sala, luz y técnico de cámara. Tú traes el guion y decides qué se graba.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto cuesta añadir dirección de contenido a una sesión?",
+        answer:
+          "Depende de si es Grabación + Edición o Producción Completa, y del objetivo del vídeo. No hay una tarifa única: te lo confirmamos según cuántas piezas necesitas y para qué canal.",
+      },
+      {
+        type: "faq",
+        question: "¿La dirección de contenido sirve igual para orgánico que para ads?",
+        answer:
+          "El criterio cambia. En ads buscamos hook fuerte y variantes testeables. En orgánico buscamos naturalidad y ritmo que retenga sin sonar a anuncio.",
+      },
+      {
+        type: "faq",
+        question: "¿Necesito dirección si ya tengo un equipo de marketing?",
+        answer:
+          "Depende de si tu equipo sabe qué hace falta en cámara, no solo en estrategia. Muchas veces la estrategia está clara pero nadie ha dirigido antes una sesión de grabación en sí.",
+      },
+      {
+        type: "paragraph",
+        text: "Si no tienes claro cuál de las dos opciones necesitas, cuéntanos en /#contacto qué vas a grabar y para qué sirve el vídeo. Te decimos qué encaja, solo espacio o dirección completa, antes de que reserves sala.",
+      },
+    ],
+  },
+  {
+    slug: "grabacion-contenido-clinicas-consultas",
+    title: "Grabación de contenido para clínicas y consultas: qué formatos funcionan",
+    description:
+      "Grabación de contenido para clínicas y consultas sin que parezca publicidad médica genérica: qué formatos generan confianza y qué evitar antes de reservar sesión.",
+    publishedAt: "2026-09-28",
+    readingTime: "4 min",
+    category: "Guía",
+    tags: ["clínicas", "consultas médicas", "contenido de salud", "estudio de grabación", "Madrid", "vídeo para empresas"],
+    keyword: "grabacion de contenido para clinicas y consultas",
+    intent: "informacional",
+    excerpt:
+      "Grabar contenido para una clínica no es lo mismo que grabar un anuncio de producto: hay que generar confianza sin sonar a folleto. Qué formatos funcionan de verdad.",
+    seoTitle: "Grabación de contenido para clínicas y consultas",
+    metaDescription:
+      "Grabación de contenido para clínicas y consultas: qué formatos generan confianza y cómo preparar la sesión sin sonar a publicidad médica.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Una clínica o una consulta no vende como una marca de producto. Vende confianza. Eso cambia lo que hace falta delante de la cámara: no buscas un hook viral, buscas que el paciente que ve el vídeo antes de reservar cita sienta que va a estar en buenas manos.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios hemos grabado contenido para negocios que dependen de la confianza antes que del impulso de compra, y las clínicas son un caso extremo de eso. Aquí te cuento qué formatos funcionan de verdad para una clínica o consulta, y qué evitar para que el vídeo no acabe pareciendo publicidad genérica de seguro médico.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabacion-contenido-clinicas-consultas/hero.webp",
+        alt: "Médico con bata blanca y fonendoscopio sentado en su consulta mirando a cámara",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué cambia cuando el contenido es de una clínica" },
+      {
+        type: "paragraph",
+        text: "El contenido de salud tiene una barrera que no tiene casi ningún otro sector: la desconfianza previa. Cualquiera que busque un tratamiento o un especialista llega con dudas, y un vídeo mal grabado, con luz plana y un médico leyendo un guion sin naturalidad, refuerza esa desconfianza en lugar de resolverla.",
+      },
+      {
+        type: "paragraph",
+        text: "Por eso el objetivo no es que el vídeo parezca un anuncio, es que parezca una conversación real con alguien que sabe de lo que habla. Eso pide menos artificio de producción y más cuidado en cómo se dirige a la persona que va a salir en cámara, normalmente un médico o un especialista que no está acostumbrado a grabar y que tiene poco tiempo entre pacientes.",
+      },
+      {
+        type: "paragraph",
+        text: "También cambia el listón legal y ético: no se puede mostrar a un paciente real sin su consentimiento explícito por escrito, ni prometer resultados de un tratamiento. El contenido tiene que informar y generar confianza sin cruzar esa línea, lo que hace todavía más importante cerrar el guion antes de encender la cámara, no improvisarlo en sala.",
+      },
+      { type: "heading", level: 2, text: "Cómo grabar contenido de clínica que funcione" },
+      { type: "heading", level: 3, text: "Vídeo de presentación del equipo médico" },
+      {
+        type: "paragraph",
+        text: "Es el formato que más rendimiento da porque resuelve la primera pregunta de cualquier paciente: quién me va a atender. No hace falta un guion largo, con 60-90 segundos por especialista basta: quién es, en qué está especializado y cómo trabaja. Grabamos varias tomas cortas por persona para no ocupar más de lo necesario la agenda de un equipo médico que tiene consulta el resto del día.",
+      },
+      { type: "heading", level: 3, text: "Contenido explicativo de tratamientos y servicios" },
+      {
+        type: "paragraph",
+        text: "Aquí el error más común es grabar al especialista explicando el tratamiento con el mismo lenguaje que usaría con otro médico. Funciona mejor cuando el guion se prepara antes con el vocabulario que usaría un paciente sin conocimientos médicos, y el vídeo se estructura como respuesta a una pregunta concreta que la gente busca antes de pedir cita, no como ficha técnica del tratamiento.",
+      },
+      { type: "heading", level: 3, text: "Testimonios de pacientes, con consentimiento y cuidado" },
+      {
+        type: "paragraph",
+        text: "Los testimonios son el contenido que más confianza genera, pero también el más delicado: exige consentimiento informado por escrito y evitar cualquier promesa de resultado. Preparamos con antelación qué se puede preguntar y qué no, y dejamos que el paciente hable con sus propias palabras en lugar de leer un guion, porque se nota enseguida cuándo un testimonio suena forzado.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabacion-contenido-clinicas-consultas/mid.webp",
+        alt: "Equipo de cámara y luces de estudio preparado para una sesión de grabación",
+        width: 1920,
+        height: 1080,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al grabar contenido para una clínica" },
+      {
+        type: "list",
+        items: [
+          "Grabar con luz plana de consulta en lugar de un esquema de iluminación que suavice la imagen sin perder naturalidad.",
+          "Dejar que el especialista improvise sin haber acordado antes qué puede y qué no puede afirmar sobre un tratamiento.",
+          "Grabar testimonios sin consentimiento informado por escrito, lo que puede obligar a descartar el material entero.",
+          "Usar lenguaje técnico pensado para otro médico en vez de para quien va a ver el vídeo antes de pedir cita.",
+          "No dejar margen en la agenda de consulta para repetir tomas, lo que presiona al equipo médico y se nota en cámara.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Se puede grabar dentro de la propia clínica o hay que venir a estudio?",
+        answer:
+          "Depende del formato. Para vídeo de presentación de equipo o contenido explicativo solemos recomendar estudio, porque controlamos luz y sonido sin interrumpir la actividad de la consulta. Para mostrar las instalaciones reales, grabamos en la propia clínica.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para grabar contenido de una clínica?",
+        answer:
+          "Entre 2 y 3 horas para cubrir la presentación de 2-3 especialistas más un par de piezas explicativas. Si se suman testimonios de pacientes, conviene reservar media jornada para no precipitar el consentimiento ni las tomas.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué pasa con el consentimiento de los pacientes que salen en el vídeo?",
+        answer:
+          "Es responsabilidad de la clínica conseguirlo por escrito antes de la sesión. No grabamos a ningún paciente sin ese consentimiento firmado, y lo pedimos como requisito antes de confirmar la sesión de testimonios.",
+      },
+      {
+        type: "faq",
+        question: "¿El equipo médico necesita preparación previa para salir en cámara?",
+        answer:
+          "Ayuda, pero no hace falta que memoricen nada. En sesión trabajamos con guion abierto: marcamos los puntos que tienen que salir y dejamos que lo cuenten con sus propias palabras, que es lo que transmite más confianza en contenido de salud.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tu clínica o consulta necesita contenido que genere confianza real, no solo vídeo bonito, escríbenos en /#contacto y lo planificamos según qué especialistas y qué servicios quieres mostrar primero.",
+      },
+    ],
+  },
+  {
+    slug: "making-of-publicidad-que-es-para-que-sirve",
+    title: "Vídeo making-of para publicidad: qué es y cómo grabarlo para sacarle partido",
+    description:
+      "Qué es un vídeo making-of para publicidad, para qué sirve en orgánico y en anuncios, y cómo grabarlo durante la sesión sin frenar el rodaje principal.",
+    publishedAt: "2026-09-29",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["making of", "vídeo publicitario", "contenido orgánico", "estudio de grabación", "Madrid", "behind the scenes"],
+    keyword: "video making-of para publicidad",
+    intent: "informacional",
+    excerpt:
+      "Un making-of no es un extra de cortesía: es contenido orgánico que sale gratis de una sesión que ya has pagado. Cómo grabarlo y dónde usarlo.",
+    seoTitle: "Vídeo making-of para publicidad: qué es y cómo grabarlo",
+    metaDescription:
+      "Vídeo making-of para publicidad: qué es, para qué sirve en orgánico y en ads y cómo grabarlo durante la sesión sin frenar el rodaje principal.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Cuando grabas un anuncio, un VSL o una tanda de reels, pagas una sesión entera: equipo, espacio, tiempo de gente. Lo que sale en pantalla es el anuncio. Todo lo demás, lo que pasa entre toma y toma, se pierde. Un making-of es recuperar ese material y convertirlo en otra pieza de contenido.",
+      },
+      {
+        type: "paragraph",
+        text: "Yo lo planteo como una segunda salida de la misma inversión. No añade una sesión ni un presupuesto aparte, solo exige decidir antes de grabar que quieres capturarlo. Aquí explico qué es un making-of publicitario, dónde funciona de verdad y cómo grabarlo sin estorbar al rodaje.",
+      },
+      {
+        type: "image",
+        src: "/blog/making-of-publicidad-que-es-para-que-sirve/hero.webp",
+        alt: "Equipo de rodaje trabajando en un plató con cámaras y luces durante una sesión de grabación",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué es un making-of y por qué importa" },
+      {
+        type: "paragraph",
+        text: "Un making-of es un vídeo corto que enseña cómo se ha hecho otra pieza: la preparación, la luz, las tomas fallidas, la dirección de quien sale en cámara. No es un documental. Dura entre 30 y 90 segundos y se monta con material que se ha ido grabando en paralelo durante la sesión.",
+      },
+      {
+        type: "paragraph",
+        text: "Importa porque el contenido de detrás de cámara tiene algo que el anuncio pulido no tiene: parece real. Para una marca personal o una empresa pequeña, enseñar el proceso genera cercanía y credibilidad. Para un equipo de marketing, es material extra para rellenar el calendario orgánico sin volver a grabar.",
+      },
+      {
+        type: "paragraph",
+        text: "También hay un uso menos obvio en paid. Un making-of sirve de prueba de producción: demuestra que detrás del anuncio hay un equipo, un estudio y un proceso, y eso ayuda en retargeting con quien ya conoce la marca y duda antes de comprar o reservar.",
+      },
+      { type: "heading", level: 2, text: "Cómo grabar un making-of que se pueda usar" },
+      { type: "heading", level: 3, text: "Decide el objetivo antes de la sesión" },
+      {
+        type: "paragraph",
+        text: "Un making-of para LinkedIn, uno para Instagram y uno para retargeting no se graban igual. El primero pide voz de la persona explicando el porqué de la pieza, el segundo ritmo y planos rápidos, el tercero prueba de proceso con poco texto. Elegir una sola salida principal evita acabar con horas de material sin dirección.",
+      },
+      { type: "heading", level: 3, text: "Un segundo dispositivo, sin parar el rodaje" },
+      {
+        type: "paragraph",
+        text: "El making-of no puede pedir que se repita nada. En A0Studios lo capturamos con una segunda cámara, normalmente una Sony A7 en mano o un móvil en trípode, mientras la cámara principal sigue con el anuncio. Si hay que parar para grabar el detrás de cámara, se acaba tomando peor el anuncio y peor el making-of.",
+      },
+      { type: "heading", level: 3, text: "Captura momentos concretos, no todo" },
+      {
+        type: "paragraph",
+        text: "Con 3 horas de sesión no necesitas 3 horas de detrás de cámara. Suele bastar con cinco momentos: montaje de luz, ensayo con el guion, una toma en el monitor con la dirección hablando, una toma fallida que haga gracia y el resultado final. Todo lo demás sobra en el montaje.",
+      },
+      {
+        type: "image",
+        src: "/blog/making-of-publicidad-que-es-para-que-sirve/mid.webp",
+        alt: "Cámara de cine profesional montada en un set de rodaje durante la producción de una serie",
+        width: 1920,
+        height: 1080,
+      },
+      { type: "heading", level: 2, text: "Cuándo tiene sentido y cuándo no" },
+      {
+        type: "paragraph",
+        text: "El making-of rinde cuando la sesión tiene algo que enseñar: un VSL con guion trabajado, una tanda de anuncios con varias versiones, una dirección de cámara visible. No rinde cuando se graba un clip suelto de 20 segundos o cuando la persona en cámara está incómoda y no quiere que se vea el proceso. Ahí es mejor no forzarlo.",
+      },
+      {
+        type: "list",
+        items: [
+          "Tienes una sesión de 2 horas o más con varias piezas: hay material de sobra para un making-of.",
+          "Quieres alimentar el calendario orgánico sin organizar otra grabación.",
+          "Necesitas material de confianza para retargeting o para tu web.",
+          "La persona en cámara está cómoda con que se vea el proceso.",
+          "No hay ningún dato confidencial visible en pantalla ni en el guion.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto tiempo extra añade un making-of a la sesión?",
+        answer:
+          "Ninguno si se planifica bien. Se graba en paralelo con una segunda cámara mientras la principal sigue con el anuncio. Lo que sí añade es tiempo de edición, unas 2 horas para un vídeo de 60 segundos.",
+      },
+      {
+        type: "faq",
+        question: "¿Un making-of sirve también para anuncios de pago?",
+        answer:
+          "Sí, sobre todo en retargeting. Sirve para reforzar la confianza en quien ya ha visto tu marca. Como pieza de captación en frío suele rendir peor que el anuncio directo, así que lo usaría como apoyo, no como sustituto.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta un equipo distinto para grabarlo?",
+        answer:
+          "No. Con un móvil en trípode o una segunda cámara ligera basta. La calidad de imagen importa menos que en el anuncio, porque el valor del making-of es que se vea real.",
+      },
+      {
+        type: "faq",
+        question: "¿Se puede pedir en cualquiera de vuestros servicios?",
+        answer:
+          "Se puede añadir a Solo Grabación, Grabación + Edición y Producción Completa. Lo hablamos antes de la sesión para decidir la salida principal y montarlo con criterio de venta, no solo como un vídeo bonito.",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a grabar anuncios, un VSL o contenido orgánico en Madrid y quieres sacar también un making-of de la misma sesión, escríbenos en /#contacto y lo planteamos desde el primer briefing.",
+      },
+    ],
+  },
+  {
+    slug: "filmmaker-madrid-como-elegir-contratar",
+    title: "Filmmaker en Madrid: cómo elegir uno y qué preguntarle antes de contratar",
+    description:
+      "Qué hace un filmmaker en Madrid, qué diferencia a uno que solo graba de uno que dirige con criterio de venta y qué preguntar antes de cerrar la sesión.",
+    publishedAt: "2026-09-30",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["filmmaker Madrid", "vídeo para marcas", "estudio de grabación", "dirección de contenido", "Madrid", "contratar videógrafo"],
+    keyword: "filmmaker madrid",
+    intent: "informacional",
+    excerpt:
+      "Un filmmaker no es solo alguien con una cámara buena. Lo que decide si el vídeo vende es quién dirige la sesión y con qué criterio.",
+    seoTitle: "Filmmaker en Madrid: cómo elegir y qué preguntar",
+    metaDescription:
+      "Filmmaker en Madrid: qué hace, en qué se diferencia quien solo graba de quien dirige con criterio de venta y qué preguntar antes de contratar.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Buscas un filmmaker en Madrid y aparecen decenas de portfolios con planos preciosos. Todos parecen buenos. La diferencia real no se ve en el reel: se ve en lo que pasa después, cuando el vídeo sale a redes o a un anuncio y hay que saber si funciona.",
+      },
+      {
+        type: "paragraph",
+        text: "Yo llevo años grabando contenido y anuncios, y lo que más veo es gente que contrata a alguien que graba bien pero no sabe para qué. Aquí explico qué hace un filmmaker, qué debes exigirle y qué preguntas te ahorran una sesión perdida.",
+      },
+      {
+        type: "image",
+        src: "/blog/filmmaker-madrid-como-elegir-contratar/hero.webp",
+        alt: "Persona grabando con una cámara sobre trípode bajo luz azul y roja",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué hace realmente un filmmaker" },
+      {
+        type: "paragraph",
+        text: "Un filmmaker cubre el trabajo de cámara, luz, sonido y, según el caso, guion y edición. A diferencia de una productora grande, suele ser una persona o un equipo pequeño que te atiende directamente, sin capas de cuentas y comerciales entre medias.",
+      },
+      {
+        type: "paragraph",
+        text: "Eso tiene ventajas claras para marcas personales, founders y equipos de marketing: precio más ajustado, entregas rápidas y una sola persona con visión de todo el proyecto. El riesgo es que la calidad depende por completo de esa persona.",
+      },
+      {
+        type: "paragraph",
+        text: "Por eso conviene separar dos perfiles. Uno graba lo que le pides con buena imagen. El otro te dice qué grabar, en qué orden y con qué gancho, porque ha visto qué retiene y qué se salta la gente. El segundo cuesta más, pero el primero puede salir caro si el vídeo no sirve.",
+      },
+      { type: "heading", level: 2, text: "Cómo elegir bien" },
+      { type: "heading", level: 3, text: "Mira resultados, no solo estética" },
+      {
+        type: "paragraph",
+        text: "Pide ejemplos de piezas que se hayan usado en anuncios o en orgánico y pregunta qué se decidió en la sesión para que funcionaran. Si la respuesta es solo técnica (objetivo, cámara, corrección de color), falta la parte que vende.",
+      },
+      { type: "heading", level: 3, text: "Comprueba dónde graba" },
+      {
+        type: "paragraph",
+        text: "Un filmmaker con estudio propio controla luz y sonido y no depende de que la oficina del cliente esté libre. En A0Studios grabamos en un ático en Ronda de Atocha 16, en Madrid centro, con luz natural y equipo fijo montado, así que la sesión empieza a grabar en minutos, no tras una hora de montaje.",
+      },
+      { type: "heading", level: 3, text: "Aclara quién dirige" },
+      {
+        type: "paragraph",
+        text: "En una sesión de 3 horas se graban unas 15 piezas cortas si alguien lleva el ritmo. Sin dirección, la mitad del tiempo se va en dudas. Pregunta quién te guía frente a cámara, quién decide el hook de cada pieza y si esa persona ha trabajado con anuncios de Meta o TikTok.",
+      },
+      {
+        type: "image",
+        src: "/blog/filmmaker-madrid-como-elegir-contratar/mid.webp",
+        alt: "Hombre con camisa negra sujetando una cámara de vídeo",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al contratar" },
+      {
+        type: "paragraph",
+        text: "Casi todos los problemas vienen de contratar por precio o por portfolio sin definir antes el objetivo del vídeo. Estos son los que más se repiten:",
+      },
+      {
+        type: "list",
+        items: [
+          "Contratar por el precio por hora sin preguntar qué incluye: edición, correcciones, formatos verticales y horizontales.",
+          "No definir si el vídeo es para orgánico, para paid o para la web, cuando cada uno pide un guion y un ritmo distintos.",
+          "Elegir a alguien que graba muy bien pero nunca ha visto los resultados de sus piezas en una campaña.",
+          "Llegar a la sesión sin brief ni referencias, y decidir todo delante de cámara.",
+          "Pagar una sesión suelta cuando lo que necesitas es contenido para varias semanas.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto cuesta contratar un filmmaker en Madrid?",
+        answer:
+          "Depende de si es solo grabación, grabación con edición o producción completa. Una sesión de medio día con edición de varias piezas cortas suele moverse en un rango muy distinto a un anuncio con guion y dirección. Lo sensato es pedir presupuesto por entregables, no por horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Es mejor un filmmaker freelance o un estudio?",
+        answer:
+          "Un freelance sirve si ya tienes claro qué grabar y dónde. Un estudio con dirección incluida encaja mejor cuando necesitas espacio, equipo y alguien que decida el enfoque de las piezas. En A0Studios ofrecemos las dos cosas en la misma sesión.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué debo llevar preparado a la sesión?",
+        answer:
+          "Un objetivo claro por pieza, dos o tres referencias de lo que te gusta y los puntos que quieres que salgan. No hace falta memorizar un guion: se ajusta en la sesión con quien dirige.",
+      },
+      {
+        type: "faq",
+        question: "¿Se puede grabar para anuncios y para orgánico en la misma sesión?",
+        answer:
+          "Sí, y suele compensar. Se graban las piezas de paid con hook y llamada a la acción, y se aprovecha el resto para reels y contenido orgánico. Lo importante es decidirlo antes de empezar para que el guion sirva a los dos usos.",
+      },
+      {
+        type: "paragraph",
+        text: "Si buscas un filmmaker en Madrid que además dirija la sesión con criterio de venta, escríbenos en /#contacto y te contamos cómo lo plantearíamos para tu marca.",
+      },
+    ],
+  },
+  {
+    slug: "produccion-de-video-madrid-fases-que-incluye",
+    title: "Producción de vídeo en Madrid: fases, qué incluye y cómo no pagar de más",
+    description:
+      "Producción de vídeo en Madrid explicada por fases: preproducción, rodaje y postproducción, qué incluye cada una y cómo plantearla si el vídeo tiene que vender.",
+    publishedAt: "2026-10-01",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["producción de vídeo", "Madrid", "estudio de grabación", "preproducción", "postproducción", "vídeo para marcas"],
+    keyword: "produccion de video",
+    intent: "informacional",
+    excerpt:
+      "Producir un vídeo no es solo grabarlo. Estas son las fases reales, qué se decide en cada una y dónde se suele perder dinero.",
+    seoTitle: "Producción de vídeo en Madrid: fases y qué incluye",
+    metaDescription:
+      "Producción de vídeo en Madrid: fases, qué incluye cada una y cómo plantearla para que el vídeo venda, tanto en orgánico como en anuncios.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Cuando alguien pide presupuesto de producción de vídeo en Madrid, casi siempre está comparando cosas distintas. Una oferta incluye guion y edición. Otra, solo dos horas de cámara. El precio parece comparable y no lo es.",
+      },
+      {
+        type: "paragraph",
+        text: "Yo dirijo sesiones de contenido y anuncios, y lo primero que explico es que la producción tiene fases. Quien entiende qué pasa en cada una decide mejor dónde invertir y qué puede recortar sin que el vídeo pierda fuerza.",
+      },
+      {
+        type: "image",
+        src: "/blog/produccion-de-video-madrid-fases-que-incluye/hero.webp",
+        alt: "Equipo de rodaje trabajando en un plató de grabación",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué es la producción de vídeo y por qué importa" },
+      {
+        type: "paragraph",
+        text: "Producción de vídeo es todo el proceso desde que defines el objetivo hasta que tienes las piezas listas para publicar. La grabación es solo una parte, y a menudo la más corta.",
+      },
+      {
+        type: "paragraph",
+        text: "Importa porque cada fase condiciona la siguiente. Un guion flojo no lo arregla una cámara cara. Una grabación sin planos de apoyo hace la edición más lenta y más cara. Y un vídeo sin objetivo claro no se puede medir después.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios ofrecemos tres niveles: Solo Grabación, Grabación + Edición y Producción Completa. Lo que cambia entre ellos es cuántas fases cubrimos nosotros y cuántas llegan resueltas por el cliente.",
+      },
+      { type: "heading", level: 2, text: "Cómo se hace bien" },
+      { type: "heading", level: 3, text: "Preproducción: donde se gana o se pierde el vídeo" },
+      {
+        type: "paragraph",
+        text: "Aquí se define para qué es el vídeo, dónde se va a publicar y qué tiene que provocar. No es lo mismo una pieza para Meta Ads que un reel orgánico: cambian el gancho, la duración y la llamada a la acción. También se cierran guion, referencias, vestuario y lista de piezas. Con 1 o 2 horas de preparación bien hechas, una sesión de 3 horas da unas 15 piezas cortas.",
+      },
+      { type: "heading", level: 3, text: "Rodaje: ritmo y dirección" },
+      {
+        type: "paragraph",
+        text: "En el rodaje manda el ritmo. Con el equipo fijo montado en el ático de Ronda de Atocha 16, la sesión empieza a grabar en minutos y no se pierde la primera hora en montar luces. Lo que marca la diferencia es quién dirige: alguien que corta a tiempo, repite el gancho hasta que funciona y piensa en el montaje mientras graba.",
+      },
+      { type: "heading", level: 3, text: "Postproducción: edición, color y versiones" },
+      {
+        type: "paragraph",
+        text: "La edición en DaVinci Resolve o CapCut incluye montaje, subtítulos, sonido y corrección de color. Si el vídeo es para paid, aquí también se preparan versiones: distintos ganchos, formato vertical y cuadrado, y cortes de 15 y 30 segundos para testear. Es mucho más barato prever esas variantes en el rodaje que pedirlas después.",
+      },
+      {
+        type: "image",
+        src: "/blog/produccion-de-video-madrid-fases-que-incluye/mid.webp",
+        alt: "Línea de tiempo de edición de vídeo en una pantalla oscura",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Dónde se suele pagar de más" },
+      {
+        type: "paragraph",
+        text: "El sobrecoste casi nunca viene de la cámara. Viene de decisiones que se toman tarde. Estos son los puntos que más se repiten:",
+      },
+      {
+        type: "list",
+        items: [
+          "Rodar sin guion cerrado y descubrir en edición que faltan planos.",
+          "Pedir una sola pieza larga cuando lo útil son 10 o 15 cortas para redes y anuncios.",
+          "Cambiar el objetivo del vídeo a mitad de proceso, de orgánico a paid, sin rehacer el enfoque.",
+          "No preguntar cuántas rondas de correcciones incluye la edición.",
+          "Contratar la grabación por un lado y la edición por otro, sin que nadie piense el montaje al grabar.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "El diferencial de un buen proceso no es el espacio, sino que quien lo dirige haya hecho anuncios y sepa qué convierte. Por eso en A0Studios dirigimos la sesión con criterio de venta, no solo estético, tanto para redes como para paid.",
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuáles son las fases de la producción de vídeo?",
+        answer:
+          "Tres: preproducción (objetivo, guion, planificación), rodaje (grabación y dirección) y postproducción (edición, sonido, color y versiones finales). Cada una puede contratarse por separado o en conjunto.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto tiempo lleva producir un vídeo?",
+        answer:
+          "Depende del alcance. Una sesión de contenido de 3 horas con edición de varias piezas cortas puede entregarse en pocos días. Un anuncio con guion, dirección y varias versiones necesita algo más de preproducción y revisión.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué diferencia hay entre Solo Grabación y Producción Completa?",
+        answer:
+          "Solo Grabación te da el estudio, el equipo y la sesión. Producción Completa añade preproducción, dirección, edición y entrega de versiones. Si ya llegas con guion y editor, la primera basta. Si no, la segunda te ahorra tiempo.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo producir vídeo para anuncios y orgánico a la vez?",
+        answer:
+          "Sí, y suele compensar. Se graban las piezas de paid con gancho y llamada a la acción y se aprovecha la misma sesión para reels y contenido orgánico. Hay que decidirlo en preproducción para que el guion sirva a los dos usos.",
+      },
+      {
+        type: "paragraph",
+        text: "Si necesitas producción de vídeo en Madrid y quieres que alguien dirija la sesión con criterio de venta, escríbenos en /#contacto y te proponemos cómo plantearla según tu objetivo.",
+      },
+    ],
+  },
+  {
+    slug: "estudio-para-grabar-anuncios-en-madrid",
+    title: "Estudio para grabar anuncios en Madrid: qué necesita y qué debe incluir",
+    description:
+      "Estudio para grabar anuncios en Madrid: qué equipo, qué dirección y qué entregables debe incluir una sesión pensada para Meta Ads, TikTok Ads y VSL.",
+    publishedAt: "2026-10-02",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["estudio para anuncios", "Madrid", "Meta Ads", "TikTok Ads", "VSL", "dirección de anuncios"],
+    keyword: "estudio para grabar anuncios en madrid",
+    intent: "informacional",
+    excerpt:
+      "Un estudio para grabar anuncios no se elige por la luz. Qué necesita una sesión de paid y qué debe incluir para que el material sirva en campaña.",
+    seoTitle: "Estudio para grabar anuncios en Madrid: qué incluir",
+    metaDescription:
+      "Estudio para grabar anuncios en Madrid: equipo, dirección y entregables que necesitas para Meta Ads, TikTok Ads y VSL antes de reservar sesión.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Un anuncio no se graba como un vídeo corporativo. Tiene que frenar el dedo en los primeros 2 segundos, aguantar varias versiones y llegar al editor con material para testear. Por eso un estudio para grabar anuncios en Madrid se elige con otros criterios que uno de fotografía o de alquiler genérico.",
+      },
+      {
+        type: "paragraph",
+        text: "Yo dirijo sesiones de anuncios para Meta Ads, TikTok Ads y VSL en A0Studios, nuestro ático de Ronda de Atocha 16, en Madrid centro. Esto es lo que debería tener cualquier estudio que vaya a grabar tus anuncios, el nuestro o el de otro.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-para-grabar-anuncios-en-madrid/hero.webp",
+        alt: "Estudio de grabación con cámara y luces montadas para rodar anuncios",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué necesita un estudio pensado para anuncios" },
+      {
+        type: "paragraph",
+        text: "Lo básico es evidente: cámara con buen sensor, 2 micrófonos, luz controlada y un fondo limpio. Con una Sony A7 y una iluminación bien montada ya tienes calidad de sobra para Meta o TikTok. Lo que cambia el resultado no es el equipo, es la preparación.",
+      },
+      {
+        type: "paragraph",
+        text: "Un anuncio de pago vive de variables que se prueban: gancho, oferta, llamada a la acción. Si el estudio no graba pensando en esas variantes, acabas con un solo vídeo y sin nada que testear. Lo normal en una sesión de 3 horas es salir con entre 4 y 6 anuncios distintos, cada uno con 2 o 3 ganchos alternativos.",
+      },
+      {
+        type: "paragraph",
+        text: "Y hay un punto que casi nadie pregunta: quién dirige. En A0Studios no te dejamos solo con la cámara. Dirigimos la sesión con criterio de venta, no solo estético, porque el anuncio bonito que no convierte sale igual de caro que el que sí.",
+      },
+      { type: "heading", level: 2, text: "Cómo se prepara una sesión de anuncios" },
+      { type: "heading", level: 3, text: "Antes de reservar: oferta y público claros" },
+      {
+        type: "paragraph",
+        text: "Ningún estudio puede arreglar un anuncio sin oferta. Antes de grabar tiene que estar definido qué vendes, a quién y qué quieres que haga. Con eso en una página, el guion se escribe en una hora.",
+      },
+      { type: "heading", level: 3, text: "Durante el rodaje: ganchos y versiones" },
+      {
+        type: "paragraph",
+        text: "Se graba primero el cuerpo del anuncio y después se repiten los ganchos. Cada gancho es una toma de 3 a 5 segundos con otra frase, otro gesto o otro plano. Con 8 ganchos grabados tienes 8 formas de entrar al mismo anuncio, y eso es lo que luego se testea en campaña.",
+      },
+      { type: "heading", level: 3, text: "Después: formatos y entrega" },
+      {
+        type: "paragraph",
+        text: "Un anuncio se entrega en vertical 9:16 para Reels y TikTok, y muchas veces también en 1:1 o 4:5 para feed. Si la edición se hace en DaVinci Resolve o CapCut, estos formatos salen del mismo montaje. Conviene pedirlos desde el principio, no cuando la campaña ya está parada.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-para-grabar-anuncios-en-madrid/mid.webp",
+        alt: "Equipo de rodaje en un plató durante la grabación de un anuncio",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al elegir estudio para anuncios" },
+      {
+        type: "list",
+        items: [
+          "Elegir solo por la estética del espacio y no por quién dirige la sesión.",
+          "Grabar una única versión del anuncio, sin ganchos alternativos para testear.",
+          "No cerrar guion ni oferta antes de llegar al estudio.",
+          "Olvidar los formatos verticales y cuadrados hasta la edición.",
+          "Contratar la grabación sin saber cuánto tarda en llegar el material editado.",
+          "Pagar horas de montaje de luces en lugar de horas de grabación.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Qué equipo necesita un estudio para grabar anuncios?",
+        answer:
+          "Una cámara con buen sensor como una Sony A7, 2 micrófonos, luz controlada, un fondo limpio y un monitor para dirigir. El equipo importa menos que la preparación del guion y las variantes de gancho.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para grabar anuncios?",
+        answer:
+          "Entre 2 y 3 horas suele bastar para 4 a 6 anuncios con varios ganchos cada uno, siempre que llegues con guion y oferta cerrados. Si hay que preparar el guion en el estudio, conviene sumar tiempo.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar anuncios y contenido orgánico en la misma sesión?",
+        answer:
+          "Sí. Se graban primero las piezas de paid y se aprovecha el resto de la sesión para reels y contenido orgánico. Hay que planificarlo en el guion para que ambas cosas encajen.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué incluye Solo Grabación frente a Producción Completa?",
+        answer:
+          "Solo Grabación incluye estudio, equipo y sesión. Producción Completa suma preproducción, dirección, edición y versiones por formato. Si no tienes guion ni editor, la segunda te ahorra tiempo.",
+      },
+      {
+        type: "paragraph",
+        text: "Si buscas un estudio para grabar anuncios en Madrid con alguien que dirija la sesión pensando en ventas, escríbenos en /#contacto y te proponemos cómo plantear tu sesión según tu campaña.",
+      },
+    ],
+  },
+  {
+    slug: "video-para-reuniones-comerciales-que-grabar",
+    title: "Vídeo para reuniones comerciales: qué grabar antes de una venta importante",
+    description:
+      "Qué vídeos grabar antes de una reunión comercial importante: presentación personal, demo corta y respuesta a objeciones, y cómo prepararlos en una sesión.",
+    publishedAt: "2026-10-05",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["vídeo comercial", "reuniones de venta", "contenido B2B", "estudio de grabación", "Madrid", "ventas"],
+    keyword: "video para reuniones comerciales",
+    intent: "informacional",
+    excerpt:
+      "Antes de una venta importante, un vídeo corto bien dirigido hace parte del trabajo por ti. Qué grabar, cuánto debe durar y cómo prepararlo en una sesión.",
+    seoTitle: "Vídeo para reuniones comerciales: qué grabar antes",
+    metaDescription:
+      "Vídeo para reuniones comerciales: qué grabar antes de una venta importante, cuánto debe durar cada pieza y cómo sacarlas todas en una sola sesión.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Antes de una reunión comercial importante, el cliente ya se ha formado una opinión. Ha mirado tu web, tu LinkedIn y lo que le ha llegado por correo. Un vídeo corto bien grabado cambia lo que piensa de ti antes de que entres en la sala o abras la videollamada.",
+      },
+      {
+        type: "paragraph",
+        text: "Yo dirijo sesiones de contenido en A0Studios, nuestro ático de Ronda de Atocha 16, en Madrid centro. Cada vez más equipos comerciales vienen con una pregunta concreta: qué grabo para llegar mejor a una venta grande. Esto es lo que recomiendo.",
+      },
+      {
+        type: "image",
+        src: "/blog/video-para-reuniones-comerciales-que-grabar/hero.webp",
+        alt: "Persona presentando a un grupo sentado alrededor de una mesa con portátiles",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué un vídeo ayuda a vender antes de la reunión" },
+      {
+        type: "paragraph",
+        text: "En una venta compleja casi nunca decide una sola persona. Quien te conoce en la reunión lo explica luego al resto del comité, y lo hace mal o a medias. Un vídeo de 60 a 90 segundos viaja por correo o por chat y cuenta tu propuesta tal como tú la contarías.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, ahorra la parte más repetitiva de la reunión. Si el cliente ya ha visto quién eres y qué haces, los primeros 15 minutos se dedican a su problema y no a tu presentación corporativa.",
+      },
+      {
+        type: "paragraph",
+        text: "No hace falta una producción grande. Hace falta que el vídeo sea claro, que suene a persona y que esté pensado para una decisión de compra, no para gustar en redes.",
+      },
+      {
+        type: "paragraph",
+        text: "Piensa en el momento exacto en que se va a ver. Un directivo abre el correo entre dos reuniones, con el sonido a medias y poco tiempo. Por eso el vídeo necesita subtítulos, una primera frase que explique de qué va y un formato que se vea bien tanto en móvil como en el portátil.",
+      },
+      {
+        type: "paragraph",
+        text: "También conviene decidir quién sale en cámara. En una venta B2B, el cliente quiere ver a la persona que le va a atender: el comercial, el director de cuenta o el fundador. Una voz en off sobre imágenes de archivo no genera la misma confianza.",
+      },
+      { type: "heading", level: 2, text: "Cómo se hace bien" },
+      { type: "heading", level: 3, text: "Un vídeo de presentación de 60 a 90 segundos" },
+      {
+        type: "paragraph",
+        text: "Quién eres, a quién ayudas y qué resultado consigues, en ese orden. Sin historia de la empresa ni lista de servicios. Se graba a cámara, con un guion corto en teleprompter y una sola idea por frase. Es la pieza que se manda justo después de confirmar la reunión.",
+      },
+      { type: "heading", level: 3, text: "Una demo corta del producto o servicio" },
+      {
+        type: "paragraph",
+        text: "Entre 2 y 3 minutos enseñando cómo funciona y qué cambia para el cliente. Si es un producto digital, se graba la pantalla y después se añade tu cara en una esquina o a pantalla completa. Si es un servicio, se enseña un resultado real, no una explicación de proceso.",
+      },
+      { type: "heading", level: 3, text: "Respuestas a las objeciones más comunes" },
+      {
+        type: "paragraph",
+        text: "Precio, plazo, riesgo, comparación con la competencia. Cada objeción es un clip de 30 a 45 segundos. Con 5 o 6 de estos clips, tu equipo comercial tiene una biblioteca para enviar justo cuando el cliente duda. Aquí está el mayor retorno, porque son las respuestas que el comercial repite cada semana.",
+      },
+      {
+        type: "image",
+        src: "/blog/video-para-reuniones-comerciales-que-grabar/mid.webp",
+        alt: "Cámara sobre trípode lista para grabar una sesión",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Errores comunes" },
+      {
+        type: "list",
+        items: [
+          "Grabar un vídeo corporativo genérico en lugar de uno pensado para una decisión de compra.",
+          "Pasar de los 2 minutos en la pieza de presentación: nadie la ve entera.",
+          "Hablar de la empresa en vez del problema del cliente.",
+          "Grabar todo con el móvil en la oficina, con eco y ruido de fondo.",
+          "No dejar claro al final qué debe hacer el cliente: responder, reservar fecha o abrir un documento.",
+          "Grabar una sola pieza y no una biblioteca de clips reutilizables para el equipo.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Una regla práctica: graba antes de necesitarlo. Los vídeos de objeciones se graban cuando no hay prisa, con las respuestas ya pulidas por haberlas dado cien veces. Grabarlos la víspera de una reunión importante sale peor y, además, ya no sirven para las siguientes.",
+      },
+      {
+        type: "paragraph",
+        text: "Y revísalos cada seis meses. Si cambia el precio, el producto o la competencia, el clip se queda viejo. Con una sesión semestral de 2 o 3 horas mantienes la biblioteca al día sin que se convierta en un proyecto aparte.",
+      },
+      { type: "heading", level: 2, text: "Cómo lo planteamos en A0Studios" },
+      {
+        type: "paragraph",
+        text: "En A0Studios no te dejamos solo delante de la cámara. Dirigimos la sesión con criterio de venta: qué decir primero, qué quitar y cómo sonar seguro sin parecer un anuncio. Trabajamos con empresas como IFEMA, la Cámara de Comercio de Madrid y Cinesa, y esa forma de dirigir es la misma tanto si el vídeo va a un anuncio como a una carpeta de cliente.",
+      },
+      {
+        type: "paragraph",
+        text: "En una sesión de 3 horas puedes salir con el vídeo de presentación, una demo y entre 5 y 8 clips de objeciones. Con Sony A7, 2 micrófonos y una iluminación fija, el resultado es consistente y se edita rápido en DaVinci Resolve.",
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto debe durar un vídeo para una reunión comercial?",
+        answer:
+          "La presentación, entre 60 y 90 segundos. La demo, de 2 a 3 minutos. Las respuestas a objeciones, de 30 a 45 segundos cada una. Más largo y se deja de ver.",
+      },
+      {
+        type: "faq",
+        question: "¿Tiene sentido si mi venta se cierra por videollamada?",
+        answer:
+          "Sí. Un vídeo enviado antes de la llamada aclara quién eres y qué ofreces, y la llamada empieza ya en el problema del cliente.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo reutilizar estos vídeos en redes o en anuncios?",
+        answer:
+          "Los de presentación y objeciones funcionan bien en LinkedIn y como base de anuncios. Si lo sabemos antes de grabar, los dirigimos para que sirvan en ambos usos.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto tarda en estar listo el material editado?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición o Producción Completa te entregamos las piezas montadas y subtituladas, en los formatos que necesites.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes una venta importante en el calendario y quieres llegar con vídeo, escríbenos en /#contacto y te proponemos qué grabar según tu cliente y tu ciclo de venta.",
+      },
+    ],
+  },
+  {
+    slug: "video-landing-page-formato-duracion-que-convierte",
+    title: "Vídeo para landing page: qué formato y duración convierten más",
+    description:
+      "Qué formato y duración de vídeo funcionan en una landing page: vídeo de oferta, demo corta o testimonio, dónde colocarlo y cómo grabarlo en una sola sesión.",
+    publishedAt: "2026-10-06",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["vídeo landing page", "conversión", "contenido para ventas", "estudio de grabación", "Madrid", "VSL"],
+    keyword: "video para landing page",
+    intent: "informacional",
+    excerpt:
+      "Un vídeo en la landing puede subir la conversión o frenar la carga y espantar al visitante. Qué formato elegir, cuánto debe durar y cómo grabarlo bien en una sesión.",
+    seoTitle: "Vídeo para landing page: formato y duración que convierten",
+    metaDescription:
+      "Vídeo para landing page: qué formato y duración convierten más, dónde colocarlo y cómo grabarlo con criterio de venta en una sola sesión de estudio.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Poner un vídeo en una landing page no garantiza nada. Un vídeo largo, sin gancho y con mala imagen hace que el visitante se vaya. Uno corto, claro y pensado para la decisión de compra hace parte del trabajo de venta por ti.",
+      },
+      {
+        type: "paragraph",
+        text: "Yo dirijo sesiones de contenido en A0Studios, nuestro ático de Ronda de Atocha 16, en Madrid centro. Vengo del mundo de los anuncios, así que miro cada vídeo de landing con una pregunta: qué tiene que decidir el visitante en los próximos 60 segundos.",
+      },
+      {
+        type: "image",
+        src: "/blog/video-landing-page-formato-duracion-que-convierte/hero.webp",
+        alt: "Persona trabajando con un portátil en una página web de una agencia digital",
+        width: 1920,
+        height: 1245,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué el vídeo cambia el comportamiento en la landing" },
+      {
+        type: "paragraph",
+        text: "Una landing tiene pocos segundos para explicar quién eres, qué ofreces y por qué fiarse. El texto lo hace bien con quien lee con calma. El vídeo llega mejor a quien escanea: ve una cara, oye una voz y entiende el tono de la marca antes de leer nada.",
+      },
+      {
+        type: "paragraph",
+        text: "El vídeo funciona sobre todo cuando la oferta necesita confianza: servicios con ticket alto, consultoría, clínicas, formación o software con demo. Si vendes algo de 15 euros que se entiende con una foto, el vídeo suele sobrar.",
+      },
+      {
+        type: "paragraph",
+        text: "Eso sí, no hay un número mágico de conversión que sirva para todos. Depende de la oferta, del tráfico y del mensaje. Lo que sí se repite es que una pieza corta y bien dirigida casi nunca perjudica, y una pieza larga sin estructura casi siempre sí.",
+      },
+      { type: "heading", level: 2, text: "Cómo elegir bien formato y duración" },
+      { type: "heading", level: 3, text: "Vídeo de oferta: 60 a 90 segundos en la parte superior" },
+      {
+        type: "paragraph",
+        text: "Es el que explica quién eres y qué problema resuelves. Estructura que uso: gancho de 5 segundos con el problema, solución en dos frases, prueba y siguiente paso. Entre 60 y 90 segundos suele bastar. Si necesitas más, probablemente estás intentando contar dos mensajes en un solo vídeo.",
+      },
+      { type: "heading", level: 3, text: "Demo corta: 30 a 60 segundos junto al botón" },
+      {
+        type: "paragraph",
+        text: "Si vendes un producto o un servicio con proceso, enseña cómo funciona en lugar de describirlo. Una demo de 45 segundos con pantalla o producto en plano cercano resuelve la duda de qué recibe exactamente el cliente. Colócala cerca del botón de acción, no al final de la página.",
+      },
+      { type: "heading", level: 3, text: "Testimonio: 30 a 45 segundos, a mitad de página" },
+      {
+        type: "paragraph",
+        text: "Un testimonio funciona cuando responde a una objeción concreta: precio, plazo o resultado. Corto, con la persona mirando a cámara y sin música que tape la voz. Dos o tres de 30 segundos funcionan mejor que uno de dos minutos.",
+      },
+      {
+        type: "image",
+        src: "/blog/video-landing-page-formato-duracion-que-convierte/mid.webp",
+        alt: "Monitor con software de edición de vídeo mostrando línea de tiempo y ventana de previsualización",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes" },
+      {
+        type: "list",
+        items: [
+          "Autoplay con sonido: el navegador suele bloquearlo y, si no lo bloquea, asusta al visitante. Mejor autoplay en silencio con subtítulos, o inicio por clic.",
+          "Empezar con logo animado y presentación de la empresa en lugar de con el problema del cliente.",
+          "Subir un archivo pesado sin comprimir y frenar la carga de la página, que penaliza la conversión y el SEO.",
+          "Un solo vídeo para todo el tráfico, sin adaptar el mensaje al anuncio o la campaña de la que llega el visitante.",
+          "Grabar con el móvil en la oficina, con eco y mala luz, para un servicio que cobra bien.",
+          "Olvidar la llamada a la acción final: qué debe hacer el visitante después de verlo.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Cómo lo grabamos en una sesión" },
+      {
+        type: "paragraph",
+        text: "En una sesión de 3 horas en A0Studios puedes sacar el vídeo de oferta, la demo y 3 testimonios, con dos micrófonos de corbata y una cámara Sony A7 en dos encuadres. Después se edita en DaVinci Resolve y se exportan versiones horizontales y verticales, de modo que la misma sesión te sirve para la landing y para anuncios en Meta o TikTok.",
+      },
+      {
+        type: "paragraph",
+        text: "La diferencia no está solo en el espacio. Dirijo la sesión con criterio de venta: qué frase abre, qué prueba se enseña y dónde cortamos. Esa dirección es lo que separa un vídeo bonito de uno que ayuda a que el visitante pulse el botón.",
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto debe durar un vídeo en una landing page?",
+        answer:
+          "Para el vídeo de oferta, entre 60 y 90 segundos. Para demos, entre 30 y 60. Para testimonios, entre 30 y 45. Si el mensaje no cabe, suele ser que hay que dividirlo en dos piezas.",
+      },
+      {
+        type: "faq",
+        question: "¿El vídeo ralentiza la landing y perjudica el SEO?",
+        answer:
+          "Puede hacerlo si subes un archivo pesado sin comprimir. Usa un vídeo comprimido, carga diferida o una imagen de portada que cargue el reproductor solo al pulsar. Así no pierdes velocidad.",
+      },
+      {
+        type: "faq",
+        question: "¿Mejor vídeo horizontal o vertical en la landing?",
+        answer:
+          "Depende de dónde llegue el tráfico. Si viene sobre todo del móvil, desde anuncios de Instagram o TikTok, el vertical encaja mejor. Para escritorio, el horizontal. En una sola sesión se pueden grabar ambos encuadres.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta un estudio o vale con grabar en la oficina?",
+        answer:
+          "Vale la oficina para pruebas internas, pero si el servicio tiene un ticket alto, la imagen y el sonido importan. Un estudio da luz controlada, audio limpio y dirección, y ahorra repeticiones.",
+      },
+      {
+        type: "paragraph",
+        text: "Si quieres grabar el vídeo de tu landing en Madrid con alguien que sepa qué convierte, escríbenos en /#contacto, cuéntanos tu oferta y te proponemos formato, duración y guion antes de reservar.",
+      },
+    ],
+  },
+  {
+    slug: "dirigir-entrevista-que-no-se-note-el-guion",
+    title: "Cómo dirigir una entrevista para que no se note el guion",
+    description:
+      "Cómo preparar y dirigir una entrevista en cámara para que suene natural aunque lleve guion: preguntas, ritmo, repeticiones y cómo grabarla en estudio.",
+    publishedAt: "2026-10-07",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["dirigir entrevista", "vídeo corporativo", "guion", "estudio de grabación", "Madrid", "contenido de marca"],
+    keyword: "como dirigir una entrevista en video",
+    intent: "informacional",
+    excerpt:
+      "Una entrevista leída se nota en los primeros diez segundos. Cómo preparar las preguntas, dirigir al entrevistado y grabar para que suene a conversación.",
+    seoTitle: "Cómo dirigir una entrevista en vídeo sin que se note el guion",
+    metaDescription:
+      "Cómo dirigir una entrevista en vídeo para que suene natural aunque haya guion: preguntas, ritmo y repeticiones, y cómo grabarla en estudio en Madrid.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Una entrevista con guion se nota en diez segundos. La mirada baja hacia un papel, el tono plano, las frases demasiado redondas. El espectador no sabe explicar qué falla, pero deja de creerse lo que oye.",
+      },
+      {
+        type: "paragraph",
+        text: "Yo dirijo sesiones en A0Studios, nuestro ático de Ronda de Atocha 16, en Madrid centro. Vengo del mundo de los anuncios, así que dirijo cada entrevista pensando en qué tiene que sentir quien la ve y qué debe hacer después. Estas son las reglas que uso.",
+      },
+      {
+        type: "image",
+        src: "/blog/dirigir-entrevista-que-no-se-note-el-guion/hero.webp",
+        alt: "Dos personas en una sala con iluminación de estudio durante una grabación",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué una entrevista guionizada suena falsa" },
+      {
+        type: "paragraph",
+        text: "Cuando alguien memoriza una respuesta, la recita. Habla con otro ritmo, no duda, no busca la palabra. En una conversación real hay pausas, giros y frases a medias. Quitarlas del todo es lo que delata el guion.",
+      },
+      {
+        type: "paragraph",
+        text: "Lo contrario también falla. Una entrevista sin preparación suele divagar, repetir y llenarse de muletillas. En contenido de marca, donde cada minuto cuesta dinero y atención, no puedes permitirte ninguna de las dos cosas.",
+      },
+      {
+        type: "paragraph",
+        text: "El equilibrio es tener estructura sin tener texto. Sabes qué tema toca cada pregunta y qué idea clave debe salir, pero la frase exacta la pone la persona en el momento.",
+      },
+      { type: "heading", level: 2, text: "Cómo se dirige bien una entrevista" },
+      { type: "heading", level: 3, text: "Prepara temas, no respuestas" },
+      {
+        type: "paragraph",
+        text: "Antes de la sesión mando al entrevistado una lista de 6 a 8 temas con la idea que quiero que salga de cada uno. Nunca el texto. Le pido que piense un ejemplo real por tema: un cliente, una cifra, una anécdota. Con ejemplos, la respuesta sale con detalle y no suena a folleto.",
+      },
+      { type: "heading", level: 3, text: "Pregunta con preguntas abiertas y repite sin avisar" },
+      {
+        type: "paragraph",
+        text: "Empiezo con preguntas fáciles para que se suelte, como a qué se dedica o cómo empezó. Después paso a las importantes. Si la primera respuesta suena ensayada, repito la pregunta con otras palabras y le pido que la cuente como se la contaría a un amigo. La segunda toma casi siempre es mejor.",
+      },
+      { type: "heading", level: 3, text: "Dirige con la mirada y no cortes demasiado" },
+      {
+        type: "paragraph",
+        text: "El entrevistado debe mirarme a mí, no a la cámara, salvo que la pieza pida hablar a cámara. Yo me coloco junto al objetivo, a su altura. Dejo que termine las frases y aguanto un par de segundos de silencio al final: ahí suele aparecer lo mejor. Cortar cada vez que se equivoca mata el ritmo. Una muletilla se arregla en edición.",
+      },
+      {
+        type: "image",
+        src: "/blog/dirigir-entrevista-que-no-se-note-el-guion/mid.webp",
+        alt: "Escritorio con auriculares y un micrófono listos para grabar una entrevista",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes" },
+      {
+        type: "list",
+        items: [
+          "Dar al entrevistado las respuestas escritas y pedirle que las lea en un teleprompter. Funciona para un mensaje corto, no para una conversación.",
+          "Empezar a grabar con las preguntas difíciles, antes de que la persona haya entrado en calor.",
+          "Hacer preguntas cerradas que se contestan con sí o no y no dan material de edición.",
+          "No dar tiempo de silencio tras la respuesta. Muchas veces la mejor frase llega después.",
+          "Grabar con un solo plano y sin audio limpio: si el sonido falla, la entrevista entera es inservible.",
+          "Entrevistar a media luz y con eco, sin cuidar la sala. El espacio cambia cómo se siente el entrevistado.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Cómo lo grabamos en A0Studios" },
+      {
+        type: "paragraph",
+        text: "En una sesión de 2 a 3 horas en A0Studios grabamos entrevistas con una cámara Sony A7 en dos encuadres, dos micrófonos de corbata y luz controlada. De una conversación de 40 minutos salen entre 8 y 12 clips para redes, el vídeo principal y cortes para anuncios. Se edita en DaVinci Resolve.",
+      },
+      {
+        type: "paragraph",
+        text: "La diferencia no está solo en el espacio. Dirijo la sesión con criterio de venta: qué pregunta abre, qué prueba queda en pantalla y qué frase sirve de gancho en un anuncio de Meta o TikTok. Eso es lo que separa una entrevista bonita de una que ayuda a vender, tanto en orgánico como en pago.",
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Hay que enviar las preguntas antes al entrevistado?",
+        answer:
+          "Sí, pero en forma de temas, no de preguntas redactadas. Así llega preparado y con ejemplos, sin memorizar respuestas. Las preguntas exactas las hago en la sesión, adaptadas a lo que va contando.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una entrevista en vídeo?",
+        answer:
+          "Grabamos entre 30 y 45 minutos para una pieza final de 3 a 5 minutos, más clips cortos. Con más tiempo la persona se cansa y la calidad baja. Con menos, no hay margen de repetición.",
+      },
+      {
+        type: "faq",
+        question: "¿Y si el entrevistado se bloquea ante la cámara?",
+        answer:
+          "Empiezo con una charla sin grabar de unos 10 minutos y con preguntas fáciles. Si hace falta, repito la pregunta con otro enfoque. La mayoría se suelta pronto si siente que es una conversación y no un examen.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo usar teleprompter en una entrevista?",
+        answer:
+          "Para un mensaje corto a cámara, sí. Para una entrevista, no: rompe la mirada y el ritmo. Lo más natural es una conversación guiada por temas, con el entrevistado mirando a quien pregunta.",
+      },
+      {
+        type: "paragraph",
+        text: "Si quieres grabar una entrevista en Madrid con alguien que sepa dirigirla y sacar piezas que vendan, escríbenos en /#contacto, cuéntanos el tema y quién la va a dar, y te proponemos estructura y formato antes de reservar.",
+      },
+    ],
+  },
+  {
+    slug: "preparar-lanzamiento-producto-grabar-estudio",
+    title: "Cómo preparar el lanzamiento de un producto para grabar en estudio",
+    description:
+      "Cómo preparar el lanzamiento de un producto para grabar en estudio: qué cerrar antes, qué piezas grabar y cómo dejar material para orgánico y anuncios.",
+    publishedAt: "2026-10-08",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["lanzamiento de producto", "grabación en estudio", "Madrid", "Meta Ads", "contenido de marca"],
+    keyword: "cómo preparar el lanzamiento de un producto para grabar en estudio",
+    intent: "informacional",
+    excerpt:
+      "Un lanzamiento se gana antes de entrar al estudio. Qué cerrar con antelación, qué piezas grabar y cómo salir con material para orgánico y anuncios.",
+    seoTitle: "Preparar el lanzamiento de un producto para grabar",
+    metaDescription:
+      "Cómo preparar el lanzamiento de un producto para grabar en estudio: qué cerrar antes, qué piezas grabar y cómo salir con material para redes y anuncios.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Un lanzamiento no se graba el día que lo anuncias. Se graba antes, con calma, y se reparte en piezas durante las semanas siguientes. Si llegas al estudio sin tener claro qué vendes, a quién y con qué promesa, pagas horas de cámara para decidir cosas que se resuelven en una llamada.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios vemos la diferencia desde el primer minuto. Quien llega con el mensaje cerrado graba 12 o 15 piezas útiles en una sesión. Quien llega improvisando se pasa media mañana buscando el ángulo. Esto es lo que conviene tener hecho antes de reservar.",
+      },
+      {
+        type: "image",
+        src: "/blog/preparar-lanzamiento-producto-grabar-estudio/hero.webp",
+        alt: "Dos latas de refresco rojas sobre fondo rosa, producto preparado para una sesión de lanzamiento",
+        width: 1920,
+        height: 1440,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué importa preparar la grabación" },
+      {
+        type: "paragraph",
+        text: "Un lanzamiento tiene fecha y la fecha no se mueve. Si el material llega tarde, la campaña sale con piezas a medias o se retrasa. Y cada día de retraso es un día sin ventas, con el presupuesto de anuncios esperando.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, un lanzamiento necesita más piezas que un día normal de contenido. Hacen falta vídeos para la web, para el orgánico de lanzamiento, para anuncios en Meta y TikTok y, si el producto lo pide, un VSL. Todo eso se puede grabar en una sola sesión si se planifica. Si no se planifica, se acaba repitiendo.",
+      },
+      { type: "heading", level: 2, text: "Cómo se prepara bien" },
+      { type: "heading", level: 3, text: "Cierra el mensaje antes de grabar" },
+      {
+        type: "paragraph",
+        text: "Necesitas una frase que diga qué problema resuelve el producto, para quién y por qué ahora. Si no cabe en dos líneas, aún no está listo. Escríbela, léela en voz alta y comprueba que alguien ajeno al producto la entiende a la primera.",
+      },
+      { type: "heading", level: 3, text: "Define las piezas y dónde van a vivir" },
+      {
+        type: "paragraph",
+        text: "Haz una lista con cada pieza y su destino: un vídeo principal para la web, 5 o 6 clips verticales para redes, 3 o 4 variantes de anuncio con ganchos distintos y, si procede, un VSL. Con esa lista el estudio puede dimensionar el tiempo. Una sesión de 3 horas da para mucho si cada plano tiene un uso previsto.",
+      },
+      { type: "heading", level: 3, text: "Lleva el producto y el material de apoyo" },
+      {
+        type: "paragraph",
+        text: "Si el producto es físico, lleva al menos dos unidades limpias, alguna en uso y su packaging. Si es digital o un servicio, prepara capturas, la demo ensayada y los datos que sí puedas enseñar. Y no olvides el guion: una página por pieza, con el gancho escrito, no un documento de diez.",
+      },
+      {
+        type: "image",
+        src: "/blog/preparar-lanzamiento-producto-grabar-estudio/mid.webp",
+        alt: "Equipo de rodaje reunido alrededor de una cámara durante una sesión de grabación",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Errores comunes antes de un lanzamiento" },
+      {
+        type: "list",
+        items: [
+          "Reservar el estudio sin tener el mensaje cerrado y decidirlo delante de cámara.",
+          "Grabar una sola pieza larga y no pensar en los cortes verticales que necesitan las redes.",
+          "Dejar los anuncios para después, cuando ya no hay presupuesto de producción ni tiempo.",
+          "Llegar con un solo portavoz y sin plan B si esa persona se bloquea o no puede asistir.",
+          "Grabar sin tener la oferta, el precio o la fecha definidos, y tener que regrabar por un cambio.",
+          "Pensar solo en estética y olvidar el gancho de los primeros 3 segundos.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Cómo lo planteamos en A0Studios" },
+      {
+        type: "paragraph",
+        text: "Antes de la sesión hacemos una llamada corta para cerrar mensaje, piezas y destino de cada una. En el ático grabamos con Sony A7 en vertical y horizontal, y dejamos preparadas las variantes de gancho que luego se testean en Meta y TikTok. La edición se hace en DaVinci Resolve.",
+      },
+      {
+        type: "paragraph",
+        text: "No vendemos solo el espacio. Dirijo la sesión con criterio de venta: qué prueba enseñar, qué frase abre un anuncio y qué clip funciona mejor en orgánico. Esa dirección es lo que convierte un día de grabación en una campaña de lanzamiento utilizable.",
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Con cuánta antelación debo reservar la sesión de un lanzamiento?",
+        answer:
+          "Lo ideal son 3 o 4 semanas antes de la fecha de lanzamiento. Así queda margen para preparar guiones, grabar, editar y, si quieres, testear anuncios antes de que arranque la campaña.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuántas piezas se pueden grabar en una sesión?",
+        answer:
+          "Con una sesión de 3 horas y el material bien preparado, entre 12 y 15 piezas entre vídeos principales, clips para redes y variantes de anuncio. Depende de la complejidad del producto y de cuántas personas salgan en cámara.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta tener el producto terminado para grabar?",
+        answer:
+          "Para un producto físico, sí: conviene grabarlo con el acabado final. Para un producto digital o un servicio, basta con tener la oferta y la demo cerradas. Lo que no puede cambiar tras grabar es el mensaje, el precio y la fecha.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar los anuncios en la misma sesión que el contenido orgánico?",
+        answer:
+          "Sí, y es lo más eficiente. Se graban los mismos mensajes con enfoques distintos: más directo y con oferta para pago, más cercano para orgánico. Así tienes variantes para testear sin volver a reservar.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes un lanzamiento en el calendario y quieres grabarlo en Madrid con alguien que dirija la sesión pensando en vender, escríbenos en /#contacto, cuéntanos producto y fecha, y te proponemos piezas y plan antes de reservar.",
+      },
+    ],
+  },
+  {
+    slug: "preguntas-estudio-grabacion-antes-de-reservar",
+    title: "Qué preguntar a un estudio de grabación en Madrid antes de reservar",
+    description:
+      "Qué preguntar a un estudio de grabación antes de reservar sesión en Madrid: equipo, tiempos, dirección, entregables y condiciones que conviene aclarar.",
+    publishedAt: "2026-10-09",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["estudio de grabación", "reservar sesión", "Madrid", "dirección de contenido", "producción de vídeo"],
+    keyword: "qué preguntar a un estudio de grabación antes de reservar sesión",
+    intent: "informacional",
+    excerpt:
+      "Antes de pagar una sesión conviene hacer ocho preguntas al estudio. Qué incluye el precio, quién dirige, qué recibes al final y qué se cobra aparte.",
+    seoTitle: "Qué preguntar a un estudio de grabación antes de reservar",
+    metaDescription:
+      "Qué preguntar a un estudio de grabación antes de reservar sesión en Madrid: equipo, dirección, tiempos, entregables y extras que conviene aclarar.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Casi todos los estudios enseñan fotos bonitas y un precio por hora. Pocos te dicen qué pasa entre el momento en que pagas y el momento en que tienes vídeos publicables. Ahí es donde se pierde el dinero: en lo que nadie preguntó antes de reservar.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios nos hacen siempre las mismas preguntas, y las buenas llegan tarde, a mitad de la sesión. Esta es la lista que yo haría antes de firmar nada con cualquier estudio de grabación en Madrid, incluido el nuestro.",
+      },
+      {
+        type: "image",
+        src: "/blog/preguntas-estudio-grabacion-antes-de-reservar/hero.webp",
+        alt: "Sistema de cámara de cine Sony FS7 montado en un set de rodaje",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué importa preguntar antes de reservar" },
+      {
+        type: "paragraph",
+        text: "Dos estudios con el mismo precio por hora pueden dar resultados opuestos. Uno te entrega un espacio y una cámara encendida. Otro te dirige, te dice qué grabar y te devuelve material listo para publicar o para meter en un anuncio.",
+      },
+      {
+        type: "paragraph",
+        text: "El precio por hora es solo una parte. Lo que cuenta es el coste por pieza útil. Si en 3 horas sales con 3 vídeos que no sirven, has pagado más que alguien que sale con 12 que sí. Las preguntas correctas te permiten comparar eso antes de gastar.",
+      },
+      { type: "heading", level: 2, text: "Las preguntas que sí conviene hacer" },
+      { type: "heading", level: 3, text: "Quién dirige la sesión y con qué criterio" },
+      {
+        type: "paragraph",
+        text: "Pregunta si alguien te dirige o si solo te dan el espacio y un técnico. Pregunta también qué experiencia tiene esa persona con anuncios y contenido que vende. Un buen director sabe qué gancho abre un vídeo y qué plano sobra. Eso no se improvisa en el set.",
+      },
+      { type: "heading", level: 3, text: "Qué equipo incluye el precio" },
+      {
+        type: "paragraph",
+        text: "Cámara, objetivos, micrófonos, luz, teleprompter y fondos. Pide que te lo digan por escrito. Una configuración habitual para contenido de marca es una Sony A7 con dos micrófonos y luz de estudio. Si algo se cobra aparte, mejor saberlo hoy que en la factura.",
+      },
+      { type: "heading", level: 3, text: "Qué recibes al terminar y en cuánto tiempo" },
+      {
+        type: "paragraph",
+        text: "Hay tres escenarios: solo material en bruto, material con edición o producción completa con guion y dirección. Pregunta formato de entrega, resolución, versiones verticales y horizontales, y plazo. Y cuántas rondas de cambios entran en el precio, porque ahí suelen aparecer los extras.",
+      },
+      {
+        type: "image",
+        src: "/blog/preguntas-estudio-grabacion-antes-de-reservar/mid.webp",
+        alt: "Persona tomando notas con un portátil sobre un escritorio de trabajo",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Qué preguntar sobre condiciones y logística" },
+      {
+        type: "list",
+        items: [
+          "Cuánto dura realmente la sesión: si el montaje y el desmontaje cuentan dentro de las horas que pagas.",
+          "Qué pasa si hay que cancelar o mover la fecha, y con cuánta antelación sin coste.",
+          "Cuántas personas pueden entrar en el estudio y si hay límite de invitados o equipo.",
+          "Dónde está, cómo se llega y si hay camerino o zona para cambiarse y esperar.",
+          "Si puedes grabar anuncios, contenido orgánico y un VSL en la misma sesión, o si cada formato se reserva por separado.",
+          "Quién conserva los derechos del material grabado y si puedes usarlo en anuncios de pago.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Cómo lo resolvemos en A0Studios" },
+      {
+        type: "paragraph",
+        text: "Estamos en Ronda de Atocha 16, séptima planta, en Madrid centro. Antes de reservar hacemos una llamada corta para saber qué quieres vender y a quién. Con eso te decimos cuántas piezas caben en la sesión y qué servicio encaja: solo grabación, grabación más edición o producción completa.",
+      },
+      {
+        type: "paragraph",
+        text: "Dirijo yo la sesión con criterio de venta, porque trabajo con anuncios en Meta y TikTok y sé qué abre un vídeo que convierte. Editamos con DaVinci Resolve y entregamos en vertical y horizontal. Hemos trabajado con IFEMA, la Cámara de Comercio de Madrid y Cinesa, así que sabemos lo que es un plazo real.",
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuántas horas necesito reservar para una primera sesión?",
+        answer:
+          "Para una primera sesión, entre 2 y 3 horas suelen bastar si llegas con guion. Con ese tiempo se graban entre 8 y 12 piezas cortas. Si es un VSL o una pieza larga, conviene reservar más y ensayar antes.",
+      },
+      {
+        type: "faq",
+        question: "¿Debo ir con el guion hecho o me ayudan en el estudio?",
+        answer:
+          "Depende del servicio. En solo grabación llevas el guion tú. En producción completa lo trabajamos contigo antes de la sesión. Lo que no recomendamos es llegar sin nada: se pagan horas de cámara para decidir qué decir.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo usar lo grabado en anuncios de pago?",
+        answer:
+          "Debería poder, pero pregúntalo y que conste por escrito. Si hay música, locutores o personas externas, revisa también sus permisos. En nuestros proyectos el material es tuyo para usarlo en orgánico y en Meta o TikTok Ads.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué debo llevar el día de la sesión?",
+        answer:
+          "El guion o los temas, la ropa elegida con alguna alternativa, el producto si lo hay y una lista de las piezas con su destino. Si llevas todo eso, el tiempo en cámara rinde mucho más.",
+      },
+      {
+        type: "paragraph",
+        text: "Si estás comparando estudios en Madrid y quieres saber qué incluiría tu sesión con nosotros, escríbenos en /#contacto, cuéntanos qué quieres grabar y te respondemos con piezas, tiempos y precio antes de que reserves nada.",
+      },
+    ],
+  },
+  {
+    slug: "plan-contenido-trimestral-una-sola-sesion-grabacion",
+    title: "Plan de contenido trimestral con una sola sesión de grabación en Madrid",
+    description:
+      "Cómo montar un plan de contenido trimestral a partir de una sola sesión de grabación en estudio: qué grabar, cuántas piezas salen y cómo repartirlas en 12 semanas.",
+    publishedAt: "2026-10-12",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["plan de contenido", "sesión de grabación", "estudio Madrid", "contenido orgánico", "batch recording"],
+    keyword: "plan de contenido trimestral con una sola sesión de grabación",
+    intent: "informacional",
+    excerpt:
+      "Una sesión bien planificada da contenido para 12 semanas. Cómo decidir qué grabar, cuántas piezas esperar y cómo repartirlas entre orgánico y anuncios.",
+    seoTitle: "Plan de contenido trimestral con una sola sesión",
+    metaDescription:
+      "Plan de contenido trimestral con una sola sesión de grabación en Madrid: qué grabar, cuántas piezas salen y cómo repartirlas en 12 semanas.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Grabar cada semana es la forma más cara de tener contenido. Hay que montar luz, cámara y sonido cada vez, y la persona que sale en pantalla llega cansada y sin ganas de repetir lo mismo. Lo habitual es que el calendario se rompa a la tercera semana.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios hacemos otra cosa con muchos clientes: una sola sesión larga al trimestre, con un plan de 12 semanas ya escrito antes de encender la cámara. Dirijo yo la sesión con criterio de venta, porque trabajo con anuncios en Meta y TikTok y sé qué piezas merece la pena grabar dos veces.",
+      },
+      {
+        type: "image",
+        src: "/blog/plan-contenido-trimestral-una-sola-sesion-grabacion/hero.webp",
+        alt: "Planificador mensual abierto sobre un escritorio de madera",
+        width: 1920,
+        height: 1285,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué una sesión al trimestre funciona" },
+      {
+        type: "paragraph",
+        text: "El coste de una sesión no está en la grabación en sí, sino en el montaje, la preparación y el tiempo de quien graba. Si repartes eso entre 30 o 40 piezas, el coste por pieza baja mucho frente a grabar 3 vídeos cada semana.",
+      },
+      {
+        type: "paragraph",
+        text: "Además ganas coherencia. Misma ropa, misma luz y mismo set dan una marca reconocible. Y puedes decidir con calma qué mensajes van en orgánico, cuáles se prueban como anuncio y cuáles se guardan para un lanzamiento.",
+      },
+      {
+        type: "paragraph",
+        text: "El riesgo es grabar cosas que caducan. Precios, promociones y fechas no entran en un plan trimestral. Lo que sí entra es contenido que no pierde vigencia: explicaciones, objeciones, procesos, opiniones y preguntas de clientes.",
+      },
+      { type: "heading", level: 2, text: "Cómo se monta un plan trimestral bien hecho" },
+      { type: "heading", level: 3, text: "Empieza por las 12 semanas, no por el guion" },
+      {
+        type: "paragraph",
+        text: "Antes de escribir una sola frase, define qué quieres que pase en cada mes. Primer mes: que te conozcan. Segundo: que entiendan qué haces distinto. Tercero: que reserven. Con esa estructura decides cuántas piezas necesitas de cada tipo, normalmente 3 o 4 por semana en orgánico.",
+      },
+      { type: "heading", level: 3, text: "Agrupa los temas por bloques de grabación" },
+      {
+        type: "paragraph",
+        text: "Dentro de la sesión se graba por bloques, no por orden de publicación. Un bloque de piezas a cámara hablando, otro con producto o servicio en acción, otro de entrevista corta. Cada bloque comparte plano, luz y energía, y así se evitan cambios de set que comen una hora.",
+      },
+      { type: "heading", level: 3, text: "Graba más de lo que vas a publicar" },
+      {
+        type: "paragraph",
+        text: "Una sesión de 4 horas con 2 micrófonos y una Sony A7 da entre 30 y 40 clips útiles si el guion está listo. Reserva un 20% para versiones alternativas del arranque de los vídeos. Un buen gancho decide más que el resto de la pieza, y probar 3 aperturas distintas en anuncios sale casi gratis una vez grabadas.",
+      },
+      {
+        type: "image",
+        src: "/blog/plan-contenido-trimestral-una-sola-sesion-grabacion/mid.webp",
+        alt: "Cámara montada en un set de estudio con fondo blanco",
+        width: 1920,
+        height: 1282,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al planificar un trimestre" },
+      {
+        type: "list",
+        items: [
+          "Llegar sin guion y decidir sobre la marcha: se gastan las horas más caras del estudio en pensar.",
+          "Grabar todo en el mismo tono: hacen falta piezas serias, ligeras y directas para que la cuenta no se vuelva monótona.",
+          "Meter contenido con fecha de caducidad: ofertas, eventos y precios se quedan viejos a las dos semanas.",
+          "No separar lo orgánico de lo que va a anuncio: un vídeo de pago necesita gancho, oferta y llamada a la acción, y uno orgánico no.",
+          "Olvidar la edición: 40 clips sin editar no son un plan, son una carpeta. Cuenta el tiempo de montaje desde el principio.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Cómo lo hacemos en A0Studios" },
+      {
+        type: "paragraph",
+        text: "Estamos en Ronda de Atocha 16, séptima planta, en Madrid centro. Antes de reservar hacemos una llamada para ordenar el trimestre: qué vendes, qué objeciones aparecen siempre y qué piezas funcionan mejor en tu caso. De ahí sale la lista de clips y el orden de grabación.",
+      },
+      {
+        type: "paragraph",
+        text: "Según el servicio, grabamos nosotros y entregas tú el material (Solo Grabación), editamos con DaVinci Resolve y CapCut (Grabación + Edición) o nos encargamos de guion, dirección y calendario (Producción Completa). Hemos trabajado con IFEMA, la Cámara de Comercio de Madrid y Cinesa, y el método es el mismo con una marca personal que con un equipo.",
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para cubrir un trimestre?",
+        answer:
+          "Entre 3 y 5 horas, según cuántas piezas necesites y cuánta gente graba. Con 2 personas y guion cerrado, 4 horas suelen dar de 30 a 40 clips. Más de 5 horas seguidas cansa y se nota en cámara.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuántas piezas necesito para 12 semanas?",
+        answer:
+          "Si publicas 3 veces por semana, necesitas unas 36 piezas, más algunas de reserva. Con piezas cortas de 30 a 60 segundos es perfectamente posible grabarlas en una mañana si todo está preparado.",
+      },
+      {
+        type: "faq",
+        question: "¿Se puede usar el mismo material para anuncios?",
+        answer:
+          "Sí, y conviene planearlo desde el principio. Se graban varias aperturas por cada mensaje y se prueban en Meta o TikTok Ads. Lo que gana en pago se refuerza con más piezas en el siguiente trimestre.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué pasa si cambia algo a mitad del trimestre?",
+        answer:
+          "Para eso se deja un hueco de reserva. Una sesión corta de una hora, mes y medio después, cubre novedades sin repetir todo el montaje. El contenido que no caduca se mantiene tal cual.",
+      },
+      {
+        type: "paragraph",
+        text: "Si quieres tener tres meses de contenido resueltos con una sola mañana de grabación en Madrid, escríbenos en /#contacto, cuéntanos qué vendes y te proponemos piezas, calendario y precio antes de reservar nada.",
+      },
+    ],
+  },
+  {
+    slug: "contenido-todo-el-ano-un-solo-evento-corporativo",
+    title: "Cómo sacar contenido para todo el año de un solo evento corporativo",
+    description:
+      "Cómo convertir un solo evento corporativo en contenido para todo el año: qué grabar durante y después, cuántas piezas salen y cómo repartirlas entre orgánico y anuncios.",
+    publishedAt: "2026-10-13",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["evento corporativo", "contenido para empresas", "estudio Madrid", "repurposing", "contenido orgánico"],
+    keyword: "cómo sacar contenido para todo el año de un solo evento corporativo",
+    intent: "informacional",
+    excerpt:
+      "Un evento corporativo dura un día, pero el contenido puede durar doce meses si lo planificas antes. Qué grabar, qué sesión añadir después y cómo repartir las piezas.",
+    seoTitle: "Contenido para todo el año de un solo evento corporativo",
+    metaDescription:
+      "Cómo sacar contenido para todo el año de un solo evento corporativo: qué grabar, qué sesión añadir en estudio y cómo repartir las piezas en 12 meses.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Una empresa monta un evento, invita a clientes, trae ponentes y lo celebra un jueves. El viernes ya nadie habla de él. Se publica un aftermovie, un par de fotos en LinkedIn y se archiva todo. Eso es desperdiciar el trabajo más caro del año.",
+      },
+      {
+        type: "paragraph",
+        text: "Un evento es una fábrica de materia prima: gente con ideas, testimonios espontáneos y un decorado que ya está pagado. En A0Studios lo tratamos así. Yo planifico antes qué piezas necesita la marca durante doce meses, y el evento y una sesión posterior en estudio las producen.",
+      },
+      {
+        type: "image",
+        src: "/blog/contenido-todo-el-ano-un-solo-evento-corporativo/hero.webp",
+        alt: "Público sentado en sillas durante un evento corporativo",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué un evento da más contenido del que parece" },
+      {
+        type: "paragraph",
+        text: "En una jornada de 6 horas con 5 ponentes hay 5 charlas, decenas de conversaciones de pasillo y unas 10 personas con una opinión útil sobre tu sector. Si solo grabas la sala en plano general, te quedas con una cinta larga que nadie va a ver entera.",
+      },
+      {
+        type: "paragraph",
+        text: "El problema es que el evento no está pensado para cámara. Hay ruido, la luz cambia y los ponentes hablan para la sala, no para un móvil. Por eso el evento aporta la autenticidad y el estudio aporta la calidad. Las dos cosas juntas dan un año de contenido.",
+      },
+      {
+        type: "paragraph",
+        text: "Hemos trabajado con IFEMA, la Cámara de Comercio de Madrid y Cinesa, y el patrón se repite: lo que más rinde después no es la pieza resumen, sino las respuestas cortas a una pregunta concreta.",
+      },
+      { type: "heading", level: 2, text: "Cómo se hace bien" },
+      { type: "heading", level: 3, text: "Antes: decide las 12 piezas que necesitas" },
+      {
+        type: "paragraph",
+        text: "Antes del evento, escribe qué quieres tener al terminar. Por ejemplo: 6 clips de opinión de ponentes, 4 testimonios de asistentes, 1 resumen de 90 segundos y 10 citas para publicaciones. Con esa lista se decide cuántas cámaras llevar y a quién hay que preparar.",
+      },
+      { type: "heading", level: 3, text: "Durante: una cámara para la sala y otra para entrevistas" },
+      {
+        type: "paragraph",
+        text: "Con 2 cámaras y 2 micrófonos de solapa se cubre casi todo. Una graba la charla desde un trípode fijo. La otra, con una Sony A7, se queda en una esquina tranquila para entrevistas de 2 minutos con ponentes y asistentes. El audio manda: un clip con buen sonido y plano discreto se usa, uno con eco no.",
+      },
+      { type: "heading", level: 3, text: "Después: una sesión de 3 horas en estudio" },
+      {
+        type: "paragraph",
+        text: "Una semana después, citamos a 3 o 4 ponentes en A0Studios, en Ronda de Atocha 16, para regrabar sus ideas centrales a cámara, con luz controlada y guion corto. Aquí es donde sale el contenido que va a anuncio: aperturas distintas, mensajes claros y llamada a la acción. Dirijo la sesión con criterio de venta, porque trabajo con Meta y TikTok Ads y sé qué se prueba.",
+      },
+      {
+        type: "image",
+        src: "/blog/contenido-todo-el-ano-un-solo-evento-corporativo/mid.webp",
+        alt: "Cámara de cine en un set de grabación",
+        width: 1920,
+        height: 1080,
+      },
+      { type: "heading", level: 2, text: "Cómo repartir las piezas durante el año" },
+      {
+        type: "paragraph",
+        text: "No publiques todo la semana siguiente. Reparte el material por trimestres: el primero para el resumen y los testimonios, que tienen más tirón mientras el evento está fresco. El segundo y el tercero para clips de opinión y respuestas a objeciones. El cuarto para anunciar la siguiente edición, con las mejores piezas ya probadas.",
+      },
+      {
+        type: "paragraph",
+        text: "Edita con DaVinci Resolve o CapCut según el formato y ordena todo en una carpeta por mes. Un calendario sencillo, con 2 o 3 piezas por semana, es suficiente para llenar doce meses.",
+      },
+      { type: "heading", level: 2, text: "Errores comunes" },
+      {
+        type: "list",
+        items: [
+          "Grabar el evento sin guion de piezas: se acumulan horas de cinta y no sale nada publicable.",
+          "Depender del sonido de sala: sin micrófonos de solapa, la mitad de las charlas no se pueden usar.",
+          "Publicar todo en una semana: el contenido se quema y el resto del año queda vacío.",
+          "No pedir permisos de imagen a ponentes y asistentes antes del evento.",
+          "Pensar solo en orgánico: las mejores respuestas también funcionan como anuncios si se regraban con buen arranque.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuántas piezas salen de un evento de un día?",
+        answer:
+          "Con una buena planificación, entre 30 y 50 piezas cortas, sumando el material del evento y una sesión posterior de 3 horas en estudio. Sin planificación, normalmente salen 3 o 4.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta una sesión en estudio después del evento?",
+        answer:
+          "No es obligatoria, pero mejora mucho el resultado. El evento da autenticidad, pero el estudio da luz, sonido y control para las piezas que van a anuncio o a la web.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuántas cámaras necesito en el evento?",
+        answer:
+          "Dos suelen bastar: una fija para la charla y otra móvil para entrevistas. Lo importante es el audio, con micrófonos de solapa en los ponentes y uno de apoyo en la sala.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuándo debo contar con el estudio?",
+        answer:
+          "Antes de cerrar el programa del evento. Así decidimos qué ponentes regrabar, qué preguntas hacerles y cómo encajar la sesión en las semanas siguientes.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes un evento en el calendario y quieres que te dure todo el año, escríbenos en /#contacto, cuéntanos fechas y formato y te proponemos piezas, cobertura y sesión en estudio en Madrid antes de reservar nada.",
+      },
+    ],
+  },
+  {
+    slug: "grabacion-contenido-founders-antes-primera-sesion",
+    title: "Grabación de contenido para founders: qué necesitas antes de la primera sesión",
+    description:
+      "Qué debe tener claro un founder antes de su primera sesión de grabación en estudio en Madrid: objetivo, guion, piezas, vestuario y cómo repartir orgánico y anuncios.",
+    publishedAt: "2026-10-14",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["founders", "primera sesión", "estudio Madrid", "contenido para startups", "marca personal", "anuncios"],
+    keyword: "grabación de contenido para founders: qué necesitas antes de la primera sesión",
+    intent: "informacional",
+    excerpt:
+      "La primera sesión de un founder en cámara se gana antes de llegar al estudio. Qué preparar, qué decidir y qué dejar en manos de quien dirige.",
+    seoTitle: "Grabación de contenido para founders: antes de la primera sesión",
+    metaDescription:
+      "Grabación de contenido para founders: qué preparar antes de la primera sesión en estudio en Madrid. Objetivo, guion, piezas y reparto entre orgánico y anuncios.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Un founder llega a su primera sesión con una idea vaga: quiere salir en cámara, quiere que se vea profesional y quiere vender. Tres deseos razonables, ninguno es un plan. El resultado habitual son tres horas de grabación con mucho material correcto y pocas piezas que alguien quiera ver o que un anuncio pueda usar.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, en Madrid centro, vemos el mismo patrón una y otra vez. La sesión sale bien o mal según lo que se decide la semana anterior, no según la cámara. Esto es lo que pido a un founder antes de reservar.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabacion-contenido-founders-antes-primera-sesion/hero.webp",
+        alt: "Cámara de vídeo grabando una sesión en un set de producción",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué la primera sesión decide las siguientes" },
+      {
+        type: "paragraph",
+        text: "La primera grabación marca el tono, el formato y el ritmo de publicación de los meses siguientes. Si sale una pieza buena de cada tipo, tienes una plantilla que repetir. Si sale material genérico, tendrás que rehacerlo todo con la segunda sesión.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, un founder tiene poco tiempo. Normalmente son 2 o 3 horas en las que hay que sacar el contenido de un mes. Con esa ventana no hay margen para improvisar el mensaje delante de la cámara.",
+      },
+      {
+        type: "paragraph",
+        text: "Yo dirijo las sesiones con criterio de venta, porque trabajo con Meta y TikTok Ads y sé qué piezas se prueban y cuáles se quedan en el disco duro. El espacio es un ático luminoso, pero lo que cambia el resultado es que alguien decida contigo qué se graba y para qué.",
+      },
+      { type: "heading", level: 2, text: "Cómo se prepara bien la primera sesión" },
+      { type: "heading", level: 3, text: "Un objetivo por sesión, no cinco" },
+      {
+        type: "paragraph",
+        text: "Elige uno: captar clientes, atraer inversores, contratar o construir marca personal. Cada objetivo pide un tono y una duración distintos. Un clip para anuncio dura 30 o 45 segundos y vende una cosa. Uno para LinkedIn puede llegar a 90 segundos y explicar una opinión.",
+      },
+      { type: "heading", level: 3, text: "Entre 8 y 12 ideas escritas en una frase" },
+      {
+        type: "paragraph",
+        text: "No hace falta un guion palabra por palabra. Hace falta una lista de 8 a 12 ideas, cada una en una frase: el problema que resuelves, un error típico de tu sector, una objeción de cliente, un dato tuyo real. En estudio las ordenamos, las convertimos en piezas y usamos teleprompter solo donde ayuda.",
+      },
+      { type: "heading", level: 3, text: "Vestuario y logística resueltos" },
+      {
+        type: "paragraph",
+        text: "Lleva 2 o 3 opciones de ropa lisa, sin rayas finas ni logos grandes, y cámbiate entre bloques para que las piezas no parezcan del mismo día. Llega 15 minutos antes, con el móvil en silencio y la agenda libre: una sesión interrumpida por llamadas pierde energía y se nota en pantalla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabacion-contenido-founders-antes-primera-sesion/mid.webp",
+        alt: "Portátil sobre una mesa de madera con material de planificación de contenido",
+        width: 1920,
+        height: 1416,
+      },
+      { type: "heading", level: 2, text: "Errores comunes en la primera sesión" },
+      {
+        type: "list",
+        items: [
+          "Llegar sin objetivo y querer \"un poco de todo\": acabas con piezas que no sirven para nada concreto.",
+          "Memorizar un guion largo: suena a leído y cuesta el doble de tomas.",
+          "No pensar en anuncios: grabar solo orgánico y descubrir después que no hay aperturas ni llamadas a la acción para probar.",
+          "Ir con una sola camisa y sin margen de tiempo para cambiar de plano.",
+          "Dejar el primer corte sin revisar con alguien que sepa qué funciona en Meta, TikTok y LinkedIn.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto dura la primera sesión de un founder?",
+        answer:
+          "Entre 2 y 3 horas suelen bastar para 10 a 15 piezas cortas. Más de 4 horas cansa a quien está delante de cámara y baja la calidad de las últimas tomas.",
+      },
+      {
+        type: "faq",
+        question: "¿Necesito guion completo antes de venir?",
+        answer:
+          "No. Con una lista de 8 a 12 ideas en una frase cada una es suficiente. Los guiones cortos los afinamos juntos en el estudio, según el objetivo de cada pieza.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar a la vez para orgánico y para anuncios?",
+        answer:
+          "Sí, y conviene. Se graban las mismas ideas con distintas aperturas y cierres. Las versiones orgánicas son más naturales y las de anuncio llevan una llamada a la acción clara.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta edición después de la sesión?",
+        answer:
+          "Para publicar, sí. Puedes contratar solo la grabación y editar con DaVinci Resolve o CapCut, o encargarnos grabación y edición. La opción de producción completa incluye además guion y estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a grabar por primera vez y quieres llegar con un plan, escríbenos en /#contacto, cuéntanos tu objetivo y tu sector y te proponemos piezas, duración y estructura antes de reservar sesión en A0Studios.",
+      },
+    ],
+  },
+  {
+    slug: "donde-grabar-contenido-meta-ads-madrid",
+    title: "Dónde grabar contenido para Meta Ads en Madrid",
+    description:
+      "Qué buscar en un estudio de Madrid para grabar contenido para Meta Ads: formatos, aperturas, luz, sonido y dirección con criterio de venta, no solo estético.",
+    publishedAt: "2026-10-15",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["Meta Ads", "estudio Madrid", "anuncios", "contenido para anuncios", "UGC", "dirección de contenido"],
+    keyword: "dónde grabar contenido para Meta Ads en Madrid",
+    intent: "informacional",
+    excerpt:
+      "Un anuncio de Meta se gana en los primeros 3 segundos y en lo que se graba para probar. Qué debe tener el sitio donde lo grabas y quién te dirige.",
+    seoTitle: "Dónde grabar contenido para Meta Ads en Madrid",
+    metaDescription:
+      "Dónde grabar contenido para Meta Ads en Madrid: qué pedir a un estudio, qué piezas grabar para probar y por qué importa más quién dirige que el espacio.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Cuando alguien busca dónde grabar contenido para Meta Ads en Madrid, suele pensar en alquilar un espacio con buena luz. Es lo de menos. Un anuncio no funciona porque se vea bonito, funciona porque retiene a la persona los primeros 3 segundos y le dice qué hacer después.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, en Madrid centro, grabamos para anuncios y para orgánico en el mismo ático. Lo que marca la diferencia no es el sitio: es que yo dirijo la sesión con criterio de venta, porque trabajo con Meta y TikTok Ads y sé qué piezas se prueban y cuáles se quedan en el disco duro.",
+      },
+      {
+        type: "image",
+        src: "/blog/donde-grabar-contenido-meta-ads-madrid/hero.webp",
+        alt: "Set de estudio con cámara y focos preparado para grabar anuncios",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué necesita el contenido para Meta Ads" },
+      {
+        type: "paragraph",
+        text: "Meta reparte la entrega entre las piezas que le das. Cuantas más variantes distintas pruebes, más rápido sabes cuál aguanta. Por eso una sesión para anuncios no busca un vídeo perfecto: busca 10 o 15 clips cortos con aperturas, ángulos y llamadas a la acción diferentes.",
+      },
+      {
+        type: "paragraph",
+        text: "Los formatos que más se repiten son el vertical 9:16 para Reels y Stories, el cuadrado o 4:5 para el feed y piezas de 15 a 45 segundos. Todo se graba pensando en que el sonido puede estar apagado, así que cada frase importante tiene que funcionar también en subtítulo.",
+      },
+      {
+        type: "paragraph",
+        text: "El audio sí importa mucho. Una voz limpia, con lavalier o micrófono de cañón fuera de plano, sube la credibilidad del anuncio más que cualquier cambio de cámara. En un estudio con tratamiento acústico te ahorras ese problema.",
+      },
+      { type: "heading", level: 2, text: "Cómo se elige bien dónde grabar" },
+      { type: "heading", level: 3, text: "Un sitio que permita varios fondos y looks en una mañana" },
+      {
+        type: "paragraph",
+        text: "Para testear anuncios necesitas cambiar de plano, de ropa y de fondo sin perder media hora cada vez. Pregunta cuántos sets reales hay y si puedes mover el equipo. Con 2 o 3 fondos distintos, las variantes dejan de parecer el mismo vídeo repetido.",
+      },
+      { type: "heading", level: 3, text: "Equipo que no te obligue a traer el tuyo" },
+      {
+        type: "paragraph",
+        text: "Una cámara tipo Sony A7, dos o tres focos con control de intensidad, un teleprompter y 2 micrófonos cubren casi cualquier anuncio de marca personal o producto. Si el estudio te alquila solo la sala vacía, acabas pagando aparte todo lo que hace que el vídeo parezca profesional.",
+      },
+      { type: "heading", level: 3, text: "Alguien que dirija, no solo que pulse el botón de grabar" },
+      {
+        type: "paragraph",
+        text: "Es la parte que casi nadie pregunta y la que más pesa. Un técnico te graba lo que le pides. Un director te dice que la apertura es lenta, que el beneficio llega tarde o que ese plano no se entiende sin sonido. Esa diferencia se nota en el coste por resultado, no en la estética.",
+      },
+      {
+        type: "image",
+        src: "/blog/donde-grabar-contenido-meta-ads-madrid/mid.webp",
+        alt: "Móvil sobre una mesa de madera con una app de redes sociales abierta",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al grabar para Meta Ads" },
+      {
+        type: "list",
+        items: [
+          "Grabar un único vídeo \"bien hecho\" en vez de varias aperturas para probar.",
+          "Dejar el mensaje principal para el segundo 10, cuando el scroll ya ha seguido.",
+          "Ignorar el sonido apagado: sin subtítulos ni gestos claros, la pieza no se entiende.",
+          "Alquilar solo el espacio y descubrir después que nadie sabe qué convierte.",
+          "Grabar en horizontal por costumbre y recortar luego a vertical con la cara cortada.",
+          "No grabar también versiones orgánicas de las mismas ideas, que salen casi gratis en la misma sesión.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuántos clips debo grabar para probar anuncios en Meta?",
+        answer:
+          "Entre 10 y 15 clips cortos suelen bastar para una primera tanda: 3 o 4 ideas con 3 aperturas distintas cada una. En 2 o 3 horas de sesión se cubre bien.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta un estudio o vale con el móvil?",
+        answer:
+          "El móvil vale para el contenido tipo UGC. Para anuncios de marca o de founder, el estudio aporta luz controlada, audio limpio y repetibilidad entre sesiones, algo que importa cuando quieres escalar lo que funciona.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo usar la misma sesión para orgánico y anuncios?",
+        answer:
+          "Sí, y es lo más eficiente. Se graban las mismas ideas con tono natural para orgánico y con apertura y llamada a la acción más marcadas para anuncio.",
+      },
+      {
+        type: "faq",
+        question: "¿Incluís edición y subtítulos?",
+        answer:
+          "Depende del servicio. Puedes contratar solo grabación, grabación más edición o producción completa con guion y estrategia. La edición se hace en DaVinci Resolve o CapCut, con subtítulos pensados para ver sin sonido.",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a invertir en Meta Ads y quieres grabar con alguien que sabe qué se prueba y qué se descarta, escríbenos en /#contacto con tu producto y tu objetivo, y te proponemos piezas, duración y estructura antes de reservar sesión en A0Studios.",
+      },
+    ],
+  },
+  {
+    slug: "cuanto-dura-sesion-grabacion-aprovecharla",
+    title: "Cuánto dura una sesión de grabación y cómo aprovecharla al máximo",
+    description:
+      "Cuánto dura una sesión de grabación en estudio, cómo repartir las horas y qué hacer para salir con contenido para semanas sin alargarla de más.",
+    publishedAt: "2026-10-16",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["sesión de grabación", "estudio Madrid", "planificación", "contenido de marca", "producción", "dirección de contenido"],
+    keyword: "cuánto dura una sesión de grabación",
+    intent: "informacional",
+    excerpt:
+      "Una sesión de 3 horas bien planificada da más que una de 6 sin guion. Cómo se reparte el tiempo y qué decide cuántas piezas salen.",
+    seoTitle: "Cuánto dura una sesión de grabación y cómo aprovecharla",
+    metaDescription:
+      "Cuánto dura una sesión de grabación en estudio: 2 a 4 horas según el objetivo. Cómo repartir el tiempo y salir con contenido para varias semanas.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "La pregunta que más nos hacen antes de reservar es cuánto dura una sesión. La respuesta corta: entre 2 y 4 horas para la mayoría de marcas personales y equipos pequeños. Pasar de ahí rara vez suma contenido y casi siempre resta energía delante de cámara.",
+      },
+      {
+        type: "paragraph",
+        text: "Lo que cambia el resultado no es el reloj, es lo que haces dentro. En A0Studios, en Ronda de Atocha 16, en Madrid centro, dirijo las sesiones con criterio de venta: sé qué piezas funcionan en orgánico y en anuncios, y eso decide cómo se reparten las horas.",
+      },
+      {
+        type: "image",
+        src: "/blog/cuanto-dura-sesion-grabacion-aprovecharla/hero.webp",
+        alt: "Set de estudio fotográfico con cámara y focos preparado para una sesión",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué la duración importa menos de lo que parece" },
+      {
+        type: "paragraph",
+        text: "Una sesión no es un alquiler por horas donde cada minuto se factura igual. Hay tiempo de montaje, de prueba de luz y sonido, de grabación real y de cambios de plano. La grabación efectiva suele ser un 60 % del total.",
+      },
+      {
+        type: "paragraph",
+        text: "Delante de cámara, la mayoría de personas rinde bien durante 90 minutos. Después baja el ritmo de habla, aparecen muletillas y las tomas se parecen cada vez menos a como hablas en realidad. Por eso preferimos dos bloques con pausa que un maratón.",
+      },
+      {
+        type: "paragraph",
+        text: "La referencia que usamos: una sesión de 3 horas da entre 12 y 15 clips verticales de 30 a 60 segundos, o 2 vídeos largos más 6 o 8 cortos. Si grabas también para anuncios, suma 3 aperturas distintas por idea.",
+      },
+      { type: "heading", level: 2, text: "Cómo se hace bien" },
+      { type: "heading", level: 3, text: "Primera media hora: montaje y pruebas" },
+      {
+        type: "paragraph",
+        text: "Luz, encuadre, micrófono y una toma de prueba. Con una Sony A7 y dos micrófonos queda fijado en 20 o 30 minutos. Si llegas con el vestuario decidido y el guion en el móvil, no se pierde ni uno más.",
+      },
+      { type: "heading", level: 3, text: "Dos bloques de grabación con una pausa" },
+      {
+        type: "paragraph",
+        text: "El primer bloque, de 60 a 75 minutos, es para lo que más importa: la pieza principal o los anuncios. Es cuando tienes más energía. Tras 10 minutos de descanso, el segundo bloque se dedica a clips orgánicos, respuestas a preguntas y material de apoyo.",
+      },
+      { type: "heading", level: 3, text: "Último cuarto de hora: repasar antes de irte" },
+      {
+        type: "paragraph",
+        text: "Antes de recoger se revisa lo grabado y se repiten las tomas dudosas. Es mucho más barato repetir una frase hoy que reservar otra sesión por un clip sin sonido. También se anota qué piezas irán primero a edición en DaVinci Resolve o CapCut.",
+      },
+      {
+        type: "image",
+        src: "/blog/cuanto-dura-sesion-grabacion-aprovecharla/mid.webp",
+        alt: "Grupo de personas alrededor de una cámara durante una grabación",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Cuándo tiene sentido una sesión más larga" },
+      {
+        type: "paragraph",
+        text: "Hay casos en los que 4 horas o una jornada completa compensan: varios portavoces, cambios de vestuario, grabación de producto o un plan trimestral de contenido en una sola visita. Pero entonces el calendario es otro: pausas fijas, orden de bloques y alguien que mire el reloj por ti.",
+      },
+      { type: "heading", level: 2, text: "Errores comunes que alargan la sesión" },
+      {
+        type: "list",
+        items: [
+          "Llegar sin saber qué se quiere grabar y decidirlo delante de cámara.",
+          "Memorizar el guion palabra por palabra en vez de dominar 3 ideas por pieza.",
+          "Grabar todo seguido sin pausa hasta que el rendimiento cae.",
+          "Cambiar de vestuario o de decorado sin necesidad por cada clip.",
+          "No separar lo prioritario (anuncios, pieza principal) de lo accesorio.",
+          "Salir sin revisar las tomas y descubrir un fallo de audio al editar.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión de grabación estándar?",
+        answer:
+          "Entre 2 y 4 horas incluyendo montaje. Con 3 horas se graban entre 12 y 15 clips cortos o unos pocos vídeos largos con piezas de apoyo.",
+      },
+      {
+        type: "faq",
+        question: "¿Merece la pena una sesión de media jornada?",
+        answer:
+          "Si tienes varios portavoces o un plan de contenido de tres meses, sí. Para una sola persona suele bastar con 3 horas bien planificadas y una pausa a mitad.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto contenido sale de una sesión de 3 horas?",
+        answer:
+          "Unos 12 a 15 clips verticales de 30 a 60 segundos, o 2 vídeos largos y 6 u 8 cortos. Depende del guion y de cuántas aperturas grabes por idea para probar en anuncios.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué debo llevar preparado para no perder tiempo?",
+        answer:
+          "Objetivo de cada pieza, 3 ideas clave por vídeo, vestuario decidido y una lista ordenada por prioridad. Con eso el montaje y las pruebas se quedan en media hora.",
+      },
+      {
+        type: "paragraph",
+        text: "Si no sabes cuántas horas necesitas, escríbenos en /#contacto con tu objetivo y las piezas que quieres sacar, y te proponemos duración, bloques y estructura antes de reservar sesión en A0Studios.",
+      },
+    ],
+  },
+  {
+    slug: "empezar-grabar-contenido-linkedin-primera-vez",
+    title: "Cómo empezar a grabar contenido para LinkedIn si nunca has salido en cámara",
+    description:
+      "Guía para grabar tus primeros vídeos de LinkedIn sin experiencia en cámara: qué contar, cómo prepararte y cuánto grabar en la primera sesión.",
+    publishedAt: "2026-10-19",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["contenido LinkedIn", "primera grabación", "estudio Madrid", "marca personal", "founders", "dirección de contenido"],
+    keyword: "grabar contenido para linkedin si nunca has salido en cámara",
+    intent: "informacional",
+    excerpt:
+      "No necesitas soltura delante de cámara para empezar en LinkedIn. Necesitas una idea por vídeo, un guion corto y alguien que te dirija la primera sesión.",
+    seoTitle: "Grabar contenido para LinkedIn si nunca has salido en cámara",
+    metaDescription:
+      "Cómo grabar contenido para LinkedIn si nunca has salido en cámara: qué contar, cómo preparar la primera sesión y cuántos vídeos salen en 2 horas.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "La mayoría de founders y directivos que quieren empezar en LinkedIn tienen el mismo bloqueo: no han salido nunca en cámara y creen que se nota desde el primer segundo. Se nota menos de lo que piensas. Lo que sí se nota es no tener nada claro que decir.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, en Madrid centro, dirijo muchas primeras sesiones. Yo hago anuncios y sé qué vídeos mueven a una audiencia a actuar, así que la sesión se prepara con criterio de venta y no solo con estética.",
+      },
+      {
+        type: "image",
+        src: "/blog/empezar-grabar-contenido-linkedin-primera-vez/hero.webp",
+        alt: "Profesional hablando a cámara frente a un portátil en una oficina",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué empezar en vídeo en LinkedIn compensa" },
+      {
+        type: "paragraph",
+        text: "En LinkedIn compites con texto y con imágenes de archivo. Un vídeo de 40 segundos en el que se te ve hablar de tu sector genera confianza antes de la primera reunión: quien te contacta ya sabe cómo piensas y cómo suenas.",
+      },
+      {
+        type: "paragraph",
+        text: "No hace falta publicar cinco veces por semana. Con dos o tres vídeos a la semana durante dos meses ya tienes una base. El primer mes sirve sobre todo para soltarte, no para medir resultados.",
+      },
+      {
+        type: "paragraph",
+        text: "Y el vídeo vale por partida doble. Lo que grabas para orgánico se puede probar después como anuncio dirigido a decisores, que es donde LinkedIn suele rendir mejor para B2B.",
+      },
+      { type: "heading", level: 2, text: "Cómo se hace bien la primera vez" },
+      { type: "heading", level: 3, text: "Una idea por vídeo, no un tema" },
+      {
+        type: "paragraph",
+        text: "\"Hablar de liderazgo\" no es una idea. \"Por qué dejé de hacer reuniones de lunes\" sí lo es. Escribe 6 ideas concretas antes de la sesión, cada una con un punto de vista tuyo, y cada una cabe en 30 a 60 segundos.",
+      },
+      { type: "heading", level: 3, text: "Guion de tres frases, no de tres folios" },
+      {
+        type: "paragraph",
+        text: "Si lees un texto entero, suenas a lectura. Anota un gancho, el desarrollo en dos puntos y un cierre. Con eso hablas con tus palabras y repites la toma si hace falta. Un teleprompter ayuda, pero solo si el texto está escrito para hablarse.",
+      },
+      { type: "heading", level: 3, text: "Graba más tomas de las que crees" },
+      {
+        type: "paragraph",
+        text: "La primera toma casi nunca es la buena, y es normal. A la tercera ya te has olvidado de la cámara. Por eso en una sesión de 2 horas grabamos entre 8 y 10 vídeos de los que se publican 6 o 7. Una Sony A7 con un micrófono de solapa es suficiente para LinkedIn.",
+      },
+      {
+        type: "image",
+        src: "/blog/empezar-grabar-contenido-linkedin-primera-vez/mid.webp",
+        alt: "Cámara grabando un vídeo sobre un trípode",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Errores comunes en la primera grabación" },
+      {
+        type: "list",
+        items: [
+          "Memorizar el discurso y quedarte en blanco a mitad de frase.",
+          "Empezar con presentaciones largas en lugar de ir directo a la idea.",
+          "Grabar con el móvil en la mano, sin trípode ni micrófono, y con audio de eco.",
+          "Elegir temas de empresa genéricos en vez de una opinión propia.",
+          "Quitar todos los silencios y pausas hasta que suenas a robot.",
+          "Esperar a sentirte cómodo para empezar: la soltura llega grabando, no antes.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Necesito experiencia previa para grabar vídeo en LinkedIn?",
+        answer:
+          "No. Necesitas una idea concreta por vídeo y algo de dirección en las primeras tomas. La mayoría de personas que nunca han grabado rinden bien a partir de la tercera toma.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto debe durar un vídeo de LinkedIn?",
+        answer:
+          "Para empezar, entre 30 y 60 segundos. Es lo bastante corto para sostener una idea y lo bastante largo para que se vea tu criterio. Los vídeos largos se pueden dejar para cuando ya te sientas cómodo.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuántos vídeos salen de una primera sesión?",
+        answer:
+          "En 2 horas se graban unos 8 o 10 vídeos cortos y se publican entre 6 y 7. Es contenido para dos o tres semanas con un ritmo de 2 o 3 publicaciones semanales.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabarlo con el móvil o es mejor un estudio?",
+        answer:
+          "Con el móvil se puede empezar si cuidas luz y audio. En estudio ganas control sobre ambos y alguien que te dirija, que es lo que más pesa cuando nunca has salido en cámara.",
+      },
+      {
+        type: "paragraph",
+        text: "Si quieres grabar tu primer lote de vídeos para LinkedIn con alguien que te dirija la sesión, escríbenos en /#contacto con tu sector y las ideas que tengas, y preparamos contigo la estructura antes de reservar en A0Studios.",
+      },
+    ],
+  },
+  {
+    slug: "calcular-retorno-sesion-contenido-recurrente",
+    title: "Cómo calcular el retorno de una sesión de contenido recurrente",
+    description:
+      "Método para medir el retorno de una sesión de grabación mensual: coste por pieza, qué métricas mirar y cuándo una sesión recurrente sale a cuenta.",
+    publishedAt: "2026-10-20",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["retorno contenido", "sesión recurrente", "estudio Madrid", "contenido de marca", "métricas vídeo", "dirección de contenido"],
+    keyword: "retorno de una sesión de contenido recurrente",
+    intent: "informacional",
+    excerpt:
+      "Una sesión de grabación mensual se justifica con números, no con sensaciones. Así se calcula el coste por pieza y qué medir para saber si compensa.",
+    seoTitle: "Retorno de una sesión de contenido recurrente: cómo medirlo",
+    metaDescription:
+      "Retorno de una sesión de contenido recurrente: cómo calcular el coste por pieza, qué métricas mirar y cuándo una grabación mensual sale a cuenta.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Mucha gente contrata una sesión de grabación al mes y a los tres meses no sabe decir si le ha salido a cuenta. No es porque no funcione. Es porque nadie fijó antes qué número iba a mirar.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, en Madrid centro, dirijo sesiones recurrentes para marcas y founders. Yo hago anuncios y sé qué se puede medir y qué es ruido, así que la sesión se planifica con el cálculo de retorno desde el primer día.",
+      },
+      {
+        type: "image",
+        src: "/blog/calcular-retorno-sesion-contenido-recurrente/hero.webp",
+        alt: "Persona mirando un portátil con gráficos de resultados mientras trabaja",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué medir el retorno de una sesión recurrente" },
+      {
+        type: "paragraph",
+        text: "Una sesión suelta se puede juzgar por si te gustó el resultado. Una sesión recurrente es una inversión mensual, y una inversión mensual se revisa con números. Si no lo haces, el contenido acaba siendo la primera partida que se recorta cuando aprieta el presupuesto.",
+      },
+      {
+        type: "paragraph",
+        text: "Hay un matiz importante: el retorno de una sesión no se ve en la sesión, se ve en las piezas que salen de ella durante las semanas siguientes. Por eso se mide por periodos de 60 o 90 días, no por vídeo.",
+      },
+      {
+        type: "paragraph",
+        text: "Y conviene separar dos usos. Lo que publicas en orgánico construye confianza y demanda. Lo que pones en anuncios se mide por coste de captación. Una misma sesión puede alimentar los dos, pero se evalúan con métricas distintas.",
+      },
+      { type: "heading", level: 2, text: "Cómo se calcula bien" },
+      { type: "heading", level: 3, text: "Primero, el coste por pieza" },
+      {
+        type: "paragraph",
+        text: "Suma el coste total del mes: sesión, edición y tu tiempo de preparación. Divídelo entre las piezas publicadas. Si una sesión de 3 horas y su edición cuestan 1.200 euros y salen 15 clips, cada pieza te cuesta 80 euros. Si solo se publican 5, sube a 240. El rendimiento de la sesión se decide en cuántas piezas útiles saca, no en cuántas horas dura.",
+      },
+      { type: "heading", level: 3, text: "Después, un objetivo concreto por canal" },
+      {
+        type: "paragraph",
+        text: "Elige un único resultado por canal y por trimestre. En LinkedIn pueden ser reuniones pedidas por mensaje directo. En Instagram, solicitudes de presupuesto. En anuncios, coste por lead. Mirar visualizaciones sin más te dice poco: un vídeo con muchas vistas y cero consultas no ha dado retorno.",
+      },
+      { type: "heading", level: 3, text: "Por último, compara contra tu alternativa real" },
+      {
+        type: "paragraph",
+        text: "La pregunta útil no es si el contenido da dinero, sino cuánto te costaría conseguir lo mismo de otra forma. Si cada lead de anuncios te cuesta 25 euros y el contenido orgánico de la sesión te trae 20 consultas al mes, ya tienes una referencia de lo que vale. Anota también las consultas que mencionan un vídeo concreto: es el dato más fiable que tendrás.",
+      },
+      {
+        type: "image",
+        src: "/blog/calcular-retorno-sesion-contenido-recurrente/mid.webp",
+        alt: "Cámara sobre trípode preparada para una sesión de grabación en estudio",
+        width: 1920,
+        height: 1282,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al medir el retorno" },
+      {
+        type: "list",
+        items: [
+          "Evaluar la sesión a las dos semanas, cuando la mayoría de piezas aún no se han publicado.",
+          "Contar solo seguidores o vistas y no consultas, reuniones o ventas.",
+          "No etiquetar de dónde llega cada contacto: sin un campo de origen en el CRM no hay forma de atribuir.",
+          "Grabar sin plan y publicar solo 4 de 15 clips, con lo que el coste por pieza se dispara.",
+          "Cambiar de formato cada mes y no dejar tiempo a que ninguno se pueda comparar.",
+          "Olvidar el valor de reutilizar: un clip orgánico que funciona se puede probar como anuncio.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto tiempo hay que esperar para ver el retorno?",
+        answer:
+          "Entre 60 y 90 días. En el primer mes se publica, se aprende qué formatos tiran y se ajusta. A partir del segundo ya hay datos suficientes para comparar piezas y decidir qué repetir.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué métrica es mejor para medir una sesión de contenido?",
+        answer:
+          "La que esté más cerca de una venta: consultas recibidas, reuniones pedidas o coste por lead si usas anuncios. Las vistas y los likes sirven para comparar piezas entre sí, no para justificar la inversión.",
+      },
+      {
+        type: "faq",
+        question: "¿Una sesión mensual compensa más que una trimestral?",
+        answer:
+          "Depende del ritmo de publicación. Si publicas 3 veces por semana, una sesión mensual de 3 horas con 12 a 15 clips te da material justo. Con menos ritmo, una sesión trimestral más larga reduce el coste por pieza.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo medir el retorno si solo publico en orgánico?",
+        answer:
+          "Sí, aunque con menos precisión. Pregunta en cada primera llamada cómo te conocieron y apunta el vídeo que mencionan. Con tres meses de esas respuestas ya tienes una estimación razonable.",
+      },
+      {
+        type: "paragraph",
+        text: "Si quieres montar una sesión recurrente con un objetivo medible desde el principio, escríbenos en /#contacto con tu sector, tu ritmo de publicación y tu coste por lead actual, y lo calculamos contigo antes de reservar en A0Studios.",
+      },
+    ],
+  },
+  {
+    slug: "estudio-podcast-madrid-expats-founders",
+    title: "Estudio de podcast en Madrid para expats y founders: cómo grabar sin complicaciones",
+    description:
+      "Guía para grabar un podcast en Madrid siendo expat o founder internacional: qué incluye un estudio, cómo reservar, en qué idioma grabar y qué llevar.",
+    publishedAt: "2026-10-21",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["estudio de podcast", "Madrid", "expats", "founders", "podcast en inglés", "dirección de contenido"],
+    keyword: "estudio de podcast en madrid para expats y founders",
+    intent: "informacional",
+    excerpt:
+      "Si vives en Madrid sin hablar español a diario, o vienes de visita, grabar un podcast en estudio es más fácil de lo que parece. Qué incluye, cómo se reserva y qué llevar.",
+    seoTitle: "Estudio de podcast en Madrid para expats y founders",
+    metaDescription:
+      "Estudio de podcast en Madrid para expats y founders: qué incluye una sesión, en qué idioma grabar y cómo reservar en el centro, cerca de Atocha.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Un estudio de podcast en Madrid para expats y founders internacionales se reserva igual que cualquier otro: eliges fecha, llegas con tus ideas y sales con el episodio grabado. Lo único que cambia es el idioma de la conversación y la logística, y ninguna de las dos cosas es un problema si se prepara antes.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, Madrid centro, grabamos podcasts en español, en inglés y mezclando ambos. Yo hago anuncios y sé qué formatos mueven a una audiencia a actuar, así que la sesión no se queda en grabar bien: se piensa para que el episodio también te traiga clientes.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-podcast-madrid-expats-founders/hero.webp",
+        alt: "Micrófono de condensador en un estudio de podcast",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué grabar el podcast en estudio y no en casa" },
+      {
+        type: "paragraph",
+        text: "Muchos founders que llegan a Madrid empiezan grabando en el salón o en un coworking. El problema es el audio: eco, ruido de la calle y una conexión que se corta. En un estudio con tratamiento acústico, dos micrófonos y una cámara por persona, el sonido es limpio desde el primer minuto y no hay que arreglarlo en edición.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, el estudio te da algo que en casa no tienes: alguien que dirige. Un podcast sale mejor cuando una persona externa vigila el ritmo, corta las muletillas y avisa cuando una respuesta se alarga. Eso pesa más si hablas en un idioma que no es el tuyo.",
+      },
+      {
+        type: "paragraph",
+        text: "Y si grabas con vídeo, el mismo episodio se convierte en 8 o 10 clips verticales para LinkedIn e Instagram. Para un founder que quiere darse a conocer en un mercado nuevo, ese es el verdadero valor de la sesión.",
+      },
+      { type: "heading", level: 2, text: "Cómo se organiza una sesión si no vives en Madrid o no hablas español a diario" },
+      { type: "heading", level: 3, text: "El idioma: grábalo en el que te sientas más cómodo" },
+      {
+        type: "paragraph",
+        text: "El idioma lo eliges tú. Si tu audiencia es internacional, graba en inglés. Si quieres llegar al mercado español, graba en español o alterna ambos y añade subtítulos. Lo importante es que el invitado y tú os entendáis sin esfuerzo, porque eso se oye en el resultado.",
+      },
+      { type: "heading", level: 3, text: "La reserva y el calendario" },
+      {
+        type: "paragraph",
+        text: "Una sesión de podcast de un episodio dura entre 2 y 3 horas contando montaje y pruebas. Si estás de paso, conviene cerrar fecha y hora antes de aterrizar y grabar varios episodios en la misma visita. Con 3 horas bien planificadas salen dos episodios de unos 30 minutos y piezas cortas para redes.",
+      },
+      { type: "heading", level: 3, text: "Llegar y encontrar el estudio" },
+      {
+        type: "paragraph",
+        text: "Estamos en Ronda de Atocha 16, en la 7ª planta, a pocos minutos a pie de la estación de Atocha. Si vienes de visita o con invitados que no conocen la ciudad, es un punto fácil de localizar desde el AVE, el Cercanías y el metro.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-podcast-madrid-expats-founders/mid.webp",
+        alt: "Dos personas grabando un podcast con micrófonos en un estudio",
+        width: 1920,
+        height: 1267,
+      },
+      { type: "heading", level: 2, text: "Qué llevar a la sesión" },
+      {
+        type: "list",
+        items: [
+          "Tres a cinco temas o preguntas por episodio, no un guion palabra por palabra.",
+          "Una lista con nombre y empresa de cada invitado, escrita tal como quieres que aparezca.",
+          "El idioma de cada episodio decidido de antemano.",
+          "Ropa lisa, sin rayas finas ni logotipos grandes, que se vea bien en cámara.",
+          "Un pendrive o disco para llevarte los archivos, aunque también se pueden enviar por enlace.",
+          "Agua y un plan realista: no más de dos episodios por sesión de 3 horas.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Puedo grabar mi podcast en inglés en un estudio de Madrid?",
+        answer:
+          "Sí. El estudio no condiciona el idioma. Puedes grabar en inglés, en español o mezclar ambos. Si quieres llegar a las dos audiencias, se puede subtitular el vídeo en el segundo idioma.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión de podcast en estudio?",
+        answer:
+          "Entre 2 y 3 horas incluyendo montaje y pruebas de sonido. En ese tiempo se graban uno o dos episodios de unos 30 minutos, según lo preparado que llegues.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar varios episodios en una sola visita?",
+        answer:
+          "Sí, y es lo más práctico si estás de paso por Madrid. Lo habitual es planificar dos episodios en 3 horas, con una pausa entre ambos, y sacar además clips cortos de cada uno.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué equipo se usa para grabar el podcast?",
+        answer:
+          "Normalmente dos micrófonos, una cámara por persona, como una Sony A7, y la edición posterior en DaVinci Resolve o CapCut. Con eso el episodio sale en audio y en vídeo.",
+      },
+      {
+        type: "paragraph",
+        text: "Si estás en Madrid o vas a estarlo y quieres grabar tu podcast con alguien que te dirija la sesión, escríbenos en /#contacto con el idioma, el número de invitados y las fechas que manejas, y te proponemos duración y estructura antes de reservar en A0Studios.",
+      },
+    ],
+  },
+  {
+    slug: "grabacion-contenido-abogados-despachos-madrid",
+    title: "Grabar contenido para abogados y despachos en Madrid",
+    description:
+      "Cómo grabar contenido en vídeo para abogados y despachos en Madrid: qué formatos funcionan, cómo explicar derecho sin jerga y cómo organizar la sesión.",
+    publishedAt: "2026-10-22",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["abogados", "despachos", "estudio Madrid", "marca personal", "vídeo profesional", "dirección de contenido"],
+    keyword: "grabar contenido para abogados en Madrid",
+    intent: "informacional",
+    excerpt:
+      "Un abogado no necesita parecer influencer, necesita que el cliente entienda su problema y confíe. Qué grabar, cómo y dónde en Madrid.",
+    seoTitle: "Grabar contenido para abogados y despachos en Madrid",
+    metaDescription:
+      "Grabar contenido para abogados y despachos en Madrid: formatos que generan confianza, cómo explicar sin jerga y cómo sacar 12 piezas en una sesión.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Grabar contenido para abogados y despachos en Madrid funciona cuando el vídeo responde una duda concreta de un cliente potencial en menos de 90 segundos. No hace falta bailar ni seguir tendencias: hace falta explicar un problema real con claridad y que se note que sabes de lo que hablas.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, en Madrid centro, grabamos con profesionales que venden confianza, no entretenimiento. Yo dirijo la sesión con criterio de venta: qué pregunta atrae a un cliente, qué frase le hace pedir cita y qué se queda fuera porque solo suena a manual.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabacion-contenido-abogados-despachos-madrid/hero.webp",
+        alt: "Abogado con traje trabajando en una mesa de despacho mientras una colega le asiste",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué el vídeo importa en servicios jurídicos" },
+      {
+        type: "paragraph",
+        text: "Contratar a un abogado es una decisión de confianza con poca información. Quien busca despacho compara webs, mira perfiles y, si ve a alguien explicar su caso con calma, parte con ventaja. Un vídeo de 60 segundos enseña tono, seguridad y cercanía, cosas que un texto no transmite.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, el vídeo corto se reutiliza: el mismo clip sirve para LinkedIn, para la ficha de Google, para la página de cada área de práctica y para anuncios dirigidos a quien tiene el problema ahora. Una sesión bien planteada resuelve meses de presencia.",
+      },
+      { type: "heading", level: 2, text: "Cómo grabar contenido jurídico sin que aburra" },
+      { type: "heading", level: 3, text: "Una pregunta, una respuesta, un siguiente paso" },
+      {
+        type: "paragraph",
+        text: "Cada pieza arranca con la duda tal como la formula un cliente (\"¿me pueden echar si estoy de baja?\"), responde en 3 o 4 frases y termina con qué hacer ahora. Si necesitas más de 90 segundos, son dos vídeos.",
+      },
+      { type: "heading", level: 3, text: "Lenguaje de calle, rigor de despacho" },
+      {
+        type: "paragraph",
+        text: "Se puede ser preciso sin recitar artículos. Cita la norma solo cuando aporta credibilidad y explica el resto como se lo contarías a alguien en una primera reunión. Un teleprompter con puntos clave, no con texto cerrado, evita el tono de lectura.",
+      },
+      { type: "heading", level: 3, text: "Imagen sobria, sonido limpio" },
+      {
+        type: "paragraph",
+        text: "Un fondo neutro o de despacho real, luz suave sobre la cara y un lavalier discreto bastan. Con una cámara tipo Sony A7, 2 micrófonos y 2 o 3 fondos distintos, un mismo abogado parece tener varios escenarios en una sola mañana.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabacion-contenido-abogados-despachos-madrid/mid.webp",
+        alt: "Varias personas reunidas alrededor de un portátil en una mesa de trabajo",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al grabar para un despacho" },
+      {
+        type: "list",
+        items: [
+          "Empezar con la presentación del despacho en vez de con el problema del cliente.",
+          "Recitar la ley sin traducirla a una consecuencia práctica.",
+          "Prometer resultados: la normativa de publicidad de la abogacía lo limita y resta credibilidad.",
+          "Grabar un único vídeo institucional largo en lugar de varias piezas cortas por área.",
+          "Descuidar el audio: una sala con eco hace que el abogado suene menos fiable.",
+          "No cerrar con una acción clara hacia /#contacto, la ficha de Google o una llamada.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuántos vídeos puede grabar un abogado en una sesión?",
+        answer:
+          "En 2 o 3 horas es realista salir con 10 o 12 clips de 45 a 90 segundos si el guion está preparado. Lo ideal es agrupar por área de práctica y preparar las preguntas antes.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta aparecer en cámara siendo socio del despacho?",
+        answer:
+          "No siempre, pero ayuda: el cliente contrata a personas. Puede grabar un socio por área, y el resto del equipo aparecer en piezas sobre cómo se trabaja un caso.",
+      },
+      {
+        type: "faq",
+        question: "¿Se puede grabar sin incumplir la deontología profesional?",
+        answer:
+          "Sí, si el contenido es informativo, no promete resultados ni muestra casos de clientes identificables. Conviene revisar cada guion con las normas de tu colegio de abogados.",
+      },
+      {
+        type: "faq",
+        question: "¿Incluís edición y subtítulos?",
+        answer:
+          "Puedes contratar solo grabación, grabación más edición o producción completa. Editamos en DaVinci Resolve o CapCut con subtítulos, porque buena parte de las visualizaciones se hacen sin sonido.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes un despacho en Madrid y quieres grabar piezas que expliquen bien tus áreas de práctica, escríbenos en /#contacto con tu especialidad y el tipo de cliente que buscas, y te proponemos formatos, duración y estructura antes de reservar sesión en A0Studios.",
+      },
+    ],
+  },
+  {
+    slug: "plato-grabacion-madrid-estudio-rodaje",
+    title: "Plató para grabación en Madrid: cómo elegir estudio de rodaje",
+    description:
+      "Plató para grabación en Madrid: qué diferencia hay entre plató, estudio de rodaje y ático-estudio, cuánto cuesta alquilarlo y qué mirar antes de reservar.",
+    publishedAt: "2026-10-23",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["plató", "estudio de rodaje", "estudio Madrid", "alquiler por horas", "grabar anuncios", "dirección de contenido"],
+    keyword: "plató para grabación en Madrid",
+    intent: "informacional",
+    excerpt:
+      "Plató, estudio de rodaje o ático con luz natural: qué necesitas de verdad para grabar anuncios, VSLs o contenido orgánico en Madrid y cómo no pagar de más.",
+    seoTitle: "Plató para grabación en Madrid: elegir estudio de rodaje",
+    metaDescription:
+      "Plató para grabación en Madrid: diferencias entre plató, estudio de rodaje y ático-estudio, qué mirar antes de reservar y cuándo compensa cada opción.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Un plató para grabación en Madrid es un espacio acondicionado con luz, sonido y fondos para rodar sin depender de una localización. Para anuncios, VSLs o contenido de marca casi nunca necesitas un plató de cine: te basta un estudio de rodaje pequeño, bien equipado y alquilado por horas.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, en Madrid centro, grabamos en un ático-estudio con luz natural y fondos controlados. Yo dirijo la sesión con criterio de venta: no solo hay que elegir dónde rodar, hay que saber qué plano hace que alguien compre.",
+      },
+      {
+        type: "image",
+        src: "/blog/plato-grabacion-madrid-estudio-rodaje/hero.webp",
+        alt: "Plató de rodaje con focos y equipo de iluminación preparado para grabar",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Plató, estudio de rodaje y ático-estudio: qué cambia" },
+      {
+        type: "paragraph",
+        text: "Un plató clásico es una nave grande, con fondo infinito, parrilla de focos y mucho equipo técnico. Sirve para series, publicidad de gran presupuesto o escenografías complejas. Se alquila por jornada completa y suele exigir contratar equipo aparte.",
+      },
+      {
+        type: "paragraph",
+        text: "Un estudio de rodaje pequeño, de 30 a 80 metros cuadrados, cubre el 90% de lo que piden marcas y creators: entrevistas, anuncios con uno o dos protagonistas, producto, podcast en vídeo. Un ático-estudio añade luz natural y una imagen más cuidada sin construir decorado.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tu pieza es una persona hablando a cámara, un producto sobre mesa o una conversación entre dos, pagar un plató grande es gastar en metros que no salen en plano.",
+      },
+      { type: "heading", level: 2, text: "Cómo elegir plató o estudio de rodaje en Madrid" },
+      { type: "heading", level: 3, text: "Define el plano antes de buscar sitio" },
+      {
+        type: "paragraph",
+        text: "Decide si grabas primer plano, plano medio o plano general con movimiento. Un primer plano con fondo neutro cabe en cualquier estudio. Un plano general con dos personas caminando pide profundidad real. El plano marca los metros, no al revés.",
+      },
+      { type: "heading", level: 3, text: "Revisa luz, sonido y fondos, no solo fotos" },
+      {
+        type: "paragraph",
+        text: "Pregunta qué luces incluye el alquiler, si hay eco, cuántos fondos puedes cambiar y si hay corriente suficiente. Con una Sony A7, 2 micrófonos y 3 fondos distintos sacas varios escenarios en una mañana. Un estudio bonito con mal sonido te cuesta más en edición.",
+      },
+      { type: "heading", level: 3, text: "Compara precio por hora con lo que de verdad incluye" },
+      {
+        type: "paragraph",
+        text: "Un alquiler barato que no incluye luz, operador ni acceso para cargar equipo acaba saliendo caro. Pregunta la duración mínima, si el montaje cuenta como hora y si puedes entrar antes. Para una sesión de 3 horas, cuenta también una hora de montaje.",
+      },
+      {
+        type: "image",
+        src: "/blog/plato-grabacion-madrid-estudio-rodaje/mid.webp",
+        alt: "Operador de cámara grabando a una persona en un estudio interior",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al alquilar un plató" },
+      {
+        type: "list",
+        items: [
+          "Reservar un plató enorme para grabar a una sola persona hablando a cámara.",
+          "Dar por hecho que luces, fondos y operador van incluidos sin preguntarlo.",
+          "No contar el tiempo de montaje y desmontaje dentro de las horas contratadas.",
+          "Elegir por la foto del espacio sin escuchar cómo suena la sala.",
+          "Llegar sin guion ni lista de planos y pagar horas improvisando.",
+          "Pensar solo en el espacio y olvidar quién dirige la sesión con criterio de venta.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto cuesta alquilar un plató de grabación en Madrid?",
+        answer:
+          "Depende del tamaño y de lo que incluya. Un estudio pequeño por horas es mucho más barato que un plató de nave por jornada completa. Pide siempre presupuesto con luces, operador y montaje desglosados.",
+      },
+      {
+        type: "faq",
+        question: "¿Necesito un plató con fondo infinito para grabar anuncios?",
+        answer:
+          "No siempre. Para anuncios con una o dos personas y producto, un fondo neutro o un decorado sencillo basta. El fondo infinito compensa si vas a grabar cuerpo entero o a hacer croma.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo alquilar solo el espacio, sin equipo?",
+        answer:
+          "Depende del estudio. En A0Studios puedes contratar solo grabación, grabación más edición o producción completa, según lo que ya tengas resuelto.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto tiempo necesito para una sesión?",
+        answer:
+          "Para 8 o 12 clips cortos suele bastar una sesión de 3 horas más una de montaje, si llegas con guion y lista de planos preparados.",
+      },
+      {
+        type: "paragraph",
+        text: "Si buscas un plató o estudio de rodaje en Madrid y quieres que alguien te dirija la sesión, escríbenos en /#contacto con el tipo de pieza, el número de personas y las fechas que manejas, y te proponemos formato, duración y plan de planos antes de reservar en A0Studios.",
+      },
+    ],
+  },
+  {
+    slug: "que-llevar-sesion-grabacion-atico-madrid",
+    title: "Qué llevar a una sesión de grabación en un ático de Madrid",
+    description:
+      "Qué llevar a una sesión de grabación en Madrid: ropa, guion, documentos, comida y equipo propio. Lista práctica para llegar listo a un ático-estudio.",
+    publishedAt: "2026-10-26",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["qué llevar a una grabación", "ático Madrid", "estudio Madrid", "sesión de grabación", "preparar sesión", "contenido de marca"],
+    keyword: "qué llevar a una sesión de grabación en Madrid",
+    intent: "informacional",
+    excerpt:
+      "Ropa, guion, DNI, agua y un plan B: lo que conviene llevar a una sesión de grabación en un ático de Madrid, incluidos los que vienen de fuera.",
+    seoTitle: "Qué llevar a una sesión de grabación en Madrid",
+    metaDescription:
+      "Qué llevar a una sesión de grabación en un ático de Madrid: ropa, guion, equipo propio y logística de llegada. Lista práctica para no perder horas.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Para una sesión de grabación en un ático de Madrid lleva tres cosas imprescindibles: el guion o la lista de ideas en el móvil, 2 o 3 cambios de ropa lisa y tu documento de identidad para entrar al edificio. Con eso y agua tienes resuelto el 90% de lo que hace perder tiempo.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, vemos cada semana cómo una sesión de 3 horas se come 40 minutos por no traer algo básico. Yo dirijo la sesión con criterio de venta, y parte de ese criterio es que llegues sin cabos sueltos, también si vienes de otro país.",
+      },
+      {
+        type: "image",
+        src: "/blog/que-llevar-sesion-grabacion-atico-madrid/hero.webp",
+        alt: "Operador con cámara en un rodaje, ejemplo de sesión de grabación en estudio",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Qué llevar a una sesión de grabación: lo esencial" },
+      {
+        type: "paragraph",
+        text: "Piensa en tres bloques: lo que sale en cámara, lo que dices y lo que te mantiene entero tres horas. Si resuelves esos tres, el resto lo pone el estudio: cámara, luz, micrófonos y fondos.",
+      },
+      {
+        type: "paragraph",
+        text: "Lo que no hace falta llevar: trípode, luces ni micrófono. En A0Studios grabamos con Sony A7, dos micrófonos y luz natural más focos. Solo trae equipo propio si es parte de la pieza, por ejemplo un producto o un portátil con la demo.",
+      },
+      {
+        type: "paragraph",
+        text: "Si es tu primera vez grabando, cuéntanoslo antes. Ajustamos el ritmo, empezamos por lo más fácil y dejamos para el final lo que más te cuesta decir.",
+      },
+      { type: "heading", level: 2, text: "Cómo prepararte antes de subir al ático" },
+      { type: "heading", level: 3, text: "Ropa y aspecto: qué funciona en cámara" },
+      {
+        type: "paragraph",
+        text: "Lleva 2 o 3 opciones de ropa lisa, en tonos medios. Evita rayas finas, cuadros pequeños y blanco puro, que saturan o generan moiré. Si grabas anuncios y orgánico el mismo día, cambiar de camisa te da la sensación de dos días distintos sin repetir sesión.",
+      },
+      { type: "heading", level: 3, text: "Guion, ideas y referencias" },
+      {
+        type: "paragraph",
+        text: "Trae el guion en el móvil o impreso, y una lista de 8 a 12 ideas en orden de prioridad. No hace falta memorizar: grabamos por bloques cortos de 30 a 60 segundos. Si tienes anuncios que te gustan, guarda 3 enlaces para que veamos qué quieres replicar.",
+      },
+      { type: "heading", level: 3, text: "Logística: llegada, acceso y descansos" },
+      {
+        type: "paragraph",
+        text: "Estamos en Ronda de Atocha 16, a pocos minutos andando de la estación de Atocha, y subimos a la 7ª planta. Llega 10 minutos antes, lleva documento de identidad y agua. Planifica un descanso de 10 minutos a mitad de sesión y una comida ligera antes: grabar con hambre se nota en la voz.",
+      },
+      {
+        type: "image",
+        src: "/blog/que-llevar-sesion-grabacion-atico-madrid/mid.webp",
+        alt: "Dos personas entrevistadas en un estudio con focos y micrófonos preparados",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al llegar a una grabación" },
+      {
+        type: "list",
+        items: [
+          "Llegar sin guion y decidir qué decir delante de la cámara con el reloj corriendo.",
+          "Traer ropa con estampados llamativos, logos grandes o blanco puro.",
+          "Venir con el tiempo justo y arrancar la sesión estresado.",
+          "Olvidar el producto, el portátil o los materiales que salen en plano.",
+          "No beber agua ni comer antes, y notar la garganta seca a la hora de sesión.",
+          "Pensar que el estudio lo resuelve todo y no pedir criterio sobre qué grabar para vender.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Tengo que llevar mi propia cámara o micrófono?",
+        answer:
+          "No. En A0Studios ponemos cámara, luz, micrófonos y fondos. Solo trae equipo si forma parte de lo que se graba, como un producto o una demo en pantalla.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué ropa es mejor para grabar en un estudio?",
+        answer:
+          "Colores lisos y tonos medios: azul, verde, gris, burdeos. Evita rayas finas, cuadros pequeños y blanco puro. Lleva 2 o 3 opciones para elegir en el momento.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo llevar acompañantes a la sesión?",
+        answer:
+          "Sí, pero conviene que sean pocos. Una o dos personas que ayuden con el guion o el producto suman. Un grupo grande suele distraer y alarga la sesión.",
+      },
+      {
+        type: "faq",
+        question: "¿Hay que llegar antes de la hora reservada?",
+        answer:
+          "Llega unos 10 minutos antes para subir al ático, dejar tus cosas y cambiarte. Así la hora de grabación se usa para grabar y no para el acceso.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes una sesión en Madrid y quieres saber qué traer según el tipo de pieza, escríbenos en /#contacto con el formato, el número de personas y la fecha, y te mandamos una lista concreta antes de tu sesión en A0Studios.",
+      },
+    ],
+  },
+  {
+    slug: "estudio-grabar-reels-tiktok-madrid",
+    title: "Estudio para grabar reels y TikToks en Madrid: cómo sacar 15 clips en una mañana",
+    description:
+      "Estudio para grabar reels y TikToks en Madrid: qué necesitas, cuánto dura una sesión y cómo sacar 15 clips verticales en 3 horas con dirección de ads.",
+    publishedAt: "2026-10-27",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["estudio reels Madrid", "grabar TikToks", "vídeo vertical", "contenido orgánico", "sesión de grabación", "estudio Madrid"],
+    keyword: "estudio para grabar reels y tiktoks en madrid",
+    intent: "informacional",
+    excerpt:
+      "Un estudio en Madrid para grabar reels y TikToks te da luz, sonido y dirección para sacar 12 a 15 clips verticales en una sola sesión de 3 horas.",
+    seoTitle: "Estudio para grabar reels y TikToks en Madrid",
+    metaDescription:
+      "Estudio para grabar reels y TikToks en Madrid: 12-15 clips verticales en 3 horas, con luz, sonido y dirección pensada para vender. Guía práctica.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Un estudio para grabar reels y TikToks en Madrid te sirve si quieres sacar de 12 a 15 clips verticales en una sola sesión de 3 horas, con luz y sonido controlados y alguien que te dirija. Grabar en casa funciona para un clip suelto, pero no para un mes de contenido.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, grabamos reels y TikToks con Sony A7 en vertical, dos micrófonos y luz natural más focos. Yo dirijo la sesión con criterio de venta: cada clip tiene un gancho en los primeros 2 segundos y un motivo para existir, no solo buena imagen.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-grabar-reels-tiktok-madrid/hero.webp",
+        alt: "Cámara de cine con monitor y softbox en un set de entrevista, ejemplo de estudio para grabar vídeo vertical",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué grabar reels y TikToks en un estudio y no en casa" },
+      {
+        type: "paragraph",
+        text: "El móvil en casa da imagen aceptable, pero el problema no es la cámara: es la luz cambiante, el eco de la habitación y el hecho de grabar solo, sin nadie que te diga que ese gancho no engancha. Un clip malo cuesta lo mismo de editar que uno bueno.",
+      },
+      {
+        type: "paragraph",
+        text: "En estudio resuelves en una mañana lo que en casa te llevaría tres semanas de intentos. Montamos un fondo, una luz y un sonido fijos, y grabamos por bloques de 30 a 60 segundos. Si cambias de camisa, parece otro día de rodaje.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, un reel orgánico y un TikTok comparten el 80% del material. Con una sola sesión puedes cubrir Instagram, TikTok y YouTube Shorts, y reservar 3 o 4 clips con formato de anuncio para Meta y TikTok Ads.",
+      },
+      { type: "heading", level: 2, text: "Cómo se hace una sesión de reels y TikToks bien" },
+      { type: "heading", level: 3, text: "Planifica 12 a 15 clips, no uno" },
+      {
+        type: "paragraph",
+        text: "Antes de subir al ático definimos una lista de 12 a 15 ideas en tres grupos: clips de autoridad (explicas algo), clips de prueba (muestras un resultado) y clips de venta (llamas a la acción). Con 3 horas, eso son unos 12 minutos por clip incluyendo repeticiones.",
+      },
+      { type: "heading", level: 3, text: "Graba en vertical desde el principio" },
+      {
+        type: "paragraph",
+        text: "La cámara va en 9:16 desde el primer plano, no se recorta después. Cuidamos los márgenes: los subtítulos y los botones de la app tapan la zona inferior y el lateral derecho, así que el rostro y el texto clave van en el centro.",
+      },
+      { type: "heading", level: 3, text: "El gancho, el ritmo y el cierre" },
+      {
+        type: "paragraph",
+        text: "Los primeros 2 segundos deciden si alguien sigue. Escribimos el gancho antes de grabar y lo grabamos 3 veces con tonos distintos. Después, frases cortas, un corte cada 3 a 5 segundos y un cierre con una sola acción: comentar, guardar o escribir.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-grabar-reels-tiktok-madrid/mid.webp",
+        alt: "Cámara con aro de luz, equipo habitual para grabar clips verticales para reels y TikToks",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al grabar reels y TikToks en estudio" },
+      {
+        type: "list",
+        items: [
+          "Grabar un solo clip por sesión y pagar la hora de estudio para algo que habría salido en casa.",
+          "Llegar sin guion y decidir el gancho delante de la cámara con el reloj corriendo.",
+          "Grabar en horizontal y recortar a vertical después, perdiendo calidad y encuadre.",
+          "Copiar el formato de otra cuenta sin adaptarlo a tu oferta ni a tu cliente.",
+          "No pensar en el anuncio: un clip orgánico que funciona se puede reutilizar como creatividad de pago.",
+          "Editar sin subtítulos, cuando buena parte de los reels se ven sin sonido.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuántos reels y TikToks puedo grabar en una sesión?",
+        answer:
+          "Entre 12 y 15 clips de 20 a 45 segundos en una sesión de 3 horas, si llegas con guion y lista de ideas. Sin preparar, la cifra baja a 6 o 8.",
+      },
+      {
+        type: "faq",
+        question: "¿Necesito llevar mi propia cámara o micrófono?",
+        answer:
+          "No. En A0Studios ponemos cámara, luz, micrófonos y fondos. Solo trae lo que salga en plano, como un producto, un portátil o la ropa.",
+      },
+      {
+        type: "faq",
+        question: "¿Valen los mismos clips para Instagram, TikTok y YouTube Shorts?",
+        answer:
+          "Sí, el formato vertical 9:16 es el mismo. Cambian el texto, los subtítulos y a veces la duración, pero la grabación se aprovecha entera.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo usar estos clips como anuncios en Meta o TikTok Ads?",
+        answer:
+          "Sí, y conviene planearlo antes. Grabamos 3 o 4 clips con estructura de anuncio (problema, prueba, llamada a la acción) para que también valgan como creatividad de pago.",
+      },
+      {
+        type: "paragraph",
+        text: "Si buscas un estudio para grabar reels y TikToks en Madrid y quieres que alguien te dirija la sesión con criterio de venta, escríbenos en /#contacto con tu sector, el número de clips que necesitas y tus fechas, y te proponemos formato y plan de planos antes de reservar en A0Studios.",
+      },
+    ],
+  },
+  {
+    slug: "grabar-contenido-asesorias-consultoras-madrid",
+    title: "Grabar contenido para asesorías y consultoras en Madrid: qué vídeos generan clientes",
+    description:
+      "Cómo grabar contenido para una asesoría, gestoría o consultora en Madrid: qué vídeos atraen clientes, cuánto dura la sesión y cómo sacar un mes de piezas.",
+    publishedAt: "2026-10-28",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["contenido para asesorías", "consultoras Madrid", "vídeo B2B", "servicios profesionales", "sesión de grabación", "estudio Madrid"],
+    keyword: "grabar contenido para asesorias y consultoras en madrid",
+    intent: "informacional",
+    excerpt:
+      "Una asesoría o consultora no vende un producto que se vea: vende confianza. Qué vídeos la construyen y cómo grabarlos en una sola sesión en Madrid.",
+    seoTitle: "Grabar contenido para asesorías y consultoras en Madrid",
+    metaDescription:
+      "Grabar contenido para asesorías y consultoras en Madrid: qué vídeos generan clientes, cuánto dura la sesión y cómo sacar un mes de piezas en una mañana.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Para grabar contenido para una asesoría o consultora en Madrid, lo que mejor funciona son vídeos cortos donde un socio explica un problema concreto del cliente: un plazo fiscal, un error habitual, una decisión. Con una sesión de 3 horas se sacan entre 10 y 12 piezas para un mes.",
+      },
+      {
+        type: "paragraph",
+        text: "Estos negocios venden confianza antes que servicio, y la confianza se construye viendo y oyendo a quien te va a llevar los números. En A0Studios, en Ronda de Atocha 16, dirigimos la sesión con criterio de venta: cada pieza tiene un objetivo, no solo una buena imagen.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-asesorias-consultoras-madrid/hero.webp",
+        alt: "Profesional hablando a cámara en una oficina, ejemplo de vídeo para una asesoría o consultora",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué el vídeo funciona para asesorías y consultoras" },
+      {
+        type: "paragraph",
+        text: "Quien busca una gestoría o una consultora compara a varias y casi todas dicen lo mismo en su web: experiencia, cercanía, profesionalidad. Un vídeo de dos minutos en el que explicas cómo afecta un cambio normativo a un autónomo demuestra criterio mejor que cualquier párrafo.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, el contenido B2B tiene ciclos largos. Un clip de LinkedIn visto hoy puede convertirse en una llamada dentro de tres meses, cuando el cliente por fin necesita cambiar de asesor. Por eso conviene grabar piezas que no caduquen en una semana.",
+      },
+      {
+        type: "paragraph",
+        text: "El tercer motivo es el equipo. Si el cliente conoce la cara del socio y de la persona que le atenderá cada mes, la primera reunión empieza con confianza. Es el mismo principio que explicamos en el vídeo para reuniones comerciales: llegar con el trabajo de convencer a medias hecho.",
+      },
+      { type: "heading", level: 2, text: "Cómo grabar contenido para una asesoría o consultora" },
+      { type: "heading", level: 3, text: "Piezas de autoridad: una pregunta, una respuesta" },
+      {
+        type: "paragraph",
+        text: "Es el formato base: 45 a 90 segundos respondiendo una duda real de cliente. Sacamos las preguntas de los correos y llamadas de la última semana, no de lo que parece interesante. Con 6 de estas piezas ya tienes material para un mes en LinkedIn e Instagram.",
+      },
+      { type: "heading", level: 3, text: "Piezas de equipo: quién eres y cómo trabajas" },
+      {
+        type: "paragraph",
+        text: "Un vídeo de 60 a 90 segundos por cada socio o responsable, contando a quién ayuda y cómo es el primer mes de trabajo. Se graba una vez, se usa en la web, en propuestas comerciales y en la firma de correo. Con 3 o 4 personas hablamos de una hora de rodaje.",
+      },
+      { type: "heading", level: 3, text: "Piezas de venta: para anuncios y para el comercial" },
+      {
+        type: "paragraph",
+        text: "Reservamos 2 o 3 clips con estructura de anuncio: problema, prueba y llamada a la acción, pensados para Meta Ads o LinkedIn Ads dirigidos a pymes y autónomos de Madrid. Es el punto donde la dirección de alguien que hace anuncios marca la diferencia respecto a alquilar solo un espacio.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-asesorias-consultoras-madrid/mid.webp",
+        alt: "Cámara Sony sobre trípode, equipo para grabar vídeos corporativos de servicios profesionales",
+        width: 1200,
+        height: 800,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al grabar contenido para servicios profesionales" },
+      {
+        type: "list",
+        items: [
+          "Hablar en jerga técnica que el cliente no usa: si no lo dirías en una llamada, no lo digas en cámara.",
+          "Grabar vídeos genéricos de consejos que cualquier competidor puede repetir sin cambiar una palabra.",
+          "Alargar cada pieza a 4 o 5 minutos, cuando la mayoría se pierde antes del minuto.",
+          "Incluir plazos o cifras normativas que caducan y dejan el vídeo desactualizado en semanas.",
+          "Poner siempre al mismo socio y no al equipo que atiende al cliente.",
+          "Grabar sin pensar en el anuncio y perder la oportunidad de reutilizar la mejor pieza como creatividad de pago.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuántos vídeos puede grabar una asesoría en una sesión?",
+        answer:
+          "Entre 10 y 12 piezas de 45 a 90 segundos en 3 horas, si llegas con las preguntas de clientes preparadas. Con vídeos de equipo incluidos, la sesión se alarga hasta 4 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Hay que preparar un guion para cada vídeo?",
+        answer:
+          "Conviene un guion corto de 4 o 5 ideas por pieza, no un texto leído. Lo preparamos contigo antes de la sesión y usamos teleprompter solo en las piezas de venta.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué hago con la información normativa que cambia?",
+        answer:
+          "Graba piezas sobre criterios y errores habituales, que duran años, y deja las cifras y plazos para publicaciones cortas. Así el vídeo no se queda obsoleto a los dos meses.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo usar estos vídeos para captar clientes con anuncios?",
+        answer:
+          "Sí. Grabamos 2 o 3 clips con estructura de anuncio para Meta o LinkedIn Ads, segmentados a pymes y autónomos de Madrid, además de las piezas orgánicas de la misma sesión.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes una asesoría o consultora en Madrid y quieres grabar un mes de contenido en una mañana, escríbenos en /#contacto con tu sector, el número de socios que saldrían en cámara y tus fechas, y en A0Studios te proponemos el plan de piezas antes de reservar.",
+      },
+    ],
+  },
+  {
+    slug: "estudio-contenido-madrid-cerca-atocha-como-llegar-reservar",
+    title: "Estudio de contenido en Madrid cerca de Atocha: cómo llegar y cómo reservar",
+    description:
+      "Estudio de contenido en Madrid cerca de Atocha: cómo llegar a Ronda de Atocha 16 (7ª planta), cómo reservar sesión y qué esperar el día de la grabación.",
+    publishedAt: "2026-10-29",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["estudio Madrid Atocha", "cómo llegar", "reservar estudio", "ático Madrid", "estudio de contenido", "sesión de grabación"],
+    keyword: "estudio de contenido en madrid cerca de atocha",
+    intent: "informacional",
+    excerpt:
+      "A0Studios está en Ronda de Atocha 16, 7ª planta, a pocos minutos andando de la estación de Atocha. Cómo llegar, cómo reservar y qué pasa desde que escribes hasta que grabas.",
+    seoTitle: "Estudio de contenido en Madrid cerca de Atocha",
+    metaDescription:
+      "Estudio de contenido en Madrid cerca de Atocha: cómo llegar a Ronda de Atocha 16, 7ª planta, y cómo reservar tu sesión de grabación paso a paso.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "A0Studios es un estudio de contenido en Madrid centro, en Ronda de Atocha 16, 7ª planta, a pocos minutos andando de la estación de Atocha. Se llega en tren, metro o a pie, y se reserva escribiendo desde /#contacto con el tipo de pieza, el número de personas y la fecha que buscas.",
+      },
+      {
+        type: "paragraph",
+        text: "Si vienes de fuera de Madrid o de otro país, tienes la ventaja de que Atocha concentra AVE, Cercanías y metro en un solo punto. Yo dirijo la sesión con criterio de venta, así que lo único que tienes que resolver antes es cómo llegar y qué quieres grabar.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-contenido-madrid-cerca-atocha-como-llegar-reservar/hero.webp",
+        alt: "Vista aérea del skyline de Madrid al atardecer, con edificios altos y el cielo anaranjado",
+        width: 1920,
+        height: 1275,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Dónde está el estudio y cómo llegar a Atocha" },
+      {
+        type: "paragraph",
+        text: "El estudio está en un ático de Ronda de Atocha 16, en la 7ª planta. Es una zona céntrica y bien conectada, a pocos minutos andando de la estación de Atocha, la misma por la que entran los trenes de alta velocidad y de Cercanías.",
+      },
+      {
+        type: "paragraph",
+        text: "Para equipos que vienen con producto, ropa o cajas, lo más cómodo es avisarnos antes: te decimos por dónde entrar y cuánto tiempo prever para subir el material. Si lo traes todo en una mochila, no hace falta nada especial.",
+      },
+      {
+        type: "paragraph",
+        text: "Llega 10 minutos antes de la hora reservada y lleva documento de identidad para el acceso al edificio. Así la hora de grabación se usa para grabar. En qué más pensar antes de subir lo explicamos en nuestra guía de qué llevar a una sesión de grabación en un ático de Madrid.",
+      },
+      { type: "heading", level: 2, text: "Cómo reservar una sesión de grabación en A0Studios" },
+      { type: "heading", level: 3, text: "Paso 1: cuéntanos qué quieres grabar" },
+      {
+        type: "paragraph",
+        text: "Escríbenos desde /#contacto con tres datos: qué vas a grabar (anuncios, VSL, reels, podcast, vídeo corporativo), cuántas personas salen en cámara y para cuándo lo necesitas. Con eso ya podemos decirte si encaja en una sesión de 2 a 4 horas.",
+      },
+      { type: "heading", level: 3, text: "Paso 2: elegimos servicio y fecha" },
+      {
+        type: "paragraph",
+        text: "Trabajamos con tres formatos: Solo Grabación, Grabación + Edición y Producción Completa. Si dudas entre ellos, lo vemos en una llamada corta y te recomiendo el que tiene sentido para tu objetivo, no el más grande.",
+      },
+      { type: "heading", level: 3, text: "Paso 3: preparamos la sesión contigo" },
+      {
+        type: "paragraph",
+        text: "Antes del día de grabación revisamos guion o lista de ideas, referencias y lo que sale en plano. Grabamos con Sony A7, dos micrófonos y luz natural más focos, y el estudio pone todo el equipo. Tú traes ropa lisa y las ganas de hablar.",
+      },
+      {
+        type: "image",
+        src: "/blog/estudio-contenido-madrid-cerca-atocha-como-llegar-reservar/mid.webp",
+        alt: "Cámara de cine en un set de grabación con focos, preparada para una sesión en estudio",
+        width: 1920,
+        height: 1080,
+      },
+      { type: "heading", level: 2, text: "Cuándo tiene sentido un estudio céntrico como este" },
+      {
+        type: "paragraph",
+        text: "Un estudio cerca de Atocha compensa si tu equipo viene de varias ciudades, si llegas en tren el mismo día de la grabación o si grabas con invitados que no conocen Madrid. Quita fricción de transporte y deja más energía para delante de la cámara.",
+      },
+      {
+        type: "paragraph",
+        text: "También encaja si buscas dónde grabar anuncios o contenido orgánico con alguien que dirija con criterio de venta, no solo con criterio estético. Ese es el diferencial de A0Studios: la dirección técnica de alguien que hace anuncios y sabe qué convierte.",
+      },
+      { type: "heading", level: 2, text: "Errores comunes al reservar un estudio en Madrid" },
+      {
+        type: "list",
+        items: [
+          "Reservar sin saber qué piezas vas a grabar y decidirlo con el reloj corriendo.",
+          "Calcular mal el tiempo de llegada desde la estación y empezar la sesión con prisa.",
+          "No avisar de que traes producto, cajas o más de 3 personas.",
+          "Reservar solo una hora cuando necesitas 3 para sacar un lote de clips.",
+          "Elegir solo por precio y no preguntar quién dirige la sesión.",
+          "Dejar la edición para después sin decidir si la hace el estudio.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Dónde está A0Studios exactamente?",
+        answer:
+          "En Ronda de Atocha 16, 7ª planta, en Madrid centro. Está a pocos minutos andando de la estación de Atocha. Te enviamos la indicación de acceso al confirmar la reserva.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión de grabación?",
+        answer:
+          "Entre 2 y 4 horas para la mayoría de marcas personales y equipos pequeños. En 3 horas se pueden sacar entre 12 y 15 clips verticales si llegas con las ideas preparadas.",
+      },
+      {
+        type: "faq",
+        question: "¿Cómo reservo una sesión?",
+        answer:
+          "Escribe desde /#contacto con el tipo de pieza, el número de personas y la fecha. Respondemos con una propuesta de servicio y horario antes de cerrar nada.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta llevar equipo propio?",
+        answer:
+          "No. El estudio pone cámara, luz, micrófonos y fondos. Solo trae material propio si forma parte de lo que se graba, como un producto o una demo.",
+      },
+      {
+        type: "paragraph",
+        text: "Si buscas un estudio de contenido cerca de Atocha, escríbenos en /#contacto con lo que quieres grabar, cuántas personas sois y cuándo vendríais, y en A0Studios te proponemos horario y formato antes de reservar.",
+      },
+    ],
+  },
+  {
+    slug: "grabar-contenido-inmobiliarias-madrid",
+    title: "Grabar contenido para inmobiliarias en Madrid: qué funciona y cómo hacerlo en estudio",
+    description:
+      "Cómo grabar contenido para inmobiliarias en Madrid: qué piezas funcionan, cómo grabar al equipo comercial en estudio y cómo sacar un mes de vídeo en una mañana.",
+    publishedAt: "2026-10-30",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["inmobiliarias Madrid", "vídeo inmobiliario", "estudio de grabación", "contenido para agentes", "captación de propietarios", "reels"],
+    keyword: "grabar contenido para inmobiliarias en madrid",
+    intent: "informacional",
+    excerpt:
+      "Las visitas a pisos se graban en el piso. El contenido que capta propietarios y genera confianza se graba en estudio. Qué piezas funcionan y cómo sacarlas en una sola mañana.",
+    seoTitle: "Grabar contenido para inmobiliarias en Madrid",
+    metaDescription:
+      "Grabar contenido para inmobiliarias en Madrid: qué piezas captan propietarios y cómo grabar a tu equipo comercial en estudio en una sola mañana.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Para grabar contenido para una inmobiliaria en Madrid, lo que mejor funciona es separar dos trabajos: las visitas a los inmuebles se graban en el propio piso, y el contenido de autoridad (consejos, mercado, preguntas de propietarios) se graba en un estudio con buen audio y dirección. Así se capta confianza, no solo visitas.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, grabamos a agentes y directores de oficina en sesiones de 2 a 3 horas. Yo dirijo con criterio de venta: cada pieza tiene que traer propietarios que quieran vender o compradores que pregunten, no solo likes.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-inmobiliarias-madrid/hero.webp",
+        alt: "Salón moderno con televisión, sillón y cuadro abstracto, ejemplo de interior de vivienda",
+        width: 1920,
+        height: 1016,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué el contenido de una inmobiliaria falla casi siempre" },
+      {
+        type: "paragraph",
+        text: "Casi todas las inmobiliarias publican lo mismo: el piso, el precio y un tour con música de fondo. Es útil para el comprador de ese piso, pero no construye marca ni capta propietarios. Un propietario que quiere vender decide a quién llamar mirando quién le da confianza antes de necesitarlo.",
+      },
+      {
+        type: "paragraph",
+        text: "Ahí entra la cara del agente. Un vídeo de 45 segundos explicando cómo se fija un precio de venta en un barrio concreto, o qué errores hacen que un piso tarde meses en venderse, trabaja la autoridad. Y eso se graba mejor sentado frente a una cámara con un micrófono decente que en un salón con eco.",
+      },
+      {
+        type: "paragraph",
+        text: "Hay otro problema práctico: grabar en pisos vacíos suena mal. Las estancias sin muebles rebotan el sonido y la luz cambia en media hora. En estudio controlas las dos cosas y puedes grabar 12 o 15 clips con la misma imagen, lo que da coherencia al perfil.",
+      },
+      { type: "heading", level: 2, text: "Cómo grabar contenido inmobiliario en estudio" },
+      { type: "heading", level: 3, text: "Piezas que captan propietarios" },
+      {
+        type: "paragraph",
+        text: "Piensa en las preguntas que te hacen en la primera llamada: cuánto vale mi piso, cuánto tarda en venderse, qué documentos necesito, si compensa reformar antes de vender. Cada una es un clip de 30 a 60 segundos. Con 8 preguntas tienes dos meses de publicaciones.",
+      },
+      { type: "heading", level: 3, text: "Piezas para compradores e inversores" },
+      {
+        type: "paragraph",
+        text: "Para el comprador sirven los vídeos de zona: qué se paga por metro cuadrado en cada barrio, qué hipoteca se puede pedir o qué cambia si compras para alquilar. Se pueden grabar de pie, con un fondo limpio, y rematar después con imágenes de los inmuebles como b-roll.",
+      },
+      { type: "heading", level: 3, text: "Piezas de equipo y de marca" },
+      {
+        type: "paragraph",
+        text: "Si tu inmobiliaria tiene 4 o 5 agentes, graba a cada uno en la misma sesión: presentación, especialidad y una historia de cómo trabaja. Es contenido de marca que luego usan en su LinkedIn, en la web y en los anuncios de captación. Una mañana de grabación cubre a todo el equipo.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-inmobiliarias-madrid/mid.webp",
+        alt: "Salón luminoso con un gran ventanal, referencia de un espacio de vivienda con luz natural",
+        width: 1920,
+        height: 1200,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al grabar para una inmobiliaria" },
+      {
+        type: "list",
+        items: [
+          "Grabar solo tours de pisos y nada que explique por qué eres la mejor opción para vender.",
+          "Hablar de ti en vez de responder la pregunta que se hace el propietario.",
+          "Grabar en el piso vacío, con eco y luz que cambia, en vez de en un sitio controlado.",
+          "Hacer vídeos de más de 90 segundos para un reel de captación.",
+          "No planificar el lote: grabar un vídeo suelto cada semana en lugar de un bloque de 12 o 15 piezas.",
+          "No decidir antes qué anuncio de captación saldrá del material y con qué llamada a la acción.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "El estudio compensa frente a grabar en oficina si tienes más de dos agentes que graban, si quieres usar el material en anuncios de pago o si el audio de tu oficina no es bueno. Para un reel rápido de un piso, grábalo tú con el móvil. Para lo demás, la dirección marca la diferencia.",
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Qué vídeos funcionan mejor para una inmobiliaria?",
+        answer:
+          "Los que responden preguntas concretas de propietarios y compradores, de 30 a 60 segundos: cuánto vale un piso, cuánto tarda en venderse o qué documentos hacen falta. Los tours sirven para vender ese inmueble, no para captar a otros propietarios.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para una inmobiliaria?",
+        answer:
+          "Entre 2 y 3 horas para un agente o un director de oficina. En ese tiempo se graban entre 12 y 15 clips verticales. Si grabáis a todo el equipo, se suele reservar una mañana completa.",
+      },
+      {
+        type: "faq",
+        question: "¿Se puede usar el material en anuncios de pago?",
+        answer:
+          "Sí. Al dirigir la sesión pensando en captación, grabamos varias aperturas distintas de cada pieza para probarlas en Meta Ads. Es una de las razones para grabar con dirección y no solo con cámara.",
+      },
+      {
+        type: "faq",
+        question: "¿Hay que grabar también en los inmuebles?",
+        answer:
+          "Depende del objetivo. Para el inmueble concreto sí, con luz natural y un buen micrófono de solapa. Para autoridad y captación de propietarios es mejor el estudio, con audio y fondo controlados.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes una inmobiliaria en Madrid y quieres grabar un bloque de contenido de captación en una mañana, escríbenos en /#contacto con el tamaño de tu equipo y las preguntas que más te hacen los propietarios, y en A0Studios te proponemos el plan de piezas antes de reservar.",
+      },
+    ],
+  },
+  {
+    slug: "grabar-contenido-startups-saas-madrid",
+    title: "Grabar contenido para startups y SaaS en Madrid: qué piezas grabar y cómo hacerlo en estudio",
+    description:
+      "Cómo grabar contenido para startups y SaaS en Madrid: demos, vídeos de founder y anuncios de captación, y cómo sacar un mes de piezas en una sola sesión.",
+    publishedAt: "2026-10-31",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["startups Madrid", "SaaS", "vídeo de producto", "estudio de grabación", "contenido para founders", "Meta Ads"],
+    keyword: "grabar contenido para startups y saas en madrid",
+    intent: "informacional",
+    excerpt:
+      "Una startup no necesita un vídeo corporativo de 3 minutos, necesita piezas cortas que expliquen el producto y generen demos. Qué grabar y cómo sacarlo en una sola mañana.",
+    seoTitle: "Grabar contenido para startups y SaaS en Madrid",
+    metaDescription:
+      "Grabar contenido para startups y SaaS en Madrid: qué piezas generan demos y cómo grabar a tu founder y tu equipo en estudio en una sola mañana.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Para grabar contenido para una startup o un SaaS en Madrid, lo que mejor funciona es un lote de 12 a 15 piezas verticales de 30 a 60 segundos, con el founder explicando el problema que resuelve el producto, más una demo grabada aparte. Todo se puede sacar en una sesión de 3 horas.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, grabamos a founders y equipos de producto. Yo dirijo con criterio de anunciante: cada pieza se piensa para orgánico y para anuncios de captación de demos en Meta Ads, no solo para que quede bonita.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-startups-saas-madrid/hero.webp",
+        alt: "Equipo de trabajo reunido alrededor de portátiles, ejemplo de equipo de una startup",
+        width: 1920,
+        height: 1281,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué el vídeo de una startup suele fallar" },
+      {
+        type: "paragraph",
+        text: "La mayoría de startups publican un vídeo de presentación largo que nadie ve entero, o capturas de pantalla con música. El comprador de software decide mirando quién hay detrás y si entiende el problema que resuelves en los primeros 5 segundos.",
+      },
+      {
+        type: "paragraph",
+        text: "El founder suele ser el mejor activo de contenido que tiene la empresa, y casi nunca sale en cámara. Un vídeo de 40 segundos contando por qué existe el producto genera más confianza que cualquier página de funcionalidades.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, el audio de una oficina de coworking o de un salón de casa suena mal. Para anuncios de pago esto penaliza: un audio con eco baja la retención en los primeros segundos. En estudio controlas sonido, luz y fondo, y grabas todo con la misma imagen.",
+      },
+      { type: "heading", level: 2, text: "Cómo grabar contenido para un SaaS en estudio" },
+      { type: "heading", level: 3, text: "Piezas del founder" },
+      {
+        type: "paragraph",
+        text: "Cuatro o cinco clips: el problema que resuelves, a quién va dirigido, qué hace distinto el producto y una historia de cliente contada sin nombres inventados. Cada uno de 30 a 45 segundos, con gancho en la primera frase. Son la base tanto del LinkedIn del founder como de los anuncios.",
+      },
+      { type: "heading", level: 3, text: "Piezas de producto y demo" },
+      {
+        type: "paragraph",
+        text: "La demo se graba en pantalla con DaVinci Resolve o con grabación de pantalla, y se combina con un clip de presentación en estudio. Lo que mejor funciona es un recorrido de 60 a 90 segundos que muestra un único caso de uso, no todo el producto.",
+      },
+      { type: "heading", level: 3, text: "Piezas para captación y empleo" },
+      {
+        type: "paragraph",
+        text: "Si estás contratando, graba también a 2 o 3 personas del equipo explicando cómo trabajan. Es contenido de employer branding que puedes reutilizar en la página de empleo y en LinkedIn. En la misma mañana te llevas contenido de producto, de marca y de reclutamiento.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-startups-saas-madrid/mid.webp",
+        alt: "Hombre presentando ante un grupo con una pantalla, ejemplo de presentación de producto",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al grabar para una startup" },
+      {
+        type: "list",
+        items: [
+          "Grabar un único vídeo largo de presentación en vez de un lote de piezas cortas.",
+          "Explicar las funcionalidades antes de explicar el problema del cliente.",
+          "Grabar la demo sin guion y con la pantalla llena de notificaciones.",
+          "Hacer que el founder lea un texto sin teleprompter ni ensayo previo.",
+          "No decidir antes qué anuncio de captación de demos saldrá del material.",
+          "Grabar en el coworking, con ruido de fondo y cambios de luz.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "El estudio compensa si hay un founder que graba con regularidad, si vas a usar las piezas en anuncios o si necesitas coherencia visual en todo el catálogo. Para una actualización rápida de producto, grábala tú con el móvil y un micrófono de solapa.",
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Qué vídeos necesita una startup de software?",
+        answer:
+          "Una presentación del founder de 30 a 45 segundos, una demo de 60 a 90 segundos de un único caso de uso y entre 8 y 10 clips que respondan preguntas frecuentes de clientes. Con eso se cubre orgánico y anuncios.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para una startup?",
+        answer:
+          "Entre 2 y 3 horas para el founder y un par de miembros del equipo. En ese tiempo se graban entre 12 y 15 clips verticales. La demo en pantalla se graba aparte y se monta después.",
+      },
+      {
+        type: "faq",
+        question: "¿Se puede usar el material en anuncios de pago?",
+        answer:
+          "Sí. Grabamos varias aperturas distintas de cada pieza para probarlas en Meta Ads con un objetivo claro, por ejemplo reservar una demo. Esa es la diferencia entre grabar con dirección y solo con cámara.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta guion?",
+        answer:
+          "Hace falta un esquema, no un guion palabra por palabra. Preparamos las preguntas y los ganchos antes de la sesión y el founder responde con sus palabras, que suena más natural y convierte mejor.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes una startup o un SaaS en Madrid y quieres grabar un mes de contenido en una mañana, escríbenos en /#contacto con tu producto y tu cliente ideal, y en A0Studios te proponemos el plan de piezas antes de reservar.",
+      },
+    ],
+  },
+  {
+    slug: "alquiler-estudio-grabacion-madrid-por-horas-visitantes",
+    title: "Alquiler de estudio de grabación en Madrid por horas: guía para visitantes",
+    description:
+      "Alquiler de estudio de grabación en Madrid por horas: precios de referencia, cuántas horas reservar y cómo aprovechar la sesión si estás de visita en la ciudad.",
+    publishedAt: "2026-11-01",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["alquiler estudio Madrid", "estudio por horas", "visitantes", "sesión de grabación", "estudio de contenido", "Atocha"],
+    keyword: "alquiler de estudio de grabación en madrid por horas",
+    intent: "informacional",
+    excerpt:
+      "Cuánto cuesta alquilar un estudio por horas en Madrid, cuántas horas reservar y cómo salir con material listo si solo estás unos días en la ciudad.",
+    seoTitle: "Alquiler de estudio de grabación en Madrid por horas",
+    metaDescription:
+      "Alquiler de estudio de grabación en Madrid por horas: precio de referencia, cuántas horas reservar y cómo aprovechar la sesión si estás de visita.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Alquilar un estudio de grabación en Madrid por horas cuesta, de media, entre 80 y 150 € la hora según el equipo y si incluye operador. En A0Studios, en Ronda de Atocha 16 (7ª planta), trabajamos con bloques de 2 a 4 horas, que es lo que necesita casi cualquier visitante para salir con material útil.",
+      },
+      {
+        type: "paragraph",
+        text: "Si vienes de fuera de Madrid, lo importante es no perder la visita: llegar con el plan cerrado, grabar con dirección y volver con clips listos para publicar. Yo dirijo la sesión con criterio de venta, así que no pagas solo el espacio, pagas que cada hora produzca piezas que sirvan para orgánico o para anuncios.",
+      },
+      {
+        type: "image",
+        src: "/blog/alquiler-estudio-grabacion-madrid-por-horas-visitantes/hero.webp",
+        alt: "Estudio de grabación con focos, cámara y mesa preparados para una sesión por horas",
+        width: 1920,
+        height: 1440,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Cómo funciona el alquiler por horas de un estudio en Madrid" },
+      {
+        type: "paragraph",
+        text: "El alquiler por horas es una reserva de bloque: eliges fecha y franja, y durante ese tiempo tienes el estudio, la luz, el sonido y el equipo montado. Lo habitual es un mínimo de 2 horas, porque entre montaje, pruebas de micrófono y ajuste de luz se van 20 o 30 minutos antes de grabar nada.",
+      },
+      {
+        type: "paragraph",
+        text: "Para un visitante, el bloque de 3 horas suele ser el punto dulce: da para 12 a 15 clips verticales, o para 2 o 3 piezas más largas con sus variantes. Si solo estás unos días en la ciudad, es mejor una sesión concentrada que dos mañanas sueltas.",
+      },
+      { type: "heading", level: 2, text: "Cómo sacar partido a cada hora" },
+      { type: "heading", level: 3, text: "Llega con el esquema cerrado" },
+      {
+        type: "paragraph",
+        text: "No hace falta un guion palabra por palabra. Hace falta saber qué quieres decir, a quién y con qué llamada a la acción. Si me mandas el esquema dos días antes, preparamos preguntas y aperturas y la primera hora ya es de grabación real.",
+      },
+      { type: "heading", level: 3, text: "Graba por lotes, no por piezas" },
+      {
+        type: "paragraph",
+        text: "Cambiar de plano o de ropa cuesta tiempo. Agrupamos todo lo que va en el mismo encuadre: primero todos los clips a cámara, luego las entrevistas, al final los planos de apoyo. Con una Sony A7 y dos micrófonos es un flujo muy rápido.",
+      },
+      { type: "heading", level: 3, text: "Piensa ya en la edición" },
+      {
+        type: "paragraph",
+        text: "Si vas a volar de vuelta, decide antes si te llevas el bruto o prefieres que lo montemos. Nuestro servicio Grabación + Edición se entrega en DaVinci Resolve y CapCut según el formato, y puedes recibirlo en remoto sin volver a Madrid.",
+      },
+      {
+        type: "image",
+        src: "/blog/alquiler-estudio-grabacion-madrid-por-horas-visitantes/mid.webp",
+        alt: "Persona grabando contenido con trípode y micrófono durante una sesión de estudio",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al alquilar un estudio por horas" },
+      {
+        type: "list",
+        items: [
+          "Reservar solo una hora y descubrir que el montaje se come un tercio del tiempo.",
+          "Llegar sin saber qué piezas necesitas ni dónde se van a publicar.",
+          "No confirmar si la tarifa incluye operador, luz y sonido o solo el espacio.",
+          "Planificar la sesión el mismo día del vuelo, sin margen para retrasos.",
+          "Grabar sin pensar en aperturas alternativas para probar en Meta Ads.",
+          "Olvidar llevar ropa de repuesto y evitar los patrones que dan moiré en cámara.",
+        ],
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Cuánto cuesta alquilar un estudio de grabación por horas en Madrid?",
+        answer: "Depende del equipo y de si incluye operador y dirección. Como referencia de mercado, entre 80 y 150 € la hora. En A0Studios presupuestamos por sesión según el servicio: Solo Grabación, Grabación + Edición o Producción Completa.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuántas horas necesito reservar?",
+        answer: "Entre 2 y 4 horas para la mayoría de casos. Con 3 horas se graban unos 12 a 15 clips verticales o 2 o 3 piezas largas. Menos de 2 horas casi nunca compensa por el tiempo de montaje.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo reservar si solo estoy unos días en Madrid?",
+        answer: "Sí. Escríbenos con tus fechas y te proponemos una franja. El estudio está junto a Atocha, así que es fácil llegar desde el AVE o el aeropuerto.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo recibir el vídeo editado fuera de España?",
+        answer: "Sí. Con Grabación + Edición entregamos el montaje por enlace descargable, con una ronda de cambios, para que no tengas que volver a Madrid.",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a estar en Madrid y quieres grabar en un estudio con dirección de alguien que hace anuncios y sabe vender, escríbenos en /#contacto con tus fechas y lo que necesitas, y en A0Studios te proponemos el bloque de horas adecuado.",
+      },
+    ],
+  },
+  {
+    slug: "grabar-contenido-ecommerce-marcas-dtc-madrid",
+    title: "Grabar contenido para ecommerce y marcas DTC en Madrid: anuncios y orgánico en una sesión de estudio",
+    description:
+      "Cómo grabar contenido para ecommerce y marcas DTC en Madrid: anuncios de producto, unboxing y vídeos de fundador, y cómo sacar un mes de piezas en una sesión.",
+    publishedAt: "2026-11-02",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["ecommerce Madrid", "marcas DTC", "anuncios de producto", "estudio de grabación", "Meta Ads", "contenido orgánico"],
+    keyword: "grabar contenido para ecommerce y marcas dtc en madrid",
+    intent: "informacional",
+    excerpt:
+      "Una tienda online vive de anuncios que convierten y de contenido que genera confianza. Qué grabar, cuántas piezas salen de una sesión y cómo plantearlo para Meta Ads y orgánico.",
+    seoTitle: "Grabar contenido para ecommerce y marcas DTC en Madrid",
+    metaDescription:
+      "Grabar contenido para ecommerce y marcas DTC en Madrid: qué piezas funcionan en anuncios y orgánico y cómo sacar un mes de vídeos en una sesión de estudio.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Para grabar contenido para un ecommerce o una marca DTC en Madrid, lo que mejor funciona es un lote de 15 a 20 piezas verticales de 15 a 45 segundos: producto en mano, unboxing, prueba de uso y el fundador explicando por qué existe la marca. Se graba en una sesión de 3 a 4 horas.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, grabamos producto y personas en el mismo día. Yo dirijo con criterio de anunciante: cada pieza se plantea con varias aperturas para probar en Meta Ads y TikTok Ads, y con una versión limpia para orgánico, no solo para que el producto se vea bonito.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-ecommerce-marcas-dtc-madrid/hero.webp",
+        alt: "Caja de cartón sobre una mesa blanca, ejemplo de producto de ecommerce preparado para grabar",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué el contenido de un ecommerce suele quedarse corto" },
+      {
+        type: "paragraph",
+        text: "Muchas tiendas online solo tienen fotos de catálogo y un vídeo de producto con música. Para anunciar eso sirve poco: el comprador necesita ver el producto en uso, oír a alguien real explicarlo y entender en los primeros 3 segundos por qué le interesa.",
+      },
+      {
+        type: "paragraph",
+        text: "El otro problema es el volumen. Una cuenta de anuncios necesita rotar creatividades cada pocas semanas porque se fatigan. Si grabas una sola pieza cada mes, no tienes nada que probar. Con una sesión por trimestre y buena planificación tienes material para rotar durante semanas.",
+      },
+      {
+        type: "paragraph",
+        text: "Y el sonido importa más de lo que parece. Un unboxing grabado en una cocina con eco suena barato. En estudio controlas luz, fondo y audio, y todas las piezas comparten la misma imagen de marca.",
+      },
+      { type: "heading", level: 2, text: "Cómo grabar contenido para un ecommerce en estudio" },
+      { type: "heading", level: 3, text: "Producto en mano y unboxing" },
+      {
+        type: "paragraph",
+        text: "Entre 6 y 8 clips cortos: el producto en la mano, abrir el paquete, el detalle del material, el tamaño comparado con algo cotidiano. Con una Sony A7 en trípode y un plano cenital para las manos tienes dos ángulos por pieza sin mover nada.",
+      },
+      { type: "heading", level: 3, text: "Prueba de uso y reseña a cámara" },
+      {
+        type: "paragraph",
+        text: "Una persona usa el producto y cuenta lo que le pasa, en sus palabras, sin leer. Grabamos 4 o 5 versiones con aperturas distintas: una pregunta, una objeción, un resultado. Son las que luego se prueban en anuncios para ver cuál retiene mejor.",
+      },
+      { type: "heading", level: 3, text: "El fundador y la historia de la marca" },
+      {
+        type: "paragraph",
+        text: "Un clip de 40 segundos del fundador contando por qué creó la marca genera confianza y funciona tanto en la ficha de producto como en anuncios de retargeting. Es la pieza que casi ninguna tienda graba y la que más diferencia.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-ecommerce-marcas-dtc-madrid/mid.webp",
+        alt: "Mujer con camiseta blanca sosteniendo un micrófono, ejemplo de grabación de una reseña a cámara",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Errores comunes al grabar para una tienda online" },
+      {
+        type: "list",
+        items: [
+          "Grabar un único vídeo de marca largo en vez de un lote de piezas cortas para rotar anuncios.",
+          "Enseñar el producto sin mostrarlo en uso ni en manos de una persona.",
+          "Dejar que alguien lea un texto sin teleprompter, con voz de anuncio de radio.",
+          "No grabar aperturas alternativas para poder probar en Meta Ads.",
+          "Grabar el producto con reflejos y huellas que luego no se pueden quitar en edición.",
+          "No decidir antes qué pieza va a ficha de producto, cuál a anuncio y cuál a orgánico.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "El estudio compensa si lanzas campañas con regularidad, si tienes varios productos o si quieres coherencia visual en toda la tienda. Para un producto suelto y una prueba rápida, puedes empezar con el móvil y luz de ventana.",
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Qué vídeos necesita un ecommerce para anunciarse?",
+        answer:
+          "Entre 8 y 10 clips de producto en uso, 4 o 5 reseñas a cámara con aperturas distintas y una pieza del fundador. Con eso hay material para probar varias creatividades en Meta Ads y TikTok Ads.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para una marca DTC?",
+        answer:
+          "Entre 3 y 4 horas para una gama pequeña. En ese tiempo se graban entre 15 y 20 clips verticales. Si tienes muchos productos, conviene dividirlo en dos sesiones por familias de producto.",
+      },
+      {
+        type: "faq",
+        question: "¿Se puede grabar producto físico en el estudio?",
+        answer:
+          "Sí. Llevas el producto y las muestras, y nosotros montamos fondo, luz y ángulos. Si el producto es grande o delicado, nos avisas antes para preparar el espacio y el acceso a la 7ª planta.",
+      },
+      {
+        type: "faq",
+        question: "¿Os encargáis de la edición para anuncios?",
+        answer:
+          "Con Grabación + Edición montamos las piezas en DaVinci Resolve y CapCut, con subtítulos y los formatos que pida cada plataforma. Con Producción Completa añadimos guion y variantes de apertura.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes un ecommerce o una marca DTC en Madrid y quieres grabar un mes de anuncios y contenido en una mañana, escríbenos en /#contacto con tu producto y tu cliente ideal, y en A0Studios te proponemos el plan de piezas antes de reservar.",
+      },
+    ],
+  },
+  {
+    slug: "grabar-contenido-agencias-marketing-madrid",
+    title: "Estudio de grabación para agencias de marketing en Madrid: graba los anuncios de tus clientes sin montar plató",
+    description:
+      "Estudio de grabación para agencias de marketing en Madrid: cómo grabar anuncios y contenido de varios clientes en un ático con dirección técnica, sin montar tu propio plató.",
+    publishedAt: "2026-11-03",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["agencias de marketing Madrid", "estudio de grabación", "anuncios para clientes", "Meta Ads", "producción de vídeo", "contenido orgánico"],
+    keyword: "estudio de grabacion para agencias de marketing en madrid",
+    intent: "informacional",
+    excerpt:
+      "Si tu agencia vende vídeo a sus clientes pero no tiene plató, alquilar un estudio con dirección es más barato que montarlo. Cómo plantear la sesión y qué pedir.",
+    seoTitle: "Estudio de grabación para agencias de marketing en Madrid",
+    metaDescription:
+      "Estudio de grabación para agencias de marketing en Madrid: graba anuncios de varios clientes en una sesión, con dirección técnica y sin montar plató.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Una agencia de marketing en Madrid que vende vídeo a sus clientes no necesita plató propio: le sale más barato reservar un estudio por bloques de 3 o 4 horas y grabar en ese tiempo las piezas de 2 o 3 clientes. Lo que sí necesita es que alguien dirija la sesión con criterio de anunciante.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, trabajamos con agencias que nos traen el briefing y los clientes. Yo dirijo la grabación pensando en qué pieza se va a anunciar y qué gancho aguanta mejor en Meta Ads y TikTok Ads, para que la agencia entregue material que se puede probar y no solo material bonito.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-agencias-marketing-madrid/hero.webp",
+        alt: "Hombre de pie frente a un equipo sentado con portátiles alrededor de una mesa, reunión de una agencia de marketing",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Por qué una agencia no debería montar su propio plató" },
+      {
+        type: "paragraph",
+        text: "Un plató propio exige alquiler, luz, fondos, audio, una cámara decente y a alguien que lo mantenga. Con dos o tres sesiones al mes, la inversión se amortiza mal y el espacio se queda parado el resto del tiempo. Un estudio por horas convierte ese coste fijo en un coste por proyecto que puedes repercutir al cliente.",
+      },
+      {
+        type: "paragraph",
+        text: "El segundo problema es el criterio. Una agencia suele tener buen estratega y buen editor, pero no siempre alguien que sepa dirigir a un cliente que nunca ha estado delante de una cámara. Ahí se pierde la sesión: tomas rígidas, aperturas flojas y tres semanas de edición para arreglarlo.",
+      },
+      {
+        type: "paragraph",
+        text: "Y está el tiempo del equipo. Cada hora que tu community manager pasa montando luces es una hora que no pasa en las cuentas de los clientes. En estudio llegáis, grabáis y os vais.",
+      },
+      { type: "heading", level: 2, text: "Cómo plantear una sesión de agencia en estudio" },
+      { type: "heading", level: 3, text: "Agrupa varios clientes en un mismo bloque" },
+      {
+        type: "paragraph",
+        text: "Un bloque de 4 horas da para dos clientes con 8 o 10 clips cada uno si el briefing está cerrado. Cambiar de fondo y de ropa lleva unos 20 minutos. Conviene ordenar los clientes de menos a más complejos para no arrancar el día con el más difícil.",
+      },
+      { type: "heading", level: 3, text: "Llega con el briefing y las aperturas decididas" },
+      {
+        type: "paragraph",
+        text: "Para cada pieza, el guion y al menos tres aperturas distintas: una pregunta, una objeción y un resultado. Grabar las tres cuesta un par de minutos más y te da algo que probar en la cuenta de anuncios. Con teleprompter, el cliente lee sin parecer que lee.",
+      },
+      { type: "heading", level: 3, text: "Decide quién edita antes de grabar" },
+      {
+        type: "paragraph",
+        text: "Si tu equipo edita, te entregamos el material con audio limpio y claqueta por pieza para que no pierdas tiempo ordenando. Si prefieres externalizarlo, con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y los formatos de cada plataforma.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-agencias-marketing-madrid/mid.webp",
+        alt: "Cámara montada sobre un trípode frente a un fondo blanco en un estudio de grabación",
+        width: 1920,
+        height: 1282,
+      },
+      { type: "heading", level: 2, text: "Errores comunes cuando una agencia graba en estudio" },
+      {
+        type: "list",
+        items: [
+          "Reservar el estudio sin tener cerrado el guion ni el briefing del cliente.",
+          "Traer al cliente sin prepararlo antes: sin saber qué va a decir, graba lento y sin soltura.",
+          "Grabar una sola apertura por pieza y no tener nada que probar en anuncios.",
+          "Meter cuatro clientes en un bloque de 3 horas y acabar sin tiempo para ninguno.",
+          "No acordar con el estudio el formato de entrega y los nombres de archivo.",
+          "Ir solo con criterio estético y olvidar para qué plataforma y objetivo es cada pieza.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si grabas para clientes al menos una vez al mes o si quieres ofrecer vídeo como servicio sin invertir en equipo. Si tu cliente solo necesita una pieza al año, quizá le baste con grabar con el móvil y buena luz.",
+      },
+      { type: "heading", level: 2, text: "Preguntas frecuentes" },
+      {
+        type: "faq",
+        question: "¿Puedo grabar a varios clientes de mi agencia en una misma sesión?",
+        answer:
+          "Sí. Un bloque de 4 horas da para dos clientes si el briefing está cerrado. Reservamos el tiempo por bloques y organizamos el orden para minimizar cambios de fondo.",
+      },
+      {
+        type: "faq",
+        question: "¿Ponéis vuestro nombre en el material que entregamos?",
+        answer:
+          "No. El material se entrega para que la agencia lo use como suyo. Hablamos de cómo presentarlo al cliente antes de la sesión para que todo quede claro.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué equipo y formato de entrega ofrecéis?",
+        answer:
+          "Grabamos con Sony A7, micrófonos de solapa y teleprompter. Entregamos archivos nombrados por pieza, en vertical o en horizontal según pidas, con audio limpio.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto cuesta una sesión para una agencia?",
+        answer:
+          "Depende del bloque de horas y de si incluye edición o producción completa. Escríbenos con el número de clientes y piezas y te proponemos un presupuesto cerrado antes de reservar.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tu agencia necesita grabar anuncios y contenido para clientes en Madrid sin montar un plató, escríbenos en /#contacto con el número de clientes y piezas, y en A0Studios te proponemos el bloque de horas y el plan de sesión.",
+      },
+    ],
+  },
+  {
+    slug: "grabar-podcast-ingles-madrid-estudio-logistica",
+    title: "Grabar un podcast en inglés en Madrid: estudio, equipo y logística para invitados internacionales",
+    description:
+      "Cómo grabar un podcast en inglés en Madrid: estudio, equipo, duración de la sesión y logística para founders, expats e invitados internacionales.",
+    publishedAt: "2026-11-04",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["podcast en inglés Madrid", "estudio de podcast", "expats", "founders", "grabación de vídeo", "contenido para LinkedIn"],
+    keyword: "grabar un podcast en ingles en madrid",
+    intent: "informacional",
+    excerpt:
+      "Qué equipo, cuánto tiempo y qué logística necesitas para grabar un podcast en inglés en un estudio de Madrid, con invitados internacionales y clips listos para redes.",
+    seoTitle: "Grabar un podcast en inglés en Madrid: estudio y logística",
+    metaDescription:
+      "Grabar un podcast en inglés en Madrid: equipo, duración de la sesión y logística para invitados internacionales en un estudio con dirección técnica.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Para grabar un podcast en inglés en Madrid necesitas un estudio con acústica controlada, al menos 2 micrófonos de estudio, una cámara por persona si quieres vídeo y 2 o 3 horas de bloque para un episodio de 40 minutos. Lo demás es logística: llegar a tiempo, tener el guion de preguntas y acordar el formato de entrega antes de empezar.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, grabamos podcasts en inglés con founders, expats y equipos internacionales. Yo dirijo la sesión pensando en qué clips van a funcionar en LinkedIn, Instagram y YouTube, no solo en que el audio suene bien.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-podcast-ingles-madrid-estudio-logistica/hero.webp",
+        alt: "Micrófono de condensador de estudio para grabar un podcast",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Qué necesita un podcast en inglés grabado en Madrid",
+      },
+      {
+        type: "paragraph",
+        text: "El idioma no cambia el equipo, pero sí la logística. Si el invitado vive fuera o acaba de aterrizar, hay que coordinar horarios, acceso al edificio y qué se graba en cada bloque. Un episodio de 40 minutos pide unas 2 horas de sesión entre montaje, prueba de sonido y grabación.",
+      },
+      {
+        type: "paragraph",
+        text: "Con dos personas en mesa, lo habitual son 2 micrófonos dinámicos o de condensador con brazo, auriculares cerrados para cada uno y una cámara por persona más un plano general. Con ese montaje salen un episodio completo y 8 o 10 clips verticales.",
+      },
+      {
+        type: "paragraph",
+        text: "El segundo punto es el idioma de trabajo. Si el host o el invitado no son nativos, conviene grabar con un guion de preguntas cerrado y dejar margen para repetir frases sin presión. Cortar una respuesta y repetirla en estudio es normal.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión con invitados internacionales",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Cierra horarios y llegada con antelación",
+      },
+      {
+        type: "paragraph",
+        text: "Pide a los invitados que lleguen 10 minutos antes, con DNI o pasaporte para el acceso al edificio. Una sesión de 3 horas que arranca 30 minutos tarde pierde un clip entero. Si vienen de otra ciudad, recomendamos reservar por la mañana para evitar atascos de tarde en el centro.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Prepara guion de preguntas y tres posibles aperturas",
+      },
+      {
+        type: "paragraph",
+        text: "Lleva 10 o 12 preguntas ordenadas, más tres formas de abrir el episodio: una pregunta, una afirmación fuerte y una anécdota. Grabar las tres lleva un par de minutos y te da opciones para el clip que va a anuncios o a LinkedIn.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Decide el formato de entrega antes de grabar",
+      },
+      {
+        type: "paragraph",
+        text: "Define si quieres solo audio, vídeo horizontal para YouTube o los dos, y si necesitas subtítulos en inglés. Con Grabación + Edición montamos en DaVinci Resolve y CapCut, con subtítulos y formatos por plataforma. Con Solo Grabación te entregamos el material con audio limpio y claqueta por episodio.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-podcast-ingles-madrid-estudio-logistica/mid.webp",
+        alt: "Presentador e invitado con auriculares hablando durante una grabación de podcast",
+        width: 1920,
+        height: 1204,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar un podcast en inglés en Madrid",
+      },
+      {
+        type: "list",
+        items: [
+          "Llegar sin guion de preguntas y improvisar los primeros 15 minutos.",
+          "Grabar con eco por usar una sala sin tratamiento acústico.",
+          "No probar el sonido de cada micrófono antes de arrancar el episodio.",
+          "No acordar de antemano el idioma de los subtítulos ni el formato de entrega.",
+          "Reservar solo 1 hora y no tener margen para repetir tomas.",
+          "Pensar solo en el audio y olvidar que los clips verticales son lo que más alcance da.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si vas a publicar al menos un episodio al mes o si quieres usar el podcast como motor de contenido para LinkedIn y Meta Ads. Para un episodio puntual, puede bastarte con grabar remoto con buenos micrófonos.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para grabar un podcast en inglés?",
+        answer:
+          "Entre 2 y 3 horas para un episodio de 40 minutos, contando montaje, prueba de sonido y repeticiones. Si quieres dos episodios seguidos, recomendamos un bloque de 4 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos micrófonos, cámaras Sony A7, teleprompter e iluminación. Solo necesitas traer el guion de preguntas y tu invitado.",
+      },
+      {
+        type: "faq",
+        question: "¿Podéis dirigir la sesión en inglés?",
+        answer:
+          "Sí. Se puede dirigir y conversar en inglés durante la sesión, y la entrega puede llevar subtítulos en inglés si lo pides antes.",
+      },
+      {
+        type: "faq",
+        question: "¿Dónde está el estudio y cómo llego?",
+        answer:
+          "Estamos en Ronda de Atocha 16, 7ª planta, en Madrid centro, a pocos minutos de la estación de Atocha. Te enviamos las indicaciones de acceso al confirmar la reserva.",
+      },
+      {
+        type: "paragraph",
+        text: "Si quieres grabar un podcast en inglés en Madrid, escríbenos en /#contacto con el número de invitados y el formato que buscas, y en A0Studios te proponemos el bloque de horas y el plan de sesión.",
+      },
+    ],
+  },
+  {
+    slug: "grabar-contenido-coaches-mentores-madrid",
+    title: "Grabar contenido para coaches y mentores en Madrid: cómo preparar la sesión",
+    description:
+      "Cómo grabar contenido como coach o mentor en un estudio de Madrid: qué piezas grabar en una sesión, cómo estructurarlas y qué errores evitar para vender más.",
+    publishedAt: "2026-11-04",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["coaches", "mentores", "estudio madrid", "marca personal", "contenido orgánico", "anuncios"],
+    keyword: "grabar contenido para coaches y mentores en madrid",
+    intent: "informacional",
+    excerpt:
+      "Un coach vende confianza antes que método. Qué grabar en una sola sesión en Madrid para tener contenido orgánico, un vídeo de venta y piezas para anuncios.",
+    seoTitle: "Grabar contenido para coaches y mentores en Madrid",
+    metaDescription:
+      "Grabar contenido para coaches y mentores en Madrid: qué piezas grabar en una sesión de 3 horas, cómo estructurarlas y qué errores evitar para vender más.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si eres coach o mentor y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 3 horas con tres piezas claras: un vídeo de presentación de 2 a 3 minutos, entre 8 y 12 clips cortos para redes y 2 o 3 aperturas distintas para anuncios. Con eso cubres orgánico y paid sin volver a montar el set.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, trabajamos con profesionales que venden su criterio. Yo dirijo la sesión con mentalidad de anuncios y de venta: lo importante no es que el plano quede bonito, sino que quien te ve entienda en 10 segundos para quién eres y qué cambia contigo.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-coaches-mentores-madrid/hero.webp",
+        alt: "Persona sosteniendo una cámara delante de un aro de luz para grabar vídeo",
+        width: 1920,
+        height: 1079,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué un coach necesita vídeo antes que web",
+      },
+      {
+        type: "paragraph",
+        text: "Un coach o mentor no vende un producto que se pueda tocar. Vende confianza en una persona. Por eso el vídeo pesa más que cualquier texto: en dos minutos se ve cómo hablas, cómo escuchas y si tu forma de explicar encaja con quien te mira.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, el vídeo se reutiliza. Una misma sesión da piezas para Instagram, LinkedIn y YouTube, y para una página de venta o una llamada de captación. Quien llega a esa llamada ya te ha visto hablar varias veces, y la conversación empieza mucho más avanzada.",
+      },
+      {
+        type: "paragraph",
+        text: "El error habitual es grabar en casa con la luz de la ventana y el audio del móvil. Para una hora de contenido puede valer, pero cuando vendes programas de varios cientos o miles de euros, la calidad del sonido y de la imagen forma parte de la confianza.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo de presentación",
+      },
+      {
+        type: "paragraph",
+        text: "Es la pieza más importante y la que más cuesta, así que va primero, cuando tienes más energía. Estructura: a quién ayudas, qué problema tienen, qué método usas y cuál es el siguiente paso. Con teleprompter, para no perder el hilo, y repitiendo hasta que suene a conversación, no a lectura.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips cortos con una sola idea cada uno",
+      },
+      {
+        type: "paragraph",
+        text: "Después del vídeo de presentación, graba entre 8 y 12 clips de 30 a 60 segundos. Cada uno con una sola idea: un error que ves repetirse, una pregunta que te hacen siempre, una creencia que quieres desmontar. Con una Sony A7 en vertical y un micrófono de solapa, se graba un clip cada 5 minutos si el guion está claro.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Deja un bloque para anuncios",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a invertir en Meta Ads o TikTok Ads, graba la misma idea con tres aperturas distintas: una pregunta, una afirmación fuerte y un caso concreto. Cuesta 10 minutos más y te da material para probar qué gancho funciona. Si quieres saber cómo repartir las horas, lo explicamos en /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-coaches-mentores-madrid/mid.webp",
+        alt: "Hombre con portátil y móvil en una sesión de formación online",
+        width: 1200,
+        height: 799,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido como coach o mentor",
+      },
+      {
+        type: "list",
+        items: [
+          "Hablar de tu método sin decir a quién va dirigido ni qué problema resuelve.",
+          "Grabar un único vídeo largo en lugar de piezas cortas que se puedan publicar durante semanas.",
+          "Leer el guion de corrido en vez de hablar con las ideas clave delante.",
+          "Prometer resultados sin ejemplos concretos ni límites claros.",
+          "Cambiar de ropa, de fondo y de luz entre piezas, de modo que el feed parece de varias personas.",
+          "Olvidar el vídeo para anuncios y tener que volver a reservar un segundo día.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si ofreces un programa o una mentoría de precio medio-alto y necesitas que quien llegue a tu llamada ya confíe en ti. Si todavía no tienes oferta definida, primero ordena el mensaje y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para un coach?",
+        answer:
+          "Entre 2 y 3 horas para una pieza de presentación, 8 a 12 clips cortos y las aperturas para anuncios. Si además quieres un curso o una masterclass, mejor reservar un bloque aparte de 4 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar si nunca he salido en cámara?",
+        answer:
+          "Sí. Empezamos por el vídeo corto y vamos subiendo. Con teleprompter y un guion de ideas clave se pierde el miedo pronto, y las primeras tomas se repiten sin presión.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y las ideas de los clips.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si eres coach o mentor y quieres grabar en Madrid, escríbenos en /#contacto con tu oferta y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
+  {
+    slug: "grabar-contenido-asesores-financieros-fintech-madrid",
+    title: "Grabar contenido para asesores financieros y fintech en Madrid: cómo preparar la sesión",
+    description:
+      "Cómo grabar contenido como asesor financiero o fintech en un estudio de Madrid: qué piezas grabar, cómo explicar dinero sin tecnicismos y qué cuidar en anuncios.",
+    publishedAt: "2026-11-05",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["asesores financieros", "fintech", "estudio madrid", "contenido orgánico", "anuncios", "marca personal"],
+    keyword: "grabar contenido para asesores financieros y fintech en madrid",
+    intent: "informacional",
+    excerpt:
+      "En finanzas se vende confianza antes que producto. Qué grabar en una sola sesión en Madrid para tener vídeo de presentación, clips educativos y aperturas para anuncios.",
+    seoTitle: "Grabar contenido para asesores financieros y fintech en Madrid",
+    metaDescription:
+      "Grabar contenido para asesores financieros y fintech en Madrid: qué piezas grabar en una sesión de 3 horas, cómo explicar dinero con claridad y qué evitar.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si eres asesor financiero o trabajas en una fintech y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 3 horas con tres piezas: un vídeo de presentación de 2 a 3 minutos, entre 8 y 12 clips educativos de 30 a 60 segundos y 2 o 3 aperturas distintas para anuncios. Con una sola mañana tienes material para semanas de orgánico y para pruebas de paid.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, trabajamos con profesionales que venden criterio, y el dinero es el caso extremo: nadie confía su patrimonio a alguien que no ha visto hablar. Yo dirijo la sesión con mentalidad de anuncios y de venta. No buscamos un plano bonito, buscamos que quien te ve entienda en 10 segundos a quién ayudas y por qué puede fiarse de ti.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-asesores-financieros-fintech-madrid/hero.webp",
+        alt: "Persona sentada frente a una estantería durante un rodaje con cámara de cine Sony FS7",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué el vídeo pesa más en finanzas que en otros sectores",
+      },
+      {
+        type: "paragraph",
+        text: "Un asesor financiero, un gestor independiente o una fintech venden algo que el cliente no puede probar antes de decidir. Lo único que puede evaluar es a la persona o a la marca. Por eso dos minutos de vídeo con buena imagen y buen sonido hacen más por la confianza que una página entera de texto con tus credenciales.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, en finanzas casi todo el mundo explica mal. Abundan los tecnicismos, las siglas y las frases largas. Si eres capaz de explicar una cuestión de ahorro, hipotecas o inversión en 45 segundos y sin jerga, ya te diferencias de la mayoría de tu competencia en Madrid.",
+      },
+      {
+        type: "paragraph",
+        text: "Y hay un límite que conviene tener claro desde el guion: este contenido es educativo, no una promesa de rentabilidad. En una fintech o un despacho regulado, lo recomendable es que quien se encargue del cumplimiento normativo revise los textos antes de la sesión. Es más barato corregir un guion que volver a grabar.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo de presentación",
+      },
+      {
+        type: "paragraph",
+        text: "Va primero, cuando tienes más energía. Estructura: a quién ayudas, qué problema tiene esa persona con su dinero, cómo trabajas y cuál es el siguiente paso. Con teleprompter para no perder el hilo, y repitiendo hasta que suene a conversación. Si es tu primera vez delante de cámara, 5 o 6 tomas son normales.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips educativos con una sola idea",
+      },
+      {
+        type: "paragraph",
+        text: "Entre 8 y 12 clips, cada uno con una pregunta real de cliente: qué hacer con un ahorro parado, cómo leer una nómina, qué pasa con las comisiones de un fondo. Con una Sony A7 en vertical y un micrófono de solapa, un clip cada 5 minutos es un ritmo realista si el guion está claro. Mejor sin cifras que no puedas respaldar: explica el criterio, no prometas resultados.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para anuncios",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a invertir en Meta Ads o TikTok Ads para captar clientes, graba la misma idea con tres aperturas: una pregunta, una afirmación incómoda y un caso genérico sin datos reales de nadie. Son 10 minutos más y te dan material para probar qué gancho funciona. Para repartir bien las horas, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-asesores-financieros-fintech-madrid/mid.webp",
+        alt: "Persona gesticulando durante una reunión con un portátil sobre la mesa",
+        width: 1200,
+        height: 800,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido financiero",
+      },
+      {
+        type: "list",
+        items: [
+          "Usar jerga y siglas que el cliente no entiende en lugar de ejemplos cotidianos.",
+          "Prometer rentabilidades o resultados, algo que además puede traerte problemas con la normativa.",
+          "Leer el guion de corrido, con tono de comunicado, en vez de hablar con las ideas clave delante.",
+          "Grabar un único vídeo largo en lugar de piezas cortas que se puedan publicar durante semanas.",
+          "Cambiar de ropa, fondo y luz entre piezas, de modo que el perfil parece de varias personas.",
+          "Dejar la revisión de cumplimiento para después de grabar y tener que repetir tomas.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si tu servicio tiene un ticket medio-alto o una relación larga con el cliente, y si tu captación depende de que alguien confíe en ti antes de la primera llamada. Si todavía no tienes claro a quién te diriges, primero define el cliente y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para un asesor financiero?",
+        answer:
+          "Entre 2 y 3 horas para un vídeo de presentación, 8 a 12 clips educativos y las aperturas para anuncios. Si además quieres una masterclass o un curso, mejor reservar un bloque aparte de 4 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar si trabajo en una entidad regulada?",
+        answer:
+          "Sí, pero conviene que el guion pase antes por quien lleve el cumplimiento normativo de tu empresa. Nosotros grabamos lo que traes aprobado y te ayudamos a que suene claro y natural.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y las ideas de los clips.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si eres asesor financiero o fintech y quieres grabar en Madrid, escríbenos en /#contacto con tu servicio y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
+  {
+    slug: "grabar-contenido-arquitectos-interioristas-madrid",
+    title: "Grabar contenido para arquitectos e interioristas en Madrid: cómo preparar la sesión",
+    description:
+      "Cómo grabar contenido como arquitecto o interiorista en un estudio de Madrid: qué piezas grabar, cómo explicar tu método y cómo preparar aperturas para anuncios.",
+    publishedAt: "2026-11-06",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["arquitectos", "interiorismo", "estudio madrid", "contenido orgánico", "anuncios", "marca personal"],
+    keyword: "grabar contenido para arquitectos e interioristas en madrid",
+    intent: "informacional",
+    excerpt:
+      "Un estudio de arquitectura o interiorismo vende criterio antes que planos. Qué grabar en una sola sesión en Madrid para tener vídeo de presentación, clips de método y aperturas para anuncios.",
+    seoTitle: "Grabar contenido para arquitectos e interioristas en Madrid",
+    metaDescription:
+      "Grabar contenido para arquitectos e interioristas en Madrid: qué piezas grabar en una sesión de 3 horas, cómo explicar tu método y qué evitar al grabar.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si eres arquitecto o interiorista y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 3 horas con tres piezas: un vídeo de presentación de 2 a 3 minutos, entre 8 y 10 clips de 30 a 60 segundos sobre tu método y 2 o 3 aperturas distintas para anuncios. Una sola mañana te da material para semanas de orgánico y para pruebas de paid.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, trabajamos con profesionales que venden criterio. Un cliente que va a reformar su casa o abrir un local no compara metros cuadrados, compara a quién se fía. Dirigimos la sesión con mentalidad de anuncios y de venta: no buscamos un plano bonito, buscamos que quien te ve entienda en 10 segundos qué haces, para quién y cómo trabajas.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-arquitectos-interioristas-madrid/hero.webp",
+        alt: "Grupo de personas sentadas alrededor de una mesa trabajando en un proyecto",
+        width: 1920,
+        height: 1281,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué el vídeo funciona tan bien en arquitectura e interiorismo",
+      },
+      {
+        type: "paragraph",
+        text: "Tu portfolio enseña el resultado, pero no cómo trabajas. Y el cliente de una reforma o de un proyecto de interiorismo tiene miedo a lo mismo: retrasos, sobrecostes y que le impongan un gusto que no es el suyo. Dos minutos de vídeo en los que explicas cómo es el proceso, cuánto suele durar y cómo decides con el cliente responden a ese miedo mejor que cualquier galería de fotos.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, casi todo el sector enseña imágenes sin voz. Si apareces tú explicando por qué una distribución funciona o por qué un material envejece mejor, te diferencias de la mayoría de estudios de Madrid con muy poco esfuerzo.",
+      },
+      {
+        type: "paragraph",
+        text: "Un matiz práctico: el estudio es ideal para la parte en la que hablas a cámara. Las imágenes de obra terminada se graban en el propio proyecto, y luego se mezclan en edición con lo que grabamos aquí.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo de presentación",
+      },
+      {
+        type: "paragraph",
+        text: "Va primero, cuando tienes más energía. Estructura: a quién ayudas, qué problema tiene esa persona con su espacio, cómo es tu proceso en tres pasos y cuál es el siguiente paso. Con teleprompter para no perder el hilo, y repitiendo hasta que suene a conversación. Si es tu primera vez delante de cámara, 5 o 6 tomas son normales.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips de método con una sola idea",
+      },
+      {
+        type: "paragraph",
+        text: "Entre 8 y 10 clips, cada uno con una pregunta real de cliente: cuánto cuesta reformar un piso en Madrid, qué licencia hace falta, qué se decide antes de empezar la obra. Con una Sony A7 en vertical y un micrófono de solapa, un clip cada 5 minutos es un ritmo realista si el guion está claro. Si no puedes dar una cifra exacta, da un rango y explica de qué depende.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para anuncios",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a invertir en Meta Ads para captar proyectos, graba la misma idea con tres aperturas: una pregunta, una afirmación incómoda y un caso genérico sin datos de ningún cliente. Son 10 minutos más y te dan material para probar qué gancho funciona. Para repartir bien las horas, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-arquitectos-interioristas-madrid/mid.webp",
+        alt: "Persona sosteniendo una muestra de material naranja sobre un escritorio con muestrarios de diseño",
+        width: 1920,
+        height: 1396,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido de arquitectura e interiorismo",
+      },
+      {
+        type: "list",
+        items: [
+          "Hablar en términos técnicos que el cliente no entiende en lugar de explicar qué cambia en su día a día.",
+          "Enseñar solo el resultado final y no el proceso, que es lo que reduce el miedo a contratar.",
+          "Leer el guion de corrido, con tono de memoria de proyecto, en vez de hablar con las ideas clave delante.",
+          "Grabar un único vídeo largo en lugar de piezas cortas que se puedan publicar durante semanas.",
+          "Cambiar de ropa, fondo y luz entre piezas, de modo que el perfil parece de varias personas.",
+          "Mostrar proyectos de clientes sin su permiso por escrito.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si tu servicio tiene un ticket medio-alto y tu captación depende de que alguien confíe en ti antes de la primera visita. Si todavía no tienes claro qué tipo de proyecto quieres atraer, primero define el cliente y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para un arquitecto o interiorista?",
+        answer:
+          "Entre 2 y 3 horas para un vídeo de presentación, 8 a 10 clips de método y las aperturas para anuncios. Si además quieres una masterclass o un curso, mejor reservar un bloque aparte de 4 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar mis proyectos terminados en el estudio?",
+        answer:
+          "Lo que se graba en el estudio es a ti hablando a cámara. Las imágenes de obra se graban en el propio proyecto, con permiso del cliente, y se integran después en la edición.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y las ideas de los clips.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si eres arquitecto o interiorista y quieres grabar en Madrid, escríbenos en /#contacto con tu servicio y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
+  {
+    slug: "grabar-contenido-psicologos-terapeutas-madrid",
+    title: "Grabar contenido para psicólogos y terapeutas en Madrid: cómo preparar la sesión",
+    description:
+      "Cómo grabar contenido como psicólogo o terapeuta en un estudio de Madrid: qué piezas grabar, cómo hablar a cámara con cercanía y qué límites éticos respetar.",
+    publishedAt: "2026-11-07",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["psicólogos", "terapeutas", "estudio madrid", "contenido orgánico", "marca personal", "salud"],
+    keyword: "grabar contenido para psicologos y terapeutas en madrid",
+    intent: "informacional",
+    excerpt:
+      "Un paciente elige terapeuta por confianza antes que por currículum. Qué grabar en una sola sesión en Madrid para tener vídeo de presentación, clips de divulgación y un anuncio respetuoso.",
+    seoTitle: "Grabar contenido para psicólogos y terapeutas en Madrid",
+    metaDescription:
+      "Grabar contenido para psicólogos y terapeutas en Madrid: qué piezas grabar en una sesión de 3 horas, cómo hablar con cercanía y qué límites respetar.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si eres psicólogo o terapeuta y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 3 horas con tres piezas: un vídeo de presentación de 2 a 3 minutos, entre 8 y 10 clips de 30 a 60 segundos de divulgación y un anuncio sencillo para captar primeras consultas. Con una mañana tienes material para semanas de redes y una pieza lista para probar en Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, trabajamos con profesionales cuyo servicio se decide por confianza. Quien busca terapeuta suele llevar semanas dudando y quiere sentir, antes de escribir, cómo hablas y cómo trabajas. Dirigimos la sesión con mentalidad de anuncios y de venta, pero con un límite claro: aquí no se vende miedo ni se prometen resultados, se muestra criterio y cercanía.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-psicologos-terapeutas-madrid/hero.webp",
+        alt: "Despacho luminoso con sofá y escritorio, un entorno tranquilo para una consulta",
+        width: 1920,
+        height: 1440,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué el vídeo funciona tan bien en psicología y terapia",
+      },
+      {
+        type: "paragraph",
+        text: "Un texto en tu web explica tu enfoque, pero no transmite tu voz, tu ritmo ni cómo escuchas. Y eso es justo lo que un paciente potencial necesita comprobar. Dos minutos de vídeo en los que explicas a quién ayudas y cómo es una primera sesión reducen la barrera de dar el paso, porque ya te conocen.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, el sector sufre de contenido muy genérico: frases de motivación y listas de síntomas sin contexto. Si grabas pensando en una pregunta concreta que te hace un paciente de verdad, te diferencias sin necesidad de ser polémico.",
+      },
+      {
+        type: "paragraph",
+        text: "Un matiz importante: nunca se graba a pacientes ni se muestra una consulta real con datos de nadie. Lo que se graba en el estudio eres tú hablando a cámara, con un fondo cuidado que sustituye a tu despacho.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo de presentación",
+      },
+      {
+        type: "paragraph",
+        text: "Va primero, cuando tienes más energía. Estructura: a quién acompañas, qué le suele pasar cuando llega a consulta, cómo es la primera sesión y cómo reservar. Con teleprompter para no perder el hilo, pero leyendo despacio y con pausas. Si es tu primera vez delante de cámara, 5 o 6 tomas son normales y la última suele ser la mejor.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips de divulgación con una sola idea",
+      },
+      {
+        type: "paragraph",
+        text: "Entre 8 y 10 clips, cada uno con una pregunta real: cuándo conviene pedir ayuda, qué pasa en una primera sesión, cuánto suele durar un proceso. Con una Sony A7 en vertical y un micrófono de solapa, un clip cada 5 minutos es un ritmo realista si el guion está claro. Si no puedes dar una cifra exacta, da un rango y explica de qué depende.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para un anuncio respetuoso",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a invertir en anuncios para captar primeras consultas, graba una pieza de 30 a 45 segundos con dos aperturas distintas: una pregunta y una afirmación tranquila. Son 10 minutos más. Revisa siempre las políticas de publicidad de salud de cada plataforma, que limitan lo que puedes afirmar. Para repartir bien las horas, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-psicologos-terapeutas-madrid/mid.webp",
+        alt: "Persona con auriculares grabando una conversación con micrófono frente a un portátil",
+        width: 1920,
+        height: 1280,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido de psicología y terapia",
+      },
+      {
+        type: "list",
+        items: [
+          "Usar jerga clínica que el paciente no entiende en lugar de explicar con ejemplos cotidianos.",
+          "Prometer resultados o plazos de mejora, algo que además choca con el código deontológico y con las políticas de los anuncios.",
+          "Dar consejos como si fueran un diagnóstico para cualquiera que vea el vídeo.",
+          "Leer el guion de corrido con tono de conferencia, en vez de hablar como lo harías en consulta.",
+          "Grabar un único vídeo largo en lugar de piezas cortas que se puedan publicar durante semanas.",
+          "Mostrar casos reales o anécdotas reconocibles de pacientes, aunque cambies el nombre.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si tu agenda depende de que te encuentren y confíen en ti antes de la primera sesión. Si todavía no tienes claro a qué tipo de paciente quieres acompañar, define primero ese perfil y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para un psicólogo o terapeuta?",
+        answer:
+          "Entre 2 y 3 horas para un vídeo de presentación, 8 a 10 clips de divulgación y un anuncio con dos aperturas. Si además quieres una charla o un curso, mejor reservar un bloque aparte de 4 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar con mis pacientes o en mi consulta?",
+        answer:
+          "No es lo que recomendamos. Por confidencialidad no se graba a pacientes. En el estudio grabas tú hablando a cámara, con un fondo cuidado, y la privacidad de tu consulta queda intacta.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y las ideas de los clips.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si eres psicólogo o terapeuta y quieres grabar en Madrid, escríbenos en /#contacto con tu servicio y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
+  {
+    slug: "grabar-contenido-entrenadores-personales-fitness-madrid",
+    title: "Grabar contenido para entrenadores personales y centros de fitness en Madrid",
+    description:
+      "Cómo grabar contenido como entrenador personal o centro de fitness en un estudio de Madrid: qué piezas grabar, cómo demostrar ejercicios y cómo preparar anuncios.",
+    publishedAt: "2026-11-08",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["entrenadores personales", "fitness", "estudio madrid", "contenido orgánico", "anuncios", "marca personal"],
+    keyword: "grabar contenido para entrenadores personales y centros de fitness en madrid",
+    intent: "informacional",
+    excerpt:
+      "Quien busca entrenador quiere ver cómo corriges y cómo hablas antes de apuntarse. Qué grabar en una sola sesión en Madrid para tener presentación, clips de técnica y un anuncio de captación.",
+    seoTitle: "Grabar contenido para entrenadores personales en Madrid",
+    metaDescription:
+      "Grabar contenido para entrenadores personales y centros de fitness en Madrid: qué piezas grabar en una sesión de 3 horas y cómo preparar anuncios.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si eres entrenador personal o diriges un centro de fitness y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 3 horas con tres piezas: un vídeo de presentación de 60 a 90 segundos, entre 10 y 12 clips verticales de técnica de 20 a 45 segundos y dos versiones de un anuncio para captar primeras clases de prueba. Con una mañana tienes material para un mes de redes y piezas listas para testear en Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, no te prestamos solo un espacio con luz. Dirigimos la sesión con mentalidad de anuncios y de venta: qué gancho abre el clip, qué ejercicio se ve bien en cámara y qué frase invita a reservar. En fitness sobra contenido bonito y falta contenido que haga que alguien escriba.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-entrenadores-personales-fitness-madrid/hero.webp",
+        alt: "Entrenador y alumna haciendo ejercicio juntos en un gimnasio luminoso",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué grabar en estudio si ya tienes un gimnasio",
+      },
+      {
+        type: "paragraph",
+        text: "Grabar en la sala tiene un problema práctico: ruido de máquinas, música de fondo, gente cruzando el plano y una luz que cambia según la hora. El audio es lo primero que arruina un vídeo de explicación, y en un gimnasio es muy difícil de controlar.",
+      },
+      {
+        type: "paragraph",
+        text: "En un estudio controlas sonido, fondo y luz, y el entrenamiento se ve limpio. Hay una excepción razonable: si tu valor diferencial es tu espacio, graba allí las escenas de ambiente y deja en el estudio todo lo que requiere voz clara, como la presentación, las explicaciones y el anuncio.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación para fitness",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por la presentación hablada",
+      },
+      {
+        type: "paragraph",
+        text: "Va primero, con energía alta y sin sudar. Estructura: a quién entrenas, qué le pasa antes de empezar contigo, cómo es la primera sesión y cómo reservar. Con teleprompter para no perder el hilo. Si es tu primera vez delante de cámara, 4 o 5 tomas son normales.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips de técnica con una sola corrección",
+      },
+      {
+        type: "paragraph",
+        text: "Entre 10 y 12 clips, cada uno con un solo error y su corrección: la sentadilla que se hunde de rodillas, el peso muerto con la espalda redondeada. Con una Sony A7 en vertical y un micrófono de solapa, un clip cada 10 minutos es un ritmo realista si traes el ejercicio claro. Pon el cuerpo entero en plano y deja espacio arriba para los subtítulos.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para el anuncio de captación",
+      },
+      {
+        type: "paragraph",
+        text: "Graba una pieza de 30 a 45 segundos con dos aperturas distintas: una pregunta y una afirmación. Son 15 minutos más y te permiten testear cuál retiene más. Ofrece una acción concreta, como una clase de prueba. Para repartir bien las horas, mira nuestra guía en /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-entrenadores-personales-fitness-madrid/mid.webp",
+        alt: "Mujer grabándose en vídeo con un smartphone sobre un trípode mientras hace ejercicio en casa",
+        width: 1920,
+        height: 1080,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido de fitness",
+      },
+      {
+        type: "list",
+        items: [
+          "Prometer resultados rápidos o cifras de pérdida de peso que no puedes garantizar, algo que además limitan las políticas de anuncios.",
+          "Grabar el ejercicio sin explicar el porqué, de modo que cualquiera lo copia sin saber cuándo no hacerlo.",
+          "Usar solo planos generales donde no se ve la técnica ni se oye la corrección.",
+          "Vestuario con logos grandes o estampados que molestan en cámara.",
+          "Mostrar a alumnos reconocibles sin su permiso por escrito.",
+          "Grabar un único vídeo largo en lugar de piezas cortas para publicar durante semanas.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si tu agenda depende de que te encuentren y confíen en ti antes de la primera clase. Si aún no has decidido a quién quieres entrenar, define primero ese perfil y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para un entrenador personal?",
+        answer:
+          "Entre 2 y 3 horas para una presentación, 10 a 12 clips de técnica y un anuncio con dos aperturas. Si tienes varios entrenadores o quieres un programa completo, reserva una segunda sesión de 3 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo traer material o a un alumno para demostrar ejercicios?",
+        answer:
+          "Sí. Puedes traer pesas ligeras, gomas o esterilla, y un alumno si tiene autorización por escrito. Antes de la sesión revisamos qué cabe en el plató y qué conviene grabar en tu centro.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo de grabación?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y los ejercicios que quieres explicar.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si eres entrenador o gestionas un centro y quieres grabar en Madrid, escríbenos en /#contacto con tu servicio y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
@@ -8880,38 +13467,20 @@ export function getPostBySlug(slug: string) {
   return blogPosts.find((post) => post.slug === slug);
 }
 
-export function getBlogMetadata(): Metadata {
-  return {
-    title: "Blog",
-    description:
-      "Artículos sobre estudios de grabación, contenido para marcas, reels, podcast y producción audiovisual en Madrid.",
-    alternates: { canonical: "/blog" },
-    openGraph: {
-      title: "Blog",
-      description:
-        "Ideas, guías y artículos sobre espacios para grabar contenido, producción audiovisual y contenido orgánico en Madrid.",
-      url: `${SITE_URL}/blog`,
-      siteName: SITE_NAME,
-      type: "website",
-      locale: "es_ES",
-    },
-  };
+/** Post con el texto en el idioma pedido (fechas y slug siempre del original). */
+export function getLocalizedPost(post: BlogPost, lang: Lang): BlogPost {
+  if (lang === DEFAULT_LOCALE) return post;
+  const translation = blogTranslations[lang]?.[post.slug];
+  return translation ? { ...post, ...translation } : post;
 }
 
-export function getPostMetadata(post: BlogPost): Metadata {
-  return {
-    title: post.seoTitle,
-    description: post.metaDescription,
-    alternates: { canonical: `/blog/${post.slug}` },
-    openGraph: {
-      title: post.seoTitle,
-      description: post.metaDescription,
-      url: `${SITE_URL}/blog/${post.slug}`,
-      siteName: SITE_NAME,
-      type: "article",
-      locale: "es_ES",
-      publishedTime: post.publishedAt,
-      modifiedTime: post.updatedAt ?? post.publishedAt,
-    },
-  };
+export function hasPostTranslation(slug: string, lang: Lang) {
+  return lang === DEFAULT_LOCALE || !!blogTranslations[lang]?.[slug];
+}
+
+/** Posts para el índice del blog: en un idioma no por defecto, solo los ya traducidos. */
+export function getLocalizedPosts(lang: Lang) {
+  return getAllPosts()
+    .filter((post) => hasPostTranslation(post.slug, lang))
+    .map((post) => getLocalizedPost(post, lang));
 }

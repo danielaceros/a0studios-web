@@ -3,6 +3,9 @@
 // aparte con lightbox). Alojado en el store de Vercel Blob dedicado de
 // este proyecto (a0studios-media), bajo el prefijo formatos/ para no
 // mezclarlo con formatos/portfolio/.
+import type { Lang } from "@/lib/i18n";
+import { FORMATOS_ALT_EN, type FormatoId } from "./formatos.en";
+
 const BLOB_BASE = "https://dhhlvt4j8kklwk3i.public.blob.vercel-storage.com/formatos";
 
 export type FormatoOrientation = "horizontal" | "vertical";
@@ -187,6 +190,36 @@ export const FORMATOS_ITEMS: FormatoItem[] = [
     poster: `${BLOB_BASE}/resultados/resultado-vertical-ad-2-poster.jpg`,
     alt: "Segundo anuncio vertical editado, resultado final",
   },
+  {
+    id: "resultado-vertical-ad-3",
+    kind: "video",
+    orientation: "vertical",
+    source: "resultado",
+    category: "ad",
+    src: `${BLOB_BASE}/resultados/resultado-vertical-ad-3.mp4`,
+    poster: `${BLOB_BASE}/resultados/resultado-vertical-ad-3-poster.jpg`,
+    alt: "Anuncio vertical para una clínica, grabado y editado en A0Studios",
+  },
+  {
+    id: "resultado-vertical-ad-4",
+    kind: "video",
+    orientation: "vertical",
+    source: "resultado",
+    category: "ad",
+    src: `${BLOB_BASE}/resultados/resultado-vertical-ad-4.mp4`,
+    poster: `${BLOB_BASE}/resultados/resultado-vertical-ad-4-poster.jpg`,
+    alt: "Anuncio vertical de marca personal con recursos de apoyo, editado en A0Studios",
+  },
+  {
+    id: "resultado-vertical-ad-5",
+    kind: "video",
+    orientation: "vertical",
+    source: "resultado",
+    category: "ad",
+    src: `${BLOB_BASE}/resultados/resultado-vertical-ad-5.mp4`,
+    poster: `${BLOB_BASE}/resultados/resultado-vertical-ad-5-poster.jpg`,
+    alt: "Anuncio vertical narrativo con rótulos y b-roll, resultado final editado",
+  },
   // --- Resultado final editado: VSL (horizontal) ---
   {
     id: "resultado-vsl-horizontal",
@@ -197,6 +230,26 @@ export const FORMATOS_ITEMS: FormatoItem[] = [
     src: `${BLOB_BASE}/resultados/resultado-vsl-horizontal.mp4`,
     poster: `${BLOB_BASE}/resultados/resultado-vsl-horizontal-poster.jpg`,
     alt: "VSL horizontal editado, resultado final grabado en A0Studios",
+  },
+  {
+    id: "resultado-vsl-2",
+    kind: "video",
+    orientation: "horizontal",
+    source: "resultado",
+    category: "vsl",
+    src: `${BLOB_BASE}/resultados/resultado-vsl-2.mp4`,
+    poster: `${BLOB_BASE}/resultados/resultado-vsl-2-poster.jpg`,
+    alt: "VSL horizontal para la web de un cliente, grabado y editado en A0Studios",
+  },
+  {
+    id: "resultado-vsl-3",
+    kind: "video",
+    orientation: "horizontal",
+    source: "resultado",
+    category: "vsl",
+    src: `${BLOB_BASE}/resultados/resultado-vsl-3.mp4`,
+    poster: `${BLOB_BASE}/resultados/resultado-vsl-3-poster.jpg`,
+    alt: "VSL horizontal de campaña con subtítulos, resultado final editado",
   },
   // --- Resultado final editado: Reels (verticales) ---
   {
@@ -269,6 +322,36 @@ export const FORMATOS_ITEMS: FormatoItem[] = [
     poster: `${BLOB_BASE}/resultados/resultado-reel-7-poster.jpg`,
     alt: "Reel de marca grabado en A0Studios, resultado final editado",
   },
+  {
+    id: "resultado-reel-8",
+    kind: "video",
+    orientation: "vertical",
+    source: "resultado",
+    category: "reel",
+    src: `${BLOB_BASE}/resultados/resultado-reel-8.mp4`,
+    poster: `${BLOB_BASE}/resultados/resultado-reel-8-poster.jpg`,
+    alt: "Clip vertical de podcast institucional grabado en A0Studios",
+  },
+  {
+    id: "resultado-reel-9",
+    kind: "video",
+    orientation: "vertical",
+    source: "resultado",
+    category: "reel",
+    src: `${BLOB_BASE}/resultados/resultado-reel-9.mp4`,
+    poster: `${BLOB_BASE}/resultados/resultado-reel-9-poster.jpg`,
+    alt: "Clip vertical de podcast con subtítulos, resultado final editado",
+  },
+  {
+    id: "resultado-reel-10",
+    kind: "video",
+    orientation: "vertical",
+    source: "resultado",
+    category: "reel",
+    src: `${BLOB_BASE}/resultados/resultado-reel-10.mp4`,
+    poster: `${BLOB_BASE}/resultados/resultado-reel-10-poster.jpg`,
+    alt: "Clip vertical de podcast en formato pregunta-respuesta, editado en A0Studios",
+  },
 ];
 
 /** Todos los items de BTS, para el carrusel ambiental de #espacio. */
@@ -277,4 +360,21 @@ export const BTS_ITEMS: FormatoItem[] = FORMATOS_ITEMS.filter((item) => item.sou
 /** Items de resultado final para la categoría pedida (Reels/Ads/VSL). */
 export function getResultadosByCategory(category: ResultadoCategory): FormatoItem[] {
   return FORMATOS_ITEMS.filter((item) => item.source === "resultado" && item.category === category);
+}
+
+/** Items localizados: mismas claves/ids/media, solo cambia el alt. */
+export function getFormatos(lang: Lang): FormatoItem[] {
+  if (lang === "es") return FORMATOS_ITEMS;
+  return FORMATOS_ITEMS.map((item) => ({
+    ...item,
+    alt: FORMATOS_ALT_EN[item.id as FormatoId] ?? item.alt,
+  }));
+}
+
+export function getBtsItems(lang: Lang): FormatoItem[] {
+  return getFormatos(lang).filter((item) => item.source === "bts");
+}
+
+export function getResultadosByCategoryLang(lang: Lang, category: ResultadoCategory): FormatoItem[] {
+  return getFormatos(lang).filter((item) => item.source === "resultado" && item.category === category);
 }

@@ -32,6 +32,10 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  experimental: {
+    // app/global-not-found.tsx: 404 con el documento completo ahora que el layout raíz vive en app/[lang].
+    globalNotFound: true,
+  },
   // Firebase Storage retirado para siempre (9-sep-2026): los vídeos de
   // portfolio ahora usan Vercel Blob (store dedicado de este proyecto) con
   // fallback local .webm. No queda ningún remotePattern de imágenes que

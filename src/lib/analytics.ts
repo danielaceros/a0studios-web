@@ -13,10 +13,19 @@ declare global {
   }
 }
 
+// Conversiones de Google Ads (cuenta del estudio, AW-18540352637). Cada evento de GA4 de la lista dispara
+// además su conversión: form_lead solo llega desde /gracias con prueba de envío; whatsapp_click es intención.
+const ADS_CONVERSIONS: Record<string, string> = {
+  form_lead: "AW-18540352637/ukAJCPvWzqsdEP2o3YhF",
+  whatsapp_click: "AW-18540352637/Hs4mCP7WzqsdEP2o3YhF",
+};
+
 export function trackEvent(name: string, params: EventParams = {}) {
   if (typeof window === "undefined") return;
   try {
     window.gtag?.("event", name, params);
+    const sendTo = ADS_CONVERSIONS[name];
+    if (sendTo) window.gtag?.("event", "conversion", { send_to: sendTo });
     window.clarity?.("event", name);
   } catch {
     // La medición nunca debe romper la página.
@@ -55,6 +64,31 @@ export function whenAnalyticsReady(callback: () => void, timeoutMs = 20000) {
  */
 export function whenPixelReady(callback: () => void, timeoutMs = 20000) {
   return whenReady(() => typeof window.fbq === "function", callback, timeoutMs);
+}
+
+/**
+ * Clic en el botón de WhatsApp.
+ *
+ * Dispara `Contact`, el evento estándar de Meta, NO `Lead`. Son dos cosas distintas y mezclarlas
+ * rompería la medición: `Lead` es la conversión por la que optimizan los anuncios y solo se dispara en
+ * /gracias con prueba de envío del formulario. Un clic en WhatsApp es intención, no contacto confirmado
+ * —no sabemos si ha llegado a escribir—, así que si entrase como `Lead` el adset aprendería de una
+ * señal falsa y el CPL que veríamos en Meta sería mentira.
+ *
+ * Por qué interesa medirlo igualmente: es la otra mitad del embudo de la web (el botón flota en todas
+ * las páginas) y hasta ahora no se registraba en ninguna parte, así que esa intención era invisible.
+ * Además `Contact` permite construir un público personalizado de "ha intentado contactar" para
+ * retargeting, que es justo la gente a la que merece la pena volver a impactar.
+ */
+export function trackWhatsAppClick(source: string, lang: string) {
+  if (typeof window === "undefined") return;
+  const params = { source, lang, page: window.location.pathname };
+  trackEvent("whatsapp_click", params);
+  try {
+    window.fbq?.("track", "Contact", params);
+  } catch {
+    // La medición nunca debe romper la página: el enlace tiene que abrirse pase lo que pase.
+  }
 }
 
 /** sessionStorage: de qué formulario sale el lead. Lo guarda FormOriginBeacon; lo lee /gracias. */

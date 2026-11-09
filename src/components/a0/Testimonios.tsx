@@ -2,16 +2,18 @@
 
 import { useEffect, useRef, useState } from "react";
 import SectionHead from "./SectionHead";
+import type { Lang } from "@/lib/i18n";
+import { testimoniosContent } from "@/lib/i18n/content/testimonios";
 
 type T = { src: string; poster: string; name: string; role: string; quote: string };
 
-const TESTIMONIOS: T[] = [
-  { src: "/TJAVI.webm", poster: "/optimized/poster-tjavi.webp", name: "Javi", role: "CEO & Founder, ECOM Advisory", quote: "Es la segunda vez que venimos. La primera fue un éxito y ahora vamos a por el segundo." },
-  { src: "/TNARRO.webm", poster: "/optimized/poster-tnarro.webp", name: "Narro Machetti", role: "CEO, GoalGuiders IA", quote: "Brutal. Gente cercana, profesional. Grabamos anuncios, podcast, VSL y contenido orgánico." },
-  { src: "/AXZ.webm", poster: "/optimized/poster-axz.webp", name: "Guillermo", role: "Founder, Geko Marketing", quote: "Grabamos contenido para todo el equipo. Volveremos." },
-  { src: "/TCARLOS.webm", poster: "/optimized/poster-tcarlos.webp", name: "Carlos Niño", role: "CFO, Wifiads", quote: "Te sientes como en casa. La comodidad, los equipos, las innovaciones… Para mí un diez." },
-  { src: "/TALEXANDRA.webm", poster: "/optimized/poster-talexandra.webp", name: "Alexandra", role: "Creadora de contenido", quote: "Todo muy profesional. Buena calidad, buena luz, buen ambiente. Este es tu sitio." },
-  { src: "/C5694.webm", poster: "/optimized/poster-c5694.webp", name: "Almudena", role: "Content Creator, Geko Marketing", quote: "El espacio es súper cómodo. Cinco estrellas." },
+const TESTIMONIOS = [
+  { src: "/TJAVI.webm", poster: "/optimized/poster-tjavi.webp", name: "Javi" },
+  { src: "/TNARRO.webm", poster: "/optimized/poster-tnarro.webp", name: "Narro Machetti" },
+  { src: "/AXZ.webm", poster: "/optimized/poster-axz.webp", name: "Guillermo" },
+  { src: "/TCARLOS.webm", poster: "/optimized/poster-tcarlos.webp", name: "Carlos Niño" },
+  { src: "/TALEXANDRA.webm", poster: "/optimized/poster-talexandra.webp", name: "Alexandra" },
+  { src: "/C5694.webm", poster: "/optimized/poster-c5694.webp", name: "Almudena" },
 ];
 
 function Card({ t }: { t: T }) {
@@ -83,25 +85,26 @@ function Card({ t }: { t: T }) {
   );
 }
 
-export default function Testimonios() {
+export default function Testimonios({ lang }: { lang: Lang }) {
+  const c = testimoniosContent[lang];
   return (
     <section id="testimonios" className="py-[clamp(4.5rem,8vw,7.5rem)]">
       <div className="mx-auto max-w-[1360px] px-4 sm:px-6 lg:px-8">
-        <SectionHead label="Testimonios" title="Lo dicen" accent="ellos" />
+        <SectionHead label={c.label} title={c.title} accent={c.accent} />
       </div>
 
       {/* El carril sangra a la derecha pero arranca alineado con la retícula:
           la primera tarjeta cuelga de la misma vertical que el titular. */}
       <div className="no-scrollbar reveal mt-14 flex snap-x snap-proximity scroll-px-4 gap-3 overflow-x-auto px-4 pb-2 sm:mt-[clamp(3.5rem,5vw,5rem)] sm:gap-4 sm:px-6 lg:pl-[max(2rem,calc((100vw-1360px)/2+2rem))] lg:pr-8">
-        {TESTIMONIOS.map((t) => (
-          <Card key={t.src} t={t} />
+        {TESTIMONIOS.map((v, i) => (
+          <Card key={v.src} t={{ ...v, ...c.items[i] }} />
         ))}
         <div className="w-1 shrink-0" aria-hidden="true" />
       </div>
 
       <div className="mx-auto mt-8 max-w-[1360px] px-4 sm:px-6 lg:px-8">
         <div className="rule" />
-        <p className="meta pt-4">Desliza para ver más →</p>
+        <p className="meta pt-4">{c.swipe}</p>
       </div>
     </section>
   );
