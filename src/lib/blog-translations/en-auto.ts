@@ -2775,4 +2775,142 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-rrhh-headhunters-madrid": {
+    title: "Recording Content for HR Consultancies and Headhunters in Madrid: How to Prepare the Session",
+    description:
+      "How to record content as an HR consultancy or headhunter in a Madrid studio: which pieces to shoot, how to attract candidates and client companies and how to prepare ads.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["human resources", "headhunters", "Madrid studio", "organic content", "employer branding", "ads"],
+    keyword: "video content for hr consultancies",
+    excerpt:
+      "A recruitment firm competes on two fronts: candidates and client companies. What to record in a single Madrid session to attract both with an intro video, clips and an ad.",
+    seoTitle: "Video Content for HR Consultancies and Headhunters in Madrid",
+    metaDescription:
+      "Video content for HR consultancies and headhunters in Madrid: which pieces to record in a 3-hour session to attract candidates and client companies.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you run an HR consultancy or work as a headhunter and want to record content in Madrid, the format that works best is a 3-hour session with three pieces: a 2 to 3 minute intro video for client companies, 8 to 10 clips of 30 to 60 seconds for candidates and one simple ad to win new search mandates. One morning gives you weeks of LinkedIn content and a piece ready to test on Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, our team works with businesses that sell trust before product. A company handing you a critical vacancy and a candidate sharing their job situation both want to know who they're talking to. We direct the session with an ads and sales mindset: the video isn't there to show off, it's there to get people to contact you.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-rrhh-headhunters-madrid/hero.webp",
+        alt: "Team of professionals gathered in a modern office discussing a project",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why video works so well in recruitment and human resources",
+      },
+      {
+        type: "paragraph",
+        text: "In recruitment you sell to two audiences at once. Companies need proof that you understand their business and screen well. Candidates need proof that you're serious and worth talking to. A two-minute video does both better than a services page, because your judgment shows when you speak.",
+      },
+      {
+        type: "paragraph",
+        text: "Most content in the sector also looks alike: copied job ads and generic interview tips. If you record answering a specific doubt you hear every week, you stand out without having to exaggerate.",
+      },
+      {
+        type: "paragraph",
+        text: "One important point: real hiring processes are never recorded, and no candidate or company is named without permission. In the studio you speak to camera about how you work, with a carefully built background that gives the image of a professional office.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to organize the recording session",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Start with the intro video",
+      },
+      {
+        type: "paragraph",
+        text: "It goes first, when you have the most energy. Structure: which kind of company or profile you focus on, what your selection process looks like step by step, what sets you apart and how to contact you. Use a teleprompter so you don't lose the thread, but read slowly. If you don't usually speak to camera, 5 or 6 takes are normal and the last one is usually the best.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Record clips built around a single question",
+      },
+      {
+        type: "paragraph",
+        text: "Between 8 and 10 clips, each answering a real question: what companies look for today in a sales profile, how to prepare for an interview, how long a process usually takes, which mistakes show up in a CV. With a Sony A7 in vertical and a lavalier microphone, one clip every 5 minutes is a realistic pace with a clear script. If you don't have an exact figure, give a range and explain what it depends on.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserve a block for a lead-generation ad",
+      },
+      {
+        type: "paragraph",
+        text: "If you plan to invest in ads to attract companies or candidates, record one 30 to 45 second piece per audience, each with two different openings: a question and a direct statement. It's 10 extra minutes per piece. To split the hours well, read /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-rrhh-headhunters-madrid/mid.webp",
+        alt: "Camera with a microphone recording a person speaking",
+        width: 1920,
+        height: 1440,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Common mistakes when recording human resources content",
+      },
+      {
+        type: "list",
+        items: [
+          "Speaking to companies and candidates in the same video, when each audience needs its own piece.",
+          "Using HR textbook language instead of explaining with examples from a real process, with no names.",
+          "Showing data, screenshots or identifiable cases of candidates or clients.",
+          "Promising hiring timelines or results that don't depend only on you.",
+          "Reading the script straight through, with no pauses, in a corporate presentation tone.",
+          "Recording a single institutional video instead of short pieces you can publish over several weeks.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if your clients and candidates find you through referrals and LinkedIn, and you want them to arrive already knowing how you work. If you haven't yet defined which sector or profile you focus on, define that first and then record.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently asked questions",
+      },
+      {
+        type: "faq",
+        question: "How long is a recording session for an HR consultancy?",
+        answer: "Between 2 and 3 hours for an intro video, 8 to 10 clips and an ad with two openings. If several consultants want to record, it's better to plan 30 to 40 minute turns per person.",
+      },
+      {
+        type: "faq",
+        question: "Can I record with several team consultants in the same session?",
+        answer: "Yes. With 3 or 4 people we organize turns so each records an intro and 2 or 3 clips without waiting around. That gives you a content bank spread across several faces of the consultancy.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own equipment?",
+        answer: "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You only bring the script, your outfit and the ideas for the clips.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver edited videos?",
+        answer: "It depends on the service. With Recording Only you take the raw footage. With Recording + Editing we edit in DaVinci Resolve and CapCut with subtitles and platform formats. With Full Production we also handle the script and strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you run an HR consultancy or work as a headhunter and want to record in Madrid, write to us at /#contacto with your sector and the kind of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }

@@ -1045,6 +1045,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: Prioridad 1, 2 y rotación público extranjero agotadas, se elige vertical nuevo (academias y centros de formación), hermano de coaches, startups y asesorías; sin cubrir en memoria. Imágenes Unsplash (Quilia, CoWomen). EN publicado en el mismo commit.",
   },
+  {
+    slug: "grabar-contenido-rrhh-headhunters-madrid",
+    keyword: "grabar contenido para consultoras de rrhh y headhunters en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-10",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: Prioridad 1 y 2 agotadas, se elige vertical nuevo (consultoras de RRHH y headhunters), hermano de asesorías, coaches y academias; sin cubrir en memoria. Imágenes Unsplash (Vitaly Gariev, Albert Stoynov). EN publicado en el mismo commit.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

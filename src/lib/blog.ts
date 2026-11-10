@@ -13604,6 +13604,151 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-rrhh-headhunters-madrid",
+    title: "Grabar contenido para consultoras de RRHH y headhunters en Madrid: cómo preparar la sesión",
+    description:
+      "Cómo grabar contenido como consultora de recursos humanos o headhunter en un estudio de Madrid: qué piezas grabar, cómo atraer candidatos y clientes y cómo preparar anuncios.",
+    publishedAt: "2026-11-10",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["recursos humanos", "headhunters", "estudio madrid", "contenido orgánico", "employer branding", "anuncios"],
+    keyword: "grabar contenido para consultoras de rrhh y headhunters en madrid",
+    intent: "informacional",
+    excerpt:
+      "Una consultora de selección compite en dos frentes: candidatos y empresas cliente. Qué grabar en una sola sesión en Madrid para atraer a los dos con vídeo de presentación, clips y un anuncio.",
+    seoTitle: "Grabar contenido para consultoras de RRHH en Madrid",
+    metaDescription:
+      "Grabar contenido para consultoras de RRHH y headhunters en Madrid: qué piezas grabar en una sesión de 3 horas para atraer candidatos y empresas cliente.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si diriges una consultora de RRHH o eres headhunter y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 3 horas con tres piezas: un vídeo de presentación de 2 a 3 minutos para empresas cliente, entre 8 y 10 clips de 30 a 60 segundos para candidatos y un anuncio sencillo para captar procesos de selección. Con una mañana tienes material para semanas de LinkedIn y una pieza lista para probar en Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, trabajamos con negocios que venden confianza antes que producto. Una empresa que te confía una vacante crítica y un candidato que te cuenta su situación laboral quieren saber con quién hablan. Dirigimos la sesión con mentalidad de anuncios y de venta: el vídeo no está para lucirte, está para que te contacten.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-rrhh-headhunters-madrid/hero.webp",
+        alt: "Equipo de profesionales reunido en una oficina moderna hablando de un proyecto",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué el vídeo funciona tan bien en selección y recursos humanos",
+      },
+      {
+        type: "paragraph",
+        text: "En selección vendes a dos públicos a la vez. A las empresas les tienes que demostrar que entiendes su negocio y que filtras bien. A los candidatos, que eres alguien serio con quien merece la pena hablar. Un vídeo de dos minutos hace las dos cosas mejor que una página de servicios, porque se ve tu criterio al hablar.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, casi todo el contenido del sector es parecido: ofertas de empleo copiadas y consejos genéricos de entrevista. Si grabas respondiendo a una duda concreta que oyes cada semana, te diferencias sin necesidad de exagerar.",
+      },
+      {
+        type: "paragraph",
+        text: "Un matiz importante: nunca se graban procesos reales, ni se nombra a candidatos ni a empresas sin su permiso. En el estudio grabas tú hablando a cámara sobre cómo trabajas, con un fondo cuidado que da imagen de despacho profesional.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo de presentación",
+      },
+      {
+        type: "paragraph",
+        text: "Va primero, cuando tienes más energía. Estructura: a qué tipo de empresa o perfil te dedicas, cómo es tu proceso de selección paso a paso, qué te diferencia y cómo contactarte. Con teleprompter para no perder el hilo, pero leyendo despacio. Si no sueles hablar a cámara, 5 o 6 tomas son normales y la última suele ser la mejor.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips con una sola pregunta",
+      },
+      {
+        type: "paragraph",
+        text: "Entre 8 y 10 clips, cada uno con una pregunta real: qué buscan hoy las empresas en un perfil comercial, cómo preparar una entrevista, cuánto suele durar un proceso, qué errores hay en un CV. Con una Sony A7 en vertical y un micrófono de solapa, un clip cada 5 minutos es un ritmo realista con el guion claro. Si no tienes una cifra exacta, da un rango y explica de qué depende.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para un anuncio de captación",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a invertir en anuncios para captar empresas o candidatos, graba una pieza de 30 a 45 segundos por cada público, con dos aperturas distintas: una pregunta y una afirmación directa. Son 10 minutos más por pieza. Para repartir bien las horas, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-rrhh-headhunters-madrid/mid.webp",
+        alt: "Cámara con micrófono grabando a una persona que habla",
+        width: 1920,
+        height: 1440,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido de recursos humanos",
+      },
+      {
+        type: "list",
+        items: [
+          "Hablar a empresas y candidatos en el mismo vídeo, cuando cada público necesita su propia pieza.",
+          "Usar lenguaje de manual de RRHH en lugar de explicar con ejemplos de un proceso real, sin nombres.",
+          "Mostrar datos, capturas o casos identificables de candidatos o clientes.",
+          "Prometer plazos o resultados de contratación que no dependen solo de ti.",
+          "Leer el guion de corrido, sin pausas, con tono de presentación corporativa.",
+          "Grabar un único vídeo institucional en lugar de piezas cortas para publicar durante semanas.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si tus clientes y tus candidatos te encuentran por recomendación y por LinkedIn, y quieres que lleguen ya sabiendo cómo trabajas. Si todavía no tienes definido a qué sector o perfil te dedicas, define primero ese foco y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para una consultora de RRHH?",
+        answer:
+          "Entre 2 y 3 horas para un vídeo de presentación, 8 a 10 clips y un anuncio con dos aperturas. Si tienes varios consultores que quieren grabar, mejor planificar turnos de 30 a 40 minutos por persona.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar con varios consultores del equipo en la misma sesión?",
+        answer:
+          "Sí. Con 3 o 4 personas organizamos turnos para que cada una grabe una presentación y 2 o 3 clips sin esperas. Así tienes un banco de contenido repartido entre varias caras de la consultora.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y las ideas de los clips.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes una consultora de RRHH o trabajas como headhunter y quieres grabar en Madrid, escríbenos en /#contacto con tu sector y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
