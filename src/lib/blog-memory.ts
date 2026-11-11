@@ -1054,6 +1054,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: Prioridad 1 y 2 agotadas, se elige vertical nuevo (consultoras de RRHH y headhunters), hermano de asesorías, coaches y academias; sin cubrir en memoria. Imágenes Unsplash (Vitaly Gariev, Albert Stoynov). EN publicado en el mismo commit.",
   },
+  {
+    slug: "grabar-contenido-marcas-moda-belleza-madrid",
+    keyword: "grabar contenido para marcas de moda y belleza en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-11",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en ambas consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: Prioridad 1 agotada; los temas libres de Prioridad 2 (directivo sin experiencia, errores en testimoniales) canibalizan posts existentes, se elige vertical nuevo (moda y belleza), hermano de ecommerce DTC y arquitectos; sin cubrir en memoria. Imágenes Unsplash (Vitaly Gariev). EN publicado en el mismo commit.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

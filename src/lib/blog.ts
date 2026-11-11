@@ -13749,6 +13749,151 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-marcas-moda-belleza-madrid",
+    title: "Grabar contenido para marcas de moda y belleza en Madrid: qué piezas y cómo prepararlas",
+    description:
+      "Cómo grabar contenido para una marca de moda o belleza en un estudio de Madrid: qué piezas grabar, cómo enseñar producto en vídeo y cómo preparar anuncios que vendan.",
+    publishedAt: "2026-11-11",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["moda", "belleza", "estudio madrid", "contenido orgánico", "anuncios", "producto"],
+    keyword: "grabar contenido para marcas de moda y belleza en madrid",
+    intent: "informacional",
+    excerpt:
+      "En moda y belleza el vídeo decide la compra: se ve cómo cae, cómo se aplica, cómo se mueve. Qué grabar en una sola sesión en Madrid para tener orgánico y anuncios.",
+    seoTitle: "Grabar contenido para marcas de moda y belleza en Madrid",
+    metaDescription:
+      "Grabar contenido para marcas de moda y belleza en Madrid: qué piezas grabar en una sesión de 4 horas, cómo enseñar producto y cómo preparar anuncios.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si tienes una marca de moda o de belleza y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 4 horas con tres tipos de pieza: entre 10 y 12 vídeos verticales de producto en uso de 15 a 30 segundos, 2 o 3 piezas más trabajadas para anuncios con varias aperturas y un vídeo de marca de 60 a 90 segundos. Con una mañana cubres el lanzamiento de una colección o de una línea de producto.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, dirigimos la sesión con criterio de anuncios y de venta: sabemos qué enseñar en los primeros 3 segundos para que alguien se quede a mirar, tanto en orgánico como en Meta o TikTok Ads. En moda y belleza el producto se vende con movimiento, textura y uso real, y eso se planifica antes de encender la cámara.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-marcas-moda-belleza-madrid/hero.webp",
+        alt: "Equipo preparando una sesión de moda en un estudio con modelo, cámara y luces",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué el vídeo vende más que la foto en moda y belleza",
+      },
+      {
+        type: "paragraph",
+        text: "Una foto muestra cómo es una prenda o un producto. Un vídeo muestra cómo cae un tejido al caminar, cómo se funde una base en la piel o cuánto brilla un labial con luz natural. Son justo las dudas que frenan una compra online, y un clip de 20 segundos las resuelve sin que el cliente tenga que preguntar.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, el contenido de producto en uso es el que más se reutiliza: el mismo clip sirve como reel orgánico, como anuncio y como vídeo en la ficha del producto. Si lo grabas una vez con intención, lo amortizas en tres sitios.",
+      },
+      {
+        type: "paragraph",
+        text: "Un matiz: en A0Studios no hacemos sesiones de catálogo fotográfico con retoque. Hacemos vídeo para redes y para anuncios, que es donde hoy se decide la mayoría de las ventas de una marca pequeña o mediana.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Prepara el producto y el orden de looks antes de llegar",
+      },
+      {
+        type: "paragraph",
+        text: "Lo que más tiempo se pierde en estas sesiones es buscar prendas o productos. Trae todo planchado, limpio y numerado, con el orden de looks decidido. En belleza, lleva dos unidades de cada producto: una para grabar y otra de repuesto. Con 12 looks o 12 productos y 15 minutos por pieza ya llenas casi toda la sesión.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba producto en uso, no producto quieto",
+      },
+      {
+        type: "paragraph",
+        text: "Cada clip enseña una acción: abrocharse la chaqueta, girar para ver el vuelo, aplicar el sérum, difuminar el colorete. Con una Sony A7, un objetivo de 50 mm y luz suave controlada obtienes un acabado limpio que además cambia poco entre clips, algo importante para que el feed se vea coherente. Graba siempre en vertical y deja margen arriba y abajo para los textos.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para anuncios con varias aperturas",
+      },
+      {
+        type: "paragraph",
+        text: "Elige los 2 o 3 productos que más quieras vender y graba cada uno con tres aperturas distintas: una pregunta, un antes y después y una afirmación directa. Es el mismo producto con 3 primeros segundos diferentes, y te permite probar en Meta Ads qué abre mejor sin volver a grabar. Para repartir bien las horas, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-marcas-moda-belleza-madrid/mid.webp",
+        alt: "Creadora grabando un tutorial de maquillaje con una cámara sobre trípode",
+        width: 1920,
+        height: 1080,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido de moda y belleza",
+      },
+      {
+        type: "list",
+        items: [
+          "Grabar el producto quieto sobre un fondo, sin ninguna acción que explique por qué comprarlo.",
+          "Llegar sin orden de looks y gastar la mitad de la sesión decidiendo qué se graba después.",
+          "Cambiar la luz entre clips, de modo que el color del producto no coincide de un vídeo a otro.",
+          "Prometer resultados en belleza que el producto no puede cumplir, algo que además rechazan las políticas de anuncios.",
+          "Grabar en horizontal pensando solo en la web y no tener material vertical para reels y TikTok.",
+          "Usar música con derechos sin comprobar la licencia antes de publicar o de pagar un anuncio.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si lanzas una colección, una línea nueva o necesitas renovar los anuncios que ya se han quedado planos. Si todavía no tienes producto terminado o fotos de referencia de lo que quieres transmitir, mejor ordenar eso primero.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para una marca de moda o belleza?",
+        answer:
+          "Entre 3 y 4 horas para 10 o 12 vídeos de producto en uso, 2 o 3 piezas de anuncio con varias aperturas y un vídeo de marca. Si hay muchos cambios de look o varios modelos, conviene un bloque de 5 o 6 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Hay que traer modelo y maquillaje propios?",
+        answer:
+          "Sí, traes la modelo o el talento y el producto. Ponemos cámaras Sony A7, iluminación, micrófonos y teleprompter. Si necesitas maquillaje o peluquería, se coordina antes de la sesión y se suma al presupuesto.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar contenido para anuncios en la misma sesión?",
+        answer:
+          "Sí, y es lo más rentable. Grabas el mismo producto con varias aperturas y de ahí salen las variantes para probar en Meta y TikTok Ads, además del contenido orgánico.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes una marca de moda o de belleza y quieres grabar en Madrid, escríbenos en /#contacto con tu producto y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

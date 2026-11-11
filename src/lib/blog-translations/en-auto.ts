@@ -2913,4 +2913,114 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-marcas-moda-belleza-madrid": {
+    title: "Recording Video Content for Fashion and Beauty Brands in Madrid: Which Pieces and How to Prepare",
+    description:
+      "How to record content for a fashion or beauty brand in a Madrid studio: which pieces to shoot, how to show product on video and how to prepare ads that sell.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["fashion", "beauty", "Madrid studio", "organic content", "ads", "product"],
+    keyword: "fashion beauty video content madrid",
+    excerpt:
+      "In fashion and beauty, video decides the purchase: you see how it fits, how it applies, how it moves. What to record in one Madrid session for organic content and ads.",
+    seoTitle: "Video Content for Fashion and Beauty Brands in Madrid",
+    metaDescription:
+      "Video content for fashion and beauty brands in Madrid: which pieces to record in a 4-hour session, how to show product and how to prepare ads.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you run a fashion or beauty brand and want to record content in Madrid, what works best is a 4-hour session with three types of piece: 10 to 12 vertical product-in-use videos of 15 to 30 seconds, 2 or 3 more crafted ad pieces with several openings and one brand video of 60 to 90 seconds. One morning covers the launch of a collection or a product line.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, our team directs the session with an ads and sales mindset: we know what to show in the first 3 seconds so someone keeps watching, both organically and on Meta or TikTok Ads. In fashion and beauty, product sells through movement, texture and real use, and that is planned before the camera turns on.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-marcas-moda-belleza-madrid/hero.webp",
+        alt: "Team preparing a fashion shoot in a studio with a model, camera and lights",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Why video sells more than photos in fashion and beauty" },
+      {
+        type: "paragraph",
+        text: "A photo shows what a garment or product looks like. A video shows how a fabric falls when walking, how a foundation blends into skin or how shiny a lipstick is in natural light. Those are exactly the doubts that stop an online purchase, and a 20-second clip answers them before the customer has to ask.",
+      },
+      {
+        type: "paragraph",
+        text: "Product-in-use content is also the most reusable: the same clip works as an organic reel, as an ad and as a video on the product page. If you record it once with intent, you get value from it in three places.",
+      },
+      {
+        type: "paragraph",
+        text: "One caveat: at A0Studios we don't do retouched photographic catalogue shoots. We make video for social media and ads, which is where most sales for a small or mid-sized brand are decided today.",
+      },
+      { type: "heading", level: 2, text: "How to organize the recording session" },
+      { type: "heading", level: 3, text: "Prepare product and look order before you arrive" },
+      {
+        type: "paragraph",
+        text: "The most time lost in these sessions is spent searching for garments or products. Bring everything pressed, clean and numbered, with the look order decided. For beauty, bring two units of each product: one to shoot and a spare. With 12 looks or 12 products at 15 minutes per piece, you fill almost the whole session.",
+      },
+      { type: "heading", level: 3, text: "Record product in use, not product standing still" },
+      {
+        type: "paragraph",
+        text: "Each clip shows one action: buttoning a jacket, turning to show the drape, applying the serum, blending the blush. With a Sony A7, a 50 mm lens and soft controlled light you get a clean finish that also changes little between clips, which matters for a coherent feed. Always shoot vertical and leave margin at the top and bottom for text.",
+      },
+      { type: "heading", level: 3, text: "Reserve a block for ads with several openings" },
+      {
+        type: "paragraph",
+        text: "Pick the 2 or 3 products you most want to sell and record each with three different openings: a question, a before and after and a direct statement. It's the same product with 3 different first seconds, and it lets you test on Meta Ads which one opens best without recording again. To split the hours well, read /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-marcas-moda-belleza-madrid/mid.webp",
+        alt: "Creator recording a makeup tutorial with a camera on a tripod",
+        width: 1920,
+        height: 1080,
+      },
+      { type: "heading", level: 2, text: "Common mistakes when recording fashion and beauty content" },
+      {
+        type: "list",
+        items: [
+          "Recording the product standing still on a backdrop, with no action that explains why to buy it.",
+          "Arriving without a look order and spending half the session deciding what to record next.",
+          "Changing the light between clips, so the product colour doesn't match from one video to the next.",
+          "Promising beauty results the product can't deliver, which ad policies also reject.",
+          "Shooting horizontal thinking only of the website and having no vertical footage for reels and TikTok.",
+          "Using copyrighted music without checking the licence before publishing or paying for an ad.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if you are launching a collection, a new line or need to refresh ads that have gone flat. If you don't yet have a finished product or reference images of what you want to convey, it's better to sort that out first.",
+      },
+      { type: "heading", level: 2, text: "Frequently asked questions" },
+      {
+        type: "faq",
+        question: "How long does a session last for a fashion or beauty brand?",
+        answer: "Between 3 and 4 hours for 10 or 12 product-in-use videos, 2 or 3 ad pieces with several openings and one brand video. With many outfit changes or several models, a 5 or 6 hour block is better.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own model and makeup?",
+        answer: "Yes, you bring the model or talent and the product. We provide Sony A7 cameras, lighting, microphones and a teleprompter. If you need makeup or hair, it is coordinated before the session and added to the quote.",
+      },
+      {
+        type: "faq",
+        question: "Can I record ad content in the same session?",
+        answer: "Yes, and it's the most cost-effective option. You record the same product with several openings and get the variants to test on Meta and TikTok Ads, plus organic content.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver edited videos?",
+        answer: "It depends on the service. With Recording Only you take the raw footage. With Recording + Editing we edit in DaVinci Resolve and CapCut with subtitles and platform formats. With Full Production we also handle the script and strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you run a fashion or beauty brand and want to record in Madrid, write to us at /#contacto with your product and the kind of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }
