@@ -3023,4 +3023,114 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-restaurantes-hoteles-madrid": {
+    title: "Recording Video Content for Restaurants and Hotels in Madrid: Which Pieces to Shoot in a Studio",
+    description:
+      "How to record content for a restaurant or hotel in a Madrid studio: which pieces to shoot, how to show dishes and your offer and how to prepare booking ads.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["restaurants", "hotels", "hospitality", "Madrid studio", "organic content", "ads"],
+    keyword: "restaurant hotel video content madrid",
+    excerpt:
+      "People choosing where to eat or stay watch the video first. What to record in one Madrid session for an intro, clips of dishes or experiences and a booking ad.",
+    seoTitle: "Video Content for Restaurants and Hotels in Madrid",
+    metaDescription:
+      "Video content for restaurants and hotels in Madrid: which pieces to record in a 3-hour session, how to show your offer and prepare booking ads.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you run a restaurant or a hotel and want to record content in Madrid, a 3-hour studio session with three pieces works well: a 1 to 2 minute intro video with the person behind the business, 10 to 12 clips of 15 to 30 seconds of dishes, drinks or experiences and one simple ad to drive bookings. One morning gives you weeks of social content and a piece ready to test on Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, our team records what is easiest to control in a studio: close-up product, the voice of the chef, owner or hotel manager and the openings of your ads. The real atmosphere of your venue is shot separately, on site. We direct the session with an ads and sales mindset: every clip has to prompt a booking, not just look good.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-restaurantes-hoteles-madrid/hero.webp",
+        alt: "Cook in a white jacket working in a restaurant kitchen",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Why video decides the booking in hospitality" },
+      {
+        type: "paragraph",
+        text: "Nobody books a table or a room without checking what it's like first. A photo shows the dish; a video shows the steam, the cut, the sizzle or how the door of a room opens. That is what turns a search into a booking.",
+      },
+      {
+        type: "paragraph",
+        text: "In Madrid the choice is huge and the photos look alike. A real person explaining what makes your place different, with one concrete idea, sets you apart more than another ambience video with background music.",
+      },
+      {
+        type: "paragraph",
+        text: "A practical note: the studio doesn't replace shooting at your venue. It is for what needs controlled light and sound, and the image of your real space is complemented with footage shot at your premises.",
+      },
+      { type: "heading", level: 2, text: "How to organise the recording session" },
+      { type: "heading", level: 3, text: "Start with the intro video" },
+      {
+        type: "paragraph",
+        text: "It goes first, when energy is highest. Structure: who you are, what makes you different, what the guest should taste or experience and how to book. Use a teleprompter so you don't lose the thread, but speak as you would at the table. If it's your first time on camera, 4 or 5 takes are normal.",
+      },
+      { type: "heading", level: 3, text: "Record short product clips with a single action" },
+      {
+        type: "paragraph",
+        text: "10 to 12 clips, each with one action: saucing a plate, slicing, pouring a drink, opening a hotel welcome box. With a Sony A7, a 50 mm lens and soft controlled light the finish is clean and the clips match each other, which helps a coherent feed. Always shoot vertical and leave margin at the top and bottom for text. Bring the dishes ready: food cools and loses its look within minutes.",
+      },
+      { type: "heading", level: 3, text: "Set aside a block for a booking ad" },
+      {
+        type: "paragraph",
+        text: "Pick the offer you most want to fill, a weekend menu or a getaway, and record it with three different openings: a question, an image of the product and a direct statement. It's the same message with 3 different first seconds, and it lets you test on Meta Ads which one opens best without recording again. To split the hours well, read /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-restaurantes-hoteles-madrid/mid.webp",
+        alt: "Hotel lobby with a checkered floor and a bar",
+        width: 1920,
+        height: 1280,
+      },
+      { type: "heading", level: 2, text: "Common mistakes when recording restaurant and hotel content" },
+      {
+        type: "list",
+        items: [
+          "Recording only ambience and music, with no person explaining why to book with you.",
+          "Arriving without the dishes or products ready and losing half the session waiting.",
+          "Changing the light between clips, so food colours don't match from one video to the next.",
+          "Promising something the venue then doesn't deliver, such as a dish that is no longer on the menu.",
+          "Shooting horizontal thinking only of the website and having no vertical footage for reels and TikTok.",
+          "Using copyrighted music without checking the licence before publishing or paying for an ad.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if you are launching a new menu, opening a hotel or a season or need to refresh ads that have stopped working. If you don't yet have your offer defined, sort that out first and then record.",
+      },
+      { type: "heading", level: 2, text: "Frequently asked questions" },
+      {
+        type: "faq",
+        question: "How long does a session last for a restaurant or hotel?",
+        answer: "Between 3 and 4 hours for an intro video, 10 to 12 product clips and an ad with several openings. If you also want to record several menus or experiences, a 5-hour block is better.",
+      },
+      {
+        type: "faq",
+        question: "Can you record my venue in the studio?",
+        answer: "No, the studio doesn't replace your space. Here we record product, voice and ad openings with controlled light and sound. The image of your real venue is shot separately at your premises.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own equipment?",
+        answer: "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You bring the dishes or products, your outfit and the ideas for the clips.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver edited videos?",
+        answer: "It depends on the service. With Recording Only you take the raw footage. With Recording + Editing we edit in DaVinci Resolve and CapCut with subtitles and platform formats. With Full Production we also handle the script and strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you run a restaurant or hotel and want to record in Madrid, write to us at /#contacto with your offer and the kind of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }

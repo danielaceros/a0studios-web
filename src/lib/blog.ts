@@ -13894,6 +13894,151 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-restaurantes-hoteles-madrid",
+    title: "Grabar contenido para restaurantes y hoteles en Madrid: qué piezas grabar en estudio",
+    description:
+      "Cómo grabar contenido como restaurante u hotel en un estudio de Madrid: qué piezas grabar, cómo mostrar platos y propuesta y cómo preparar anuncios de reserva.",
+    publishedAt: "2026-11-12",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["restaurantes", "hoteles", "hostelería", "estudio madrid", "contenido orgánico", "anuncios"],
+    keyword: "grabar contenido para restaurantes y hoteles en madrid",
+    intent: "informacional",
+    excerpt:
+      "Quien elige dónde comer o dormir mira primero el vídeo. Qué grabar en una sola sesión en Madrid para tener presentación, clips de platos o experiencias y un anuncio de reservas.",
+    seoTitle: "Grabar contenido para restaurantes y hoteles en Madrid",
+    metaDescription:
+      "Grabar contenido para restaurantes y hoteles en Madrid: qué piezas grabar en una sesión de 3 horas, cómo mostrar tu oferta y preparar anuncios de reserva.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si tienes un restaurante o un hotel y quieres grabar contenido en Madrid, funciona bien una sesión de estudio de 3 horas con tres piezas: un vídeo de presentación de 1 a 2 minutos con quien está detrás del negocio, entre 10 y 12 clips de 15 a 30 segundos de platos, bebidas o experiencias y un anuncio sencillo para captar reservas. Con una mañana tienes material para semanas de redes y una pieza lista para probar en Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, grabamos la parte que se controla mejor en estudio: producto en detalle, la voz del chef, del propietario o del director del hotel y las aperturas de los anuncios. El ambiente real del local se graba aparte, en tu sitio. Dirigimos la sesión con mentalidad de anuncios y de venta: cada clip tiene que provocar una reserva, no solo quedar bonito.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-restaurantes-hoteles-madrid/hero.webp",
+        alt: "Cocinero con chaquetilla blanca trabajando en la cocina de un restaurante",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué el vídeo decide la reserva en hostelería",
+      },
+      {
+        type: "paragraph",
+        text: "Nadie reserva mesa o habitación sin mirar antes cómo es. Una foto enseña el plato; un vídeo enseña el vapor, el corte, el sonido de la plancha o cómo se abre la puerta de una habitación. Eso es lo que convierte una búsqueda en una reserva.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, en Madrid la oferta es enorme y las fotos se parecen entre sí. Una persona real explicando qué hace distinto tu sitio, con una idea concreta, te diferencia más que otro vídeo de ambiente con música de fondo.",
+      },
+      {
+        type: "paragraph",
+        text: "Un matiz práctico: el estudio no sustituye a grabar en el local. Sirve para lo que necesita luz y sonido controlados, y la imagen del espacio real se complementa con material rodado en tu establecimiento.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo de presentación",
+      },
+      {
+        type: "paragraph",
+        text: "Va primero, cuando hay más energía. Estructura: quién eres, qué te diferencia, qué tiene que probar o vivir el cliente y cómo reservar. Con teleprompter para no perder el hilo, pero hablando como lo harías en la mesa. Si es tu primera vez delante de cámara, 4 o 5 tomas son normales.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips cortos de producto con una sola acción",
+      },
+      {
+        type: "paragraph",
+        text: "Entre 10 y 12 clips, cada uno con una acción: salsear un plato, cortar, servir una copa, abrir una caja de bienvenida del hotel. Con una Sony A7, un objetivo de 50 mm y luz suave controlada, el acabado es limpio y los clips se parecen entre sí, algo que ayuda a un feed coherente. Graba siempre en vertical y deja margen arriba y abajo para texto. Trae los platos preparados: la comida se enfría y pierde aspecto en minutos.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para un anuncio de reservas",
+      },
+      {
+        type: "paragraph",
+        text: "Elige la oferta que más quieres llenar, un menú de fin de semana o una escapada, y grábala con tres aperturas distintas: una pregunta, una imagen del producto y una afirmación directa. Es el mismo mensaje con 3 primeros segundos distintos y te permite probar en Meta Ads cuál abre mejor sin volver a grabar. Para repartir bien las horas, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-restaurantes-hoteles-madrid/mid.webp",
+        alt: "Recepción de un hotel con suelo de damero y barra de bar",
+        width: 1920,
+        height: 1280,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido de restaurantes y hoteles",
+      },
+      {
+        type: "list",
+        items: [
+          "Grabar solo ambiente y música, sin una persona que explique por qué reservar contigo.",
+          "Llegar sin los platos o productos listos y perder media sesión esperando.",
+          "Cambiar la luz entre clips, de modo que los colores de la comida no coinciden entre vídeos.",
+          "Prometer algo que luego no se cumple en el local, como un plato que ya no está en carta.",
+          "Grabar en horizontal pensando solo en la web y no tener material vertical para reels y TikTok.",
+          "Usar música con derechos sin comprobar la licencia antes de publicar o pagar un anuncio.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si lanzas carta nueva, abres un hotel o una temporada o necesitas renovar anuncios que han dejado de funcionar. Si aún no tienes la oferta definida, ordénala primero y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para un restaurante u hotel?",
+        answer:
+          "Entre 3 y 4 horas para un vídeo de presentación, 10 a 12 clips de producto y un anuncio con varias aperturas. Si además quieres grabar varias cartas o experiencias, es mejor un bloque de 5 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Se puede grabar el local en el estudio?",
+        answer:
+          "No, el estudio no sustituye a tu espacio. Aquí grabamos producto, voz y aperturas de anuncios con luz y sonido controlados. La imagen del local real se rueda aparte en tu establecimiento.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Tú traes los platos o productos, el vestuario y las ideas de los clips.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes un restaurante u hotel y quieres grabar en Madrid, escríbenos en /#contacto con tu propuesta y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
