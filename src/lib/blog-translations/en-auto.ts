@@ -3133,4 +3133,114 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-empresas-b2b-industriales-madrid": {
+    title: "Recording Video Content for B2B Industrial and Technical Companies in Madrid",
+    description:
+      "How to record content for a B2B industrial or technical company in a Madrid studio: which pieces to shoot, how to explain a complex product and how to prepare ads.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["B2B companies", "industry", "Madrid studio", "corporate content", "ads", "LinkedIn"],
+    keyword: "b2b industrial video content",
+    excerpt:
+      "A B2B buyer decides with several people over several weeks. What to record in a single Madrid session to explain your technical product, put a face on your team and test a lead-generation ad.",
+    seoTitle: "Video Content for B2B Industrial Companies in Madrid",
+    metaDescription:
+      "Video content for B2B industrial and technical companies in Madrid: what to record in a 4-hour session and how to explain a complex product on camera.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If your company sells a technical product to other businesses and you want to record content in Madrid, a 4-hour session with three pieces works best: a 2 to 3 minute corporate video, 6 to 8 clips of 40 to 60 seconds where an engineer or salesperson answers a real customer question, and a lead-generation ad for LinkedIn or Meta. Half a day gives you material for a quarter of communication and one ad ready to test.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, our team works with marketing teams and companies such as IFEMA, the Madrid Chamber of Commerce and Cinesa. In B2B, several people decide over several weeks, and each looks for something different: the engineer checks credibility, the director checks return. We direct the session with an ads and sales mindset: every piece has to bring a sales meeting closer, not just look good.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-empresas-b2b-industriales-madrid/hero.webp",
+        alt: "Worker operating a machine in an industrial plant",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Why video helps sell a technical B2B product" },
+      {
+        type: "paragraph",
+        text: "A datasheet says what your product does, but not who is behind it or how you solve a problem when something fails. A video in which a manager explains in two minutes what it is for, who it is for and the lead times shortens the first sales conversation, because the customer arrives with context.",
+      },
+      {
+        type: "paragraph",
+        text: "Most companies in the sector also publish plant photos and presentation videos with background music. If you record a person answering the question customers ask most, you stand out without a big production.",
+      },
+      {
+        type: "paragraph",
+        text: "A practical note: the studio doesn't replace your plant or your product in operation. Here we record voices, explanations and ads with controlled light and sound, and the real image of your facility is complemented with footage shot on site.",
+      },
+      { type: "heading", level: 2, text: "How to organise the recording session" },
+      { type: "heading", level: 3, text: "Start with the corporate video" },
+      {
+        type: "paragraph",
+        text: "It goes first, when the spokesperson has the most energy. Structure: what problem the company solves, for whom, what makes it different and how to ask for a meeting. Use a teleprompter so you don't lose the thread, but speak as you would on a customer visit. If it's your first time on camera, 4 or 5 takes are normal.",
+      },
+      { type: "heading", level: 3, text: "Record clips that answer one customer question" },
+      {
+        type: "paragraph",
+        text: "6 to 8 clips, each with one real question: how long an installation takes, what maintenance it needs, how it differs from another solution. With a Sony A7 in horizontal and vertical and a lavalier microphone, one clip every 8 minutes is a realistic pace. If you can't give a price, give a range and explain what it depends on. Bring the product or a small part to show in hand.",
+      },
+      { type: "heading", level: 3, text: "Set aside a block for a lead-generation ad" },
+      {
+        type: "paragraph",
+        text: "If you plan to invest in LinkedIn or Meta Ads to get meetings, record a 30 to 45 second piece with three different openings: a customer question, a concrete figure and a direct statement. It's the same message with 3 different first seconds, and it lets you test which opens best without recording again. To split the hours well, read /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-empresas-b2b-industriales-madrid/mid.webp",
+        alt: "Vintage camera on a desk with a person working in the background",
+        width: 1920,
+        height: 1273,
+      },
+      { type: "heading", level: 2, text: "Common mistakes when recording B2B industrial content" },
+      {
+        type: "list",
+        items: [
+          "Talking about the company instead of the customer's problem, with lines like we are leaders in the sector.",
+          "Using acronyms and technical jargon without explaining them to whoever signs off the budget.",
+          "Recording a single 8-minute video instead of short pieces that can be published for weeks.",
+          "Having the director read corporate text in a press-release tone.",
+          "Promising lead times or savings that the sales team can't later deliver.",
+          "Showing recognisable clients or facilities without written permission.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if your sales cycle is long and you need to be understood before the first meeting. If you're not yet clear who decides the purchase at your customer, define that profile first and then record.",
+      },
+      { type: "heading", level: 2, text: "Frequently asked questions" },
+      {
+        type: "faq",
+        question: "How long does a session last for a technical B2B company?",
+        answer: "Between 3 and 4 hours for a corporate video, 6 to 8 customer-question clips and an ad with several openings. If there are several spokespeople or products, a 5-hour block is better.",
+      },
+      {
+        type: "faq",
+        question: "Can you record my plant or my product in operation?",
+        answer: "No, the studio doesn't replace your facility. Here we record voices, explanations and ads with controlled light and sound. The image of your plant is shot separately at your premises.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own equipment?",
+        answer: "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You bring the script, your outfit and, if you have one, the product or a sample to show.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver edited videos?",
+        answer: "It depends on the service. With Recording Only you take the raw footage. With Recording + Editing we edit in DaVinci Resolve and CapCut with subtitles and platform formats. With Full Production we also handle the script and strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If your company is technical B2B and you want to record in Madrid, write to us at /#contacto with your product and the kind of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }

@@ -171,6 +171,7 @@ export const EN_BLOG_SLUGS: Record<string, string> = {
   "grabar-contenido-rrhh-headhunters-madrid": "hr-recruiting-headhunter-video-content-madrid",
   "grabar-contenido-marcas-moda-belleza-madrid": "fashion-beauty-brand-video-content-madrid",
   "grabar-contenido-restaurantes-hoteles-madrid": "restaurant-hotel-video-content-madrid",
+  "grabar-contenido-empresas-b2b-industriales-madrid": "b2b-industrial-video-content-madrid",
 }
 
 const EN_PATH_TO_ES: Record<string, string> = Object.fromEntries([

@@ -14039,6 +14039,151 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-empresas-b2b-industriales-madrid",
+    title: "Grabar contenido para empresas B2B industriales y técnicas en Madrid",
+    description:
+      "Cómo grabar contenido para una empresa B2B industrial o técnica en un estudio de Madrid: qué piezas grabar, cómo explicar un producto complejo y cómo preparar anuncios.",
+    publishedAt: "2026-11-13",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["empresas B2B", "industria", "estudio madrid", "contenido corporativo", "anuncios", "LinkedIn"],
+    keyword: "grabar contenido para empresas b2b industriales y tecnicas en madrid",
+    intent: "informacional",
+    excerpt:
+      "Un comprador B2B decide con varias personas y semanas de por medio. Qué grabar en una sola sesión en Madrid para explicar tu producto técnico, dar cara a tu equipo y probar un anuncio de captación.",
+    seoTitle: "Grabar contenido para empresas B2B industriales en Madrid",
+    metaDescription:
+      "Grabar contenido para empresas B2B industriales y técnicas en Madrid: qué piezas grabar en una sesión de 4 horas y cómo explicar un producto complejo.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si tu empresa vende un producto técnico a otras empresas y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 4 horas con tres piezas: un vídeo corporativo de 2 a 3 minutos, entre 6 y 8 clips de 40 a 60 segundos donde un técnico o comercial explica una duda real de cliente y un anuncio de captación para LinkedIn o Meta. Con media jornada tienes material para un trimestre de comunicación y una pieza lista para probar.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, trabajamos con equipos de marketing y empresas como IFEMA, la Cámara de Comercio de Madrid o Cinesa. En B2B la compra la deciden varias personas durante semanas, y cada una busca algo distinto: el técnico mira la solvencia, el director el retorno. Dirigimos la sesión con mentalidad de anuncios y de venta: cada pieza tiene que acercar una reunión comercial, no solo verse bien.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-empresas-b2b-industriales-madrid/hero.webp",
+        alt: "Operario trabajando con una máquina en una planta industrial",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué el vídeo ayuda a vender un producto B2B técnico",
+      },
+      {
+        type: "paragraph",
+        text: "Una ficha técnica dice qué hace tu producto, pero no quién está detrás ni cómo resuelves un problema cuando algo falla. Un vídeo en el que un responsable explica en dos minutos para qué sirve, a quién y con qué plazos, acorta la primera conversación comercial, porque el cliente ya llega con contexto.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, la mayoría de empresas del sector publican fotos de planta y vídeos de presentación con música de fondo. Si grabas a una persona respondiendo la pregunta que más te hacen los clientes, te diferencias sin necesidad de grandes producciones.",
+      },
+      {
+        type: "paragraph",
+        text: "Un matiz práctico: el estudio no sustituye a tu planta ni a tu producto en funcionamiento. Aquí grabamos las voces, las explicaciones y los anuncios con luz y sonido controlados, y la imagen real de tu instalación se complementa con material grabado in situ.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo corporativo",
+      },
+      {
+        type: "paragraph",
+        text: "Va primero, cuando el portavoz tiene más energía. Estructura: qué problema resuelve la empresa, para quién, qué la hace distinta y cómo pedir una reunión. Con teleprompter para no perder el hilo, pero hablando como lo harías en una visita a cliente. Si es la primera vez delante de cámara, 4 o 5 tomas son normales.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips de una sola duda de cliente",
+      },
+      {
+        type: "paragraph",
+        text: "Entre 6 y 8 clips, cada uno con una pregunta real: cuánto tarda una instalación, qué mantenimiento exige, en qué se diferencia de otra solución. Con una Sony A7 en horizontal y vertical, y micrófono de solapa, un clip cada 8 minutos es un ritmo realista. Si no puedes dar un precio, da un rango y explica de qué depende. Trae el producto o una pieza pequeña para enseñarlo en mano.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para un anuncio de captación",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a invertir en LinkedIn o Meta Ads para conseguir reuniones, graba una pieza de 30 a 45 segundos con tres aperturas distintas: una pregunta del cliente, una cifra concreta y una afirmación directa. Es el mismo mensaje con 3 primeros segundos diferentes, y permite probar cuál abre mejor sin volver a grabar. Para repartir bien las horas, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-empresas-b2b-industriales-madrid/mid.webp",
+        alt: "Cámara antigua sobre un escritorio con una persona trabajando al fondo",
+        width: 1920,
+        height: 1273,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido B2B industrial",
+      },
+      {
+        type: "list",
+        items: [
+          "Hablar de la empresa en lugar del problema del cliente, con frases como somos líderes en el sector.",
+          "Usar siglas y jerga técnica sin explicarlas a quien decide el presupuesto.",
+          "Grabar un único vídeo de 8 minutos en vez de piezas cortas que se puedan publicar durante semanas.",
+          "Poner al director a leer un texto corporativo con tono de nota de prensa.",
+          "Prometer plazos o ahorros que el equipo comercial luego no puede cumplir.",
+          "Enseñar clientes o instalaciones reconocibles sin permiso por escrito.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si tu ciclo de venta es largo y necesitas que te entiendan antes de la primera reunión. Si todavía no tienes claro quién decide la compra en tu cliente, define primero ese perfil y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para una empresa B2B técnica?",
+        answer:
+          "Entre 3 y 4 horas para un vídeo corporativo, 6 a 8 clips de dudas de cliente y un anuncio con varias aperturas. Si hay varios portavoces o varios productos, mejor un bloque de 5 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Podéis grabar mi planta o mi producto en funcionamiento?",
+        answer:
+          "No, el estudio no sustituye a tu instalación. Aquí grabamos voces, explicaciones y anuncios con luz y sonido controlados. La imagen de tu planta se graba aparte, en tus instalaciones.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y, si lo hay, el producto o una muestra para enseñar.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tu empresa es B2B técnica y quieres grabar en Madrid, escríbenos en /#contacto con tu producto y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

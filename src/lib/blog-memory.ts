@@ -1072,6 +1072,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en consulta 90d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: Prioridad 1, 2 y rotación público extranjero agotadas, se elige vertical nuevo (restaurantes y hoteles), hermano de moda y belleza y ecommerce; sin cubrir en memoria. Imágenes Unsplash (Pylyp Sukhenko, Steven Van Elk). EN publicado en el mismo commit.",
   },
+  {
+    slug: "grabar-contenido-empresas-b2b-industriales-madrid",
+    keyword: "grabar contenido para empresas b2b industriales y tecnicas en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-13",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en consultas 90d y 28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: Prioridad 1, 2 y rotación público extranjero agotadas, se elige vertical nuevo (B2B industrial y técnico), hermano de los verticales por sector; sin cubrir en memoria. Imágenes Unsplash (Cemrecan Yurtman, Evgeniy Bezkorovayniy). EN publicado en el mismo commit.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
