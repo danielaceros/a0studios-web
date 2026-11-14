@@ -3243,4 +3243,114 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-corredurias-seguros-madrid": {
+    title: "Recording Content for Insurance Brokers and Agents in Madrid",
+    description:
+      "How to record content for an insurance brokerage or agent in a Madrid studio: which pieces to shoot, how to explain a policy clearly and how to prepare ads.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["insurance brokers", "insurance agents", "Madrid studio", "organic content", "ads", "LinkedIn"],
+    keyword: "insurance broker video content madrid",
+    excerpt:
+      "Nobody buys insurance from someone they don't understand. What to record in a single session in Madrid to explain coverage clearly, put a face to your brokerage and test a lead-generation ad.",
+    seoTitle: "Video Content for Insurance Brokers in Madrid",
+    metaDescription:
+      "Video content for insurance brokers and agents in Madrid: which pieces to record in a 3-hour session and how to explain a policy clearly on camera.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you run an insurance brokerage or work as an agent and want to record content in Madrid, what works best is a 3-hour session with three pieces: a 2 to 3 minute intro video, 8 to 10 clips of 40 to 60 seconds answering a real client question and a simple ad to bring in quote requests. One morning gives you weeks of social content and a piece ready to test on Meta Ads or LinkedIn.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, we work with professionals whose service is chosen on trust and clarity. Insurance is a product nobody wants to study, and whoever explains in two minutes what a policy covers keeps the client. Our team directs the session with an ads and sales mindset, without promising coverage or prices you can't later deliver.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-corredurias-seguros-madrid/hero.webp",
+        alt: "Two smiling men reviewing documents at an office desk",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      { type: "heading", level: 2, text: "Why video helps sell insurance" },
+      {
+        type: "paragraph",
+        text: "A comparison site can give a price, but it can't tell you what happens after a claim or who picks up the phone. A video where an agent explains with real examples what a home or freelancer policy covers, and what usually falls outside it, conveys exactly what the comparison site doesn't: judgement and a familiar face.",
+      },
+      {
+        type: "paragraph",
+        text: "Most brokerages also publish generic images of smiling families and lines like your peace of mind comes first. If you record a person answering the question clients ask most, such as what happens if my insurance doesn't cover a breakdown, you stand out without a big production.",
+      },
+      {
+        type: "paragraph",
+        text: "One important point: the sector has rules on how coverage and prices are communicated. Record general explanations and indicative examples, and have your compliance team or legal adviser review the script before publishing or putting budget behind an ad.",
+      },
+      { type: "heading", level: 2, text: "How to organise the recording session" },
+      { type: "heading", level: 3, text: "Start with the intro video" },
+      {
+        type: "paragraph",
+        text: "It goes first, when the spokesperson has the most energy. Structure: who you are, which kind of client you help, what sets you apart from a comparison site and how to ask for a quote. Use a teleprompter so you don't lose the thread, but speak as you would in your office. If it's your first time on camera, 4 or 5 takes are normal.",
+      },
+      { type: "heading", level: 3, text: "Record clips that answer a single client question" },
+      {
+        type: "paragraph",
+        text: "8 to 10 clips, each with one real question: what home insurance covers, what a deductible is, what to do in the first 24 hours after a claim. With a Sony A7 shooting horizontal and vertical, and a lavalier microphone, one clip every 8 minutes is a realistic pace. Bring an anonymised claim form or policy to show on screen and point at one specific clause.",
+      },
+      { type: "heading", level: 3, text: "Set aside a block for a lead-generation ad" },
+      {
+        type: "paragraph",
+        text: "Pick the product you most want to sell, for example freelancer insurance, and record a 30 to 45 second piece with three different openings: a question, an everyday situation and a direct statement. It's the same message with 3 different first seconds, and it lets you test which opens best without recording again. To split the hours well, read /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-corredurias-seguros-madrid/mid.webp",
+        alt: "Two colleagues reviewing documents at an office desk",
+        width: 1920,
+        height: 1080,
+      },
+      { type: "heading", level: 2, text: "Common mistakes when recording insurance content" },
+      {
+        type: "list",
+        items: [
+          "Using policy jargon, such as clause or net premium, without explaining it in one sentence.",
+          "Promising everything is covered when every contract has exclusions.",
+          "Using fear as the only argument, with lines like imagine something happens to you.",
+          "Recording a single 6-minute video instead of short pieces that can be published over weeks.",
+          "Quoting fixed prices on video when they depend on each client profile.",
+          "Showing documents with real client data without anonymising them.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if you compete against comparison sites and direct insurers and your value is in the advice. If you don't yet know which client you are speaking to, define that profile first and then record.",
+      },
+      { type: "heading", level: 2, text: "Frequently asked questions" },
+      {
+        type: "faq",
+        question: "How long does a session last for an insurance brokerage?",
+        answer: "Between 3 and 4 hours for an intro video, 8 to 10 clips answering client questions and an ad with several openings. If there are several agents or several lines of business, a 5-hour block is better.",
+      },
+      {
+        type: "faq",
+        question: "Can I talk about prices and coverage in the video?",
+        answer: "It's better to explain coverage in general terms and give indicative ranges. Fixed prices depend on each client, and your compliance team should review the script before publishing.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own equipment?",
+        answer: "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You bring the script, your outfit and, if you want to show one, an anonymised policy.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver edited videos?",
+        answer: "It depends on the service. With Recording Only you take the raw footage. With Recording + Editing we edit in DaVinci Resolve and CapCut with subtitles and platform formats. With Full Production we also handle the script and strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you run an insurance brokerage or work as an agent and want to record in Madrid, write to us at /#contacto with your main line of business and the kind of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }

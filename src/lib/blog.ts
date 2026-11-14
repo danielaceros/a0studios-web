@@ -14184,6 +14184,151 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-corredurias-seguros-madrid",
+    title: "Grabar contenido para corredurías y mediadores de seguros en Madrid",
+    description:
+      "Cómo grabar contenido para una correduría o un mediador de seguros en un estudio de Madrid: qué piezas grabar, cómo explicar una póliza con claridad y cómo preparar anuncios.",
+    publishedAt: "2026-11-14",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["corredurías de seguros", "mediadores", "estudio madrid", "contenido orgánico", "anuncios", "LinkedIn"],
+    keyword: "grabar contenido para corredurias de seguros y mediadores en madrid",
+    intent: "informacional",
+    excerpt:
+      "Nadie compra un seguro a quien no entiende. Qué grabar en una sola sesión en Madrid para explicar coberturas con claridad, dar cara a tu correduría y probar un anuncio de captación.",
+    seoTitle: "Grabar contenido para corredurías de seguros en Madrid",
+    metaDescription:
+      "Grabar contenido para corredurías y mediadores de seguros en Madrid: qué piezas grabar en una sesión de 3 horas y cómo explicar una póliza con claridad.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si tienes una correduría o eres mediador de seguros y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 3 horas con tres piezas: un vídeo de presentación de 2 a 3 minutos, entre 8 y 10 clips de 40 a 60 segundos que resuelvan una duda real de cliente y un anuncio sencillo para captar peticiones de presupuesto. Con una mañana tienes material para semanas de redes y una pieza lista para probar en Meta Ads o LinkedIn.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, trabajamos con profesionales cuyo servicio se decide por confianza y por claridad. El seguro es un producto que nadie quiere estudiar, y quien explica bien en dos minutos lo que cubre una póliza se queda con el cliente. Dirigimos la sesión con mentalidad de anuncios y de venta, sin prometer coberturas ni precios que luego no puedas cumplir.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-corredurias-seguros-madrid/hero.webp",
+        alt: "Dos hombres sonrientes revisan documentos en un escritorio de oficina",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué el vídeo ayuda a vender seguros",
+      },
+      {
+        type: "paragraph",
+        text: "Un comparador puede dar un precio, pero no puede decirte qué pasa cuando hay un siniestro ni quién te coge el teléfono. Un vídeo en el que un mediador explica con ejemplos reales qué cubre una póliza de hogar o de autónomos, y qué suele quedar fuera, transmite justo lo que el comparador no ofrece: criterio y una cara conocida.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, casi todas las corredurías publican imágenes genéricas de familias sonriendo y frases como tu tranquilidad es lo primero. Si grabas a una persona respondiendo la pregunta que más te hacen, como qué pasa si mi seguro no cubre una avería, te diferencias sin una gran producción.",
+      },
+      {
+        type: "paragraph",
+        text: "Un matiz importante: el sector tiene normas sobre cómo se comunican coberturas y precios. Graba explicaciones generales y ejemplos orientativos, y que tu equipo de cumplimiento o tu asesor jurídico revise el guion antes de publicar o de invertir en un anuncio.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo de presentación",
+      },
+      {
+        type: "paragraph",
+        text: "Va primero, cuando el portavoz tiene más energía. Estructura: quién eres, a qué tipo de cliente ayudas, qué te diferencia de un comparador y cómo pedir presupuesto. Con teleprompter para no perder el hilo, pero hablando como lo harías en tu oficina. Si es la primera vez delante de cámara, 4 o 5 tomas son normales.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips de una sola duda de cliente",
+      },
+      {
+        type: "paragraph",
+        text: "Entre 8 y 10 clips, cada uno con una pregunta real: qué cubre un seguro de hogar, qué es la franquicia, qué hacer en las primeras 24 horas tras un siniestro. Con una Sony A7 en horizontal y vertical, y micrófono de solapa, un clip cada 8 minutos es un ritmo realista. Trae un parte o una póliza anonimizada para enseñarla en pantalla y señalar un punto concreto.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para un anuncio de captación",
+      },
+      {
+        type: "paragraph",
+        text: "Elige el producto que más quieres vender, por ejemplo un seguro para autónomos, y graba una pieza de 30 a 45 segundos con tres aperturas distintas: una pregunta, una situación habitual y una afirmación directa. Es el mismo mensaje con 3 primeros segundos diferentes, y permite probar cuál abre mejor sin volver a grabar. Para repartir bien las horas, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-corredurias-seguros-madrid/mid.webp",
+        alt: "Dos compañeros revisan documentos en una mesa de oficina",
+        width: 1920,
+        height: 1080,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido de seguros",
+      },
+      {
+        type: "list",
+        items: [
+          "Hablar con jerga de póliza, como cláusula o prima neta, sin explicarla en una frase.",
+          "Prometer que todo está cubierto cuando cada contrato tiene exclusiones.",
+          "Usar miedo como único argumento, con frases del tipo imagina que te pasa algo.",
+          "Grabar un único vídeo de 6 minutos en vez de piezas cortas que se puedan publicar durante semanas.",
+          "Dar precios cerrados en vídeo cuando dependen de cada perfil de cliente.",
+          "Mostrar documentos con datos de clientes reales sin anonimizarlos.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si compites contra comparadores y aseguradoras directas y tu valor está en el asesoramiento. Si todavía no tienes claro a qué cliente te diriges, define primero ese perfil y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para una correduría de seguros?",
+        answer:
+          "Entre 3 y 4 horas para un vídeo de presentación, 8 a 10 clips de dudas de cliente y un anuncio con varias aperturas. Si hay varios mediadores o varios ramos, mejor un bloque de 5 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo hablar de precios y coberturas en el vídeo?",
+        answer:
+          "Mejor explicar coberturas de forma general y dar rangos orientativos. Los precios cerrados dependen de cada cliente, y conviene que tu equipo de cumplimiento revise el guion antes de publicar.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y, si quieres enseñarla, una póliza anonimizada.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes una correduría o eres mediador de seguros y quieres grabar en Madrid, escríbenos en /#contacto con tu ramo principal y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
