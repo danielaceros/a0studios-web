@@ -14329,6 +14329,151 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-ponentes-speakers-formadores-madrid",
+    title: "Grabar contenido para ponentes, speakers y formadores en Madrid",
+    description:
+      "Cómo grabar contenido como ponente, speaker o formador en un estudio de Madrid: qué piezas grabar, cómo preparar un vídeo de demostración y cómo cerrar más charlas.",
+    publishedAt: "2026-11-15",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["ponentes", "speakers", "formadores", "estudio madrid", "contenido orgánico", "marca personal"],
+    keyword: "grabar contenido para ponentes speakers y formadores en madrid",
+    intent: "informacional",
+    excerpt:
+      "Quien contrata a un ponente quiere verlo hablar antes de confirmar. Qué grabar en una sola sesión en Madrid para tener vídeo de demostración, clips de tus ideas y un anuncio para captar charlas.",
+    seoTitle: "Grabar contenido para ponentes y formadores en Madrid",
+    metaDescription:
+      "Grabar contenido para ponentes, speakers y formadores en Madrid: qué piezas grabar en una sesión de 3 horas y cómo preparar un vídeo de demostración.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si eres ponente, speaker o formador y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 3 horas con tres piezas: un vídeo de demostración de 2 a 3 minutos, entre 8 y 10 clips de 30 a 60 segundos con tus ideas más claras y un anuncio sencillo para captar peticiones de charla o de formación. Con una mañana tienes material para semanas de redes y algo que enviar a organizadores de eventos y departamentos de formación.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, trabajamos con profesionales que venden su forma de explicar. Quien te contrata para un evento o un curso quiere ver cómo hablas, cómo conectas y qué pasa cuando hay público delante. Dirigimos la sesión con mentalidad de anuncios y de venta: el objetivo no es lucirte, es que alguien confirme la fecha.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-ponentes-speakers-formadores-madrid/hero.webp",
+        alt: "Micrófono plateado con cable en primer plano sobre fondo desenfocado",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué el vídeo ayuda a cerrar más charlas",
+      },
+      {
+        type: "paragraph",
+        text: "Un organizador que tiene que elegir entre cinco ponentes no lee cinco biografías. Abre el vídeo de demostración y decide en 30 segundos si encajas con su público. Si no tienes uno, compites solo con un currículum, y en este sector el currículum se parece mucho entre candidatos.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, muchas charlas se graban con el móvil desde la última fila: mal sonido, mala luz y un plano general que no te favorece. Una pieza grabada en estudio, con micrófono de solapa y buen plano, enseña tu estilo sin las condiciones de una sala llena. Se puede mostrar al principio de un presupuesto o dentro de un correo en frío.",
+      },
+      {
+        type: "paragraph",
+        text: "Un matiz: un estudio no sustituye tu presencia en directo. Graba la versión corta y clara de tus ideas, no la charla completa. Si tienes material de eventos reales, úsalo como complemento, no como pieza principal.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo de demostración",
+      },
+      {
+        type: "paragraph",
+        text: "Va primero, cuando tienes más energía. Estructura: tema sobre el que hablas, a qué tipo de público, una idea potente en 60 segundos y cómo contratarte. Con teleprompter para no perder el hilo, pero con el ritmo de quien habla de pie ante una sala. Si es la primera vez delante de cámara, 4 o 5 tomas son normales.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips de una sola idea",
+      },
+      {
+        type: "paragraph",
+        text: "Entre 8 y 10 clips, cada uno con una idea de tu charla: un error frecuente, un ejemplo, una pregunta que lanzas al público. Con una Sony A7 en horizontal y vertical, y micrófono de solapa, un clip cada 8 minutos es un ritmo realista. Si formas a equipos, graba también una mini lección de 60 segundos que sirva de muestra gratuita.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para un anuncio de captación",
+      },
+      {
+        type: "paragraph",
+        text: "Elige la charla o el curso que más quieres vender y graba una pieza de 30 a 45 segundos con tres aperturas distintas: una pregunta al público, un problema habitual de las empresas y una afirmación directa. Es el mismo mensaje con 3 primeros segundos diferentes, y permite probar cuál abre mejor en Meta Ads o LinkedIn sin volver a grabar. Para repartir bien las horas, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-ponentes-speakers-formadores-madrid/mid.webp",
+        alt: "Mujer de espaldas escribiendo con rotulador en una pizarra blanca llena de esquemas",
+        width: 1920,
+        height: 1258,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido de formación",
+      },
+      {
+        type: "list",
+        items: [
+          "Intentar condensar toda la charla en un solo vídeo de 10 minutos en vez de piezas cortas.",
+          "Leer el guion como si fuera un discurso, sin hablar a una persona concreta.",
+          "Empezar con una biografía larga en lugar de con una idea que enganche.",
+          "Grabar sin pensar en el cliente que contrata, es decir, el organizador o el responsable de formación.",
+          "Mostrar diapositivas llenas de texto que no se leen en vertical.",
+          "No grabar ninguna pieza pensada para anuncio y depender solo del boca a boca.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si ya das charlas o cursos y quieres que te contraten con más frecuencia o a mejor precio. Si todavía no tienes claro a qué público hablas, define primero ese perfil y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para un ponente o formador?",
+        answer:
+          "Entre 3 y 4 horas para un vídeo de demostración, 8 a 10 clips de ideas y un anuncio con varias aperturas. Si das varias charlas con temas distintos, mejor un bloque de 5 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar una charla completa en el estudio?",
+        answer:
+          "Se puede, pero rinde menos que piezas cortas. Una charla de una hora sin público pierde energía. Es mejor grabar versiones de 1 a 3 minutos de tus ideas clave y usar el material de eventos reales como complemento.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y, si lo necesitas, una pizarra o un objeto para apoyar la explicación.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si eres ponente, speaker o formador y quieres grabar en Madrid, escríbenos en /#contacto con tu tema principal y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

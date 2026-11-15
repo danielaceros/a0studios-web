@@ -3353,4 +3353,146 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-ponentes-speakers-formadores-madrid": {
+    title: "Recording Video Content for Speakers, Trainers and Keynote Presenters in Madrid",
+    description:
+      "How to record content as a speaker, trainer or keynote presenter in a Madrid studio: which pieces to shoot, how to prepare a demo reel and how to book more talks.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["speakers", "trainers", "keynote", "Madrid studio", "organic content", "personal brand"],
+    keyword: "speaker demo video madrid",
+    excerpt:
+      "Whoever books a speaker wants to see them in action first. What to record in a single Madrid session: a demo reel, clips of your ideas and an ad to bring in talk requests.",
+    seoTitle: "Speaker and Trainer Video Content in Madrid",
+    metaDescription:
+      "Video content for speakers, trainers and keynote presenters in Madrid: what to record in a 3-hour session and how to prepare a demo reel that books talks.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you are a speaker, trainer or keynote presenter and want to record content in Madrid, the best format is a 3-hour session with three pieces: a 2 to 3 minute demo reel, 8 to 10 clips of 30 to 60 seconds with your clearest ideas, and a simple ad to bring in talk or training requests. One morning gives you weeks of social content and something to send to event organizers and learning teams.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, our team works with professionals who sell the way they explain things. Whoever books you for an event or a course wants to see how you speak, how you connect and what happens with an audience in front of you. We direct the session with an ads and sales mindset: the goal isn't to make you look good, it's for someone to confirm the date.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-ponentes-speakers-formadores-madrid/hero.webp",
+        alt: "Close-up of a silver corded microphone against a blurred background",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why video helps you book more talks",
+      },
+      {
+        type: "paragraph",
+        text: "An organizer choosing between five speakers doesn't read five bios. They open the demo reel and decide within 30 seconds whether you fit their audience. Without one, you compete on a résumé alone, and in this field résumés look very similar.",
+      },
+      {
+        type: "paragraph",
+        text: "Also, many talks get filmed on a phone from the back row: poor sound, poor light and a wide shot that doesn't do you justice. A piece recorded in a studio, with a lavalier microphone and a good frame, shows your style without the conditions of a full room. It can open a quote or sit inside a cold email.",
+      },
+      {
+        type: "paragraph",
+        text: "One caveat: a studio doesn't replace live presence. Record the short, clear version of your ideas, not the full talk. If you have footage from real events, use it as a complement, not as the main piece.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to organize the recording session",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Start with the demo reel",
+      },
+      {
+        type: "paragraph",
+        text: "It goes first, while your energy is highest. Structure: the topic you speak about, for which audience, one strong idea in 60 seconds and how to book you. Use a teleprompter so you don't lose the thread, but keep the rhythm of someone standing in front of a room. If it's your first time on camera, 4 or 5 takes are normal.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Record single-idea clips",
+      },
+      {
+        type: "paragraph",
+        text: "Between 8 and 10 clips, each with one idea from your talk: a common mistake, an example, a question you throw to the audience. With a Sony A7 in horizontal and vertical and a lavalier microphone, one clip every 8 minutes is a realistic pace. If you train teams, also record a 60-second mini lesson that works as a free sample.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Set aside a block for a lead-generation ad",
+      },
+      {
+        type: "paragraph",
+        text: "Pick the talk or course you most want to sell and record a 30 to 45 second piece with three different openings: a question to the audience, a common company problem and a direct statement. It's the same message with 3 different first seconds, so you can test which opens best on Meta Ads or LinkedIn without recording again. To split the hours well, see /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-ponentes-speakers-formadores-madrid/mid.webp",
+        alt: "Woman seen from behind writing with a marker on a white board full of diagrams",
+        width: 1920,
+        height: 1258,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Common mistakes when recording training content",
+      },
+      {
+        type: "list",
+        items: [
+          "Trying to squeeze the whole talk into one 10-minute video instead of short pieces.",
+          "Reading the script like a speech, without talking to one specific person.",
+          "Opening with a long bio instead of an idea that hooks.",
+          "Recording without thinking about the buyer, meaning the organizer or the head of learning.",
+          "Showing text-heavy slides that can't be read in vertical format.",
+          "Recording no piece designed for ads and relying only on word of mouth.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if you already give talks or courses and want to be booked more often or at a better rate. If you're not yet clear on which audience you speak to, define that profile first and then record.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently asked questions",
+      },
+      {
+        type: "faq",
+        question: "How long is a session for a speaker or trainer?",
+        answer:
+          "Between 3 and 4 hours for a demo reel, 8 to 10 idea clips and an ad with several openings. If you give several talks on different topics, a 5-hour block is better.",
+      },
+      {
+        type: "faq",
+        question: "Can I record a full talk in the studio?",
+        answer:
+          "You can, but it performs worse than short pieces. A one-hour talk with no audience loses energy. It's better to record 1 to 3 minute versions of your key ideas and use real event footage as a complement.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own equipment?",
+        answer:
+          "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You only bring the script, your outfit and, if needed, a board or an object to support your explanation.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver edited videos?",
+        answer:
+          "It depends on the service. With Recording Only you take the raw footage. With Recording + Editing we edit in DaVinci Resolve and CapCut with subtitles and platform formats. With Full Production we also handle the script and the strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you are a speaker, trainer or keynote presenter and want to record in Madrid, write to us at /#contacto with your main topic and the kind of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }

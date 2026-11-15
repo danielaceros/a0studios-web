@@ -1090,6 +1090,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en consulta 28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: Prioridad 1, 2 y rotación público extranjero agotadas, se elige vertical nuevo (corredurías y mediadores de seguros), hermano de los verticales por sector; sin cubrir en memoria. Imágenes Unsplash (Md Ishak Rahman, Vitaly Gariev). EN publicado en el mismo commit.",
   },
+  {
+    slug: "grabar-contenido-ponentes-speakers-formadores-madrid",
+    keyword: "grabar contenido para ponentes speakers y formadores en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-15",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en consultas 90d y 28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: Prioridad 1, 2 y rotación público extranjero agotadas, se elige vertical nuevo (ponentes, speakers y formadores), hermano de los verticales por sector; sin cubrir en memoria. Imágenes Unsplash (Kane Reinholdtsen, Jeswin Thomas). EN publicado en el mismo commit.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
