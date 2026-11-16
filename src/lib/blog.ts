@@ -14474,6 +14474,151 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-reformas-construccion-madrid",
+    title: "Grabar contenido para empresas de reformas y construcción en Madrid",
+    description:
+      "Cómo grabar contenido para una empresa de reformas o construcción en un estudio de Madrid: qué piezas grabar, cómo explicar un presupuesto en vídeo y cómo captar más obras.",
+    publishedAt: "2026-11-16",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["reformas", "construcción", "estudio madrid", "meta ads", "contenido orgánico", "captación de clientes"],
+    keyword: "grabar contenido para empresas de reformas y construccion en madrid",
+    intent: "informacional",
+    excerpt:
+      "Quien va a reformar su casa busca a alguien de confianza antes de pedir presupuesto. Qué grabar en una sola sesión en Madrid para explicar cómo trabajas, resolver dudas y captar más obras.",
+    seoTitle: "Grabar contenido para empresas de reformas en Madrid",
+    metaDescription:
+      "Grabar contenido para empresas de reformas y construcción en Madrid: qué piezas grabar en una sesión de 3 horas y cómo explicar un presupuesto en vídeo.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si tienes una empresa de reformas o construcción y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 3 horas con tres piezas: un vídeo de presentación de 2 minutos donde explicas cómo trabajas, entre 8 y 10 clips de 30 a 60 segundos que respondan dudas típicas de quien va a reformar y un anuncio sencillo para captar peticiones de presupuesto. Con una mañana tienes material para semanas de redes y para tus campañas.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, grabamos a quien vive de ganarse la confianza del cliente. Una reforma es una compra grande y con miedo: miedo a los retrasos, a que el presupuesto se dispare, a que desaparezca el contratista. Dirigimos la sesión con mentalidad de anuncios y de venta: el objetivo es que quien te ve piense que contigo no le va a pasar.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-reformas-construccion-madrid/hero.webp",
+        alt: "Hombre de pie delante de una ingletadora en un taller de carpintería",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué el vídeo funciona en el sector de las reformas",
+      },
+      {
+        type: "paragraph",
+        text: "Quien reforma compara entre tres o cuatro empresas con fotos de obras casi idénticas. Lo que casi nadie enseña es a la persona que dirige el trabajo hablando claro de plazos, materiales y qué puede salir mal. Ese vídeo diferencia más que otra galería de antes y después.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, las fotos de obra son material de calidad variable: se hacen con el móvil entre un trabajo y otro. Una pieza grabada en estudio, con buen sonido y buena luz, da una imagen de empresa seria y ordenada, y deja que luego muestres las obras reales como prueba. Funciona como complemento de tu web y como primer contacto antes de la visita.",
+      },
+      {
+        type: "paragraph",
+        text: "Un matiz: en estudio no grabamos la obra. Grabamos a quien la explica. Las imágenes de obra reales las aportas tú, y las integramos en el montaje cuando contratas edición.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo de presentación",
+      },
+      {
+        type: "paragraph",
+        text: "Estructura: quién eres, qué tipo de reformas haces (integrales, baños, cocinas, locales), cómo es el proceso desde la visita hasta la entrega y cómo pedir presupuesto. Dura 2 minutos, con teleprompter para no perder el hilo, pero con el tono de quien habla con un cliente en su salón. Si es la primera vez delante de cámara, 4 o 5 tomas son normales.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips que respondan una duda",
+      },
+      {
+        type: "paragraph",
+        text: "Entre 8 y 10 clips, cada uno con una pregunta real: cuánto dura una reforma integral, qué licencias hacen falta, por qué un presupuesto es más barato que otro, qué se puede hacer con el piso habitado. Con una Sony A7 en horizontal y vertical, y micrófono de solapa, un clip cada 8 minutos es un ritmo realista. Son piezas que responden lo que la gente busca antes de llamar.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para un anuncio de captación",
+      },
+      {
+        type: "paragraph",
+        text: "Elige el servicio que más quieres vender, por ejemplo la reforma integral de pisos, y graba una pieza de 30 a 45 segundos con tres aperturas distintas: una pregunta, un miedo habitual del cliente y una afirmación directa. Es el mismo mensaje con 3 primeros segundos diferentes, y permite probar cuál abre mejor en Meta Ads sin volver a grabar. Para repartir bien las horas, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-reformas-construccion-madrid/mid.webp",
+        alt: "Planos de arquitectura con lápices de dibujo técnico y una regla metálica sobre una mesa",
+        width: 1920,
+        height: 1292,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido de reformas",
+      },
+      {
+        type: "list",
+        items: [
+          "Hablar solo de materiales y acabados, sin tocar plazos ni presupuesto, que es lo que preocupa.",
+          "Prometer fechas de entrega cerradas que luego no se pueden cumplir.",
+          "Enseñar solo el resultado final, sin explicar cómo se llega a él.",
+          "Usar tecnicismos de obra que el cliente no entiende.",
+          "Poner a un comercial que no conoce el trabajo en lugar de a quien lo dirige.",
+          "No grabar ninguna pieza pensada para anuncio y depender solo del boca a boca.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si ya tienes obras entregadas que puedas enseñar y quieres captar clientes sin depender de plataformas de presupuestos. Si todavía no tienes claro qué tipo de reforma quieres vender más, define primero ese servicio y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para una empresa de reformas?",
+        answer:
+          "Entre 3 y 4 horas para un vídeo de presentación, 8 a 10 clips de dudas de cliente y un anuncio con varias aperturas. Si ofreces varios servicios distintos, mejor un bloque de 5 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Se puede grabar en la obra en lugar de en el estudio?",
+        answer:
+          "Se puede, pero el sonido y la luz de una obra son difíciles de controlar. En estudio grabamos a quien explica, con buen audio, y tú aportas las imágenes reales de obra para el montaje.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y, si quieres enseñarlo, un muestrario de materiales.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes una empresa de reformas o construcción y quieres grabar en Madrid, escríbenos en /#contacto con tu servicio principal y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

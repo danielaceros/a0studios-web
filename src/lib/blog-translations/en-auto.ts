@@ -3495,4 +3495,146 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-reformas-construccion-madrid": {
+    title: "Recording Video Content for Renovation and Construction Companies in Madrid",
+    description:
+      "How to record content for a renovation or construction company in a Madrid studio: which pieces to shoot, how to explain a quote on video and how to win more projects.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["renovation", "construction", "Madrid studio", "meta ads", "organic content", "lead generation"],
+    keyword: "renovation company video madrid",
+    excerpt:
+      "Anyone about to renovate looks for someone they can trust before asking for a quote. What to record in a single Madrid session to explain how you work, answer questions and bring in more projects.",
+    seoTitle: "Renovation Company Video Content in Madrid",
+    metaDescription:
+      "Video content for renovation and construction companies in Madrid: what to record in a 3-hour session and how to explain a quote on video.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you run a renovation or construction company and want to record content in Madrid, the best format is a 3-hour session with three pieces: a 2 minute intro video explaining how you work, 8 to 10 clips of 30 to 60 seconds answering the usual questions of someone about to renovate, and a simple ad to bring in quote requests. One morning gives you weeks of social content and material for your campaigns.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, our team records people who earn a living by winning the client's trust. A renovation is a big purchase made with fear: fear of delays, of a budget that balloons, of a contractor who disappears. We direct the session with an ads and sales mindset: the goal is for whoever watches to think it won't happen with you.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-reformas-construccion-madrid/hero.webp",
+        alt: "Man standing in front of a miter saw in a carpentry workshop",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why video works in the renovation business",
+      },
+      {
+        type: "paragraph",
+        text: "Someone renovating compares three or four companies with almost identical project photos. What hardly anyone shows is the person running the job speaking plainly about timelines, materials and what can go wrong. That video sets you apart more than another before-and-after gallery.",
+      },
+      {
+        type: "paragraph",
+        text: "Also, site photos are of uneven quality: they get taken on a phone between one job and the next. A piece recorded in a studio, with good sound and good light, projects a serious, organized company, and lets you then show real projects as proof. It works as a complement to your website and as a first contact before the site visit.",
+      },
+      {
+        type: "paragraph",
+        text: "One caveat: we don't film the building site in the studio. We film the person who explains it. You supply the real site footage, and we cut it into the edit when you hire editing.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to organize the recording session",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Start with the intro video",
+      },
+      {
+        type: "paragraph",
+        text: "Structure: who you are, what kind of renovations you do (full refurbishments, bathrooms, kitchens, commercial units), what the process looks like from the visit to handover, and how to ask for a quote. It runs 2 minutes, with a teleprompter so you keep the thread, but in the tone of someone talking to a client in their living room. If it's your first time on camera, 4 or 5 takes are normal.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Record clips that answer one question",
+      },
+      {
+        type: "paragraph",
+        text: "8 to 10 clips, each with a real question: how long a full renovation takes, which permits are needed, why one quote is cheaper than another, what can be done while living in the flat. With a Sony A7 in horizontal and vertical, and a lavalier microphone, one clip every 8 minutes is a realistic pace. These are pieces that answer what people search for before they call.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Set aside a block for a lead-generation ad",
+      },
+      {
+        type: "paragraph",
+        text: "Pick the service you most want to sell, for example full flat refurbishment, and record a 30 to 45 second piece with three different openings: a question, a common client fear and a direct statement. It's the same message with 3 different first seconds, and it lets you test on Meta Ads which one opens best without recording again. To split the hours well, read /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-reformas-construccion-madrid/mid.webp",
+        alt: "Architectural blueprints with drafting pencils and a metal ruler on a table",
+        width: 1920,
+        height: 1292,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Common mistakes when recording renovation content",
+      },
+      {
+        type: "list",
+        items: [
+          "Talking only about materials and finishes, without touching timelines or budget, which is what worries clients.",
+          "Promising fixed delivery dates that can't be kept later.",
+          "Showing only the final result, without explaining how you get there.",
+          "Using site jargon the client doesn't understand.",
+          "Putting a salesperson who doesn't know the work in front of the camera instead of whoever runs it.",
+          "Recording no piece designed for ads and relying only on word of mouth.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if you already have finished projects you can show and want to win clients without depending on quote-comparison platforms. If you're not yet clear on which type of renovation you want to sell more of, define that service first and then record.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently asked questions",
+      },
+      {
+        type: "faq",
+        question: "How long is a session for a renovation company?",
+        answer:
+          "Between 3 and 4 hours for an intro video, 8 to 10 clips answering client questions and an ad with several openings. If you offer several different services, a 5-hour block is better.",
+      },
+      {
+        type: "faq",
+        question: "Can we record on the building site instead of the studio?",
+        answer:
+          "You can, but sound and light on a site are hard to control. In the studio we record the person explaining, with clean audio, and you supply the real site footage for the edit.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own equipment?",
+        answer:
+          "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You only bring the script, your outfit and, if you want to show it, a materials sample board.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver edited videos?",
+        answer:
+          "It depends on the service. With Recording Only you take the raw footage. With Recording + Editing we edit in DaVinci Resolve and CapCut with subtitles and platform formats. With Full Production we also handle the script and the strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you run a renovation or construction company and want to record in Madrid, write to us at /#contacto with your main service and the kind of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }

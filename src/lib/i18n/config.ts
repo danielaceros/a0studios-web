@@ -174,6 +174,7 @@ export const EN_BLOG_SLUGS: Record<string, string> = {
   "grabar-contenido-empresas-b2b-industriales-madrid": "b2b-industrial-video-content-madrid",
   "grabar-contenido-corredurias-seguros-madrid": "insurance-broker-video-content-madrid",
   "grabar-contenido-ponentes-speakers-formadores-madrid": "speaker-trainer-video-content-madrid",
+  "grabar-contenido-reformas-construccion-madrid": "renovation-construction-video-content-madrid",
 }
 
 const EN_PATH_TO_ES: Record<string, string> = Object.fromEntries([
