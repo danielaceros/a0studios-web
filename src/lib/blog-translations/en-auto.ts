@@ -3637,4 +3637,146 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-veterinarios-mascotas-madrid": {
+    title: "Recording Content for Vets and Pet Brands in Madrid: How to Prepare the Session",
+    description:
+      "How to record content as a veterinary clinic or pet brand in a Madrid studio: which pieces to shoot, how to explain pet care with warmth and how to prepare an ad.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["vets", "pets", "Madrid studio", "organic content", "personal brand", "clinics"],
+    keyword: "veterinary pet brand video content madrid",
+    excerpt:
+      "Pet owners choose a vet on trust before price. What to record in a single session in Madrid to get an intro video, care-tip clips and a lead-generation ad.",
+    seoTitle: "Video Content for Vets and Pet Brands in Madrid",
+    metaDescription:
+      "Video content for vets and pet brands in Madrid: which pieces to record in a 3-hour session, how to explain pet care and how to win new clients.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you run a veterinary clinic or a pet brand and want to record content in Madrid, the best-performing plan is a 3-hour session with three pieces: a 2 to 3 minute intro video, 8 to 10 care-tip clips of 30 to 60 seconds and an ad to attract first visits or sales. One morning gives you weeks of social content and a piece ready to test on Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, our team works with businesses where the customer decides on trust. A pet owner doesn't just compare prices: they want to know who will treat their animal and how that person talks about it. We direct the session with an advertising and sales mindset, but without drama: we don't play on anyone's worry, we show judgement and warmth.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-veterinarios-mascotas-madrid/hero.webp",
+        alt: "Vet wearing a face mask sitting next to a dog in a consulting room",
+        width: 1920,
+        height: 1440,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why video works so well for vets and pet businesses",
+      },
+      {
+        type: "paragraph",
+        text: "A new owner in your neighbourhood looks for a clinic on their phone and checks two things: reviews and what the team is like. A video in which you explain how you welcome a nervous animal or what happens at a first visit says more than a list of services. Someone who watches you speak calmly already knows how you will treat their dog or cat.",
+      },
+      {
+        type: "paragraph",
+        text: "The sector is also full of repeated questions: when to vaccinate, what to do with a puppy, how to tell whether a symptom is urgent. Recording the answer once and publishing it in short pieces saves you repeating it in every consultation and positions you as the reference in your area.",
+      },
+      {
+        type: "paragraph",
+        text: "If your business is a product brand, for example food, accessories or dog-walking services, the approach changes: less consultation and more demonstration, with your product in frame and someone explaining why you created it.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to organise the recording session",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Start with the intro video",
+      },
+      {
+        type: "paragraph",
+        text: "It goes first, when you have the most energy. Structure: who you are, which animals you treat, what a first visit is like and how to book. Use a teleprompter so you don't lose the thread, but read slowly. If it's your first time in front of a camera, 5 or 6 takes are normal and the last one is usually the best.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Record care-tip clips with a single idea",
+      },
+      {
+        type: "paragraph",
+        text: "8 to 10 clips, each with a real question: how often to deworm, what to check on a puppy, what to do with a dog during a heatwave. With a Sony A7 in vertical and a lavalier microphone, one clip every 5 minutes is a realistic pace with a clear script. If you're unsure about a figure, give a range and explain what it depends on.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Set aside a block for a lead-generation ad",
+      },
+      {
+        type: "paragraph",
+        text: "If you plan to invest in ads to attract new clients from your area, record a 30 to 45 second piece with two different openings: an owner's question and a calm statement. That's 10 more minutes and it lets you test which one opens best without recording again. To split the hours well, read /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-veterinarios-mascotas-madrid/mid.webp",
+        alt: "White and grey cat lying on the floor looking at the camera",
+        width: 1200,
+        height: 800,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Common mistakes when recording vet and pet content",
+      },
+      {
+        type: "list",
+        items: [
+          "Giving clinical advice as if it were a diagnosis for any animal, without reminding viewers that each case needs a consultation.",
+          "Using technical jargon the owner doesn't understand instead of explaining with everyday examples.",
+          "Showing harsh or alarmist images to create fear and win clicks.",
+          "Bringing animals to the studio without planning it, when the most practical option is for you to speak to camera and use your real footage in the edit.",
+          "Recording one long video instead of short pieces you can publish over several weeks.",
+          "Recording no piece designed for ads and relying only on neighbourhood word of mouth.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if you want people to find you and trust you before their first visit. If you're not yet clear on which service you want to sell more of, define that service first and then record.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently asked questions",
+      },
+      {
+        type: "faq",
+        question: "How long is a session for a veterinary clinic?",
+        answer:
+          "Between 2 and 3 hours for an intro video, 8 to 10 care-tip clips and an ad with two openings. If you also want to record several services separately, a 4-hour block is better.",
+      },
+      {
+        type: "faq",
+        question: "Can I bring animals to the studio?",
+        answer:
+          "It's possible, but it needs planning and you should tell us beforehand. The most practical option is for you to speak to camera in the studio and use your own footage of the clinic or the animals in the edit.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own equipment?",
+        answer:
+          "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You only bring the script, your outfit and your clip ideas.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver edited videos?",
+        answer:
+          "It depends on the service. With Recording Only you take the raw footage. With Recording + Editing we edit in DaVinci Resolve and CapCut with subtitles and platform formats. With Full Production we also handle the script and the strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you run a veterinary clinic or a pet brand and want to record in Madrid, write to us at /#contacto with your service and the kind of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }

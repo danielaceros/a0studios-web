@@ -1108,6 +1108,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en consultas 90d y 28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: Prioridad 1 y 2 agotadas, se elige vertical nuevo (empresas de reformas y construcción), hermano de los verticales por sector; sin cubrir en memoria. Imágenes Unsplash (Annie Gray, Lucas Kepner). EN publicado en el mismo commit.",
   },
+  {
+    slug: "grabar-contenido-veterinarios-mascotas-madrid",
+    keyword: "grabar contenido para veterinarios y marcas de mascotas en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-17",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en consultas 90d y 28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: Prioridad 1 y 2 agotadas, se elige vertical nuevo (veterinarios y marcas de mascotas), hermano de los verticales por sector; sin cubrir en memoria. Imágenes Unsplash (Karlo Tottoc, Nan Zhou). EN publicado en el mismo commit.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
