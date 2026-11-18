@@ -3779,4 +3779,146 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-energia-solar-madrid": {
+    title: "Recording Content for Solar Energy Companies in Madrid: How to Prepare the Session",
+    description:
+      "How to record content as a solar installer or energy company in a Madrid studio: which pieces to shoot, how to explain savings without overpromising and how to prepare an ad.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["solar energy", "self-consumption", "Madrid studio", "organic content", "ads", "installers"],
+    keyword: "solar energy company video content madrid",
+    excerpt:
+      "Buying solar panels takes months of doubt and comparing quotes. What to record in a single session in Madrid to get an intro video, clips that answer common questions and a lead-generation ad.",
+    seoTitle: "Video Content for Solar Energy Companies in Madrid",
+    metaDescription:
+      "Video content for solar energy companies in Madrid: which pieces to record in a 3-hour session, how to explain savings and how to win quote requests.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you run a solar energy or self-consumption company and want to record content in Madrid, the best-performing plan is a 3-hour session with three pieces: a 2 to 3 minute intro video, 8 to 10 clips of 30 to 60 seconds answering common questions and an ad to win quote requests. One morning gives you weeks of social content and a piece ready to test on Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, our team works with businesses where the purchase is big and carefully considered. Someone thinking about panels for their home or company compares several quotes and distrusts savings promises. We direct the session with an advertising and sales mindset, but with a clear limit: we don't inflate numbers, we explain with judgement and build trust.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-energia-solar-madrid/hero.webp",
+        alt: "Worker installing solar panels on a roof",
+        width: 1920,
+        height: 1440,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why video works so well in the solar energy sector",
+      },
+      {
+        type: "paragraph",
+        text: "Installing panels is a decision worth several thousand euros and several years of payback. Customers fear overpaying, a sloppy installation and not understanding the bill. A video where you explain how you size an installation, what happens on installation day and how surplus compensation is processed answers those three doubts before the first call.",
+      },
+      {
+        type: "paragraph",
+        text: "The sector also gets the same questions again and again: how many panels a home needs, what happens on cloudy days, how long legalisation takes. Recording each answer once and publishing it as short pieces saves you repeating it at every sales visit and positions you as the company that explains things clearly.",
+      },
+      {
+        type: "paragraph",
+        text: "If your business serves companies and homeowner communities, the approach changes: less rooftop at home and more use case, with a manager who talks about timelines, maintenance and expected return without promising an exact figure.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to organise the recording session",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Start with the intro video",
+      },
+      {
+        type: "paragraph",
+        text: "It goes first, when you have the most energy. Structure: who you are, which type of customer you install for, what the process looks like from the study to switch-on and how to ask for a quote. Use a teleprompter so you don't lose the thread, but read slowly. If it's your first time on camera, 5 or 6 takes are normal and the last one is usually the best.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Record clips that each answer one question",
+      },
+      {
+        type: "paragraph",
+        text: "8 to 10 clips, each with a real question: how many panels a semi-detached house needs, what surplus compensation is, what maintenance an installation requires. With a vertical Sony A7 and a lavalier microphone, one clip every 5 minutes is a realistic pace with a clear script. If you're unsure about a figure, give a range and explain what it depends on, because every roof is different.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Set aside a block for a lead-generation ad",
+      },
+      {
+        type: "paragraph",
+        text: "If you plan to invest in ads to win quote requests in your area, record a 30 to 45 second piece with two different openings: a question about the electricity bill and a calm statement about how savings are calculated. It's 10 more minutes and lets you test which one opens better without recording again. To split your hours well, see /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-energia-solar-madrid/mid.webp",
+        alt: "Solar panels installed on a grey corrugated metal roof",
+        width: 1200,
+        height: 900,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Common mistakes when recording solar energy content",
+      },
+      {
+        type: "list",
+        items: [
+          "Promising exact savings percentages without explaining that they depend on consumption, orientation and sun hours at each property.",
+          "Filling the script with acronyms and technical terms the customer doesn't understand instead of explaining with examples from their own bill.",
+          "Recording only product and panel footage with no person to explain the process and put a face to the company.",
+          "Using the studio for scenes that only make sense on a roof, when the most practical option is for you to speak to camera and use your real installation footage in the edit.",
+          "Recording one long video instead of short pieces you can publish over several weeks.",
+          "Recording no piece designed for ads and relying only on salespeople and word of mouth.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if you want people to know you and trust you before the first technical visit. If you're not yet clear on which type of installation you want to sell more of, define that offer first and then record.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently asked questions",
+      },
+      {
+        type: "faq",
+        question: "How long is a session for a solar energy company?",
+        answer:
+          "Between 2 and 3 hours for an intro video, 8 to 10 clips answering common questions and an ad with two openings. If you also want to record several services separately, such as homes, businesses and communities, a 4-hour block is better.",
+      },
+      {
+        type: "faq",
+        question: "Can I show panels or installation material in the video?",
+        answer:
+          "Yes. The most practical option is to speak to camera in the studio and use your own footage of real installations in the edit. If you want to bring a panel or inverter as a prop, tell us before the session.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own equipment?",
+        answer:
+          "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You only bring the script, your outfit and your clip ideas.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver the edited videos?",
+        answer:
+          "It depends on the service. With Solo Grabación you get the raw footage. With Grabación + Edición we edit in DaVinci Resolve and CapCut with subtitles and platform-specific formats. With Producción Completa we also handle the script and strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you run a solar energy or self-consumption company and want to record in Madrid, write to us at /#contacto with your service and the kind of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }

@@ -14764,6 +14764,151 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-energia-solar-madrid",
+    title: "Grabar contenido para empresas de energía solar y autoconsumo en Madrid: cómo preparar la sesión",
+    description:
+      "Cómo grabar contenido como instalador o empresa de energía solar en un estudio de Madrid: qué piezas grabar, cómo explicar el ahorro sin prometer de más y cómo preparar un anuncio.",
+    publishedAt: "2026-11-18",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["energía solar", "autoconsumo", "estudio madrid", "contenido orgánico", "anuncios", "instaladores"],
+    keyword: "grabar contenido para empresas de energia solar y autoconsumo en madrid",
+    intent: "informacional",
+    excerpt:
+      "Quien instala placas solares compra tras meses de dudas y comparar presupuestos. Qué grabar en una sola sesión en Madrid para tener vídeo de presentación, clips que resuelven dudas y un anuncio de captación.",
+    seoTitle: "Grabar contenido para empresas de energía solar en Madrid",
+    metaDescription:
+      "Grabar contenido para empresas de energía solar en Madrid: qué piezas grabar en una sesión de 3 horas, cómo explicar el ahorro y captar presupuestos.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si tienes una empresa de energía solar o autoconsumo y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 3 horas con tres piezas: un vídeo de presentación de 2 a 3 minutos, entre 8 y 10 clips de 30 a 60 segundos que resuelven dudas habituales y un anuncio para captar solicitudes de presupuesto. Con una mañana tienes material para semanas de redes y una pieza lista para probar en Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, trabajamos con negocios donde la compra es grande y se piensa mucho. Quien se plantea poner placas en casa o en su empresa compara varios presupuestos y desconfía de las promesas de ahorro. Dirigimos la sesión con mentalidad de anuncios y de venta, pero con un límite claro: aquí no se inflan cifras, se explica con criterio y se da confianza.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-energia-solar-madrid/hero.webp",
+        alt: "Operario instalando paneles solares en un tejado",
+        width: 1920,
+        height: 1440,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué el vídeo funciona tan bien en el sector de la energía solar",
+      },
+      {
+        type: "paragraph",
+        text: "Instalar placas es una decisión de varios miles de euros y de varios años de amortización. El cliente tiene miedo a pagar de más, a que la instalación sea chapuza y a no entender la factura. Un vídeo en el que explicas cómo calculas una instalación, qué pasa el día de la obra y cómo se tramita la compensación de excedentes responde a esas tres dudas antes de la primera llamada.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, el sector tiene mucha pregunta repetida: cuántas placas necesita una vivienda, qué ocurre si hay días nublados, cuánto tarda la legalización. Grabar la respuesta una vez y publicarla en piezas cortas te ahorra repetirla en cada visita comercial y te posiciona como la empresa que explica claro.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tu negocio se dirige a empresas y comunidades de vecinos, el enfoque cambia: menos tejado de casa y más caso de uso, con un responsable que hable de plazos, mantenimiento y retorno esperado sin prometer una cifra exacta.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo de presentación",
+      },
+      {
+        type: "paragraph",
+        text: "Va primero, cuando tienes más energía. Estructura: quién eres, a qué tipo de cliente instalas, cómo es el proceso desde el estudio hasta la puesta en marcha y cómo pedir presupuesto. Con teleprompter para no perder el hilo, pero leyendo despacio. Si es tu primera vez delante de cámara, 5 o 6 tomas son normales y la última suele ser la mejor.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips que resuelven una duda cada uno",
+      },
+      {
+        type: "paragraph",
+        text: "Entre 8 y 10 clips, cada uno con una pregunta real: cuántas placas necesita un adosado, qué es la compensación de excedentes, qué mantenimiento requiere una instalación. Con una Sony A7 en vertical y un micrófono de solapa, un clip cada 5 minutos es un ritmo realista con el guion claro. Si dudas de una cifra, da un rango y explica de qué depende, porque cada tejado es distinto.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para un anuncio de captación",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a invertir en anuncios para captar solicitudes de presupuesto en tu zona, graba una pieza de 30 a 45 segundos con dos aperturas distintas: una pregunta sobre la factura de la luz y una afirmación tranquila sobre cómo se calcula el ahorro. Son 10 minutos más y te permiten probar cuál abre mejor sin volver a grabar. Para repartir bien las horas, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-energia-solar-madrid/mid.webp",
+        alt: "Paneles solares instalados sobre un tejado de chapa gris",
+        width: 1200,
+        height: 900,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido de energía solar",
+      },
+      {
+        type: "list",
+        items: [
+          "Prometer porcentajes de ahorro exactos sin explicar que dependen del consumo, la orientación y las horas de sol de cada vivienda.",
+          "Llenar el guion de siglas y términos técnicos que el cliente no entiende en lugar de explicar con ejemplos de su factura.",
+          "Grabar solo imágenes de producto y paneles sin una persona que explique el proceso y dé la cara.",
+          "Usar el estudio para escenas que solo se entienden en el tejado, cuando lo más práctico es que hables tú a cámara y uses tu material real de obras en el montaje.",
+          "Grabar un único vídeo largo en lugar de piezas cortas que se puedan publicar durante semanas.",
+          "No grabar ninguna pieza pensada para anuncios y depender solo de los comerciales y del boca a boca.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si quieres que te conozcan y confíen en ti antes de la primera visita técnica. Si todavía no tienes claro qué tipo de instalación quieres vender más, define primero esa oferta y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para una empresa de energía solar?",
+        answer:
+          "Entre 2 y 3 horas para un vídeo de presentación, 8 a 10 clips que resuelven dudas y un anuncio con dos aperturas. Si además quieres grabar varios servicios por separado, como vivienda, empresa y comunidades, mejor un bloque de 4 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo mostrar paneles o material de instalaciones en el vídeo?",
+        answer:
+          "Sí. Lo más práctico es que grabes tú hablando a cámara en el estudio y que uses tus propias imágenes de obras reales para el montaje. Si quieres traer algún panel o inversor como apoyo, avísanos antes de la sesión.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y las ideas de los clips.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes una empresa de energía solar o autoconsumo y quieres grabar en Madrid, escríbenos en /#contacto con tu servicio y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

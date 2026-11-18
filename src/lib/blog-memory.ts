@@ -1117,6 +1117,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en consultas 90d y 28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: Prioridad 1 y 2 agotadas, se elige vertical nuevo (veterinarios y marcas de mascotas), hermano de los verticales por sector; sin cubrir en memoria. Imágenes Unsplash (Karlo Tottoc, Nan Zhou). EN publicado en el mismo commit.",
   },
+  {
+    slug: "grabar-contenido-energia-solar-madrid",
+    keyword: "grabar contenido para empresas de energia solar y autoconsumo en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-18",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en consultas 90d y 28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: Prioridad 1 y 2 agotadas, se elige vertical nuevo (empresas de energía solar y autoconsumo), hermano de los verticales por sector; sin cubrir en memoria. Imágenes Unsplash (Bill Mead, Sergio Martins). EN publicado en el mismo commit.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
