@@ -3921,4 +3921,142 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "preparar-directivo-primer-video-estudio-madrid": {
+    title: "How to Prepare an Executive Who Has Never Recorded a Video in a Madrid Studio",
+    description:
+      "How to prepare an executive or CEO who has never recorded a video: script, rehearsal, outfit and direction in a Madrid studio so it feels natural and credible.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["executives", "CEO", "Madrid studio", "first video", "on-camera direction", "corporate content"],
+    keyword: "prepare executive for first video madrid",
+    excerpt:
+      "An executive who has never recorded usually freezes in the first few minutes. How to prepare them before, during and after the session in Madrid so the video sounds like them and not like a press release.",
+    seoTitle: "How to Prepare an Executive for Their First Video",
+    metaDescription:
+      "Prepare an executive who has never recorded a video: script, rehearsal and direction in a Madrid studio for a 2-hour session that feels natural.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "To prepare an executive who has never recorded a video, three things work best before they step into the studio: a script of ideas instead of a fixed text, a 20-minute rehearsal out loud and a short 2-hour session with takes of 30 to 60 seconds. The nerves fade in the first half hour and the rest of the session is productive.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, our team has directed sessions for teams at companies such as IFEMA, the Madrid Chamber of Commerce and Cinesa, and the pattern repeats: the executive knows their subject, but isn't used to a camera looking back. We direct with an advertising and sales mindset, because an executive video only works if it is clear what the viewer should do next.",
+      },
+      {
+        type: "image",
+        src: "/blog/preparar-directivo-primer-video-estudio-madrid/hero.webp",
+        alt: "Bearded executive speaking to camera on a video call from an office",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why executives find it so hard to record themselves",
+      },
+      {
+        type: "paragraph",
+        text: "An executive is used to speaking in meetings, where there are reactions, gestures and questions. In front of a camera there is none of that, just a lens and a crew watching. The usual result is a press-release tone: long sentences, internal presentation language and a stiffness the viewer notices within five seconds.",
+      },
+      {
+        type: "paragraph",
+        text: "They also tend to arrive with a packed calendar and little patience for retakes. That is why preparation matters more than equipment: a Sony A7 and a lavalier microphone solve the technical side, but naturalness is built beforehand.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to prepare the session step by step",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "One week before: define a single idea per piece",
+      },
+      {
+        type: "paragraph",
+        text: "Each video should answer one specific question: why work with this company, what changes this year, how a project is decided. It is written as five or six key ideas, not a word-for-word script. If a teleprompter is used, it is written the way people speak, with sentences of 10 to 15 words.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "The day before: a 20-minute rehearsal out loud",
+      },
+      {
+        type: "paragraph",
+        text: "Recording yourself on a phone two or three times and listening back is enough. It is uncomfortable, but it speeds up the session more than anything else: the executive spots their filler words and discovers which phrases come out naturally. For more tips, see /en/blog/overcome-fear-of-camera.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "In the studio: start easy and direct from the room",
+      },
+      {
+        type: "paragraph",
+        text: "The first take never works and doesn't need to. We start with a short, low-risk piece, such as a 30-second introduction, and build up. The director gives one note per take, not ten. Takes of 30 to 60 seconds and a 5-minute break every half hour keep energy up. To see how to split the hours, read /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/preparar-directivo-primer-video-estudio-madrid/mid.webp",
+        alt: "Cinema camera and lighting equipment set up on a film set for an interview",
+        width: 1920,
+        height: 1080,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Common mistakes when recording an executive for the first time",
+      },
+      {
+        type: "list",
+        items: [
+          "Reading a fixed text from start to finish instead of speaking from a few ideas.",
+          "Arriving without having rehearsed out loud even once.",
+          "Trying to fit five messages into one video instead of recording separate pieces.",
+          "New or uncomfortable clothes worn for the first time on the day of the session.",
+          "Recording with a calendar full of meetings before and after, with no room for retakes.",
+          "Not defining what the viewer should do when the video ends.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Preparing an executive this way makes sense when the video will represent the company for months: the website, LinkedIn, a sales presentation or an ad. If it is only a one-off internal message, a lighter session may be enough.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently asked questions",
+      },
+      {
+        type: "faq",
+        question: "How long is a session with an executive who has never recorded?",
+        answer:
+          "Between 2 and 3 hours for 5 or 6 pieces of 30 to 60 seconds. The first half hour is for settling in, so it is best not to plan more than one long piece or squeeze the calendar.",
+      },
+      {
+        type: "faq",
+        question: "Is it better to use a teleprompter or speak without a script?",
+        answer:
+          "The most natural approach is a script of key ideas, with the teleprompter used only for lines that cannot go wrong, such as figures or names. Reading everything sounds like a press release, and having nothing leads to rambling.",
+      },
+      {
+        type: "faq",
+        question: "What should the executive bring to the studio?",
+        answer:
+          "The idea script, comfortable clothes they have already worn that don't shine or have thin stripes, and water. We provide Sony A7 cameras, microphones, lighting and a teleprompter.",
+      },
+      {
+        type: "faq",
+        question: "Can you edit the video and adapt it for social media?",
+        answer:
+          "Yes. With Grabación + Edición we edit in DaVinci Resolve and CapCut with subtitles and formats for LinkedIn, Instagram and the web. With Producción Completa we also handle the script and strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you need to record an executive for the first time and want to do it in Madrid, write to us at /#contacto with who they are and what you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }

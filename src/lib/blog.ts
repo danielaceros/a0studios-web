@@ -14909,6 +14909,147 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "preparar-directivo-primer-video-estudio-madrid",
+    title: "Cómo preparar a un directivo que nunca ha grabado un vídeo en un estudio de Madrid",
+    description:
+      "Cómo preparar a un directivo o CEO que nunca ha grabado un vídeo: guion, ensayo, vestuario y dirección en un estudio de Madrid para que salga natural y con criterio.",
+    publishedAt: "2026-11-19",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["directivos", "CEO", "estudio madrid", "primer vídeo", "dirección de cámara", "contenido corporativo"],
+    keyword: "preparar a un directivo para grabar un video en madrid",
+    intent: "informacional",
+    excerpt:
+      "Un directivo que nunca ha grabado suele bloquearse en los primeros minutos. Cómo prepararlo antes, durante y después de la sesión en Madrid para que el vídeo suene a él y no a un comunicado.",
+    seoTitle: "Cómo preparar a un directivo para grabar su primer vídeo",
+    metaDescription:
+      "Preparar a un directivo que nunca ha grabado un vídeo: guion, ensayo y dirección en un estudio de Madrid para una sesión de 2 horas que salga natural.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Para preparar a un directivo que nunca ha grabado un vídeo, lo que mejor funciona es trabajar tres cosas antes de pisar el estudio: un guion de ideas en lugar de un texto cerrado, un ensayo de 20 minutos en voz alta y una sesión corta de 2 horas con tomas de 30 a 60 segundos. Así se pierde el miedo en la primera media hora y se aprovecha el resto.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, hemos dirigido sesiones para equipos de empresas como IFEMA, la Cámara de Comercio de Madrid y Cinesa, y el patrón se repite: el directivo sabe de lo suyo, pero no está acostumbrado a que una cámara le mire. Dirigimos con criterio de anuncios y de venta, porque un vídeo de un directivo solo sirve si deja claro qué se quiere que haga quien lo ve.",
+      },
+      {
+        type: "image",
+        src: "/blog/preparar-directivo-primer-video-estudio-madrid/hero.webp",
+        alt: "Directivo con barba hablando a cámara en una videollamada desde una oficina",
+        width: 1920,
+        height: 1080,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué a un directivo le cuesta tanto grabarse",
+      },
+      {
+        type: "paragraph",
+        text: "Un directivo está acostumbrado a hablar en reuniones, donde hay respuesta, gestos y preguntas. Delante de una cámara no hay nada de eso, solo una lente y un equipo mirando. El resultado habitual es un tono de comunicado: frases largas, lenguaje de presentación interna y una rigidez que el espectador nota en cinco segundos.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, suele llegar con una agenda apretada y poca tolerancia a repetir. Por eso la preparación previa importa más que el equipo: con una cámara Sony A7 y un micrófono de solapa se resuelve la parte técnica, pero la naturalidad se trabaja antes.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo preparar la sesión paso a paso",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Una semana antes: define una sola idea por pieza",
+      },
+      {
+        type: "paragraph",
+        text: "Cada vídeo debe responder a una pregunta concreta: por qué trabajar con esta empresa, qué cambia este año, cómo se decide un proyecto. Se escribe en cinco o seis ideas clave, no en un guion palabra por palabra. Si hay que usar teleprompter, se redacta como se habla, con frases de 10 a 15 palabras.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "El día anterior: ensayo en voz alta de 20 minutos",
+      },
+      {
+        type: "paragraph",
+        text: "Basta con grabarse con el móvil dos o tres veces y escucharse. Es incómodo, pero es lo que más acelera la sesión: el directivo detecta sus muletillas y descubre qué frases le salen solas. Para más trucos, mira /blog/perder-miedo-camara-primera-grabacion.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "En el estudio: empieza por lo fácil y dirige desde la sala",
+      },
+      {
+        type: "paragraph",
+        text: "La primera toma nunca va a salir y no hace falta que salga. Empezamos por una pieza corta y de bajo riesgo, como una presentación de 30 segundos, y subimos de dificultad. Quien dirige da una indicación cada toma, no diez. Tomas de 30 a 60 segundos y una pausa de 5 minutos cada media hora mantienen la energía. Si quieres ver cómo repartir las horas, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/preparar-directivo-primer-video-estudio-madrid/mid.webp",
+        alt: "Cámara de cine y equipo de iluminación montados en un plató para una entrevista",
+        width: 1920,
+        height: 1080,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar a un directivo por primera vez",
+      },
+      {
+        type: "list",
+        items: [
+          "Leer un texto cerrado de principio a fin en lugar de hablar desde unas pocas ideas.",
+          "Llegar sin haber ensayado ni una sola vez en voz alta.",
+          "Querer meter cinco mensajes en un solo vídeo en vez de grabar piezas separadas.",
+          "Vestuario nuevo o incómodo que se estrena el mismo día de la sesión.",
+          "Grabar con la agenda llena de reuniones antes y después, sin margen para repetir.",
+          "No definir qué debe hacer el espectador al terminar el vídeo.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido preparar así a un directivo cuando el vídeo va a representar a la empresa durante meses: la web, LinkedIn, una presentación comercial o un anuncio. Si solo es un mensaje interno puntual, una sesión más ligera puede bastar.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión con un directivo que nunca ha grabado?",
+        answer:
+          "Entre 2 y 3 horas para 5 o 6 piezas de 30 a 60 segundos. La primera media hora es de adaptación, así que no conviene meter más de una pieza larga ni apretar la agenda.",
+      },
+      {
+        type: "faq",
+        question: "¿Es mejor teleprompter o hablar sin guion?",
+        answer:
+          "Lo más natural es un guion de ideas clave y teleprompter solo para las frases que no pueden fallar, como cifras o nombres. Leer todo suena a comunicado, y no tener nada genera divagación.",
+      },
+      {
+        type: "faq",
+        question: "¿Qué tiene que traer el directivo al estudio?",
+        answer:
+          "El guion de ideas, ropa cómoda que ya haya usado y que no brille ni tenga rayas finas, y agua. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter.",
+      },
+      {
+        type: "faq",
+        question: "¿Podéis editar el vídeo y adaptarlo a redes?",
+        answer:
+          "Sí. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos para LinkedIn, Instagram y web. Con Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes que grabar a un directivo por primera vez y quieres hacerlo en Madrid, escríbenos en /#contacto con quién es y qué necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

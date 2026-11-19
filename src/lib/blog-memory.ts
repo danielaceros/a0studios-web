@@ -1126,6 +1126,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en consultas 90d y 28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: Prioridad 1 y 2 agotadas, se elige vertical nuevo (empresas de energía solar y autoconsumo), hermano de los verticales por sector; sin cubrir en memoria. Imágenes Unsplash (Bill Mead, Sergio Martins). EN publicado en el mismo commit.",
   },
+  {
+    slug: "preparar-directivo-primer-video-estudio-madrid",
+    keyword: "preparar a un directivo para grabar un video en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-19",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen Prioridad 2 (#7 Cómo preparar a un directivo que nunca ha grabado un vídeo). Imágenes Unsplash (Vitaly Gariev, Sam McGhee). EN publicado en el mismo commit.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
