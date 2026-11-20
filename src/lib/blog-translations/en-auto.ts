@@ -4059,4 +4059,146 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-psicologos-terapeutas-madrid": {
+    title: "Recording Content for Psychologists and Therapists in Madrid: How to Prepare the Session",
+    description:
+      "How to record content as a psychologist or therapist in a Madrid studio: which pieces to shoot, how to speak to camera with warmth and which ethical limits to respect.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["psychologists", "therapists", "Madrid studio", "organic content", "personal brand", "health"],
+    keyword: "content for therapists madrid",
+    excerpt:
+      "A client picks a therapist on trust before credentials. What to record in a single Madrid session to get an intro video, educational clips and a respectful ad.",
+    seoTitle: "Recording Content for Psychologists and Therapists in Madrid",
+    metaDescription:
+      "Recording content for psychologists and therapists in Madrid: which pieces to shoot in a 3-hour session, how to sound warm and which limits to respect.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you are a psychologist or therapist who wants to record content in Madrid, the format that works best is a 3-hour session with three pieces: a 2 to 3 minute intro video, 8 to 10 educational clips of 30 to 60 seconds and a simple ad to attract first consultations. One morning gives you weeks of social content and a piece ready to test on Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, we work with professionals whose service is chosen on trust. Someone looking for a therapist has usually been hesitating for weeks and wants to feel how you speak and work before writing to you. Our team directs the session with an ads and sales mindset, but with a clear limit: we do not sell fear or promise results, we show judgment and warmth.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-psicologos-terapeutas-madrid/hero.webp",
+        alt: "Bright office with a sofa and desk, a calm setting for a therapy practice",
+        width: 1920,
+        height: 1440,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why video works so well for psychology and therapy",
+      },
+      {
+        type: "paragraph",
+        text: "Text on your website explains your approach, but it does not convey your voice, your pace or how you listen. That is exactly what a potential client needs to check. Two minutes of video explaining who you help and what a first session is like lowers the barrier to taking the step, because they already know you.",
+      },
+      {
+        type: "paragraph",
+        text: "The sector also suffers from very generic content: motivational phrases and symptom lists with no context. If you record thinking of a concrete question a real client asks you, you stand out without having to be controversial.",
+      },
+      {
+        type: "paragraph",
+        text: "One important point: clients are never recorded and no real consultation is shown with anyone's data. What is recorded in the studio is you speaking to camera, with a polished background standing in for your office.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to organise the recording session",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Start with the intro video",
+      },
+      {
+        type: "paragraph",
+        text: "It goes first, when you have the most energy. Structure: who you support, what usually happens when they arrive, what the first session is like and how to book. Use a teleprompter so you keep the thread, but read slowly and with pauses. If it is your first time on camera, 5 or 6 takes are normal and the last one is usually the best.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Record educational clips with a single idea",
+      },
+      {
+        type: "paragraph",
+        text: "Between 8 and 10 clips, each answering a real question: when to ask for help, what happens in a first session, how long a process usually takes. With a Sony A7 in vertical and a lavalier microphone, one clip every 5 minutes is a realistic pace if the script is clear. If you cannot give an exact figure, give a range and explain what it depends on.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Set aside a block for a respectful ad",
+      },
+      {
+        type: "paragraph",
+        text: "If you plan to invest in ads to attract first consultations, record a 30 to 45 second piece with two different openings: a question and a calm statement. It takes 10 more minutes. Always check each platform's health advertising policies, which limit what you can claim. To split the hours well, see /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-psicologos-terapeutas-madrid/mid.webp",
+        alt: "Person wearing headphones recording a conversation with a microphone in front of a laptop",
+        width: 1920,
+        height: 1280,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Common mistakes when recording psychology and therapy content",
+      },
+      {
+        type: "list",
+        items: [
+          "Using clinical jargon the client does not understand instead of explaining with everyday examples.",
+          "Promising results or recovery timelines, which also clashes with professional ethics codes and ad policies.",
+          "Giving advice as if it were a diagnosis for anyone who watches the video.",
+          "Reading the script straight through in a lecture tone instead of speaking as you would in session.",
+          "Recording one long video instead of short pieces that can be published over several weeks.",
+          "Showing real cases or recognisable anecdotes about clients, even with a changed name.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if your diary depends on people finding you and trusting you before the first session. If you are not yet clear on which kind of client you want to support, define that profile first and then record.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently asked questions",
+      },
+      {
+        type: "faq",
+        question: "How long is a session for a psychologist or therapist?",
+        answer:
+          "Between 2 and 3 hours for an intro video, 8 to 10 educational clips and an ad with two openings. If you also want a talk or a course, it is better to book a separate 4-hour block.",
+      },
+      {
+        type: "faq",
+        question: "Can I record with my clients or in my practice?",
+        answer:
+          "We do not recommend it. For confidentiality, clients are not recorded. In the studio you speak to camera against a polished background, and the privacy of your practice stays intact.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own equipment?",
+        answer:
+          "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You only bring the script, your outfit and the ideas for the clips.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver the edited videos?",
+        answer:
+          "It depends on the service. With Solo Grabación you take the raw footage. With Grabación + Edición we edit in DaVinci Resolve and CapCut with subtitles and formats per platform. With Producción Completa we also handle the script and strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you are a psychologist or therapist and want to record in Madrid, write to us at /#contacto with your service and the type of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }
