@@ -4059,112 +4059,108 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
-  "grabar-contenido-psicologos-terapeutas-madrid": {
-    title: "Recording Content for Psychologists and Therapists in Madrid: How to Prepare the Session",
+  "errores-grabar-testimoniales-empresa-madrid": {
+    title: "Common Mistakes When Recording Company Testimonials in a Madrid Studio",
     description:
-      "How to record content as a psychologist or therapist in a Madrid studio: which pieces to shoot, how to speak to camera with warmth and which ethical limits to respect.",
+      "The most common mistakes when recording customer testimonials for a company and how to avoid them in a Madrid studio: questions, script, audio, length and permissions.",
     readingTime: "5 min read",
     category: "Guide",
-    tags: ["psychologists", "therapists", "Madrid studio", "organic content", "personal brand", "health"],
-    keyword: "content for therapists madrid",
+    tags: ["testimonials", "case studies", "Madrid studio", "corporate video", "content direction", "sales"],
+    keyword: "company testimonial video mistakes",
     excerpt:
-      "A client picks a therapist on trust before credentials. What to record in a single Madrid session to get an intro video, educational clips and a respectful ad.",
-    seoTitle: "Recording Content for Psychologists and Therapists in Madrid",
+      "A weak testimonial does not sell, even when the customer is delighted. The six mistakes we see most when recording testimonials in Madrid and how to fix them before the camera is on.",
+    seoTitle: "Mistakes When Recording Company Testimonials in Madrid",
     metaDescription:
-      "Recording content for psychologists and therapists in Madrid: which pieces to shoot in a 3-hour session, how to sound warm and which limits to respect.",
+      "Mistakes when recording company testimonials and how to avoid them in a Madrid studio: questions, script, audio, length and permissions. A practical guide.",
     heroKicker: "Blog / A0Studios",
     body: [
       {
         type: "paragraph",
-        text: "If you are a psychologist or therapist who wants to record content in Madrid, the format that works best is a 3-hour session with three pieces: a 2 to 3 minute intro video, 8 to 10 educational clips of 30 to 60 seconds and a simple ad to attract first consultations. One morning gives you weeks of social content and a piece ready to test on Meta Ads.",
+        text: "The most common mistakes when recording company testimonials are asking vague questions, letting the customer read a script, recording with poor audio, running past 90 seconds and not getting written permission. They are fixed before recording, with 3 or 4 specific questions and a 20 to 30 minute session per customer.",
       },
       {
         type: "paragraph",
-        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, we work with professionals whose service is chosen on trust. Someone looking for a therapist has usually been hesitating for weeks and wants to feel how you speak and work before writing to you. Our team directs the session with an ads and sales mindset, but with a clear limit: we do not sell fear or promise results, we show judgment and warmth.",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, our team records testimonials for Madrid companies and directs them with an ads and sales mindset. A testimonial is not a filmed thank-you: it is proof another customer watches right before deciding whether to contact you. If it does not answer their doubt, it does not matter how well it is lit.",
       },
       {
         type: "image",
-        src: "/blog/grabar-contenido-psicologos-terapeutas-madrid/hero.webp",
-        alt: "Bright office with a sofa and desk, a calm setting for a therapy practice",
+        src: "/blog/errores-grabar-testimoniales-empresa-madrid/hero.webp",
+        alt: "Camera monitor during an interview shoot",
         width: 1920,
-        height: 1440,
+        height: 1280,
         priority: true,
       },
       {
         type: "heading",
         level: 2,
-        text: "Why video works so well for psychology and therapy",
+        text: "Why company testimonials fail",
       },
       {
         type: "paragraph",
-        text: "Text on your website explains your approach, but it does not convey your voice, your pace or how you listen. That is exactly what a potential client needs to check. Two minutes of video explaining who you help and what a first session is like lowers the barrier to taking the step, because they already know you.",
+        text: "Most fail for the same reason: they are recorded to tick a box, not to convince. The customer is asked to speak well of the company and, with the best intentions, says generic things like the service was excellent. Anyone can say that about any supplier, and it moves nobody.",
       },
       {
         type: "paragraph",
-        text: "The sector also suffers from very generic content: motivational phrases and symptom lists with no context. If you record thinking of a concrete question a real client asks you, you stand out without having to be controversial.",
-      },
-      {
-        type: "paragraph",
-        text: "One important point: clients are never recorded and no real consultation is shown with anyone's data. What is recorded in the studio is you speaking to camera, with a polished background standing in for your office.",
+        text: "A testimonial that sells tells a situation before, a decision and a result that can be checked. And the customer watching must recognise themselves in the story. For the overall approach, read /en/blog/customer-testimonial-video-production first; here we focus on what goes wrong.",
       },
       {
         type: "heading",
         level: 2,
-        text: "How to organise the recording session",
+        text: "How to avoid mistakes when recording a testimonial",
       },
       {
         type: "heading",
         level: 3,
-        text: "Start with the intro video",
+        text: "Prepare specific questions, not a script",
       },
       {
         type: "paragraph",
-        text: "It goes first, when you have the most energy. Structure: who you support, what usually happens when they arrive, what the first session is like and how to book. Use a teleprompter so you keep the thread, but read slowly and with pauses. If it is your first time on camera, 5 or 6 takes are normal and the last one is usually the best.",
+        text: "Send the customer 3 or 4 questions two days ahead: what problem they had, why they chose you, what changed and what they would recommend to someone in their position. No written text. If they read, it sounds like reading; if they answer in their own words, it sounds like a person. With a teleprompter we only support the opening line with their name and role.",
       },
       {
         type: "heading",
         level: 3,
-        text: "Record educational clips with a single idea",
+        text: "Look after audio before image",
       },
       {
         type: "paragraph",
-        text: "Between 8 and 10 clips, each answering a real question: when to ask for help, what happens in a first session, how long a process usually takes. With a Sony A7 in vertical and a lavalier microphone, one clip every 5 minutes is a realistic pace if the script is clear. If you cannot give an exact figure, give a range and explain what it depends on.",
+        text: "A testimonial with echo or office noise loses credibility in three seconds. In the studio we use a lavalier microphone, a Sony A7 on a medium shot and a room without reverb. If the customer cannot come and you record at their office, pick a closed room away from street-facing windows and do a 20 second test first.",
       },
       {
         type: "heading",
         level: 3,
-        text: "Set aside a block for a respectful ad",
+        text: "Cut to 60 or 90 seconds and plan the use",
       },
       {
         type: "paragraph",
-        text: "If you plan to invest in ads to attract first consultations, record a 30 to 45 second piece with two different openings: a question and a calm statement. It takes 10 more minutes. Always check each platform's health advertising policies, which limit what you can claim. To split the hours well, see /en/blog/how-long-recording-session-lasts.",
+        text: "Record 20 minutes to keep 60 to 90 good seconds. Edit in DaVinci Resolve or CapCut with subtitles, because many people will watch without sound on LinkedIn or in an ad. And export two versions: a 60 second one for the website and a 20 to 30 second one for paid, with the strongest number in the first 3 seconds.",
       },
       {
         type: "image",
-        src: "/blog/grabar-contenido-psicologos-terapeutas-madrid/mid.webp",
-        alt: "Person wearing headphones recording a conversation with a microphone in front of a laptop",
-        width: 1920,
-        height: 1280,
+        src: "/blog/errores-grabar-testimoniales-empresa-madrid/mid.webp",
+        alt: "Sony FS7 cinema camera on a film set during an interview shoot",
+        width: 1200,
+        height: 675,
       },
       {
         type: "heading",
         level: 2,
-        text: "Common mistakes when recording psychology and therapy content",
+        text: "Common mistakes when recording testimonials",
       },
       {
         type: "list",
         items: [
-          "Using clinical jargon the client does not understand instead of explaining with everyday examples.",
-          "Promising results or recovery timelines, which also clashes with professional ethics codes and ad policies.",
-          "Giving advice as if it were a diagnosis for anyone who watches the video.",
-          "Reading the script straight through in a lecture tone instead of speaking as you would in session.",
-          "Recording one long video instead of short pieces that can be published over several weeks.",
-          "Showing real cases or recognisable anecdotes about clients, even with a changed name.",
+          "Asking vague questions like how did it go, which produce empty answers.",
+          "Letting the customer read text written by your team, which shows from the first sentence.",
+          "Not asking for a checkable detail: a timeframe, a figure or a before and after.",
+          "Recording in a room with echo, noise or backlight and trusting it will be fixed in editing.",
+          "Publishing one 3 minute video instead of 60 to 90 second pieces and shorter clips.",
+          "Using the testimonial without written permission from the customer and their company, including use in ads.",
         ],
       },
       {
         type: "paragraph",
-        text: "It makes sense if your diary depends on people finding you and trusting you before the first session. If you are not yet clear on which kind of client you want to support, define that profile first and then record.",
+        text: "All of this makes sense if you already have satisfied customers and a clear offer. If you have not yet agreed with them which result can be shared, start there and record afterwards.",
       },
       {
         type: "heading",
@@ -4173,31 +4169,31 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
       {
         type: "faq",
-        question: "How long is a session for a psychologist or therapist?",
+        question: "How long does a testimonial recording session take?",
         answer:
-          "Between 2 and 3 hours for an intro video, 8 to 10 educational clips and an ad with two openings. If you also want a talk or a course, it is better to book a separate 4-hour block.",
+          "Between 20 and 30 minutes per customer, plus 10 for preparation. If you will record several customers on the same day, a 3-hour session fits 4 or 5 testimonials with time for retakes.",
       },
       {
         type: "faq",
-        question: "Can I record with my clients or in my practice?",
+        question: "How many questions should you ask?",
         answer:
-          "We do not recommend it. For confidentiality, clients are not recorded. In the studio you speak to camera against a polished background, and the privacy of your practice stays intact.",
+          "Three or four, sent in advance. More than five lengthens the video and dilutes the message. The most important one is what changed after working with you, because it is the most quoted.",
       },
       {
         type: "faq",
-        question: "Do I need to bring my own equipment?",
+        question: "Do I need the customer's permission to use the video?",
         answer:
-          "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You only bring the script, your outfit and the ideas for the clips.",
+          "Yes, in writing and with the use spelled out: website, social media and, if applicable, ads. It should cover the company and not only the person speaking. It is best to get it on the day of recording.",
       },
       {
         type: "faq",
-        question: "Do you deliver the edited videos?",
+        question: "Can you record the testimonial at the customer's office?",
         answer:
-          "It depends on the service. With Solo Grabación you take the raw footage. With Grabación + Edición we edit in DaVinci Resolve and CapCut with subtitles and formats per platform. With Producción Completa we also handle the script and strategy.",
+          "We can advise on how to do it, but we recommend the studio: controlled sound, a polished background and light that does not change. We provide Sony A7 cameras, microphones, lighting and session direction.",
       },
       {
         type: "paragraph",
-        text: "If you are a psychologist or therapist and want to record in Madrid, write to us at /#contacto with your service and the type of pieces you need, and A0Studios will propose the session plan.",
+        text: "If you want to record customer testimonials in Madrid, write to us at /#contacto with the number of customers and how you plan to use the videos, and A0Studios will propose the session plan.",
       },
     ],
   },

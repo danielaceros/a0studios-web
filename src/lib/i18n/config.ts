@@ -178,6 +178,7 @@ export const EN_BLOG_SLUGS: Record<string, string> = {
   "grabar-contenido-veterinarios-mascotas-madrid": "veterinary-pet-brand-video-content-madrid",
   "grabar-contenido-energia-solar-madrid": "solar-energy-company-video-content-madrid",
   "preparar-directivo-primer-video-estudio-madrid": "prepare-executive-first-video-madrid",
+  "errores-grabar-testimoniales-empresa-madrid": "company-testimonial-recording-mistakes",
 }
 
 const EN_PATH_TO_ES: Record<string, string> = Object.fromEntries([

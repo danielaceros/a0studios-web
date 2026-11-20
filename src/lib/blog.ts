@@ -15050,6 +15050,147 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "errores-grabar-testimoniales-empresa-madrid",
+    title: "Errores comunes al grabar testimoniales de empresa en un estudio de Madrid",
+    description:
+      "Los errores más comunes al grabar testimoniales de clientes para una empresa y cómo evitarlos en un estudio de Madrid: preguntas, guion, audio, duración y permisos.",
+    publishedAt: "2026-11-20",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["testimoniales", "casos de éxito", "estudio madrid", "vídeo corporativo", "dirección de contenido", "ventas"],
+    keyword: "errores al grabar testimoniales de empresa",
+    intent: "informacional",
+    excerpt:
+      "Un testimonial flojo no vende, aunque el cliente esté encantado. Los seis errores que más vemos al grabar testimoniales en Madrid y cómo corregirlos antes de encender la cámara.",
+    seoTitle: "Errores al grabar testimoniales de empresa en Madrid",
+    metaDescription:
+      "Errores al grabar testimoniales de empresa y cómo evitarlos en un estudio de Madrid: preguntas, guion, audio, duración y permisos. Guía práctica.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Los errores más comunes al grabar testimoniales de empresa son preguntar en abstracto, dejar que el cliente lea un texto, grabar con mal audio, alargar el vídeo más de 90 segundos y no pedir permiso por escrito. Se corrigen antes de grabar, con 3 o 4 preguntas concretas y una sesión de 20 a 30 minutos por cliente.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, grabamos testimoniales para empresas de Madrid y los dirigimos con mentalidad de anuncios y de venta. Un testimonial no es un agradecimiento filmado: es una prueba que otro cliente ve justo antes de decidir si te contacta. Si no responde a su duda, da igual lo bien que esté iluminado.",
+      },
+      {
+        type: "image",
+        src: "/blog/errores-grabar-testimoniales-empresa-madrid/hero.webp",
+        alt: "Monitor de cámara durante una grabación de entrevista",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué fallan los testimoniales de empresa",
+      },
+      {
+        type: "paragraph",
+        text: "La mayoría fallan por lo mismo: se graban para cumplir, no para convencer. Se pide al cliente que hable bien de la empresa y él, con la mejor intención, dice frases genéricas como que el trato fue excelente. Eso lo puede decir cualquiera de cualquier proveedor y no mueve a nadie.",
+      },
+      {
+        type: "paragraph",
+        text: "Un testimonial que vende cuenta una situación antes, una decisión y un resultado que se puede comprobar. Y el cliente que lo ve debe reconocerse en la historia. Para el planteamiento general puedes leer antes /blog/grabacion-testimonios-casos-exito-empresa, y aquí nos centramos en lo que sale mal.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo evitar los errores al grabar un testimonial",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Prepara preguntas concretas, no un guion",
+      },
+      {
+        type: "paragraph",
+        text: "Manda al cliente 3 o 4 preguntas dos días antes: qué problema tenía, por qué os eligió, qué cambió y qué recomendaría a alguien en su situación. Sin texto escrito. Si lee, suena a lectura; si responde con sus palabras, suena a persona. Con un teleprompter solo apoyamos la presentación inicial del nombre y el cargo.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Cuida el audio antes que la imagen",
+      },
+      {
+        type: "paragraph",
+        text: "Un testimonial con eco o ruido de oficina pierde credibilidad en tres segundos. En el estudio usamos micrófono de solapa, una Sony A7 en plano medio y una sala sin reverberación. Si el cliente no puede venir y grabáis en su oficina, elegid una sala cerrada, lejos de ventanas a la calle, y haced una prueba de 20 segundos antes.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Corta a 60 o 90 segundos y piensa en el uso",
+      },
+      {
+        type: "paragraph",
+        text: "Graba 20 minutos para quedarte con 60 a 90 segundos buenos. Edita en DaVinci Resolve o CapCut con subtítulos, porque muchos lo verán sin sonido en LinkedIn o en un anuncio. Y saca dos versiones: una de 60 segundos para la web y otra de 20 a 30 para paid, con el dato más fuerte en los primeros 3 segundos.",
+      },
+      {
+        type: "image",
+        src: "/blog/errores-grabar-testimoniales-empresa-madrid/mid.webp",
+        alt: "Cámara de cine Sony FS7 en un set durante la grabación de una entrevista",
+        width: 1200,
+        height: 675,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar testimoniales",
+      },
+      {
+        type: "list",
+        items: [
+          "Hacer preguntas abstractas del tipo qué tal ha ido, que provocan respuestas vacías.",
+          "Dejar que el cliente lea un texto escrito por tu equipo, que se nota desde la primera frase.",
+          "No pedir un dato comprobable: un plazo, una cifra o un antes y un después.",
+          "Grabar en una sala con eco, ruido o contraluz y confiar en arreglarlo en edición.",
+          "Publicar un vídeo de 3 minutos en lugar de piezas de 60 a 90 segundos y clips más cortos.",
+          "Usar el testimonial sin autorización por escrito del cliente y de su empresa, incluido el uso en anuncios.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Todo esto tiene sentido si ya tienes clientes satisfechos y una oferta clara. Si todavía no has resuelto con ellos qué resultado se puede contar, empieza por ahí y graba después.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para grabar un testimonial?",
+        answer:
+          "Entre 20 y 30 minutos por cliente, más 10 de preparación. Si vais a grabar a varios clientes el mismo día, una sesión de 3 horas permite 4 o 5 testimoniales con tiempo para repetir.",
+      },
+      {
+        type: "faq",
+        question: "¿Cuántas preguntas conviene hacer?",
+        answer:
+          "Tres o cuatro, enviadas con antelación. Más de cinco alarga el vídeo y diluye el mensaje. La más importante es qué cambió después de trabajar con vosotros, porque es la que más se cita.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta autorización del cliente para usar el vídeo?",
+        answer:
+          "Sí, por escrito y con el uso detallado: web, redes y, si procede, anuncios. Conviene incluir a la empresa y no solo a la persona que habla. Es mejor pedirla el mismo día de la grabación.",
+      },
+      {
+        type: "faq",
+        question: "¿Podéis grabar el testimonial en la oficina del cliente?",
+        answer:
+          "Podemos orientarte sobre cómo hacerlo, pero recomendamos el estudio: sonido controlado, fondo cuidado y una luz que no cambia. Ponemos cámaras Sony A7, micrófonos, iluminación y dirección de la sesión.",
+      },
+      {
+        type: "paragraph",
+        text: "Si quieres grabar testimoniales de clientes en Madrid, escríbenos en /#contacto con el número de clientes y el uso que le vas a dar, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

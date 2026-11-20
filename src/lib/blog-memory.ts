@@ -1135,6 +1135,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen Prioridad 2 (#7 Cómo preparar a un directivo que nunca ha grabado un vídeo). Imágenes Unsplash (Vitaly Gariev, Sam McGhee). EN publicado en el mismo commit.",
   },
+  {
+    slug: "errores-grabar-testimoniales-empresa-madrid",
+    keyword: "errores al grabar testimoniales de empresa",
+    intent: "informacional",
+    createdAt: "2026-11-20",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen Prioridad 2 (#12 Errores comunes al grabar testimoniales de empresa). Imágenes Unsplash (Leuchtturm Entertainment, Sam McGhee). EN publicado en el mismo commit.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
