@@ -1153,6 +1153,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: listas Prioridad 1, 2 y rotación 1/3 agotadas, se elige vertical nuevo (clínicas dentales), hermano de los verticales por sector; sin cubrir en memoria. Imágenes Unsplash (Atikah Akhtar, National Cancer Institute). EN publicado en el mismo commit.",
   },
+  {
+    slug: "grabar-contenido-clinicas-estetica-madrid",
+    keyword: "grabar contenido para clinicas de estetica y medicina estetica en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-23",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: listas Prioridad 1, 2 y rotación agotadas, se elige vertical nuevo (clínicas de estética y medicina estética), hermano de clínicas dentales; sin cubrir en memoria. Imágenes Pexels (Nico Becker) y Unsplash (engin akyurt). EN publicado en el mismo commit.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

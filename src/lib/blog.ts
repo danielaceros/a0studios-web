@@ -15336,6 +15336,151 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-clinicas-estetica-madrid",
+    title: "Grabar contenido para clínicas de estética y medicina estética en Madrid: cómo preparar la sesión",
+    description:
+      "Cómo grabar contenido como clínica de estética o medicina estética en un estudio de Madrid: qué piezas grabar, cómo mostrar tratamientos con honestidad y cómo preparar un anuncio de captación.",
+    publishedAt: "2026-11-23",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["clínicas de estética", "medicina estética", "estudio madrid", "contenido orgánico", "anuncios", "salud"],
+    keyword: "grabar contenido para clinicas de estetica y medicina estetica en madrid",
+    intent: "informacional",
+    excerpt:
+      "Quien busca una clínica de estética compara fotos, opiniones y caras. Qué grabar en una sola sesión en Madrid para tener vídeo de presentación, clips que resuelven dudas y un anuncio de captación.",
+    seoTitle: "Grabar contenido para clínicas de estética en Madrid",
+    metaDescription:
+      "Grabar contenido para clínicas de estética en Madrid: qué piezas grabar en una sesión de 3 horas, cómo explicar tratamientos y captar primeras consultas.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si tienes una clínica de estética o de medicina estética y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 3 horas con tres piezas: un vídeo de presentación de 2 a 3 minutos, entre 8 y 10 clips de 30 a 60 segundos que resuelven dudas sobre tratamientos y un anuncio para captar primeras consultas. Con una mañana tienes material para semanas de redes y una pieza lista para probar en Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, trabajamos con negocios donde la decisión se toma mirando a quien te va a tratar. Quien busca una clínica de estética compara perfiles de Instagram, lee opiniones y quiere ver a la persona que le atenderá. Dirigimos la sesión con mentalidad de anuncios y de venta, pero con un límite claro: en salud y estética no se prometen resultados, se explica con criterio.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-clinicas-estetica-madrid/hero.webp",
+        alt: "Sala de tratamiento de una clínica moderna con camilla y equipamiento profesional",
+        width: 1696,
+        height: 1300,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué el vídeo funciona tan bien en estética",
+      },
+      {
+        type: "paragraph",
+        text: "En estética hay mucha oferta parecida y mucha foto retocada. Un vídeo de dos minutos en el que explicas qué tratamientos haces, para quién son y cómo es la primera consulta transmite algo que una galería no da: quién eres y cómo hablas. Eso reduce la duda previa a reservar.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, el vídeo corto resuelve el problema de siempre: preguntas repetidas. Cuánto dura un tratamiento, cuándo se ven cambios, qué cuidados hay después. Si grabas una vez la respuesta honesta, la reutilizas en redes, en la web y en los anuncios.",
+      },
+      {
+        type: "paragraph",
+        text: "Un matiz importante: el estudio no sustituye a tu clínica. Grabas tú hablando a cámara con un fondo cuidado, y las imágenes de tratamientos reales se usan en edición solo con consentimiento escrito de cada persona que aparezca.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo de presentación",
+      },
+      {
+        type: "paragraph",
+        text: "Va primero, cuando tienes más energía. Estructura: quién eres, qué tratamientos haces más, cómo es la primera consulta y cómo reservar. Con teleprompter para no perder el hilo, pero leyendo despacio. Si es tu primera vez delante de cámara, 5 o 6 tomas son normales y la última suele ser la mejor.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips que respondan una sola pregunta",
+      },
+      {
+        type: "paragraph",
+        text: "Entre 8 y 10 clips, cada uno con una duda real: cuánto dura un tratamiento, cuántas sesiones se suelen necesitar, qué cuidados hay después, a quién no se recomienda. Con una Sony A7 en vertical y un micrófono de solapa, un clip cada 5 minutos es un ritmo realista con el guion claro. Si dudas de una cifra, da un rango y explica de qué depende, porque cada piel y cada caso son distintos.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para un anuncio de captación",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a invertir en anuncios para captar primeras consultas en tu zona, graba una pieza de 30 a 45 segundos con dos aperturas distintas: una pregunta sobre una duda habitual y una afirmación tranquila sobre cómo es la valoración inicial. Son 10 minutos más y te permite probar cuál abre mejor sin volver a grabar. Para repartir bien las horas, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-clinicas-estetica-madrid/mid.webp",
+        alt: "Mujer tumbada con una mascarilla facial blanca durante un tratamiento de belleza",
+        width: 1200,
+        height: 800,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido de estética",
+      },
+      {
+        type: "list",
+        items: [
+          "Prometer resultados concretos o plazos exactos sin explicar que dependen de cada persona y de la valoración previa.",
+          "Usar fotos o vídeos de antes y después sin el consentimiento escrito de quien aparece.",
+          "Llenar el guion de términos técnicos que el cliente no entiende en lugar de explicar con ejemplos cotidianos.",
+          "Grabar solo la cabina y los aparatos, sin ninguna persona a cámara.",
+          "Grabar un único vídeo largo en lugar de piezas cortas que se puedan publicar durante semanas.",
+          "Ignorar las políticas de publicidad de salud y estética de cada plataforma, que limitan lo que puedes mostrar y afirmar.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si quieres que te conozcan antes de la primera consulta. Si todavía no tienes claro qué tratamiento quieres empujar, define primero esa oferta y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para una clínica de estética?",
+        answer:
+          "Entre 2 y 3 horas para un vídeo de presentación, 8 a 10 clips de dudas frecuentes y un anuncio con dos aperturas. Si quieres grabar a varios profesionales por separado, mejor un bloque de 4 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Se pueden grabar tratamientos o pacientes en el estudio?",
+        answer:
+          "Lo práctico es hablar a cámara en el estudio y usar imágenes reales de tu clínica en la edición, siempre con consentimiento escrito de quien aparezca. En el estudio no se realizan tratamientos.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y las ideas de los clips.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes una clínica de estética y quieres grabar en Madrid, escríbenos en /#contacto con tus tratamientos principales y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

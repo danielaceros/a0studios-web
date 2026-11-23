@@ -4339,4 +4339,146 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-clinicas-estetica-madrid": {
+    title: "Recording Content for Aesthetic and Cosmetic Medicine Clinics in Madrid: How to Prepare the Session",
+    description:
+      "How to record content as an aesthetic or cosmetic medicine clinic in a Madrid studio: which pieces to shoot, how to show treatments honestly and how to prepare a lead ad.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["aesthetic clinics", "cosmetic medicine", "Madrid studio", "organic content", "ads", "healthcare"],
+    keyword: "aesthetic clinic video content madrid",
+    excerpt:
+      "People choosing an aesthetic clinic compare photos, reviews and faces. What to record in a single session in Madrid to get an intro video, clips that answer common questions and a lead-generation ad.",
+    seoTitle: "Video Content for Aesthetic Clinics in Madrid",
+    metaDescription:
+      "Video content for aesthetic clinics in Madrid: which pieces to record in a 3-hour session, how to explain treatments and how to win first consultations.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you run an aesthetic or cosmetic medicine clinic and want to record content in Madrid, the best-performing plan is a 3-hour session with three pieces: a 2 to 3 minute intro video, 8 to 10 clips of 30 to 60 seconds answering common treatment questions and one ad to win first consultations. One morning gives you weeks of social posts and a piece ready to test on Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, our team works with businesses where the decision is made by looking at who will treat you. People searching for an aesthetic clinic compare Instagram profiles, read reviews and want to see the person who will look after them. We direct the session with an ads and sales mindset, with one clear limit: in healthcare and aesthetics you don't promise results, you explain with judgment.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-clinicas-estetica-madrid/hero.webp",
+        alt: "Treatment room of a modern clinic with a couch and professional equipment",
+        width: 1696,
+        height: 1300,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why video works so well for aesthetic clinics",
+      },
+      {
+        type: "paragraph",
+        text: "Aesthetics has plenty of similar offers and plenty of retouched photos. A two-minute video where you explain which treatments you do, who they are for and what the first consultation is like gives something a gallery can't: who you are and how you speak. That lowers the hesitation before booking.",
+      },
+      {
+        type: "paragraph",
+        text: "Short video also solves the usual problem of repeated questions. How long does a treatment take, when do changes show, what aftercare is needed. Record the honest answer once and reuse it on social media, on your website and in ads.",
+      },
+      {
+        type: "paragraph",
+        text: "One important point: the studio doesn't replace your clinic. You speak to camera against a clean backdrop, and real treatment footage is added in the edit only with written consent from everyone who appears.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to organize the recording session",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Start with the intro video",
+      },
+      {
+        type: "paragraph",
+        text: "It goes first, when you have the most energy. Structure: who you are, which treatments you do most, what the first consultation is like and how to book. Use a teleprompter so you don't lose the thread, but read slowly. If it's your first time on camera, 5 or 6 takes are normal and the last one is usually the best.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Record clips that answer one question each",
+      },
+      {
+        type: "paragraph",
+        text: "Between 8 and 10 clips, each with a real question: how long does a treatment last, how many sessions are usually needed, what aftercare is required, who is it not recommended for. With a Sony A7 in vertical and a lavalier mic, one clip every 5 minutes is a realistic pace with a clear script. If you doubt a figure, give a range and explain what it depends on, because every skin type and every case is different.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserve a block for a lead-generation ad",
+      },
+      {
+        type: "paragraph",
+        text: "If you plan to run ads to win first consultations in your area, record a 30 to 45 second piece with two different openings: a question about a common doubt and a calm statement about what the initial assessment is like. It adds 10 minutes and lets you test which opens better without re-recording. To split the hours well, see /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-clinicas-estetica-madrid/mid.webp",
+        alt: "Woman lying down with a white face mask during a beauty treatment",
+        width: 1200,
+        height: 800,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Common mistakes when recording aesthetic clinic content",
+      },
+      {
+        type: "list",
+        items: [
+          "Promising specific results or exact timelines without explaining they depend on each person and the prior assessment.",
+          "Using before-and-after photos or videos without the written consent of the person shown.",
+          "Filling the script with technical terms clients don't understand instead of explaining with everyday examples.",
+          "Recording only the treatment room and devices with no person on camera.",
+          "Recording one long video instead of short pieces you can publish over weeks.",
+          "Ignoring each platform's healthcare and aesthetics advertising policies, which limit what you can show and claim.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if you want people to know you before the first consultation. If you're not yet sure which treatment to push, define that offer first and then record.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently asked questions",
+      },
+      {
+        type: "faq",
+        question: "How long does a session for an aesthetic clinic last?",
+        answer:
+          "Between 2 and 3 hours for an intro video, 8 to 10 clips answering common questions and one ad with two openings. If you want to record several professionals separately, a 4-hour block works better.",
+      },
+      {
+        type: "faq",
+        question: "Can treatments or patients be filmed in the studio?",
+        answer:
+          "The most practical approach is to speak to camera in the studio and use real footage from your clinic in the edit, always with written consent from anyone who appears. No treatments are done in the studio.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own equipment?",
+        answer:
+          "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You only bring the script, your outfit and your clip ideas.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver the edited videos?",
+        answer:
+          "It depends on the service. With Recording Only you take the raw footage. With Recording + Editing we cut in DaVinci Resolve and CapCut with subtitles and platform formats. With Full Production we also handle the script and strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you run an aesthetic clinic and want to record in Madrid, write to us at /#contacto with your main treatments and the type of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }
