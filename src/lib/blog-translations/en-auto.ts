@@ -4481,4 +4481,146 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-fisioterapeutas-clinicas-madrid": {
+    title: "Video Content for Physiotherapists and Physio Clinics in Madrid: How to Prepare the Session",
+    description:
+      "How to record content as a physiotherapist or physio clinic in a Madrid studio: which pieces to shoot, how to demonstrate exercises and how to prepare a lead-generation ad.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["physiotherapists", "physio clinics", "Madrid studio", "organic content", "ads", "health"],
+    keyword: "physiotherapist video content madrid",
+    excerpt:
+      "A patient in pain looks for someone who inspires trust and explains what is going on. What to record in one Madrid session: an intro video, exercise clips and a lead-generation ad.",
+    seoTitle: "Video Content for Physiotherapists in Madrid",
+    metaDescription:
+      "Video content for physiotherapists and clinics in Madrid: which pieces to record in a 3-hour session, how to explain exercises and win first appointments.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you are a physiotherapist or run a physio clinic and want to record content in Madrid, a 3-hour session with three pieces works best: a 2 to 3 minute intro video, 8 to 10 clips of 30 to 60 seconds explaining common complaints and exercises, and one ad to attract first assessments. One morning gives you material for weeks of social media and a piece ready to test on Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16 on the 7th floor, our team works with professionals whose service is chosen on trust. Someone arriving with lower back pain or a sports injury wants a person who explains what is happening without jargon. We direct the session with an ads-and-sales mindset, but with a clear limit: in healthcare you don't promise cures or fixed timelines, you show judgment and warmth.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-fisioterapeutas-clinicas-madrid/hero.webp",
+        alt: "Physiotherapist adjusting a strap on a patient's leg in a clinic",
+        width: 1880,
+        height: 1253,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why video works so well in physiotherapy",
+      },
+      {
+        type: "paragraph",
+        text: "Physiotherapy is movement, and movement is easier to understand on video than in text. A 40-second clip explaining why your back hurts when you wake up and which gentle exercise helps is worth more than a paragraph on your website, and it shows how you work.",
+      },
+      {
+        type: "paragraph",
+        text: "Patients also compare nearby clinics with very little information. If they have seen you explain a complaint calmly, they arrive at the first appointment with more trust and fewer doubts. You can see it in the schedule.",
+      },
+      {
+        type: "paragraph",
+        text: "One important point: patients are not treated in the studio. You record yourself speaking to camera and demonstrating exercises against a clean background, and footage from your clinic is used in editing only with written consent from anyone who appears.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to organise the recording session",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Start with the intro video",
+      },
+      {
+        type: "paragraph",
+        text: "It goes first, when your energy is highest. Structure: who you are, which injuries you treat most, what the first assessment looks like and how to book. Use a teleprompter to keep the thread, but read slowly. If it is your first time on camera, 5 or 6 takes are normal and the last one is usually the best.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Record exercise clips with a single idea",
+      },
+      {
+        type: "paragraph",
+        text: "8 to 10 clips, each answering a real question: why the neck hurts after sitting at work, how many sessions are usually needed, which stretch helps and which to avoid. With a Sony A7 in vertical and a lavalier microphone, one clip every 5 minutes is a realistic pace. To demonstrate an exercise, shoot full-body and leave free floor space. If you are unsure about a timeline, give a range and explain what it depends on.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserve a block for a lead-generation ad",
+      },
+      {
+        type: "paragraph",
+        text: "If you plan to run ads to attract assessments in your area, record one 30 to 45 second piece with two different openings: a question about a common complaint and a calm statement about what the first consultation looks like. It takes 10 extra minutes and lets you test which opens better without recording again. To split the hours well, see /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-fisioterapeutas-clinicas-madrid/mid.webp",
+        alt: "Physiotherapist giving a back massage to a patient on a treatment table",
+        width: 1920,
+        height: 1280,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Common mistakes when recording physiotherapy content",
+      },
+      {
+        type: "list",
+        items: [
+          "Promising that an injury heals in an exact number of sessions, without explaining that it depends on the person.",
+          "Presenting an exercise as if it suits everyone watching, without saying it doesn't replace an assessment.",
+          "Using clinical jargon the patient doesn't understand instead of explaining with everyday examples.",
+          "Filming only the treatment table and equipment, with nobody on camera.",
+          "Recording one long video instead of short pieces you can publish over weeks.",
+          "Ignoring each platform's health advertising policies, which limit what you can claim.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if you want people to know you before the first appointment. If you are not yet clear on which kind of patient you want to attract, define that profile first and record afterwards.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently asked questions",
+      },
+      {
+        type: "faq",
+        question: "How long is a recording session for a physiotherapist?",
+        answer:
+          "Between 2 and 3 hours for an intro video, 8 to 10 clips on exercises and common questions and an ad with two openings. If you want to record several clinic professionals separately, a 4-hour block is better.",
+      },
+      {
+        type: "faq",
+        question: "Can treatments or patients be recorded in the studio?",
+        answer:
+          "The practical approach is to speak to camera and demonstrate exercises in the studio, then use real footage from your clinic in editing, always with written consent from anyone who appears. Patients are not seen in the studio.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own equipment?",
+        answer:
+          "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You only bring the script, your outfit and your clip ideas.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver the edited videos?",
+        answer:
+          "It depends on the service. With Recording Only you take the raw footage. With Recording + Editing we cut in DaVinci Resolve and CapCut with subtitles and platform formats. With Full Production we also handle the script and strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you are a physiotherapist or run a clinic and want to record in Madrid, write to us at /#contacto with your main services and the type of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }

@@ -15481,6 +15481,151 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-fisioterapeutas-clinicas-madrid",
+    title: "Grabar contenido para fisioterapeutas y clínicas de fisioterapia en Madrid: cómo preparar la sesión",
+    description:
+      "Cómo grabar contenido como fisioterapeuta o clínica de fisioterapia en un estudio de Madrid: qué piezas grabar, cómo demostrar ejercicios y cómo preparar un anuncio de captación.",
+    publishedAt: "2026-11-23",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["fisioterapeutas", "clínicas de fisioterapia", "estudio madrid", "contenido orgánico", "anuncios", "salud"],
+    keyword: "grabar contenido para fisioterapeutas y clinicas de fisioterapia en madrid",
+    intent: "informacional",
+    excerpt:
+      "Un paciente con dolor busca a quien le inspire confianza y le explique qué le pasa. Qué grabar en una sola sesión en Madrid para tener vídeo de presentación, clips de ejercicios y un anuncio de captación.",
+    seoTitle: "Grabar contenido para fisioterapeutas en Madrid",
+    metaDescription:
+      "Grabar contenido para fisioterapeutas y clínicas en Madrid: qué piezas grabar en una sesión de 3 horas, cómo explicar ejercicios y captar primeras consultas.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si eres fisioterapeuta o tienes una clínica de fisioterapia y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 3 horas con tres piezas: un vídeo de presentación de 2 a 3 minutos, entre 8 y 10 clips de 30 a 60 segundos que explican dolencias y ejercicios y un anuncio para captar primeras valoraciones. Con una mañana tienes material para semanas de redes y una pieza lista para probar en Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, trabajamos con profesionales cuyo servicio se decide por confianza. Quien llega con una lumbalgia o una lesión deportiva busca a alguien que le explique qué le pasa sin tecnicismos. Dirigimos la sesión con mentalidad de anuncios y de venta, pero con un límite claro: en salud no se prometen curaciones ni plazos cerrados, se muestra criterio y cercanía.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-fisioterapeutas-clinicas-madrid/hero.webp",
+        alt: "Fisioterapeuta ajustando una correa en la pierna de un paciente en una clínica",
+        width: 1880,
+        height: 1253,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué el vídeo funciona tan bien en fisioterapia",
+      },
+      {
+        type: "paragraph",
+        text: "La fisioterapia es movimiento, y el movimiento se entiende mejor en vídeo que en texto. Un clip de 40 segundos en el que explicas por qué te duele la espalda al despertar y qué ejercicio suave puedes hacer vale más que un párrafo en tu web, y además demuestra cómo trabajas.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, el paciente compara clínicas cercanas con poca información. Si te ha visto explicar una dolencia con calma, llega a la primera cita con más confianza y con menos dudas. Eso se nota en la agenda.",
+      },
+      {
+        type: "paragraph",
+        text: "Un matiz importante: en el estudio no se tratan pacientes. Grabas tú hablando a cámara y demostrando ejercicios con un fondo cuidado, y las imágenes de tu clínica se usan en edición solo con consentimiento escrito de quien aparezca.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo de presentación",
+      },
+      {
+        type: "paragraph",
+        text: "Va primero, cuando tienes más energía. Estructura: quién eres, qué tipo de lesiones tratas más, cómo es la primera valoración y cómo reservar. Con teleprompter para no perder el hilo, pero leyendo despacio. Si es tu primera vez delante de cámara, 5 o 6 tomas son normales y la última suele ser la mejor.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips de ejercicios con una sola idea",
+      },
+      {
+        type: "paragraph",
+        text: "Entre 8 y 10 clips, cada uno con una duda real: por qué duele el cuello tras trabajar sentado, cuántas sesiones suele hacer falta, qué estiramiento ayuda y cuál conviene evitar. Con una Sony A7 en vertical y un micrófono de solapa, un clip cada 5 minutos es un ritmo realista. Para demostrar un ejercicio, graba en plano entero y deja espacio libre en el suelo. Si dudas de un plazo, da un rango y explica de qué depende.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para un anuncio de captación",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a invertir en anuncios para captar valoraciones en tu zona, graba una pieza de 30 a 45 segundos con dos aperturas distintas: una pregunta sobre una molestia habitual y una afirmación tranquila sobre cómo es la primera consulta. Son 10 minutos más y te permite probar cuál abre mejor sin volver a grabar. Para repartir bien las horas, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-fisioterapeutas-clinicas-madrid/mid.webp",
+        alt: "Fisioterapeuta realizando un masaje de espalda a una paciente en una camilla",
+        width: 1920,
+        height: 1280,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido de fisioterapia",
+      },
+      {
+        type: "list",
+        items: [
+          "Prometer que una lesión se cura en un número exacto de sesiones, sin explicar que depende de cada persona.",
+          "Dar un ejercicio como si valiera para cualquiera que vea el vídeo, sin avisar de que no sustituye una valoración.",
+          "Usar jerga clínica que el paciente no entiende en lugar de explicar con ejemplos cotidianos.",
+          "Grabar solo la camilla y los aparatos, sin ninguna persona a cámara.",
+          "Grabar un único vídeo largo en lugar de piezas cortas que se puedan publicar durante semanas.",
+          "Ignorar las políticas de publicidad de salud de cada plataforma, que limitan lo que puedes afirmar.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si quieres que te conozcan antes de la primera cita. Si todavía no tienes claro qué tipo de paciente quieres atraer, define primero ese perfil y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para un fisioterapeuta?",
+        answer:
+          "Entre 2 y 3 horas para un vídeo de presentación, 8 a 10 clips de ejercicios y dudas frecuentes y un anuncio con dos aperturas. Si quieres grabar a varios profesionales de la clínica, mejor un bloque de 4 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Se pueden grabar tratamientos o pacientes en el estudio?",
+        answer:
+          "Lo práctico es hablar a cámara y demostrar ejercicios en el estudio, y usar imágenes reales de tu clínica en la edición, siempre con consentimiento escrito de quien aparezca. En el estudio no se atiende a pacientes.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y las ideas de los clips.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si eres fisioterapeuta o tienes una clínica y quieres grabar en Madrid, escríbenos en /#contacto con tus servicios principales y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
