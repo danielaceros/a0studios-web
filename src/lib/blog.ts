@@ -15191,6 +15191,151 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-clinicas-dentales-madrid",
+    title: "Grabar contenido para clínicas dentales y dentistas en Madrid: cómo preparar la sesión",
+    description:
+      "Cómo grabar contenido como clínica dental o dentista en un estudio de Madrid: qué piezas grabar, cómo explicar tratamientos sin asustar y cómo preparar un anuncio de captación.",
+    publishedAt: "2026-11-23",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["clínicas dentales", "dentistas", "estudio madrid", "contenido orgánico", "anuncios", "salud"],
+    keyword: "grabar contenido para clinicas dentales y dentistas en madrid",
+    intent: "informacional",
+    excerpt:
+      "Un paciente elige dentista con miedo y comparando clínicas. Qué grabar en una sola sesión en Madrid para tener vídeo de presentación, clips que resuelven dudas y un anuncio de captación.",
+    seoTitle: "Grabar contenido para clínicas dentales en Madrid",
+    metaDescription:
+      "Grabar contenido para clínicas dentales en Madrid: qué piezas grabar en una sesión de 3 horas, cómo explicar tratamientos y captar primeras visitas.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si tienes una clínica dental o eres dentista y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 3 horas con tres piezas: un vídeo de presentación de 2 a 3 minutos, entre 8 y 10 clips de 30 a 60 segundos que resuelven dudas de pacientes y un anuncio para captar primeras visitas. Con una mañana tienes material para semanas de redes y una pieza lista para probar en Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, trabajamos con negocios donde la confianza pesa más que el precio. Quien busca dentista suele tener miedo, ha pospuesto la visita y compara varias clínicas. Dirigimos la sesión con mentalidad de anuncios y de venta, pero con un límite claro: en salud no se prometen resultados, se explica con criterio y se da tranquilidad.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-clinicas-dentales-madrid/hero.webp",
+        alt: "Sillón dental naranja con equipamiento médico en una consulta luminosa",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué el vídeo funciona tan bien en una clínica dental",
+      },
+      {
+        type: "paragraph",
+        text: "Ir al dentista genera ansiedad, y la ansiedad se rebaja viendo la cara de quien te va a atender. Un vídeo en el que explicas cómo es una primera visita, qué se siente en un empaste o cómo trabajas con pacientes nerviosos responde a esas dudas antes de que llamen. El paciente llega ya con la sensación de conocerte.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, el sector tiene mucha pregunta repetida: cuánto dura una limpieza, si duele una endodoncia, cuánto tarda un tratamiento de ortodoncia invisible, qué cubre una revisión. Grabar cada respuesta una vez y publicarla en piezas cortas te ahorra repetirla en recepción y te posiciona como la clínica que explica claro.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tu clínica tiene varios especialistas, el enfoque cambia: un clip por profesional, con su especialidad y su manera de tratar, ayuda a que el paciente elija con quién quiere sentarse.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo de presentación",
+      },
+      {
+        type: "paragraph",
+        text: "Va primero, cuando tienes más energía. Estructura: quién eres, qué tratamientos haces más, cómo es la primera visita y cómo pedir cita. Con teleprompter para no perder el hilo, pero leyendo despacio. Si es tu primera vez delante de cámara, 5 o 6 tomas son normales y la última suele ser la mejor.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips que resuelven una duda cada uno",
+      },
+      {
+        type: "paragraph",
+        text: "Entre 8 y 10 clips, cada uno con una pregunta real: si duele una endodoncia, cada cuánto conviene una limpieza, cuándo se plantea un implante. Con una Sony A7 en vertical y un micrófono de solapa, un clip cada 5 minutos es un ritmo realista con el guion claro. Si dudas de una cifra de plazos o de resultados, da un rango y explica de qué depende, porque cada boca es distinta.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para un anuncio de captación",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a invertir en anuncios para captar primeras visitas en tu zona, graba una pieza de 30 a 45 segundos con dos aperturas distintas: una pregunta sobre el miedo al dentista y una afirmación tranquila sobre cómo es la primera consulta. Son 10 minutos más y te permiten probar cuál abre mejor sin volver a grabar. Para repartir bien las horas, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-clinicas-dentales-madrid/mid.webp",
+        alt: "Profesional sanitario hablando con un paciente durante una consulta",
+        width: 1200,
+        height: 782,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido de una clínica dental",
+      },
+      {
+        type: "list",
+        items: [
+          "Prometer resultados estéticos concretos o plazos exactos sin explicar que dependen de cada paciente y de su diagnóstico.",
+          "Usar imágenes de antes y después sin consentimiento expreso y por escrito del paciente.",
+          "Llenar el guion de términos clínicos que el paciente no entiende en lugar de explicar con ejemplos cotidianos.",
+          "Grabar solo imágenes de la consulta y el equipamiento sin una persona que dé la cara.",
+          "Grabar un único vídeo largo en lugar de piezas cortas que se puedan publicar durante semanas.",
+          "No grabar ninguna pieza pensada para anuncios y depender solo del boca a boca y de las derivaciones.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si quieres que el paciente te conozca antes de la primera visita. Si todavía no tienes claro qué tratamiento quieres potenciar, define primero esa oferta y después graba. Y revisa la normativa de publicidad sanitaria antes de lanzar un anuncio.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para una clínica dental?",
+        answer:
+          "Entre 2 y 3 horas para un vídeo de presentación, 8 a 10 clips que resuelven dudas y un anuncio con dos aperturas. Si quieres grabar a varios especialistas por separado, mejor un bloque de 4 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Se pueden grabar pacientes o tratamientos en el estudio?",
+        answer:
+          "Lo más práctico es que grabes tú hablando a cámara en el estudio y que uses imágenes reales de tu clínica para el montaje, siempre con el consentimiento por escrito de quien aparezca. En el estudio no se hacen tratamientos.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y las ideas de los clips.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes una clínica dental y quieres grabar en Madrid, escríbenos en /#contacto con tus tratamientos principales y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

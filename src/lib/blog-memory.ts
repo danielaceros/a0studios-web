@@ -1144,6 +1144,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen Prioridad 2 (#12 Errores comunes al grabar testimoniales de empresa). Imágenes Unsplash (Leuchtturm Entertainment, Sam McGhee). EN publicado en el mismo commit.",
   },
+  {
+    slug: "grabar-contenido-clinicas-dentales-madrid",
+    keyword: "grabar contenido para clinicas dentales y dentistas en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-23",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant en consultas 90d/28d, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: listas Prioridad 1, 2 y rotación 1/3 agotadas, se elige vertical nuevo (clínicas dentales), hermano de los verticales por sector; sin cubrir en memoria. Imágenes Unsplash (Atikah Akhtar, National Cancer Institute). EN publicado en el mismo commit.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

@@ -4197,4 +4197,146 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-clinicas-dentales-madrid": {
+    title: "Recording Content for Dental Clinics and Dentists in Madrid: How to Prepare the Session",
+    description:
+      "How to record content as a dental clinic or dentist in a Madrid studio: which pieces to shoot, how to explain treatments without scaring patients and how to prepare a lead ad.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["dental clinics", "dentists", "Madrid studio", "organic content", "ads", "healthcare"],
+    keyword: "dental clinic video content madrid",
+    excerpt:
+      "Patients choose a dentist while anxious and comparing clinics. What to record in a single session in Madrid to get an intro video, clips that answer common questions and a lead-generation ad.",
+    seoTitle: "Video Content for Dental Clinics in Madrid",
+    metaDescription:
+      "Video content for dental clinics in Madrid: which pieces to record in a 3-hour session, how to explain treatments and how to win first appointments.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you run a dental clinic or are a dentist and want to record content in Madrid, the best-performing plan is a 3-hour session with three pieces: a 2 to 3 minute intro video, 8 to 10 clips of 30 to 60 seconds answering common patient questions and one ad to win first appointments. One morning gives you weeks of social posts and a piece ready to test on Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, our team works with businesses where trust weighs more than price. People looking for a dentist are often nervous, have put the visit off and compare several clinics. We direct the session with an ads and sales mindset, with one clear limit: in healthcare you don't promise results, you explain with judgment and offer reassurance.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-clinicas-dentales-madrid/hero.webp",
+        alt: "Orange dental chair with medical equipment in a bright clinical office",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why video works so well for a dental clinic",
+      },
+      {
+        type: "paragraph",
+        text: "Going to the dentist causes anxiety, and anxiety drops when you see the face of the person who will treat you. A video explaining what a first visit is like, how a filling feels or how you work with nervous patients answers those doubts before they call. The patient arrives already feeling they know you.",
+      },
+      {
+        type: "paragraph",
+        text: "The sector also has many repeated questions: how long a cleaning takes, whether a root canal hurts, how long invisible orthodontics lasts, what a check-up covers. Recording each answer once and publishing it as short pieces saves you repeating it at reception and positions you as the clinic that explains things clearly.",
+      },
+      {
+        type: "paragraph",
+        text: "If your clinic has several specialists, the approach changes: one clip per professional, with their specialty and way of treating patients, helps people choose who they want to sit with.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to organize the recording session",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Start with the intro video",
+      },
+      {
+        type: "paragraph",
+        text: "It goes first, when you have the most energy. Structure: who you are, which treatments you do most, what the first visit is like and how to book. Use a teleprompter so you don't lose the thread, but read slowly. If it's your first time on camera, 5 or 6 takes are normal and the last one is usually the best.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Record clips that answer one question each",
+      },
+      {
+        type: "paragraph",
+        text: "Between 8 and 10 clips, each with a real question: does a root canal hurt, how often should you get a cleaning, when is an implant considered. With a Sony A7 in vertical and a lavalier mic, one clip every 5 minutes is a realistic pace with a clear script. If you doubt a figure on timing or results, give a range and explain what it depends on, because every mouth is different.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserve a block for a lead-generation ad",
+      },
+      {
+        type: "paragraph",
+        text: "If you plan to run ads to win first appointments in your area, record a 30 to 45 second piece with two different openings: a question about fear of the dentist and a calm statement about what the first consultation is like. It adds 10 minutes and lets you test which opens better without re-recording. To split the hours well, see /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-clinicas-dentales-madrid/mid.webp",
+        alt: "Healthcare professional talking with a patient during a consultation",
+        width: 1200,
+        height: 782,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Common mistakes when recording dental clinic content",
+      },
+      {
+        type: "list",
+        items: [
+          "Promising specific aesthetic results or exact timelines without explaining they depend on each patient and diagnosis.",
+          "Using before-and-after images without the patient's explicit written consent.",
+          "Filling the script with clinical terms patients don't understand instead of explaining with everyday examples.",
+          "Recording only the office and equipment with no person on camera.",
+          "Recording one long video instead of short pieces you can publish over weeks.",
+          "Not recording any piece designed for ads and relying only on word of mouth and referrals.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if you want patients to know you before the first visit. If you're not yet sure which treatment to push, define that offer first and then record. And check healthcare advertising rules before launching an ad.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently asked questions",
+      },
+      {
+        type: "faq",
+        question: "How long does a session for a dental clinic last?",
+        answer:
+          "Between 2 and 3 hours for an intro video, 8 to 10 clips answering questions and one ad with two openings. If you want to record several specialists separately, a 4-hour block works better.",
+      },
+      {
+        type: "faq",
+        question: "Can patients or treatments be filmed in the studio?",
+        answer:
+          "The most practical approach is to speak to camera in the studio and use real footage from your clinic in the edit, always with written consent from anyone who appears. No treatments are done in the studio.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own equipment?",
+        answer:
+          "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You only bring the script, your outfit and your clip ideas.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver the edited videos?",
+        answer:
+          "It depends on the service. With Recording Only you take the raw footage. With Recording + Editing we cut in DaVinci Resolve and CapCut with subtitles and platform formats. With Full Production we also handle the script and strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you run a dental clinic and want to record in Madrid, write to us at /#contacto with your main treatments and the type of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }
