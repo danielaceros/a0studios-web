@@ -1171,6 +1171,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: listas Prioridad 1 y 2 agotadas; tema vertical sanitario siguiendo la serie grabar-contenido-<sector>-madrid, ángulo de demostración de ejercicios y captación de valoraciones, distinto de clínicas dentales, estética y psicólogos. Imágenes Unsplash/Pexels.",
   },
+  {
+    slug: "grabar-contenido-nutricionistas-dietistas-madrid",
+    keyword: "grabar contenido para nutricionistas y dietistas en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-24",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: listas Prioridad 1, 2 y rotación agotadas; tema vertical sanitario siguiendo la serie grabar-contenido-<sector>-madrid, ángulo de divulgación sin promesas y anuncio de captación, distinto de fisioterapeutas, psicólogos y clínicas. Imágenes Unsplash/Pexels.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

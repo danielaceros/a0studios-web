@@ -15626,6 +15626,151 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-nutricionistas-dietistas-madrid",
+    title: "Grabar contenido para nutricionistas y dietistas en Madrid: cómo preparar la sesión",
+    description:
+      "Cómo grabar contenido como nutricionista o dietista en un estudio de Madrid: qué piezas grabar, cómo explicar sin prometer milagros y cómo preparar un anuncio.",
+    publishedAt: "2026-11-24",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["nutricionistas", "dietistas", "estudio madrid", "contenido orgánico", "anuncios", "salud"],
+    keyword: "grabar contenido para nutricionistas y dietistas en madrid",
+    intent: "informacional",
+    excerpt:
+      "Quien busca nutricionista quiere ver cómo explicas antes de pedir cita. Qué grabar en una sola sesión en Madrid para tener presentación, clips de divulgación y un anuncio de captación.",
+    seoTitle: "Grabar contenido para nutricionistas y dietistas en Madrid",
+    metaDescription:
+      "Grabar contenido para nutricionistas y dietistas en Madrid: qué piezas grabar en una sesión de 3 horas, cómo explicar con claridad y preparar anuncios.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si eres nutricionista o dietista y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 3 horas con tres piezas: un vídeo de presentación de 90 segundos, entre 10 y 12 clips verticales de 30 a 45 segundos que respondan dudas reales y dos versiones de un anuncio para captar primeras consultas. Con una mañana tienes material para un mes de redes y una pieza lista para probar en Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, trabajamos con profesionales de la salud cuyo servicio se decide por confianza. Quien busca nutricionista ya ha probado dietas por su cuenta y desconfía de las promesas rápidas. Dirigimos la sesión con mentalidad de anuncios y de venta, pero sin vender atajos: aquí se muestra criterio y método.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-nutricionistas-dietistas-madrid/hero.webp",
+        alt: "Bol con boniato, kale y verduras, un plato saludable de ejemplo para contenido de nutrición",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué el vídeo funciona tan bien en nutrición y dietética",
+      },
+      {
+        type: "paragraph",
+        text: "La nutrición está llena de consejos contradictorios en redes. Un vídeo en el que explicas con calma por qué una pauta funciona y cuándo no, te separa del ruido mejor que cualquier texto. El paciente potencial comprueba cómo hablas, si te entiende y si le haces sentir juzgado.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, el vídeo ahorra preguntas repetidas. Si grabas una vez qué ocurre en la primera consulta, cuánto dura el seguimiento y qué incluye, ya no tienes que explicarlo por mensaje a cada persona que escribe.",
+      },
+      {
+        type: "paragraph",
+        text: "Un matiz importante: no se muestran pacientes ni datos reales de nadie, y no se graban antes y después reconocibles. Lo que se graba en el estudio eres tú hablando a cámara, con una cocina o un fondo cuidado que sustituye a tu consulta.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo de presentación",
+      },
+      {
+        type: "paragraph",
+        text: "Va primero, cuando tienes más energía. Estructura: a quién acompañas, qué enfoque sigues, cómo es la primera consulta y cómo pedir cita. Con teleprompter para no perder el hilo, leyendo despacio. Si es tu primera vez delante de cámara, 5 o 6 tomas son normales y la última suele ser la mejor.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips que respondan una duda concreta",
+      },
+      {
+        type: "paragraph",
+        text: "Entre 10 y 12 clips, cada uno con una pregunta real: si hay que cenar poco, qué desayunar con prisa, cuánto tarda en notarse un cambio de hábitos. Con una Sony A7 en vertical y un micrófono de solapa, un clip cada 5 minutos es un ritmo realista si el guion está claro. Si no puedes dar una cifra exacta, da un rango y explica de qué depende.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para el anuncio de captación",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a invertir en anuncios para conseguir primeras consultas, graba una pieza de 30 a 45 segundos con dos aperturas distintas: una pregunta y una afirmación tranquila. Son 10 minutos más. Revisa siempre las políticas de publicidad de salud de cada plataforma, que limitan lo que puedes afirmar sobre peso y resultados. Para repartir bien las horas, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-nutricionistas-dietistas-madrid/mid.webp",
+        alt: "Hombre con camiseta blanca sosteniendo una cámara de vídeo negra durante una grabación",
+        width: 1920,
+        height: 1280,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido de nutrición",
+      },
+      {
+        type: "list",
+        items: [
+          "Prometer kilos perdidos en un plazo concreto, algo que además incumplen las políticas de publicidad de salud.",
+          "Dar una pauta como si valiera para cualquiera que vea el vídeo, sin decir que no sustituye a una valoración.",
+          "Demonizar alimentos concretos en lugar de explicar contexto y cantidades.",
+          "Grabar solo platos bonitos sin que aparezcas tú explicándolos.",
+          "Montar un único vídeo largo en lugar de piezas cortas que se puedan publicar durante semanas.",
+          "Mostrar fotos de antes y después de pacientes sin consentimiento escrito.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si tu agenda depende de que te encuentren y confíen en ti antes de la primera cita. Si todavía no tienes claro a qué tipo de paciente quieres acompañar, define primero ese perfil y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para un nutricionista?",
+        answer:
+          "Entre 2 y 3 horas para un vídeo de presentación, 10 a 12 clips y un anuncio con dos aperturas. Si además quieres grabar recetas o un curso, mejor reservar un bloque aparte de 4 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo cocinar o enseñar platos en el estudio?",
+        answer:
+          "Puedes traer platos ya preparados y montarlos en mesa para grabar planos de detalle y explicarlos a cámara. Para cocinar en directo conviene avisarnos antes para planificar el espacio.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y las ideas de los clips.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si eres nutricionista o dietista y quieres grabar en Madrid, escríbenos en /#contacto con tu servicio y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

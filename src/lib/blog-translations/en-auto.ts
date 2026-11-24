@@ -4623,4 +4623,146 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-nutricionistas-dietistas-madrid": {
+    title: "Video Content for Nutritionists and Dietitians in Madrid: How to Prepare the Session",
+    description:
+      "How to record content as a nutritionist or dietitian in a Madrid studio: which pieces to shoot, how to explain without promising miracles and how to prepare an ad.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["nutritionists", "dietitians", "Madrid studio", "organic content", "ads", "health"],
+    keyword: "nutritionist video content madrid",
+    excerpt:
+      "People looking for a nutritionist want to see how you explain before booking. What to record in one Madrid session: an intro video, educational clips and a lead-generation ad.",
+    seoTitle: "Video Content for Nutritionists in Madrid",
+    metaDescription:
+      "Video content for nutritionists and dietitians in Madrid: which pieces to record in a 3-hour session, how to explain clearly and how to prepare ads.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you are a nutritionist or dietitian who wants to record content in Madrid, the best approach is a 3-hour session with three pieces: a 90-second intro video, 10 to 12 vertical clips of 30 to 45 seconds answering real questions and two versions of an ad to attract first consultations. One morning gives you a month of social content and a piece ready to test on Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, on the 7th floor of Ronda de Atocha 16, we work with health professionals whose service is chosen on trust. People looking for a nutritionist have usually tried diets on their own and distrust quick promises. We direct the session with an ads and sales mindset, but without selling shortcuts: we show judgment and method.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-nutricionistas-dietistas-madrid/hero.webp",
+        alt: "Bowl with sweet potato, kale and vegetables, a healthy sample dish for nutrition content",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why video works so well in nutrition and dietetics",
+      },
+      {
+        type: "paragraph",
+        text: "Nutrition on social media is full of contradictory advice. A video where you calmly explain why a plan works and when it doesn't sets you apart from the noise better than any text. A prospective patient checks how you speak, whether you are easy to follow and whether you make them feel judged.",
+      },
+      {
+        type: "paragraph",
+        text: "Video also saves repeated questions. If you record once what happens in the first consultation, how long follow-up lasts and what it includes, you no longer have to explain it by message to everyone who writes.",
+      },
+      {
+        type: "paragraph",
+        text: "One important point: no patients or real data are shown, and no recognisable before-and-after shots are recorded. What we record in the studio is you speaking to camera, with a kitchen setting or polished background standing in for your practice.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to organise the recording session",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Start with the intro video",
+      },
+      {
+        type: "paragraph",
+        text: "It goes first, while you have the most energy. Structure: who you support, which approach you follow, what the first consultation is like and how to book. Use the teleprompter so you don't lose the thread, reading slowly. If it's your first time on camera, 5 or 6 takes are normal and the last is usually the best.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Record clips that answer one specific question",
+      },
+      {
+        type: "paragraph",
+        text: "Between 10 and 12 clips, each answering a real question: whether you should eat light at dinner, what to have for a rushed breakfast, how long a change of habits takes to show. With a vertical Sony A7 and a lavalier microphone, one clip every 5 minutes is a realistic pace if the script is clear. If you can't give an exact figure, give a range and explain what it depends on.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserve a block for the lead-generation ad",
+      },
+      {
+        type: "paragraph",
+        text: "If you plan to invest in ads to get first consultations, record a 30 to 45 second piece with two different openings: a question and a calm statement. That is 10 extra minutes. Always check each platform's health advertising policies, which limit what you can claim about weight and results. To split the hours well, see /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-nutricionistas-dietistas-madrid/mid.webp",
+        alt: "Man in a white t-shirt holding a black video camera during a shoot",
+        width: 1920,
+        height: 1280,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Common mistakes when recording nutrition content",
+      },
+      {
+        type: "list",
+        items: [
+          "Promising a set amount of weight lost in a set time, which also breaks health advertising policies.",
+          "Presenting a plan as if it suits everyone watching, without saying it doesn't replace an assessment.",
+          "Demonising specific foods instead of explaining context and quantities.",
+          "Filming only attractive dishes without you appearing to explain them.",
+          "Editing one long video instead of short pieces you can publish over weeks.",
+          "Showing before-and-after photos of patients without written consent.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if your calendar depends on people finding you and trusting you before the first appointment. If you are not yet clear on which kind of patient you want to support, define that profile first and record afterwards.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently asked questions",
+      },
+      {
+        type: "faq",
+        question: "How long is a recording session for a nutritionist?",
+        answer:
+          "Between 2 and 3 hours for an intro video, 10 to 12 clips and an ad with two openings. If you also want to record recipes or a course, it is better to book a separate 4-hour block.",
+      },
+      {
+        type: "faq",
+        question: "Can I cook or show dishes in the studio?",
+        answer:
+          "You can bring ready-made dishes and set them on a table to shoot detail shots and explain them to camera. If you want to cook live, let us know beforehand so we can plan the space.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own equipment?",
+        answer:
+          "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You only bring the script, your outfit and your clip ideas.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver the edited videos?",
+        answer:
+          "It depends on the service. With Recording Only you take the raw footage. With Recording + Editing we cut in DaVinci Resolve and CapCut with subtitles and platform formats. With Full Production we also handle the script and strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you are a nutritionist or dietitian and want to record in Madrid, write to us at /#contacto with your service and the type of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }
