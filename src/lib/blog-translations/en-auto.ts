@@ -4765,4 +4765,146 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-gestorias-asesorias-fiscales-madrid": {
+    title: "Recording Video Content for Tax Advisory and Accounting Firms in Madrid",
+    description:
+      "How to record content for an accounting or tax advisory firm in a Madrid studio: which pieces to shoot, how to explain taxes without jargon and how to win clients with video.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["accounting firms", "tax advisors", "Madrid studio", "organic content", "freelancers", "SMEs"],
+    keyword: "video content for accountants madrid",
+    excerpt:
+      "A freelancer or small business picks an accountant on trust and clarity, not on the fee. What to record in one Madrid session: an intro, tax-question clips and a lead-generation ad.",
+    seoTitle: "Video Content for Accounting and Tax Firms in Madrid",
+    metaDescription:
+      "Video content for accounting and tax advisory firms in Madrid: which pieces to record in a 3-hour session, how to explain taxes without jargon and win clients.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you run an accounting or tax advisory firm and want to record content in Madrid, what works best is a 3-hour session with three pieces: a 2 to 3 minute intro video, 10 to 12 clips of 30 to 60 seconds answering real tax questions and a simple ad to attract freelancers and small businesses. One morning gives you material for weeks of social media and a piece ready to test on Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, we work with service businesses where the client decides on trust. Someone looking for an accountant wants to know whether you will speak plainly or bury them in acronyms. Our team directs the session with an ads and sales mindset: which piece attracts someone with a problem right now and which one convinces someone comparing three firms.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-gestorias-asesorias-fiscales-madrid/hero.webp",
+        alt: "Office desk with a phone and financial charts, a typical advisory firm workspace",
+        width: 1920,
+        height: 1281,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why video works so well for accounting and tax firms",
+      },
+      {
+        type: "paragraph",
+        text: "Taxes cause anxiety, and a video in which someone calmly explains what must be filed and when reduces that anxiety faster than any text on a website. The prospective client sees how you speak and decides whether you are the person they want handling their paperwork.",
+      },
+      {
+        type: "paragraph",
+        text: "The tax calendar also hands you recurring topics: quarterly filings, income tax season, year-end closing, regulation changes. Recording one batch of clips with the most repeated questions saves you from answering the same thing by phone every week.",
+      },
+      {
+        type: "paragraph",
+        text: "One important point: what you record are general criteria and explanations, not personalised advice or any client's data. In the studio it is you speaking to camera, with a polished background standing in for your office.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to organise the recording session",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Start with the intro video",
+      },
+      {
+        type: "paragraph",
+        text: "It goes first, while you have the most energy. Structure: which clients you serve (freelancers, small businesses, companies), what your monthly service includes, what first contact looks like and how to book. Use the teleprompter so you don't lose the thread, reading slowly. If it's your first time on camera, 5 or 6 takes are normal and the last is usually the best.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Record clips that answer one specific question",
+      },
+      {
+        type: "paragraph",
+        text: "Between 10 and 12 clips, each with a real question: when to register as self-employed, which expenses are deductible, what the difference is between freelancing and incorporating. With a vertical Sony A7 and a lavalier microphone, one clip every 5 minutes is a realistic pace if the script is clear. If the answer depends on the case, say so and explain what it depends on, and always state the video's date because regulations change.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserve a block for the lead-generation ad",
+      },
+      {
+        type: "paragraph",
+        text: "If you plan to invest in ads to win new clients, record a 30 to 45 second piece with two different openings: a question about a common problem and a calm statement. That is 10 extra minutes. To split the session hours well, see /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-gestorias-asesorias-fiscales-madrid/mid.webp",
+        alt: "Two professionals reviewing charts on a laptop during a work meeting",
+        width: 1920,
+        height: 1080,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Common mistakes when recording tax content",
+      },
+      {
+        type: "list",
+        items: [
+          "Using acronyms and jargon (VAT returns, quarterly models, trade tax codes) without explaining them in one sentence.",
+          "Giving figures or deadlines without a date, so the video becomes outdated when rules change.",
+          "Presenting general advice as if it applied to every situation.",
+          "Reading the script straight through in a manual tone instead of speaking as you would in a meeting.",
+          "Recording one long video instead of short pieces you can publish over weeks.",
+          "Showing real documents, names or client data on screen.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if your client base depends on people finding you and trusting you before the first call. If you are not yet clear on which kind of client you want to take on, define that profile first and record afterwards.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently asked questions",
+      },
+      {
+        type: "faq",
+        question: "How long is a recording session for an accounting or tax advisory firm?",
+        answer:
+          "Between 2 and 3 hours for an intro video, 10 to 12 clips answering tax questions and an ad with two openings. If you also want to record several team members, a separate 4-hour block is better.",
+      },
+      {
+        type: "faq",
+        question: "Can I record tax content without giving personalised advice?",
+        answer:
+          "Yes, and it is the recommended approach. Record general criteria and explanations, state the video's date and make clear that each case is reviewed separately. That way the video brings in enquiries without committing you.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own equipment?",
+        answer:
+          "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You only bring the script, your outfit and your clip ideas.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver the edited videos?",
+        answer:
+          "It depends on the service. With Recording Only you take the raw footage. With Recording + Editing we cut in DaVinci Resolve and CapCut with subtitles and platform formats. With Full Production we also handle the script and strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you run an accounting or tax advisory firm and want to record in Madrid, write to us at /#contacto with your service and the type of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }

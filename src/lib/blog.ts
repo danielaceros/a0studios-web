@@ -15771,6 +15771,151 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-gestorias-asesorias-fiscales-madrid",
+    title: "Grabar contenido para gestorías y asesorías fiscales en Madrid",
+    description:
+      "Cómo grabar contenido para una gestoría o asesoría fiscal en un estudio de Madrid: qué piezas grabar, cómo explicar impuestos sin jerga y cómo captar clientes con vídeo.",
+    publishedAt: "2026-11-25",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["gestorías", "asesorías fiscales", "estudio madrid", "contenido orgánico", "autónomos", "pymes"],
+    keyword: "grabar contenido para gestorias y asesorias fiscales en madrid",
+    intent: "informacional",
+    excerpt:
+      "Un autónomo o una pyme elige gestor por confianza y por claridad, no por la tarifa. Qué grabar en una sola sesión en Madrid para tener presentación, clips de dudas fiscales y un anuncio de captación.",
+    seoTitle: "Grabar contenido para gestorías y asesorías fiscales en Madrid",
+    metaDescription:
+      "Grabar contenido para gestorías y asesorías fiscales en Madrid: qué piezas grabar en 3 horas, cómo explicar impuestos sin jerga y captar clientes.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si tienes una gestoría o asesoría fiscal y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 3 horas con tres piezas: un vídeo de presentación de 2 a 3 minutos, entre 10 y 12 clips de 30 a 60 segundos que respondan dudas fiscales reales y un anuncio sencillo para captar autónomos y pymes. Con una mañana tienes material para semanas de redes y una pieza lista para probar en Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, trabajamos con negocios de servicios donde el cliente decide por confianza. Quien busca gestor quiere saber si le vas a hablar claro o le vas a marear con siglas. Dirigimos la sesión con mentalidad de anuncios y de venta: qué pieza atrae a quien tiene un problema ahora mismo y cuál convence a quien está comparando tres despachos.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-gestorias-asesorias-fiscales-madrid/hero.webp",
+        alt: "Escritorio de oficina con móvil y gráficos financieros, un entorno de trabajo de asesoría",
+        width: 1920,
+        height: 1281,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué el vídeo funciona tan bien en gestorías y asesorías",
+      },
+      {
+        type: "paragraph",
+        text: "Los impuestos generan ansiedad, y un vídeo en el que alguien explica con calma qué hay que presentar y cuándo reduce esa ansiedad más rápido que cualquier texto en una web. El cliente potencial ve cómo hablas y decide si quiere que seas tú quien le lleve los papeles.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, el calendario fiscal te regala temas recurrentes: trimestres, renta, cierre de ejercicio, cambios de normativa. Grabar una sola vez una tanda de clips con las dudas más repetidas te evita contestar lo mismo por teléfono cada semana.",
+      },
+      {
+        type: "paragraph",
+        text: "Un matiz importante: lo que se graba son criterios generales y explicaciones, no asesoramiento personalizado ni datos de ningún cliente. En el estudio eres tú hablando a cámara, con un fondo cuidado que sustituye a tu despacho.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo de presentación",
+      },
+      {
+        type: "paragraph",
+        text: "Va primero, cuando tienes más energía. Estructura: a qué tipo de cliente llevas (autónomos, pymes, sociedades), qué incluye tu servicio mensual, cómo es el primer contacto y cómo reservar. Con teleprompter para no perder el hilo, leyendo despacio. Si es tu primera vez delante de cámara, 5 o 6 tomas son normales y la última suele ser la mejor.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips que respondan una duda concreta",
+      },
+      {
+        type: "paragraph",
+        text: "Entre 10 y 12 clips, cada uno con una pregunta real: cuándo conviene darse de alta como autónomo, qué gastos se pueden deducir, qué diferencia hay entre autónomo y sociedad. Con una Sony A7 en vertical y un micrófono de solapa, un clip cada 5 minutos es un ritmo realista si el guion está claro. Si la respuesta depende del caso, dilo y explica de qué depende, y añade siempre la fecha del vídeo porque la normativa cambia.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para el anuncio de captación",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a invertir en anuncios para captar clientes nuevos, graba una pieza de 30 a 45 segundos con dos aperturas distintas: una pregunta sobre un problema habitual y una afirmación tranquila. Son 10 minutos más. Para repartir bien las horas de la sesión, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-gestorias-asesorias-fiscales-madrid/mid.webp",
+        alt: "Dos profesionales revisando gráficos en un portátil durante una reunión de trabajo",
+        width: 1920,
+        height: 1080,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido fiscal",
+      },
+      {
+        type: "list",
+        items: [
+          "Usar siglas y jerga (IRPF, modelo 303, IAE) sin explicar qué significan en una frase.",
+          "Dar cifras o plazos sin fecha, de modo que el vídeo queda obsoleto al cambiar la normativa.",
+          "Presentar un consejo general como si valiera para cualquier situación.",
+          "Leer el guion de corrido con tono de manual, en vez de hablar como lo harías en una reunión.",
+          "Grabar un único vídeo largo en lugar de piezas cortas que se puedan publicar durante semanas.",
+          "Mostrar documentos, nombres o datos reales de clientes en pantalla.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si tu cartera depende de que te encuentren y confíen en ti antes de la primera llamada. Si todavía no tienes claro a qué tipo de cliente quieres llevar, define primero ese perfil y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para una gestoría o asesoría fiscal?",
+        answer:
+          "Entre 2 y 3 horas para un vídeo de presentación, 10 a 12 clips de dudas fiscales y un anuncio con dos aperturas. Si además quieres grabar varios perfiles del equipo, mejor reservar un bloque aparte de 4 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar contenido fiscal sin dar asesoramiento personalizado?",
+        answer:
+          "Sí, y es lo recomendable. Graba criterios generales y explicaciones, indica la fecha del vídeo y deja claro que cada caso se revisa por separado. Así el vídeo capta consultas sin comprometerte.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y las ideas de los clips.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes una gestoría o asesoría fiscal y quieres grabar en Madrid, escríbenos en /#contacto con tu servicio y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
