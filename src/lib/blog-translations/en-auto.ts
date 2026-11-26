@@ -4907,4 +4907,146 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-opticas-oftalmologia-madrid": {
+    title: "Recording Video Content for Opticians and Eye Clinics in Madrid",
+    description:
+      "How to record content for an optician or eye clinic in a Madrid studio: which pieces to shoot, how to explain eye tests and lenses in plain language and how to book more appointments.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["opticians", "eye clinics", "Madrid studio", "organic content", "ads", "eye health"],
+    keyword: "video content for opticians madrid",
+    excerpt:
+      "People compare three opticians before walking in. What to record in one Madrid session: an intro, clips that answer eye-health questions and a lead-generation ad.",
+    seoTitle: "Video Content for Opticians and Eye Clinics in Madrid",
+    metaDescription:
+      "Video content for opticians and eye clinics in Madrid: which pieces to record in a 3-hour session, how to explain lenses and eye tests and win more bookings.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you run an optician or an eye clinic and want to record content in Madrid, what works best is a 3-hour session with three pieces: a 60 to 90 second intro video, 10 to 12 clips of 30 to 45 seconds answering real eye-health questions and a simple ad to book first check-ups. One morning gives you material for weeks of social media and a piece ready to test on Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, we work with businesses where the patient decides on trust and convenience. Someone looking for an optician usually compares three options nearby and wants to know who will explain things without confusing them. Our team directs the session with an ads and sales mindset: which piece gets someone to book a check-up this week and which one convinces someone torn between two centres.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-opticas-oftalmologia-madrid/hero.webp",
+        alt: "Person holding a pair of glasses, a typical image from an optician's work",
+        width: 1920,
+        height: 1281,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why video works for an optician or eye clinic",
+      },
+      {
+        type: "paragraph",
+        text: "Vision raises very specific questions: when is a check-up due, what is the difference between contact lens types, are progressive lenses hard to get used to. A 40 second clip that answers one of them calmly positions you before the person ever steps into your centre.",
+      },
+      {
+        type: "paragraph",
+        text: "Video also shows what a photo cannot: how you talk to a nervous patient, how you explain a prescription and what the centre looks like inside. That closeness is hard for a large chain to copy.",
+      },
+      {
+        type: "paragraph",
+        text: "One important point: real patients and records are never filmed. In the studio it is you, or your team, speaking to camera against a clean background, so your practice's privacy stays intact. If you are visiting from abroad, our guide on /en/blog/rent-recording-studio-madrid-by-the-hour explains how booking by the hour works.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to organise the recording session",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Start with the intro video",
+      },
+      {
+        type: "paragraph",
+        text: "It goes first, when you have the most energy. Structure: who you are, what kind of patient usually comes in, what happens in a first check-up and how to book. Use the teleprompter so you keep the thread, but read slowly. If it is your first time on camera, 4 or 5 takes are normal and the last one is usually the best.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Record clips that answer one question each",
+      },
+      {
+        type: "paragraph",
+        text: "Between 10 and 12 clips, each with a real question: how often to get your eyes checked, what changes between daily and monthly lenses, when a child should have a first check-up. With a Sony A7 in vertical and a lavalier microphone, one clip every 5 minutes is a realistic pace if the script is clear. If you cannot give an exact figure, give a range and explain what it depends on.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserve a block for the lead-generation ad",
+      },
+      {
+        type: "paragraph",
+        text: "If you plan to invest in ads to get check-ups booked, record a 30 to 45 second piece with two different openings: a question and a calm statement. That is 10 extra minutes. Always check each platform's health advertising policies, which limit what you can claim about results. To split the hours well, see /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-opticas-oftalmologia-madrid/mid.webp",
+        alt: "Person sitting in front of a bookshelf during a shoot with a cinema camera",
+        width: 1920,
+        height: 1080,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Common mistakes when recording eye-health content",
+      },
+      {
+        type: "list",
+        items: [
+          "Using clinical jargon as if patients knew what a dioptre or visual acuity is.",
+          "Promising guaranteed results from a lens or a treatment, which also breaks advertising policies.",
+          "Presenting general advice as if it replaced an individual check-up.",
+          "Filming only the frame display without you explaining why you recommend each one.",
+          "Editing one long video instead of short pieces you can publish over weeks.",
+          "Showing patients or screens with real data without written consent.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if your diary depends on being chosen before the first visit. If you are not yet sure which service to push first, for example contact lenses, children's check-ups or ophthalmology, decide that before recording.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently asked questions",
+      },
+      {
+        type: "faq",
+        question: "How long is a session for an optician or eye clinic?",
+        answer:
+          "Between 2 and 3 hours for an intro video, 10 to 12 clips and an ad with two openings. If you also want to record several team members, a separate 4-hour block is better.",
+      },
+      {
+        type: "faq",
+        question: "Can I record with patients or at my centre?",
+        answer:
+          "We don't recommend it. For privacy reasons patients are not filmed. In the studio you speak to camera against a clean background, and the running of your centre stays out of the shot.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own equipment?",
+        answer:
+          "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You only bring the script, your outfit and your clip ideas. You can also bring a few frames to show on camera.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver the edited videos?",
+        answer:
+          "It depends on the service. With Recording Only you take the raw footage. With Recording + Editing we cut in DaVinci Resolve and CapCut with subtitles and platform formats. With Full Production we also handle the script and strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you run an optician or eye clinic and want to record in Madrid, write to us at /#contacto with your service and the type of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }

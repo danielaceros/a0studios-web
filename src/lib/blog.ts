@@ -15916,6 +15916,151 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-opticas-oftalmologia-madrid",
+    title: "Grabar contenido para ópticas y clínicas oftalmológicas en Madrid",
+    description:
+      "Cómo grabar contenido como óptica o clínica oftalmológica en un estudio de Madrid: qué piezas grabar, cómo explicar revisiones y lentes sin tecnicismos y cómo preparar anuncios.",
+    publishedAt: "2026-11-26",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["ópticas", "oftalmología", "estudio madrid", "contenido orgánico", "anuncios", "salud visual"],
+    keyword: "grabar contenido para opticas y clinicas oftalmologicas en madrid",
+    intent: "informacional",
+    excerpt:
+      "Quien busca óptica compara tres antes de entrar por la puerta. Qué grabar en una sola sesión en Madrid para tener presentación, clips que resuelven dudas de salud visual y un anuncio de captación.",
+    seoTitle: "Grabar contenido para ópticas y oftalmología en Madrid",
+    metaDescription:
+      "Grabar contenido para ópticas y clínicas oftalmológicas en Madrid: qué piezas grabar en una sesión de 3 horas, cómo explicar lentes y revisiones y captar citas.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si tienes una óptica o una clínica oftalmológica y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 3 horas con tres piezas: un vídeo de presentación de 60 a 90 segundos, entre 10 y 12 clips de 30 a 45 segundos que resuelvan dudas de salud visual y un anuncio sencillo para captar primeras revisiones. Con una mañana tienes material para semanas de redes y una pieza lista para probar en Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, trabajamos con negocios donde el paciente decide por confianza y por comodidad. Quien busca óptica o clínica suele comparar tres opciones del barrio y quiere saber quién le va a explicar las cosas sin marearle. Dirigimos la sesión con mentalidad de anuncios y de venta: qué pieza hace que alguien reserve una revisión esta semana y cuál convence a quien está dudando entre dos centros.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-opticas-oftalmologia-madrid/hero.webp",
+        alt: "Persona sosteniendo unas gafas, una imagen típica del trabajo de una óptica",
+        width: 1920,
+        height: 1281,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué el vídeo funciona en una óptica o clínica oftalmológica",
+      },
+      {
+        type: "paragraph",
+        text: "La visión es un tema que genera dudas muy concretas: cuándo toca revisión, qué diferencia hay entre unas lentillas y otras, si unas lentes progresivas cuestan adaptarse. Un clip de 40 segundos que responde una de esas dudas con calma te posiciona antes de que la persona pise el centro.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, el vídeo te permite enseñar lo que una foto no enseña: cómo te diriges a un paciente nervioso, cómo explicas una graduación y cómo es el centro por dentro. Esa cercanía es difícil de copiar para una cadena grande.",
+      },
+      {
+        type: "paragraph",
+        text: "Un matiz importante: no se graba a pacientes ni historiales reales. En el estudio grabas tú, o tu equipo, hablando a cámara con un fondo cuidado, y la privacidad de tu consulta queda intacta.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo de presentación",
+      },
+      {
+        type: "paragraph",
+        text: "Va primero, cuando tienes más energía. Estructura: quién eres, qué tipo de paciente suele venir, qué pasa en una primera revisión y cómo pedir cita. Con teleprompter para no perder el hilo, pero leyendo despacio. Si es tu primera vez delante de cámara, 4 o 5 tomas son normales y la última suele ser la mejor.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips que respondan una duda cada uno",
+      },
+      {
+        type: "paragraph",
+        text: "Entre 10 y 12 clips, cada uno con una pregunta real: cada cuánto conviene revisar la vista, qué cambia entre lentillas diarias y mensuales, cuándo un niño debería hacerse una revisión. Con una Sony A7 en vertical y un micrófono de solapa, un clip cada 5 minutos es un ritmo realista si el guion está claro. Si no puedes dar una cifra exacta, da un rango y explica de qué depende.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para un anuncio de captación",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a invertir en anuncios para captar revisiones, graba una pieza de 30 a 45 segundos con dos aperturas distintas: una pregunta y una afirmación tranquila. Son 10 minutos más. Revisa siempre las políticas de publicidad de salud de cada plataforma, que limitan lo que puedes afirmar sobre resultados. Para repartir bien las horas, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-opticas-oftalmologia-madrid/mid.webp",
+        alt: "Persona sentada frente a una estantería durante una grabación con cámara de cine",
+        width: 1920,
+        height: 1080,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido de salud visual",
+      },
+      {
+        type: "list",
+        items: [
+          "Usar jerga clínica como si el paciente supiera qué es una dioptría o una agudeza visual.",
+          "Prometer resultados garantizados con una lente o un tratamiento, algo que además choca con las políticas de los anuncios.",
+          "Presentar un consejo general como si sustituyera una revisión individual.",
+          "Grabar solo el escaparate de monturas sin que aparezcas tú explicando por qué recomiendas cada una.",
+          "Editar un único vídeo largo en lugar de piezas cortas publicables durante semanas.",
+          "Mostrar pacientes o pantallas con datos reales sin consentimiento por escrito.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si tu agenda depende de que te elijan antes de la primera visita. Si todavía no tienes claro qué servicio quieres impulsar primero, por ejemplo lentillas, revisión infantil u oftalmología, decídelo antes de grabar.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para una óptica o clínica oftalmológica?",
+        answer:
+          "Entre 2 y 3 horas para un vídeo de presentación, 10 a 12 clips y un anuncio con dos aperturas. Si además quieres grabar a varios miembros del equipo, mejor un bloque aparte de 4 horas.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar con pacientes o en mi centro?",
+        answer:
+          "No es lo que recomendamos. Por privacidad no se graba a pacientes. En el estudio grabas tú hablando a cámara con un fondo cuidado, y el funcionamiento de tu centro queda al margen.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y las ideas de los clips. Si quieres, puedes traer unas monturas para enseñarlas en cámara.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes una óptica o una clínica oftalmológica y quieres grabar en Madrid, escríbenos en /#contacto con tu servicio y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {

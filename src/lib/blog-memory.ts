@@ -1189,6 +1189,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: listas Prioridad 1, 2 y rotación agotadas; vertical de servicios profesionales siguiendo la serie grabar-contenido-<sector>-madrid, distinto de asesores financieros y fintech. Imágenes Unsplash/Pexels.",
   },
+  {
+    slug: "grabar-contenido-opticas-oftalmologia-madrid",
+    keyword: "grabar contenido para opticas y clinicas oftalmologicas en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-26",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: listas Prioridad 1, 2 y rotación agotadas; vertical de salud siguiendo la serie grabar-contenido-<sector>-madrid, distinto de clínicas dentales, estética, fisioterapia y nutrición. Imágenes Unsplash.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {
