@@ -1198,6 +1198,15 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: listas Prioridad 1, 2 y rotación agotadas; vertical de salud siguiendo la serie grabar-contenido-<sector>-madrid, distinto de clínicas dentales, estética, fisioterapia y nutrición. Imágenes Unsplash.",
   },
+  {
+    slug: "grabar-contenido-franquicias-madrid",
+    keyword: "grabar contenido para franquicias y franquiciadores en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-27",
+    status: "published",
+    notes:
+      "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: listas Prioridad 1, 2 y rotación agotadas; vertical de captación de franquiciados siguiendo la serie grabar-contenido-<sector>-madrid. Imágenes Unsplash.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

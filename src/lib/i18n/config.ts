@@ -185,6 +185,7 @@ export const EN_BLOG_SLUGS: Record<string, string> = {
   "grabar-contenido-nutricionistas-dietistas-madrid": "nutritionist-video-content-madrid",
   "grabar-contenido-gestorias-asesorias-fiscales-madrid": "tax-accounting-firm-video-content-madrid",
   "grabar-contenido-opticas-oftalmologia-madrid": "optician-eye-clinic-video-content-madrid",
+  "grabar-contenido-franquicias-madrid": "franchise-video-content-madrid",
 }
 
 const EN_PATH_TO_ES: Record<string, string> = Object.fromEntries([

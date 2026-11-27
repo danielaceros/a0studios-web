@@ -5049,4 +5049,146 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-franquicias-madrid": {
+    title: "Recording Content for Franchises and Franchisors in Madrid: How to Attract Franchisees",
+    description:
+      "How to record content if you run a franchise or want to franchise your brand in Madrid: which pieces to shoot, how to show the model and how to prepare recruitment ads.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["franchises", "franchisors", "Madrid studio", "ads", "recruitment", "brand content"],
+    keyword: "franchise video content madrid",
+    excerpt:
+      "A franchisee candidate buys trust in the model and in the people behind it. What to record in a single Madrid session to leave with an intro video, testimonials and recruitment ads.",
+    seoTitle: "Video Content for Franchises and Franchisors in Madrid",
+    metaDescription:
+      "Video content for franchises in Madrid: what to record in a 3 to 4 hour session to attract franchisees with video and ads that convert.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you run a franchise or want to franchise your business and need somewhere to record content in Madrid, the most effective approach is a 3 to 4 hour session with four pieces: a 2 to 3 minute business model video, 2 or 3 franchisee testimonials, 6 to 8 short clips for social and one recruitment ad with several openings. One morning, material for a quarter.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, our team directs the session with an ads and sales mindset. A franchisee candidate decides with their own money: they want clear numbers, to see who is behind the brand and what the day to day looks like. The video has to answer that without return promises you can't prove.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-franquicias-madrid/hero.webp",
+        alt: "Open sign on the door of a shop, a neighbourhood store",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why video is key to attracting franchisees",
+      },
+      {
+        type: "paragraph",
+        text: "A PDF deck explains the investment, but it doesn't convey who you are or how you support the franchisee. A two-minute video with the founder explaining the model and why it was born closes the distance before the first call and filters candidates better.",
+      },
+      {
+        type: "paragraph",
+        text: "Video also scales. One well-recorded piece works for your website, for Meta Ads and LinkedIn campaigns, for the dossier you send candidates and for industry fairs. You record once and use it in five places.",
+      },
+      {
+        type: "paragraph",
+        text: "One important point: be careful what you claim about investment, payback periods and profit. Talk about what you offer (training, support, suppliers, location help) and leave profitability figures for the legal pre-contractual information document.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to organize the recording session",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Start with the business model video",
+      },
+      {
+        type: "paragraph",
+        text: "It goes first, with the founder or the expansion lead on camera. Structure: what problem the brand solves, how a unit works inside, what the franchisee receives (training, brand, support) and the next step. Use a teleprompter, but avoid a lecture tone. 4 to 6 takes is typical.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Record testimonials from real franchisees",
+      },
+      {
+        type: "paragraph",
+        text: "Two or three franchisees, 60 to 90 seconds each, answering three questions: why I chose this brand, what was hardest at the start and what happens day to day. If they can't come to the studio, record them at their unit and use the studio for the rest. With a Sony A7 and a lavalier microphone, each testimonial takes 20 minutes.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserve a block for the recruitment ad",
+      },
+      {
+        type: "paragraph",
+        text: "If you plan to invest in ads to attract candidates, record a 30 to 45 second piece with three different openings: a question to the entrepreneur, a fact about the model and a line from the founder. That is 15 extra minutes and lets you test which opens best. To split the hours well, see /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-franquicias-madrid/mid.webp",
+        alt: "Two people sitting in front of a camera on a filming set",
+        width: 1920,
+        height: 1280,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Common mistakes when recording franchise content",
+      },
+      {
+        type: "list",
+        items: [
+          "Promising returns or payback periods that aren't backed by real data from the network.",
+          "Talking only about the brand and not about what the franchisee receives: training, support and suppliers.",
+          "Recording one long corporate video instead of short, reusable pieces.",
+          "Using only the founder and leaving out the voice of franchisees who already operate.",
+          "Forgetting the next step: a video without a clear call to action generates no enquiries.",
+          "Showing a unit that doesn't look like the one the franchisee will receive.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if you already have a validated model in at least one unit and want to grow with partners. If you're still defining the model, settle that first and then record.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently asked questions",
+      },
+      {
+        type: "faq",
+        question: "How long is a session for a franchise?",
+        answer:
+          "Between 3 and 4 hours for the model video, 2 or 3 testimonials, 6 to 8 clips and an ad with three openings. If you also want to record a talk for fairs, book a separate block.",
+      },
+      {
+        type: "faq",
+        question: "Can I record my franchisees in the studio?",
+        answer:
+          "Yes, if they can travel. If not, they are recorded at their unit with a simple kit and the rest of the pieces are shot in the studio to keep the same visual quality.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own equipment?",
+        answer:
+          "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You only bring the script, your outfit and your piece ideas.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver the edited videos?",
+        answer:
+          "It depends on the service. With Recording Only you take the raw footage. With Recording + Editing we cut in DaVinci Resolve and CapCut with subtitles and platform formats. With Full Production we also handle the script and strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you run a franchise or want to franchise and need to record in Madrid, write to us at /#contacto with your model and the type of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }

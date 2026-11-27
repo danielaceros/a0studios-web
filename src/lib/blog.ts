@@ -16061,6 +16061,151 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-franquicias-madrid",
+    title: "Grabar contenido para franquicias y franquiciadores en Madrid: cómo captar franquiciados",
+    description:
+      "Cómo grabar contenido si tienes una franquicia o una marca que quiere franquiciar en Madrid: qué piezas grabar, cómo mostrar el modelo y cómo preparar anuncios de captación.",
+    publishedAt: "2026-11-27",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["franquicias", "franquiciadores", "estudio madrid", "anuncios", "captación", "contenido de marca"],
+    keyword: "grabar contenido para franquicias y franquiciadores en madrid",
+    intent: "informacional",
+    excerpt:
+      "Un candidato a franquiciado compra confianza en el modelo y en las personas detrás. Qué grabar en una sola sesión en Madrid para tener vídeo de presentación, testimonios y anuncios de captación.",
+    seoTitle: "Grabar contenido para franquicias y franquiciadores en Madrid",
+    metaDescription:
+      "Grabar contenido para franquicias en Madrid: qué piezas grabar en una sesión de 3 a 4 horas para captar franquiciados con vídeo y anuncios que convierten.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si tienes una franquicia o quieres franquiciar tu negocio y buscas dónde grabar contenido en Madrid, lo más eficaz es una sesión de 3 a 4 horas con cuatro piezas: un vídeo del modelo de negocio de 2 a 3 minutos, 2 o 3 testimonios de franquiciados, entre 6 y 8 clips cortos para redes y un anuncio de captación con varias aperturas. Una mañana, material para un trimestre.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, dirigimos la sesión con mentalidad de anuncios y de venta. Un candidato a franquiciado decide con dinero propio: quiere ver números claros, quién está detrás de la marca y cómo es el día a día. El vídeo tiene que responder a eso sin promesas de rentabilidad que no puedas demostrar.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-franquicias-madrid/hero.webp",
+        alt: "Letrero de local abierto en la puerta de un negocio, imagen de una tienda de barrio",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué el vídeo es clave para captar franquiciados",
+      },
+      {
+        type: "paragraph",
+        text: "Una presentación en PDF explica la inversión, pero no transmite quién eres ni cómo acompañas al franquiciado. Un vídeo de dos minutos con el fundador explicando el modelo y por qué nació reduce la distancia antes de la primera llamada y filtra mejor a los candidatos.",
+      },
+      {
+        type: "paragraph",
+        text: "Además, el vídeo escala. Una pieza bien grabada sirve para tu web, para campañas en Meta Ads y LinkedIn, para el dossier que envías a candidatos y para ferias del sector. Grabas una vez y la usas en cinco sitios.",
+      },
+      {
+        type: "paragraph",
+        text: "Un matiz importante: cuida lo que afirmas sobre inversión, plazos de retorno y beneficios. Habla de lo que ofreces (formación, soporte, proveedores, localización) y deja las cifras de rentabilidad para el documento legal de información precontractual.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo del modelo de negocio",
+      },
+      {
+        type: "paragraph",
+        text: "Va primero, con el fundador o la persona de expansión a cámara. Estructura: qué problema resuelve la marca, cómo funciona un local por dentro, qué recibe el franquiciado (formación, marca, soporte) y cuál es el siguiente paso. Con teleprompter, pero sin tono de conferencia. Entre 4 y 6 tomas es habitual.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba testimonios de franquiciados reales",
+      },
+      {
+        type: "paragraph",
+        text: "Dos o tres franquiciados de 60 a 90 segundos cada uno, respondiendo a tres preguntas: por qué elegí esta marca, qué fue lo más difícil al empezar y qué pasa en el día a día. Si no pueden venir al estudio, grábalos en su local y usa el estudio para el resto. Con una Sony A7 y un micrófono de solapa, cada testimonio lleva 20 minutos.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para el anuncio de captación",
+      },
+      {
+        type: "paragraph",
+        text: "Si vas a invertir en anuncios para captar candidatos, graba una pieza de 30 a 45 segundos con tres aperturas distintas: una pregunta al emprendedor, un dato del modelo y una frase del fundador. Son 15 minutos más y te permiten probar cuál abre mejor. Para repartir bien las horas, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-franquicias-madrid/mid.webp",
+        alt: "Dos personas sentadas frente a una cámara en un plató de grabación",
+        width: 1920,
+        height: 1280,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido de franquicia",
+      },
+      {
+        type: "list",
+        items: [
+          "Prometer rentabilidades o plazos de retorno que no están respaldados por datos reales de la red.",
+          "Hablar solo de la marca y no de lo que recibe el franquiciado: formación, soporte y proveedores.",
+          "Grabar un único vídeo corporativo largo en lugar de piezas cortas reutilizables.",
+          "Usar solo al fundador y no incluir la voz de franquiciados que ya operan.",
+          "Olvidar el siguiente paso: un vídeo sin llamada a la acción clara no genera solicitudes.",
+          "Mostrar un local que no se parece al que recibirá el franquiciado.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si ya tienes un modelo validado en al menos un local y quieres crecer con socios. Si todavía estás definiendo el modelo, aclara primero ese punto y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para una franquicia?",
+        answer:
+          "Entre 3 y 4 horas para el vídeo del modelo, 2 o 3 testimonios, 6 a 8 clips y un anuncio con tres aperturas. Si quieres grabar también una charla para ferias, mejor un bloque aparte.",
+      },
+      {
+        type: "faq",
+        question: "¿Puedo grabar a mis franquiciados en el estudio?",
+        answer:
+          "Sí, si pueden desplazarse. Si no, se graban en su local con un kit sencillo y el resto de piezas se rueda en el estudio para mantener la misma calidad visual.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y las ideas de las piezas.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes una franquicia o quieres franquiciar y necesitas grabar en Madrid, escríbenos en /#contacto con tu modelo y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
