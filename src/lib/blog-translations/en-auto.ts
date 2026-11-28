@@ -5191,4 +5191,146 @@ export const enAuto: Record<string, BlogPostTranslation> = {
       },
     ],
   },
+  "grabar-contenido-concesionarios-talleres-madrid": {
+    title: "Recording Video Content for Car Dealerships and Garages in Madrid: How to Prepare the Session",
+    description:
+      "How to record content as a car dealership or garage in a Madrid studio: which pieces to shoot, how to explain a repair on camera and how to prepare ads.",
+    readingTime: "5 min read",
+    category: "Guide",
+    tags: ["car dealerships", "garages", "Madrid studio", "organic content", "ads", "automotive"],
+    keyword: "car dealership video content madrid",
+    excerpt:
+      "Customers want to see who will look after them before they visit. What to record in one Madrid session to get an intro video, service clips and a lead-generation ad.",
+    seoTitle: "Video Content for Car Dealerships and Garages in Madrid",
+    metaDescription:
+      "Video content for car dealerships and garages in Madrid: which pieces to record in a 3-hour session and how to prepare ads that bring in bookings.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "If you run a car dealership or a garage and want to record content in Madrid, a 3-hour session with three pieces works best: a 60 to 90 second intro video, 10 to 12 vertical clips of 20 to 45 seconds explaining services or models, and two versions of an ad to bring in bookings or test drives. One morning gives you material for a month of social media and pieces ready to test on Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "At A0Studios, at Ronda de Atocha 16, 7th floor, our team works with businesses where customers decide on trust: nobody wants to hand their car to a stranger. We direct the session with an ads and sales mindset, so the video is not a boring guided tour but a concrete reason to book.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-concesionarios-talleres-madrid/hero.webp",
+        alt: "Red car parked in a car dealership showroom",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why video works so well in the automotive sector",
+      },
+      {
+        type: "paragraph",
+        text: "At a garage, customers usually fear two things: being overcharged and not being told what was done. A video where you show your face and calmly explain what a service includes and what the price depends on removes much of that distrust before the first call.",
+      },
+      {
+        type: "paragraph",
+        text: "At a dealership it is similar. Buyers have already seen the car on a listing site; what they have not seen is the person who will advise them. A salesperson who presents a model naturally and answers the usual doubts generates more qualified visits than yet another photo of the same car.",
+      },
+      {
+        type: "paragraph",
+        text: "Studio recording does not replace content at your premises: it complements it. In the studio you record what needs good sound and a clean background, such as the intro, the explanations and the ads. What needs the cars and the workshop is shot there with a simple kit.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to organise the recording session",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Start with the intro video",
+      },
+      {
+        type: "paragraph",
+        text: "It goes first, when your energy is highest. Structure: who you are, what sets you apart (warranty, turnaround, service, brands you handle), what the first visit is like and how to book. With a teleprompter, reading slowly. If it is your first time on camera, 5 or 6 takes are normal and the last one is usually the best.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Record clips that answer a real question",
+      },
+      {
+        type: "paragraph",
+        text: "10 to 12 clips, each with a question you hear at the counter: how often to change the oil, what to check before the ITV inspection, what an official service includes, how much a checked used car costs. With a Sony A7 in vertical and a lavalier microphone, one clip every 5 minutes is a realistic pace if the script is clear. If you cannot give an exact price, give a range and explain what it depends on.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Set aside a block for the lead-generation ad",
+      },
+      {
+        type: "paragraph",
+        text: "Record a 30 to 45 second piece with two different openings: a question that worries people and a concrete offer, for example a service with a fixed price. It is 10 extra minutes and lets you compare which brings in more bookings. To split the hours well, see /en/blog/how-long-recording-session-lasts.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-concesionarios-talleres-madrid/mid.webp",
+        alt: "Mechanic in a grey uniform inspecting a car engine",
+        width: 1920,
+        height: 1080,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Common mistakes when recording automotive content",
+      },
+      {
+        type: "list",
+        items: [
+          "Showing only the car or the premises and not the person who serves customers, which is what builds trust.",
+          "Using technical jargon without explaining it, when the customer just wants to know what will be done and what it costs.",
+          "Promising prices or turnaround times that cannot be met at the counter.",
+          "Recording one long video instead of short pieces you can publish over several weeks.",
+          "Filming with workshop noise in the background and poor sound, which is avoided by recording explanations in the studio.",
+          "Not including a clear call to action: phone number, online booking or address.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "It makes sense if your calendar depends on people finding you and trusting you before the first visit. If you are not yet sure which service you want to push, define that first and then record.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently asked questions",
+      },
+      {
+        type: "faq",
+        question: "How long is a session for a dealership or garage?",
+        answer:
+          "Between 3 and 4 hours for an intro video, 10 to 12 clips and an ad with two openings. If you also want to present several models, book a separate block.",
+      },
+      {
+        type: "faq",
+        question: "Can cars be recorded in the studio?",
+        answer:
+          "The studio is ideal for you speaking to camera. Cars and the workshop are better shot at your premises with a simple kit, and everything is then combined to keep the same quality.",
+      },
+      {
+        type: "faq",
+        question: "Do I need to bring my own equipment?",
+        answer:
+          "No. We provide Sony A7 cameras, microphones, lighting and a teleprompter. You only bring the script, your outfit and your clip ideas.",
+      },
+      {
+        type: "faq",
+        question: "Do you deliver the edited videos?",
+        answer:
+          "It depends on the service. With Recording Only you take the raw footage. With Recording + Editing we cut in DaVinci Resolve and CapCut with subtitles and platform formats. With Full Production we also handle the script and strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "If you run a car dealership or a garage and need to record in Madrid, write to us at /#contacto with your business and the type of pieces you need, and A0Studios will propose the session plan.",
+      },
+    ],
+  },
 }

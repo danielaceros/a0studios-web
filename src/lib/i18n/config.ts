@@ -170,6 +170,7 @@ export const EN_BLOG_SLUGS: Record<string, string> = {
   "grabar-contenido-academias-centros-formacion-madrid": "academy-training-center-video-content-madrid",
   "grabar-contenido-rrhh-headhunters-madrid": "hr-recruiting-headhunter-video-content-madrid",
   "grabar-contenido-marcas-moda-belleza-madrid": "fashion-beauty-brand-video-content-madrid",
+  "grabar-contenido-concesionarios-talleres-madrid": "car-dealership-garage-video-content-madrid",
   "grabar-contenido-restaurantes-hoteles-madrid": "restaurant-hotel-video-content-madrid",
   "grabar-contenido-empresas-b2b-industriales-madrid": "b2b-industrial-video-content-madrid",
   "grabar-contenido-corredurias-seguros-madrid": "insurance-broker-video-content-madrid",

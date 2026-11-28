@@ -1207,6 +1207,14 @@ export const blogMemory: BlogMemoryEntry[] = [
     notes:
       "Auto-generado por blog-auto-a0studios. SC: sin datos (Search Console falla con RefreshError invalid_grant, token OAuth expirado o revocado, escalar a Dani). Fallback evergreen: listas Prioridad 1, 2 y rotación agotadas; vertical de captación de franquiciados siguiendo la serie grabar-contenido-<sector>-madrid. Imágenes Unsplash.",
   },
+  {
+    slug: "grabar-contenido-concesionarios-talleres-madrid",
+    keyword: "grabar contenido para concesionarios y talleres de coches en madrid",
+    intent: "informacional",
+    createdAt: "2026-11-28",
+    status: "published",
+    notes: "Auto-generado por blog-auto-a0studios. SC: sin datos (invalid_grant en API), fallback evergreen vertical. Imágenes Unsplash.",
+  },
 ];
 
 export function findSimilarTopic(term: string) {

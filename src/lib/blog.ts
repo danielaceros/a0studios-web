@@ -16206,6 +16206,151 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "grabar-contenido-concesionarios-talleres-madrid",
+    title: "Grabar contenido para concesionarios y talleres de coches en Madrid: cómo preparar la sesión",
+    description:
+      "Cómo grabar contenido como concesionario o taller en un estudio de Madrid: qué piezas grabar, cómo explicar una reparación a cámara y cómo preparar anuncios.",
+    publishedAt: "2026-11-28",
+    readingTime: "5 min",
+    category: "Guía",
+    tags: ["concesionarios", "talleres", "estudio madrid", "contenido orgánico", "anuncios", "automoción"],
+    keyword: "grabar contenido para concesionarios y talleres de coches en madrid",
+    intent: "informacional",
+    excerpt:
+      "Quien busca taller o coche quiere ver quién le atiende antes de ir. Qué grabar en una sola sesión en Madrid para tener presentación, clips de servicio y un anuncio de captación.",
+    seoTitle: "Grabar contenido para concesionarios y talleres en Madrid",
+    metaDescription:
+      "Grabar contenido para concesionarios y talleres de coches en Madrid: qué piezas grabar en una sesión de 3 horas y cómo preparar anuncios que traigan citas.",
+    heroKicker: "Blog / A0Studios",
+    body: [
+      {
+        type: "paragraph",
+        text: "Si tienes un concesionario o un taller y quieres grabar contenido en Madrid, lo que mejor funciona es una sesión de 3 horas con tres piezas: un vídeo de presentación de 60 a 90 segundos, entre 10 y 12 clips verticales de 20 a 45 segundos explicando servicios o modelos y dos versiones de un anuncio para captar citas o pruebas de conducción. Con una mañana tienes material para un mes de redes y piezas listas para probar en Meta Ads.",
+      },
+      {
+        type: "paragraph",
+        text: "En A0Studios, en Ronda de Atocha 16, 7ª planta, trabajamos con negocios donde el cliente decide por confianza: nadie quiere dejar su coche en manos de un desconocido. Dirigimos la sesión con mentalidad de anuncios y de venta, para que el vídeo no sea una visita guiada aburrida sino una razón concreta para pedir cita.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-concesionarios-talleres-madrid/hero.webp",
+        alt: "Coche rojo aparcado en un showroom de concesionario",
+        width: 1920,
+        height: 1280,
+        priority: true,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Por qué el vídeo funciona tan bien en automoción",
+      },
+      {
+        type: "paragraph",
+        text: "En un taller, el cliente suele temer dos cosas: que le cobren de más y que no le expliquen qué han hecho. Un vídeo donde das la cara y explicas con calma qué incluye una revisión y de qué depende el precio elimina buena parte de esa desconfianza antes de la primera llamada.",
+      },
+      {
+        type: "paragraph",
+        text: "En un concesionario pasa algo parecido. El comprador ya ha visto el coche en el portal, lo que no ha visto es a la persona que le va a asesorar. Un vendedor que presenta un modelo con naturalidad y responde a las dudas típicas genera más visitas cualificadas que otra foto del mismo coche.",
+      },
+      {
+        type: "paragraph",
+        text: "La grabación en el estudio no sustituye al contenido en tu local: lo complementa. En el estudio grabas lo que necesita buena voz y buen fondo, como la presentación, las explicaciones y los anuncios. Lo que necesita coche y taller se graba allí con un kit sencillo.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cómo organizar la sesión de grabación",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Empieza por el vídeo de presentación",
+      },
+      {
+        type: "paragraph",
+        text: "Va primero, cuando tienes más energía. Estructura: quién eres, qué te diferencia (garantía, plazos, trato, marcas que trabajas), cómo es la primera visita y cómo pedir cita. Con teleprompter, leyendo despacio. Si es tu primera vez, 5 o 6 tomas son normales y la última suele ser la mejor.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Graba clips que respondan a una duda real",
+      },
+      {
+        type: "paragraph",
+        text: "Entre 10 y 12 clips, cada uno con una pregunta que te hacen en mostrador: cada cuánto hay que cambiar el aceite, qué mirar antes de pasar la ITV, qué incluye el mantenimiento oficial, cuánto cuesta un coche de ocasión revisado. Con una Sony A7 en vertical y un micrófono de solapa, un clip cada 5 minutos es un ritmo realista si el guion está claro. Si no puedes dar un precio exacto, da un rango y explica de qué depende.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Reserva un bloque para el anuncio de captación",
+      },
+      {
+        type: "paragraph",
+        text: "Graba una pieza de 30 a 45 segundos con dos aperturas distintas: una pregunta que preocupa y una oferta concreta, por ejemplo una revisión con precio cerrado. Son 10 minutos más y te permiten comparar cuál trae más citas. Para repartir bien las horas, mira /blog/cuanto-dura-sesion-grabacion-aprovecharla.",
+      },
+      {
+        type: "image",
+        src: "/blog/grabar-contenido-concesionarios-talleres-madrid/mid.webp",
+        alt: "Mecánico con uniforme gris inspeccionando el motor de un coche",
+        width: 1920,
+        height: 1080,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Errores comunes al grabar contenido de automoción",
+      },
+      {
+        type: "list",
+        items: [
+          "Enseñar solo el coche o el local y no a la persona que atiende, que es lo que genera confianza.",
+          "Usar jerga técnica sin explicarla, cuando el cliente solo quiere saber qué le van a hacer y cuánto cuesta.",
+          "Prometer precios o plazos que luego no se pueden cumplir en el mostrador.",
+          "Grabar un único vídeo largo en lugar de piezas cortas que se puedan publicar durante semanas.",
+          "Rodar con ruido de taller de fondo y mala voz, algo que se evita grabando las explicaciones en estudio.",
+          "No incluir una llamada a la acción clara: teléfono, cita online o dirección.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tiene sentido si tu agenda depende de que te encuentren y confíen en ti antes de la primera visita. Si todavía no tienes claro qué servicio quieres empujar, define primero eso y después graba.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Preguntas frecuentes",
+      },
+      {
+        type: "faq",
+        question: "¿Cuánto dura una sesión para un concesionario o taller?",
+        answer:
+          "Entre 3 y 4 horas para un vídeo de presentación, 10 a 12 clips y un anuncio con dos aperturas. Si quieres además presentar varios modelos, mejor reservar un bloque aparte.",
+      },
+      {
+        type: "faq",
+        question: "¿Se pueden grabar los coches en el estudio?",
+        answer:
+          "El estudio es ideal para ti hablando a cámara. Los coches y el taller se graban mejor en tu local con un kit sencillo, y luego se combina todo para mantener la misma calidad.",
+      },
+      {
+        type: "faq",
+        question: "¿Hace falta traer equipo propio?",
+        answer:
+          "No. Ponemos cámaras Sony A7, micrófonos, iluminación y teleprompter. Solo traes el guion, el vestuario y las ideas de los clips.",
+      },
+      {
+        type: "faq",
+        question: "¿Entregáis los vídeos editados?",
+        answer:
+          "Depende del servicio. Con Solo Grabación te llevas el material en bruto. Con Grabación + Edición montamos en DaVinci Resolve y CapCut con subtítulos y formatos por plataforma. En Producción Completa nos encargamos también del guion y la estrategia.",
+      },
+      {
+        type: "paragraph",
+        text: "Si tienes un concesionario o un taller y quieres grabar en Madrid, escríbenos en /#contacto con tu negocio y el tipo de piezas que necesitas, y en A0Studios te proponemos el plan de sesión.",
+      },
+    ],
+  },
 ];
 
 export function getAllPosts() {
